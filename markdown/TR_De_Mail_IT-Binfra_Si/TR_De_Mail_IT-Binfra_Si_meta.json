@@ -1,0 +1,817 @@
+{
+  "table_of_contents": [
+    {
+      "title": "BSI \u2013 Technische Richtlinie",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.78955078125,
+          291.69873046875
+        ],
+        [
+          274.71875,
+          291.69873046875
+        ],
+        [
+          274.71875,
+          312.25537109375
+        ],
+        [
+          70.78955078125,
+          312.25537109375
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.80224609375,
+          91.6312255859375
+        ],
+        [
+          182.17578125,
+          91.6312255859375
+        ],
+        [
+          182.17578125,
+          110.286376953125
+        ],
+        [
+          55.80224609375,
+          110.286376953125
+        ]
+      ]
+    },
+    {
+      "title": "1 Einleitung",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.7294921875,
+          91.168701171875
+        ],
+        [
+          166.4609375,
+          91.168701171875
+        ],
+        [
+          166.4609375,
+          115.836669921875
+        ],
+        [
+          55.7294921875,
+          115.836669921875
+        ]
+      ]
+    },
+    {
+      "title": "2 IT-Strukturanalyse",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.166015625,
+          90.6033935546875
+        ],
+        [
+          246.490234375,
+          90.6033935546875
+        ],
+        [
+          246.490234375,
+          115.32275390625
+        ],
+        [
+          56.166015625,
+          115.32275390625
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Erfassung des IT-Verbundes",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.875,
+          224.478515625
+        ],
+        [
+          285.486328125,
+          224.478515625
+        ],
+        [
+          285.486328125,
+          244.6240234375
+        ],
+        [
+          55.875,
+          244.6240234375
+        ]
+      ]
+    },
+    {
+      "title": "3 Bedrohungen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.911376953125,
+          90.65478515625
+        ],
+        [
+          193.6708984375,
+          90.65478515625
+        ],
+        [
+          193.6708984375,
+          115.631103515625
+        ],
+        [
+          55.911376953125,
+          115.631103515625
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Fehlerhafte Systemzeit",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.80224609375,
+          191.1767578125
+        ],
+        [
+          244.744140625,
+          191.1767578125
+        ],
+        [
+          244.744140625,
+          210.29443359375
+        ],
+        [
+          55.80224609375,
+          210.29443359375
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Fehlerhafte Eintragungen im \u00d6VD",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.09326171875,
+          300.5380859375
+        ],
+        [
+          326.810546875,
+          300.5380859375
+        ],
+        [
+          326.810546875,
+          320.68359375
+        ],
+        [
+          56.09326171875,
+          320.68359375
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Automatisierte \u00d6VD-Abfrage",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.0205078125,
+          410.10498046875
+        ],
+        [
+          292.0341796875,
+          410.10498046875
+        ],
+        [
+          292.0341796875,
+          430.044921875
+        ],
+        [
+          56.0205078125,
+          430.044921875
+        ]
+      ]
+    },
+    {
+      "title": "3.4 Unberechtigter Zugriff auf den \u00d6VD",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.09326171875,
+          492.1259765625
+        ],
+        [
+          341.943359375,
+          492.1259765625
+        ],
+        [
+          341.943359375,
+          511.8603515625
+        ],
+        [
+          56.09326171875,
+          511.8603515625
+        ]
+      ]
+    },
+    {
+      "title": "3.5 Fehlerhafte Eintr\u00e4ge im DNS",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.23876953125,
+          574.3525390625
+        ],
+        [
+          289.8515625,
+          574.3525390625
+        ],
+        [
+          289.8515625,
+          594.0869140625
+        ],
+        [
+          56.23876953125,
+          594.0869140625
+        ]
+      ]
+    },
+    {
+      "title": "4 Sicherheitsziele",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.80224609375,
+          91.0145263671875
+        ],
+        [
+          211.568359375,
+          91.0145263671875
+        ],
+        [
+          211.568359375,
+          114.7060546875
+        ],
+        [
+          55.80224609375,
+          114.7060546875
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Verwendung der korrekten Zeit",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.94775390625,
+          178.123291015625
+        ],
+        [
+          308.185546875,
+          178.123291015625
+        ],
+        [
+          308.185546875,
+          196.829833984375
+        ],
+        [
+          55.94775390625,
+          196.829833984375
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Korrekte Eintr\u00e4ge innerhalb des \u00d6VD",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.23876953125,
+          258.80810546875
+        ],
+        [
+          352.12890625,
+          258.80810546875
+        ],
+        [
+          352.12890625,
+          278.13134765625
+        ],
+        [
+          56.23876953125,
+          278.13134765625
+        ]
+      ]
+    },
+    {
+      "title": "4.3 Korrekte Authentisierung der Nutzer",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.38427734375,
+          328.4951171875
+        ],
+        [
+          345.7265625,
+          328.4951171875
+        ],
+        [
+          345.7265625,
+          346.5849609375
+        ],
+        [
+          56.38427734375,
+          346.5849609375
+        ]
+      ]
+    },
+    {
+      "title": "4.4 Korrekte Eintr\u00e4ge im DNS",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.94775390625,
+          396.12646484375
+        ],
+        [
+          272.97265625,
+          396.12646484375
+        ],
+        [
+          272.97265625,
+          414.62744140625
+        ],
+        [
+          55.94775390625,
+          414.62744140625
+        ]
+      ]
+    },
+    {
+      "title": "5 Anforderungen",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.7294921875,
+          90.963134765625
+        ],
+        [
+          210.986328125,
+          90.963134765625
+        ],
+        [
+          210.986328125,
+          115.32275390625
+        ],
+        [
+          55.7294921875,
+          115.32275390625
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Allgemeine Anforderungen",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.875,
+          144.204833984375
+        ],
+        [
+          275.30078125,
+          144.204833984375
+        ],
+        [
+          275.30078125,
+          162.911376953125
+        ],
+        [
+          55.875,
+          162.911376953125
+        ]
+      ]
+    },
+    {
+      "title": "5.1.1 Zeitservice",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.09326171875,
+          174.217529296875
+        ],
+        [
+          162.095703125,
+          174.217529296875
+        ],
+        [
+          162.095703125,
+          191.279541015625
+        ],
+        [
+          56.09326171875,
+          191.279541015625
+        ]
+      ]
+    },
+    {
+      "title": "5.1.2 \u00d6VD",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.38427734375,
+          513.916015625
+        ],
+        [
+          128.26513671875,
+          513.916015625
+        ],
+        [
+          128.26513671875,
+          530.361328125
+        ],
+        [
+          56.38427734375,
+          530.361328125
+        ]
+      ]
+    },
+    {
+      "title": "5.2 Administration des DNS",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.45703125,
+          92.09375
+        ],
+        [
+          256.09375,
+          92.09375
+        ],
+        [
+          256.09375,
+          111.21142578125
+        ],
+        [
+          56.45703125,
+          111.21142578125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          17
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          15
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          51
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          17
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          27
+        ],
+        [
+          "Line",
+          10
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          65
+        ],
+        [
+          "Line",
+          26
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          41
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          15
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/TR_De_Mail_IT-Binfra_Si"
+}

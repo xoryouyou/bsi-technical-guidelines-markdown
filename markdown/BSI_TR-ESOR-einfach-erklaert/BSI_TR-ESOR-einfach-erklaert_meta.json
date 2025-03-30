@@ -1,0 +1,671 @@
+{
+  "table_of_contents": [
+    {
+      "title": "TR-ESOR einfach erkl\u00e4rt",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.0205078125,
+          330.9619140625
+        ],
+        [
+          373.6640625,
+          330.9619140625
+        ],
+        [
+          373.6640625,
+          366.73046875
+        ],
+        [
+          56.0205078125,
+          366.73046875
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7294921875,
+          69.173095703125
+        ],
+        [
+          108.4033203125,
+          69.173095703125
+        ],
+        [
+          108.4033203125,
+          93.94384765625
+        ],
+        [
+          55.7294921875,
+          93.94384765625
+        ]
+      ]
+    },
+    {
+      "title": "1 Einleitung",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.765869140625,
+          62.2352294921875
+        ],
+        [
+          192.7978515625,
+          62.2352294921875
+        ],
+        [
+          192.7978515625,
+          88.4449462890625
+        ],
+        [
+          55.765869140625,
+          88.4449462890625
+        ]
+      ]
+    },
+    {
+      "title": "2 Funktionsweise von TR-ESOR",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.583984375,
+          56.9932861328125
+        ],
+        [
+          359.11328125,
+          56.9932861328125
+        ],
+        [
+          359.11328125,
+          81.9696044921875
+        ],
+        [
+          55.583984375,
+          81.9696044921875
+        ]
+      ]
+    },
+    {
+      "title": "Funktionen der TR-ESOR Middleware",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.09326171875,
+          148.21337890625
+        ],
+        [
+          233.9765625,
+          148.21337890625
+        ],
+        [
+          233.9765625,
+          160.7529296875
+        ],
+        [
+          56.09326171875,
+          160.7529296875
+        ]
+      ]
+    },
+    {
+      "title": "Referenz: Digitales Zwischenarchiv des Bundes",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.94775390625,
+          451.8349609375
+        ],
+        [
+          274.427734375,
+          451.8349609375
+        ],
+        [
+          274.427734375,
+          464.9912109375
+        ],
+        [
+          55.94775390625,
+          464.9912109375
+        ]
+      ]
+    },
+    {
+      "title": "3 Zertifizierung nach der Technischer Richtlinie TR-\nESOR",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.583984375,
+          57.9183349609375
+        ],
+        [
+          531.103515625,
+          57.9183349609375
+        ],
+        [
+          531.103515625,
+          104.127685546875
+        ],
+        [
+          55.583984375,
+          104.127685546875
+        ]
+      ]
+    },
+    {
+      "title": "4 Weitere Informationen zur IT-Sicherheit",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.4384765625,
+          57.55859375
+        ],
+        [
+          449.91015625,
+          57.55859375
+        ],
+        [
+          449.91015625,
+          81.712646484375
+        ],
+        [
+          55.4384765625,
+          81.712646484375
+        ]
+      ]
+    },
+    {
+      "title": "Literaturverzeichnis",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.36572265625,
+          69.995361328125
+        ],
+        [
+          231.939453125,
+          69.995361328125
+        ],
+        [
+          231.939453125,
+          94.252197265625
+        ],
+        [
+          55.36572265625,
+          94.252197265625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          10
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          13
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          13
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          203
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Footnote",
+          5
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          21
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          157
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          168
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          192
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          143
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          145
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "TableCell",
+          26
+        ],
+        [
+          "Reference",
+          13
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          48
+        ],
+        [
+          "TableCell",
+          26
+        ],
+        [
+          "Line",
+          15
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/BSI_TR-ESOR-einfach-erklaert"
+}

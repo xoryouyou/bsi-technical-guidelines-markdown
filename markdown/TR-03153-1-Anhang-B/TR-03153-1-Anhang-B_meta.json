@@ -1,0 +1,402 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Technische Richtlinie BSI TR-03153 \nTechnische Sicherheitseinrichtung\nf\u00fcr elektronische \nAufzeichnungssysteme",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.1474609375,
+          256.546875
+        ],
+        [
+          519.47998046875,
+          256.546875
+        ],
+        [
+          519.47998046875,
+          398.65496826171875
+        ],
+        [
+          55.1474609375,
+          398.65496826171875
+        ]
+      ]
+    },
+    {
+      "title": "\u00c4nderungshistorie",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.52978515625,
+          53.9097900390625
+        ],
+        [
+          217.388671875,
+          53.9097900390625
+        ],
+        [
+          217.388671875,
+          82.1751708984375
+        ],
+        [
+          56.52978515625,
+          82.1751708984375
+        ]
+      ]
+    },
+    {
+      "title": "Inhalt",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7294921875,
+          58.17529296875
+        ],
+        [
+          112.69187927246094,
+          58.17529296875
+        ],
+        [
+          112.69187927246094,
+          80.37646484375
+        ],
+        [
+          55.7294921875,
+          80.37646484375
+        ]
+      ]
+    },
+    {
+      "title": "1 Einleitung",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.36572265625,
+          56.94189453125
+        ],
+        [
+          192.65234375,
+          56.94189453125
+        ],
+        [
+          192.65234375,
+          81.60986328125
+        ],
+        [
+          55.36572265625,
+          81.60986328125
+        ]
+      ]
+    },
+    {
+      "title": "1.1 Schl\u00fcsselworte",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.875,
+          164.761474609375
+        ],
+        [
+          202.837890625,
+          164.761474609375
+        ],
+        [
+          202.837890625,
+          183.468017578125
+        ],
+        [
+          55.875,
+          183.468017578125
+        ]
+      ]
+    },
+    {
+      "title": "2 Anforderungen an den ordnungsgem\u00e4\u00dfen Betrieb \nder Technischen Sicherheitseinrichtungen in \nbestimmten Nutzungsszenarien",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.001953125,
+          56.3765869140625
+        ],
+        [
+          529.37548828125,
+          56.3765869140625
+        ],
+        [
+          529.37548828125,
+          129.095703125
+        ],
+        [
+          55.001953125,
+          129.095703125
+        ]
+      ]
+    },
+    {
+      "title": "Literaturverzeichnis",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.22021484375,
+          58.6378173828125
+        ],
+        [
+          230.775390625,
+          58.6378173828125
+        ],
+        [
+          230.775390625,
+          81.1473388671875
+        ],
+        [
+          55.22021484375,
+          81.1473388671875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          21
+        ],
+        [
+          "Line",
+          10
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          19
+        ],
+        [
+          "Line",
+          10
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          31
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          69
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          17
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          21
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/TR-03153-1-Anhang-B"
+}

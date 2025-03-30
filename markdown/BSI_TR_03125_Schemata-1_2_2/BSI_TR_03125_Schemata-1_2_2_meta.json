@@ -1,0 +1,211 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Standalone Schemata: TR-ESOR V 1.2.2 (+xmlmime)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          54.6806640625,
+          74.6455078125
+        ],
+        [
+          613.41015625,
+          74.6455078125
+        ],
+        [
+          613.41015625,
+          104.159912109375
+        ],
+        [
+          54.6806640625,
+          104.159912109375
+        ]
+      ]
+    },
+    {
+      "title": "1 \u00c4nderungen gegen\u00fcber TR-ESOR V 1.2",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.194580078125,
+          200.0732421875
+        ],
+        [
+          326.8505859375,
+          200.0732421875
+        ],
+        [
+          326.8505859375,
+          218.4072265625
+        ],
+        [
+          55.194580078125,
+          218.4072265625
+        ]
+      ]
+    },
+    {
+      "title": "2 Hinweis zum Punkt 5.",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.6571044921875,
+          221.75390625
+        ],
+        [
+          213.55528259277344,
+          221.75390625
+        ],
+        [
+          213.55528259277344,
+          238.67608642578125
+        ],
+        [
+          55.6571044921875,
+          238.67608642578125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          27
+        ],
+        [
+          "TableCell",
+          22
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          52
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          108
+        ],
+        [
+          "Table",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          56
+        ],
+        [
+          "Span",
+          7
+        ],
+        [
+          "Line",
+          2
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          65
+        ],
+        [
+          "Span",
+          7
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/BSI_TR_03125_Schemata-1_2_2"
+}

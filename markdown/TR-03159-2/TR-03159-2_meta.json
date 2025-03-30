@@ -1,0 +1,1845 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Technical Guideline TR-03159\nMobile Identities",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          90.796875,
+          315.3388671875
+        ],
+        [
+          480.17578125,
+          315.3388671875
+        ],
+        [
+          480.17578125,
+          388.109375
+        ],
+        [
+          90.796875,
+          388.109375
+        ]
+      ]
+    },
+    {
+      "title": "Part 2: EAC and FIDO based mobile identities",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          91.37890625,
+          415.244140625
+        ],
+        [
+          463.296875,
+          415.244140625
+        ],
+        [
+          463.296875,
+          439.08984375
+        ],
+        [
+          91.37890625,
+          439.08984375
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.51123046875,
+          84.9503173828125
+        ],
+        [
+          208.658203125,
+          84.9503173828125
+        ],
+        [
+          208.658203125,
+          109.97802734375
+        ],
+        [
+          55.51123046875,
+          109.97802734375
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.748046875,
+          616.69921875
+        ],
+        [
+          120.6259765625,
+          616.69921875
+        ],
+        [
+          120.6259765625,
+          641.3671875
+        ],
+        [
+          56.748046875,
+          641.3671875
+        ]
+      ]
+    },
+    {
+      "title": "Tables",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.166015625,
+          97.9010009765625
+        ],
+        [
+          112.623046875,
+          97.9010009765625
+        ],
+        [
+          112.623046875,
+          121.2841796875
+        ],
+        [
+          56.166015625,
+          121.2841796875
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.166015625,
+          80.273681640625
+        ],
+        [
+          213.314453125,
+          80.273681640625
+        ],
+        [
+          213.314453125,
+          105.147216796875
+        ],
+        [
+          56.166015625,
+          105.147216796875
+        ]
+      ]
+    },
+    {
+      "title": "2 Components",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.875,
+          80.273681640625
+        ],
+        [
+          212.5869140625,
+          80.273681640625
+        ],
+        [
+          212.5869140625,
+          105.147216796875
+        ],
+        [
+          55.875,
+          105.147216796875
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Realm of the Service Provider",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.09326171875,
+          166.611572265625
+        ],
+        [
+          292.76171875,
+          166.611572265625
+        ],
+        [
+          292.76171875,
+          186.345947265625
+        ],
+        [
+          56.09326171875,
+          186.345947265625
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Handset",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.784423828125,
+          81.2501220703125
+        ],
+        [
+          155.693359375,
+          81.2501220703125
+        ],
+        [
+          155.693359375,
+          100.2650146484375
+        ],
+        [
+          56.784423828125,
+          100.2650146484375
+        ]
+      ]
+    },
+    {
+      "title": "2.2.1 Secure Element",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.45703125,
+          186.654296875
+        ],
+        [
+          190.1787109375,
+          186.654296875
+        ],
+        [
+          190.1787109375,
+          204.3330078125
+        ],
+        [
+          56.45703125,
+          204.3330078125
+        ]
+      ]
+    },
+    {
+      "title": "2.2.2 NFC Interface",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.23876953125,
+          566.9521484375
+        ],
+        [
+          179.7579803466797,
+          566.9521484375
+        ],
+        [
+          179.7579803466797,
+          584.2197265625
+        ],
+        [
+          56.23876953125,
+          584.2197265625
+        ]
+      ]
+    },
+    {
+      "title": "2.2.3 Secure Element Manager / TSM-API",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.875,
+          137.010009765625
+        ],
+        [
+          311.38671875,
+          137.010009765625
+        ],
+        [
+          311.38671875,
+          153.455322265625
+        ],
+        [
+          55.875,
+          153.455322265625
+        ]
+      ]
+    },
+    {
+      "title": "2.2.4 eID-Applet",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.09326171875,
+          202.6884765625
+        ],
+        [
+          166.169921875,
+          202.6884765625
+        ],
+        [
+          166.169921875,
+          219.544921875
+        ],
+        [
+          56.09326171875,
+          219.544921875
+        ]
+      ]
+    },
+    {
+      "title": "2.2.5 FIDO-Applet",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.275146484375,
+          575.1748046875
+        ],
+        [
+          177.9560546875,
+          575.1748046875
+        ],
+        [
+          177.9560546875,
+          591.6201171875
+        ],
+        [
+          56.275146484375,
+          591.6201171875
+        ]
+      ]
+    },
+    {
+      "title": "2.2.6 eID- and FIDO-Client",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.09326171875,
+          684.5361328125
+        ],
+        [
+          228.447265625,
+          684.5361328125
+        ],
+        [
+          228.447265625,
+          700.1926574707031
+        ],
+        [
+          56.09326171875,
+          700.1926574707031
+        ]
+      ]
+    },
+    {
+      "title": "2.3 External Infrastructure Components",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.94775390625,
+          149.960693359375
+        ],
+        [
+          336.123046875,
+          149.960693359375
+        ],
+        [
+          336.123046875,
+          168.256103515625
+        ],
+        [
+          55.94775390625,
+          168.256103515625
+        ]
+      ]
+    },
+    {
+      "title": "2.3.1 Trusted Service Manager",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.23876953125,
+          231.26220703125
+        ],
+        [
+          241.54296875,
+          231.26220703125
+        ],
+        [
+          241.54296875,
+          247.29638671875
+        ],
+        [
+          56.23876953125,
+          247.29638671875
+        ]
+      ]
+    },
+    {
+      "title": "2.3.2 Personalisation Service",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.09326171875,
+          578.875
+        ],
+        [
+          231.06640625,
+          578.875
+        ],
+        [
+          231.06640625,
+          595.3203125
+        ],
+        [
+          56.09326171875,
+          595.3203125
+        ]
+      ]
+    },
+    {
+      "title": "2.3.3 FIDELIO Service",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          56.166015625,
+          80.9417724609375
+        ],
+        [
+          197.017578125,
+          80.9417724609375
+        ],
+        [
+          197.017578125,
+          98.4149169921875
+        ],
+        [
+          56.166015625,
+          98.4149169921875
+        ]
+      ]
+    },
+    {
+      "title": "3 Processes",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          56.711669921875,
+          80.37646484375
+        ],
+        [
+          183.4853515625,
+          80.37646484375
+        ],
+        [
+          183.4853515625,
+          105.04443359375
+        ],
+        [
+          56.711669921875,
+          105.04443359375
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Initialization",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          56.275146484375,
+          166.71435546875
+        ],
+        [
+          182.17578125,
+          166.71435546875
+        ],
+        [
+          182.17578125,
+          186.85986328125
+        ],
+        [
+          56.275146484375,
+          186.85986328125
+        ]
+      ]
+    },
+    {
+      "title": "3.1.1 Loading an Applet onto the Secure Element",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.80224609375,
+          335.0732421875
+        ],
+        [
+          347.3099670410156,
+          335.0732421875
+        ],
+        [
+          347.3099670410156,
+          352.3408203125
+        ],
+        [
+          55.80224609375,
+          352.3408203125
+        ]
+      ]
+    },
+    {
+      "title": "3.1.2 Personalisation of the eID-Applet using the eID Token",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          56.79999923706055,
+          81.6612548828125
+        ],
+        [
+          409.8339538574219,
+          81.6612548828125
+        ],
+        [
+          409.8339538574219,
+          98.6204833984375
+        ],
+        [
+          56.79999923706055,
+          98.6204833984375
+        ]
+      ]
+    },
+    {
+      "title": "3.1.3 Update of PII",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          56.79999923706055,
+          80.4278564453125
+        ],
+        [
+          180.138671875,
+          80.4278564453125
+        ],
+        [
+          180.138671875,
+          98.0037841796875
+        ],
+        [
+          56.79999923706055,
+          98.0037841796875
+        ]
+      ]
+    },
+    {
+      "title": "3.2 EAC based Identification / Authentication",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          56.166015625,
+          146.7744140625
+        ],
+        [
+          372.5,
+          146.7744140625
+        ],
+        [
+          372.5,
+          166.5087890625
+        ],
+        [
+          56.166015625,
+          166.5087890625
+        ]
+      ]
+    },
+    {
+      "title": "Service\nProvider\nHandset\nApp / Browser\neID-Client\nFIDO-Client\nSE-Mgr\nNFC\nSE\nTSM\neID-Applet\nFIDO-Applet\neID-Server\nFIDO-Server\nWebsite / \nApplication Backend\nFIDELIO-Server\neID-Personalisation\neID\nToken\nFIDO\nToken\neID-Server",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          54.5654296875,
+          371.6640625
+        ],
+        [
+          456.89453125,
+          371.6640625
+        ],
+        [
+          456.89453125,
+          582.986328125
+        ],
+        [
+          54.5654296875,
+          582.986328125
+        ]
+      ]
+    },
+    {
+      "title": "3.2.1 Identification / Authentication using an eID Token",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          55.001953125,
+          333.63427734375
+        ],
+        [
+          388.21484375,
+          333.63427734375
+        ],
+        [
+          388.21484375,
+          350.6926574707031
+        ],
+        [
+          55.001953125,
+          350.6926574707031
+        ]
+      ]
+    },
+    {
+      "title": "3.2.2 Identification / Authentication using the eID-Applet",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          55.583984375,
+          79.759765625
+        ],
+        [
+          400.4375,
+          79.759765625
+        ],
+        [
+          400.4375,
+          97.29266357421875
+        ],
+        [
+          55.583984375,
+          97.29266357421875
+        ]
+      ]
+    },
+    {
+      "title": "3.3 FIDO based Authentication",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          56.38427734375,
+          407.4326171875
+        ],
+        [
+          278.501953125,
+          407.4326171875
+        ],
+        [
+          278.501953125,
+          425.93359375
+        ],
+        [
+          56.38427734375,
+          425.93359375
+        ]
+      ]
+    },
+    {
+      "title": "3.3.1 Authentication using an external FIDO Token",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          56.0205078125,
+          80.8389892578125
+        ],
+        [
+          360.859375,
+          80.8389892578125
+        ],
+        [
+          360.859375,
+          98.5177001953125
+        ],
+        [
+          56.0205078125,
+          98.5177001953125
+        ]
+      ]
+    },
+    {
+      "title": "3.3.2 Authentication using the FIDO-Applet",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          56.166015625,
+          463.3466796875
+        ],
+        [
+          319.826171875,
+          463.3466796875
+        ],
+        [
+          319.826171875,
+          481.4365234375
+        ],
+        [
+          56.166015625,
+          481.4365234375
+        ]
+      ]
+    },
+    {
+      "title": "3.3.3 Authentication based on FIDELIO",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          56.79999923706055,
+          129.404052734375
+        ],
+        [
+          295.671875,
+          129.404052734375
+        ],
+        [
+          295.671875,
+          147.288330078125
+        ],
+        [
+          56.79999923706055,
+          147.288330078125
+        ]
+      ]
+    },
+    {
+      "title": "3.4 Connecting FIDO with an Identity / Account Recovery",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          56.79999923706055,
+          585.453125
+        ],
+        [
+          452.8203125,
+          585.453125
+        ],
+        [
+          452.8203125,
+          605.1875
+        ],
+        [
+          56.79999923706055,
+          605.1875
+        ]
+      ]
+    },
+    {
+      "title": "3.5 Handset as Token",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          56.09326171875,
+          406.81591796875
+        ],
+        [
+          219.42578125,
+          406.81591796875
+        ],
+        [
+          219.42578125,
+          424.2890625
+        ],
+        [
+          56.09326171875,
+          424.2890625
+        ]
+      ]
+    },
+    {
+      "title": "4 Compliance",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          56.09326171875,
+          80.8389892578125
+        ],
+        [
+          204.875,
+          80.8389892578125
+        ],
+        [
+          204.875,
+          105.558349609375
+        ],
+        [
+          56.09326171875,
+          105.558349609375
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Handset",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          56.0205078125,
+          154.483154296875
+        ],
+        [
+          155.984375,
+          154.483154296875
+        ],
+        [
+          155.984375,
+          174.217529296875
+        ],
+        [
+          56.0205078125,
+          174.217529296875
+        ]
+      ]
+    },
+    {
+      "title": "4.2 eID-Applet",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          55.911376953125,
+          374.5419921875
+        ],
+        [
+          175.482421875,
+          374.5419921875
+        ],
+        [
+          175.482421875,
+          391.8095703125
+        ],
+        [
+          55.911376953125,
+          391.8095703125
+        ]
+      ]
+    },
+    {
+      "title": "4.3 FIDO-Applet",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          56.09326171875,
+          467.046875
+        ],
+        [
+          187.4140625,
+          467.046875
+        ],
+        [
+          187.4140625,
+          485.13671875
+        ],
+        [
+          56.09326171875,
+          485.13671875
+        ]
+      ]
+    },
+    {
+      "title": "4.4 eID- and FIDO-Client",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          56.3115234375,
+          572.7080078125
+        ],
+        [
+          244.5986328125,
+          572.7080078125
+        ],
+        [
+          244.5986328125,
+          589.9755859375
+        ],
+        [
+          56.3115234375,
+          589.9755859375
+        ]
+      ]
+    },
+    {
+      "title": "Reference Documentation",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          56.23876953125,
+          81.5584716796875
+        ],
+        [
+          283.740234375,
+          81.5584716796875
+        ],
+        [
+          283.740234375,
+          104.7874755859375
+        ],
+        [
+          56.23876953125,
+          104.7874755859375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          11
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          11
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          122
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TableOfContents",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          9
+        ],
+        [
+          "Line",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          123
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "TableCell",
+          15
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          28
+        ],
+        [
+          "Line",
+          13
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "TableCell",
+          25
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Form",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          130
+        ],
+        [
+          "Line",
+          62
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          72
+        ],
+        [
+          "Line",
+          27
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          136
+        ],
+        [
+          "TableCell",
+          52
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Line",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/TR-03159-2"
+}

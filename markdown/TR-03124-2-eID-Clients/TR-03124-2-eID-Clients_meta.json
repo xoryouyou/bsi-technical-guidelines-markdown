@@ -1,0 +1,265 @@
+{
+  "table_of_contents": [
+    {
+      "title": "\u00dcbergangsregelungen f\u00fcr die \nZertifizierung von eID-Clients nach \nTR-03124-2",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.7294921875,
+          233.9345703125
+        ],
+        [
+          517.3200073242188,
+          233.9345703125
+        ],
+        [
+          517.3200073242188,
+          342.884765625
+        ],
+        [
+          55.7294921875,
+          342.884765625
+        ]
+      ]
+    },
+    {
+      "title": "1 Einleitung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.94775390625,
+          57.044677734375
+        ],
+        [
+          189.451171875,
+          57.044677734375
+        ],
+        [
+          189.451171875,
+          82.740478515625
+        ],
+        [
+          55.94775390625,
+          82.740478515625
+        ]
+      ]
+    },
+    {
+      "title": "2 \u00dcbergangsregelungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7294921875,
+          190.251708984375
+        ],
+        [
+          288.5419921875,
+          190.251708984375
+        ],
+        [
+          288.5419921875,
+          213.99462890625
+        ],
+        [
+          55.7294921875,
+          213.99462890625
+        ]
+      ]
+    },
+    {
+      "title": "2.1 TLS",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.6025390625,
+          225.7119140625
+        ],
+        [
+          125.26800537109375,
+          225.7119140625
+        ],
+        [
+          125.26800537109375,
+          245.4462890625
+        ],
+        [
+          56.6025390625,
+          245.4462890625
+        ]
+      ]
+    },
+    {
+      "title": "2.1.1 Schl\u00fcssell\u00e4ngen in X.509-Zertifikaten",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.09326171875,
+          256.546875
+        ],
+        [
+          322.154296875,
+          256.546875
+        ],
+        [
+          322.154296875,
+          273.4033203125
+        ],
+        [
+          56.09326171875,
+          273.4033203125
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Konformit\u00e4tspr\u00fcfung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.65673828125,
+          367.75830078125
+        ],
+        [
+          249.109375,
+          367.75830078125
+        ],
+        [
+          249.109375,
+          387.08154296875
+        ],
+        [
+          55.65673828125,
+          387.08154296875
+        ]
+      ]
+    },
+    {
+      "title": "Literaturverzeichnis",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7294921875,
+          57.6099853515625
+        ],
+        [
+          230.0478515625,
+          57.6099853515625
+        ],
+        [
+          230.0478515625,
+          81.8668212890625
+        ],
+        [
+          55.7294921875,
+          81.8668212890625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          9
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          54
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          11
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/TR-03124-2-eID-Clients"
+}

@@ -1,0 +1,512 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Technische Richtlinie BSI TR-03163: \nSicherheit in TK-Infrastrukturen",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.70000076293945,
+          328.4951171875
+        ],
+        [
+          526.3199462890625,
+          328.4951171875
+        ],
+        [
+          526.3199462890625,
+          403.732421875
+        ],
+        [
+          56.70000076293945,
+          403.732421875
+        ]
+      ]
+    },
+    {
+      "title": "\u00c4nderungshistorie",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.166015625,
+          56.222412109375
+        ],
+        [
+          219.83668518066406,
+          56.222412109375
+        ],
+        [
+          219.83668518066406,
+          81.8154296875
+        ],
+        [
+          56.166015625,
+          81.8154296875
+        ]
+      ]
+    },
+    {
+      "title": "Inhalt",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.001953125,
+          56.633544921875
+        ],
+        [
+          109.2763671875,
+          56.633544921875
+        ],
+        [
+          109.2763671875,
+          81.918212890625
+        ],
+        [
+          55.001953125,
+          81.918212890625
+        ]
+      ]
+    },
+    {
+      "title": "1 Auswahlhilfe Zertifizierungsschema",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.29296875,
+          56.4793701171875
+        ],
+        [
+          407.421875,
+          56.4793701171875
+        ],
+        [
+          407.421875,
+          81.5584716796875
+        ],
+        [
+          55.29296875,
+          81.5584716796875
+        ]
+      ]
+    },
+    {
+      "title": "2 Zul\u00e4ssige Anforderungsdokumente f\u00fcr NESAS CCS-GI",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          54.6806640625,
+          57.330078125
+        ],
+        [
+          565.3076171875,
+          57.330078125
+        ],
+        [
+          565.3076171875,
+          81.3388671875
+        ],
+        [
+          54.6806640625,
+          81.3388671875
+        ]
+      ]
+    },
+    {
+      "title": "3 Zul\u00e4ssige Anforderungsdokumente f\u00fcr BSZ",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.400146484375,
+          56.493408203125
+        ],
+        [
+          471.7605285644531,
+          56.493408203125
+        ],
+        [
+          471.7605285644531,
+          81.55712890625
+        ],
+        [
+          55.400146484375,
+          81.55712890625
+        ]
+      ]
+    },
+    {
+      "title": "4 Zul\u00e4ssige Anforderungsdokumente f\u00fcr CC und EUCC",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.29736328125,
+          57.002685546875
+        ],
+        [
+          555.029296875,
+          57.002685546875
+        ],
+        [
+          555.029296875,
+          80.97509765625
+        ],
+        [
+          55.29736328125,
+          80.97509765625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          5
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "TableCell",
+          60
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          25
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          26
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          153
+        ],
+        [
+          "TableCell",
+          134
+        ],
+        [
+          "Line",
+          62
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          121
+        ],
+        [
+          "TableCell",
+          82
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          71
+        ],
+        [
+          "TableCell",
+          50
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          29
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/BSI-TR-03163_Anlage_A"
+}

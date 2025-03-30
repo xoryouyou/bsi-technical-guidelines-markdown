@@ -1,0 +1,192 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Test plan for eMRTD Application \nProtocol and Logical Data \nStructure",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          90.35400390625,
+          316.572265625
+        ],
+        [
+          514.9500732421875,
+          316.572265625
+        ],
+        [
+          514.9500732421875,
+          423.466796875
+        ],
+        [
+          90.35400390625,
+          423.466796875
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          96.513427734375
+        ],
+        [
+          210.63232421875,
+          96.513427734375
+        ],
+        [
+          210.63232421875,
+          122.414794921875
+        ],
+        [
+          55.635986328125,
+          122.414794921875
+        ]
+      ]
+    },
+    {
+      "title": "2 Certification",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.07177734375,
+          525.8388671875
+        ],
+        [
+          207.000732421875,
+          525.8388671875
+        ],
+        [
+          207.000732421875,
+          551.3291015625
+        ],
+        [
+          56.07177734375,
+          551.3291015625
+        ]
+      ]
+    },
+    {
+      "title": "3 References",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.89019775390625,
+          623.27734375
+        ],
+        [
+          195.3800048828125,
+          623.27734375
+        ],
+        [
+          195.3800048828125,
+          647.9453125
+        ],
+        [
+          55.89019775390625,
+          647.9453125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          12
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          9
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/TR-03105_Part3-1_V-1-2-1"
+}

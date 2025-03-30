@@ -1,0 +1,1437 @@
+{
+  "table_of_contents": [
+    {
+      "title": "BSI TR-03151-2 Appendix ANSI C",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.94775390625,
+          189.32666015625
+        ],
+        [
+          286.94140625,
+          189.32666015625
+        ],
+        [
+          286.94140625,
+          208.033203125
+        ],
+        [
+          55.94775390625,
+          208.033203125
+        ]
+      ]
+    },
+    {
+      "title": "Technical Guideline BSI TR-03151 \nSecure Element API (SE API)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.7294921875,
+          258.39697265625
+        ],
+        [
+          498.8399963378906,
+          258.39697265625
+        ],
+        [
+          498.8399963378906,
+          327.05615234375
+        ],
+        [
+          55.7294921875,
+          327.05615234375
+        ]
+      ]
+    },
+    {
+      "title": "Version history",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.984130859375,
+          55.9654541015625
+        ],
+        [
+          189.0146484375,
+          55.9654541015625
+        ],
+        [
+          189.0146484375,
+          80.8389892578125
+        ],
+        [
+          55.984130859375,
+          80.8389892578125
+        ]
+      ]
+    },
+    {
+      "title": "Table of Contents",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.29296875,
+          57.044677734375
+        ],
+        [
+          208.3671875,
+          57.044677734375
+        ],
+        [
+          208.3671875,
+          80.684814453125
+        ],
+        [
+          55.29296875,
+          80.684814453125
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.36572265625,
+          56.3765869140625
+        ],
+        [
+          212.44140625,
+          56.3765869140625
+        ],
+        [
+          212.44140625,
+          81.3529052734375
+        ],
+        [
+          55.36572265625,
+          81.3529052734375
+        ]
+      ]
+    },
+    {
+      "title": "2 Mapping of the API definition to ANSI C",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.29296875,
+          57.250244140625
+        ],
+        [
+          444.380859375,
+          57.250244140625
+        ],
+        [
+          444.380859375,
+          80.9931640625
+        ],
+        [
+          55.29296875,
+          80.9931640625
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Mapping of data types",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.80224609375,
+          151.296875
+        ],
+        [
+          251.728515625,
+          151.296875
+        ],
+        [
+          251.728515625,
+          170.208984375
+        ],
+        [
+          55.80224609375,
+          170.208984375
+        ]
+      ]
+    },
+    {
+      "title": "2.1.1 Mapping of basic types",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.166015625,
+          248.32421875
+        ],
+        [
+          236.88671875,
+          248.32421875
+        ],
+        [
+          236.88671875,
+          264.76953125
+        ],
+        [
+          56.166015625,
+          264.76953125
+        ]
+      ]
+    },
+    {
+      "title": "2.1.2 Mapping of complex types",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.875,
+          344.73486328125
+        ],
+        [
+          259.00390625,
+          344.73486328125
+        ],
+        [
+          259.00390625,
+          361.18017578125
+        ],
+        [
+          55.875,
+          361.18017578125
+        ]
+      ]
+    },
+    {
+      "title": "2.1.2.1 Mapping of strings",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.875,
+          391.3984375
+        ],
+        [
+          218.4072265625,
+          391.3984375
+        ],
+        [
+          218.4072265625,
+          406.6103515625
+        ],
+        [
+          55.875,
+          406.6103515625
+        ]
+      ]
+    },
+    {
+      "title": "OMG IDL",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          59.29443359375,
+          543.517578125
+        ],
+        [
+          110.65869140625,
+          543.517578125
+        ],
+        [
+          110.65869140625,
+          557.49609375
+        ],
+        [
+          59.29443359375,
+          557.49609375
+        ]
+      ]
+    },
+    {
+      "title": "2.1.2.2 Mapping of enumerations",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.7294921875,
+          225.50634765625
+        ],
+        [
+          260.2156677246094,
+          225.50634765625
+        ],
+        [
+          260.2156677246094,
+          239.89599609375
+        ],
+        [
+          55.7294921875,
+          239.89599609375
+        ]
+      ]
+    },
+    {
+      "title": "2.1.2.3 Mapping of arrays",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.80224609375,
+          501.58203125
+        ],
+        [
+          215.642578125,
+          501.58203125
+        ],
+        [
+          215.642578125,
+          516.3828125
+        ],
+        [
+          55.80224609375,
+          516.3828125
+        ]
+      ]
+    },
+    {
+      "title": "OMG IDL as used in the Technical Guideline",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          58.0576171875,
+          605.1875
+        ],
+        [
+          273.9912109375,
+          605.1875
+        ],
+        [
+          273.9912109375,
+          618.34375
+        ],
+        [
+          58.0576171875,
+          618.34375
+        ]
+      ]
+    },
+    {
+      "title": "Corresponding ANSI C code",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          60.494873046875,
+          650.8232421875
+        ],
+        [
+          196.6809539794922,
+          650.8232421875
+        ],
+        [
+          196.6809539794922,
+          663.4535980224609
+        ],
+        [
+          60.494873046875,
+          663.4535980224609
+        ]
+      ]
+    },
+    {
+      "title": "2.1.2.4 Definition context",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.80224609375,
+          56.222412109375
+        ],
+        [
+          217.6796875,
+          56.222412109375
+        ],
+        [
+          217.6796875,
+          72.462158203125
+        ],
+        [
+          55.80224609375,
+          72.462158203125
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Mapping of exceptions",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.875,
+          141.738037109375
+        ],
+        [
+          256.67578125,
+          141.738037109375
+        ],
+        [
+          256.67578125,
+          162.089111328125
+        ],
+        [
+          55.875,
+          162.089111328125
+        ]
+      ]
+    },
+    {
+      "title": "2.2.1 Mapping exceptions with additional information",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.583984375,
+          577.23046875
+        ],
+        [
+          393.162109375,
+          577.23046875
+        ],
+        [
+          393.162109375,
+          594.498046875
+        ],
+        [
+          55.583984375,
+          594.498046875
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Mapping of function parameters",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.23876953125,
+          647.9453125
+        ],
+        [
+          323.318359375,
+          647.9453125
+        ],
+        [
+          323.318359375,
+          666.857421875
+        ],
+        [
+          56.23876953125,
+          666.857421875
+        ]
+      ]
+    },
+    {
+      "title": "2.3.1 Mapping of function input parameters",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.09326171875,
+          696.8701171875
+        ],
+        [
+          330.59375,
+          696.8701171875
+        ],
+        [
+          330.59375,
+          713.3154296875
+        ],
+        [
+          56.09326171875,
+          713.3154296875
+        ]
+      ]
+    },
+    {
+      "title": "Properties of a function to be implemented",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          58.494140625,
+          59.0489501953125
+        ],
+        [
+          269.04095458984375,
+          59.0489501953125
+        ],
+        [
+          269.04095458984375,
+          72.4107666015625
+        ],
+        [
+          58.494140625,
+          72.4107666015625
+        ]
+      ]
+    },
+    {
+      "title": "Corresponding ANSI C code",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          61.440673828125,
+          144.821533203125
+        ],
+        [
+          196.6809539794922,
+          144.821533203125
+        ],
+        [
+          196.6809539794922,
+          159.005615234375
+        ],
+        [
+          61.440673828125,
+          159.005615234375
+        ]
+      ]
+    },
+    {
+      "title": "Text 6: Example for input parameters in ANSI C",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.52978515625,
+          188.196044921875
+        ],
+        [
+          260.33685302734375,
+          188.196044921875
+        ],
+        [
+          260.33685302734375,
+          201.763427734375
+        ],
+        [
+          56.52978515625,
+          201.763427734375
+        ]
+      ]
+    },
+    {
+      "title": "2.3.2 Mapping of function output parameters",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.23876953125,
+          639.72265625
+        ],
+        [
+          338.451171875,
+          639.72265625
+        ],
+        [
+          338.451171875,
+          656.16796875
+        ],
+        [
+          56.23876953125,
+          656.16796875
+        ]
+      ]
+    },
+    {
+      "title": "2.3.3 Mapping of optional and conditional function parameters",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.583984375,
+          114.7060546875
+        ],
+        [
+          446.41796875,
+          114.7060546875
+        ],
+        [
+          446.41796875,
+          131.9736328125
+        ],
+        [
+          55.583984375,
+          131.9736328125
+        ]
+      ]
+    },
+    {
+      "title": "Text 11: Example for the handling of functions with two conditional input parameters",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          56.819278717041016,
+          419.97216796875
+        ],
+        [
+          425.46484375,
+          419.97216796875
+        ],
+        [
+          425.46484375,
+          433.333984375
+        ],
+        [
+          56.819278717041016,
+          433.333984375
+        ]
+      ]
+    },
+    {
+      "title": "2.3.4 Mapping of large data function parameters",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          55.875,
+          587.09765625
+        ],
+        [
+          355.0390625,
+          587.09765625
+        ],
+        [
+          355.0390625,
+          603.54296875
+        ],
+        [
+          55.875,
+          603.54296875
+        ]
+      ]
+    },
+    {
+      "title": "Properties of a function to be implemented",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          59.00341796875,
+          59.100341796875
+        ],
+        [
+          269.189453125,
+          59.100341796875
+        ],
+        [
+          269.189453125,
+          72.873291015625
+        ],
+        [
+          59.00341796875,
+          72.873291015625
+        ]
+      ]
+    },
+    {
+      "title": "Corresponding ANSI C Code",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          60.640380859375,
+          125.60107421875
+        ],
+        [
+          199.345703125,
+          125.60107421875
+        ],
+        [
+          199.345703125,
+          139.3740234375
+        ],
+        [
+          60.640380859375,
+          139.3740234375
+        ]
+      ]
+    },
+    {
+      "title": "Possible C call of the function",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          61.004150390625,
+          231.26220703125
+        ],
+        [
+          205.32095336914062,
+          231.26220703125
+        ],
+        [
+          205.32095336914062,
+          245.65185546875
+        ],
+        [
+          61.004150390625,
+          245.65185546875
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          55.36572265625,
+          58.6378173828125
+        ],
+        [
+          151.037109375,
+          58.6378173828125
+        ],
+        [
+          151.037109375,
+          81.3529052734375
+        ],
+        [
+          55.36572265625,
+          81.3529052734375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          13
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          23
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          69
+        ],
+        [
+          "TableCell",
+          42
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          46
+        ],
+        [
+          "Line",
+          10
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          180
+        ],
+        [
+          "Line",
+          62
+        ],
+        [
+          "TableCell",
+          33
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          126
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "TableCell",
+          11
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "TableCell",
+          23
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Form",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "TableCell",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "TableCell",
+          16
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          67
+        ],
+        [
+          "Line",
+          26
+        ],
+        [
+          "TableCell",
+          11
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          19
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          27
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "Reference",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/TR03151-2_Appendix_ANSI_C"
+}

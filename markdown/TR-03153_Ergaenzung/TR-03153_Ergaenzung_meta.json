@@ -1,0 +1,517 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Erg\u00e4nzung der Technischen \nRichtlinie TR-03153",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          90.9423828125,
+          316.36669921875
+        ],
+        [
+          453.6800231933594,
+          316.36669921875
+        ],
+        [
+          453.6800231933594,
+          387.90380859375
+        ],
+        [
+          90.9423828125,
+          387.90380859375
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.80224609375,
+          85.1044921875
+        ],
+        [
+          214.1875,
+          85.1044921875
+        ],
+        [
+          214.1875,
+          109.464111328125
+        ],
+        [
+          55.80224609375,
+          109.464111328125
+        ]
+      ]
+    },
+    {
+      "title": "1 Einleitung",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.45703125,
+          81.19873046875
+        ],
+        [
+          191.6337890625,
+          81.19873046875
+        ],
+        [
+          191.6337890625,
+          104.8388671875
+        ],
+        [
+          56.45703125,
+          104.8388671875
+        ]
+      ]
+    },
+    {
+      "title": "1.1 Terminologie",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.875,
+          235.5791015625
+        ],
+        [
+          188.4326171875,
+          235.5791015625
+        ],
+        [
+          188.4326171875,
+          254.080078125
+        ],
+        [
+          55.875,
+          254.080078125
+        ]
+      ]
+    },
+    {
+      "title": "2 Klarstellungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.748046875,
+          80.9417724609375
+        ],
+        [
+          228.30001831054688,
+          80.9417724609375
+        ],
+        [
+          228.30001831054688,
+          105.0958251953125
+        ],
+        [
+          56.748046875,
+          105.0958251953125
+        ]
+      ]
+    },
+    {
+      "title": "Abbildung 4, Seite 16:",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.638916015625,
+          214.40576171875
+        ],
+        [
+          155.8388671875,
+          214.40576171875
+        ],
+        [
+          155.8388671875,
+          227.97314453125
+        ],
+        [
+          56.638916015625,
+          227.97314453125
+        ]
+      ]
+    },
+    {
+      "title": "Kapitel 4.1, Seite 25",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.52978515625,
+          721.94921875
+        ],
+        [
+          145.28955078125,
+          721.94921875
+        ],
+        [
+          145.28955078125,
+          735.10546875
+        ],
+        [
+          56.52978515625,
+          735.10546875
+        ]
+      ]
+    },
+    {
+      "title": "Kapitel 5.2, Seite 29, Tabelle 6:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.67529296875,
+          117.070068359375
+        ],
+        [
+          195.271484375,
+          117.070068359375
+        ],
+        [
+          195.271484375,
+          129.9722900390625
+        ],
+        [
+          56.67529296875,
+          129.9722900390625
+        ]
+      ]
+    },
+    {
+      "title": "Kapitel 7.5, Seite 34:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.748046875,
+          362.82470703125
+        ],
+        [
+          149.4365234375,
+          362.82470703125
+        ],
+        [
+          149.4365234375,
+          375.56982421875
+        ],
+        [
+          56.748046875,
+          375.56982421875
+        ]
+      ]
+    },
+    {
+      "title": "Kapitel 7.6, Seite 34:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.275146484375,
+          480.6142578125
+        ],
+        [
+          149.873046875,
+          480.6142578125
+        ],
+        [
+          149.873046875,
+          492.9482421875
+        ],
+        [
+          56.275146484375,
+          492.9482421875
+        ]
+      ]
+    },
+    {
+      "title": "Literaturverzeichnis",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.09326171875,
+          82.946044921875
+        ],
+        [
+          229.90234375,
+          82.946044921875
+        ],
+        [
+          229.90234375,
+          105.04443359375
+        ],
+        [
+          56.09326171875,
+          105.04443359375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          5
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          11
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          42
+        ],
+        [
+          "Line",
+          17
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          27
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          19
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/TR-03153_Ergaenzung"
+}

@@ -1,0 +1,614 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Technical Guideline TR-03191:\nCommon Security Advisory \nFramework (CSAF)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.45703125,
+          329.52294921875
+        ],
+        [
+          453.40234375,
+          329.52294921875
+        ],
+        [
+          453.40234375,
+          438.6787109375
+        ],
+        [
+          56.45703125,
+          438.6787109375
+        ]
+      ]
+    },
+    {
+      "title": "Document history",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.65673828125,
+          57.3016357421875
+        ],
+        [
+          213.314453125,
+          57.3016357421875
+        ],
+        [
+          213.314453125,
+          82.4835205078125
+        ],
+        [
+          55.65673828125,
+          82.4835205078125
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          54.5654296875,
+          59.511474609375
+        ],
+        [
+          207.3486328125,
+          59.511474609375
+        ],
+        [
+          207.3486328125,
+          82.534912109375
+        ],
+        [
+          54.5654296875,
+          82.534912109375
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.29296875,
+          58.2266845703125
+        ],
+        [
+          212.44140625,
+          58.2266845703125
+        ],
+        [
+          212.44140625,
+          82.5863037109375
+        ],
+        [
+          55.29296875,
+          82.5863037109375
+        ]
+      ]
+    },
+    {
+      "title": "2 Requirements Language",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.23876953125,
+          58.7919921875
+        ],
+        [
+          308.4765625,
+          58.7919921875
+        ],
+        [
+          308.4765625,
+          82.43212890625
+        ],
+        [
+          56.23876953125,
+          82.43212890625
+        ]
+      ]
+    },
+    {
+      "title": "3 Version of the CSAF standard",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.29296875,
+          58.5350341796875
+        ],
+        [
+          350.673828125,
+          58.5350341796875
+        ],
+        [
+          350.673828125,
+          81.9696044921875
+        ],
+        [
+          55.29296875,
+          81.9696044921875
+        ]
+      ]
+    },
+    {
+      "title": "4 Requirements",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.36572265625,
+          59.203125
+        ],
+        [
+          220.58984375,
+          59.203125
+        ],
+        [
+          220.58984375,
+          82.329345703125
+        ],
+        [
+          55.36572265625,
+          82.329345703125
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Scope of application",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.7294921875,
+          94.0980224609375
+        ],
+        [
+          239.9423828125,
+          94.0980224609375
+        ],
+        [
+          239.9423828125,
+          112.85595703125
+        ],
+        [
+          55.7294921875,
+          112.85595703125
+        ]
+      ]
+    },
+    {
+      "title": "4.2 General",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.94775390625,
+          173.189697265625
+        ],
+        [
+          153.365234375,
+          173.189697265625
+        ],
+        [
+          153.365234375,
+          191.073974609375
+        ],
+        [
+          55.94775390625,
+          191.073974609375
+        ]
+      ]
+    },
+    {
+      "title": "4.3 Document",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.275146484375,
+          334.86767578125
+        ],
+        [
+          172.7177734375,
+          334.86767578125
+        ],
+        [
+          172.7177734375,
+          352.13525390625
+        ],
+        [
+          56.275146484375,
+          352.13525390625
+        ]
+      ]
+    },
+    {
+      "title": "4.4 Product tree",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.0205078125,
+          414.62744140625
+        ],
+        [
+          185.2314453125,
+          414.62744140625
+        ],
+        [
+          185.2314453125,
+          431.2783203125
+        ],
+        [
+          56.0205078125,
+          431.2783203125
+        ]
+      ]
+    },
+    {
+      "title": "4.5 Usage of profiles",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.166015625,
+          58.0211181640625
+        ],
+        [
+          214.6240234375,
+          58.0211181640625
+        ],
+        [
+          214.6240234375,
+          76.8304443359375
+        ],
+        [
+          56.166015625,
+          76.8304443359375
+        ]
+      ]
+    },
+    {
+      "title": "4.6 Distribution",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.36572265625,
+          281.21484375
+        ],
+        [
+          184.50390625,
+          281.21484375
+        ],
+        [
+          184.50390625,
+          298.8935546875
+        ],
+        [
+          55.36572265625,
+          298.8935546875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          7
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          48
+        ],
+        [
+          "Line",
+          15
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          40
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          126
+        ],
+        [
+          "Line",
+          24
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          24
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          38
+        ],
+        [
+          "Line",
+          10
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          170
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Reference",
+          5
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          137
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/BSI-TR-03191"
+}

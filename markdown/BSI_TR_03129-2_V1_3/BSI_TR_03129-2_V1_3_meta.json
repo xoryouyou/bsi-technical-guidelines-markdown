@@ -1,0 +1,1548 @@
+{
+  "table_of_contents": [
+    {
+      "title": "PKIs for Machine Readable Travel \nDocuments",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.888671875,
+          345.3515625
+        ],
+        [
+          502.7000732421875,
+          345.3515625
+        ],
+        [
+          502.7000732421875,
+          416.4775390625
+        ],
+        [
+          70.888671875,
+          416.4775390625
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          85.823974609375
+        ],
+        [
+          206.129150390625,
+          85.823974609375
+        ],
+        [
+          206.129150390625,
+          109.7724609375
+        ],
+        [
+          55.49072265625,
+          109.7724609375
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.2896728515625,
+          465.40234375
+        ],
+        [
+          110.7635498046875,
+          465.40234375
+        ],
+        [
+          110.7635498046875,
+          490.0703125
+        ],
+        [
+          56.2896728515625,
+          490.0703125
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.217041015625,
+          80.37646484375
+        ],
+        [
+          212.230224609375,
+          80.37646484375
+        ],
+        [
+          212.230224609375,
+          105.352783203125
+        ],
+        [
+          56.217041015625,
+          105.352783203125
+        ]
+      ]
+    },
+    {
+      "title": "1.1 Terminology",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.96282958984375,
+          167.53662109375
+        ],
+        [
+          182.015380859375,
+          167.53662109375
+        ],
+        [
+          182.015380859375,
+          186.654296875
+        ],
+        [
+          55.96282958984375,
+          186.654296875
+        ]
+      ]
+    },
+    {
+      "title": "2 Implemenation as Web Services",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.507568359375,
+          79.6055908203125
+        ],
+        [
+          371.2939453125,
+          79.6055908203125
+        ],
+        [
+          371.2939453125,
+          104.7874755859375
+        ],
+        [
+          56.507568359375,
+          104.7874755859375
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Web Service using SOAP messages",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.79999923706055,
+          116.76171875
+        ],
+        [
+          327.1337890625,
+          116.76171875
+        ],
+        [
+          327.1337890625,
+          136.29052734375
+        ],
+        [
+          56.79999923706055,
+          136.29052734375
+        ]
+      ]
+    },
+    {
+      "title": "3 Protocols for Passive Authentication",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          81.095947265625
+        ],
+        [
+          407.900390625,
+          81.095947265625
+        ],
+        [
+          407.900390625,
+          104.941650390625
+        ],
+        [
+          55.926513671875,
+          104.941650390625
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Distribution of Document Signer Lists",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.507568359375,
+          167.7421875
+        ],
+        [
+          345.146484375,
+          167.7421875
+        ],
+        [
+          345.146484375,
+          186.85986328125
+        ],
+        [
+          56.507568359375,
+          186.85986328125
+        ]
+      ]
+    },
+    {
+      "title": "3.1.1 GetDocumentSignerList",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          223.86181640625
+        ],
+        [
+          239.10400390625,
+          223.86181640625
+        ],
+        [
+          239.10400390625,
+          240.30712890625
+        ],
+        [
+          55.78125,
+          240.30712890625
+        ]
+      ]
+    },
+    {
+      "title": "3.1.2 SendDocumentSignerList",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.798095703125,
+          511.8603515625
+        ],
+        [
+          245.350341796875,
+          511.8603515625
+        ],
+        [
+          245.350341796875,
+          528.3056640625
+        ],
+        [
+          56.798095703125,
+          528.3056640625
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Passive Authentication",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.1444091796875,
+          332.1953125
+        ],
+        [
+          247.23876953125,
+          332.1953125
+        ],
+        [
+          247.23876953125,
+          349.0517578125
+        ],
+        [
+          56.1444091796875,
+          349.0517578125
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Protocols for Terminal Authentication",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.7254638671875,
+          605.4933319091797
+        ],
+        [
+          344.85595703125,
+          605.4933319091797
+        ],
+        [
+          344.85595703125,
+          623.27734375
+        ],
+        [
+          56.7254638671875,
+          623.27734375
+        ]
+      ]
+    },
+    {
+      "title": "4 Defect Lists for ePassport Application",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          80.890380859375
+        ],
+        [
+          415.4541015625,
+          80.890380859375
+        ],
+        [
+          415.4541015625,
+          105.147216796875
+        ],
+        [
+          55.78125,
+          105.147216796875
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Defect List Format",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.8538818359375,
+          253.46337890625
+        ],
+        [
+          220.51025390625,
+          253.46337890625
+        ],
+        [
+          220.51025390625,
+          273.60888671875
+        ],
+        [
+          55.8538818359375,
+          273.60888671875
+        ]
+      ]
+    },
+    {
+      "title": "4.1.1 Identification of Document Signer Certificates",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.345458984375,
+          437.4453125
+        ],
+        [
+          361.9970703125,
+          437.4453125
+        ],
+        [
+          361.9970703125,
+          453.890625
+        ],
+        [
+          55.345458984375,
+          453.890625
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Defect Categories",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.1444091796875,
+          553.384765625
+        ],
+        [
+          216.15234375,
+          553.384765625
+        ],
+        [
+          216.15234375,
+          572.296875
+        ],
+        [
+          56.1444091796875,
+          572.296875
+        ]
+      ]
+    },
+    {
+      "title": "4.2.1 Authentication Defects",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.2728271484375,
+          668.0908203125
+        ],
+        [
+          231.55029296875,
+          668.0908203125
+        ],
+        [
+          231.55029296875,
+          684.5361328125
+        ],
+        [
+          55.2728271484375,
+          684.5361328125
+        ]
+      ]
+    },
+    {
+      "title": "4.2.1.1 Document Signer Certificate Revoked",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.78125,
+          81.1473388671875
+        ],
+        [
+          311.73583984375,
+          81.1473388671875
+        ],
+        [
+          311.73583984375,
+          97.2843017578125
+        ],
+        [
+          55.78125,
+          97.2843017578125
+        ]
+      ]
+    },
+    {
+      "title": "4.2.1.2 Document Signer Certificate Malformed",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.49072265625,
+          392.01513671875
+        ],
+        [
+          327.1337890625,
+          392.01513671875
+        ],
+        [
+          327.1337890625,
+          407.22705078125
+        ],
+        [
+          55.49072265625,
+          407.22705078125
+        ]
+      ]
+    },
+    {
+      "title": "4.2.1.3 Chip Authentication Private Keys Compromised",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.054931640625,
+          517.6162109375
+        ],
+        [
+          363.81500244140625,
+          517.6162109375
+        ],
+        [
+          363.81500244140625,
+          533.2392578125
+        ],
+        [
+          55.054931640625,
+          533.2392578125
+        ]
+      ]
+    },
+    {
+      "title": "4.2.1.4 Active Authentication Private Keys Compromised",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.345458984375,
+          612.587890625
+        ],
+        [
+          374.19921875,
+          612.587890625
+        ],
+        [
+          374.19921875,
+          628.2109375
+        ],
+        [
+          55.345458984375,
+          628.2109375
+        ]
+      ]
+    },
+    {
+      "title": "4.2.1.5 Authentication Protocol Failure",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.635986328125,
+          707.5595703125
+        ],
+        [
+          280.504150390625,
+          707.5595703125
+        ],
+        [
+          280.504150390625,
+          722.3603515625
+        ],
+        [
+          55.635986328125,
+          722.3603515625
+        ]
+      ]
+    },
+    {
+      "title": "4.2.1.6 Validity Period Incorrect",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          56.79999923706055,
+          208.64990234375
+        ],
+        [
+          241.5240020751953,
+          208.64990234375
+        ],
+        [
+          241.5240020751953,
+          223.07586669921875
+        ],
+        [
+          56.79999923706055,
+          223.07586669921875
+        ]
+      ]
+    },
+    {
+      "title": "4.2.2 Application Defects (for the ePassport Application)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          40.819091796875,
+          383.79248046875
+        ],
+        [
+          386.8459777832031,
+          383.79248046875
+        ],
+        [
+          386.8459777832031,
+          405.2816467285156
+        ],
+        [
+          40.819091796875,
+          405.2816467285156
+        ]
+      ]
+    },
+    {
+      "title": "4.2.2.1 Data Group Malformed",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          56.2896728515625,
+          472.802734375
+        ],
+        [
+          237.0703125,
+          472.802734375
+        ],
+        [
+          237.0703125,
+          487.603515625
+        ],
+        [
+          56.2896728515625,
+          487.603515625
+        ]
+      ]
+    },
+    {
+      "title": "4.2.2.2 Document Security Object Malformed",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.78125,
+          590.7978515625
+        ],
+        [
+          314.931640625,
+          590.7978515625
+        ],
+        [
+          314.931640625,
+          604.7763671875
+        ],
+        [
+          55.78125,
+          604.7763671875
+        ]
+      ]
+    },
+    {
+      "title": "4.2.2.3 COM and SOD Discrepancy",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          54.473876953125,
+          174.834228515625
+        ],
+        [
+          258.32000732421875,
+          174.834228515625
+        ],
+        [
+          258.32000732421875,
+          189.429443359375
+        ],
+        [
+          54.473876953125,
+          189.429443359375
+        ]
+      ]
+    },
+    {
+      "title": "4.2.2.4 Wrong Signer Identifier",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.78125,
+          400.0322265625
+        ],
+        [
+          238.958740234375,
+          400.0322265625
+        ],
+        [
+          238.958740234375,
+          414.0107421875
+        ],
+        [
+          55.78125,
+          414.0107421875
+        ]
+      ]
+    },
+    {
+      "title": "4.2.2.5 Issuing Country Defect",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.7086181640625,
+          507.7490234375
+        ],
+        [
+          236.19873046875,
+          507.7490234375
+        ],
+        [
+          236.19873046875,
+          522.5498046875
+        ],
+        [
+          55.7086181640625,
+          522.5498046875
+        ]
+      ]
+    },
+    {
+      "title": "4.2.3 General Document Defects",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.7086181640625,
+          637.255859375
+        ],
+        [
+          254.21142578125,
+          637.255859375
+        ],
+        [
+          254.21142578125,
+          652.3816680908203
+        ],
+        [
+          55.7086181640625,
+          652.3816680908203
+        ]
+      ]
+    },
+    {
+      "title": "4.2.3.1 Card Security Object Malformed",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          55.7086181640625,
+          80.9931640625
+        ],
+        [
+          285.58837890625,
+          80.9931640625
+        ],
+        [
+          285.58837890625,
+          97.746826171875
+        ],
+        [
+          55.7086181640625,
+          97.746826171875
+        ]
+      ]
+    },
+    {
+      "title": "4.2.3.2 Chip Security Object Malformed",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          55.5633544921875,
+          175.5537109375
+        ],
+        [
+          283.84521484375,
+          175.5537109375
+        ],
+        [
+          283.84521484375,
+          191.587890625
+        ],
+        [
+          55.5633544921875,
+          191.587890625
+        ]
+      ]
+    },
+    {
+      "title": "4.2.3.3 Powerdown Required",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          55.8538818359375,
+          257.57470703125
+        ],
+        [
+          228.935546875,
+          257.57470703125
+        ],
+        [
+          228.935546875,
+          272.78662109375
+        ],
+        [
+          55.8538818359375,
+          272.78662109375
+        ]
+      ]
+    },
+    {
+      "title": "4.2.3.4 Document Signer Certificate incorrectly encoded or malformed",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          55.345458984375,
+          365.0859375
+        ],
+        [
+          446.8310546875,
+          365.0859375
+        ],
+        [
+          446.8310546875,
+          379.88671875
+        ],
+        [
+          55.345458984375,
+          379.88671875
+        ]
+      ]
+    },
+    {
+      "title": "5 Signed Data Profile for Document Signer Lists",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          56.798095703125,
+          80.2222900390625
+        ],
+        [
+          488.6669921875,
+          80.2222900390625
+        ],
+        [
+          488.6669921875,
+          104.8902587890625
+        ],
+        [
+          56.798095703125,
+          104.8902587890625
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Document Signer List Format",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          55.926513671875,
+          155.61376953125
+        ],
+        [
+          292.996826171875,
+          155.61376953125
+        ],
+        [
+          292.996826171875,
+          174.7314453125
+        ],
+        [
+          55.926513671875,
+          174.7314453125
+        ]
+      ]
+    },
+    {
+      "title": "6 WSDL and XML Scheme specifications",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          56.07177734375,
+          80.78759765625
+        ],
+        [
+          425.04150390625,
+          80.78759765625
+        ],
+        [
+          425.04150390625,
+          104.941650390625
+        ],
+        [
+          56.07177734375,
+          104.941650390625
+        ]
+      ]
+    },
+    {
+      "title": "7 Biblopgraphy",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          56.79998779296875,
+          81.19873046875
+        ],
+        [
+          216.878662109375,
+          81.19873046875
+        ],
+        [
+          216.878662109375,
+          104.8388671875
+        ],
+        [
+          56.79998779296875,
+          104.8388671875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          11
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          13
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          65
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TableOfContents",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          57
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "TableCell",
+          13
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          17
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "TableCell",
+          16
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "TableCell",
+          52
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "TextInlineMath",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Code",
+          4
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          40
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          15
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          43
+        ],
+        [
+          "Line",
+          10
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/BSI_TR_03129-2_V1_3"
+}

@@ -1,0 +1,834 @@
+{
+  "table_of_contents": [
+    {
+      "title": "TR-03145-4",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          91.80000305175781,
+          317.8056640625
+        ],
+        [
+          248.21998596191406,
+          317.8056640625
+        ],
+        [
+          248.21998596191406,
+          349.6860046386719
+        ],
+        [
+          91.80000305175781,
+          349.6860046386719
+        ]
+      ]
+    },
+    {
+      "title": "Secure CA operation, Part 4",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          91.2333984375,
+          380.09228515625
+        ],
+        [
+          442.92578125,
+          380.09228515625
+        ],
+        [
+          442.92578125,
+          415.44970703125
+        ],
+        [
+          91.2333984375,
+          415.44970703125
+        ]
+      ]
+    },
+    {
+      "title": "Contents",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          54.04534005037783,
+          86.22439893143365
+        ],
+        [
+          135.8639798488665,
+          86.22439893143365
+        ],
+        [
+          135.8639798488665,
+          109.361328125
+        ],
+        [
+          54.04534005037783,
+          109.361328125
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.166015625,
+          80.684814453125
+        ],
+        [
+          213.314453125,
+          80.684814453125
+        ],
+        [
+          213.314453125,
+          105.6611328125
+        ],
+        [
+          56.166015625,
+          105.6611328125
+        ]
+      ]
+    },
+    {
+      "title": "1.1 Scope and structure of this document",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.94775390625,
+          229.20654296875
+        ],
+        [
+          346.017578125,
+          229.20654296875
+        ],
+        [
+          346.017578125,
+          248.94091796875
+        ],
+        [
+          55.94775390625,
+          248.94091796875
+        ]
+      ]
+    },
+    {
+      "title": "1.2 Definitions",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.056884765625,
+          575.1748046875
+        ],
+        [
+          171.8447265625,
+          575.1748046875
+        ],
+        [
+          171.8447265625,
+          594.9091796875
+        ],
+        [
+          56.056884765625,
+          594.9091796875
+        ]
+      ]
+    },
+    {
+      "title": "2 Specific Requirements for Certificate Management \nProcesses",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.583984375,
+          80.1195068359375
+        ],
+        [
+          531.39453125,
+          80.1195068359375
+        ],
+        [
+          531.39453125,
+          129.404052734375
+        ],
+        [
+          55.583984375,
+          129.404052734375
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Private key of the CA (clause 5.1 of TR-03145-1)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.6025390625,
+          140.710205078125
+        ],
+        [
+          414.40625,
+          140.710205078125
+        ],
+        [
+          414.40625,
+          159.827880859375
+        ],
+        [
+          56.6025390625,
+          159.827880859375
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Certificate generation process (clause 5.5 of TR-03145-1)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.45703125,
+          287.58740234375
+        ],
+        [
+          472.318359375,
+          287.58740234375
+        ],
+        [
+          472.318359375,
+          307.73291015625
+        ],
+        [
+          56.45703125,
+          307.73291015625
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Revocation and suspension (clause 5.7 of TR-03145-1)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.166015625,
+          453.4794921875
+        ],
+        [
+          452.23828125,
+          453.4794921875
+        ],
+        [
+          452.23828125,
+          473.2138671875
+        ],
+        [
+          56.166015625,
+          473.2138671875
+        ]
+      ]
+    },
+    {
+      "title": "2.4 Certificate renewal, re-keying and update \n(clause 5.8 of TR-03145-1)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.79999923706055,
+          228.58984375
+        ],
+        [
+          372.208984375,
+          228.58984375
+        ],
+        [
+          372.208984375,
+          266.0029296875
+        ],
+        [
+          56.79999923706055,
+          266.0029296875
+        ]
+      ]
+    },
+    {
+      "title": "2.5 Certificate Policy and Certification Practice Statement \n(clause 6.2 of TR-03145-1)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.79999923706055,
+          572.296875
+        ],
+        [
+          452.9159240722656,
+          572.296875
+        ],
+        [
+          452.9159240722656,
+          609.6043243408203
+        ],
+        [
+          56.79999923706055,
+          609.6043243408203
+        ]
+      ]
+    },
+    {
+      "title": "2.6 Secured handling and storage of key material \n(clause 6.6 of TR-03145-1)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.3115234375,
+          691.1142578125
+        ],
+        [
+          395.78125,
+          691.1142578125
+        ],
+        [
+          395.78125,
+          728.1162109375
+        ],
+        [
+          56.3115234375,
+          728.1162109375
+        ]
+      ]
+    },
+    {
+      "title": "2.7 Maintained revocation status (clause 6.11 of TR-03145-1)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.6025390625,
+          155.408203125
+        ],
+        [
+          473.19140625,
+          155.408203125
+        ],
+        [
+          473.19140625,
+          174.7314453125
+        ],
+        [
+          56.6025390625,
+          174.7314453125
+        ]
+      ]
+    },
+    {
+      "title": "2.8 Availability of services (clause 6.13 of TR-03145-1)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.875,
+          389.54833984375
+        ],
+        [
+          429.5390625,
+          389.54833984375
+        ],
+        [
+          429.5390625,
+          408.46044921875
+        ],
+        [
+          55.875,
+          408.46044921875
+        ]
+      ]
+    },
+    {
+      "title": "2.9 CA termination (clause 6.14 of TR-03145-1)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.7294921875,
+          522.9609375
+        ],
+        [
+          385.3046875,
+          522.9609375
+        ],
+        [
+          385.3046875,
+          541.873046875
+        ],
+        [
+          55.7294921875,
+          541.873046875
+        ]
+      ]
+    },
+    {
+      "title": "3 Annex: Revocation Service for the eID application3",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.45703125,
+          80.2222900390625
+        ],
+        [
+          529.939453125,
+          80.2222900390625
+        ],
+        [
+          529.939453125,
+          104.4791259765625
+        ],
+        [
+          56.45703125,
+          104.4791259765625
+        ]
+      ]
+    },
+    {
+      "title": "3 Concerns BerCAs only.",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.94775390625,
+          749.083984375
+        ],
+        [
+          168.7890625,
+          749.083984375
+        ],
+        [
+          168.7890625,
+          760.595703125
+        ],
+        [
+          55.94775390625,
+          760.595703125
+        ]
+      ]
+    },
+    {
+      "title": "Bibliography",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.875,
+          80.684814453125
+        ],
+        [
+          170.0986328125,
+          80.684814453125
+        ],
+        [
+          170.0986328125,
+          105.6611328125
+        ],
+        [
+          55.875,
+          105.6611328125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          13
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          13
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          45
+        ],
+        [
+          "Line",
+          4
+        ],
+        [
+          "Span",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          137
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "TableCell",
+          10
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          121
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          123
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          49
+        ],
+        [
+          "Line",
+          17
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          34
+        ],
+        [
+          "Line",
+          13
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/TR03145-4"
+}

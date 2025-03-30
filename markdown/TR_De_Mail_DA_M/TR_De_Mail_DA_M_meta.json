@@ -1,0 +1,343 @@
+{
+  "table_of_contents": [
+    {
+      "title": "BSI \u2013 Technische Richtlinie",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.64404296875,
+          291.69873046875
+        ],
+        [
+          275.009765625,
+          291.69873046875
+        ],
+        [
+          275.009765625,
+          312.66650390625
+        ],
+        [
+          70.64404296875,
+          312.66650390625
+        ]
+      ]
+    },
+    {
+      "title": "Inhaltsverzeichnis",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          54.04534005037783,
+          100.419189453125
+        ],
+        [
+          183.1536523929471,
+          100.419189453125
+        ],
+        [
+          183.1536523929471,
+          119.331298828125
+        ],
+        [
+          54.04534005037783,
+          119.331298828125
+        ]
+      ]
+    },
+    {
+      "title": "1 Einleitung",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.693115234375,
+          90.44921875
+        ],
+        [
+          166.751953125,
+          90.44921875
+        ],
+        [
+          166.751953125,
+          116.042236328125
+        ],
+        [
+          55.693115234375,
+          116.042236328125
+        ]
+      ]
+    },
+    {
+      "title": "2 Dokumenten\u00fcbersicht",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.65673828125,
+          91.168701171875
+        ],
+        [
+          270.353515625,
+          91.168701171875
+        ],
+        [
+          270.353515625,
+          114.50048828125
+        ],
+        [
+          55.65673828125,
+          114.50048828125
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Funktionale Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.166015625,
+          144.615966796875
+        ],
+        [
+          281.412109375,
+          144.615966796875
+        ],
+        [
+          281.412109375,
+          163.322509765625
+        ],
+        [
+          56.166015625,
+          163.322509765625
+        ]
+      ]
+    },
+    {
+      "title": "2.2 IT-Sicherheit",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.765869140625,
+          211.93896484375
+        ],
+        [
+          180.8662109375,
+          211.93896484375
+        ],
+        [
+          180.8662109375,
+          231.26220703125
+        ],
+        [
+          55.765869140625,
+          231.26220703125
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Funktionspr\u00fcfung",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.166015625,
+          281.00927734375
+        ],
+        [
+          214.1875,
+          281.00927734375
+        ],
+        [
+          214.1875,
+          299.92138671875
+        ],
+        [
+          56.166015625,
+          299.92138671875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          19
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          15
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "TableCell",
+          15
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "Span",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          21
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          29
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/TR_De_Mail_DA_M"
+}

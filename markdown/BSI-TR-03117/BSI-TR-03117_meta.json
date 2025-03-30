@@ -1,0 +1,223 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Technische Richtlinie TR-03117",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          91.370849609375,
+          315.3388671875
+        ],
+        [
+          496.8017578125,
+          315.3388671875
+        ],
+        [
+          496.8017578125,
+          351.5185546875
+        ],
+        [
+          91.370849609375,
+          351.5185546875
+        ]
+      ]
+    },
+    {
+      "title": "eCards mit kontaktloser \nSchnittstelle als qualifizierte \nSignaturerstellungseinheit",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          89.77294921875,
+          366.93603515625
+        ],
+        [
+          455.3399963378906,
+          366.93603515625
+        ],
+        [
+          455.3399963378906,
+          478.55859375
+        ],
+        [
+          89.77294921875,
+          478.55859375
+        ]
+      ]
+    },
+    {
+      "title": "Signaturfunktion auf Basis Extended Access Control",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.507568359375,
+          81.095947265625
+        ],
+        [
+          499.70703125,
+          81.095947265625
+        ],
+        [
+          499.70703125,
+          104.324951171875
+        ],
+        [
+          56.507568359375,
+          104.324951171875
+        ]
+      ]
+    },
+    {
+      "title": "Literaturverzeichnis",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.1444091796875,
+          83.048828125
+        ],
+        [
+          228.935546875,
+          83.048828125
+        ],
+        [
+          228.935546875,
+          104.941650390625
+        ],
+        [
+          56.1444091796875,
+          104.941650390625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          11
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          13
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "Text",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          29
+        ],
+        [
+          "Line",
+          12
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          17
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/BSI-TR-03117"
+}

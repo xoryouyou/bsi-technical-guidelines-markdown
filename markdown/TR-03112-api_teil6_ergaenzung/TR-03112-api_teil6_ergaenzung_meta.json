@@ -1,0 +1,1582 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Technical Guideline TR-03112-6 - \neCard-API-Framework",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          90.3603515625,
+          315.3388671875
+        ],
+        [
+          528.4100341796875,
+          315.3388671875
+        ],
+        [
+          528.4100341796875,
+          387.6982421875
+        ],
+        [
+          90.3603515625,
+          387.6982421875
+        ]
+      ]
+    },
+    {
+      "title": "Amendment: IFD Service",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          90.505859375,
+          415.44970703125
+        ],
+        [
+          297.41796875,
+          415.44970703125
+        ],
+        [
+          297.41796875,
+          438.6787109375
+        ],
+        [
+          90.505859375,
+          438.6787109375
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.51123046875,
+          85.412841796875
+        ],
+        [
+          208.94921875,
+          85.412841796875
+        ],
+        [
+          208.94921875,
+          109.875244140625
+        ],
+        [
+          55.51123046875,
+          109.875244140625
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.23876953125,
+          80.3250732421875
+        ],
+        [
+          212.732421875,
+          80.3250732421875
+        ],
+        [
+          212.732421875,
+          105.352783203125
+        ],
+        [
+          56.23876953125,
+          105.352783203125
+        ]
+      ]
+    },
+    {
+      "title": "1.1 Key Words",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.23876953125,
+          398.18212890625
+        ],
+        [
+          171.69921875,
+          398.18212890625
+        ],
+        [
+          171.69921875,
+          416.68310546875
+        ],
+        [
+          56.23876953125,
+          416.68310546875
+        ]
+      ]
+    },
+    {
+      "title": "2 Encoding",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.09326171875,
+          515.9716796875
+        ],
+        [
+          161.8046875,
+          515.9716796875
+        ],
+        [
+          161.8046875,
+          534.8837890625
+        ],
+        [
+          56.09326171875,
+          534.8837890625
+        ]
+      ]
+    },
+    {
+      "title": "3 Connecting UD and Remote IFD",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.45703125,
+          79.55419921875
+        ],
+        [
+          377.447265625,
+          79.55419921875
+        ],
+        [
+          377.447265625,
+          104.8388671875
+        ],
+        [
+          56.45703125,
+          104.8388671875
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Discovery",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.79999923706055,
+          129.5068359375
+        ],
+        [
+          165.587890625,
+          129.5068359375
+        ],
+        [
+          165.587890625,
+          147.80224609375
+        ],
+        [
+          56.79999923706055,
+          147.80224609375
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Pairing",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.638916015625,
+          394.6875
+        ],
+        [
+          147.1083984375,
+          394.6875
+        ],
+        [
+          147.1083984375,
+          415.244140625
+        ],
+        [
+          56.638916015625,
+          415.244140625
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Communication Establishment",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.166015625,
+          684.5361328125
+        ],
+        [
+          301.201171875,
+          684.5361328125
+        ],
+        [
+          301.201171875,
+          704.2705078125
+        ],
+        [
+          56.166015625,
+          704.2705078125
+        ]
+      ]
+    },
+    {
+      "title": "3.4 Un-Pairing",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.3115234375,
+          187.579345703125
+        ],
+        [
+          171.69921875,
+          187.579345703125
+        ],
+        [
+          171.69921875,
+          206.491455078125
+        ],
+        [
+          56.3115234375,
+          206.491455078125
+        ]
+      ]
+    },
+    {
+      "title": "4 Connecting UD and Local IFD",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.3115234375,
+          79.96533203125
+        ],
+        [
+          356.78515625,
+          79.96533203125
+        ],
+        [
+          356.78515625,
+          105.147216796875
+        ],
+        [
+          56.3115234375,
+          105.147216796875
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Android",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.202392578125,
+          159.9306640625
+        ],
+        [
+          153.365234375,
+          159.9306640625
+        ],
+        [
+          153.365234375,
+          179.45947265625
+        ],
+        [
+          56.202392578125,
+          179.45947265625
+        ]
+      ]
+    },
+    {
+      "title": "5 IFD Interface Messages",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.3115234375,
+          81.19873046875
+        ],
+        [
+          295.8173828125,
+          81.19873046875
+        ],
+        [
+          295.8173828125,
+          104.8388671875
+        ],
+        [
+          56.3115234375,
+          104.8388671875
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Message Formats",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.52978515625,
+          161.883544921875
+        ],
+        [
+          214.1875,
+          161.883544921875
+        ],
+        [
+          214.1875,
+          180.178955078125
+        ],
+        [
+          56.52978515625,
+          180.178955078125
+        ]
+      ]
+    },
+    {
+      "title": "5.1.1 Generic Message Format",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.38427734375,
+          255.724609375
+        ],
+        [
+          241.833984375,
+          255.724609375
+        ],
+        [
+          241.833984375,
+          272.5810546875
+        ],
+        [
+          56.38427734375,
+          272.5810546875
+        ]
+      ]
+    },
+    {
+      "title": "5.1.2 Response Message Format",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.79999923706055,
+          428.8115234375
+        ],
+        [
+          252.6015625,
+          428.8115234375
+        ],
+        [
+          252.6015625,
+          445.2568359375
+        ],
+        [
+          56.79999923706055,
+          445.2568359375
+        ]
+      ]
+    },
+    {
+      "title": "5.1.3 Error Message Format",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.3115234375,
+          612.9990234375
+        ],
+        [
+          227.7197265625,
+          612.9990234375
+        ],
+        [
+          227.7197265625,
+          631.0888671875
+        ],
+        [
+          56.3115234375,
+          631.0888671875
+        ]
+      ]
+    },
+    {
+      "title": "5.2 EstablishContext",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          56.52978515625,
+          155.716552734375
+        ],
+        [
+          211.27734375,
+          155.716552734375
+        ],
+        [
+          211.27734375,
+          174.6043701171875
+        ],
+        [
+          56.52978515625,
+          174.6043701171875
+        ]
+      ]
+    },
+    {
+      "title": "5.2.1 Message",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          56.38427734375,
+          218.92822265625
+        ],
+        [
+          148.49600219726562,
+          218.92822265625
+        ],
+        [
+          148.49600219726562,
+          233.89263916015625
+        ],
+        [
+          56.38427734375,
+          233.89263916015625
+        ]
+      ]
+    },
+    {
+      "title": "5.2.2 Response",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          56.67529296875,
+          424.2890625
+        ],
+        [
+          155.984375,
+          424.2890625
+        ],
+        [
+          155.984375,
+          438.3926696777344
+        ],
+        [
+          56.67529296875,
+          438.3926696777344
+        ]
+      ]
+    },
+    {
+      "title": "5.3 Connect",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          56.784423828125,
+          621.6328125
+        ],
+        [
+          155.8388671875,
+          621.6328125
+        ],
+        [
+          155.8388671875,
+          638.900390625
+        ],
+        [
+          56.784423828125,
+          638.900390625
+        ]
+      ]
+    },
+    {
+      "title": "5.3.1 Message",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          56.347900390625,
+          683.6926574707031
+        ],
+        [
+          149.7275390625,
+          683.6926574707031
+        ],
+        [
+          149.7275390625,
+          698.5146484375
+        ],
+        [
+          56.347900390625,
+          698.5146484375
+        ]
+      ]
+    },
+    {
+      "title": "5.3.2 Response",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          56.493408203125,
+          205.874755859375
+        ],
+        [
+          153.80198669433594,
+          205.874755859375
+        ],
+        [
+          153.80198669433594,
+          221.6005859375
+        ],
+        [
+          56.493408203125,
+          221.6005859375
+        ]
+      ]
+    },
+    {
+      "title": "5.4 Disconnect",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          56.79999923706055,
+          383.79248046875
+        ],
+        [
+          174.318359375,
+          383.79248046875
+        ],
+        [
+          174.318359375,
+          401.88232421875
+        ],
+        [
+          56.79999923706055,
+          401.88232421875
+        ]
+      ]
+    },
+    {
+      "title": "5.4.1 Message",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          56.79999923706055,
+          445.66796875
+        ],
+        [
+          149.873046875,
+          445.66796875
+        ],
+        [
+          149.873046875,
+          461.291015625
+        ],
+        [
+          56.79999923706055,
+          461.291015625
+        ]
+      ]
+    },
+    {
+      "title": "5.4.2 Response",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          56.79999923706055,
+          586.6865234375
+        ],
+        [
+          154.8203125,
+          586.6865234375
+        ],
+        [
+          154.8203125,
+          602.3095703125
+        ],
+        [
+          56.79999923706055,
+          602.3095703125
+        ]
+      ]
+    },
+    {
+      "title": "5.5 Transmit",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          56.52978515625,
+          82.0723876953125
+        ],
+        [
+          158.603515625,
+          80.4278564453125
+        ],
+        [
+          158.603515625,
+          99.6043701171875
+        ],
+        [
+          56.52978515625,
+          101.0872802734375
+        ]
+      ]
+    },
+    {
+      "title": "5.5.1 Message",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          56.784423828125,
+          143.999267578125
+        ],
+        [
+          149.58203125,
+          142.354736328125
+        ],
+        [
+          149.58203125,
+          158.89263916015625
+        ],
+        [
+          56.784423828125,
+          160.239013671875
+        ]
+      ]
+    },
+    {
+      "title": "5.5.2 Response",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          56.79999923706055,
+          417.91650390625
+        ],
+        [
+          157.1484375,
+          417.91650390625
+        ],
+        [
+          157.1484375,
+          434.978515625
+        ],
+        [
+          56.79999923706055,
+          434.978515625
+        ]
+      ]
+    },
+    {
+      "title": "5.6 EstablishPACEChannel",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          56.45703125,
+          625.744140625
+        ],
+        [
+          250.85546875,
+          625.744140625
+        ],
+        [
+          250.85546875,
+          646.30078125
+        ],
+        [
+          56.45703125,
+          646.30078125
+        ]
+      ]
+    },
+    {
+      "title": "5.6.1 Message",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          56.79999923706055,
+          170.208984375
+        ],
+        [
+          149.0,
+          170.208984375
+        ],
+        [
+          149.0,
+          185.62646484375
+        ],
+        [
+          56.79999923706055,
+          185.62646484375
+        ]
+      ]
+    },
+    {
+      "title": "5.6.2 Response",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          56.748046875,
+          395.0986328125
+        ],
+        [
+          154.6748046875,
+          395.0986328125
+        ],
+        [
+          154.6748046875,
+          410.310546875
+        ],
+        [
+          56.748046875,
+          410.310546875
+        ]
+      ]
+    },
+    {
+      "title": "5.7 ModifyPIN",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          56.566162109375,
+          617.1103515625
+        ],
+        [
+          172.572265625,
+          617.1103515625
+        ],
+        [
+          172.572265625,
+          635.4043273925781
+        ],
+        [
+          56.566162109375,
+          635.4043273925781
+        ]
+      ]
+    },
+    {
+      "title": "5.7.1 Message",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          56.79999923706055,
+          127.553955078125
+        ],
+        [
+          149.873046875,
+          127.553955078125
+        ],
+        [
+          149.873046875,
+          142.765869140625
+        ],
+        [
+          56.79999923706055,
+          142.765869140625
+        ]
+      ]
+    },
+    {
+      "title": "5.7.2 Response",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          56.79999923706055,
+          268.05859375
+        ],
+        [
+          155.693359375,
+          268.05859375
+        ],
+        [
+          155.693359375,
+          283.79266357421875
+        ],
+        [
+          56.79999923706055,
+          283.79266357421875
+        ]
+      ]
+    },
+    {
+      "title": "5.8 GetIFDStatus",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          56.79999923706055,
+          434.978515625
+        ],
+        [
+          189.7421875,
+          434.978515625
+        ],
+        [
+          189.7421875,
+          453.068359375
+        ],
+        [
+          56.79999923706055,
+          453.068359375
+        ]
+      ]
+    },
+    {
+      "title": "5.8.1 Requesting Status information",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          56.52978515625,
+          477.736328125
+        ],
+        [
+          273.263671875,
+          477.736328125
+        ],
+        [
+          273.263671875,
+          493.359375
+        ],
+        [
+          56.52978515625,
+          493.359375
+        ]
+      ]
+    },
+    {
+      "title": "5.8.2 IFDStatus",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          56.275146484375,
+          636.43359375
+        ],
+        [
+          158.021484375,
+          636.43359375
+        ],
+        [
+          158.021484375,
+          652.87890625
+        ],
+        [
+          56.275146484375,
+          652.87890625
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          55.94775390625,
+          111.62255859375
+        ],
+        [
+          134.37646484375,
+          111.62255859375
+        ],
+        [
+          134.37646484375,
+          130.94580078125
+        ],
+        [
+          55.94775390625,
+          130.94580078125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          9
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          13
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          105
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          130
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          29
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          35
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          134
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          129
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          146
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Code",
+          4
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          137
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          139
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          148
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "TableCell",
+          9
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Code",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          126
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Code",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          45
+        ],
+        [
+          "TableCell",
+          20
+        ],
+        [
+          "Line",
+          13
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/TR-03112-api_teil6_ergaenzung"
+}

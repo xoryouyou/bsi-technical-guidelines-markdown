@@ -1,0 +1,1250 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Profilierungen im Rahmen der \nBSI Technischen Richtlinie 03125 Beweiswerterhaltung \nkryptographisch signierter Dokumente",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          77.2802734375,
+          288.40966796875
+        ],
+        [
+          486.4659423828125,
+          288.40966796875
+        ],
+        [
+          486.4659423828125,
+          352.13525390625
+        ],
+        [
+          77.2802734375,
+          352.13525390625
+        ]
+      ]
+    },
+    {
+      "title": "Anlage TR-ESOR-Profil-XBDP: Profilierung des XAIP mit \nXBARCH, XDOMEA und PREMIS",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          78.006591796875,
+          370.63623046875
+        ],
+        [
+          485.6521301269531,
+          370.63623046875
+        ],
+        [
+          485.6521301269531,
+          407.63818359375
+        ],
+        [
+          78.006591796875,
+          407.63818359375
+        ]
+      ]
+    },
+    {
+      "title": "Inhaltsverzeichnis",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          76.69921875,
+          89.6783447265625
+        ],
+        [
+          203.223876953125,
+          89.6783447265625
+        ],
+        [
+          203.223876953125,
+          110.080810546875
+        ],
+        [
+          76.69921875,
+          110.080810546875
+        ]
+      ]
+    },
+    {
+      "title": "Abbildungsverzeichnis",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          78.0792236328125,
+          379.27001953125
+        ],
+        [
+          233.427978515625,
+          379.27001953125
+        ],
+        [
+          233.427978515625,
+          398.18212890625
+        ],
+        [
+          78.0792236328125,
+          398.18212890625
+        ]
+      ]
+    },
+    {
+      "title": "Tabellenverzeichnis",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          77.861328125,
+          537.3505859375
+        ],
+        [
+          213.392333984375,
+          537.3505859375
+        ],
+        [
+          213.392333984375,
+          555.4404296875
+        ],
+        [
+          77.861328125,
+          555.4404296875
+        ]
+      ]
+    },
+    {
+      "title": "1. Einf\u00fchrung",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          77.2802734375,
+          81.918212890625
+        ],
+        [
+          182.886962890625,
+          81.918212890625
+        ],
+        [
+          182.886962890625,
+          100.624755859375
+        ],
+        [
+          77.2802734375,
+          100.624755859375
+        ]
+      ]
+    },
+    {
+      "title": "2. \u00dcbersicht",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          77.135009765625,
+          79.6055908203125
+        ],
+        [
+          167.9248046875,
+          79.6055908203125
+        ],
+        [
+          167.9248046875,
+          100.3677978515625
+        ],
+        [
+          77.135009765625,
+          100.3677978515625
+        ]
+      ]
+    },
+    {
+      "title": "HINWEIS:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          77.861328125,
+          325.2060546875
+        ],
+        [
+          132.335205078125,
+          325.2060546875
+        ],
+        [
+          132.335205078125,
+          338.3623046875
+        ],
+        [
+          77.861328125,
+          338.3623046875
+        ]
+      ]
+    },
+    {
+      "title": "HINWEIS:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          77.425537109375,
+          398.3876953125
+        ],
+        [
+          133.206787109375,
+          398.3876953125
+        ],
+        [
+          133.206787109375,
+          411.1328125
+        ],
+        [
+          77.425537109375,
+          411.1328125
+        ]
+      ]
+    },
+    {
+      "title": "3. Profilierung des XML-Schemas f\u00fcr XAIP im Zusammenhang \nmit XBARCH, XDOMEA und PREMIS f\u00fcr die Beh\u00f6rden der \nBundesverwaltung",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          77.135009765625,
+          80.273681640625
+        ],
+        [
+          523.8600463867188,
+          80.273681640625
+        ],
+        [
+          523.8600463867188,
+          136.598876953125
+        ],
+        [
+          77.135009765625,
+          136.598876953125
+        ]
+      ]
+    },
+    {
+      "title": "3.1 TR-ESOR Anlage F",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          77.716064453125,
+          230.02880859375
+        ],
+        [
+          227.337646484375,
+          230.02880859375
+        ],
+        [
+          227.337646484375,
+          246.88525390625
+        ],
+        [
+          77.716064453125,
+          246.88525390625
+        ]
+      ]
+    },
+    {
+      "title": "3.1.1 \u00dcberblick \u00fcber die XAIP-Datenstruktur \u2013 das <XAIP>-Element",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          77.861328125,
+          258.19140625
+        ],
+        [
+          416.32568359375,
+          258.19140625
+        ],
+        [
+          416.32568359375,
+          272.5810546875
+        ],
+        [
+          77.861328125,
+          272.5810546875
+        ]
+      ]
+    },
+    {
+      "title": "3.1 \u00dcberblick \u00fcber die XAIP-Datenstruktur \u2013 das <XAIP>-Element",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          79.749755859375,
+          282.65380859375
+        ],
+        [
+          400.3466796875,
+          282.65380859375
+        ],
+        [
+          400.3466796875,
+          296.63232421875
+        ],
+        [
+          79.749755859375,
+          296.63232421875
+        ]
+      ]
+    },
+    {
+      "title": "3.1.2 Der xaip:packageHeaderType",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          76.1907958984375,
+          89.8839111328125
+        ],
+        [
+          271.3525390625,
+          89.8839111328125
+        ],
+        [
+          271.3525390625,
+          104.6846923828125
+        ],
+        [
+          76.1907958984375,
+          104.6846923828125
+        ]
+      ]
+    },
+    {
+      "title": "3.1.3 Profilierung der XAIP-MetaDataSection im Zusammenhang mit XBARCH und \nXDOMEA",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          77.135009765625,
+          78.115234375
+        ],
+        [
+          524.6919555664062,
+          78.115234375
+        ],
+        [
+          524.6919555664062,
+          105.6611328125
+        ],
+        [
+          77.135009765625,
+          105.6611328125
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Technische Metadaten (optional)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          76.844482421875,
+          78.4749755859375
+        ],
+        [
+          303.8916015625,
+          78.4749755859375
+        ],
+        [
+          303.8916015625,
+          95.3314208984375
+        ],
+        [
+          76.844482421875,
+          95.3314208984375
+        ]
+      ]
+    },
+    {
+      "title": "Abbildung 2: Aufbau des Datentypes xaip:TechnischeMetadatenTyp",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          77.861328125,
+          401.6767578125
+        ],
+        [
+          399.0500183105469,
+          401.6767578125
+        ],
+        [
+          399.0500183105469,
+          414.8330078125
+        ],
+        [
+          77.861328125,
+          414.8330078125
+        ]
+      ]
+    },
+    {
+      "title": "@TechMetadatenID [optional]",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          78.0999984741211,
+          444.4345703125
+        ],
+        [
+          229.7239990234375,
+          444.4345703125
+        ],
+        [
+          229.7239990234375,
+          456.815185546875
+        ],
+        [
+          78.0999984741211,
+          456.815185546875
+        ]
+      ]
+    },
+    {
+      "title": "Beispiel:",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          78.006591796875,
+          665.212890625
+        ],
+        [
+          118.53515625,
+          665.212890625
+        ],
+        [
+          118.53515625,
+          678.369140625
+        ],
+        [
+          78.006591796875,
+          678.369140625
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Fachliche Metadaten (optional)\nAbbildung 3: Beispiel einer Ablage von technischen Metadaten.",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          77.57080078125,
+          339.39013671875
+        ],
+        [
+          382.6199645996094,
+          339.39013671875
+        ],
+        [
+          382.6199645996094,
+          365.7317199707031
+        ],
+        [
+          77.57080078125,
+          365.7317199707031
+        ]
+      ]
+    },
+    {
+      "title": "Beispiel:",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          77.425537109375,
+          413.39404296875
+        ],
+        [
+          119.842529296875,
+          413.39404296875
+        ],
+        [
+          119.842529296875,
+          426.755859375
+        ],
+        [
+          77.425537109375,
+          426.755859375
+        ]
+      ]
+    },
+    {
+      "title": "3.4 Wertesystem f\u00fcr Kategorisierung und Klassifizierung der Metadaten\nAbbildung 4: Beispiel einer Ablage von fachlichen Metadaten",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          78.006591796875,
+          687.4140625
+        ],
+        [
+          520.625,
+          687.4140625
+        ],
+        [
+          520.625,
+          715.37109375
+        ],
+        [
+          78.006591796875,
+          715.37109375
+        ]
+      ]
+    },
+    {
+      "title": "4. Anhang A \u2013 XML-Schema-Definition",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          77.3529052734375,
+          80.37646484375
+        ],
+        [
+          353.8623046875,
+          80.37646484375
+        ],
+        [
+          353.8623046875,
+          100.52197265625
+        ],
+        [
+          77.3529052734375,
+          100.52197265625
+        ]
+      ]
+    },
+    {
+      "title": "4.1 XAIP-Schema-Erweiterung",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          77.4981689453125,
+          117.275634765625
+        ],
+        [
+          273.38623046875,
+          117.275634765625
+        ],
+        [
+          273.38623046875,
+          134.954345703125
+        ],
+        [
+          77.4981689453125,
+          134.954345703125
+        ]
+      ]
+    },
+    {
+      "title": "Abbildung 5: XAIP-Schema erweitert um die Aspekte dieser Profilierung",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          77.716064453125,
+          573.119140625
+        ],
+        [
+          419.521484375,
+          573.119140625
+        ],
+        [
+          419.521484375,
+          587.09765625
+        ],
+        [
+          77.716064453125,
+          587.09765625
+        ]
+      ]
+    },
+    {
+      "title": "4.2 XBarch-Schema-Erweiterung",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          77.861328125,
+          606.83203125
+        ],
+        [
+          285.87890625,
+          606.83203125
+        ],
+        [
+          285.87890625,
+          623.27734375
+        ],
+        [
+          77.861328125,
+          623.27734375
+        ]
+      ]
+    },
+    {
+      "title": "Abbildung 6 Definition des vom XBarch abgeleiteten Typs xbarch:Technische_Daten",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          86.431884765625,
+          515.560546875
+        ],
+        [
+          488.6669921875,
+          515.560546875
+        ],
+        [
+          488.6669921875,
+          528.716796875
+        ],
+        [
+          86.431884765625,
+          528.716796875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          31
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          19
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          66
+        ],
+        [
+          "TableCell",
+          38
+        ],
+        [
+          "Line",
+          26
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "TableOfContents",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          117
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          7
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          76
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "TableCell",
+          29
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          164
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          90
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          52
+        ],
+        [
+          "Line",
+          17
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          45
+        ],
+        [
+          "Line",
+          13
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          36
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          7
+        ],
+        [
+          "Line",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/BSI_TR_03125_Anlage_XBDP_V1_2_1"
+}

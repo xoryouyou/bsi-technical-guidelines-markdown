@@ -1,0 +1,1253 @@
+{
+  "table_of_contents": [
+    {
+      "title": "BSI Technische Richtlinie 03125\nBeweiswerterhaltung kryptographisch signierter Dokumente",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          77.425537109375,
+          285.326171875
+        ],
+        [
+          513.0712890625,
+          285.326171875
+        ],
+        [
+          513.0712890625,
+          326.0283203125
+        ],
+        [
+          77.425537109375,
+          326.0283203125
+        ]
+      ]
+    },
+    {
+      "title": "Anlage TR-ESOR-B: Profilierung f\u00fcr Bundesbeh\u00f6rden",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          78.0999984741211,
+          339.595703125
+        ],
+        [
+          454.67529296875,
+          339.595703125
+        ],
+        [
+          454.67529296875,
+          358.5078125
+        ],
+        [
+          78.0999984741211,
+          358.5078125
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          76.6265869140625,
+          89.2158203125
+        ],
+        [
+          204.24072265625,
+          89.2158203125
+        ],
+        [
+          204.24072265625,
+          109.7724609375
+        ],
+        [
+          76.6265869140625,
+          109.7724609375
+        ]
+      ]
+    },
+    {
+      "title": "1. Einf\u00fchrung",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          76.98974609375,
+          78.5263671875
+        ],
+        [
+          181.434326171875,
+          78.5263671875
+        ],
+        [
+          181.434326171875,
+          97.746826171875
+        ],
+        [
+          76.98974609375,
+          97.746826171875
+        ]
+      ]
+    },
+    {
+      "title": "2. \u00dcbersicht",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          77.0623779296875,
+          76.470703125
+        ],
+        [
+          169.66796875,
+          76.470703125
+        ],
+        [
+          169.66796875,
+          97.335693359375
+        ],
+        [
+          77.0623779296875,
+          97.335693359375
+        ]
+      ]
+    },
+    {
+      "title": "HINWEIS:",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          77.135009765625,
+          499.5263671875
+        ],
+        [
+          137.855224609375,
+          499.5263671875
+        ],
+        [
+          137.855224609375,
+          513.5048828125
+        ],
+        [
+          77.135009765625,
+          513.5048828125
+        ]
+      ]
+    },
+    {
+      "title": "3. Profilierung der Anforderungen f\u00fcr die Beh\u00f6rden der Bundes-\nverwaltung",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          76.98974609375,
+          78.218017578125
+        ],
+        [
+          527.88818359375,
+          78.218017578125
+        ],
+        [
+          527.88818359375,
+          117.070068359375
+        ],
+        [
+          76.98974609375,
+          117.070068359375
+        ]
+      ]
+    },
+    {
+      "title": "3.1 TR-ESOR Hauptdokument",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          77.6434326171875,
+          195.49365234375
+        ],
+        [
+          273.96728515625,
+          195.49365234375
+        ],
+        [
+          273.96728515625,
+          212.35009765625
+        ],
+        [
+          77.6434326171875,
+          212.35009765625
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Funktionen der Middleware zum Beweiswerterhalt",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          80.80000305175781,
+          226.123046875
+        ],
+        [
+          361.9970703125,
+          226.123046875
+        ],
+        [
+          361.9970703125,
+          240.5126953125
+        ],
+        [
+          80.80000305175781,
+          240.5126953125
+        ]
+      ]
+    },
+    {
+      "title": "6.2 Empfohlene Datenformate",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          80.621337890625,
+          533.2392578125
+        ],
+        [
+          237.215576171875,
+          533.2392578125
+        ],
+        [
+          237.215576171875,
+          548.0400390625
+        ],
+        [
+          80.621337890625,
+          548.0400390625
+        ]
+      ]
+    },
+    {
+      "title": "3.2 TR-ESOR Anlage E",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          78.0999984741211,
+          96.0509033203125
+        ],
+        [
+          228.3544921875,
+          96.0509033203125
+        ],
+        [
+          228.3544921875,
+          112.44482421875
+        ],
+        [
+          78.0999984741211,
+          112.44482421875
+        ]
+      ]
+    },
+    {
+      "title": "2.0 \u00dcberblick",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          79.749755859375,
+          126.2177734375
+        ],
+        [
+          154.124755859375,
+          126.2177734375
+        ],
+        [
+          154.124755859375,
+          141.0185546875
+        ],
+        [
+          79.749755859375,
+          141.0185546875
+        ]
+      ]
+    },
+    {
+      "title": "2.0 \u00dcberblick",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          80.80000305175781,
+          493.359375
+        ],
+        [
+          153.3984375,
+          493.359375
+        ],
+        [
+          153.3984375,
+          508.982421875
+        ],
+        [
+          80.80000305175781,
+          508.982421875
+        ]
+      ]
+    },
+    {
+      "title": "Erl\u00e4uterung:",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          80.80000305175781,
+          696.458984375
+        ],
+        [
+          135.66799926757812,
+          696.458984375
+        ],
+        [
+          135.66799926757812,
+          709.615234375
+        ],
+        [
+          80.80000305175781,
+          709.615234375
+        ]
+      ]
+    },
+    {
+      "title": "2.0 \u00dcberblick",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          79.89501953125,
+          176.067626953125
+        ],
+        [
+          151.800537109375,
+          176.067626953125
+        ],
+        [
+          151.800537109375,
+          191.073974609375
+        ],
+        [
+          79.89501953125,
+          191.073974609375
+        ]
+      ]
+    },
+    {
+      "title": "2.0 \u00dcberblick",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          80.6939697265625,
+          531.5947265625
+        ],
+        [
+          151.6552734375,
+          531.5947265625
+        ],
+        [
+          151.6552734375,
+          547.6414489746094
+        ],
+        [
+          80.6939697265625,
+          547.6414489746094
+        ]
+      ]
+    },
+    {
+      "title": "3.3 TR-ESOR Anlage F",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          77.2076416015625,
+          109.875244140625
+        ],
+        [
+          228.3544921875,
+          109.875244140625
+        ],
+        [
+          228.3544921875,
+          126.731689453125
+        ],
+        [
+          77.2076416015625,
+          126.731689453125
+        ]
+      ]
+    },
+    {
+      "title": "3. Definition der Archivdatenobjekte (XAIP)",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          80.80000305175781,
+          140.81298828125
+        ],
+        [
+          309.7021484375,
+          140.81298828125
+        ],
+        [
+          309.7021484375,
+          155.20263671875
+        ],
+        [
+          80.80000305175781,
+          155.20263671875
+        ]
+      ]
+    },
+    {
+      "title": "5.6 Empfehlungen f\u00fcr die Umsetzung",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          80.47607421875,
+          417.7109375
+        ],
+        [
+          272.5146484375,
+          417.7109375
+        ],
+        [
+          272.5146484375,
+          432.51171875
+        ],
+        [
+          80.47607421875,
+          432.51171875
+        ]
+      ]
+    },
+    {
+      "title": "Erl\u00e4uterung:",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          79.8223876953125,
+          614.6435546875
+        ],
+        [
+          136.3299560546875,
+          614.6435546875
+        ],
+        [
+          136.3299560546875,
+          628.6220703125
+        ],
+        [
+          79.8223876953125,
+          628.6220703125
+        ]
+      ]
+    },
+    {
+      "title": "5.6 Empfehlungen f\u00fcr die Umsetzung",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          79.2413330078125,
+          764.2958984375
+        ],
+        [
+          273.095703125,
+          764.2958984375
+        ],
+        [
+          273.095703125,
+          779.9189453125
+        ],
+        [
+          79.2413330078125,
+          779.9189453125
+        ]
+      ]
+    },
+    {
+      "title": "3.4 TR-ESOR Anlage S",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          77.861328125,
+          372.28076171875
+        ],
+        [
+          227.7734375,
+          372.28076171875
+        ],
+        [
+          227.7734375,
+          387.90380859375
+        ],
+        [
+          77.861328125,
+          387.90380859375
+        ]
+      ]
+    },
+    {
+      "title": "3.5 TR-ESOR Anlage M.1",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          78.006591796875,
+          424.2890625
+        ],
+        [
+          243.316650390625,
+          424.2890625
+        ],
+        [
+          243.316650390625,
+          440.734375
+        ],
+        [
+          78.006591796875,
+          440.734375
+        ]
+      ]
+    },
+    {
+      "title": "4.4 L\u00f6schen von Archivdaten \u2013 ArchiveDeletionRequest",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          79.459228515625,
+          455.1240234375
+        ],
+        [
+          366.064453125,
+          455.1240234375
+        ],
+        [
+          366.064453125,
+          469.1025390625
+        ],
+        [
+          79.459228515625,
+          469.1025390625
+        ]
+      ]
+    },
+    {
+      "title": "3.6 TR-ESOR Anlage M.2",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          77.4981689453125,
+          283.06494140625
+        ],
+        [
+          242.59033203125,
+          283.06494140625
+        ],
+        [
+          242.59033203125,
+          298.43170166015625
+        ],
+        [
+          77.4981689453125,
+          298.43170166015625
+        ]
+      ]
+    },
+    {
+      "title": "3.7 TR-ESOR Anlage M.3",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          77.4981689453125,
+          336.306640625
+        ],
+        [
+          241.42822265625,
+          336.306640625
+        ],
+        [
+          241.42822265625,
+          351.9296875
+        ],
+        [
+          77.4981689453125,
+          351.9296875
+        ]
+      ]
+    },
+    {
+      "title": "3.8 TR-ESOR Anlage ERS",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          77.57080078125,
+          388.72607421875
+        ],
+        [
+          247.23876953125,
+          388.72607421875
+        ],
+        [
+          247.23876953125,
+          404.34912109375
+        ],
+        [
+          77.57080078125,
+          404.34912109375
+        ]
+      ]
+    },
+    {
+      "title": "3.9 TR-ESOR Anlage VR",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          77.135009765625,
+          441.1455078125
+        ],
+        [
+          239.249267578125,
+          441.1455078125
+        ],
+        [
+          239.249267578125,
+          456.7685546875
+        ],
+        [
+          77.135009765625,
+          456.7685546875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          21
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          21
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          26
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          90
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          26
+        ],
+        [
+          "Line",
+          15
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          135
+        ],
+        [
+          "Line",
+          56
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          128
+        ],
+        [
+          "Line",
+          52
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          20
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          64
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          127
+        ],
+        [
+          "Line",
+          69
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          64
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          63
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          67
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          49
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/BSI_TR_03125_Anlage_B_V1_2_1"
+}

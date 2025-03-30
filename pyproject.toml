@@ -1,0 +1,11 @@
+[project]
+name = "bsi-technical-guidelines-markdown"
+version = "0.0.1"
+description = "BSI Technical guidelines in markdown format"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.13.3",
+    "marker-pdf>=1.6.2",
+    "requests>=2.32.3",
+]

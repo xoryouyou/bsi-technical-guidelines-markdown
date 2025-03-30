@@ -1,0 +1,1973 @@
+{
+  "table_of_contents": [
+    {
+      "title": "BSI Technische Richtlinie 03138\nErsetzendes Scannen",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          91.37890625,
+          316.36669921875
+        ],
+        [
+          501.419921875,
+          316.36669921875
+        ],
+        [
+          501.419921875,
+          387.08154296875
+        ],
+        [
+          91.37890625,
+          387.08154296875
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.51123046875,
+          85.6697998046875
+        ],
+        [
+          214.1875,
+          85.6697998046875
+        ],
+        [
+          214.1875,
+          109.56689453125
+        ],
+        [
+          55.51123046875,
+          109.56689453125
+        ]
+      ]
+    },
+    {
+      "title": "1 Einleitung",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.638916015625,
+          85.8753662109375
+        ],
+        [
+          191.3427734375,
+          85.8753662109375
+        ],
+        [
+          191.3427734375,
+          110.080810546875
+        ],
+        [
+          56.638916015625,
+          110.080810546875
+        ]
+      ]
+    },
+    {
+      "title": "2 \u00dcberblick",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.52978515625,
+          84.5391845703125
+        ],
+        [
+          164.71484375,
+          84.5391845703125
+        ],
+        [
+          164.71484375,
+          104.3763427734375
+        ],
+        [
+          56.52978515625,
+          104.3763427734375
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Organisatorisches Umfeld",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.748046875,
+          128.581787109375
+        ],
+        [
+          248.818359375,
+          128.581787109375
+        ],
+        [
+          248.818359375,
+          144.615966796875
+        ],
+        [
+          56.748046875,
+          144.615966796875
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Rechtliche Rahmenbedingungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.875,
+          477.3251953125
+        ],
+        [
+          311.96875,
+          477.3251953125
+        ],
+        [
+          311.96875,
+          494.704345703125
+        ],
+        [
+          55.875,
+          494.704345703125
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Verarbeitete Dokumente",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.3115234375,
+          565.3076171875
+        ],
+        [
+          262.0595703125,
+          565.3076171875
+        ],
+        [
+          262.0595703125,
+          582.5751953125
+        ],
+        [
+          56.3115234375,
+          582.5751953125
+        ]
+      ]
+    },
+    {
+      "title": "2.4 Nicht verarbeitete Dokumente",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.166015625,
+          670.146484375
+        ],
+        [
+          299.455078125,
+          670.146484375
+        ],
+        [
+          299.455078125,
+          688.236328125
+        ],
+        [
+          56.166015625,
+          688.236328125
+        ]
+      ]
+    },
+    {
+      "title": "2.5 Der Scanprozess",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.275146484375,
+          166.30322265625
+        ],
+        [
+          195.7080078125,
+          166.30322265625
+        ],
+        [
+          195.7080078125,
+          182.33740234375
+        ],
+        [
+          56.275146484375,
+          182.33740234375
+        ]
+      ]
+    },
+    {
+      "title": "2.5.1 Eingang des Dokumentes",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.0205078125,
+          394.2763671875
+        ],
+        [
+          245.4716796875,
+          394.2763671875
+        ],
+        [
+          245.4716796875,
+          409.48828125
+        ],
+        [
+          56.0205078125,
+          409.48828125
+        ]
+      ]
+    },
+    {
+      "title": "2.5.2 Dokumentenvorbereitung",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.67529296875,
+          453.4794921875
+        ],
+        [
+          249.400390625,
+          453.4794921875
+        ],
+        [
+          249.400390625,
+          469.1025390625
+        ],
+        [
+          56.67529296875,
+          469.1025390625
+        ]
+      ]
+    },
+    {
+      "title": "2.5.2.1 Vorsortierung mit Pr\u00fcfung auf Echtheit",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.0205078125,
+          493.359375
+        ],
+        [
+          322.4453125,
+          493.359375
+        ],
+        [
+          322.4453125,
+          508.16015625
+        ],
+        [
+          56.0205078125,
+          508.16015625
+        ]
+      ]
+    },
+    {
+      "title": "2.5.2.2 Identifikation der zu scannenden Belege (rechtliche bzw. faktische Pr\u00fcfung)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.6025390625,
+          96.82177734375
+        ],
+        [
+          514.515625,
+          96.82177734375
+        ],
+        [
+          514.515625,
+          113.26708984375
+        ],
+        [
+          56.6025390625,
+          113.26708984375
+        ]
+      ]
+    },
+    {
+      "title": "2.5.2.3 Vorbereitung der zu digitalisierenden Dokumente (technische Pr\u00fcfung)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.166015625,
+          292.3154296875
+        ],
+        [
+          489.197265625,
+          292.3154296875
+        ],
+        [
+          489.197265625,
+          308.7607421875
+        ],
+        [
+          56.166015625,
+          308.7607421875
+        ]
+      ]
+    },
+    {
+      "title": "2.5.3 Scannen",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.638916015625,
+          460.8798828125
+        ],
+        [
+          150.0185546875,
+          460.8798828125
+        ],
+        [
+          150.0185546875,
+          476.29266357421875
+        ],
+        [
+          56.638916015625,
+          476.29266357421875
+        ]
+      ]
+    },
+    {
+      "title": "\u00dcberblick",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.638916015625,
+          55.5029296875
+        ],
+        [
+          89.341796875,
+          55.5029296875
+        ],
+        [
+          89.341796875,
+          67.22021484375
+        ],
+        [
+          56.638916015625,
+          67.22021484375
+        ]
+      ]
+    },
+    {
+      "title": "2.5.4 Nachverarbeitung",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.166015625,
+          283.681640625
+        ],
+        [
+          202.255859375,
+          283.681640625
+        ],
+        [
+          202.255859375,
+          299.7158203125
+        ],
+        [
+          56.166015625,
+          299.7158203125
+        ]
+      ]
+    },
+    {
+      "title": "2.5.5 Integrit\u00e4tssicherung",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.6025390625,
+          97.0787353515625
+        ],
+        [
+          216.3701171875,
+          97.0787353515625
+        ],
+        [
+          216.3701171875,
+          114.08935546875
+        ],
+        [
+          56.6025390625,
+          114.08935546875
+        ]
+      ]
+    },
+    {
+      "title": "2.5.6 Aufbewahrung [bis zur \u00dcbergabe an Langzeitspeicher]",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.45703125,
+          212.76123046875
+        ],
+        [
+          408.00390625,
+          212.76123046875
+        ],
+        [
+          408.00390625,
+          230.02880859375
+        ],
+        [
+          56.45703125,
+          230.02880859375
+        ]
+      ]
+    },
+    {
+      "title": "2.5.7 Vernichtung des Originals",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.166015625,
+          361.796875
+        ],
+        [
+          248.52734375,
+          361.796875
+        ],
+        [
+          248.52734375,
+          379.064453125
+        ],
+        [
+          56.166015625,
+          379.064453125
+        ]
+      ]
+    },
+    {
+      "title": "2.6 Das Scansystem",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.420654296875,
+          534.47265625
+        ],
+        [
+          191.9248046875,
+          534.47265625
+        ],
+        [
+          191.9248046875,
+          550.91796875
+        ],
+        [
+          56.420654296875,
+          550.91796875
+        ]
+      ]
+    },
+    {
+      "title": "2.6.1 Digitalisierung",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.275146484375,
+          605.5986328125
+        ],
+        [
+          183.4853515625,
+          605.5986328125
+        ],
+        [
+          183.4853515625,
+          622.0439453125
+        ],
+        [
+          56.275146484375,
+          622.0439453125
+        ]
+      ]
+    },
+    {
+      "title": "2.6.2 Integrit\u00e4tssicherung",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.52978515625,
+          116.3505859375
+        ],
+        [
+          216.224609375,
+          116.3505859375
+        ],
+        [
+          216.224609375,
+          132.7958984375
+        ],
+        [
+          56.52978515625,
+          132.7958984375
+        ]
+      ]
+    },
+    {
+      "title": "2.6.3 Aufbewahrung [bis zur \u00dcbergabe an Langzeitspeicher]",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.166015625,
+          385.84814453125
+        ],
+        [
+          408.876953125,
+          385.84814453125
+        ],
+        [
+          408.876953125,
+          402.29345703125
+        ],
+        [
+          56.166015625,
+          402.29345703125
+        ]
+      ]
+    },
+    {
+      "title": "2.6.4 Umgebung",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.911376953125,
+          207.2109375
+        ],
+        [
+          164.1328125,
+          207.2109375
+        ],
+        [
+          164.1328125,
+          223.2451171875
+        ],
+        [
+          55.911376953125,
+          223.2451171875
+        ]
+      ]
+    },
+    {
+      "title": "3 Ma\u00dfnahmen",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          56.79999923706055,
+          85.9781494140625
+        ],
+        [
+          185.376953125,
+          85.9781494140625
+        ],
+        [
+          185.376953125,
+          104.2735595703125
+        ],
+        [
+          56.79999923706055,
+          104.2735595703125
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Organisatorische Ma\u00dfnahmen",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          56.748046875,
+          128.89013671875
+        ],
+        [
+          297.708984375,
+          128.89013671875
+        ],
+        [
+          297.708984375,
+          146.97998046875
+        ],
+        [
+          56.748046875,
+          146.97998046875
+        ]
+      ]
+    },
+    {
+      "title": "3.1.1 Verantwortlichkeiten und Regelungen",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          56.67529296875,
+          171.4423828125
+        ],
+        [
+          317.20703125,
+          171.4423828125
+        ],
+        [
+          317.20703125,
+          187.68212890625
+        ],
+        [
+          56.67529296875,
+          187.68212890625
+        ]
+      ]
+    },
+    {
+      "title": "3.1.1.2 Scannen",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          56.0205078125,
+          328.28955078125
+        ],
+        [
+          159.9130859375,
+          328.28955078125
+        ],
+        [
+          159.9130859375,
+          342.67919921875
+        ],
+        [
+          56.0205078125,
+          342.67919921875
+        ]
+      ]
+    },
+    {
+      "title": "3.1.1.3 Nachverarbeitung",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.875,
+          399.2099609375
+        ],
+        [
+          210.986328125,
+          399.2099609375
+        ],
+        [
+          210.986328125,
+          414.0107421875
+        ],
+        [
+          55.875,
+          414.0107421875
+        ]
+      ]
+    },
+    {
+      "title": "3.1.1.4 Integrit\u00e4tssicherung",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          56.0205078125,
+          97.5926513671875
+        ],
+        [
+          222.7724609375,
+          97.5926513671875
+        ],
+        [
+          222.7724609375,
+          113.164306640625
+        ],
+        [
+          56.0205078125,
+          113.164306640625
+        ]
+      ]
+    },
+    {
+      "title": "3.1.1.5 Geeignete Aufbewahrung [bis zur \u00dcbergabe an Langzeitspeicher]",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          55.1474609375,
+          169.078369140625
+        ],
+        [
+          456.3125,
+          169.078369140625
+        ],
+        [
+          456.3125,
+          183.879150390625
+        ],
+        [
+          55.1474609375,
+          183.879150390625
+        ]
+      ]
+    },
+    {
+      "title": "3.1.1.6 Vernichtung des Originals",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          55.80224609375,
+          240.71826171875
+        ],
+        [
+          251.728515625,
+          240.71826171875
+        ],
+        [
+          251.728515625,
+          255.10791015625
+        ],
+        [
+          55.80224609375,
+          255.10791015625
+        ]
+      ]
+    },
+    {
+      "title": "3.1.2 Regelungen f\u00fcr Wartungs- und Reparaturarbeiten",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          56.166015625,
+          488.42578125
+        ],
+        [
+          385.013671875,
+          488.42578125
+        ],
+        [
+          385.013671875,
+          504.048828125
+        ],
+        [
+          56.166015625,
+          504.048828125
+        ]
+      ]
+    },
+    {
+      "title": "3.1.3 Abnahme- und Freigabe-Verfahren f\u00fcr Hardware und Software",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          56.6025390625,
+          85.1558837890625
+        ],
+        [
+          460.96875,
+          85.1558837890625
+        ],
+        [
+          460.96875,
+          102.2178955078125
+        ],
+        [
+          56.6025390625,
+          102.2178955078125
+        ]
+      ]
+    },
+    {
+      "title": "3.1.4 Aufrechterhaltung der Informationssicherheit",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          56.3115234375,
+          263.125
+        ],
+        [
+          360.859375,
+          263.125
+        ],
+        [
+          360.859375,
+          279.5703125
+        ],
+        [
+          56.3115234375,
+          279.5703125
+        ]
+      ]
+    },
+    {
+      "title": "3.1.5 Anforderungen beim Outsourcing des Scanprozesses",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          56.166015625,
+          485.958984375
+        ],
+        [
+          401.6015625,
+          485.958984375
+        ],
+        [
+          401.6015625,
+          502.404296875
+        ],
+        [
+          56.166015625,
+          502.404296875
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Personelle Ma\u00dfnahmen",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          56.79999923706055,
+          186.85986328125
+        ],
+        [
+          257.4033203125,
+          186.85986328125
+        ],
+        [
+          257.4033203125,
+          204.94970703125
+        ],
+        [
+          56.79999923706055,
+          204.94970703125
+        ]
+      ]
+    },
+    {
+      "title": "3.2.1 Grundlegende Anforderungen",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          56.0205078125,
+          229.412109375
+        ],
+        [
+          272.5361328125,
+          229.412109375
+        ],
+        [
+          272.5361328125,
+          245.4462890625
+        ],
+        [
+          56.0205078125,
+          245.4462890625
+        ]
+      ]
+    },
+    {
+      "title": "3.2.2 Verpflichtung der Mitarbeiter",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          56.166015625,
+          314.10546875
+        ],
+        [
+          268.31640625,
+          314.10546875
+        ],
+        [
+          268.31640625,
+          329.89263916015625
+        ],
+        [
+          56.166015625,
+          329.89263916015625
+        ]
+      ]
+    },
+    {
+      "title": "3.2.3 Ma\u00dfnahmen zur Qualifizierung und Sensibilisierung",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          56.3115234375,
+          442.37890625
+        ],
+        [
+          395.78125,
+          442.37890625
+        ],
+        [
+          395.78125,
+          458.82421875
+        ],
+        [
+          56.3115234375,
+          458.82421875
+        ]
+      ]
+    },
+    {
+      "title": "3.2.3.1 Einweisung zur ordnungsgem\u00e4\u00dfen Bedienung des Scansystems",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          56.45703125,
+          483.4921875
+        ],
+        [
+          447.873046875,
+          483.4921875
+        ],
+        [
+          447.873046875,
+          498.29296875
+        ],
+        [
+          56.45703125,
+          498.29296875
+        ]
+      ]
+    },
+    {
+      "title": "3.2.3.2 Einweisung zu Sicherheitsma\u00dfnahmen im Scanprozess",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          56.166015625,
+          689.4697265625
+        ],
+        [
+          402.765625,
+          689.4697265625
+        ],
+        [
+          402.765625,
+          704.2705078125
+        ],
+        [
+          56.166015625,
+          704.2705078125
+        ]
+      ]
+    },
+    {
+      "title": "3.2.3.3 Schulung des Wartungs- und Administrationspersonals",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          56.166015625,
+          252.22998046875
+        ],
+        [
+          406.548828125,
+          252.22998046875
+        ],
+        [
+          406.548828125,
+          266.61962890625
+        ],
+        [
+          56.166015625,
+          266.61962890625
+        ]
+      ]
+    },
+    {
+      "title": "3.2.3.4 Sensibilisierung der Mitarbeiter f\u00fcr Informationssicherheit",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          55.875,
+          468.69140625
+        ],
+        [
+          423.13671875,
+          468.69140625
+        ],
+        [
+          423.13671875,
+          483.3868408203125
+        ],
+        [
+          55.875,
+          483.3868408203125
+        ]
+      ]
+    },
+    {
+      "title": "3.3 Technische Ma\u00dfnahmen",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          56.45703125,
+          646.7119140625
+        ],
+        [
+          260.458984375,
+          646.7119140625
+        ],
+        [
+          260.458984375,
+          664.8017578125
+        ],
+        [
+          56.45703125,
+          664.8017578125
+        ]
+      ]
+    },
+    {
+      "title": "3.3.1 Grundlegende Sicherheitsma\u00dfnahmen f\u00fcr IT-Systeme",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          56.166015625,
+          689.4697265625
+        ],
+        [
+          409.75,
+          689.4697265625
+        ],
+        [
+          409.75,
+          705.0927734375
+        ],
+        [
+          56.166015625,
+          705.0927734375
+        ]
+      ]
+    },
+    {
+      "title": "3.3.2 Zul\u00e4ssige Kommunikationsverbindungen",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          56.79999923706055,
+          155.20263671875
+        ],
+        [
+          332.921875,
+          155.20263671875
+        ],
+        [
+          332.921875,
+          170.6201171875
+        ],
+        [
+          56.79999923706055,
+          170.6201171875
+        ]
+      ]
+    },
+    {
+      "title": "3.3.3 Schutz vor Schadprogrammen",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          56.3115234375,
+          297.2490234375
+        ],
+        [
+          271.6630859375,
+          297.2490234375
+        ],
+        [
+          271.6630859375,
+          312.4609375
+        ],
+        [
+          56.3115234375,
+          312.4609375
+        ]
+      ]
+    },
+    {
+      "title": "4 Mitgeltende Unterlagen",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          56.23876953125,
+          85.618408203125
+        ],
+        [
+          302.947265625,
+          85.618408203125
+        ],
+        [
+          302.947265625,
+          108.9501953125
+        ],
+        [
+          56.23876953125,
+          108.9501953125
+        ]
+      ]
+    },
+    {
+      "title": "Literaturverzeichnis",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          56.166015625,
+          87.0059814453125
+        ],
+        [
+          230.0478515625,
+          87.0059814453125
+        ],
+        [
+          230.0478515625,
+          108.9501953125
+        ],
+        [
+          56.166015625,
+          108.9501953125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          17
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          29
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          102
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          82
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          131
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "TextInlineMath",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          90
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Text",
+          17
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          58
+        ],
+        [
+          "Line",
+          18
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          89
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          89
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          18
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "TextInlineMath",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          58
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          35
+        ],
+        [
+          "Line",
+          12
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          41
+        ],
+        [
+          "Line",
+          13
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/TR-03138-Anwendungshinweis-V"
+}

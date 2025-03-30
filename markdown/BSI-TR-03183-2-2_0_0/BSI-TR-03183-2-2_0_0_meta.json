@@ -1,0 +1,2236 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Technical Guideline TR-03183: Cyber \nResilience Requirements for \nManufacturers and Products",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.3115234375,
+          329.728515625
+        ],
+        [
+          538.0899658203125,
+          329.728515625
+        ],
+        [
+          538.0899658203125,
+          437.4453125
+        ],
+        [
+          56.3115234375,
+          437.4453125
+        ]
+      ]
+    },
+    {
+      "title": "Document history",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.29296875,
+          57.6099853515625
+        ],
+        [
+          215.2060546875,
+          57.6099853515625
+        ],
+        [
+          215.2060546875,
+          81.6612548828125
+        ],
+        [
+          55.29296875,
+          81.6612548828125
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          54.5654296875,
+          56.4793701171875
+        ],
+        [
+          209.6767578125,
+          56.4793701171875
+        ],
+        [
+          209.6767578125,
+          82.4835205078125
+        ],
+        [
+          54.5654296875,
+          82.4835205078125
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.29296875,
+          56.7877197265625
+        ],
+        [
+          213.0234375,
+          56.7877197265625
+        ],
+        [
+          213.0234375,
+          81.9696044921875
+        ],
+        [
+          55.29296875,
+          81.9696044921875
+        ]
+      ]
+    },
+    {
+      "title": "2 Requirements Language",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.0205078125,
+          56.8905029296875
+        ],
+        [
+          309.05859375,
+          56.8905029296875
+        ],
+        [
+          309.05859375,
+          81.8668212890625
+        ],
+        [
+          56.0205078125,
+          81.8668212890625
+        ]
+      ]
+    },
+    {
+      "title": "3 Basics",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.402099609375,
+          58.17529296875
+        ],
+        [
+          153.07421875,
+          58.17529296875
+        ],
+        [
+          153.07421875,
+          81.60986328125
+        ],
+        [
+          55.402099609375,
+          81.60986328125
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Definition of SBOM",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.0205078125,
+          91.8367919921875
+        ],
+        [
+          237.0322265625,
+          91.8367919921875
+        ],
+        [
+          237.0322265625,
+          112.85595703125
+        ],
+        [
+          56.0205078125,
+          112.85595703125
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Terms used",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.493408203125,
+          358.9189453125
+        ],
+        [
+          180.720703125,
+          358.9189453125
+        ],
+        [
+          180.720703125,
+          377.8310546875
+        ],
+        [
+          56.493408203125,
+          377.8310546875
+        ]
+      ]
+    },
+    {
+      "title": "3.2.1 Component",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.09326171875,
+          389.95947265625
+        ],
+        [
+          175.19140625,
+          389.95947265625
+        ],
+        [
+          175.19140625,
+          406.40478515625
+        ],
+        [
+          56.09326171875,
+          406.40478515625
+        ]
+      ]
+    },
+    {
+      "title": "In the case of compiled code",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.7294921875,
+          601.4873046875
+        ],
+        [
+          207.3486328125,
+          601.4873046875
+        ],
+        [
+          207.3486328125,
+          616.2880859375
+        ],
+        [
+          55.7294921875,
+          616.2880859375
+        ]
+      ]
+    },
+    {
+      "title": "In the case of interpreted code",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.80224609375,
+          703.037109375
+        ],
+        [
+          217.388671875,
+          703.037109375
+        ],
+        [
+          217.388671875,
+          717.015625
+        ],
+        [
+          55.80224609375,
+          717.015625
+        ]
+      ]
+    },
+    {
+      "title": "3.2.2 External component",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.0205078125,
+          248.94091796875
+        ],
+        [
+          227.1376953125,
+          248.94091796875
+        ],
+        [
+          227.1376953125,
+          266.61962890625
+        ],
+        [
+          56.0205078125,
+          266.61962890625
+        ]
+      ]
+    },
+    {
+      "title": "3.2.3 Executable file",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.129638671875,
+          346.173828125
+        ],
+        [
+          190.32421875,
+          346.173828125
+        ],
+        [
+          190.32421875,
+          363.0302734375
+        ],
+        [
+          56.129638671875,
+          363.0302734375
+        ]
+      ]
+    },
+    {
+      "title": "3.2.4 Dependency",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.166015625,
+          409.48828125
+        ],
+        [
+          177.3740234375,
+          409.48828125
+        ],
+        [
+          177.3740234375,
+          426.3447265625
+        ],
+        [
+          56.166015625,
+          426.3447265625
+        ]
+      ]
+    },
+    {
+      "title": "3.2.5 Vendor/Supplier vs. creator",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.80224609375,
+          485.958984375
+        ],
+        [
+          271.2265625,
+          485.958984375
+        ],
+        [
+          271.2265625,
+          502.404296875
+        ],
+        [
+          55.80224609375,
+          502.404296875
+        ]
+      ]
+    },
+    {
+      "title": "4 SBOM formats",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          54.7109375,
+          57.6099853515625
+        ],
+        [
+          227.4287109375,
+          57.6099853515625
+        ],
+        [
+          227.4287109375,
+          81.1473388671875
+        ],
+        [
+          54.7109375,
+          81.1473388671875
+        ]
+      ]
+    },
+    {
+      "title": "5 Content requirements",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.7294921875,
+          57.9183349609375
+        ],
+        [
+          290.8701171875,
+          57.9183349609375
+        ],
+        [
+          290.8701171875,
+          81.8668212890625
+        ],
+        [
+          55.7294921875,
+          81.8668212890625
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Level of detail",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.38427734375,
+          92.5562744140625
+        ],
+        [
+          197.30859375,
+          92.5562744140625
+        ],
+        [
+          197.30859375,
+          112.650390625
+        ],
+        [
+          56.38427734375,
+          112.650390625
+        ]
+      ]
+    },
+    {
+      "title": "5.2 Required data fields",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.0205078125,
+          281.83154296875
+        ],
+        [
+          237.46875,
+          281.83154296875
+        ],
+        [
+          237.46875,
+          301.15478515625
+        ],
+        [
+          56.0205078125,
+          301.15478515625
+        ]
+      ]
+    },
+    {
+      "title": "5.2.1 Required data fields for the SBOM itself",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.80224609375,
+          313.07763671875
+        ],
+        [
+          343.3984375,
+          313.07763671875
+        ],
+        [
+          343.3984375,
+          330.34521484375
+        ],
+        [
+          55.80224609375,
+          330.34521484375
+        ]
+      ]
+    },
+    {
+      "title": "5.2.2 Required data fields for each component",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.7294921875,
+          488.0146484375
+        ],
+        [
+          351.546875,
+          488.0146484375
+        ],
+        [
+          351.546875,
+          505.2822265625
+        ],
+        [
+          55.7294921875,
+          505.2822265625
+        ]
+      ]
+    },
+    {
+      "title": "5.3 Additional data fields",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          56.166015625,
+          487.603515625
+        ],
+        [
+          249.400390625,
+          487.603515625
+        ],
+        [
+          249.400390625,
+          507.337890625
+        ],
+        [
+          56.166015625,
+          507.337890625
+        ]
+      ]
+    },
+    {
+      "title": "5.3.1 Additional data fields for the SBOM itself",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          56.23876953125,
+          518.849609375
+        ],
+        [
+          354.166015625,
+          518.849609375
+        ],
+        [
+          354.166015625,
+          536.1171875
+        ],
+        [
+          56.23876953125,
+          536.1171875
+        ]
+      ]
+    },
+    {
+      "title": "5.3.2 Additional data fields for each component",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          56.0205078125,
+          651.6455078125
+        ],
+        [
+          360.859375,
+          651.6455078125
+        ],
+        [
+          360.859375,
+          668.9130859375
+        ],
+        [
+          56.0205078125,
+          668.9130859375
+        ]
+      ]
+    },
+    {
+      "title": "5.4 Optional data fields",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          56.23876953125,
+          253.6689453125
+        ],
+        [
+          236.3046875,
+          253.6689453125
+        ],
+        [
+          236.3046875,
+          273.814453125
+        ],
+        [
+          56.23876953125,
+          273.814453125
+        ]
+      ]
+    },
+    {
+      "title": "5.4.1 Optional data fields for each component",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          56.09326171875,
+          285.12060546875
+        ],
+        [
+          348.0546875,
+          285.12060546875
+        ],
+        [
+          348.0546875,
+          302.38818359375
+        ],
+        [
+          56.09326171875,
+          302.38818359375
+        ]
+      ]
+    },
+    {
+      "title": "6 Express specifications",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          54.8564453125,
+          56.4793701171875
+        ],
+        [
+          287.9599609375,
+          56.4793701171875
+        ],
+        [
+          287.9599609375,
+          81.7640380859375
+        ],
+        [
+          54.8564453125,
+          81.7640380859375
+        ]
+      ]
+    },
+    {
+      "title": "6.1 Licence identifiers and expressions",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          56.09326171875,
+          113.575439453125
+        ],
+        [
+          337.869140625,
+          113.575439453125
+        ],
+        [
+          337.869140625,
+          132.076416015625
+        ],
+        [
+          56.09326171875,
+          132.076416015625
+        ]
+      ]
+    },
+    {
+      "title": "7 Transitional system",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          55.29296875,
+          57.0960693359375
+        ],
+        [
+          270.353515625,
+          57.0960693359375
+        ],
+        [
+          270.353515625,
+          81.1473388671875
+        ],
+        [
+          55.29296875,
+          81.1473388671875
+        ]
+      ]
+    },
+    {
+      "title": "8 Annex",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          54.674560546875,
+          57.866943359375
+        ],
+        [
+          159.3310546875,
+          57.866943359375
+        ],
+        [
+          159.3310546875,
+          81.404296875
+        ],
+        [
+          54.674560546875,
+          81.404296875
+        ]
+      ]
+    },
+    {
+      "title": "8.1 Explanations",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          55.7294921875,
+          161.78076171875
+        ],
+        [
+          190.7607421875,
+          161.78076171875
+        ],
+        [
+          190.7607421875,
+          180.28173828125
+        ],
+        [
+          55.7294921875,
+          180.28173828125
+        ]
+      ]
+    },
+    {
+      "title": "8.1.1 Machine-processable",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          55.7294921875,
+          212.5556640625
+        ],
+        [
+          233.685546875,
+          212.5556640625
+        ],
+        [
+          233.685546875,
+          229.0009765625
+        ],
+        [
+          55.7294921875,
+          229.0009765625
+        ]
+      ]
+    },
+    {
+      "title": "8.1.2 Components",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          56.09326171875,
+          304.44384765625
+        ],
+        [
+          181.59375,
+          304.44384765625
+        ],
+        [
+          181.59375,
+          320.06689453125
+        ],
+        [
+          56.09326171875,
+          320.06689453125
+        ]
+      ]
+    },
+    {
+      "title": "8.1.3 Executable property",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          55.7294921875,
+          380.91455078125
+        ],
+        [
+          225.828125,
+          380.91455078125
+        ],
+        [
+          225.828125,
+          396.94873046875
+        ],
+        [
+          55.7294921875,
+          396.94873046875
+        ]
+      ]
+    },
+    {
+      "title": "8.1.4 Archive property",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          55.80224609375,
+          443.6123046875
+        ],
+        [
+          207.203125,
+          443.6123046875
+        ],
+        [
+          207.203125,
+          459.2353515625
+        ],
+        [
+          55.80224609375,
+          459.2353515625
+        ]
+      ]
+    },
+    {
+      "title": "8.1.5 Structured property",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          55.875,
+          512.271484375
+        ],
+        [
+          226.119140625,
+          512.271484375
+        ],
+        [
+          226.119140625,
+          528.716796875
+        ],
+        [
+          55.875,
+          528.716796875
+        ]
+      ]
+    },
+    {
+      "title": "8.1.6 Component creator",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          55.875,
+          671.3798828125
+        ],
+        [
+          222.7724609375,
+          671.3798828125
+        ],
+        [
+          222.7724609375,
+          687.8251953125
+        ],
+        [
+          55.875,
+          687.8251953125
+        ]
+      ]
+    },
+    {
+      "title": "8.1.7 Scope of delivery",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          55.583984375,
+          56.9932861328125
+        ],
+        [
+          207.0576171875,
+          56.9932861328125
+        ],
+        [
+          207.0576171875,
+          74.2608642578125
+        ],
+        [
+          55.583984375,
+          74.2608642578125
+        ]
+      ]
+    },
+    {
+      "title": "8.1.8 Path to component",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          55.7294921875,
+          134.748779296875
+        ],
+        [
+          219.5712890625,
+          134.748779296875
+        ],
+        [
+          219.5712890625,
+          150.782958984375
+        ],
+        [
+          55.7294921875,
+          150.782958984375
+        ]
+      ]
+    },
+    {
+      "title": "8.1.9 Licence Information",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          55.7294921875,
+          251.81884765625
+        ],
+        [
+          226.8466796875,
+          251.81884765625
+        ],
+        [
+          226.8466796875,
+          269.08642578125
+        ],
+        [
+          55.7294921875,
+          269.08642578125
+        ]
+      ]
+    },
+    {
+      "title": "8.1.10 Vulnerability information",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          55.7294921875,
+          512.6826171875
+        ],
+        [
+          261.1865234375,
+          512.6826171875
+        ],
+        [
+          261.1865234375,
+          529.9501953125
+        ],
+        [
+          55.7294921875,
+          529.9501953125
+        ]
+      ]
+    },
+    {
+      "title": "8.1.11 Digital Signature",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          55.875,
+          646.7119140625
+        ],
+        [
+          205.0205078125,
+          646.7119140625
+        ],
+        [
+          205.0205078125,
+          663.9794921875
+        ],
+        [
+          55.875,
+          663.9794921875
+        ]
+      ]
+    },
+    {
+      "title": "8.1.12 BOM links",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          55.984130859375,
+          696.0478515625
+        ],
+        [
+          166.3154296875,
+          696.0478515625
+        ],
+        [
+          166.3154296875,
+          712.4931640625
+        ],
+        [
+          55.984130859375,
+          712.4931640625
+        ]
+      ]
+    },
+    {
+      "title": "8.2 Level of detail of an SBOM",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          54.5654296875,
+          56.3765869140625
+        ],
+        [
+          280.9755859375,
+          56.3765869140625
+        ],
+        [
+          280.9755859375,
+          76.5220947265625
+        ],
+        [
+          54.5654296875,
+          76.5220947265625
+        ]
+      ]
+    },
+    {
+      "title": "8.2.1 Top-level SBOM",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          55.111083984375,
+          122.414794921875
+        ],
+        [
+          202.546875,
+          122.414794921875
+        ],
+        [
+          202.546875,
+          139.271240234375
+        ],
+        [
+          55.111083984375,
+          139.271240234375
+        ]
+      ]
+    },
+    {
+      "title": "8.2.2 n-level SBOM",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          56.70000076293945,
+          436.623046875
+        ],
+        [
+          186.3955078125,
+          436.623046875
+        ],
+        [
+          186.3955078125,
+          453.890625
+        ],
+        [
+          56.70000076293945,
+          453.890625
+        ]
+      ]
+    },
+    {
+      "title": "8.2.3 Transitive SBOM",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          55.583984375,
+          57.0960693359375
+        ],
+        [
+          205.3115234375,
+          57.0960693359375
+        ],
+        [
+          205.3115234375,
+          74.3636474609375
+        ],
+        [
+          55.583984375,
+          74.3636474609375
+        ]
+      ]
+    },
+    {
+      "title": "8.2.4 Delivery item SBOM",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          55.875,
+          425.93359375
+        ],
+        [
+          226.2646484375,
+          425.93359375
+        ],
+        [
+          226.2646484375,
+          443.201171875
+        ],
+        [
+          55.875,
+          443.201171875
+        ]
+      ]
+    },
+    {
+      "title": "8.2.5 Complete SBOM",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          54.34716796875,
+          56.8905029296875
+        ],
+        [
+          204.001953125,
+          56.8905029296875
+        ],
+        [
+          204.001953125,
+          74.8775634765625
+        ],
+        [
+          54.34716796875,
+          74.8775634765625
+        ]
+      ]
+    },
+    {
+      "title": "8.3 SBOM classification",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          56.09326171875,
+          371.6640625
+        ],
+        [
+          237.46875,
+          371.6640625
+        ],
+        [
+          237.46875,
+          390.9873046875
+        ],
+        [
+          56.09326171875,
+          390.9873046875
+        ]
+      ]
+    },
+    {
+      "title": "8.3.1 Design SBOM",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          55.838623046875,
+          465.40234375
+        ],
+        [
+          184.6494140625,
+          465.40234375
+        ],
+        [
+          184.6494140625,
+          481.84765625
+        ],
+        [
+          55.838623046875,
+          481.84765625
+        ]
+      ]
+    },
+    {
+      "title": "8.3.2 Source SBOM",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          56.09326171875,
+          528.716796875
+        ],
+        [
+          184.794921875,
+          528.716796875
+        ],
+        [
+          184.794921875,
+          545.162109375
+        ],
+        [
+          56.09326171875,
+          545.162109375
+        ]
+      ]
+    },
+    {
+      "title": "8.3.3 Build SBOM",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          55.911376953125,
+          577.6416015625
+        ],
+        [
+          175.482421875,
+          577.6416015625
+        ],
+        [
+          175.482421875,
+          594.0869140625
+        ],
+        [
+          55.911376953125,
+          594.0869140625
+        ]
+      ]
+    },
+    {
+      "title": "8.3.4 Analysed SBOM",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          56.056884765625,
+          57.455810546875
+        ],
+        [
+          200.9462890625,
+          57.455810546875
+        ],
+        [
+          200.9462890625,
+          74.00390625
+        ],
+        [
+          56.056884765625,
+          74.00390625
+        ]
+      ]
+    },
+    {
+      "title": "8.3.5 Deployed SBOM",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          55.765869140625,
+          120.05078125
+        ],
+        [
+          202.9833984375,
+          120.05078125
+        ],
+        [
+          202.9833984375,
+          136.70166015625
+        ],
+        [
+          55.765869140625,
+          136.70166015625
+        ]
+      ]
+    },
+    {
+      "title": "8.3.6 Runtime SBOM",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          56.166015625,
+          196.9326171875
+        ],
+        [
+          197.4541015625,
+          196.9326171875
+        ],
+        [
+          197.4541015625,
+          213.3779296875
+        ],
+        [
+          56.166015625,
+          213.3779296875
+        ]
+      ]
+    },
+    {
+      "title": "8.4 Further information",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          55.80224609375,
+          293.75439453125
+        ],
+        [
+          240.9609375,
+          293.75439453125
+        ],
+        [
+          240.9609375,
+          312.25537109375
+        ],
+        [
+          55.80224609375,
+          312.25537109375
+        ]
+      ]
+    },
+    {
+      "title": "8.4.1 Information from the NTIA",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          55.94775390625,
+          324.794921875
+        ],
+        [
+          270.935546875,
+          324.794921875
+        ],
+        [
+          270.935546875,
+          342.0625
+        ],
+        [
+          55.94775390625,
+          342.0625
+        ]
+      ]
+    },
+    {
+      "title": "8.4.2 Information from CISA",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          55.4384765625,
+          401.265625
+        ],
+        [
+          246.0537109375,
+          401.265625
+        ],
+        [
+          246.0537109375,
+          418.1220703125
+        ],
+        [
+          55.4384765625,
+          418.1220703125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          7
+        ],
+        [
+          "Line",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          139
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          54
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          165
+        ],
+        [
+          "Line",
+          54
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Footnote",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          50
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          173
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          154
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          55
+        ],
+        [
+          "Line",
+          12
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          146
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "TableCell",
+          26
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Reference",
+          5
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          204
+        ],
+        [
+          "TableCell",
+          60
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          121
+        ],
+        [
+          "TableCell",
+          39
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          194
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Footnote",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          36
+        ],
+        [
+          "Line",
+          12
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          174
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "Reference",
+          8
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          145
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Reference",
+          6
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          137
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          159
+        ],
+        [
+          "Line",
+          66
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Figure",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          117
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Reference",
+          5
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          62
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Reference",
+          6
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/BSI-TR-03183-2-2_0_0"
+}

@@ -1,0 +1,1425 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Technical Guideline BSI TR-03151 \nSecure Element API (SE API)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.7294921875,
+          256.546875
+        ],
+        [
+          498.8399963378906,
+          256.546875
+        ],
+        [
+          498.8399963378906,
+          327.6728515625
+        ],
+        [
+          55.7294921875,
+          327.6728515625
+        ]
+      ]
+    },
+    {
+      "title": "Version history",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.056884765625,
+          55.9654541015625
+        ],
+        [
+          189.0146484375,
+          55.9654541015625
+        ],
+        [
+          189.0146484375,
+          80.8389892578125
+        ],
+        [
+          56.056884765625,
+          80.8389892578125
+        ]
+      ]
+    },
+    {
+      "title": "Table of Contents",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.36572265625,
+          56.94189453125
+        ],
+        [
+          208.3671875,
+          56.94189453125
+        ],
+        [
+          208.3671875,
+          80.58203125
+        ],
+        [
+          55.36572265625,
+          80.58203125
+        ]
+      ]
+    },
+    {
+      "title": "1 Introduction",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.4384765625,
+          56.3251953125
+        ],
+        [
+          212.44140625,
+          56.3251953125
+        ],
+        [
+          212.44140625,
+          81.404296875
+        ],
+        [
+          55.4384765625,
+          81.404296875
+        ]
+      ]
+    },
+    {
+      "title": "2 Mapping of the API definition to Java",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.1474609375,
+          57.1988525390625
+        ],
+        [
+          418.48046875,
+          57.1988525390625
+        ],
+        [
+          418.48046875,
+          80.8389892578125
+        ],
+        [
+          55.1474609375,
+          80.8389892578125
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Mapping of data types",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.875,
+          150.988525390625
+        ],
+        [
+          252.01953125,
+          150.988525390625
+        ],
+        [
+          252.01953125,
+          170.106201171875
+        ],
+        [
+          55.875,
+          170.106201171875
+        ]
+      ]
+    },
+    {
+      "title": "2.1.1 Mapping of basic types",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.23876953125,
+          248.11865234375
+        ],
+        [
+          236.88671875,
+          248.11865234375
+        ],
+        [
+          236.88671875,
+          264.97509765625
+        ],
+        [
+          56.23876953125,
+          264.97509765625
+        ]
+      ]
+    },
+    {
+      "title": "Table 2 Mapping of data types",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.202392578125,
+          521.7275390625
+        ],
+        [
+          185.66796875,
+          521.7275390625
+        ],
+        [
+          185.66796875,
+          535.7060546875
+        ],
+        [
+          56.202392578125,
+          535.7060546875
+        ]
+      ]
+    },
+    {
+      "title": "2.1.2 Mapping of complex types",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.94775390625,
+          599.431640625
+        ],
+        [
+          258.712890625,
+          599.431640625
+        ],
+        [
+          258.712890625,
+          616.69921875
+        ],
+        [
+          55.94775390625,
+          616.69921875
+        ]
+      ]
+    },
+    {
+      "title": "2.1.2.1 Mapping of strings",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.80224609375,
+          646.30078125
+        ],
+        [
+          219.134765625,
+          646.30078125
+        ],
+        [
+          219.134765625,
+          661.923828125
+        ],
+        [
+          55.80224609375,
+          661.923828125
+        ]
+      ]
+    },
+    {
+      "title": "2.1.2.2 Mapping of enumerations",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.29296875,
+          265.79736328125
+        ],
+        [
+          260.2156677246094,
+          265.79736328125
+        ],
+        [
+          260.2156677246094,
+          280.59814453125
+        ],
+        [
+          55.29296875,
+          280.59814453125
+        ]
+      ]
+    },
+    {
+      "title": "2.1.2.3 Mapping of arrays",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.583984375,
+          501.58203125
+        ],
+        [
+          215.2060546875,
+          501.58203125
+        ],
+        [
+          215.2060546875,
+          516.3828125
+        ],
+        [
+          55.583984375,
+          516.3828125
+        ]
+      ]
+    },
+    {
+      "title": "2.1.2.4 Definition context",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.875,
+          710.4375
+        ],
+        [
+          217.5341796875,
+          710.4375
+        ],
+        [
+          217.5341796875,
+          725.23828125
+        ],
+        [
+          55.875,
+          725.23828125
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Mapping of Exceptions",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.583984375,
+          292.7265625
+        ],
+        [
+          258.712890625,
+          292.7265625
+        ],
+        [
+          258.712890625,
+          312.4609375
+        ],
+        [
+          55.583984375,
+          312.4609375
+        ]
+      ]
+    },
+    {
+      "title": "Properties of a function to be implemented",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          59.076171875,
+          489.6591796875
+        ],
+        [
+          269.04095458984375,
+          489.6591796875
+        ],
+        [
+          269.04095458984375,
+          505.2822265625
+        ],
+        [
+          59.076171875,
+          505.2822265625
+        ]
+      ]
+    },
+    {
+      "title": "2.2.1 Mapping exceptions with additional information",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          54.5654296875,
+          56.2738037109375
+        ],
+        [
+          390.2192077636719,
+          56.2738037109375
+        ],
+        [
+          390.2192077636719,
+          73.5413818359375
+        ],
+        [
+          54.5654296875,
+          73.5413818359375
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Mapping of function parameters",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          54.7109375,
+          56.016845703125
+        ],
+        [
+          323.900390625,
+          56.016845703125
+        ],
+        [
+          323.900390625,
+          77.395751953125
+        ],
+        [
+          54.7109375,
+          77.395751953125
+        ]
+      ]
+    },
+    {
+      "title": "2.3.1 Mapping function input parameters",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.583984375,
+          105.25
+        ],
+        [
+          314.005859375,
+          105.25
+        ],
+        [
+          314.005859375,
+          123.13427734375
+        ],
+        [
+          55.583984375,
+          123.13427734375
+        ]
+      ]
+    },
+    {
+      "title": "Properties of a function to be implemented",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          58.13037109375,
+          184.5986328125
+        ],
+        [
+          269.771484375,
+          184.5986328125
+        ],
+        [
+          269.771484375,
+          198.98828125
+        ],
+        [
+          58.13037109375,
+          198.98828125
+        ]
+      ]
+    },
+    {
+      "title": "Corresponding Java code",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          60.713134765625,
+          264.56396484375
+        ],
+        [
+          182.40097045898438,
+          264.56396484375
+        ],
+        [
+          182.40097045898438,
+          278.95361328125
+        ],
+        [
+          60.713134765625,
+          278.95361328125
+        ]
+      ]
+    },
+    {
+      "title": "Text 7 Example for input parameters in Java",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.819278717041016,
+          307.73291015625
+        ],
+        [
+          245.6171875,
+          307.73291015625
+        ],
+        [
+          245.6171875,
+          321.30029296875
+        ],
+        [
+          56.819278717041016,
+          321.30029296875
+        ]
+      ]
+    },
+    {
+      "title": "Properties of a function to be implemented \nFunction name: saveData\nInput parameter 1: octet inputData[]\nInput parameter 2: string comment\nCorresponding Java code",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          53.546875,
+          399.2099609375
+        ],
+        [
+          309.640625,
+          399.2099609375
+        ],
+        [
+          309.640625,
+          490.1736145019531
+        ],
+        [
+          53.546875,
+          490.1736145019531
+        ]
+      ]
+    },
+    {
+      "title": "2.3.2 Mapping of function output parameters",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.7294921875,
+          562.8408203125
+        ],
+        [
+          338.16015625,
+          562.8408203125
+        ],
+        [
+          338.16015625,
+          579.2861328125
+        ],
+        [
+          55.7294921875,
+          579.2861328125
+        ]
+      ]
+    },
+    {
+      "title": "2.3.2.1 No output parameter",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.7294921875,
+          57.455810546875
+        ],
+        [
+          233.39453125,
+          57.455810546875
+        ],
+        [
+          233.39453125,
+          72.15380859375
+        ],
+        [
+          55.7294921875,
+          72.15380859375
+        ]
+      ]
+    },
+    {
+      "title": "2.3.2.2 One output parameter",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.4384765625,
+          301.771484375
+        ],
+        [
+          238.4873046875,
+          301.771484375
+        ],
+        [
+          238.4873046875,
+          315.75
+        ],
+        [
+          55.4384765625,
+          315.75
+        ]
+      ]
+    },
+    {
+      "title": "2.3.2.3 Multiple output parameters",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.80224609375,
+          613.41015625
+        ],
+        [
+          268.025390625,
+          613.41015625
+        ],
+        [
+          268.025390625,
+          628.2109375
+        ],
+        [
+          55.80224609375,
+          628.2109375
+        ]
+      ]
+    },
+    {
+      "title": "2.3.3 Mapping of optional and conditional function parameters",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.7294921875,
+          519.2607421875
+        ],
+        [
+          446.41796875,
+          519.2607421875
+        ],
+        [
+          446.41796875,
+          536.5283203125
+        ],
+        [
+          55.7294921875,
+          536.5283203125
+        ]
+      ]
+    },
+    {
+      "title": "Properties of a function to be implemented",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          59.14892578125,
+          59.0489501953125
+        ],
+        [
+          269.04095458984375,
+          59.0489501953125
+        ],
+        [
+          269.04095458984375,
+          72.7191162109375
+        ],
+        [
+          59.14892578125,
+          72.7191162109375
+        ]
+      ]
+    },
+    {
+      "title": "Corresponding Java Code",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          61.18603515625,
+          139.57958984375
+        ],
+        [
+          184.32095336914062,
+          139.57958984375
+        ],
+        [
+          184.32095336914062,
+          152.94140625
+        ],
+        [
+          61.18603515625,
+          152.94140625
+        ]
+      ]
+    },
+    {
+      "title": "2.3.4 Mapping of large data function parameters",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          54.7109375,
+          56.427978515625
+        ],
+        [
+          356.494140625,
+          56.427978515625
+        ],
+        [
+          356.494140625,
+          73.5927734375
+        ],
+        [
+          54.7109375,
+          73.5927734375
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          55.36572265625,
+          58.072509765625
+        ],
+        [
+          149.58203125,
+          58.072509765625
+        ],
+        [
+          149.58203125,
+          81.19873046875
+        ],
+        [
+          55.36572265625,
+          81.19873046875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          13
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          29
+        ],
+        [
+          "Line",
+          13
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          71
+        ],
+        [
+          "TableCell",
+          28
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          39
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          139
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "TableCell",
+          36
+        ],
+        [
+          "Reference",
+          5
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          140
+        ],
+        [
+          "Line",
+          57
+        ],
+        [
+          "TableCell",
+          36
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "TableCell",
+          19
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "Caption",
+          3
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "TableGroup",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          18
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "TableCell",
+          10
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "TableGroup",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          88
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "TableCell",
+          14
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Code",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          29
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "Reference",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/TR03151-2_Appendix_Java"
+}

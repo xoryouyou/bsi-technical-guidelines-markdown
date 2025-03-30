@@ -1,0 +1,774 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Klarstellungen und \nAnwendungshinweise zu \nBSI TR-03153-TS und \nBSI-CC-PP-0105-V2-2020",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.7294921875,
+          331.7841796875
+        ],
+        [
+          389.37890625,
+          331.7841796875
+        ],
+        [
+          389.37890625,
+          475.26953125
+        ],
+        [
+          55.7294921875,
+          475.26953125
+        ]
+      ]
+    },
+    {
+      "title": "1 Einleitung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.94775390625,
+          68.350830078125
+        ],
+        [
+          192.361328125,
+          68.350830078125
+        ],
+        [
+          192.361328125,
+          93.12158203125
+        ],
+        [
+          55.94775390625,
+          93.12158203125
+        ]
+      ]
+    },
+    {
+      "title": "1.1 Schl\u00fcsselworte",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.275146484375,
+          186.654296875
+        ],
+        [
+          202.4013671875,
+          186.654296875
+        ],
+        [
+          202.4013671875,
+          205.9775390625
+        ],
+        [
+          56.275146484375,
+          205.9775390625
+        ]
+      ]
+    },
+    {
+      "title": "2 Erg\u00e4nzende Pr\u00fcfungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.80224609375,
+          444.4345703125
+        ],
+        [
+          297.708984375,
+          444.4345703125
+        ],
+        [
+          297.708984375,
+          469.1025390625
+        ],
+        [
+          55.80224609375,
+          469.1025390625
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Architektur des Sicherheitsmoduls",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.94775390625,
+          555.4404296875
+        ],
+        [
+          336.123046875,
+          555.4404296875
+        ],
+        [
+          336.123046875,
+          576.8193359375
+        ],
+        [
+          55.94775390625,
+          576.8193359375
+        ]
+      ]
+    },
+    {
+      "title": "2.1.1 Erg\u00e4nzende Angaben zum ICS",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7294921875,
+          638.078125
+        ],
+        [
+          280.6845703125,
+          638.078125
+        ],
+        [
+          280.6845703125,
+          656.16796875
+        ],
+        [
+          55.7294921875,
+          656.16796875
+        ]
+      ]
+    },
+    {
+      "title": "2.1.2 Pr\u00fcfung zu der genutzten Architektur des Sicherheitsmoduls",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7294921875,
+          160.855712890625
+        ],
+        [
+          463.296875,
+          160.855712890625
+        ],
+        [
+          463.296875,
+          178.123291015625
+        ],
+        [
+          55.7294921875,
+          178.123291015625
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Erg\u00e4nzende Testf\u00e4lle zu Log-Nachrichten",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.0205078125,
+          643.01171875
+        ],
+        [
+          381.23046875,
+          643.01171875
+        ],
+        [
+          381.23046875,
+          663.568359375
+        ],
+        [
+          56.0205078125,
+          663.568359375
+        ]
+      ]
+    },
+    {
+      "title": "2.2.1 Erg\u00e4nzende ICS-Angaben",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.875,
+          711.259765625
+        ],
+        [
+          254.638671875,
+          711.259765625
+        ],
+        [
+          254.638671875,
+          728.52734375
+        ],
+        [
+          55.875,
+          728.52734375
+        ]
+      ]
+    },
+    {
+      "title": "2.2.2 Pr\u00fcfung der erg\u00e4nzenden Log-Nachrichten",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.0205078125,
+          110.697509765625
+        ],
+        [
+          357.94921875,
+          110.697509765625
+        ],
+        [
+          357.94921875,
+          127.553955078125
+        ],
+        [
+          56.0205078125,
+          127.553955078125
+        ]
+      ]
+    },
+    {
+      "title": "2.2.3 Erg\u00e4nzung zu Pr\u00fcfungen f\u00fcr Sicherheitsmodule in einer Client-Server-\nArchitektur",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          54.5654296875,
+          652.87890625
+        ],
+        [
+          520.8865966796875,
+          652.87890625
+        ],
+        [
+          520.8865966796875,
+          685.76953125
+        ],
+        [
+          54.5654296875,
+          685.76953125
+        ]
+      ]
+    },
+    {
+      "title": "2.2.4 Pr\u00fcfung von additionalExternalData und additionalInternalData",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.583984375,
+          310.19970703125
+        ],
+        [
+          485.705078125,
+          310.19970703125
+        ],
+        [
+          485.705078125,
+          327.87841796875
+        ],
+        [
+          55.583984375,
+          327.87841796875
+        ]
+      ]
+    },
+    {
+      "title": "2.2.5 Erg\u00e4nzung zu Pr\u00fcfungen zur Zeitf\u00fchrung im Sicherheitsmodul",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.29296875,
+          595.3203125
+        ],
+        [
+          475.51953125,
+          595.3203125
+        ],
+        [
+          475.51953125,
+          612.587890625
+        ],
+        [
+          55.29296875,
+          612.587890625
+        ]
+      ]
+    },
+    {
+      "title": "2.2.6 Erg\u00e4nzung zu Pr\u00fcfungen zur Au\u00dferbetriebnahme des Sicherheitsmoduls \nder Technischen Sicherheitseinrichtung",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.583984375,
+          212.5556640625
+        ],
+        [
+          534.3046875,
+          212.5556640625
+        ],
+        [
+          534.3046875,
+          246.6796875
+        ],
+        [
+          55.583984375,
+          246.6796875
+        ]
+      ]
+    },
+    {
+      "title": "2.2.7 Erg\u00e4nzung zu Pr\u00fcfungen zur Herstellerdokumentation",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.4384765625,
+          434.5673828125
+        ],
+        [
+          428.95703125,
+          434.5673828125
+        ],
+        [
+          428.95703125,
+          451.0126953125
+        ],
+        [
+          55.4384765625,
+          451.0126953125
+        ]
+      ]
+    },
+    {
+      "title": "3 Literaturverzeichnis",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.94775390625,
+          57.8155517578125
+        ],
+        [
+          271.38665771484375,
+          57.8155517578125
+        ],
+        [
+          271.38665771484375,
+          81.1473388671875
+        ],
+        [
+          55.94775390625,
+          81.1473388671875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          11
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          124
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "TableCell",
+          14
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          126
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "TableCell",
+          20
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          125
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "TableCell",
+          26
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          139
+        ],
+        [
+          "TableCell",
+          64
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          122
+        ],
+        [
+          "TableCell",
+          52
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "TableCell",
+          20
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          48
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "TableCell",
+          14
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/TR-03153-TS-Ergaenzungen"
+}

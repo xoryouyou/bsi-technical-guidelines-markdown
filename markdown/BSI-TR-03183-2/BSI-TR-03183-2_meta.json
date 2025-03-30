@@ -1,0 +1,1317 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Technische Richtlinie TR-03183: \nCyber-Resilienz-Anforderungen an \nHersteller und Produkte",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.3115234375,
+          330.9619140625
+        ],
+        [
+          513.2899780273438,
+          330.9619140625
+        ],
+        [
+          513.2899780273438,
+          439.912109375
+        ],
+        [
+          56.3115234375,
+          439.912109375
+        ]
+      ]
+    },
+    {
+      "title": "\u00c4nderungshistorie",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.38427734375,
+          62.0810546875
+        ],
+        [
+          217.6796875,
+          62.0810546875
+        ],
+        [
+          217.6796875,
+          88.59912109375
+        ],
+        [
+          56.38427734375,
+          88.59912109375
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.29296875,
+          69.7384033203125
+        ],
+        [
+          108.83984375,
+          69.7384033203125
+        ],
+        [
+          108.83984375,
+          93.3785400390625
+        ],
+        [
+          55.29296875,
+          93.3785400390625
+        ]
+      ]
+    },
+    {
+      "title": "1 Einleitung",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.51123046875,
+          62.0296630859375
+        ],
+        [
+          191.779296875,
+          62.0296630859375
+        ],
+        [
+          191.779296875,
+          88.6505126953125
+        ],
+        [
+          55.51123046875,
+          88.6505126953125
+        ]
+      ]
+    },
+    {
+      "title": "2 Formalia",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.765869140625,
+          57.866943359375
+        ],
+        [
+          179.4111328125,
+          57.866943359375
+        ],
+        [
+          179.4111328125,
+          82.6376953125
+        ],
+        [
+          55.765869140625,
+          82.6376953125
+        ]
+      ]
+    },
+    {
+      "title": "3 Grundlagen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.474853515625,
+          57.1988525390625
+        ],
+        [
+          202.9833984375,
+          57.1988525390625
+        ],
+        [
+          202.9833984375,
+          83.1002197265625
+        ],
+        [
+          55.474853515625,
+          83.1002197265625
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Definition SBOM",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.09326171875,
+          92.7618408203125
+        ],
+        [
+          211.27734375,
+          92.7618408203125
+        ],
+        [
+          211.27734375,
+          112.2392578125
+        ],
+        [
+          56.09326171875,
+          112.2392578125
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Verwendete Begriffe",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.09326171875,
+          364.6748046875
+        ],
+        [
+          235.431640625,
+          364.6748046875
+        ],
+        [
+          235.431640625,
+          383.998046875
+        ],
+        [
+          56.09326171875,
+          383.998046875
+        ]
+      ]
+    },
+    {
+      "title": "4 SBOM-Formate",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.29296875,
+          58.380859375
+        ],
+        [
+          236.013671875,
+          58.380859375
+        ],
+        [
+          236.013671875,
+          81.918212890625
+        ],
+        [
+          55.29296875,
+          81.918212890625
+        ]
+      ]
+    },
+    {
+      "title": "5 Inhaltliche Anforderungen",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.07470703125,
+          56.0682373046875
+        ],
+        [
+          330.884765625,
+          56.0682373046875
+        ],
+        [
+          330.884765625,
+          82.6890869140625
+        ],
+        [
+          55.07470703125,
+          82.6890869140625
+        ]
+      ]
+    },
+    {
+      "title": "5.1 Detaillierungsgrad",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.45703125,
+          92.2479248046875
+        ],
+        [
+          221.462890625,
+          92.2479248046875
+        ],
+        [
+          221.462890625,
+          112.547607421875
+        ],
+        [
+          56.45703125,
+          112.547607421875
+        ]
+      ]
+    },
+    {
+      "title": "5.2 Notwendige Datenfelder",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.09326171875,
+          199.707763671875
+        ],
+        [
+          261.623046875,
+          199.707763671875
+        ],
+        [
+          261.623046875,
+          219.33935546875
+        ],
+        [
+          56.09326171875,
+          219.33935546875
+        ]
+      ]
+    },
+    {
+      "title": "5.2.1 Notwendige Datenfelder zur SBOM selbst",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.7294921875,
+          231.26220703125
+        ],
+        [
+          339.32421875,
+          231.26220703125
+        ],
+        [
+          339.32421875,
+          248.94091796875
+        ],
+        [
+          55.7294921875,
+          248.94091796875
+        ]
+      ]
+    },
+    {
+      "title": "5.2.2 Notwendige Datenfelder zu jeder Komponente",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.166015625,
+          392.42626953125
+        ],
+        [
+          366.6796875,
+          392.42626953125
+        ],
+        [
+          366.6796875,
+          409.69384765625
+        ],
+        [
+          56.166015625,
+          409.69384765625
+        ]
+      ]
+    },
+    {
+      "title": "5.3 Zus\u00e4tzliche Datenfelder",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.0205078125,
+          239.48486328125
+        ],
+        [
+          256.5302734375,
+          239.48486328125
+        ],
+        [
+          256.5302734375,
+          258.39697265625
+        ],
+        [
+          56.0205078125,
+          258.39697265625
+        ]
+      ]
+    },
+    {
+      "title": "5.3.1 Zus\u00e4tzliche Datenfelder zur SBOM selbst",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.875,
+          270.9365234375
+        ],
+        [
+          334.958984375,
+          270.9365234375
+        ],
+        [
+          334.958984375,
+          287.3818359375
+        ],
+        [
+          55.875,
+          287.3818359375
+        ]
+      ]
+    },
+    {
+      "title": "5.3.2 Zus\u00e4tzliche Datenfelder zu jeder Komponente",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.3115234375,
+          403.11572265625
+        ],
+        [
+          362.0234375,
+          403.11572265625
+        ],
+        [
+          362.0234375,
+          419.56103515625
+        ],
+        [
+          56.3115234375,
+          419.56103515625
+        ]
+      ]
+    },
+    {
+      "title": "6 Anhang",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.36572265625,
+          58.1239013671875
+        ],
+        [
+          169.080078125,
+          58.1239013671875
+        ],
+        [
+          169.080078125,
+          82.8946533203125
+        ],
+        [
+          55.36572265625,
+          82.8946533203125
+        ]
+      ]
+    },
+    {
+      "title": "6.1 Detaillierungsgrad",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.875,
+          127.24560546875
+        ],
+        [
+          219.5712890625,
+          127.24560546875
+        ],
+        [
+          219.5712890625,
+          147.185546875
+        ],
+        [
+          55.875,
+          147.185546875
+        ]
+      ]
+    },
+    {
+      "title": "6.1.1 Top-Level-SBOM",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.129638671875,
+          191.1767578125
+        ],
+        [
+          200.3642578125,
+          191.1767578125
+        ],
+        [
+          200.3642578125,
+          209.88330078125
+        ],
+        [
+          56.129638671875,
+          209.88330078125
+        ]
+      ]
+    },
+    {
+      "title": "6.1.2 n-Level-SBOM",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.911376953125,
+          268.880859375
+        ],
+        [
+          185.8134765625,
+          268.880859375
+        ],
+        [
+          185.8134765625,
+          286.5595703125
+        ],
+        [
+          55.911376953125,
+          286.5595703125
+        ]
+      ]
+    },
+    {
+      "title": "6.1.3 Transitive SBOM",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.09326171875,
+          374.130859375
+        ],
+        [
+          195.853515625,
+          374.130859375
+        ],
+        [
+          195.853515625,
+          391.8095703125
+        ],
+        [
+          56.09326171875,
+          391.8095703125
+        ]
+      ]
+    },
+    {
+      "title": "6.1.4 Liefergegenstands-SBOM",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.80224609375,
+          492.1259765625
+        ],
+        [
+          247.36328125,
+          492.1259765625
+        ],
+        [
+          247.36328125,
+          510.2158203125
+        ],
+        [
+          55.80224609375,
+          510.2158203125
+        ]
+      ]
+    },
+    {
+      "title": "6.1.5 Vollst\u00e4ndige SBOM",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.80224609375,
+          597.3759765625
+        ],
+        [
+          211.27734375,
+          597.3759765625
+        ],
+        [
+          211.27734375,
+          614.6435546875
+        ],
+        [
+          55.80224609375,
+          614.6435546875
+        ]
+      ]
+    },
+    {
+      "title": "6.2 SBOM-Typen",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.65673828125,
+          56.839111328125
+        ],
+        [
+          191.48828125,
+          56.839111328125
+        ],
+        [
+          191.48828125,
+          76.26513671875
+        ],
+        [
+          55.65673828125,
+          76.26513671875
+        ]
+      ]
+    },
+    {
+      "title": "6.2.1 Design SBOM",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.80224609375,
+          149.755126953125
+        ],
+        [
+          179.84765625,
+          149.755126953125
+        ],
+        [
+          179.84765625,
+          167.228271484375
+        ],
+        [
+          55.80224609375,
+          167.228271484375
+        ]
+      ]
+    },
+    {
+      "title": "6.2.2 Source SBOM",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.80224609375,
+          212.5556640625
+        ],
+        [
+          178.68359375,
+          212.5556640625
+        ],
+        [
+          178.68359375,
+          230.234375
+        ],
+        [
+          55.80224609375,
+          230.234375
+        ]
+      ]
+    },
+    {
+      "title": "6.2.3 Build SBOM",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.620361328125,
+          276.28125
+        ],
+        [
+          170.9716796875,
+          276.28125
+        ],
+        [
+          170.9716796875,
+          293.548828125
+        ],
+        [
+          55.620361328125,
+          293.548828125
+        ]
+      ]
+    },
+    {
+      "title": "6.2.4 Analyzed SBOM",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.80224609375,
+          420.79443359375
+        ],
+        [
+          192.65234375,
+          420.79443359375
+        ],
+        [
+          192.65234375,
+          437.4453125
+        ],
+        [
+          55.80224609375,
+          437.4453125
+        ]
+      ]
+    },
+    {
+      "title": "6.2.5 Deployed SBOM",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.80224609375,
+          497.0595703125
+        ],
+        [
+          196.14453125,
+          497.0595703125
+        ],
+        [
+          196.14453125,
+          514.3271484375
+        ],
+        [
+          55.80224609375,
+          514.3271484375
+        ]
+      ]
+    },
+    {
+      "title": "6.2.6 Runtime SBOM",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.65673828125,
+          574.763671875
+        ],
+        [
+          189.451171875,
+          574.763671875
+        ],
+        [
+          189.451171875,
+          591.208984375
+        ],
+        [
+          55.65673828125,
+          591.208984375
+        ]
+      ]
+    },
+    {
+      "title": "6.3 Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          54.7109375,
+          56.9932861328125
+        ],
+        [
+          302.65625,
+          56.9932861328125
+        ],
+        [
+          302.65625,
+          76.1109619140625
+        ],
+        [
+          54.7109375,
+          76.1109619140625
+        ]
+      ]
+    },
+    {
+      "title": "6.3.1 Informationen der NTIA",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.583984375,
+          87.057373046875
+        ],
+        [
+          239.21484375,
+          87.057373046875
+        ],
+        [
+          239.21484375,
+          104.3016357421875
+        ],
+        [
+          55.583984375,
+          104.3016357421875
+        ]
+      ]
+    },
+    {
+      "title": "6.3.2 Informationen der CISA",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          56.0205078125,
+          165.48095703125
+        ],
+        [
+          240.2333984375,
+          165.48095703125
+        ],
+        [
+          240.2333984375,
+          182.33740234375
+        ],
+        [
+          56.0205078125,
+          182.33740234375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          7
+        ],
+        [
+          "Line",
+          4
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          30
+        ],
+        [
+          "Line",
+          10
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          119
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          164
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Footnote",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "TableCell",
+          26
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          39
+        ],
+        [
+          "Line",
+          12
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "Footnote",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          180
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "TableCell",
+          38
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Reference",
+          5
+        ],
+        [
+          "Footnote",
+          4
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          176
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "TableCell",
+          41
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Table",
+          3
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          131
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Reference",
+          7
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          123
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "Reference",
+          7
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          40
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/BSI-TR-03183-2"
+}

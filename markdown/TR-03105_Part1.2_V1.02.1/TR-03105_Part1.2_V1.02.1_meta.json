@@ -1,0 +1,597 @@
+{
+  "table_of_contents": [
+    {
+      "title": "BSI TR-03105 Part 1.2",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.0,
+          290.46533203125
+        ],
+        [
+          335.2685546875,
+          290.46533203125
+        ],
+        [
+          335.2685546875,
+          320.88916015625
+        ],
+        [
+          71.0,
+          320.88916015625
+        ]
+      ]
+    },
+    {
+      "title": "Component Specification RFID",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.5255126953125,
+          329.52294921875
+        ],
+        [
+          318.41796875,
+          329.52294921875
+        ],
+        [
+          318.41796875,
+          352.13525390625
+        ],
+        [
+          70.5255126953125,
+          352.13525390625
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          70.3802490234375,
+          182.9541015625
+        ],
+        [
+          131.5362548828125,
+          182.9541015625
+        ],
+        [
+          131.5362548828125,
+          195.49365234375
+        ],
+        [
+          70.3802490234375,
+          195.49365234375
+        ]
+      ]
+    },
+    {
+      "title": "1 Scope",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.3076171875,
+          139.887939453125
+        ],
+        [
+          172.7980194091797,
+          139.887939453125
+        ],
+        [
+          172.7980194091797,
+          156.03900146484375
+        ],
+        [
+          70.3076171875,
+          156.03900146484375
+        ]
+      ]
+    },
+    {
+      "title": "2 Requirements",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.452880859375,
+          290.80853271484375
+        ],
+        [
+          231.44773864746094,
+          290.80853271484375
+        ],
+        [
+          231.44773864746094,
+          306.7589111328125
+        ],
+        [
+          70.452880859375,
+          306.7589111328125
+        ]
+      ]
+    },
+    {
+      "title": "3 Importance",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.41656494140625,
+          436.2119140625
+        ],
+        [
+          211.07901000976562,
+          436.2119140625
+        ],
+        [
+          211.07901000976562,
+          452.19891357421875
+        ],
+        [
+          70.41656494140625,
+          452.19891357421875
+        ]
+      ]
+    },
+    {
+      "title": "4 Layer specification",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.3076171875,
+          564.2883911132812
+        ],
+        [
+          269.74468994140625,
+          564.2883911132812
+        ],
+        [
+          269.74468994140625,
+          580.2388305664062
+        ],
+        [
+          70.3076171875,
+          580.2388305664062
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Layer Proximity Card Hardware",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          69.581298828125,
+          168.44970703125
+        ],
+        [
+          318.7736511230469,
+          168.44970703125
+        ],
+        [
+          318.7736511230469,
+          182.48126220703125
+        ],
+        [
+          69.581298828125,
+          182.48126220703125
+        ]
+      ]
+    },
+    {
+      "title": "4.1.1 Static electricity test",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.162353515625,
+          349.7832946777344
+        ],
+        [
+          226.32467651367188,
+          349.7832946777344
+        ],
+        [
+          226.32467651367188,
+          362.00244140625
+        ],
+        [
+          70.162353515625,
+          362.00244140625
+        ]
+      ]
+    },
+    {
+      "title": "4.1.2 PICC load modulation amplitude",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          70.162353515625,
+          479.503173828125
+        ],
+        [
+          294.347900390625,
+          479.503173828125
+        ],
+        [
+          294.347900390625,
+          491.4959716796875
+        ],
+        [
+          70.162353515625,
+          491.4959716796875
+        ]
+      ]
+    },
+    {
+      "title": "4.1.3 PICC reception",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          69.90814208984375,
+          574.783203125
+        ],
+        [
+          195.62310791015625,
+          574.783203125
+        ],
+        [
+          195.62310791015625,
+          586.7759857177734
+        ],
+        [
+          69.90814208984375,
+          586.7759857177734
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Layer Proximity card initialization protocol",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          69.43603515625,
+          102.783203125
+        ],
+        [
+          393.5317687988281,
+          102.783203125
+        ],
+        [
+          393.5317687988281,
+          118.20068359375
+        ],
+        [
+          69.43603515625,
+          118.20068359375
+        ]
+      ]
+    },
+    {
+      "title": "4.3 Layer Proximity card transmission protocol",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          69.7265625,
+          410.310546875
+        ],
+        [
+          397.44140625,
+          410.310546875
+        ],
+        [
+          397.44140625,
+          424.7001953125
+        ],
+        [
+          69.7265625,
+          424.7001953125
+        ]
+      ]
+    },
+    {
+      "title": "4.4 Layer Smart card \u2013 Security and command tests",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          69.43603515625,
+          103.3485107421875
+        ],
+        [
+          430.8503723144531,
+          103.3485107421875
+        ],
+        [
+          430.8503723144531,
+          117.9951171875
+        ],
+        [
+          69.43603515625,
+          117.9951171875
+        ]
+      ]
+    },
+    {
+      "title": "4.5 Layer MRTDs \u2013 Logical data structure tests",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          69.7265625,
+          443.24957275390625
+        ],
+        [
+          394.3329162597656,
+          443.24957275390625
+        ],
+        [
+          394.3329162597656,
+          457.5908203125
+        ],
+        [
+          69.7265625,
+          457.5908203125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          7
+        ],
+        [
+          "Line",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          36
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          117
+        ],
+        [
+          "Line",
+          57
+        ],
+        [
+          "TableCell",
+          40
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          39
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          43
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          68
+        ],
+        [
+          "Line",
+          27
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          45
+        ],
+        [
+          "Line",
+          18
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/TR-03105_Part1.2_V1.02.1"
+}

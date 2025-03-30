@@ -1,0 +1,1643 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Technische Richtlinie BSI TR-03163: \nSicherheit in TK-Infrastrukturen",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.6025390625,
+          329.3173828125
+        ],
+        [
+          526.3199462890625,
+          329.3173828125
+        ],
+        [
+          526.3199462890625,
+          404.1435546875
+        ],
+        [
+          56.6025390625,
+          404.1435546875
+        ]
+      ]
+    },
+    {
+      "title": "\u00c4nderungshistorie",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.09326171875,
+          53.8583984375
+        ],
+        [
+          219.83668518066406,
+          53.8583984375
+        ],
+        [
+          219.83668518066406,
+          81.712646484375
+        ],
+        [
+          56.09326171875,
+          81.712646484375
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          54.92919921875,
+          57.250244140625
+        ],
+        [
+          108.33056640625,
+          57.250244140625
+        ],
+        [
+          108.33056640625,
+          81.507080078125
+        ],
+        [
+          54.92919921875,
+          81.507080078125
+        ]
+      ]
+    },
+    {
+      "title": "1 Einleitung",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.183837890625,
+          56.222412109375
+        ],
+        [
+          192.58396911621094,
+          56.222412109375
+        ],
+        [
+          192.58396911621094,
+          82.740478515625
+        ],
+        [
+          55.183837890625,
+          82.740478515625
+        ]
+      ]
+    },
+    {
+      "title": "1.1 Motivation",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.765869140625,
+          92.607666015625
+        ],
+        [
+          177.228515625,
+          92.607666015625
+        ],
+        [
+          177.228515625,
+          112.85595703125
+        ],
+        [
+          55.765869140625,
+          112.85595703125
+        ]
+      ]
+    },
+    {
+      "title": "1.1.1 Telekommunikationsgesetz und Sicherheitskatalog",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.875,
+          267.03076171875
+        ],
+        [
+          406.2578125,
+          267.03076171875
+        ],
+        [
+          406.2578125,
+          285.12060546875
+        ],
+        [
+          55.875,
+          285.12060546875
+        ]
+      ]
+    },
+    {
+      "title": "1.1.2 EU-Instrumentarium f\u00fcr die 5G-Cybersicherheit (EU Toolbox for 5G \nSecurity)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.7294921875,
+          509.8046875
+        ],
+        [
+          509.859375,
+          509.8046875
+        ],
+        [
+          509.859375,
+          544.33984375
+        ],
+        [
+          55.7294921875,
+          544.33984375
+        ]
+      ]
+    },
+    {
+      "title": "1.2 Adressat",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.129638671875,
+          251.2021484375
+        ],
+        [
+          158.89453125,
+          251.2021484375
+        ],
+        [
+          158.89453125,
+          269.703125
+        ],
+        [
+          56.129638671875,
+          269.703125
+        ]
+      ]
+    },
+    {
+      "title": "1.3 Struktur der Technischen Richtlinie",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.09326171875,
+          369.40283203125
+        ],
+        [
+          344.271484375,
+          369.40283203125
+        ],
+        [
+          344.271484375,
+          389.95947265625
+        ],
+        [
+          56.09326171875,
+          389.95947265625
+        ]
+      ]
+    },
+    {
+      "title": "1.4 Begriffe",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.3115234375,
+          56.94189453125
+        ],
+        [
+          155.984375,
+          56.94189453125
+        ],
+        [
+          155.984375,
+          76.8818359375
+        ],
+        [
+          56.3115234375,
+          76.8818359375
+        ]
+      ]
+    },
+    {
+      "title": "2 Grundlagen zur Zertifizierung von kritischen \nKomponenten",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.583984375,
+          54.783447265625
+        ],
+        [
+          487.451171875,
+          54.783447265625
+        ],
+        [
+          487.451171875,
+          105.25
+        ],
+        [
+          55.583984375,
+          105.25
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Durchf\u00fchrung der IT-Produktzertifizierung",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.583984375,
+          115.425537109375
+        ],
+        [
+          398.400390625,
+          115.425537109375
+        ],
+        [
+          398.400390625,
+          136.804443359375
+        ],
+        [
+          55.583984375,
+          136.804443359375
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Sicherheit im Produktlebenszyklus",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.166015625,
+          408.2548828125
+        ],
+        [
+          340.22198486328125,
+          408.2548828125
+        ],
+        [
+          340.22198486328125,
+          430.4560546875
+        ],
+        [
+          56.166015625,
+          430.4560546875
+        ]
+      ]
+    },
+    {
+      "title": "2.3 Einsatzbedingungen und G\u00fcltigkeit von Zertifikaten",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.4384765625,
+          673.8466796875
+        ],
+        [
+          455.73046875,
+          673.8466796875
+        ],
+        [
+          455.73046875,
+          696.0478515625
+        ],
+        [
+          55.4384765625,
+          696.0478515625
+        ]
+      ]
+    },
+    {
+      "title": "3 Zertifizierungsschemata",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.583984375,
+          55.70849609375
+        ],
+        [
+          309.58685302734375,
+          55.70849609375
+        ],
+        [
+          309.58685302734375,
+          81.60986328125
+        ],
+        [
+          55.583984375,
+          81.60986328125
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Zul\u00e4ssige Zertifizierungsschemata",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.6025390625,
+          91.168701171875
+        ],
+        [
+          332.33984375,
+          91.168701171875
+        ],
+        [
+          332.33984375,
+          113.0615234375
+        ],
+        [
+          56.6025390625,
+          113.0615234375
+        ]
+      ]
+    },
+    {
+      "title": "3.1.1 NESAS CCS-GI Schema",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.875,
+          300.94921875
+        ],
+        [
+          239.796875,
+          300.94921875
+        ],
+        [
+          239.796875,
+          319.0390625
+        ],
+        [
+          55.875,
+          319.0390625
+        ]
+      ]
+    },
+    {
+      "title": "GSMA NESAS und NESAS CCS-GI im Vergleich",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.09326171875,
+          592.03125
+        ],
+        [
+          271.517578125,
+          592.03125
+        ],
+        [
+          271.517578125,
+          607.654296875
+        ],
+        [
+          56.09326171875,
+          607.654296875
+        ]
+      ]
+    },
+    {
+      "title": "Internationale Anerkennung",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          56.056884765625,
+          106.586181640625
+        ],
+        [
+          190.7607421875,
+          106.586181640625
+        ],
+        [
+          190.7607421875,
+          119.125732421875
+        ],
+        [
+          56.056884765625,
+          119.125732421875
+        ]
+      ]
+    },
+    {
+      "title": "Auditierung des Produktlebenszyklus",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.80224609375,
+          222.01171875
+        ],
+        [
+          230.484375,
+          222.01171875
+        ],
+        [
+          230.484375,
+          234.345703125
+        ],
+        [
+          55.80224609375,
+          234.345703125
+        ]
+      ]
+    },
+    {
+      "title": "G\u00fcltigkeit",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          56.0205078125,
+          304.03271484375
+        ],
+        [
+          105.34765625,
+          304.03271484375
+        ],
+        [
+          105.34765625,
+          316.77783203125
+        ],
+        [
+          56.0205078125,
+          316.77783203125
+        ]
+      ]
+    },
+    {
+      "title": "Einsatzbedingungen",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          56.0205078125,
+          371.6640625
+        ],
+        [
+          151.14317321777344,
+          371.6640625
+        ],
+        [
+          151.14317321777344,
+          384.4091796875
+        ],
+        [
+          56.0205078125,
+          384.4091796875
+        ]
+      ]
+    },
+    {
+      "title": "Updates",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.80224609375,
+          425.5224609375
+        ],
+        [
+          94.94384765625,
+          425.5224609375
+        ],
+        [
+          94.94384765625,
+          438.13006591796875
+        ],
+        [
+          55.80224609375,
+          438.13006591796875
+        ]
+      ]
+    },
+    {
+      "title": "https://www.bsi.bund.de/nesas",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          91.01513671875,
+          719.8935546875
+        ],
+        [
+          233.685546875,
+          719.8935546875
+        ],
+        [
+          233.685546875,
+          733.0498046875
+        ],
+        [
+          91.01513671875,
+          733.0498046875
+        ]
+      ]
+    },
+    {
+      "title": "3.1.2 BSZ Schema",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.183837890625,
+          55.9140625
+        ],
+        [
+          174.7548828125,
+          55.9140625
+        ],
+        [
+          174.7548828125,
+          74.106689453125
+        ],
+        [
+          55.183837890625,
+          74.106689453125
+        ]
+      ]
+    },
+    {
+      "title": "Internationale Anerkennung",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          56.129638671875,
+          389.54833984375
+        ],
+        [
+          190.32421875,
+          389.54833984375
+        ],
+        [
+          190.32421875,
+          403.93798828125
+        ],
+        [
+          56.129638671875,
+          403.93798828125
+        ]
+      ]
+    },
+    {
+      "title": "Auditierung des Produktlebenszyklus",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.875,
+          547.62890625
+        ],
+        [
+          230.33099365234375,
+          547.62890625
+        ],
+        [
+          230.33099365234375,
+          562.4296875
+        ],
+        [
+          55.875,
+          562.4296875
+        ]
+      ]
+    },
+    {
+      "title": "G\u00fcltigkeit",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          56.166015625,
+          587.919921875
+        ],
+        [
+          104.9111328125,
+          587.919921875
+        ],
+        [
+          104.9111328125,
+          602.720703125
+        ],
+        [
+          56.166015625,
+          602.720703125
+        ]
+      ]
+    },
+    {
+      "title": "Einsatzbedingungen",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.94775390625,
+          655.7568359375
+        ],
+        [
+          151.328125,
+          655.7568359375
+        ],
+        [
+          151.328125,
+          670.5576171875
+        ],
+        [
+          55.94775390625,
+          670.5576171875
+        ]
+      ]
+    },
+    {
+      "title": "Updates",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          55.94775390625,
+          58.7406005859375
+        ],
+        [
+          95.81689453125,
+          58.7406005859375
+        ],
+        [
+          95.81689453125,
+          70.8690185546875
+        ],
+        [
+          55.94775390625,
+          70.8690185546875
+        ]
+      ]
+    },
+    {
+      "title": "3.1.3 Common Criteria Schema",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          56.166015625,
+          288.40966796875
+        ],
+        [
+          255.220703125,
+          288.40966796875
+        ],
+        [
+          255.220703125,
+          303.21044921875
+        ],
+        [
+          56.166015625,
+          303.21044921875
+        ]
+      ]
+    },
+    {
+      "title": "\u00dcbergang zur Europ\u00e4ischen Sicherheitszertifizierung nach Common Criteria (EUCC)",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          55.7294921875,
+          316.9833984375
+        ],
+        [
+          444.671875,
+          316.9833984375
+        ],
+        [
+          444.671875,
+          329.3173828125
+        ],
+        [
+          55.7294921875,
+          329.3173828125
+        ]
+      ]
+    },
+    {
+      "title": "Weitere Informationen:",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          56.129638671875,
+          626.1552734375
+        ],
+        [
+          163.841796875,
+          626.1552734375
+        ],
+        [
+          163.841796875,
+          638.4892578125
+        ],
+        [
+          56.129638671875,
+          638.4892578125
+        ]
+      ]
+    },
+    {
+      "title": "3.1.4 Europ\u00e4ische Sicherheitszertifizierung nach Common Criteria",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          54.8564453125,
+          55.5029296875
+        ],
+        [
+          463.87890625,
+          55.5029296875
+        ],
+        [
+          463.87890625,
+          74.106689453125
+        ],
+        [
+          54.8564453125,
+          74.106689453125
+        ]
+      ]
+    },
+    {
+      "title": "Inkrafttreten",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          56.09326171875,
+          277.92578125
+        ],
+        [
+          118.80712890625,
+          277.92578125
+        ],
+        [
+          118.80712890625,
+          291.904296875
+        ],
+        [
+          56.09326171875,
+          291.904296875
+        ]
+      ]
+    },
+    {
+      "title": "Internationale Anerkennung",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          56.129638671875,
+          331.98974609375
+        ],
+        [
+          191.6337890625,
+          331.98974609375
+        ],
+        [
+          191.6337890625,
+          346.37939453125
+        ],
+        [
+          56.129638671875,
+          346.37939453125
+        ]
+      ]
+    },
+    {
+      "title": "Auditierung des Produktlebenszyklus",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          56.23876953125,
+          475.26953125
+        ],
+        [
+          230.484375,
+          475.26953125
+        ],
+        [
+          230.484375,
+          490.0703125
+        ],
+        [
+          56.23876953125,
+          490.0703125
+        ]
+      ]
+    },
+    {
+      "title": "G\u00fcltigkeit",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          56.09326171875,
+          544.33984375
+        ],
+        [
+          104.40185546875,
+          544.33984375
+        ],
+        [
+          104.40185546875,
+          558.318359375
+        ],
+        [
+          56.09326171875,
+          558.318359375
+        ]
+      ]
+    },
+    {
+      "title": "Einsatzbedingungen",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          56.275146484375,
+          626.56640625
+        ],
+        [
+          151.16439819335938,
+          626.56640625
+        ],
+        [
+          151.16439819335938,
+          640.544921875
+        ],
+        [
+          56.275146484375,
+          640.544921875
+        ]
+      ]
+    },
+    {
+      "title": "Updates",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          56.45703125,
+          679.6025390625
+        ],
+        [
+          94.87109375,
+          679.6025390625
+        ],
+        [
+          94.87109375,
+          694.4033203125
+        ],
+        [
+          56.45703125,
+          694.4033203125
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Auswahl des Schemas",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          56.09326171875,
+          220.3671875
+        ],
+        [
+          248.52734375,
+          220.3671875
+        ],
+        [
+          248.52734375,
+          237.634765625
+        ],
+        [
+          56.09326171875,
+          237.634765625
+        ]
+      ]
+    },
+    {
+      "title": "Abk\u00fcrzungsverzeichnis",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          55.51123046875,
+          57.9697265625
+        ],
+        [
+          256.67578125,
+          57.9697265625
+        ],
+        [
+          256.67578125,
+          82.02099609375
+        ],
+        [
+          55.51123046875,
+          82.02099609375
+        ]
+      ]
+    },
+    {
+      "title": "Literaturverzeichnis",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          55.875,
+          57.6099853515625
+        ],
+        [
+          233.04345703125,
+          57.6099853515625
+        ],
+        [
+          233.04345703125,
+          80.9417724609375
+        ],
+        [
+          55.875,
+          80.9417724609375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Line",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          41
+        ],
+        [
+          "TableCell",
+          28
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          19
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          76
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          68
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Reference",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "TableCell",
+          66
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          131
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Reference",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          64
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          123
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Reference",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          118
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          92
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          122
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          49
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          63
+        ],
+        [
+          "TableCell",
+          44
+        ],
+        [
+          "Line",
+          27
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          54
+        ],
+        [
+          "Line",
+          24
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/BSI-TR-03163"
+}

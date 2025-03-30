@@ -1,0 +1,280 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Certified Security for Biometric Devices",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          41.10239791870117,
+          445.25390625
+        ],
+        [
+          485.12640380859375,
+          445.25390625
+        ],
+        [
+          485.12640380859375,
+          477.84765625
+        ],
+        [
+          41.10239791870117,
+          477.84765625
+        ]
+      ]
+    },
+    {
+      "title": "Our vision:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          630.2255859375,
+          78.865234375
+        ],
+        [
+          747.9541015625,
+          78.865234375
+        ],
+        [
+          747.9541015625,
+          106.3204345703125
+        ],
+        [
+          630.2255859375,
+          106.3204345703125
+        ]
+      ]
+    },
+    {
+      "title": "Biometrics \nas secure as a \n6-digit PIN",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          618.9915771484375,
+          138.45068359375
+        ],
+        [
+          765.6784057617188,
+          138.45068359375
+        ],
+        [
+          765.6784057617188,
+          226.9921875
+        ],
+        [
+          618.9915771484375,
+          226.9921875
+        ]
+      ]
+    },
+    {
+      "title": "Secure biometrics: A real challenge",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          840.3007812499999,
+          252.01953125
+        ],
+        [
+          1033.634765625,
+          252.01953125
+        ],
+        [
+          1033.634765625,
+          268.025390625
+        ],
+        [
+          840.3007812499999,
+          268.025390625
+        ]
+      ]
+    },
+    {
+      "title": "Ingredients for a BSI Biometric Security \nStandard",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          32.2998046875,
+          32.66650390625
+        ],
+        [
+          252.9052734375,
+          32.66650390625
+        ],
+        [
+          252.9052734375,
+          62.08990478515625
+        ],
+        [
+          32.2998046875,
+          62.08990478515625
+        ]
+      ]
+    },
+    {
+      "title": "Certified Biometric Security - \nTechnical Guideline BSI TR-03166",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          34.01570129394531,
+          312.841796875
+        ],
+        [
+          221.2646484375,
+          312.841796875
+        ],
+        [
+          221.2646484375,
+          342.5362091064453
+        ],
+        [
+          34.01570129394531,
+          342.5362091064453
+        ]
+      ]
+    },
+    {
+      "title": "Evaluation Process\nTesting for fast, usable and secure \nbiometric devices",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          309.5947265625,
+          32.4300537109375
+        ],
+        [
+          499.37890625,
+          32.4300537109375
+        ],
+        [
+          499.37890625,
+          77.62841796875
+        ],
+        [
+          309.5947265625,
+          77.62841796875
+        ]
+      ]
+    },
+    {
+      "title": "Impressum",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          906.6604614257812,
+          430.46974182128906
+        ],
+        [
+          952.075927734375,
+          430.46974182128906
+        ],
+        [
+          952.075927734375,
+          440.888671875
+        ],
+        [
+          906.6604614257812,
+          440.888671875
+        ]
+      ]
+    },
+    {
+      "title": "Technical Guideline for\nBiometric Devices",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          665.3800048828125,
+          62.49560546875
+        ],
+        [
+          902.3550415039062,
+          62.49560546875
+        ],
+        [
+          902.3550415039062,
+          122.00830078125
+        ],
+        [
+          665.3800048828125,
+          122.00830078125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          77
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "Picture",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          132
+        ],
+        [
+          "Line",
+          68
+        ],
+        [
+          "Text",
+          17
+        ],
+        [
+          "Picture",
+          11
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Figure",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/BSI-TR-03166_Flyer_Security_Biometric_Devices"
+}

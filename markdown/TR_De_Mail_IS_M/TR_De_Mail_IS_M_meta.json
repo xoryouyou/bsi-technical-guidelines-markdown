@@ -1,0 +1,937 @@
+{
+  "table_of_contents": [
+    {
+      "title": "BSI \u2013 Technische Richtlinie",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.716796875,
+          291.69873046875
+        ],
+        [
+          274.219970703125,
+          291.69873046875
+        ],
+        [
+          274.219970703125,
+          312.25537109375
+        ],
+        [
+          70.716796875,
+          312.25537109375
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.420654296875,
+          100.4705810546875
+        ],
+        [
+          181.1572265625,
+          100.4705810546875
+        ],
+        [
+          181.1572265625,
+          119.43408203125
+        ],
+        [
+          56.420654296875,
+          119.43408203125
+        ]
+      ]
+    },
+    {
+      "title": "1 Einleitung",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.80224609375,
+          90.24365234375
+        ],
+        [
+          189.451171875,
+          90.24365234375
+        ],
+        [
+          189.451171875,
+          115.73388671875
+        ],
+        [
+          55.80224609375,
+          115.73388671875
+        ]
+      ]
+    },
+    {
+      "title": "2 Aufbau des Moduls Informationssicherheit",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.7294921875,
+          90.757568359375
+        ],
+        [
+          469.69921875,
+          90.757568359375
+        ],
+        [
+          469.69921875,
+          114.294921875
+        ],
+        [
+          55.7294921875,
+          114.294921875
+        ]
+      ]
+    },
+    {
+      "title": "2.1 Vorgehen nach IT-Grundschutz",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.09326171875,
+          131.870849609375
+        ],
+        [
+          321.28125,
+          131.870849609375
+        ],
+        [
+          321.28125,
+          150.782958984375
+        ],
+        [
+          56.09326171875,
+          150.782958984375
+        ]
+      ]
+    },
+    {
+      "title": "2.2 Vorgehen nach ISO 27001",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.23876953125,
+          573.5302734375
+        ],
+        [
+          278.79296875,
+          573.5302734375
+        ],
+        [
+          278.79296875,
+          591.6201171875
+        ],
+        [
+          56.23876953125,
+          591.6201171875
+        ]
+      ]
+    },
+    {
+      "title": "3 Ablauf der Verfahren",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.0205078125,
+          90.44921875
+        ],
+        [
+          288.2509765625,
+          90.44921875
+        ],
+        [
+          288.2509765625,
+          114.603271484375
+        ],
+        [
+          56.0205078125,
+          114.603271484375
+        ]
+      ]
+    },
+    {
+      "title": "3.1 Verfahren nach IT-Grundschutz",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.23876953125,
+          131.870849609375
+        ],
+        [
+          326.228515625,
+          131.870849609375
+        ],
+        [
+          326.228515625,
+          150.577392578125
+        ],
+        [
+          56.23876953125,
+          150.577392578125
+        ]
+      ]
+    },
+    {
+      "title": "3.1.1 Fokus",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.166015625,
+          208.4443359375
+        ],
+        [
+          133.7216796875,
+          208.4443359375
+        ],
+        [
+          133.7216796875,
+          224.8896484375
+        ],
+        [
+          56.166015625,
+          224.8896484375
+        ]
+      ]
+    },
+    {
+      "title": "3.1.1.1 Definition des Informationsverbundes",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.0205078125,
+          308.96630859375
+        ],
+        [
+          314.87890625,
+          308.96630859375
+        ],
+        [
+          314.87890625,
+          324.24755859375
+        ],
+        [
+          56.0205078125,
+          324.24755859375
+        ]
+      ]
+    },
+    {
+      "title": "3.1.1.2 Schutzbedarfsfeststellung",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.09326171875,
+          395.9208984375
+        ],
+        [
+          247.36328125,
+          395.9208984375
+        ],
+        [
+          247.36328125,
+          411.1328125
+        ],
+        [
+          56.09326171875,
+          411.1328125
+        ]
+      ]
+    },
+    {
+      "title": "3.1.1.3 Modellierung",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.275146484375,
+          495.826171875
+        ],
+        [
+          178.68359375,
+          495.826171875
+        ],
+        [
+          178.68359375,
+          511.44921875
+        ],
+        [
+          56.275146484375,
+          511.44921875
+        ]
+      ]
+    },
+    {
+      "title": "Wichtig:",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.38427734375,
+          709.2041015625
+        ],
+        [
+          101.78271484375,
+          709.2041015625
+        ],
+        [
+          101.78271484375,
+          724.0048828125
+        ],
+        [
+          56.38427734375,
+          724.0048828125
+        ]
+      ]
+    },
+    {
+      "title": "3.1.1.4 Penetrationstests und IS-Kurz-Revision",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.80224609375,
+          150.68017578125
+        ],
+        [
+          324.7734375,
+          150.68017578125
+        ],
+        [
+          324.7734375,
+          165.6865234375
+        ],
+        [
+          55.80224609375,
+          165.6865234375
+        ]
+      ]
+    },
+    {
+      "title": "3.1.2 Testat f\u00fcr den De-Mail IT-Verbund",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.09326171875,
+          178.0205078125
+        ],
+        [
+          311.095703125,
+          178.0205078125
+        ],
+        [
+          311.095703125,
+          194.67138671875
+        ],
+        [
+          56.09326171875,
+          194.67138671875
+        ]
+      ]
+    },
+    {
+      "title": "3.2 Vorgehen nach ISO 27001 (nativ)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.3115234375,
+          558.318359375
+        ],
+        [
+          330.01171875,
+          558.318359375
+        ],
+        [
+          330.01171875,
+          577.23046875
+        ],
+        [
+          56.3115234375,
+          577.23046875
+        ]
+      ]
+    },
+    {
+      "title": "3.2.1 Fokus",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.911376953125,
+          634.7890625
+        ],
+        [
+          133.576171875,
+          634.7890625
+        ],
+        [
+          133.576171875,
+          650.412109375
+        ],
+        [
+          55.911376953125,
+          650.412109375
+        ]
+      ]
+    },
+    {
+      "title": "3.2.1.1 Definition des Informationsverbundes",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.875,
+          91.271484375
+        ],
+        [
+          314.87890625,
+          91.271484375
+        ],
+        [
+          314.87890625,
+          107.10009765625
+        ],
+        [
+          55.875,
+          107.10009765625
+        ]
+      ]
+    },
+    {
+      "title": "3.2.1.2 Risikoakzeptanz",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.693115234375,
+          177.40380859375
+        ],
+        [
+          197.890625,
+          177.40380859375
+        ],
+        [
+          197.890625,
+          193.43798828125
+        ],
+        [
+          55.693115234375,
+          193.43798828125
+        ]
+      ]
+    },
+    {
+      "title": "3.2.1.3 Penetrationstests und IS-Kurz-Revision",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.7294921875,
+          310.4052734375
+        ],
+        [
+          324.19140625,
+          310.4052734375
+        ],
+        [
+          324.19140625,
+          326.439453125
+        ],
+        [
+          55.7294921875,
+          326.439453125
+        ]
+      ]
+    },
+    {
+      "title": "3.2.2 Testat f\u00fcr den De-Mail IT-Verbund",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.36572265625,
+          369.81396484375
+        ],
+        [
+          312.259765625,
+          369.81396484375
+        ],
+        [
+          312.259765625,
+          386.25927734375
+        ],
+        [
+          55.36572265625,
+          386.25927734375
+        ]
+      ]
+    },
+    {
+      "title": "4 Erg\u00e4nzende Anforderungen an den zertifizierten \nDe-Mail-Auditor",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.875,
+          89.729736328125
+        ],
+        [
+          520.4998168945312,
+          89.729736328125
+        ],
+        [
+          520.4998168945312,
+          137.832275390625
+        ],
+        [
+          55.875,
+          137.832275390625
+        ]
+      ]
+    },
+    {
+      "title": "4.1 Vorgehensweise nach IT-Grundschutz",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.6025390625,
+          222.21728515625
+        ],
+        [
+          363.76953125,
+          222.21728515625
+        ],
+        [
+          363.76953125,
+          241.95166015625
+        ],
+        [
+          56.6025390625,
+          241.95166015625
+        ]
+      ]
+    },
+    {
+      "title": "4.2 Allgemein",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.45703125,
+          386.46484375
+        ],
+        [
+          169.5166015625,
+          386.46484375
+        ],
+        [
+          169.5166015625,
+          406.19921875
+        ],
+        [
+          56.45703125,
+          406.19921875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          17
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "Line",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          15
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "TableCell",
+          42
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableOfContents",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          20
+        ],
+        [
+          "Line",
+          8
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          92
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          92
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          57
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          63
+        ],
+        [
+          "Line",
+          27
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/TR_De_Mail_IS_M"
+}
