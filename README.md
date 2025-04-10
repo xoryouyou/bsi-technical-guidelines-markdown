@@ -5,7 +5,7 @@
 
 This repository contains all BSI technical guidelines  which are published [here](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/technische-richtlinien_node.html)
 
-It was created out of necessity to have all TRs in one place searchable and usable in tools like (obsidian)[https://github.com/obsidianmd]
+It was created out of necessity to have all TRs in one place searchable and usable in tools like [obsidian](https://github.com/obsidianmd)
 
 The PDFs were converted using [marker](https://github.com/VikParuchuri/marker) and [ollama](https://github.com/ollama/ollama) to markdown.
 
@@ -14,6 +14,7 @@ The PDFs were converted using [marker](https://github.com/VikParuchuri/marker) a
 ## Procedure
 
 The python scripts can be run using `https://github.com/astral-sh/uv`
+
 0. `uv sync`
 1. `uv run scrape_pdf_links.py`
 2. `uv run download_pdfs.py`
