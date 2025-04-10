@@ -3,9 +3,10 @@
 > [!NOTE]  
 > All copyright remains with the respective authors of the documents, this repoository is just a format shift to Markdown.
 
-This repository contains all BSI technical guidelines  which are published [here](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/technische-richtlinien_node.html)
+This repository contains all [BSI technical guidelines](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/technische-richtlinien_node.html)
+ (BSI Technische Richtlinien) and [IT Grundschutz](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/IT-Grundschutz-Bausteine/Bausteine_Download_Edition_node.html) documents.
 
-It was created out of necessity to have all TRs in one place searchable and usable in tools like [obsidian](https://github.com/obsidianmd)
+It was created out of necessity to have all documents in one place searchable and usable in tools like [obsidian](https://github.com/obsidianmd)
 
 The PDFs were converted using [marker](https://github.com/VikParuchuri/marker) and [ollama](https://github.com/ollama/ollama) to markdown.
 
@@ -13,7 +14,7 @@ The PDFs were converted using [marker](https://github.com/VikParuchuri/marker) a
 
 ## Procedure
 
-The python scripts can be run using `https://github.com/astral-sh/uv`
+The python scripts can be run using [uv](https://github.com/astral-sh/uv)
 
 0. `uv sync`
 1. `uv run scrape_pdf_links.py`
@@ -25,6 +26,120 @@ The python scripts can be run using `https://github.com/astral-sh/uv`
 * `scrape_pdf_links.py` was used to loop over all TR pages from `data/tr-list.txt` and extract links for the PDFs on them and store them in `data/pdf_links.txt`
 * `download_pdfs.py` well ... downloaded them into the `/pdf` folder.
 * `convert.sh` was used to loop over all PDFs and convert them using marker and ollama
+
+## List of all IT-Grundschutz documents contained as of `10.04.2025`
+* APP.1.1 Office-Produkte.pdf.clean.pdf
+* APP.1.2 Webbrowser.pdf.clean.pdf
+* APP.1.4 Mobile Anwendungen (Apps).pdf.clean.pdf
+* APP.2.1 Allgemeiner Verzeichnisdienst.pdf.clean.pdf
+* APP.2.2 Active Directory Domain Services.pdf.clean.pdf
+* APP.2.3 OpenLDAP.pdf.clean.pdf
+* APP.3.1 Webanwendungen und Webservices.pdf.clean.pdf
+* APP.3.2 Webserver.pdf.clean.pdf
+* APP.3.3 Fileserver.pdf.clean.pdf
+* APP.3.4 Samba.pdf.clean.pdf
+* APP.3.6 DNS-Server.pdf.clean.pdf
+* APP.4.2 SAP-ERP-System.pdf.clean.pdf
+* APP.4.3 Relationale Datenbanken.pdf.clean.pdf
+* APP.4.4 Kubernetes.pdf.clean.pdf
+* APP.4.6 SAP ABAP-Programmierung.pdf.clean.pdf
+* APP.5.2 Microsoft Exchange und Outlook.pdf.clean.pdf
+* APP.5.3 Allgemeiner E-Mail-Client und -Server.pdf.clean.pdf
+* APP.5.4 Unified Communications und Collaboration (UCC).pdf.clean.pdf
+* APP.6 Allgemeine Software.pdf.clean.pdf
+* APP.7 Entwicklung von Individualsoftware.pdf.clean.pdf
+* CCON.10 Entwicklung von Webanwendungen.pdf.clean.pdf
+* CCON.11.1 Geheimschutz VS-NUR FÜR DEN DIENSTGEBRAUCH (VS-NfD).pdf.clean.pdf
+* CCON.1 Kryptokonzept.pdf.clean.pdf
+* CCON.2 Datenschutz.pdf.clean.pdf
+* CCON.3 Datensicherungskonzept.pdf.clean.pdf
+* CCON.6 Löschen und Vernichten.pdf.clean.pdf
+* CCON.7 Informationssicherheit auf Auslandsreisen.pdf.clean.pdf
+* CCON.8 Software-Entwicklung.pdf.clean.pdf
+* CCON.9 Informationsaustausch.pdf.clean.pdf
+* DER.1 Detektion von sicherheitsrelevanten Ereignissen.pdf.clean.pdf
+* DER.2.1 Behandlung von Sicherheitsvorfällen.pdf.clean.pdf
+* DER.2.2 Vorsorge für die IT-Forensik.pdf.clean.pdf
+* DER.2.3 Bereinigung weitreichender Sicherheitsvorfälle.pdf.clean.pdf
+* DER.3.1 Audits und Revisionen.pdf.clean.pdf
+* DER.3.2 Revisionen auf Basis des Leitfadens IS-Revision.pdf.clean.pdf
+* DER.4 Notfallmanagement.pdf.clean.pdf
+* IND.1 Prozessleit- und Automatisierungstechnik.pdf.clean.pdf
+* IND.2.1 Allgemeine ICS-Komponente.pdf.clean.pdf
+* IND.2.2 Speicherprogrammierbare Steuerung (SPS).pdf.clean.pdf
+* IND.2.3 Sensoren und Aktoren.pdf.clean.pdf
+* IND.2.4 Maschine.pdf.clean.pdf
+* IND.2.7 Safety Instrumented Systems.pdf.clean.pdf
+* IND.3.2 Fernwartung im industriellen Umfeld.pdf.clean.pdf
+* INF.10 Besprechungs-, Veranstaltungs- und Schulungsräume.pdf.clean.pdf
+* INF.11 Allgemeines Fahrzeug.pdf.clean.pdf
+* INF.12 Verkabelung.pdf.clean.pdf
+* INF.13 Technisches Gebäudemanagement.pdf.clean.pdf
+* INF.14 Gebäudeautomation.pdf.clean.pdf
+* INF.1 Allgemeines Gebäude.pdf.clean.pdf
+* INF.2 Rechenzentrum sowie Serverraum.pdf.clean.pdf
+* INF.5 Raum sowie Schrank für technische Infrastruktur.pdf.clean.pdf
+* INF.6 Datenträgerarchiv.pdf.clean.pdf
+* INF.7 Büroarbeitsplatz.pdf.clean.pdf
+* INF.8 Häuslicher Arbeitsplatz.pdf.clean.pdf
+* INF.9 Mobiler Arbeitsplatz.pdf.clean.pdf
+* ISMS.1 Sicherheitsmanagement.pdf.clean.pdf
+* IT_Grundschutz_Kompendium_Edition2023.pd
+* NET.1.1 Netzarchitektur und -design.pdf.clean.pdf
+* NET.1.2 Netzmanagement.pdf.clean.pdf
+* NET.2.1 WLAN-Betrieb.pdf.clean.pdf
+* NET.2.2 WLAN-Nutzung.pdf.clean.pdf
+* NET.3.1 Router und Switches.pdf.clean.pdf
+* NET.3.2 Firewall.pdf.clean.pdf
+* NET.3.3 VPN.pdf.clean.pdf
+* NET.3.4 Network Access Control.pdf.clean.pdf
+* NET.4.1 TK-Anlagen.pdf.clean.pdf
+* NET.4.2 VoIP.pdf.clean.pdf
+* NET.4.3 Faxgeräte und Faxserver.pdf.clean.pdf
+* OPS.1.1.1 Allgemeiner IT-Betrieb.pdf.clean.pdf
+* OPS.1.1.2 Ordnungsgemäße IT-Administration.pdf.clean.pdf
+* OPS.1.1.3 Patch- und Änderungsmanagement.pdf.clean.pdf
+* OPS.1.1.4 Schutz vor Schadprogrammen.pdf.clean.pdf
+* OPS.1.1.5 Protokollierung.pdf.clean.pdf
+* OPS.1.1.6 Software-Tests und -Freigaben.pdf.clean.pdf
+* OPS.1.1.7 Systemmanagement.pdf.clean.pdf
+* OPS.1.2.2 Archivierung.pdf.clean.pdf
+* OPS.1.2.4 Telearbeit.pdf.clean.pdf
+* OPS.1.2.5 Fernwartung.pdf.clean.pdf
+* OPS.1.2.6 NTP-Zeitsynchronisation.pdf.clean.pdf
+* OPS.2.2 Cloud-Nutzung.pdf.clean.pdf
+* OPS.2.3 Nutzung von Outsourcing.pdf.clean.pdf
+* OPS.3.2 Anbieten von Outsourcing.pdf.clean.pdf
+* ORP.1 Organisation.pdf.clean.pdf
+* ORP.2 Personal.pdf.clean.pdf
+* ORP.3 Sensibilisierung und Schulung zur Informationssicherheit.pdf.clean.pdf
+* ORP.4 Identitäts- und Berechtigungsmanagement.pdf.clean.pdf
+* ORP.5 Compliance Management (Anforderungsmanagement).pdf.clean.pdf
+* SYS.1.1 Allgemeiner Server.pdf.clean.pdf
+* SYS.1.2.2 Windows Server 2012.pdf.clean.pdf
+* SYS.1.2.3 Windows Server.pdf.clean.pdf
+* SYS.1.3 Server unter Linux und Unix.pdf.clean.pdf
+* SYS.1.5 Virtualisierung.pdf.clean.pdf
+* SYS.1.6 Containerisierung.pdf.clean.pdf
+* SYS.1.7 IBM Z.pdf.clean.pdf
+* SYS.1.8 Speicherlösungen.pdf.clean.pdf
+* SYS.1.9 Terminalserver.pdf.clean.pdf
+* SYS.2.1 Allgemeiner Client.pdf.clean.pdf
+* SYS.2.2.3 Clients unter Windows.pdf.clean.pdf
+* SYS.2.3 Clients unter Linux und Unix.pdf.clean.pdf
+* SYS.2.4 Clients unter macOS.pdf.clean.pdf
+* SYS.2.5 Client-Virtualisierung.pdf.clean.pdf
+* SYS.2.6 Virtual Desktop Infrastructure.pdf.clean.pdf
+* SYS.3.1 Laptops.pdf.clean.pdf
+* SYS.3.2.1 Allgemeine Smartphones und Tablets.pdf.clean.pdf
+* SYS.3.2.2 Mobile Device Management (MDM).pdf.clean.pdf
+* SYS.3.2.3 iOS (for Enterprise).pdf.clean.pdf
+* SYS.3.2.4 Android.pdf.clean.pdf
+* SYS.3.3 Mobiltelefon.pdf.clean.pdf
+* SYS.4.1 Drucker, Kopierer und Multifunktionsgeräte.pdf.clean.pdf
+* SYS.4.3 Eingebettete Systeme.pdf.clean.pdf
+* SYS.4.4 Allgemeines IoT-Gerät.pdf.clean.pdf
+* SYS.4.5 Wechseldatenträger.pdf.clean.pdf
 
 ## List of all TRs contained as of `09.04.2025`
 * BSI TR-01201 De-Mail
