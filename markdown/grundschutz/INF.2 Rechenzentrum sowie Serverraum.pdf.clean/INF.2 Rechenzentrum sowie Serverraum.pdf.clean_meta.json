@@ -1,0 +1,1566 @@
+{
+  "table_of_contents": [
+    {
+      "title": "INF.2 Rechenzentrum sowie \nServerraum",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.78125,
+          201.455078125
+        ],
+        [
+          455.900146484375,
+          201.455078125
+        ],
+        [
+          455.900146484375,
+          276.5596923828125
+        ],
+        [
+          55.78125,
+          276.5596923828125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.39862060546875,
+          313.89990234375
+        ],
+        [
+          194.798583984375,
+          313.89990234375
+        ],
+        [
+          194.798583984375,
+          336.51220703125
+        ],
+        [
+          56.39862060546875,
+          336.51220703125
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          347.4072265625
+        ],
+        [
+          161.097412109375,
+          347.4072265625
+        ],
+        [
+          161.097412109375,
+          367.9638671875
+        ],
+        [
+          55.926513671875,
+          367.9638671875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.81756591796875,
+          298.8935546875
+        ],
+        [
+          168.79638671875,
+          298.8935546875
+        ],
+        [
+          168.79638671875,
+          317.39453125
+        ],
+        [
+          55.81756591796875,
+          317.39453125
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.926513671875,
+          420.5888671875
+        ],
+        [
+          304.47265625,
+          420.5888671875
+        ],
+        [
+          304.47265625,
+          439.5009765625
+        ],
+        [
+          55.926513671875,
+          439.5009765625
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          641.7783203125
+        ],
+        [
+          221.3818359375,
+          641.7783203125
+        ],
+        [
+          221.3818359375,
+          662.3349609375
+        ],
+        [
+          55.635986328125,
+          662.3349609375
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Fehlerhafte Planung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          56.1710205078125
+        ],
+        [
+          231.695556640625,
+          56.1710205078125
+        ],
+        [
+          231.695556640625,
+          76.7276611328125
+        ],
+        [
+          55.49072265625,
+          76.7276611328125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Fehlende oder fehlerhafte Zutrittskontrollen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          178.945556640625
+        ],
+        [
+          401.21826171875,
+          178.945556640625
+        ],
+        [
+          401.21826171875,
+          198.063232421875
+        ],
+        [
+          55.49072265625,
+          198.063232421875
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Unzureichende \u00dcberwachung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          288.2041015625
+        ],
+        [
+          298.0810546875,
+          288.2041015625
+        ],
+        [
+          298.0810546875,
+          307.9384765625
+        ],
+        [
+          55.635986328125,
+          307.9384765625
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unzureichende Klimatisierung im Rechenzentrum",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.2001953125,
+          397.154296875
+        ],
+        [
+          443.05419921875,
+          397.154296875
+        ],
+        [
+          443.05419921875,
+          416.06640625
+        ],
+        [
+          55.2001953125,
+          416.06640625
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Feuer",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.89019775390625,
+          506.9267578125
+        ],
+        [
+          127.686767578125,
+          506.9267578125
+        ],
+        [
+          127.686767578125,
+          525.2554931640625
+        ],
+        [
+          55.89019775390625,
+          525.2554931640625
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Wasser",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.1444091796875,
+          657.4013671875
+        ],
+        [
+          138.5089111328125,
+          657.4013671875
+        ],
+        [
+          138.5089111328125,
+          674.6689453125
+        ],
+        [
+          56.1444091796875,
+          674.6689453125
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Fehlender oder unzureichender Einbruchschutz",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.2001953125,
+          56.2738037109375
+        ],
+        [
+          424.7509765625,
+          56.2738037109375
+        ],
+        [
+          424.7509765625,
+          76.1109619140625
+        ],
+        [
+          55.2001953125,
+          76.1109619140625
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Ausfall der Stromversorgung",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          167.3310546875
+        ],
+        [
+          290.091552734375,
+          167.3310546875
+        ],
+        [
+          290.091552734375,
+          186.03759765625
+        ],
+        [
+          55.635986328125,
+          186.03759765625
+        ]
+      ]
+    },
+    {
+      "title": "2.9. Verschmutzung",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.7086181640625,
+          276.07568359375
+        ],
+        [
+          200.32786560058594,
+          276.07568359375
+        ],
+        [
+          200.32786560058594,
+          294.57666015625
+        ],
+        [
+          55.7086181640625,
+          294.57666015625
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          358.5078125
+        ],
+        [
+          210.196533203125,
+          358.5078125
+        ],
+        [
+          210.196533203125,
+          379.4755859375
+        ],
+        [
+          55.635986328125,
+          379.4755859375
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.8538818359375,
+          615.0546875
+        ],
+        [
+          237.94189453125,
+          615.0546875
+        ],
+        [
+          237.94189453125,
+          634.0955047607422
+        ],
+        [
+          55.8538818359375,
+          634.0955047607422
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A1 Festlegung von Anforderungen (B) [Haustechnik, Planende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          666.03515625
+        ],
+        [
+          477.91748046875,
+          666.03515625
+        ],
+        [
+          477.91748046875,
+          683.302734375
+        ],
+        [
+          55.49072265625,
+          683.302734375
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A2 Bildung von Brandabschnitten (B) [Planende]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          115.219970703125
+        ],
+        [
+          389.306640625,
+          115.219970703125
+        ],
+        [
+          389.306640625,
+          132.693115234375
+        ],
+        [
+          55.635986328125,
+          132.693115234375
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A3 Einsatz einer unterbrechungsfreien Stromversorgung (B) \n[Haustechnik]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          223.65625
+        ],
+        [
+          462.51953125,
+          223.65625
+        ],
+        [
+          462.51953125,
+          256.66497802734375
+        ],
+        [
+          55.926513671875,
+          256.66497802734375
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A4 Notabschaltung der Stromversorgung (B) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          438.6787109375
+        ],
+        [
+          453.22265625,
+          438.6787109375
+        ],
+        [
+          453.22265625,
+          456.7685546875
+        ],
+        [
+          55.78125,
+          456.7685546875
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A5 Einhaltung der Lufttemperatur und -feuchtigkeit (B) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          547.2177734375
+        ],
+        [
+          523.23974609375,
+          547.2177734375
+        ],
+        [
+          523.23974609375,
+          565.3076171875
+        ],
+        [
+          55.78125,
+          565.3076171875
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A6 Zutrittskontrolle (B) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          674.6689453125
+        ],
+        [
+          326.552734375,
+          674.6689453125
+        ],
+        [
+          326.552734375,
+          691.9365234375
+        ],
+        [
+          56.07177734375,
+          691.9365234375
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A7 Verschlie\u00dfen und Sichern (B) [Mitarbeitende, Haustechnik]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          153.96923828125
+        ],
+        [
+          473.26904296875,
+          153.96923828125
+        ],
+        [
+          473.26904296875,
+          171.03125
+        ],
+        [
+          55.49072265625,
+          171.03125
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A8 Einsatz einer Brandmeldeanlage (B) [Planende]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          261.48046875
+        ],
+        [
+          399.1845703125,
+          261.48046875
+        ],
+        [
+          399.1845703125,
+          278.3369140625
+        ],
+        [
+          55.635986328125,
+          278.3369140625
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A9 Einsatz einer L\u00f6sch- oder Brandvermeidungsanlage (B) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          357.2744140625
+        ],
+        [
+          536.3134765625,
+          357.2744140625
+        ],
+        [
+          536.3134765625,
+          373.7197265625
+        ],
+        [
+          55.926513671875,
+          373.7197265625
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A10 Inspektion und Wartung der Infrastruktur (B) [Wartungspersonal, \nHaustechnik]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          563.251953125
+        ],
+        [
+          525.088623046875,
+          563.251953125
+        ],
+        [
+          525.088623046875,
+          596.2649230957031
+        ],
+        [
+          55.635986328125,
+          596.2649230957031
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A11 Automatische \u00dcberwachung der Infrastruktur (B) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          675.080078125
+        ],
+        [
+          513.0712890625,
+          675.080078125
+        ],
+        [
+          513.0712890625,
+          691.525390625
+        ],
+        [
+          55.635986328125,
+          691.525390625
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A17 Einsatz einer Brandfr\u00fcherkennung (B) [Planende, Haustechnik]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          55.2459716796875
+        ],
+        [
+          508.4228515625,
+          55.2459716796875
+        ],
+        [
+          508.4228515625,
+          73.6441650390625
+        ],
+        [
+          55.49072265625,
+          73.6441650390625
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A29 Vermeidung und \u00dcberwachung nicht erforderlicher Leitungen (B) \n[Haustechnik, Planende]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.217041015625,
+          176.478759765625
+        ],
+        [
+          525.2734375,
+          176.478759765625
+        ],
+        [
+          525.2734375,
+          211.06500244140625
+        ],
+        [
+          56.217041015625,
+          211.06500244140625
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.9991455078125,
+          412.3662109375
+        ],
+        [
+          266.41357421875,
+          412.3662109375
+        ],
+        [
+          266.41357421875,
+          432.9228515625
+        ],
+        [
+          55.9991455078125,
+          432.9228515625
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A12 Perimeterschutz f\u00fcr das Rechenzentrum (S) [Planende, Haustechnik]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          476.5029296875
+        ],
+        [
+          538.34716796875,
+          476.5029296875
+        ],
+        [
+          538.34716796875,
+          493.7705078125
+        ],
+        [
+          55.78125,
+          493.7705078125
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A13 Planung und Installation von Gefahrenmeldeanlagen (S) \n[Haustechnik]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.07177734375,
+          716.193359375
+        ],
+        [
+          466.29638671875,
+          716.193359375
+        ],
+        [
+          466.29638671875,
+          750.728515625
+        ],
+        [
+          56.07177734375,
+          750.728515625
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A14 Einsatz einer Netzersatzanlage (S) [Planende, Haustechnik]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.07177734375,
+          187.68212890625
+        ],
+        [
+          476.75537109375,
+          187.68212890625
+        ],
+        [
+          476.75537109375,
+          204.744140625
+        ],
+        [
+          56.07177734375,
+          204.744140625
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A15 \u00dcberspannungsschutzeinrichtung (S) [Planende, Haustechnik]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.635986328125,
+          386.67041015625
+        ],
+        [
+          501.4501953125,
+          386.67041015625
+        ],
+        [
+          501.4501953125,
+          403.93798828125
+        ],
+        [
+          55.635986328125,
+          403.93798828125
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A16 Klimatisierung im Rechenzentrum (S) [Planende]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          495.00390625
+        ],
+        [
+          419.521484375,
+          495.00390625
+        ],
+        [
+          419.521484375,
+          511.44921875
+        ],
+        [
+          55.78125,
+          511.44921875
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A18 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.9991455078125,
+          596.142578125
+        ],
+        [
+          215.5712890625,
+          596.142578125
+        ],
+        [
+          215.5712890625,
+          611.8590545654297
+        ],
+        [
+          55.9991455078125,
+          611.8590545654297
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A19 Durchf\u00fchrung von Funktionstests der technischen Infrastruktur (S) \n[Haustechnik]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.07177734375,
+          637.6669921875
+        ],
+        [
+          535.8477172851562,
+          637.6669921875
+        ],
+        [
+          535.8477172851562,
+          670.6649322509766
+        ],
+        [
+          56.07177734375,
+          670.6649322509766
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A20 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.635986328125,
+          735.927734375
+        ],
+        [
+          215.716552734375,
+          735.927734375
+        ],
+        [
+          215.716552734375,
+          752.2590484619141
+        ],
+        [
+          55.635986328125,
+          752.2590484619141
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A30 Anlagen zur, L\u00f6schung oder Vermeidung von Br\u00e4nden (S) \n[Haustechnik, Planende]",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          55.5543212890625
+        ],
+        [
+          471.79156494140625,
+          55.5543212890625
+        ],
+        [
+          471.79156494140625,
+          90.2950439453125
+        ],
+        [
+          55.78125,
+          90.2950439453125
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          134.029296875
+        ],
+        [
+          391.630859375,
+          134.029296875
+        ],
+        [
+          391.630859375,
+          154.1748046875
+        ],
+        [
+          55.78125,
+          154.1748046875
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A21 Ausweichrechenzentrum (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.5633544921875,
+          224.68408203125
+        ],
+        [
+          297.79052734375,
+          224.68408203125
+        ],
+        [
+          297.79052734375,
+          242.36279296875
+        ],
+        [
+          55.5633544921875,
+          242.36279296875
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A22 Durchf\u00fchrung von Staubschutzma\u00dfnahmen (H) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          332.40087890625
+        ],
+        [
+          503.193359375,
+          332.40087890625
+        ],
+        [
+          503.193359375,
+          350.07958984375
+        ],
+        [
+          55.78125,
+          350.07958984375
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A23 Zweckm\u00e4\u00dfiger Aufbau der Verkabelung im Rechenzentrum (H) \n[Haustechnik]",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.926513671875,
+          413.80517578125
+        ],
+        [
+          510.166015625,
+          413.80517578125
+        ],
+        [
+          510.166015625,
+          447.7236328125
+        ],
+        [
+          55.926513671875,
+          447.7236328125
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A24 Einsatz von Video\u00fcberwachungsanlagen (H) \n[Datenschutzbeauftragte, Haustechnik, Planende]",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.635986328125,
+          564.896484375
+        ],
+        [
+          393.3740234375,
+          564.896484375
+        ],
+        [
+          393.3740234375,
+          599.431640625
+        ],
+        [
+          55.635986328125,
+          599.431640625
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A25 Redundante Auslegung von unterbrechungsfreien \nStromversorgungen (H) [Planende]",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.49072265625,
+          56.11962890625
+        ],
+        [
+          429.64764404296875,
+          56.11962890625
+        ],
+        [
+          429.64764404296875,
+          89.977294921875
+        ],
+        [
+          55.49072265625,
+          89.977294921875
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A26 Redundante Auslegung von Netzersatzanlagen (H) [Planende]",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.78125,
+          155.510986328125
+        ],
+        [
+          494.4775390625,
+          155.510986328125
+        ],
+        [
+          494.4775390625,
+          172.161865234375
+        ],
+        [
+          55.78125,
+          172.161865234375
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A27 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.926513671875,
+          210.191650390625
+        ],
+        [
+          219.638671875,
+          210.191650390625
+        ],
+        [
+          219.638671875,
+          226.6590576171875
+        ],
+        [
+          55.926513671875,
+          226.6590576171875
+        ]
+      ]
+    },
+    {
+      "title": "INF.2.A28 Einsatz von h\u00f6herwertigen Gefahrenmeldeanlagen (H) [Planende]",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.49072265625,
+          252.435546875
+        ],
+        [
+          521.787109375,
+          252.435546875
+        ],
+        [
+          521.787109375,
+          268.6590576171875
+        ],
+        [
+          55.49072265625,
+          268.6590576171875
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.7086181640625,
+          313.6943359375
+        ],
+        [
+          334.6875,
+          313.6943359375
+        ],
+        [
+          334.6875,
+          335.0732421875
+        ],
+        [
+          55.7086181640625,
+          335.0732421875
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.96282958984375,
+          347.61279296875
+        ],
+        [
+          190.731201171875,
+          347.61279296875
+        ],
+        [
+          190.731201171875,
+          365.6554870605469
+        ],
+        [
+          55.96282958984375,
+          365.6554870605469
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          80
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          118
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          118
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          122
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          34
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/INF.2 Rechenzentrum sowie Serverraum.pdf.clean"
+}

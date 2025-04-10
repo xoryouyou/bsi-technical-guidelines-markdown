@@ -1,0 +1,1177 @@
+{
+  "table_of_contents": [
+    {
+      "title": "INF.12 Verkabelung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.5633544921875,
+          200.42724609375
+        ],
+        [
+          333.81591796875,
+          200.42724609375
+        ],
+        [
+          333.81591796875,
+          241.54052734375
+        ],
+        [
+          55.5633544921875,
+          241.54052734375
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          274.43115234375
+        ],
+        [
+          195.089111328125,
+          274.43115234375
+        ],
+        [
+          195.089111328125,
+          298.27685546875
+        ],
+        [
+          55.96282958984375,
+          298.27685546875
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          308.96630859375
+        ],
+        [
+          161.678466796875,
+          308.96630859375
+        ],
+        [
+          161.678466796875,
+          328.70068359375
+        ],
+        [
+          55.96282958984375,
+          328.70068359375
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.635986328125,
+          568.5966796875
+        ],
+        [
+          169.2537384033203,
+          568.5966796875
+        ],
+        [
+          169.2537384033203,
+          588.3310546875
+        ],
+        [
+          55.635986328125,
+          588.3310546875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.5633544921875,
+          638.078125
+        ],
+        [
+          304.8515319824219,
+          638.078125
+        ],
+        [
+          304.8515319824219,
+          657.8125
+        ],
+        [
+          55.5633544921875,
+          657.8125
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.345458984375,
+          720.3046875
+        ],
+        [
+          222.108154296875,
+          720.3046875
+        ],
+        [
+          222.108154296875,
+          743.328125
+        ],
+        [
+          55.345458984375,
+          743.328125
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Kabelbrand",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.78125,
+          94.9202880859375
+        ],
+        [
+          168.651123046875,
+          94.9202880859375
+        ],
+        [
+          168.651123046875,
+          114.397705078125
+        ],
+        [
+          55.78125,
+          114.397705078125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Unzureichende Dimensionierung der Verkabelung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.054931640625,
+          178.123291015625
+        ],
+        [
+          443.3447265625,
+          178.123291015625
+        ],
+        [
+          443.3447265625,
+          197.857666015625
+        ],
+        [
+          55.054931640625,
+          197.857666015625
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Unzureichende Dokumentation der Verkabelung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          300.126953125
+        ],
+        [
+          431.7236328125,
+          300.126953125
+        ],
+        [
+          431.7236328125,
+          319.861328125
+        ],
+        [
+          55.635986328125,
+          319.861328125
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unzureichend gesch\u00fctzte Verteiler",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          415.244140625
+        ],
+        [
+          331.201171875,
+          415.244140625
+        ],
+        [
+          331.201171875,
+          434.978515625
+        ],
+        [
+          55.7086181640625,
+          434.978515625
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Leitungsbesch\u00e4digungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.5633544921875,
+          498.7041015625
+        ],
+        [
+          261.18408203125,
+          498.7041015625
+        ],
+        [
+          261.18408203125,
+          517.6162109375
+        ],
+        [
+          55.5633544921875,
+          517.6162109375
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Spannungsschwankungen, \u00dcberspannung, Unterspannung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2001953125,
+          594.9091796875
+        ],
+        [
+          501.4501953125,
+          594.9091796875
+        ],
+        [
+          501.4501953125,
+          613.8212890625
+        ],
+        [
+          55.2001953125,
+          613.8212890625
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Verwendung qualitativ unzureichender Steckdosenleisten",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2001953125,
+          690.2919921875
+        ],
+        [
+          497.9638671875,
+          690.2919921875
+        ],
+        [
+          497.9638671875,
+          710.8486328125
+        ],
+        [
+          55.2001953125,
+          710.8486328125
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Unzul\u00e4ssige Kabelverbindungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.9991455078125,
+          108.9501953125
+        ],
+        [
+          314.64111328125,
+          108.9501953125
+        ],
+        [
+          314.64111328125,
+          127.65673828125
+        ],
+        [
+          55.9991455078125,
+          127.65673828125
+        ]
+      ]
+    },
+    {
+      "title": "2.9. Leitungsbeeintr\u00e4chtigungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          250.58544921875
+        ],
+        [
+          287.93231201171875,
+          250.58544921875
+        ],
+        [
+          287.93231201171875,
+          269.49755859375
+        ],
+        [
+          55.7086181640625,
+          269.49755859375
+        ]
+      ]
+    },
+    {
+      "title": "2.10. Abh\u00f6ren und Manipulation von Kabeln",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          346.173828125
+        ],
+        [
+          378.8724060058594,
+          346.173828125
+        ],
+        [
+          378.8724060058594,
+          365.908203125
+        ],
+        [
+          55.635986328125,
+          365.908203125
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          502.404296875
+        ],
+        [
+          208.743896484375,
+          502.404296875
+        ],
+        [
+          208.743896484375,
+          522.9609375
+        ],
+        [
+          55.635986328125,
+          522.9609375
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          57.044677734375
+        ],
+        [
+          237.506103515625,
+          57.044677734375
+        ],
+        [
+          237.506103515625,
+          76.573486328125
+        ],
+        [
+          56.07177734375,
+          76.573486328125
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A1 Auswahl geeigneter Kabeltypen (B) [IT-Betrieb, Haustechnik]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          107.202880859375
+        ],
+        [
+          493.3154296875,
+          107.202880859375
+        ],
+        [
+          493.3154296875,
+          124.470458984375
+        ],
+        [
+          55.635986328125,
+          124.470458984375
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A2 Planung der Kabelf\u00fchrung (B) [IT-Betrieb, Haustechnik]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          289.0263671875
+        ],
+        [
+          462.16571044921875,
+          289.0263671875
+        ],
+        [
+          462.16571044921875,
+          305.060546875
+        ],
+        [
+          55.926513671875,
+          305.060546875
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A3 Fachgerechte Installation (B) [IT-Betrieb, Haustechnik]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          408.2548828125
+        ],
+        [
+          455.3240661621094,
+          408.2548828125
+        ],
+        [
+          455.3240661621094,
+          425.259033203125
+        ],
+        [
+          55.49072265625,
+          425.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A4 EMV-taugliche Stromversorgung (B) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          530.361328125
+        ],
+        [
+          431.43310546875,
+          530.361328125
+        ],
+        [
+          431.43310546875,
+          546.806640625
+        ],
+        [
+          55.78125,
+          546.806640625
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          631.5
+        ],
+        [
+          265.687255859375,
+          631.5
+        ],
+        [
+          265.687255859375,
+          650.412109375
+        ],
+        [
+          55.635986328125,
+          650.412109375
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A5 Anforderungsanalyse f\u00fcr die Verkabelung (S) [IT-Betrieb, \nHaustechnik]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          694.814453125
+        ],
+        [
+          470.654296875,
+          694.814453125
+        ],
+        [
+          470.654296875,
+          727.705078125
+        ],
+        [
+          55.49072265625,
+          727.705078125
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A6 Abnahme der Verkabelung (S) [IT-Betrieb, Haustechnik]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.2001953125,
+          115.32275390625
+        ],
+        [
+          462.1615295410156,
+          115.32275390625
+        ],
+        [
+          462.1615295410156,
+          132.59033203125
+        ],
+        [
+          55.2001953125,
+          132.59033203125
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A7 \u00dcberspannungsschutz (S) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          302.59375
+        ],
+        [
+          364.6044921875,
+          302.59375
+        ],
+        [
+          364.6044921875,
+          319.861328125
+        ],
+        [
+          55.926513671875,
+          319.861328125
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A8 Entfernen und Deaktivieren nicht mehr ben\u00f6tigter Kabel (S) [IT-\nBetrieb, Haustechnik]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          383.79248046875
+        ],
+        [
+          512.490234375,
+          383.79248046875
+        ],
+        [
+          512.490234375,
+          417.46490478515625
+        ],
+        [
+          55.635986328125,
+          417.46490478515625
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A9 Brandschutz in Trassen (S) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          534.8837890625
+        ],
+        [
+          368.9697265625,
+          534.8837890625
+        ],
+        [
+          368.9697265625,
+          551.3291015625
+        ],
+        [
+          55.926513671875,
+          551.3291015625
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A10 Dokumentation und Kennzeichnung der Verkabelung (S) [IT-\nBetrieb, Haustechnik]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          589.9755859375
+        ],
+        [
+          502.6123046875,
+          589.9755859375
+        ],
+        [
+          502.6123046875,
+          622.8662109375
+        ],
+        [
+          55.926513671875,
+          622.8662109375
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A11 Neutrale Dokumentation in den Verteilern (S) [IT-Betrieb, \nHaustechnik]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.345458984375,
+          89.4727783203125
+        ],
+        [
+          482.3187561035156,
+          89.4727783203125
+        ],
+        [
+          482.3187561035156,
+          122.26495361328125
+        ],
+        [
+          55.345458984375,
+          122.26495361328125
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A12 Kontrolle elektrotechnischer Anlagen und bestehender \nVerbindungen (S) [IT-Betrieb, Haustechnik]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          246.2685546875
+        ],
+        [
+          466.96185302734375,
+          246.2685546875
+        ],
+        [
+          466.96185302734375,
+          279.5703125
+        ],
+        [
+          55.49072265625,
+          279.5703125
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A13 Vermeidung elektrischer Z\u00fcndquellen (S) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.2001953125,
+          397.35986328125
+        ],
+        [
+          468.62060546875,
+          397.35986328125
+        ],
+        [
+          468.62060546875,
+          414.62744140625
+        ],
+        [
+          55.2001953125,
+          414.62744140625
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          484.314453125
+        ],
+        [
+          392.2119140625,
+          484.314453125
+        ],
+        [
+          392.2119140625,
+          504.048828125
+        ],
+        [
+          55.78125,
+          504.048828125
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A14 A-B-Versorgung (H) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.8538818359375,
+          574.763671875
+        ],
+        [
+          338.6783752441406,
+          574.763671875
+        ],
+        [
+          338.6783752441406,
+          592.853515625
+        ],
+        [
+          55.8538818359375,
+          592.853515625
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A15 Materielle Sicherung der Verkabelung (H) [IT-Betrieb, Haustechnik]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          656.5791015625
+        ],
+        [
+          541.001708984375,
+          656.5791015625
+        ],
+        [
+          541.001708984375,
+          673.8466796875
+        ],
+        [
+          55.635986328125,
+          673.8466796875
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A16 Nutzung von Schranksystemen (H) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.2001953125,
+          56.016845703125
+        ],
+        [
+          430.5615234375,
+          56.016845703125
+        ],
+        [
+          430.5615234375,
+          73.38720703125
+        ],
+        [
+          55.2001953125,
+          73.38720703125
+        ]
+      ]
+    },
+    {
+      "title": "INF.12.A17 Redundanzen f\u00fcr die IT-Verkabelung (H) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          125.292724609375
+        ],
+        [
+          451.77001953125,
+          125.292724609375
+        ],
+        [
+          451.77001953125,
+          142.354736328125
+        ],
+        [
+          55.49072265625,
+          142.354736328125
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.8538818359375,
+          253.2578125
+        ],
+        [
+          336.14013671875,
+          253.2578125
+        ],
+        [
+          336.14013671875,
+          273.814453125
+        ],
+        [
+          55.8538818359375,
+          273.814453125
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.89019775390625,
+          286.970703125
+        ],
+        [
+          191.021728515625,
+          286.970703125
+        ],
+        [
+          191.021728515625,
+          305.060546875
+        ],
+        [
+          55.89019775390625,
+          305.060546875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          75
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/INF.12 Verkabelung.pdf.clean"
+}

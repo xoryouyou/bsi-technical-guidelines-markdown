@@ -1,0 +1,1315 @@
+{
+  "table_of_contents": [
+    {
+      "title": "APP.4.3 Relationale Datenbanken",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.635986328125,
+          201.24951171875
+        ],
+        [
+          522.94921875,
+          201.24951171875
+        ],
+        [
+          522.94921875,
+          239.89599609375
+        ],
+        [
+          55.635986328125,
+          239.89599609375
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.5633544921875,
+          274.2255859375
+        ],
+        [
+          194.6533203125,
+          274.2255859375
+        ],
+        [
+          194.6533203125,
+          298.0712890625
+        ],
+        [
+          55.5633544921875,
+          298.0712890625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.74493408203125,
+          309.171875
+        ],
+        [
+          161.24267578125,
+          309.171875
+        ],
+        [
+          161.24267578125,
+          328.4951171875
+        ],
+        [
+          55.74493408203125,
+          328.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          484.314453125
+        ],
+        [
+          169.2537384033203,
+          484.314453125
+        ],
+        [
+          169.2537384033203,
+          504.048828125
+        ],
+        [
+          55.8538818359375,
+          504.048828125
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.7086181640625,
+          580.1083984375
+        ],
+        [
+          303.310546875,
+          580.1083984375
+        ],
+        [
+          303.310546875,
+          599.8427734375
+        ],
+        [
+          55.7086181640625,
+          599.8427734375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          153.866455078125
+        ],
+        [
+          220.946044921875,
+          153.866455078125
+        ],
+        [
+          220.946044921875,
+          175.862060546875
+        ],
+        [
+          55.49072265625,
+          175.862060546875
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Unzureichende Dimensionierung der Systemressourcen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2001953125,
+          252.435546875
+        ],
+        [
+          479.951171875,
+          252.435546875
+        ],
+        [
+          479.951171875,
+          272.169921875
+        ],
+        [
+          55.2001953125,
+          272.169921875
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Aktivierte Standard-Konten",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          361.18017578125
+        ],
+        [
+          285.443115234375,
+          361.18017578125
+        ],
+        [
+          285.443115234375,
+          380.91455078125
+        ],
+        [
+          55.635986328125,
+          380.91455078125
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Unverschl\u00fcsselte Datenbankanbindung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          497.0595703125
+        ],
+        [
+          364.61181640625,
+          497.0595703125
+        ],
+        [
+          364.61181640625,
+          516.7939453125
+        ],
+        [
+          55.49072265625,
+          516.7939453125
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Datenverlust in der Datenbank",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          592.853515625
+        ],
+        [
+          305.0537109375,
+          592.853515625
+        ],
+        [
+          305.0537109375,
+          612.587890625
+        ],
+        [
+          55.635986328125,
+          612.587890625
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Integrit\u00e4tsverlust der gespeicherten Daten",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          676.3134765625
+        ],
+        [
+          384.658203125,
+          676.3134765625
+        ],
+        [
+          384.658203125,
+          696.0478515625
+        ],
+        [
+          55.635986328125,
+          696.0478515625
+        ]
+      ]
+    },
+    {
+      "title": "2.6. SQL-Injections",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          121.181396484375
+        ],
+        [
+          192.91015625,
+          121.181396484375
+        ],
+        [
+          192.91015625,
+          140.915771484375
+        ],
+        [
+          55.635986328125,
+          140.915771484375
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Unsichere Konfiguration des Datenbankmanagementsystems",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          271.34765625
+        ],
+        [
+          518.8818359375,
+          271.34765625
+        ],
+        [
+          518.8818359375,
+          289.8486328125
+        ],
+        [
+          55.345458984375,
+          289.8486328125
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Malware und unsichere Datenbank-Skripte",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          406.40478515625
+        ],
+        [
+          391.0498046875,
+          406.40478515625
+        ],
+        [
+          391.0498046875,
+          424.7001953125
+        ],
+        [
+          55.49072265625,
+          424.7001953125
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.9991455078125,
+          587.5087890625
+        ],
+        [
+          209.47021484375,
+          587.5087890625
+        ],
+        [
+          209.47021484375,
+          608.8876953125
+        ],
+        [
+          55.9991455078125,
+          608.8876953125
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.9991455078125,
+          134.543212890625
+        ],
+        [
+          237.94189453125,
+          134.543212890625
+        ],
+        [
+          237.94189453125,
+          154.072021484375
+        ],
+        [
+          55.9991455078125,
+          154.072021484375
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A1 Erstellung einer Sicherheitsrichtlinie f\u00fcr Datenbanksysteme (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          185.729248046875
+        ],
+        [
+          515.10498046875,
+          185.729248046875
+        ],
+        [
+          515.10498046875,
+          202.174560546875
+        ],
+        [
+          55.78125,
+          202.174560546875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A2 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.9991455078125,
+          319.24462890625
+        ],
+        [
+          222.25341796875,
+          319.24462890625
+        ],
+        [
+          222.25341796875,
+          336.10107421875
+        ],
+        [
+          55.9991455078125,
+          336.10107421875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A3 Basish\u00e4rtung des Datenbankmanagementsystems (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          362.00244140625
+        ],
+        [
+          450.8984375,
+          362.00244140625
+        ],
+        [
+          450.8984375,
+          378.44775390625
+        ],
+        [
+          55.49072265625,
+          378.44775390625
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A4 Geregeltes Anlegen neuer Datenbanken (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          443.6123046875
+        ],
+        [
+          388.7255859375,
+          443.6123046875
+        ],
+        [
+          388.7255859375,
+          460.0576171875
+        ],
+        [
+          55.78125,
+          460.0576171875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A5 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          511.44921875
+        ],
+        [
+          223.7060546875,
+          511.44921875
+        ],
+        [
+          223.7060546875,
+          527.89453125
+        ],
+        [
+          55.926513671875,
+          527.89453125
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A6 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.217041015625,
+          553.7958984375
+        ],
+        [
+          224.141845703125,
+          553.7958984375
+        ],
+        [
+          224.141845703125,
+          570.2412109375
+        ],
+        [
+          56.217041015625,
+          570.2412109375
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A7 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          596.142578125
+        ],
+        [
+          223.851318359375,
+          596.142578125
+        ],
+        [
+          223.851318359375,
+          611.8590545654297
+        ],
+        [
+          55.78125,
+          611.8590545654297
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A8 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          637.6669921875
+        ],
+        [
+          223.851318359375,
+          637.6669921875
+        ],
+        [
+          223.851318359375,
+          654.1123046875
+        ],
+        [
+          55.926513671875,
+          654.1123046875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A9 Datensicherung eines Datenbanksystems (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          680.4248046875
+        ],
+        [
+          398.0224609375,
+          680.4248046875
+        ],
+        [
+          398.0224609375,
+          696.0478515625
+        ],
+        [
+          55.49072265625,
+          696.0478515625
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.217041015625,
+          108.9501953125
+        ],
+        [
+          267.430419921875,
+          108.9501953125
+        ],
+        [
+          267.430419921875,
+          127.8623046875
+        ],
+        [
+          56.217041015625,
+          127.8623046875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A10 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.3623046875,
+          172.2646484375
+        ],
+        [
+          229.080810546875,
+          172.2646484375
+        ],
+        [
+          229.080810546875,
+          188.91552734375
+        ],
+        [
+          56.3623046875,
+          188.91552734375
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A11 Ausreichende Dimensionierung der Hardware (S) \n[Fachverantwortliche]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.3623046875,
+          213.7890625
+        ],
+        [
+          437.5341796875,
+          213.7890625
+        ],
+        [
+          437.5341796875,
+          248.32421875
+        ],
+        [
+          56.3623046875,
+          248.32421875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A12 Einheitlicher Konfigurationsstandard von \nDatenbankmanagementsystemen (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          325.82275390625
+        ],
+        [
+          395.40771484375,
+          325.82275390625
+        ],
+        [
+          395.40771484375,
+          359.12451171875
+        ],
+        [
+          55.49072265625,
+          359.12451171875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A13 Restriktive Handhabung von Datenbank-Links (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          449.779296875
+        ],
+        [
+          438.6962890625,
+          449.779296875
+        ],
+        [
+          438.6962890625,
+          467.046875
+        ],
+        [
+          55.49072265625,
+          467.046875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A14 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.9991455078125,
+          545.162109375
+        ],
+        [
+          227.48291015625,
+          545.162109375
+        ],
+        [
+          227.48291015625,
+          561.607421875
+        ],
+        [
+          55.9991455078125,
+          561.607421875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A15 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.2896728515625,
+          587.919921875
+        ],
+        [
+          228.64501953125,
+          587.919921875
+        ],
+        [
+          228.64501953125,
+          603.54296875
+        ],
+        [
+          56.2896728515625,
+          603.54296875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A16 Verschl\u00fcsselung der Datenbankanbindung (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          629.033203125
+        ],
+        [
+          412.548828125,
+          629.033203125
+        ],
+        [
+          412.548828125,
+          645.478515625
+        ],
+        [
+          55.635986328125,
+          645.478515625
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A17 Daten\u00fcbernahme oder Migration (S) [Fachverantwortliche]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          697.28125
+        ],
+        [
+          495.184814453125,
+          697.28125
+        ],
+        [
+          495.184814453125,
+          714.548828125
+        ],
+        [
+          55.78125,
+          714.548828125
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A18 \u00dcberwachung des Datenbankmanagementsystems (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.345458984375,
+          55.70849609375
+        ],
+        [
+          461.357421875,
+          55.70849609375
+        ],
+        [
+          461.357421875,
+          73.181640625
+        ],
+        [
+          55.345458984375,
+          73.181640625
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A19 Schutz vor sch\u00e4dlichen Datenbank-Skripten (S) [Entwickelnde]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          176.787109375
+        ],
+        [
+          518.435302734375,
+          176.787109375
+        ],
+        [
+          518.435302734375,
+          194.4658203125
+        ],
+        [
+          55.78125,
+          194.4658203125
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A20 Regelm\u00e4\u00dfige Audits (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.7086181640625,
+          258.6025390625
+        ],
+        [
+          275.12939453125,
+          258.6025390625
+        ],
+        [
+          275.12939453125,
+          276.28125
+        ],
+        [
+          55.7086181640625,
+          276.28125
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          426.3447265625
+        ],
+        [
+          391.34033203125,
+          426.3447265625
+        ],
+        [
+          391.34033203125,
+          446.0791015625
+        ],
+        [
+          55.49072265625,
+          446.0791015625
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A21 Einsatz von Datenbank Security Tools (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          515.9716796875
+        ],
+        [
+          387.5634765625,
+          515.9716796875
+        ],
+        [
+          387.5634765625,
+          533.2392578125
+        ],
+        [
+          55.635986328125,
+          533.2392578125
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A22 Notfallvorsorge (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          663.9794921875
+        ],
+        [
+          252.032470703125,
+          663.9794921875
+        ],
+        [
+          252.032470703125,
+          681.2470703125
+        ],
+        [
+          55.926513671875,
+          681.2470703125
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A23 Archivierung (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          55.7598876953125
+        ],
+        [
+          238.087158203125,
+          55.7598876953125
+        ],
+        [
+          238.087158203125,
+          73.05908203125
+        ],
+        [
+          55.49072265625,
+          73.05908203125
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A24 Datenverschl\u00fcsselung in der Datenbank (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          197.54931640625
+        ],
+        [
+          399.47509765625,
+          197.54931640625
+        ],
+        [
+          399.47509765625,
+          213.99462890625
+        ],
+        [
+          55.78125,
+          213.99462890625
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.3.A25 Sicherheitspr\u00fcfungen von Datenbanksystemen (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          345.55712890625
+        ],
+        [
+          444.5068359375,
+          345.55712890625
+        ],
+        [
+          444.5068359375,
+          361.59130859375
+        ],
+        [
+          55.635986328125,
+          361.59130859375
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          432.9228515625
+        ],
+        [
+          336.4306640625,
+          432.9228515625
+        ],
+        [
+          336.4306640625,
+          454.3017578125
+        ],
+        [
+          55.635986328125,
+          454.3017578125
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.74493408203125,
+          467.046875
+        ],
+        [
+          191.1669921875,
+          467.046875
+        ],
+        [
+          191.1669921875,
+          484.45550537109375
+        ],
+        [
+          55.74493408203125,
+          484.45550537109375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          132
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          10
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/APP.4.3 Relationale Datenbanken.pdf.clean"
+}

@@ -1,0 +1,1419 @@
+{
+  "table_of_contents": [
+    {
+      "title": "NET.3.2 Firewall",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          54.9822998046875,
+          201.0439453125
+        ],
+        [
+          286.75048828125,
+          201.0439453125
+        ],
+        [
+          286.75048828125,
+          238.45703125
+        ],
+        [
+          54.9822998046875,
+          238.45703125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.9991455078125,
+          274.43115234375
+        ],
+        [
+          195.234375,
+          274.43115234375
+        ],
+        [
+          195.234375,
+          297.86572265625
+        ],
+        [
+          55.9991455078125,
+          297.86572265625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.03546142578125,
+          309.171875
+        ],
+        [
+          161.387939453125,
+          309.171875
+        ],
+        [
+          161.387939453125,
+          328.4951171875
+        ],
+        [
+          56.03546142578125,
+          328.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.78125,
+          575.9970703125
+        ],
+        [
+          169.2537384033203,
+          575.9970703125
+        ],
+        [
+          169.2537384033203,
+          595.7314453125
+        ],
+        [
+          55.78125,
+          595.7314453125
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.9991455078125,
+          658.634765625
+        ],
+        [
+          303.8916015625,
+          658.634765625
+        ],
+        [
+          303.8916015625,
+          677.546875
+        ],
+        [
+          55.9991455078125,
+          677.546875
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          409.8994140625
+        ],
+        [
+          221.09130859375,
+          409.8994140625
+        ],
+        [
+          221.09130859375,
+          431.2783203125
+        ],
+        [
+          55.7086181640625,
+          431.2783203125
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Distributed Denial of Service (DDoS)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2728271484375,
+          494.181640625
+        ],
+        [
+          341.95068359375,
+          494.181640625
+        ],
+        [
+          341.95068359375,
+          513.916015625
+        ],
+        [
+          55.2728271484375,
+          513.916015625
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Manipulation",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.67230224609375,
+          591.208984375
+        ],
+        [
+          184.339599609375,
+          591.208984375
+        ],
+        [
+          184.339599609375,
+          610.12109375
+        ],
+        [
+          55.67230224609375,
+          610.12109375
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Umgehung der Firewall-Regeln",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.8538818359375,
+          57.044677734375
+        ],
+        [
+          309.99267578125,
+          57.044677734375
+        ],
+        [
+          309.99267578125,
+          76.573486328125
+        ],
+        [
+          55.8538818359375,
+          76.573486328125
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Fehlerhafte Konfiguration und Bedienungsfehler einer Firewall",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          153.14697265625
+        ],
+        [
+          533.408203125,
+          153.14697265625
+        ],
+        [
+          533.408203125,
+          172.05908203125
+        ],
+        [
+          55.345458984375,
+          172.05908203125
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.5633544921875,
+          262.50830078125
+        ],
+        [
+          209.1796875,
+          262.50830078125
+        ],
+        [
+          209.1796875,
+          283.06494140625
+        ],
+        [
+          55.5633544921875,
+          283.06494140625
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          512.6826171875
+        ],
+        [
+          238.377685546875,
+          512.6826171875
+        ],
+        [
+          238.377685546875,
+          532.4169921875
+        ],
+        [
+          55.635986328125,
+          532.4169921875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A1 Erstellung einer Sicherheitsrichtlinie (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          562.4296875
+        ],
+        [
+          372.16552734375,
+          562.4296875
+        ],
+        [
+          372.16552734375,
+          579.0990600585938
+        ],
+        [
+          55.78125,
+          579.0990600585938
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A2 Festlegen der Firewall-Regeln (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          684.125
+        ],
+        [
+          330.32958984375,
+          684.125
+        ],
+        [
+          330.32958984375,
+          700.5703125
+        ],
+        [
+          55.78125,
+          700.5703125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A3 Einrichten geeigneter Filterregeln am Paketfilter (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.3623046875,
+          174.011962890625
+        ],
+        [
+          445.95947265625,
+          174.011962890625
+        ],
+        [
+          445.95947265625,
+          190.662841796875
+        ],
+        [
+          56.3623046875,
+          190.662841796875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A4 Sichere Konfiguration der Firewall (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          287.99853515625
+        ],
+        [
+          360.25390625,
+          287.99853515625
+        ],
+        [
+          360.25390625,
+          304.6590576171875
+        ],
+        [
+          55.926513671875,
+          304.6590576171875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A5 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.8538818359375,
+          462.5244140625
+        ],
+        [
+          223.99658203125,
+          462.5244140625
+        ],
+        [
+          223.99658203125,
+          478.9697265625
+        ],
+        [
+          55.8538818359375,
+          478.9697265625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A6 Schutz der Administrationsschnittstellen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          504.87109375
+        ],
+        [
+          399.1845703125,
+          504.87109375
+        ],
+        [
+          399.1845703125,
+          521.31640625
+        ],
+        [
+          55.635986328125,
+          521.31640625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A7 Notfallzugriff auf die Firewall (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.7086181640625,
+          645.0673828125
+        ],
+        [
+          330.0390625,
+          645.0673828125
+        ],
+        [
+          330.0390625,
+          662.3349609375
+        ],
+        [
+          55.7086181640625,
+          662.3349609375
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A8 Unterbindung von dynamischem Routing (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          700.1591796875
+        ],
+        [
+          404.9951171875,
+          700.1591796875
+        ],
+        [
+          404.9951171875,
+          716.6044921875
+        ],
+        [
+          55.635986328125,
+          716.6044921875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A9 Protokollierung (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.5633544921875,
+          56.633544921875
+        ],
+        [
+          246.3671875,
+          56.633544921875
+        ],
+        [
+          246.3671875,
+          73.05908203125
+        ],
+        [
+          55.5633544921875,
+          73.05908203125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A10 Abwehr von Fragmentierungsangriffen am Paketfilter (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.345458984375,
+          342.884765625
+        ],
+        [
+          484.0185546875,
+          342.884765625
+        ],
+        [
+          484.0185546875,
+          358.5078125
+        ],
+        [
+          55.345458984375,
+          358.5078125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A11 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          397.35986328125
+        ],
+        [
+          230.38818359375,
+          397.35986328125
+        ],
+        [
+          230.38818359375,
+          413.259033203125
+        ],
+        [
+          55.49072265625,
+          413.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A12 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.7086181640625,
+          439.912109375
+        ],
+        [
+          232.421875,
+          439.912109375
+        ],
+        [
+          232.421875,
+          455.259033203125
+        ],
+        [
+          55.7086181640625,
+          455.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A13 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          481.84765625
+        ],
+        [
+          231.55029296875,
+          481.84765625
+        ],
+        [
+          231.55029296875,
+          497.259033203125
+        ],
+        [
+          55.635986328125,
+          497.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A14 Betriebsdokumentationen (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          523.3720703125
+        ],
+        [
+          317.255859375,
+          523.3720703125
+        ],
+        [
+          317.255859375,
+          539.259033203125
+        ],
+        [
+          55.635986328125,
+          539.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A15 Beschaffung einer Firewall (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.7086181640625,
+          605.1875
+        ],
+        [
+          318.70849609375,
+          605.1875
+        ],
+        [
+          318.70849609375,
+          620.810546875
+        ],
+        [
+          55.7086181640625,
+          620.810546875
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          725.6494140625
+        ],
+        [
+          266.41357421875,
+          725.6494140625
+        ],
+        [
+          266.41357421875,
+          742.9354934692383
+        ],
+        [
+          56.07177734375,
+          742.9354934692383
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A16 Aufbau einer \"P-A-P\"-Struktur (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.4180908203125,
+          55.7598876953125
+        ],
+        [
+          343.4033203125,
+          55.7598876953125
+        ],
+        [
+          343.4033203125,
+          73.3358154296875
+        ],
+        [
+          55.4180908203125,
+          73.3358154296875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A17 Deaktivierung von IPv4 oder IPv6 (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          165.172607421875
+        ],
+        [
+          360.8349609375,
+          165.172607421875
+        ],
+        [
+          360.8349609375,
+          182.234619140625
+        ],
+        [
+          55.78125,
+          182.234619140625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A18 Administration \u00fcber ein gesondertes Managementnetz (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          245.24072265625
+        ],
+        [
+          489.248046875,
+          245.24072265625
+        ],
+        [
+          489.248046875,
+          262.6590576171875
+        ],
+        [
+          55.635986328125,
+          262.6590576171875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A19 Schutz vor TCP SYN Flooding, UDP Paket Storm und Sequence \nNumber Guessing am Paketfilter (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          381.1201171875
+        ],
+        [
+          519.462890625,
+          381.1201171875
+        ],
+        [
+          519.462890625,
+          413.86492919921875
+        ],
+        [
+          55.635986328125,
+          413.86492919921875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A20 Absicherung von grundlegenden Internetprotokollen (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          530.361328125
+        ],
+        [
+          481.6943359375,
+          530.361328125
+        ],
+        [
+          481.6943359375,
+          547.62890625
+        ],
+        [
+          55.926513671875,
+          547.62890625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A21 Tempor\u00e4re Entschl\u00fcsselung des Datenverkehrs (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          586.275390625
+        ],
+        [
+          442.1826171875,
+          586.275390625
+        ],
+        [
+          442.1826171875,
+          602.720703125
+        ],
+        [
+          55.635986328125,
+          602.720703125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A22 Sichere Zeitsynchronisation (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.345458984375,
+          56.53076171875
+        ],
+        [
+          327.1337890625,
+          56.53076171875
+        ],
+        [
+          327.1337890625,
+          73.078857421875
+        ],
+        [
+          55.345458984375,
+          73.078857421875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A23 System\u00fcberwachung und -Auswertung (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.926513671875,
+          112.136474609375
+        ],
+        [
+          392.79296875,
+          112.136474609375
+        ],
+        [
+          392.79296875,
+          128.25909423828125
+        ],
+        [
+          55.926513671875,
+          128.25909423828125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A24 Revision und Penetrationstests (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.926513671875,
+          219.75048828125
+        ],
+        [
+          343.4033203125,
+          219.75048828125
+        ],
+        [
+          343.4033203125,
+          236.60693359375
+        ],
+        [
+          55.926513671875,
+          236.60693359375
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A32 Notfallvorsorge f\u00fcr die Firewall (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          275.8701171875
+        ],
+        [
+          346.59912109375,
+          275.8701171875
+        ],
+        [
+          346.59912109375,
+          291.904296875
+        ],
+        [
+          55.78125,
+          291.904296875
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.345458984375,
+          421.0
+        ],
+        [
+          392.79296875,
+          421.0
+        ],
+        [
+          392.79296875,
+          440.05548095703125
+        ],
+        [
+          55.345458984375,
+          440.05548095703125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A25 Erweiterter Integrit\u00e4tsschutz f\u00fcr die Konfigurationsdateien (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          511.8603515625
+        ],
+        [
+          520.33447265625,
+          511.8603515625
+        ],
+        [
+          520.33447265625,
+          528.3056640625
+        ],
+        [
+          55.49072265625,
+          528.3056640625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A26 Auslagerung von funktionalen Erweiterungen auf dedizierte \nHardware (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.926513671875,
+          580.9306640625
+        ],
+        [
+          507.2607421875,
+          580.9306640625
+        ],
+        [
+          507.2607421875,
+          613.0649261474609
+        ],
+        [
+          55.926513671875,
+          613.0649261474609
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A27 Einsatz verschiedener Firewall-Betriebssysteme und -Produkte in \neiner mehrstufigen Firewall-Architektur (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          652.4677734375
+        ],
+        [
+          538.92822265625,
+          652.4677734375
+        ],
+        [
+          538.92822265625,
+          685.0649261474609
+        ],
+        [
+          55.78125,
+          685.0649261474609
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A28 Zentrale Filterung von aktiven Inhalten (H)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.2001953125,
+          56.3765869140625
+        ],
+        [
+          401.5087890625,
+          56.3765869140625
+        ],
+        [
+          401.5087890625,
+          73.2330322265625
+        ],
+        [
+          55.2001953125,
+          73.2330322265625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A29 Einsatz von Hochverf\u00fcgbarkeitsl\u00f6sungen (H)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.49072265625,
+          125.498291015625
+        ],
+        [
+          409.93408203125,
+          125.498291015625
+        ],
+        [
+          409.93408203125,
+          141.943603515625
+        ],
+        [
+          55.49072265625,
+          141.943603515625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A30 Bandbreitenmanagement f\u00fcr kritische Anwendungen und \nDienste (H)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.926513671875,
+          298.0712890625
+        ],
+        [
+          495.6396484375,
+          298.0712890625
+        ],
+        [
+          495.6396484375,
+          331.06500244140625
+        ],
+        [
+          55.926513671875,
+          331.06500244140625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.2.A31 Einsatz von zertifizierten Produkten (H)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          383.79248046875
+        ],
+        [
+          379.4287109375,
+          383.79248046875
+        ],
+        [
+          379.4287109375,
+          400.23779296875
+        ],
+        [
+          55.78125,
+          400.23779296875
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.345458984375,
+          445.2568359375
+        ],
+        [
+          335.849609375,
+          445.2568359375
+        ],
+        [
+          335.849609375,
+          465.8134765625
+        ],
+        [
+          55.345458984375,
+          465.8134765625
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.67230224609375,
+          478.9697265625
+        ],
+        [
+          189.859619140625,
+          478.9697265625
+        ],
+        [
+          189.859619140625,
+          496.45550537109375
+        ],
+        [
+          55.67230224609375,
+          496.45550537109375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          75
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          128
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          89
+        ],
+        [
+          "Line",
+          35
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/NET.3.2 Firewall.pdf.clean"
+}

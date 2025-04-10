@@ -1,0 +1,1496 @@
+{
+  "table_of_contents": [
+    {
+      "title": "IND.1 Prozessleit- und \nAutomatisierungstechnik",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.49072265625,
+          200.6328125
+        ],
+        [
+          420.39306640625,
+          200.6328125
+        ],
+        [
+          420.39306640625,
+          277.92578125
+        ],
+        [
+          55.49072265625,
+          277.92578125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.39862060546875,
+          313.89990234375
+        ],
+        [
+          194.072265625,
+          313.89990234375
+        ],
+        [
+          194.072265625,
+          336.51220703125
+        ],
+        [
+          56.39862060546875,
+          336.51220703125
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.89019775390625,
+          347.20166015625
+        ],
+        [
+          160.66162109375,
+          347.20166015625
+        ],
+        [
+          160.66162109375,
+          367.75830078125
+        ],
+        [
+          55.89019775390625,
+          367.75830078125
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.07177734375,
+          57.1988525390625
+        ],
+        [
+          169.522705078125,
+          57.1988525390625
+        ],
+        [
+          169.522705078125,
+          77.3443603515625
+        ],
+        [
+          56.07177734375,
+          77.3443603515625
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.4180908203125,
+          139.065673828125
+        ],
+        [
+          304.18212890625,
+          139.065673828125
+        ],
+        [
+          304.18212890625,
+          158.594482421875
+        ],
+        [
+          55.4180908203125,
+          158.594482421875
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.5633544921875,
+          507.7490234375
+        ],
+        [
+          221.3818359375,
+          507.7490234375
+        ],
+        [
+          221.3818359375,
+          531.5947265625
+        ],
+        [
+          55.5633544921875,
+          531.5947265625
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Beeintr\u00e4chtigung durch sch\u00e4dliche Umgebungseinfl\u00fcsse",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          607.2431640625
+        ],
+        [
+          482.275390625,
+          607.2431640625
+        ],
+        [
+          482.275390625,
+          626.9775390625
+        ],
+        [
+          55.635986328125,
+          626.9775390625
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Ungeeignete Einbindung der OT in die Sicherheitsorganisation",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          716.6044921875
+        ],
+        [
+          528.1787109375,
+          716.6044921875
+        ],
+        [
+          528.1787109375,
+          736.3388671875
+        ],
+        [
+          55.345458984375,
+          736.3388671875
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Ungeeignete Einbindung der OT in betriebliche Abl\u00e4ufe",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          148.21337890625
+        ],
+        [
+          476.46484375,
+          148.21337890625
+        ],
+        [
+          476.46484375,
+          167.94775390625
+        ],
+        [
+          55.635986328125,
+          167.94775390625
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unzureichender Zugangsschutz",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          329.11181640625
+        ],
+        [
+          308.83056640625,
+          329.11181640625
+        ],
+        [
+          308.83056640625,
+          348.43505859375
+        ],
+        [
+          55.78125,
+          348.43505859375
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Unsicherer \nProjektierungsprozess/Anwendungsentwicklungsprozess",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.07177734375,
+          674.2578125
+        ],
+        [
+          492.44384765625,
+          674.2578125
+        ],
+        [
+          492.44384765625,
+          716.193359375
+        ],
+        [
+          56.07177734375,
+          716.193359375
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Unsicheres Administrationskonzept und Fernadministration",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          140.40185546875
+        ],
+        [
+          515.68603515625,
+          140.40185546875
+        ],
+        [
+          515.68603515625,
+          159.72509765625
+        ],
+        [
+          55.49072265625,
+          159.72509765625
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Unzureichende \u00dcberwachungs- und Detektionsverfahren",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          262.302734375
+        ],
+        [
+          491.572265625,
+          262.302734375
+        ],
+        [
+          491.572265625,
+          282.4482421875
+        ],
+        [
+          55.49072265625,
+          282.4482421875
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Unzureichendes Testkonzept",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.5633544921875,
+          431.2783203125
+        ],
+        [
+          291.97998046875,
+          431.2783203125
+        ],
+        [
+          291.97998046875,
+          450.1904296875
+        ],
+        [
+          55.5633544921875,
+          450.1904296875
+        ]
+      ]
+    },
+    {
+      "title": "2.9. Mangelnde Life-Cycle-Konzepte",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          585.8642578125
+        ],
+        [
+          313.1884765625,
+          585.8642578125
+        ],
+        [
+          313.1884765625,
+          605.5986328125
+        ],
+        [
+          55.926513671875,
+          605.5986328125
+        ]
+      ]
+    },
+    {
+      "title": "2.10. Unzureichende Sicherheitsanforderungen bei der Beschaffung",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          166.71435546875
+        ],
+        [
+          539.21875,
+          166.71435546875
+        ],
+        [
+          539.21875,
+          186.03759765625
+        ],
+        [
+          55.78125,
+          186.03759765625
+        ]
+      ]
+    },
+    {
+      "title": "2.11. Einsatz unsicherer Protokolle",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.4180908203125,
+          262.91943359375
+        ],
+        [
+          309.41162109375,
+          262.91943359375
+        ],
+        [
+          309.41162109375,
+          281.83154296875
+        ],
+        [
+          55.4180908203125,
+          281.83154296875
+        ]
+      ]
+    },
+    {
+      "title": "2.12. Unsichere Konfigurationen von ICS-Komponenten",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.2001953125,
+          457.5908203125
+        ],
+        [
+          459.90478515625,
+          457.5908203125
+        ],
+        [
+          459.90478515625,
+          476.5029296875
+        ],
+        [
+          55.2001953125,
+          476.5029296875
+        ]
+      ]
+    },
+    {
+      "title": "2.13. Abh\u00e4ngigkeiten der OT von IT-Netzen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          612.1767578125
+        ],
+        [
+          370.712890625,
+          612.1767578125
+        ],
+        [
+          370.712890625,
+          631.9111328125
+        ],
+        [
+          55.635986328125,
+          631.9111328125
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.4180908203125,
+          57.4044189453125
+        ],
+        [
+          211.21337890625,
+          57.4044189453125
+        ],
+        [
+          211.21337890625,
+          80.1195068359375
+        ],
+        [
+          55.4180908203125,
+          80.1195068359375
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          320.2724609375
+        ],
+        [
+          237.6513671875,
+          320.2724609375
+        ],
+        [
+          237.6513671875,
+          340.41796875
+        ],
+        [
+          55.926513671875,
+          340.41796875
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A1 Einbindung in die Sicherheitsorganisation (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.345458984375,
+          370.841796875
+        ],
+        [
+          395.6982421875,
+          370.841796875
+        ],
+        [
+          395.6982421875,
+          387.287109375
+        ],
+        [
+          55.345458984375,
+          387.287109375
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A2 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.7086181640625,
+          458.001953125
+        ],
+        [
+          212.666015625,
+          458.001953125
+        ],
+        [
+          212.666015625,
+          474.69903564453125
+        ],
+        [
+          55.7086181640625,
+          474.69903564453125
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A3 Schutz vor Schadprogrammen (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          501.1708984375
+        ],
+        [
+          321.3232421875,
+          501.1708984375
+        ],
+        [
+          321.3232421875,
+          516.7939453125
+        ],
+        [
+          55.635986328125,
+          516.7939453125
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A18 Protokollierung (B) [OT-Betrieb (Operational Technology, OT)]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          601.8984375
+        ],
+        [
+          506.6796875,
+          601.8984375
+        ],
+        [
+          506.6796875,
+          618.34375
+        ],
+        [
+          55.49072265625,
+          618.34375
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A19 Erstellung von Datensicherungen (B) [Mitarbeitende, OT-Betrieb \n(Operational Technology, OT)]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          656.5791015625
+        ],
+        [
+          518.8818359375,
+          656.5791015625
+        ],
+        [
+          518.8818359375,
+          690.2919921875
+        ],
+        [
+          55.49072265625,
+          690.2919921875
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.7086181640625,
+          56.6849365234375
+        ],
+        [
+          267.8662109375,
+          56.6849365234375
+        ],
+        [
+          267.8662109375,
+          76.7276611328125
+        ],
+        [
+          55.7086181640625,
+          76.7276611328125
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A4 Dokumentation der OT-Infrastruktur (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.2001953125,
+          119.6396484375
+        ],
+        [
+          366.064453125,
+          119.6396484375
+        ],
+        [
+          366.064453125,
+          137.93505859375
+        ],
+        [
+          55.2001953125,
+          137.93505859375
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A5 Entwicklung eines geeigneten Zonenkonzepts (S) [Planende]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.345458984375,
+          298.68798828125
+        ],
+        [
+          481.7205810546875,
+          298.68798828125
+        ],
+        [
+          481.7205810546875,
+          317.18896484375
+        ],
+        [
+          55.345458984375,
+          317.18896484375
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A6 \u00c4nderungsmanagement im OT-Betrieb (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          420.5888671875
+        ],
+        [
+          374.19921875,
+          420.5888671875
+        ],
+        [
+          374.19921875,
+          438.6787109375
+        ],
+        [
+          55.635986328125,
+          438.6787109375
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A7 Etablieren einer \u00fcbergreifenden Berechtigungsverwaltung zwischen \nder OT und in der Office-IT (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.217041015625,
+          476.5029296875
+        ],
+        [
+          536.2532958984375,
+          476.5029296875
+        ],
+        [
+          536.2532958984375,
+          510.2158203125
+        ],
+        [
+          56.217041015625,
+          510.2158203125
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A8 Sichere Administration (S) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          646.30078125
+        ],
+        [
+          350.08544921875,
+          646.30078125
+        ],
+        [
+          350.08544921875,
+          664.390625
+        ],
+        [
+          55.49072265625,
+          664.390625
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A9 Restriktiver Einsatz von Wechseldatentr\u00e4gern und mobilen \nEndger\u00e4ten in ICS-Umgebungen (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.635986328125,
+          55.2459716796875
+        ],
+        [
+          484.0185546875,
+          55.2459716796875
+        ],
+        [
+          484.0185546875,
+          90.3978271484375
+        ],
+        [
+          55.635986328125,
+          90.3978271484375
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A10 Monitoring, Protokollierung und Detektion (S) [OT-Betrieb \n(Operational Technology, OT)]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.635986328125,
+          201.455078125
+        ],
+        [
+          486.5279235839844,
+          201.455078125
+        ],
+        [
+          486.5279235839844,
+          234.345703125
+        ],
+        [
+          55.635986328125,
+          234.345703125
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A11 Sichere Beschaffung und Systementwicklung (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.054931640625,
+          383.5869140625
+        ],
+        [
+          418.359375,
+          383.5869140625
+        ],
+        [
+          418.359375,
+          400.6590270996094
+        ],
+        [
+          55.054931640625,
+          400.6590270996094
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A12 Etablieren eines Schwachstellen-Managements (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.635986328125,
+          609.298828125
+        ],
+        [
+          428.818359375,
+          609.298828125
+        ],
+        [
+          428.818359375,
+          626.56640625
+        ],
+        [
+          55.635986328125,
+          626.56640625
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A20 Systemdokumentation (S) [Mitarbeitende, OT-Betrieb (Operational \nTechnology, OT)]",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.07177734375,
+          55.6571044921875
+        ],
+        [
+          533.68408203125,
+          55.6571044921875
+        ],
+        [
+          533.68408203125,
+          90.5006103515625
+        ],
+        [
+          56.07177734375,
+          90.5006103515625
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A21 Dokumentation der Kommunikationsbeziehungen (S) [OT-Betrieb \n(Operational Technology, OT)]",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.217041015625,
+          142.04638671875
+        ],
+        [
+          531.6650390625,
+          142.04638671875
+        ],
+        [
+          531.6650390625,
+          175.5537109375
+        ],
+        [
+          56.217041015625,
+          175.5537109375
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A22 Zentrale Systemprotokollierung und -\u00fcberwachung (S) [OT-Betrieb \n(Operational Technology, OT)]",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.217041015625,
+          227.56201171875
+        ],
+        [
+          536.3134765625,
+          227.56201171875
+        ],
+        [
+          536.3134765625,
+          260.45263671875
+        ],
+        [
+          56.217041015625,
+          260.45263671875
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A23 Aussonderung von ICS-Komponenten (S) [OT-Betrieb (Operational \nTechnology, OT)]",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.217041015625,
+          299.7158203125
+        ],
+        [
+          532.8271484375,
+          299.7158203125
+        ],
+        [
+          532.8271484375,
+          332.26495361328125
+        ],
+        [
+          56.217041015625,
+          332.26495361328125
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.926513671875,
+          390.37060546875
+        ],
+        [
+          391.0498046875,
+          390.37060546875
+        ],
+        [
+          391.0498046875,
+          409.69384765625
+        ],
+        [
+          55.926513671875,
+          409.69384765625
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A13 Notfallplanung f\u00fcr OT (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.9991455078125,
+          479.7919921875
+        ],
+        [
+          282.68310546875,
+          479.7919921875
+        ],
+        [
+          282.68310546875,
+          497.8818359375
+        ],
+        [
+          55.9991455078125,
+          497.8818359375
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A14 Starke Authentisierung an OT-Komponenten (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          568.185546875
+        ],
+        [
+          423.29833984375,
+          568.185546875
+        ],
+        [
+          423.29833984375,
+          585.453125
+        ],
+        [
+          55.78125,
+          585.453125
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A15 \u00dcberwachung von weitreichenden Berechtigungen (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.926513671875,
+          714.1376953125
+        ],
+        [
+          457.87109375,
+          714.1376953125
+        ],
+        [
+          457.87109375,
+          732.2275390625
+        ],
+        [
+          55.926513671875,
+          732.2275390625
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A16 St\u00e4rkere Abschottung der Zonen (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.635986328125,
+          121.181396484375
+        ],
+        [
+          344.5654296875,
+          121.181396484375
+        ],
+        [
+          344.5654296875,
+          138.654541015625
+        ],
+        [
+          55.635986328125,
+          138.654541015625
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A17 Regelm\u00e4\u00dfige Sicherheits\u00fcberpr\u00fcfung (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.635986328125,
+          221.6005859375
+        ],
+        [
+          374.7802734375,
+          221.6005859375
+        ],
+        [
+          374.7802734375,
+          239.279296875
+        ],
+        [
+          55.635986328125,
+          239.279296875
+        ]
+      ]
+    },
+    {
+      "title": "IND.1.A24 Kommunikation im St\u00f6rfall (H) [Mitarbeitende, OT-Betrieb \n(Operational Technology, OT)]",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.78125,
+          329.3173828125
+        ],
+        [
+          487.21435546875,
+          329.3173828125
+        ],
+        [
+          487.21435546875,
+          363.46490478515625
+        ],
+        [
+          55.78125,
+          363.46490478515625
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.345458984375,
+          409.0771484375
+        ],
+        [
+          335.2685546875,
+          409.0771484375
+        ],
+        [
+          335.2685546875,
+          430.4560546875
+        ],
+        [
+          55.345458984375,
+          430.4560546875
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.96282958984375,
+          442.37890625
+        ],
+        [
+          190.440673828125,
+          442.37890625
+        ],
+        [
+          190.440673828125,
+          460.46875
+        ],
+        [
+          55.96282958984375,
+          460.46875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          73
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          132
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          122
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/IND.1 Prozessleit- und Automatisierungstechnik.pdf.clean"
+}

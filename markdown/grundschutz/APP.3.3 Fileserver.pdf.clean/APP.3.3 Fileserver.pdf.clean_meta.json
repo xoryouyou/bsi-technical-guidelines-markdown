@@ -1,0 +1,1019 @@
+{
+  "table_of_contents": [
+    {
+      "title": "APP.3.3 Fileserver",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          54.90966796875,
+          200.83837890625
+        ],
+        [
+          306.796875,
+          200.83837890625
+        ],
+        [
+          306.796875,
+          239.48486328125
+        ],
+        [
+          54.90966796875,
+          239.48486328125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.74493408203125,
+          274.63671875
+        ],
+        [
+          194.798583984375,
+          274.63671875
+        ],
+        [
+          194.798583984375,
+          298.0712890625
+        ],
+        [
+          55.74493408203125,
+          298.0712890625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          309.37744140625
+        ],
+        [
+          161.097412109375,
+          309.37744140625
+        ],
+        [
+          161.097412109375,
+          328.70068359375
+        ],
+        [
+          55.926513671875,
+          328.70068359375
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.217041015625,
+          556.673828125
+        ],
+        [
+          169.2537384033203,
+          556.673828125
+        ],
+        [
+          169.2537384033203,
+          576.408203125
+        ],
+        [
+          56.217041015625,
+          576.408203125
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          626.1552734375
+        ],
+        [
+          303.8916015625,
+          626.1552734375
+        ],
+        [
+          303.8916015625,
+          645.8896484375
+        ],
+        [
+          55.926513671875,
+          645.8896484375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          167.844970703125
+        ],
+        [
+          220.946044921875,
+          167.844970703125
+        ],
+        [
+          220.946044921875,
+          189.018310546875
+        ],
+        [
+          55.49072265625,
+          189.018310546875
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Ausfall eines Fileservers",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.4180908203125,
+          253.2578125
+        ],
+        [
+          255.37353515625,
+          253.2578125
+        ],
+        [
+          255.37353515625,
+          271.7587890625
+        ],
+        [
+          55.4180908203125,
+          271.7587890625
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Unzureichende Dimensionierung des Fileservers",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2001953125,
+          401.265625
+        ],
+        [
+          428.2373046875,
+          401.265625
+        ],
+        [
+          428.2373046875,
+          420.177734375
+        ],
+        [
+          55.2001953125,
+          420.177734375
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Unzureichende \u00dcberpr\u00fcfung von abgelegten Dateien",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          523.783203125
+        ],
+        [
+          459.6142578125,
+          523.783203125
+        ],
+        [
+          459.6142578125,
+          543.517578125
+        ],
+        [
+          55.635986328125,
+          543.517578125
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Fehlendes oder unzureichendes Zugriffsberechtigungskonzept",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          632.7333984375
+        ],
+        [
+          527.0166015625,
+          632.7333984375
+        ],
+        [
+          527.0166015625,
+          651.6455078125
+        ],
+        [
+          55.635986328125,
+          651.6455078125
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Unstrukturierte Datenhaltung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.78125,
+          716.6044921875
+        ],
+        [
+          301.85791015625,
+          716.6044921875
+        ],
+        [
+          301.85791015625,
+          735.5166015625
+        ],
+        [
+          55.78125,
+          735.5166015625
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Verlust von auf Fileservern abgespeicherten Daten",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.2001953125,
+          122.003662109375
+        ],
+        [
+          441.89208984375,
+          122.003662109375
+        ],
+        [
+          441.89208984375,
+          140.05548095703125
+        ],
+        [
+          55.2001953125,
+          140.05548095703125
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Ransomware",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.5633544921875,
+          245.857421875
+        ],
+        [
+          178.67431640625,
+          245.857421875
+        ],
+        [
+          178.67431640625,
+          263.125
+        ],
+        [
+          55.5633544921875,
+          263.125
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.2728271484375,
+          432.51171875
+        ],
+        [
+          208.5986328125,
+          432.51171875
+        ],
+        [
+          208.5986328125,
+          452.24609375
+        ],
+        [
+          55.2728271484375,
+          452.24609375
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          682.48046875
+        ],
+        [
+          238.232421875,
+          682.48046875
+        ],
+        [
+          238.232421875,
+          700.5703125
+        ],
+        [
+          55.7086181640625,
+          700.5703125
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.3.A1 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          732.2275390625
+        ],
+        [
+          225.594482421875,
+          732.2275390625
+        ],
+        [
+          225.594482421875,
+          748.2990493774414
+        ],
+        [
+          55.926513671875,
+          748.2990493774414
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.3.A2 Einsatz von RAID-Systemen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.8538818359375,
+          56.222412109375
+        ],
+        [
+          320.1611328125,
+          56.222412109375
+        ],
+        [
+          320.1611328125,
+          73.38720703125
+        ],
+        [
+          55.8538818359375,
+          73.38720703125
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.3.A3 Einsatz von Viren-Schutzprogrammen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          205.1552734375
+        ],
+        [
+          382.62451171875,
+          205.1552734375
+        ],
+        [
+          382.62451171875,
+          220.3671875
+        ],
+        [
+          55.78125,
+          220.3671875
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.3.A4 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          259.013671875
+        ],
+        [
+          223.125,
+          259.013671875
+        ],
+        [
+          223.125,
+          275.25909423828125
+        ],
+        [
+          55.635986328125,
+          275.25909423828125
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.3.A5 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          301.3603515625
+        ],
+        [
+          222.979736328125,
+          301.3603515625
+        ],
+        [
+          222.979736328125,
+          317.25909423828125
+        ],
+        [
+          55.78125,
+          317.25909423828125
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.3.A15 Planung von Fileservern (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          343.50146484375
+        ],
+        [
+          302.7294921875,
+          343.50146484375
+        ],
+        [
+          302.7294921875,
+          359.53564453125
+        ],
+        [
+          55.49072265625,
+          359.53564453125
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          490.4814453125
+        ],
+        [
+          265.83251953125,
+          490.4814453125
+        ],
+        [
+          265.83251953125,
+          507.8554992675781
+        ],
+        [
+          55.78125,
+          507.8554992675781
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.3.A6 Beschaffung eines Fileservers und Auswahl eines Dienstes (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          553.384765625
+        ],
+        [
+          497.67333984375,
+          553.384765625
+        ],
+        [
+          497.67333984375,
+          569.259033203125
+        ],
+        [
+          55.78125,
+          569.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.3.A7 Auswahl eines Dateisystems (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          661.5126953125
+        ],
+        [
+          316.6748046875,
+          661.5126953125
+        ],
+        [
+          316.6748046875,
+          677.2590484619141
+        ],
+        [
+          55.78125,
+          677.2590484619141
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.3.A8 Strukturierte Datenhaltung (S) [Benutzende]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.2001953125,
+          55.9654541015625
+        ],
+        [
+          400.927734375,
+          55.9654541015625
+        ],
+        [
+          400.927734375,
+          73.4385986328125
+        ],
+        [
+          55.2001953125,
+          73.4385986328125
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.3.A9 Sicheres Speichermanagement (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.2896728515625,
+          177.40380859375
+        ],
+        [
+          332.9443359375,
+          177.40380859375
+        ],
+        [
+          332.9443359375,
+          194.4658203125
+        ],
+        [
+          56.2896728515625,
+          194.4658203125
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.3.A10 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.1444091796875,
+          311.2275390625
+        ],
+        [
+          228.3544921875,
+          311.2275390625
+        ],
+        [
+          228.3544921875,
+          327.6728515625
+        ],
+        [
+          56.1444091796875,
+          327.6728515625
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.3.A11 Einsatz von Speicherbeschr\u00e4nkungen (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          353.77978515625
+        ],
+        [
+          381.171875,
+          353.77978515625
+        ],
+        [
+          381.171875,
+          369.81396484375
+        ],
+        [
+          55.49072265625,
+          369.81396484375
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.3.A14 Einsatz von Error-Correction-Codes (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          447.7236328125
+        ],
+        [
+          373.037109375,
+          447.7236328125
+        ],
+        [
+          373.037109375,
+          464.259033203125
+        ],
+        [
+          55.78125,
+          464.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          536.5283203125
+        ],
+        [
+          391.92138671875,
+          536.5283203125
+        ],
+        [
+          391.92138671875,
+          554.6181640625
+        ],
+        [
+          55.78125,
+          554.6181640625
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.3.A12 Verschl\u00fcsselung des Datenbestandes (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          625.744140625
+        ],
+        [
+          379.4287109375,
+          625.744140625
+        ],
+        [
+          379.4287109375,
+          642.189453125
+        ],
+        [
+          55.635986328125,
+          642.189453125
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.3.A13 Replikation zwischen Standorten (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          707.5595703125
+        ],
+        [
+          360.25390625,
+          707.5595703125
+        ],
+        [
+          360.25390625,
+          723.4590454101562
+        ],
+        [
+          55.926513671875,
+          723.4590454101562
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          95.1258544921875
+        ],
+        [
+          337.30224609375,
+          95.1258544921875
+        ],
+        [
+          337.30224609375,
+          116.55615234375
+        ],
+        [
+          55.49072265625,
+          116.55615234375
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.74493408203125,
+          129.609619140625
+        ],
+        [
+          190.87646484375,
+          129.609619140625
+        ],
+        [
+          190.87646484375,
+          147.2554931640625
+        ],
+        [
+          55.74493408203125,
+          147.2554931640625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          89
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          24
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/APP.3.3 Fileserver.pdf.clean"
+}

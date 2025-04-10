@@ -1,0 +1,757 @@
+{
+  "table_of_contents": [
+    {
+      "title": "CON.9 Informationsaustausch",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.217041015625,
+          200.6328125
+        ],
+        [
+          484.599609375,
+          200.6328125
+        ],
+        [
+          484.599609375,
+          240.5126953125
+        ],
+        [
+          56.217041015625,
+          240.5126953125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          274.43115234375
+        ],
+        [
+          195.234375,
+          274.43115234375
+        ],
+        [
+          195.234375,
+          298.27685546875
+        ],
+        [
+          55.96282958984375,
+          298.27685546875
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.03546142578125,
+          308.7607421875
+        ],
+        [
+          161.387939453125,
+          308.7607421875
+        ],
+        [
+          161.387939453125,
+          328.4951171875
+        ],
+        [
+          56.03546142578125,
+          328.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.9991455078125,
+          418.32763671875
+        ],
+        [
+          169.2537384033203,
+          418.32763671875
+        ],
+        [
+          169.2537384033203,
+          437.4453125
+        ],
+        [
+          55.9991455078125,
+          437.4453125
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.7086181640625,
+          501.9931640625
+        ],
+        [
+          304.47265625,
+          501.9931640625
+        ],
+        [
+          304.47265625,
+          520.9052734375
+        ],
+        [
+          55.7086181640625,
+          520.9052734375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.635986328125,
+          656.16796875
+        ],
+        [
+          220.80078125,
+          656.16796875
+        ],
+        [
+          220.80078125,
+          678.369140625
+        ],
+        [
+          55.635986328125,
+          678.369140625
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Nicht fristgerecht verf\u00fcgbare Informationen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          54.90966796875,
+          56.016845703125
+        ],
+        [
+          402.38037109375,
+          56.016845703125
+        ],
+        [
+          402.38037109375,
+          76.162353515625
+        ],
+        [
+          54.90966796875,
+          76.162353515625
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Ungeregelte Weitergabe von Informationen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          217.69482421875
+        ],
+        [
+          395.1171875,
+          217.69482421875
+        ],
+        [
+          395.1171875,
+          236.05548095703125
+        ],
+        [
+          55.49072265625,
+          236.05548095703125
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Weitergabe falscher oder interner Informationen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          332.6064453125
+        ],
+        [
+          431.43310546875,
+          332.6064453125
+        ],
+        [
+          431.43310546875,
+          351.5185546875
+        ],
+        [
+          55.49072265625,
+          351.5185546875
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unberechtigtes Kopieren oder Ver\u00e4ndern von Informationen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.78125,
+          488.0146484375
+        ],
+        [
+          516.84814453125,
+          488.0146484375
+        ],
+        [
+          516.84814453125,
+          506.9267578125
+        ],
+        [
+          55.78125,
+          506.9267578125
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Unzul\u00e4ngliche Anwendung von Verschl\u00fcsselungsverfahren",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          615.876953125
+        ],
+        [
+          503.193359375,
+          615.876953125
+        ],
+        [
+          503.193359375,
+          634.7890625
+        ],
+        [
+          55.49072265625,
+          634.7890625
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          57.1474609375
+        ],
+        [
+          210.63232421875,
+          57.1474609375
+        ],
+        [
+          210.63232421875,
+          79.656982421875
+        ],
+        [
+          55.345458984375,
+          79.656982421875
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.9991455078125,
+          306.49951171875
+        ],
+        [
+          237.94189453125,
+          306.49951171875
+        ],
+        [
+          237.94189453125,
+          326.23388671875
+        ],
+        [
+          55.9991455078125,
+          326.23388671875
+        ]
+      ]
+    },
+    {
+      "title": "CON.9.A1 Festlegung zul\u00e4ssiger Empfangender (B) [Zentrale Verwaltung]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.07177734375,
+          357.685546875
+        ],
+        [
+          500.869140625,
+          357.685546875
+        ],
+        [
+          500.869140625,
+          374.953125
+        ],
+        [
+          56.07177734375,
+          374.953125
+        ]
+      ]
+    },
+    {
+      "title": "CON.9.A2 Regelung des Informationsaustausches (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.07177734375,
+          484.7255859375
+        ],
+        [
+          379.6160888671875,
+          484.7255859375
+        ],
+        [
+          379.6160888671875,
+          501.1708984375
+        ],
+        [
+          56.07177734375,
+          501.1708984375
+        ]
+      ]
+    },
+    {
+      "title": "CON.9.A3 Unterweisung des Personals zum Informationsaustausch (B) \n[Fachverantwortliche]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          598.609375
+        ],
+        [
+          488.92987060546875,
+          598.609375
+        ],
+        [
+          488.92987060546875,
+          631.9049224853516
+        ],
+        [
+          55.926513671875,
+          631.9049224853516
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.217041015625,
+          690.703125
+        ],
+        [
+          267.139892578125,
+          690.703125
+        ],
+        [
+          267.139892578125,
+          710.4375
+        ],
+        [
+          56.217041015625,
+          710.4375
+        ]
+      ]
+    },
+    {
+      "title": "CON.9.A4 Vereinbarungen zum Informationsaustausch mit Externen (S) \n[Zentrale Verwaltung]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          55.9140625
+        ],
+        [
+          502.6123046875,
+          55.9140625
+        ],
+        [
+          502.6123046875,
+          90.24365234375
+        ],
+        [
+          55.635986328125,
+          90.24365234375
+        ]
+      ]
+    },
+    {
+      "title": "CON.9.A5 Beseitigung von Restinformationen vor Weitergabe (S) [Benutzende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.217041015625,
+          141.532470703125
+        ],
+        [
+          538.7677001953125,
+          141.532470703125
+        ],
+        [
+          538.7677001953125,
+          158.594482421875
+        ],
+        [
+          56.217041015625,
+          158.594482421875
+        ]
+      ]
+    },
+    {
+      "title": "CON.9.A6 Kompatibilit\u00e4tspr\u00fcfung des Sende- und Empfangssystems (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          301.15478515625
+        ],
+        [
+          494.76806640625,
+          301.15478515625
+        ],
+        [
+          494.76806640625,
+          318.01123046875
+        ],
+        [
+          55.78125,
+          318.01123046875
+        ]
+      ]
+    },
+    {
+      "title": "CON.9.A7 Sicherungskopie der \u00fcbermittelten Daten (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          357.47998046875
+        ],
+        [
+          393.955078125,
+          357.47998046875
+        ],
+        [
+          393.955078125,
+          373.92529296875
+        ],
+        [
+          55.635986328125,
+          373.92529296875
+        ]
+      ]
+    },
+    {
+      "title": "CON.9.A8 Verschl\u00fcsselung und digitale Signatur (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          411.955078125
+        ],
+        [
+          370.42236328125,
+          411.955078125
+        ],
+        [
+          370.42236328125,
+          428.400390625
+        ],
+        [
+          55.78125,
+          428.400390625
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          485.958984375
+        ],
+        [
+          392.2119140625,
+          485.958984375
+        ],
+        [
+          392.2119140625,
+          505.693359375
+        ],
+        [
+          55.78125,
+          505.693359375
+        ]
+      ]
+    },
+    {
+      "title": "CON.9.A9 Vertraulichkeitsvereinbarungen (H) [Zentrale Verwaltung]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          576.8193359375
+        ],
+        [
+          478.15008544921875,
+          576.8193359375
+        ],
+        [
+          478.15008544921875,
+          593.2646484375
+        ],
+        [
+          55.49072265625,
+          593.2646484375
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          690.703125
+        ],
+        [
+          336.4306640625,
+          690.703125
+        ],
+        [
+          336.4306640625,
+          712.904296875
+        ],
+        [
+          55.49072265625,
+          712.904296875
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.10809326171875,
+          724.8271484375
+        ],
+        [
+          190.87646484375,
+          724.8271484375
+        ],
+        [
+          190.87646484375,
+          742.9169921875
+        ],
+        [
+          56.10809326171875,
+          742.9169921875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          80
+        ],
+        [
+          "Line",
+          27
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/CCON.9 Informationsaustausch.pdf.clean"
+}

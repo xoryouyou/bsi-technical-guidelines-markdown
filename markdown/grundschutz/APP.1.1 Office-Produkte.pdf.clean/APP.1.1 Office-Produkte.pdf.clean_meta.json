@@ -1,0 +1,938 @@
+{
+  "table_of_contents": [
+    {
+      "title": "APP.1.1 Office-Produkte",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          54.90966796875,
+          200.01611328125
+        ],
+        [
+          396.279296875,
+          200.01611328125
+        ],
+        [
+          396.279296875,
+          239.89599609375
+        ],
+        [
+          54.90966796875,
+          239.89599609375
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.7086181640625,
+          274.02001953125
+        ],
+        [
+          194.6533203125,
+          274.02001953125
+        ],
+        [
+          194.6533203125,
+          297.86572265625
+        ],
+        [
+          55.7086181640625,
+          297.86572265625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.78125,
+          308.55517578125
+        ],
+        [
+          160.66162109375,
+          308.55517578125
+        ],
+        [
+          160.66162109375,
+          328.70068359375
+        ],
+        [
+          55.78125,
+          328.70068359375
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          431.2783203125
+        ],
+        [
+          169.2537384033203,
+          431.2783203125
+        ],
+        [
+          169.2537384033203,
+          451.8349609375
+        ],
+        [
+          55.8538818359375,
+          451.8349609375
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          527.4833984375
+        ],
+        [
+          303.60107421875,
+          527.4833984375
+        ],
+        [
+          303.60107421875,
+          547.2177734375
+        ],
+        [
+          55.8538818359375,
+          547.2177734375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.5633544921875,
+          56.5821533203125
+        ],
+        [
+          222.5439453125,
+          56.5821533203125
+        ],
+        [
+          222.5439453125,
+          78.9888916015625
+        ],
+        [
+          55.5633544921875,
+          78.9888916015625
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Fehlende Anpassung der Office-Produkte an den Bedarf der \nInstitution",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          154.9970703125
+        ],
+        [
+          505.517578125,
+          154.9970703125
+        ],
+        [
+          505.517578125,
+          193.43798828125
+        ],
+        [
+          55.345458984375,
+          193.43798828125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Sch\u00e4dliche Inhalte in Office-Dokumenten",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2001953125,
+          296.015625
+        ],
+        [
+          382.2559509277344,
+          296.015625
+        ],
+        [
+          382.2559509277344,
+          316.1611328125
+        ],
+        [
+          55.2001953125,
+          316.1611328125
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Integrit\u00e4tsverlust von Office-Dokumenten",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          445.2568359375
+        ],
+        [
+          388.00152587890625,
+          445.2568359375
+        ],
+        [
+          388.00152587890625,
+          464.9912109375
+        ],
+        [
+          55.635986328125,
+          464.9912109375
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.8538818359375,
+          580.9306640625
+        ],
+        [
+          208.5986328125,
+          580.9306640625
+        ],
+        [
+          208.5986328125,
+          603.9541015625
+        ],
+        [
+          55.8538818359375,
+          603.9541015625
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          108.847412109375
+        ],
+        [
+          238.8134765625,
+          108.847412109375
+        ],
+        [
+          238.8134765625,
+          127.965087890625
+        ],
+        [
+          55.926513671875,
+          127.965087890625
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A1 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.1444091796875,
+          158.697265625
+        ],
+        [
+          222.83447265625,
+          158.697265625
+        ],
+        [
+          222.83447265625,
+          175.5537109375
+        ],
+        [
+          56.1444091796875,
+          175.5537109375
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A2 Einschr\u00e4nken von Aktiven Inhalten (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          201.146728515625
+        ],
+        [
+          365.4833984375,
+          201.146728515625
+        ],
+        [
+          365.4833984375,
+          217.4892578125
+        ],
+        [
+          55.635986328125,
+          217.4892578125
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A3 Sicheres \u00d6ffnen von Dokumenten aus externen Quellen (B) \n[Benutzende]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          295.39892578125
+        ],
+        [
+          488.95751953125,
+          295.39892578125
+        ],
+        [
+          488.95751953125,
+          328.66497802734375
+        ],
+        [
+          55.78125,
+          328.66497802734375
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A4 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          407.63818359375
+        ],
+        [
+          223.99658203125,
+          407.63818359375
+        ],
+        [
+          223.99658203125,
+          424.2890625
+        ],
+        [
+          55.78125,
+          424.2890625
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A17 Sensibilisierung zu spezifischen Office-Eigenschaften (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          449.779296875
+        ],
+        [
+          479.951171875,
+          449.779296875
+        ],
+        [
+          479.951171875,
+          466.224609375
+        ],
+        [
+          55.635986328125,
+          466.224609375
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          615.0546875
+        ],
+        [
+          266.7041015625,
+          615.0546875
+        ],
+        [
+          266.7041015625,
+          633.966796875
+        ],
+        [
+          55.7086181640625,
+          633.966796875
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A5 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.07177734375,
+          678.7802734375
+        ],
+        [
+          223.270263671875,
+          678.7802734375
+        ],
+        [
+          223.270263671875,
+          695.2255859375
+        ],
+        [
+          56.07177734375,
+          695.2255859375
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A6 Testen neuer Versionen von Office-Produkten (S)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          721.126953125
+        ],
+        [
+          427.65625,
+          721.126953125
+        ],
+        [
+          427.65625,
+          737.572265625
+        ],
+        [
+          55.635986328125,
+          737.572265625
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A7 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          101.4984130859375
+        ],
+        [
+          221.527099609375,
+          101.4984130859375
+        ],
+        [
+          221.527099609375,
+          118.8173828125
+        ],
+        [
+          55.926513671875,
+          118.8173828125
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A8 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          143.999267578125
+        ],
+        [
+          221.962890625,
+          143.999267578125
+        ],
+        [
+          221.962890625,
+          160.855712890625
+        ],
+        [
+          55.926513671875,
+          160.855712890625
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A9 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.9991455078125,
+          186.140380859375
+        ],
+        [
+          222.25341796875,
+          186.140380859375
+        ],
+        [
+          222.25341796875,
+          202.6590576171875
+        ],
+        [
+          55.9991455078125,
+          202.6590576171875
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A10 Regelung der Software-Entwicklung durch Endbenutzende (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          228.58984375
+        ],
+        [
+          513.65234375,
+          228.58984375
+        ],
+        [
+          513.65234375,
+          244.6590576171875
+        ],
+        [
+          55.635986328125,
+          244.6590576171875
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A11 Geregelter Einsatz von Erweiterungen f\u00fcr Office-Produkte (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          389.3427734375
+        ],
+        [
+          511.03759765625,
+          389.3427734375
+        ],
+        [
+          511.03759765625,
+          405.7880859375
+        ],
+        [
+          55.49072265625,
+          405.7880859375
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A12 Verzicht auf Cloud-Speicherung (S) [Benutzende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          497.470703125
+        ],
+        [
+          432.01416015625,
+          497.470703125
+        ],
+        [
+          432.01416015625,
+          514.73828125
+        ],
+        [
+          55.78125,
+          514.73828125
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A13 Verwendung von Viewer-Funktionen (S) [Benutzende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          605.5986328125
+        ],
+        [
+          466.29638671875,
+          605.5986328125
+        ],
+        [
+          466.29638671875,
+          622.0439453125
+        ],
+        [
+          55.49072265625,
+          622.0439453125
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A14 Schutz gegen nachtr\u00e4gliche Ver\u00e4nderungen von Dokumenten (S) \n[Benutzende]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          55.400146484375
+        ],
+        [
+          530.2202758789062,
+          55.400146484375
+        ],
+        [
+          530.2202758789062,
+          89.977294921875
+        ],
+        [
+          56.07177734375,
+          89.977294921875
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          134.132080078125
+        ],
+        [
+          392.79296875,
+          134.132080078125
+        ],
+        [
+          392.79296875,
+          153.866455078125
+        ],
+        [
+          56.07177734375,
+          153.866455078125
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A15 Einsatz von Verschl\u00fcsselung und Digitalen Signaturen (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          224.478515625
+        ],
+        [
+          487.5048828125,
+          224.478515625
+        ],
+        [
+          487.5048828125,
+          242.1572265625
+        ],
+        [
+          55.78125,
+          242.1572265625
+        ]
+      ]
+    },
+    {
+      "title": "APP.1.1.A16 Integrit\u00e4tspr\u00fcfung von Dokumenten (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          305.8828125
+        ],
+        [
+          381.7529296875,
+          305.8828125
+        ],
+        [
+          381.7529296875,
+          322.7392578125
+        ],
+        [
+          55.635986328125,
+          322.7392578125
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          381.32568359375
+        ],
+        [
+          336.4306640625,
+          381.32568359375
+        ],
+        [
+          336.4306640625,
+          402.70458984375
+        ],
+        [
+          55.8538818359375,
+          402.70458984375
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          415.244140625
+        ],
+        [
+          190.87646484375,
+          415.244140625
+        ],
+        [
+          190.87646484375,
+          433.333984375
+        ],
+        [
+          55.926513671875,
+          433.333984375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          118
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/APP.1.1 Office-Produkte.pdf.clean"
+}

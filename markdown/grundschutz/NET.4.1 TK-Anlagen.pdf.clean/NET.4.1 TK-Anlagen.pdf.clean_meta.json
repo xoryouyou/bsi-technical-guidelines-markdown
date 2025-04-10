@@ -1,0 +1,1034 @@
+{
+  "table_of_contents": [
+    {
+      "title": "NET.4.1 TK-Anlagen",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.1275634765625,
+          200.735595703125
+        ],
+        [
+          339.62646484375,
+          200.735595703125
+        ],
+        [
+          339.62646484375,
+          241.74609375
+        ],
+        [
+          55.1275634765625,
+          241.74609375
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.1444091796875,
+          274.43115234375
+        ],
+        [
+          194.94384765625,
+          274.43115234375
+        ],
+        [
+          194.94384765625,
+          298.27685546875
+        ],
+        [
+          56.1444091796875,
+          298.27685546875
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.07177734375,
+          308.96630859375
+        ],
+        [
+          161.387939453125,
+          308.96630859375
+        ],
+        [
+          161.387939453125,
+          328.70068359375
+        ],
+        [
+          56.07177734375,
+          328.70068359375
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          504.048828125
+        ],
+        [
+          169.2537384033203,
+          504.048828125
+        ],
+        [
+          169.2537384033203,
+          522.9609375
+        ],
+        [
+          55.96282958984375,
+          522.9609375
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.78125,
+          599.8427734375
+        ],
+        [
+          303.02001953125,
+          599.8427734375
+        ],
+        [
+          303.02001953125,
+          619.5771484375
+        ],
+        [
+          55.78125,
+          619.5771484375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.9991455078125,
+          107.408447265625
+        ],
+        [
+          222.25341796875,
+          107.408447265625
+        ],
+        [
+          222.25341796875,
+          130.020751953125
+        ],
+        [
+          55.9991455078125,
+          130.020751953125
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Abh\u00f6ren von TK-Anlagen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.5633544921875,
+          206.902587890625
+        ],
+        [
+          267.57568359375,
+          206.902587890625
+        ],
+        [
+          267.57568359375,
+          226.32861328125
+        ],
+        [
+          55.5633544921875,
+          226.32861328125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Abh\u00f6ren von R\u00e4umen \u00fcber TK-Anlagen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          420.38330078125
+        ],
+        [
+          364.90234375,
+          420.38330078125
+        ],
+        [
+          364.90234375,
+          439.5009765625
+        ],
+        [
+          55.635986328125,
+          439.5009765625
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Geb\u00fchrenbetrug",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.10809326171875,
+          608.4765625
+        ],
+        [
+          204.095458984375,
+          608.4765625
+        ],
+        [
+          204.095458984375,
+          627.388671875
+        ],
+        [
+          56.10809326171875,
+          627.388671875
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Missbrauch frei zug\u00e4nglicher Telefonanschl\u00fcsse",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          121.386962890625
+        ],
+        [
+          424.7509765625,
+          121.386962890625
+        ],
+        [
+          424.7509765625,
+          140.504638671875
+        ],
+        [
+          55.345458984375,
+          140.504638671875
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          245.03515625
+        ],
+        [
+          208.88916015625,
+          245.03515625
+        ],
+        [
+          208.88916015625,
+          265.591796875
+        ],
+        [
+          55.7086181640625,
+          265.591796875
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.8538818359375,
+          494.5927734375
+        ],
+        [
+          238.232421875,
+          494.5927734375
+        ],
+        [
+          238.232421875,
+          513.5048828125
+        ],
+        [
+          55.8538818359375,
+          513.5048828125
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A1 Anforderungsanalyse und Planung f\u00fcr TK-Anlagen (B) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          544.33984375
+        ],
+        [
+          534.5703125,
+          544.33984375
+        ],
+        [
+          534.5703125,
+          561.607421875
+        ],
+        [
+          55.49072265625,
+          561.607421875
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A2 Auswahl von TK-Diensteanbietenden (B) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          691.9365234375
+        ],
+        [
+          451.4794921875,
+          691.9365234375
+        ],
+        [
+          451.4794921875,
+          709.2041015625
+        ],
+        [
+          55.635986328125,
+          709.2041015625
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A3 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          56.0682373046875
+        ],
+        [
+          225.013427734375,
+          56.0682373046875
+        ],
+        [
+          225.013427734375,
+          73.05908203125
+        ],
+        [
+          55.635986328125,
+          73.05908203125
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A4 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          99.0830078125
+        ],
+        [
+          224.722900390625,
+          99.0830078125
+        ],
+        [
+          224.722900390625,
+          115.05908203125
+        ],
+        [
+          55.926513671875,
+          115.05908203125
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A5 Protokollierung bei TK-Anlagen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          141.532470703125
+        ],
+        [
+          345.146484375,
+          141.532470703125
+        ],
+        [
+          345.146484375,
+          157.977783203125
+        ],
+        [
+          55.926513671875,
+          157.977783203125
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          242.36279296875
+        ],
+        [
+          267.430419921875,
+          242.36279296875
+        ],
+        [
+          267.430419921875,
+          260.45263671875
+        ],
+        [
+          55.926513671875,
+          260.45263671875
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A6 Erstellung einer Sicherheitsrichtlinie f\u00fcr TK-Anlagen (S) [IT-\nBetrieb]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          306.2939453125
+        ],
+        [
+          495.05859375,
+          306.2939453125
+        ],
+        [
+          495.05859375,
+          339.1845703125
+        ],
+        [
+          55.926513671875,
+          339.1845703125
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A7 Geeignete Aufstellung der TK-Anlage (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          443.6123046875
+        ],
+        [
+          374.7802734375,
+          443.6123046875
+        ],
+        [
+          374.7802734375,
+          460.0576171875
+        ],
+        [
+          55.926513671875,
+          460.0576171875
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A8 Einschr\u00e4nkung und Sperrung nicht ben\u00f6tigter oder \nsicherheitskritischer Leistungsmerkmale (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          499.115234375
+        ],
+        [
+          445.6689453125,
+          499.115234375
+        ],
+        [
+          445.6689453125,
+          531.4649047851562
+        ],
+        [
+          55.78125,
+          531.4649047851562
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A9 Schulung zur sicheren Nutzung von TK-Anlagen (S) [Vorgesetzte]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          610.5322265625
+        ],
+        [
+          525.2734375,
+          610.5322265625
+        ],
+        [
+          525.2734375,
+          626.9775390625
+        ],
+        [
+          55.926513671875,
+          626.9775390625
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A10 Dokumentation und Revision der TK-Anlagenkonfiguration (S) \n[IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          705.0927734375
+        ],
+        [
+          524.111328125,
+          705.0927734375
+        ],
+        [
+          524.111328125,
+          737.8649215698242
+        ],
+        [
+          55.635986328125,
+          737.8649215698242
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A11 Au\u00dferbetriebnahme von TK-Anlagen und -ger\u00e4ten (S) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          89.626953125
+        ],
+        [
+          538.6376953125,
+          89.626953125
+        ],
+        [
+          538.6376953125,
+          106.27783203125
+        ],
+        [
+          56.07177734375,
+          106.27783203125
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A12 Datensicherung der Konfigurationsdateien (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.217041015625,
+          157.052734375
+        ],
+        [
+          416.6162109375,
+          157.052734375
+        ],
+        [
+          416.6162109375,
+          174.3203125
+        ],
+        [
+          56.217041015625,
+          174.3203125
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A13 Beschaffung von TK-Anlagen (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          271.34765625
+        ],
+        [
+          333.525390625,
+          271.34765625
+        ],
+        [
+          333.525390625,
+          288.615234375
+        ],
+        [
+          55.49072265625,
+          288.615234375
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A14 Notfallvorsorge f\u00fcr TK-Anlagen (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          353.36865234375
+        ],
+        [
+          348.6328125,
+          353.36865234375
+        ],
+        [
+          348.6328125,
+          370.22509765625
+        ],
+        [
+          55.49072265625,
+          370.22509765625
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A15 Notrufe bei einem Ausfall der TK-Anlage (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          421.822265625
+        ],
+        [
+          403.251953125,
+          421.822265625
+        ],
+        [
+          403.251953125,
+          438.267578125
+        ],
+        [
+          55.49072265625,
+          438.267578125
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A16 Sicherung von Endger\u00e4ten in frei zug\u00e4nglichen R\u00e4umen (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          490.0703125
+        ],
+        [
+          495.93017578125,
+          490.0703125
+        ],
+        [
+          495.93017578125,
+          506.515625
+        ],
+        [
+          55.78125,
+          506.515625
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A17 Wartung von TK-Anlagen (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          558.7294921875
+        ],
+        [
+          311.4453125,
+          558.7294921875
+        ],
+        [
+          311.4453125,
+          575.1748046875
+        ],
+        [
+          55.8538818359375,
+          575.1748046875
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          619.98828125
+        ],
+        [
+          392.2119140625,
+          619.98828125
+        ],
+        [
+          392.2119140625,
+          638.900390625
+        ],
+        [
+          55.78125,
+          638.900390625
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A18 Erh\u00f6hter Zugangsschutz (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          709.615234375
+        ],
+        [
+          306.2158203125,
+          709.615234375
+        ],
+        [
+          306.2158203125,
+          726.060546875
+        ],
+        [
+          55.926513671875,
+          726.060546875
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.1.A19 Redundanter Anschluss (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.2728271484375,
+          56.633544921875
+        ],
+        [
+          302.7294921875,
+          56.633544921875
+        ],
+        [
+          302.7294921875,
+          73.05908203125
+        ],
+        [
+          55.2728271484375,
+          73.05908203125
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.5633544921875,
+          118.920166015625
+        ],
+        [
+          337.01171875,
+          118.920166015625
+        ],
+        [
+          337.01171875,
+          138.916748046875
+        ],
+        [
+          55.5633544921875,
+          138.916748046875
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.5633544921875,
+          152.94140625
+        ],
+        [
+          191.45751953125,
+          152.94140625
+        ],
+        [
+          191.45751953125,
+          170.17547607421875
+        ],
+        [
+          55.5633544921875,
+          170.17547607421875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          74
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          96
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          25
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/NET.4.1 TK-Anlagen.pdf.clean"
+}

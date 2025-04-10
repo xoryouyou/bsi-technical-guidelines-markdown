@@ -1,0 +1,815 @@
+{
+  "table_of_contents": [
+    {
+      "title": "INF.10 Besprechungs-, \nVeranstaltungs- und \nSchulungsr\u00e4ume",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.49072265625,
+          201.24951171875
+        ],
+        [
+          373.6598205566406,
+          201.24951171875
+        ],
+        [
+          373.6598205566406,
+          316.36669921875
+        ],
+        [
+          55.49072265625,
+          316.36669921875
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.39862060546875,
+          351.107421875
+        ],
+        [
+          194.798583984375,
+          351.107421875
+        ],
+        [
+          194.798583984375,
+          374.5419921875
+        ],
+        [
+          56.39862060546875,
+          374.5419921875
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.67230224609375,
+          385.43701171875
+        ],
+        [
+          159.935302734375,
+          385.43701171875
+        ],
+        [
+          159.935302734375,
+          405.99365234375
+        ],
+        [
+          55.67230224609375,
+          405.99365234375
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.81756591796875,
+          547.62890625
+        ],
+        [
+          169.2537384033203,
+          547.62890625
+        ],
+        [
+          169.2537384033203,
+          568.185546875
+        ],
+        [
+          55.81756591796875,
+          568.185546875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          643.833984375
+        ],
+        [
+          303.310546875,
+          643.833984375
+        ],
+        [
+          303.310546875,
+          664.390625
+        ],
+        [
+          55.8538818359375,
+          664.390625
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          135.571044921875
+        ],
+        [
+          220.51025390625,
+          135.571044921875
+        ],
+        [
+          220.51025390625,
+          156.744384765625
+        ],
+        [
+          55.345458984375,
+          156.744384765625
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Fehlende oder unzureichende Regelungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          233.31787109375
+        ],
+        [
+          381.171875,
+          233.31787109375
+        ],
+        [
+          381.171875,
+          252.64111328125
+        ],
+        [
+          55.49072265625,
+          252.64111328125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Inkompatibilit\u00e4t zwischen fremder und eigener IT",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          408.46044921875
+        ],
+        [
+          439.27734375,
+          408.46044921875
+        ],
+        [
+          439.27734375,
+          427.578125
+        ],
+        [
+          55.635986328125,
+          427.578125
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Fliegende Verkabelung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.8538818359375,
+          557.0849609375
+        ],
+        [
+          248.40087890625,
+          557.0849609375
+        ],
+        [
+          248.40087890625,
+          576.8193359375
+        ],
+        [
+          55.8538818359375,
+          576.8193359375
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Diebstahl",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.217041015625,
+          693.169921875
+        ],
+        [
+          155.72265625,
+          693.169921875
+        ],
+        [
+          155.72265625,
+          712.08203125
+        ],
+        [
+          56.217041015625,
+          712.08203125
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Vertraulichkeitsverlust sch\u00fctzenswerter Informationen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          180.8984375
+        ],
+        [
+          477.626953125,
+          180.8984375
+        ],
+        [
+          477.626953125,
+          199.60498046875
+        ],
+        [
+          55.345458984375,
+          199.60498046875
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          316.572265625
+        ],
+        [
+          208.743896484375,
+          316.572265625
+        ],
+        [
+          208.743896484375,
+          337.12890625
+        ],
+        [
+          55.635986328125,
+          337.12890625
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.8538818359375,
+          560.3740234375
+        ],
+        [
+          237.6513671875,
+          560.3740234375
+        ],
+        [
+          237.6513671875,
+          579.2861328125
+        ],
+        [
+          55.8538818359375,
+          579.2861328125
+        ]
+      ]
+    },
+    {
+      "title": "INF.10.A1 Sichere Nutzung von Besprechungs-, Veranstaltungs- und \nSchulungsr\u00e4umen (B) [Haustechnik, IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          611.3544921875
+        ],
+        [
+          475.80975341796875,
+          611.3544921875
+        ],
+        [
+          475.80975341796875,
+          644.2451171875
+        ],
+        [
+          55.635986328125,
+          644.2451171875
+        ]
+      ]
+    },
+    {
+      "title": "INF.10.A2 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.9991455078125,
+          722.3603515625
+        ],
+        [
+          217.02392578125,
+          722.3603515625
+        ],
+        [
+          217.02392578125,
+          738.8056640625
+        ],
+        [
+          55.9991455078125,
+          738.8056640625
+        ]
+      ]
+    },
+    {
+      "title": "INF.10.A3 Geschlossene Fenster und T\u00fcren (B) [Mitarbeitende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.217041015625,
+          55.811279296875
+        ],
+        [
+          437.5341796875,
+          55.811279296875
+        ],
+        [
+          437.5341796875,
+          73.284423828125
+        ],
+        [
+          56.217041015625,
+          73.284423828125
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          170.82568359375
+        ],
+        [
+          266.849365234375,
+          170.82568359375
+        ],
+        [
+          266.849365234375,
+          190.14892578125
+        ],
+        [
+          55.926513671875,
+          190.14892578125
+        ]
+      ]
+    },
+    {
+      "title": "INF.10.A4 Planung von Besprechungs-, Veranstaltungs- und Schulungsr\u00e4umen \n(S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          234.345703125
+        ],
+        [
+          540.67138671875,
+          234.345703125
+        ],
+        [
+          540.67138671875,
+          267.4649658203125
+        ],
+        [
+          56.07177734375,
+          267.4649658203125
+        ]
+      ]
+    },
+    {
+      "title": "INF.10.A5 Fliegende Verkabelung (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.7086181640625,
+          359.330078125
+        ],
+        [
+          280.35888671875,
+          359.330078125
+        ],
+        [
+          280.35888671875,
+          376.59765625
+        ],
+        [
+          55.7086181640625,
+          376.59765625
+        ]
+      ]
+    },
+    {
+      "title": "INF.10.A6 Einrichtung sicherer Netzzug\u00e4nge (S) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          427.9892578125
+        ],
+        [
+          421.55517578125,
+          427.9892578125
+        ],
+        [
+          421.55517578125,
+          444.4345703125
+        ],
+        [
+          55.49072265625,
+          444.4345703125
+        ]
+      ]
+    },
+    {
+      "title": "INF.10.A7 Sichere Konfiguration von Schulungs- und Pr\u00e4sentationsrechnern \n(S) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          594.9091796875
+        ],
+        [
+          528.46923828125,
+          594.9091796875
+        ],
+        [
+          528.46923828125,
+          627.7998046875
+        ],
+        [
+          55.78125,
+          627.7998046875
+        ]
+      ]
+    },
+    {
+      "title": "INF.10.A8 Erstellung eines Nutzungsnachweises f\u00fcr R\u00e4ume (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.345458984375,
+          693.169921875
+        ],
+        [
+          437.5341796875,
+          693.169921875
+        ],
+        [
+          437.5341796875,
+          709.615234375
+        ],
+        [
+          55.345458984375,
+          709.615234375
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          56.1710205078125
+        ],
+        [
+          393.955078125,
+          56.1710205078125
+        ],
+        [
+          393.955078125,
+          76.2137451171875
+        ],
+        [
+          55.926513671875,
+          76.2137451171875
+        ]
+      ]
+    },
+    {
+      "title": "INF.10.A9 Zur\u00fccksetzen von Schulungs- und Pr\u00e4sentationsrechnern (H) [IT-\nBetrieb]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          147.185546875
+        ],
+        [
+          520.0439453125,
+          147.185546875
+        ],
+        [
+          520.0439453125,
+          180.076171875
+        ],
+        [
+          55.926513671875,
+          180.076171875
+        ]
+      ]
+    },
+    {
+      "title": "INF.10.A10 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          231.87890625
+        ],
+        [
+          227.18524169921875,
+          231.87890625
+        ],
+        [
+          227.18524169921875,
+          248.32421875
+        ],
+        [
+          55.926513671875,
+          248.32421875
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.4180908203125,
+          280.18701171875
+        ],
+        [
+          335.2685546875,
+          280.18701171875
+        ],
+        [
+          335.2685546875,
+          301.15478515625
+        ],
+        [
+          55.4180908203125,
+          301.15478515625
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          314.31103515625
+        ],
+        [
+          190.440673828125,
+          314.31103515625
+        ],
+        [
+          190.440673828125,
+          332.0555114746094
+        ],
+        [
+          55.78125,
+          332.0555114746094
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          72
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          135
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          131
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          62
+        ],
+        [
+          "Line",
+          24
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/INF.10 Besprechungs-, Veranstaltungs- und Schulungsr\u00e4ume.pdf.clean"
+}

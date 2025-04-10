@@ -1,0 +1,1182 @@
+{
+  "table_of_contents": [
+    {
+      "title": "CON.3 Datensicherungskonzept",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.507568359375,
+          201.352294921875
+        ],
+        [
+          507.841796875,
+          201.352294921875
+        ],
+        [
+          507.841796875,
+          240.923828125
+        ],
+        [
+          56.507568359375,
+          240.923828125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.7086181640625,
+          274.2255859375
+        ],
+        [
+          194.94384765625,
+          274.2255859375
+        ],
+        [
+          194.94384765625,
+          298.0712890625
+        ],
+        [
+          55.7086181640625,
+          298.0712890625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.7086181640625,
+          309.171875
+        ],
+        [
+          161.24267578125,
+          309.171875
+        ],
+        [
+          161.24267578125,
+          328.4951171875
+        ],
+        [
+          55.7086181640625,
+          328.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.07177734375,
+          56.7877197265625
+        ],
+        [
+          169.0869140625,
+          56.7877197265625
+        ],
+        [
+          169.0869140625,
+          77.0360107421875
+        ],
+        [
+          56.07177734375,
+          77.0360107421875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.5633544921875,
+          138.75732421875
+        ],
+        [
+          304.18212890625,
+          138.75732421875
+        ],
+        [
+          304.18212890625,
+          158.49169921875
+        ],
+        [
+          55.5633544921875,
+          158.49169921875
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.78125,
+          358.9189453125
+        ],
+        [
+          221.527099609375,
+          358.9189453125
+        ],
+        [
+          221.527099609375,
+          381.53125
+        ],
+        [
+          55.78125,
+          381.53125
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Fehlende Datensicherung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          456.7685546875
+        ],
+        [
+          267.139892578125,
+          456.7685546875
+        ],
+        [
+          267.139892578125,
+          476.5029296875
+        ],
+        [
+          55.635986328125,
+          476.5029296875
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Fehlende Wiederherstellungstests",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.07177734375,
+          554.20703125
+        ],
+        [
+          325.68115234375,
+          554.20703125
+        ],
+        [
+          325.68115234375,
+          573.119140625
+        ],
+        [
+          56.07177734375,
+          573.119140625
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Ungeeignete Aufbewahrung der Speichermedien f\u00fcr die \nDatensicherungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          649.58984375
+        ],
+        [
+          479.6710205078125,
+          649.58984375
+        ],
+        [
+          479.6710205078125,
+          688.236328125
+        ],
+        [
+          55.635986328125,
+          688.236328125
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Fehlende oder unzureichende Dokumentation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          94.046630859375
+        ],
+        [
+          414.873046875,
+          94.046630859375
+        ],
+        [
+          414.873046875,
+          113.8837890625
+        ],
+        [
+          55.926513671875,
+          113.8837890625
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Missachtung gesetzlicher Vorschriften",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          235.990234375
+        ],
+        [
+          356.1865234375,
+          235.990234375
+        ],
+        [
+          356.1865234375,
+          255.724609375
+        ],
+        [
+          55.926513671875,
+          255.724609375
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Unsichere Anbieter f\u00fcr Online-Datensicherungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          319.4501953125
+        ],
+        [
+          434.62890625,
+          319.4501953125
+        ],
+        [
+          434.62890625,
+          338.3623046875
+        ],
+        [
+          55.49072265625,
+          338.3623046875
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Ungen\u00fcgende Speicherkapazit\u00e4ten",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          447.7236328125
+        ],
+        [
+          332.36328125,
+          447.7236328125
+        ],
+        [
+          332.36328125,
+          467.4580078125
+        ],
+        [
+          55.7086181640625,
+          467.4580078125
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Unzureichendes Datensicherungskonzept",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          570.65234375
+        ],
+        [
+          380.5908203125,
+          570.65234375
+        ],
+        [
+          380.5908203125,
+          589.564453125
+        ],
+        [
+          55.78125,
+          589.564453125
+        ]
+      ]
+    },
+    {
+      "title": "2.9. Ungen\u00fcgende Datensicherungsgeschwindigkeit",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.2001953125,
+          56.4793701171875
+        ],
+        [
+          424.7509765625,
+          56.4793701171875
+        ],
+        [
+          424.7509765625,
+          75.9053955078125
+        ],
+        [
+          55.2001953125,
+          75.9053955078125
+        ]
+      ]
+    },
+    {
+      "title": "2.10. Ransomware",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.5633544921875,
+          206.18310546875
+        ],
+        [
+          193.20068359375,
+          206.18310546875
+        ],
+        [
+          193.20068359375,
+          224.27294921875
+        ],
+        [
+          55.5633544921875,
+          224.27294921875
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.7086181640625,
+          445.66796875
+        ],
+        [
+          208.5986328125,
+          445.66796875
+        ],
+        [
+          208.5986328125,
+          467.046875
+        ],
+        [
+          55.7086181640625,
+          467.046875
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          696.8701171875
+        ],
+        [
+          239.10400390625,
+          696.8701171875
+        ],
+        [
+          239.10400390625,
+          714.9599609375
+        ],
+        [
+          55.78125,
+          714.9599609375
+        ]
+      ]
+    },
+    {
+      "title": "CON.3.A1 Erhebung der Einflussfaktoren f\u00fcr Datensicherungen (B) \n[Fachverantwortliche, IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.345458984375,
+          55.3487548828125
+        ],
+        [
+          467.7490234375,
+          55.3487548828125
+        ],
+        [
+          467.7490234375,
+          89.9866943359375
+        ],
+        [
+          55.345458984375,
+          89.9866943359375
+        ]
+      ]
+    },
+    {
+      "title": "CON.3.A2 Festlegung der Verfahrensweisen f\u00fcr die Datensicherung (B) \n[Fachverantwortliche, IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.345458984375,
+          386.25927734375
+        ],
+        [
+          488.6669921875,
+          386.25927734375
+        ],
+        [
+          488.6669921875,
+          418.544921875
+        ],
+        [
+          55.345458984375,
+          418.544921875
+        ]
+      ]
+    },
+    {
+      "title": "CON.3.A3 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          602.3095703125
+        ],
+        [
+          217.750244140625,
+          602.3095703125
+        ],
+        [
+          217.750244140625,
+          617.9326171875
+        ],
+        [
+          55.78125,
+          617.9326171875
+        ]
+      ]
+    },
+    {
+      "title": "CON.3.A4 Erstellung von Datensicherungspl\u00e4nen (B) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          643.833984375
+        ],
+        [
+          452.6416015625,
+          643.833984375
+        ],
+        [
+          452.6416015625,
+          660.279296875
+        ],
+        [
+          55.49072265625,
+          660.279296875
+        ]
+      ]
+    },
+    {
+      "title": "CON.3.A5 Regelm\u00e4\u00dfige Datensicherung (B) [IT-Betrieb, Mitarbeitende]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.054931640625,
+          156.6416015625
+        ],
+        [
+          487.5048828125,
+          156.6416015625
+        ],
+        [
+          487.5048828125,
+          172.67578125
+        ],
+        [
+          55.054931640625,
+          172.67578125
+        ]
+      ]
+    },
+    {
+      "title": "CON.3.A12 Sichere Aufbewahrung der Speichermedien f\u00fcr die \nDatensicherungen (B) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          224.8896484375
+        ],
+        [
+          438.67523193359375,
+          224.8896484375
+        ],
+        [
+          438.67523193359375,
+          257.369140625
+        ],
+        [
+          55.635986328125,
+          257.369140625
+        ]
+      ]
+    },
+    {
+      "title": "CON.3.A14 Schutz von Datensicherungen (B) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          323.150390625
+        ],
+        [
+          404.12353515625,
+          323.150390625
+        ],
+        [
+          404.12353515625,
+          339.1845703125
+        ],
+        [
+          55.78125,
+          339.1845703125
+        ]
+      ]
+    },
+    {
+      "title": "CON.3.A15 Regelm\u00e4\u00dfiges Testen der Datensicherungen (B) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          444.0234375
+        ],
+        [
+          489.8291015625,
+          444.0234375
+        ],
+        [
+          489.8291015625,
+          460.46875
+        ],
+        [
+          55.926513671875,
+          460.46875
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.9991455078125,
+          506.1044921875
+        ],
+        [
+          266.41357421875,
+          506.1044921875
+        ],
+        [
+          266.41357421875,
+          524.1943359375
+        ],
+        [
+          55.9991455078125,
+          524.1943359375
+        ]
+      ]
+    },
+    {
+      "title": "CON.3.A6 Entwicklung eines Datensicherungskonzepts (S) \n[Fachverantwortliche, IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          569.4189453125
+        ],
+        [
+          415.4541015625,
+          569.4189453125
+        ],
+        [
+          415.4541015625,
+          601.544921875
+        ],
+        [
+          55.926513671875,
+          601.544921875
+        ]
+      ]
+    },
+    {
+      "title": "CON.3.A7 Beschaffung eines geeigneten Datensicherungssystems (S) [IT-\nBetrieb]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          233.5234375
+        ],
+        [
+          499.41650390625,
+          233.5234375
+        ],
+        [
+          499.41650390625,
+          266.26495361328125
+        ],
+        [
+          55.78125,
+          266.26495361328125
+        ]
+      ]
+    },
+    {
+      "title": "CON.3.A8 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.9991455078125,
+          331.373046875
+        ],
+        [
+          216.44287109375,
+          331.373046875
+        ],
+        [
+          216.44287109375,
+          348.2294921875
+        ],
+        [
+          55.9991455078125,
+          348.2294921875
+        ]
+      ]
+    },
+    {
+      "title": "CON.3.A9 Voraussetzungen f\u00fcr die Online-Datensicherung (S) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.345458984375,
+          373.30859375
+        ],
+        [
+          509.00390625,
+          373.30859375
+        ],
+        [
+          509.00390625,
+          390.1650390625
+        ],
+        [
+          55.345458984375,
+          390.1650390625
+        ]
+      ]
+    },
+    {
+      "title": "CON.3.A10 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.926513671875,
+          579.697265625
+        ],
+        [
+          222.83447265625,
+          579.697265625
+        ],
+        [
+          222.83447265625,
+          596.142578125
+        ],
+        [
+          55.926513671875,
+          596.142578125
+        ]
+      ]
+    },
+    {
+      "title": "CON.3.A11 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.8538818359375,
+          622.0439453125
+        ],
+        [
+          223.99658203125,
+          622.0439453125
+        ],
+        [
+          223.99658203125,
+          638.1390533447266
+        ],
+        [
+          55.8538818359375,
+          638.1390533447266
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          670.5576171875
+        ],
+        [
+          390.75927734375,
+          670.5576171875
+        ],
+        [
+          390.75927734375,
+          689.4697265625
+        ],
+        [
+          55.49072265625,
+          689.4697265625
+        ]
+      ]
+    },
+    {
+      "title": "CON.3.A13 Einsatz kryptografischer Verfahren bei der Datensicherung (H) [IT-\nBetrieb]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.07177734375,
+          54.9376220703125
+        ],
+        [
+          534.5703125,
+          54.9376220703125
+        ],
+        [
+          534.5703125,
+          89.977294921875
+        ],
+        [
+          56.07177734375,
+          89.977294921875
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.7086181640625,
+          161.266845703125
+        ],
+        [
+          336.72119140625,
+          161.266845703125
+        ],
+        [
+          336.72119140625,
+          184.084716796875
+        ],
+        [
+          55.7086181640625,
+          184.084716796875
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.89019775390625,
+          195.08251953125
+        ],
+        [
+          191.1669921875,
+          195.08251953125
+        ],
+        [
+          191.1669921875,
+          213.7890625
+        ],
+        [
+          55.89019775390625,
+          213.7890625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          121
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "ListItem",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          44
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/CCON.3 Datensicherungskonzept.pdf.clean"
+}

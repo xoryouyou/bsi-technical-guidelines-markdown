@@ -1,0 +1,1269 @@
+{
+  "table_of_contents": [
+    {
+      "title": "SYS.2.2.3 Clients unter Windows",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.63999938964844,
+          201.455078125
+        ],
+        [
+          509.00390625,
+          201.455078125
+        ],
+        [
+          509.00390625,
+          240.1015625
+        ],
+        [
+          56.63999938964844,
+          240.1015625
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          274.43115234375
+        ],
+        [
+          194.6533203125,
+          274.43115234375
+        ],
+        [
+          194.6533203125,
+          297.86572265625
+        ],
+        [
+          55.8538818359375,
+          297.86572265625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          309.37744140625
+        ],
+        [
+          161.533203125,
+          309.37744140625
+        ],
+        [
+          161.533203125,
+          328.70068359375
+        ],
+        [
+          55.96282958984375,
+          328.70068359375
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.81756591796875,
+          570.2412109375
+        ],
+        [
+          169.25376892089844,
+          570.2412109375
+        ],
+        [
+          169.25376892089844,
+          589.9755859375
+        ],
+        [
+          55.81756591796875,
+          589.9755859375
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.07177734375,
+          639.3115234375
+        ],
+        [
+          303.8916015625,
+          639.3115234375
+        ],
+        [
+          303.8916015625,
+          659.0458984375
+        ],
+        [
+          56.07177734375,
+          659.0458984375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          94.9716796875
+        ],
+        [
+          222.108154296875,
+          94.9716796875
+        ],
+        [
+          222.108154296875,
+          117.583984375
+        ],
+        [
+          55.635986328125,
+          117.583984375
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Schadprogramme auf Windows-Clients",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          193.02685546875
+        ],
+        [
+          363.740234375,
+          193.02685546875
+        ],
+        [
+          363.740234375,
+          212.76123046875
+        ],
+        [
+          55.345458984375,
+          212.76123046875
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Integrierte Cloud-Funktionen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.4180908203125,
+          289.23193359375
+        ],
+        [
+          299.53369140625,
+          289.23193359375
+        ],
+        [
+          299.53369140625,
+          308.96630859375
+        ],
+        [
+          55.4180908203125,
+          308.96630859375
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Beeintr\u00e4chtigung von Software-Funktionen durch \nKompatibilit\u00e4tsprobleme",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.926513671875,
+          478.1474609375
+        ],
+        [
+          443.3447265625,
+          478.1474609375
+        ],
+        [
+          443.3447265625,
+          515.6553955078125
+        ],
+        [
+          55.926513671875,
+          515.6553955078125
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Telemetrie-Funktionen von Windows",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.926513671875,
+          645.8896484375
+        ],
+        [
+          355.0244140625,
+          645.8896484375
+        ],
+        [
+          355.0244140625,
+          665.6240234375
+        ],
+        [
+          55.926513671875,
+          665.6240234375
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Eingeschr\u00e4nkte Forensik bei der Nutzung des Virtual Secure \nMode (VSM)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          55.70849609375
+        ],
+        [
+          509.00390625,
+          55.70849609375
+        ],
+        [
+          509.00390625,
+          94.45538330078125
+        ],
+        [
+          55.78125,
+          94.45538330078125
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          186.03759765625
+        ],
+        [
+          210.341796875,
+          186.03759765625
+        ],
+        [
+          210.341796875,
+          207.82763671875
+        ],
+        [
+          55.7086181640625,
+          207.82763671875
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.07177734375,
+          435.80078125
+        ],
+        [
+          237.796630859375,
+          435.80078125
+        ],
+        [
+          237.796630859375,
+          454.712890625
+        ],
+        [
+          56.07177734375,
+          454.712890625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A1 Planung des Einsatzes von Cloud-Diensten unter Windows (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.217041015625,
+          485.5478515625
+        ],
+        [
+          512.490234375,
+          485.5478515625
+        ],
+        [
+          512.490234375,
+          502.8154296875
+        ],
+        [
+          56.217041015625,
+          502.8154296875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A2 Auswahl und Beschaffung einer geeigneten Windows-Version (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.217041015625,
+          554.6181640625
+        ],
+        [
+          532.8271484375,
+          554.6181640625
+        ],
+        [
+          532.8271484375,
+          571.0634765625
+        ],
+        [
+          56.217041015625,
+          571.0634765625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A3 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.1444091796875,
+          661.923828125
+        ],
+        [
+          230.38818359375,
+          661.923828125
+        ],
+        [
+          230.38818359375,
+          678.6990509033203
+        ],
+        [
+          56.1444091796875,
+          678.6990509033203
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A4 Telemetrie und Datenschutzeinstellungen unter Windows (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          704.2705078125
+        ],
+        [
+          509.5849609375,
+          704.2705078125
+        ],
+        [
+          509.5849609375,
+          720.7158203125
+        ],
+        [
+          55.635986328125,
+          720.7158203125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A5 Schutz vor Schadsoftware unter Windows (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          89.318603515625
+        ],
+        [
+          411.9677734375,
+          89.318603515625
+        ],
+        [
+          411.9677734375,
+          106.27783203125
+        ],
+        [
+          55.78125,
+          106.27783203125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A6 Integration von Online-Konten in das Betriebssystem (B) \n[Benutzende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.217041015625,
+          157.875
+        ],
+        [
+          483.4375,
+          157.875
+        ],
+        [
+          483.4375,
+          190.66497802734375
+        ],
+        [
+          56.217041015625,
+          190.66497802734375
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          275.8701171875
+        ],
+        [
+          267.430419921875,
+          275.8701171875
+        ],
+        [
+          267.430419921875,
+          294.37109375
+        ],
+        [
+          55.635986328125,
+          294.37109375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A7 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.507568359375,
+          339.1845703125
+        ],
+        [
+          229.80712890625,
+          339.1845703125
+        ],
+        [
+          229.80712890625,
+          355.6298828125
+        ],
+        [
+          56.507568359375,
+          355.6298828125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A8 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.9991455078125,
+          381.53125
+        ],
+        [
+          228.935546875,
+          381.53125
+        ],
+        [
+          228.935546875,
+          397.154296875
+        ],
+        [
+          55.9991455078125,
+          397.154296875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A9 Sichere zentrale Authentisierung in Windows-Netzen (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          423.8779296875
+        ],
+        [
+          479.66064453125,
+          423.8779296875
+        ],
+        [
+          479.66064453125,
+          439.5009765625
+        ],
+        [
+          55.78125,
+          439.5009765625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A10 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          557.49609375
+        ],
+        [
+          236.053466796875,
+          557.49609375
+        ],
+        [
+          236.053466796875,
+          573.4590454101562
+        ],
+        [
+          56.07177734375,
+          573.4590454101562
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A11 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          599.8427734375
+        ],
+        [
+          234.45556640625,
+          599.8427734375
+        ],
+        [
+          234.45556640625,
+          615.4658203125
+        ],
+        [
+          56.07177734375,
+          615.4658203125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A12 Datei- und Freigabeberechtigungen unter Windows (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          642.189453125
+        ],
+        [
+          475.8837890625,
+          642.189453125
+        ],
+        [
+          475.8837890625,
+          657.8125
+        ],
+        [
+          55.78125,
+          657.8125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A13 Einsatz der SmartScreen-Funktion (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.345458984375,
+          56.11962890625
+        ],
+        [
+          371.875,
+          56.11962890625
+        ],
+        [
+          371.875,
+          73.284423828125
+        ],
+        [
+          55.345458984375,
+          73.284423828125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A14 Einsatz des Sprachassistenten Cortana (S) [Benutzende]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          125.60107421875
+        ],
+        [
+          475.8837890625,
+          125.60107421875
+        ],
+        [
+          475.8837890625,
+          141.63525390625
+        ],
+        [
+          55.635986328125,
+          141.63525390625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A15 Einsatz der Synchronisationsmechanismen unter Windows (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          168.1533203125
+        ],
+        [
+          522.3681640625,
+          168.1533203125
+        ],
+        [
+          522.3681640625,
+          184.39306640625
+        ],
+        [
+          56.07177734375,
+          184.39306640625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A16 Anbindung von Windows an den Microsoft-Store (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          222.62841796875
+        ],
+        [
+          460.7763671875,
+          222.62841796875
+        ],
+        [
+          460.7763671875,
+          238.66259765625
+        ],
+        [
+          55.78125,
+          238.66259765625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A17 Keine Speicherung von Daten zur automatischen Anmeldung (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          304.23828125
+        ],
+        [
+          536.02294921875,
+          304.23828125
+        ],
+        [
+          536.02294921875,
+          320.2724609375
+        ],
+        [
+          56.07177734375,
+          320.2724609375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A18 Einsatz der Windows-Remoteunterst\u00fctzung (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          359.94677734375
+        ],
+        [
+          429.98046875,
+          359.94677734375
+        ],
+        [
+          429.98046875,
+          375.98095703125
+        ],
+        [
+          55.635986328125,
+          375.98095703125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A19 Sicherheit beim Fernzugriff \u00fcber RDP (S) [Benutzende]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.217041015625,
+          480.203125
+        ],
+        [
+          473.5595703125,
+          480.203125
+        ],
+        [
+          473.5595703125,
+          496.6590270996094
+        ],
+        [
+          56.217041015625,
+          496.6590270996094
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A20 Einsatz der Benutzerkontensteuerung UAC f\u00fcr privilegierte \nKonten (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          54.9376220703125
+        ],
+        [
+          508.4228515625,
+          54.9376220703125
+        ],
+        [
+          508.4228515625,
+          89.977294921875
+        ],
+        [
+          55.635986328125,
+          89.977294921875
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          186.654296875
+        ],
+        [
+          391.0498046875,
+          186.654296875
+        ],
+        [
+          391.0498046875,
+          207.00537109375
+        ],
+        [
+          55.635986328125,
+          207.00537109375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A21 Einsatz des Encrypting File Systems (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          277.103515625
+        ],
+        [
+          380.30029296875,
+          277.103515625
+        ],
+        [
+          380.30029296875,
+          294.7822265625
+        ],
+        [
+          56.07177734375,
+          294.7822265625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A22 Verwendung der Windows PowerShell (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          424.7001953125
+        ],
+        [
+          399.1845703125,
+          424.7001953125
+        ],
+        [
+          399.1845703125,
+          441.9677734375
+        ],
+        [
+          55.635986328125,
+          441.9677734375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A23 Erweiterter Schutz der Anmeldeinformationen unter Windows \n(H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          520.0830078125
+        ],
+        [
+          528.6589965820312,
+          520.0830078125
+        ],
+        [
+          528.6589965820312,
+          553.0649108886719
+        ],
+        [
+          55.635986328125,
+          553.0649108886719
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A24 Aktivierung des Last-Access-Zeitstempels (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          618.34375
+        ],
+        [
+          417.7783203125,
+          618.34375
+        ],
+        [
+          417.7783203125,
+          635.611328125
+        ],
+        [
+          55.49072265625,
+          635.611328125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A25 Umgang mit Fernzugriffsfunktionen der \"Connected User \nExperience and Telemetry\" (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          699.3369140625
+        ],
+        [
+          497.9638671875,
+          699.3369140625
+        ],
+        [
+          497.9638671875,
+          733.8720703125
+        ],
+        [
+          55.926513671875,
+          733.8720703125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.2.3.A26 Nutzung des Virtual Secure Mode (VSM) (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.926513671875,
+          89.113037109375
+        ],
+        [
+          407.900390625,
+          89.113037109375
+        ],
+        [
+          407.900390625,
+          106.4833984375
+        ],
+        [
+          55.926513671875,
+          106.4833984375
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.926513671875,
+          150.26904296875
+        ],
+        [
+          336.4306640625,
+          150.26904296875
+        ],
+        [
+          336.4306640625,
+          171.64794921875
+        ],
+        [
+          55.926513671875,
+          171.64794921875
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.96282958984375,
+          185.009765625
+        ],
+        [
+          192.0446319580078,
+          185.009765625
+        ],
+        [
+          192.0446319580078,
+          203.30517578125
+        ],
+        [
+          55.96282958984375,
+          203.30517578125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          69
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/SYS.2.2.3 Clients unter Windows.pdf.clean"
+}

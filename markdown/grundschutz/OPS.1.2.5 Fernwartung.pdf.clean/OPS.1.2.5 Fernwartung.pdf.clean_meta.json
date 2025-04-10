@@ -1,0 +1,1299 @@
+{
+  "table_of_contents": [
+    {
+      "title": "OPS.1.2.5 Fernwartung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.07177734375,
+          202.174560546875
+        ],
+        [
+          375.07080078125,
+          202.174560546875
+        ],
+        [
+          375.07080078125,
+          239.89599609375
+        ],
+        [
+          56.07177734375,
+          239.89599609375
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          274.43115234375
+        ],
+        [
+          194.6533203125,
+          274.43115234375
+        ],
+        [
+          194.6533203125,
+          297.86572265625
+        ],
+        [
+          55.96282958984375,
+          297.86572265625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.10809326171875,
+          308.96630859375
+        ],
+        [
+          161.533203125,
+          308.96630859375
+        ],
+        [
+          161.533203125,
+          328.70068359375
+        ],
+        [
+          56.10809326171875,
+          328.70068359375
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.81756591796875,
+          634.3779296875
+        ],
+        [
+          169.2537384033203,
+          634.3779296875
+        ],
+        [
+          169.2537384033203,
+          653.2900390625
+        ],
+        [
+          55.81756591796875,
+          653.2900390625
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          56.3251953125
+        ],
+        [
+          306.2158203125,
+          56.3251953125
+        ],
+        [
+          306.2158203125,
+          76.779052734375
+        ],
+        [
+          55.7086181640625,
+          76.779052734375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          434.15625
+        ],
+        [
+          220.51025390625,
+          434.15625
+        ],
+        [
+          220.51025390625,
+          455.53515625
+        ],
+        [
+          55.49072265625,
+          455.53515625
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Unzureichende Kenntnisse \u00fcber Regelungen der Fernwartung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          532.005859375
+        ],
+        [
+          522.3681640625,
+          532.005859375
+        ],
+        [
+          522.3681640625,
+          551.740234375
+        ],
+        [
+          55.49072265625,
+          551.740234375
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Fehlende oder unzureichende Planung und Regelung der \nFernwartung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2001953125,
+          668.0908203125
+        ],
+        [
+          486.923828125,
+          668.0908203125
+        ],
+        [
+          486.923828125,
+          705.9150390625
+        ],
+        [
+          55.2001953125,
+          705.9150390625
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Ungeeignete Nutzung von Authentisierung bei der Fernwartung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.07177734375,
+          56.53076171875
+        ],
+        [
+          538.34716796875,
+          56.53076171875
+        ],
+        [
+          538.34716796875,
+          75.85400390625
+        ],
+        [
+          56.07177734375,
+          75.85400390625
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Fehlerhafte Fernwartung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          198.98828125
+        ],
+        [
+          265.25146484375,
+          198.98828125
+        ],
+        [
+          265.25146484375,
+          217.69482421875
+        ],
+        [
+          55.78125,
+          217.69482421875
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Verwendung unsicherer Protokolle in der Fernwartung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          334.2509765625
+        ],
+        [
+          475.302734375,
+          334.2509765625
+        ],
+        [
+          475.302734375,
+          353.57421875
+        ],
+        [
+          55.635986328125,
+          353.57421875
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Fehlende Regelungen zur Fremdnutzung der \nFernwartungszug\u00e4nge",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.3623046875,
+          469.1025390625
+        ],
+        [
+          402.96142578125,
+          469.1025390625
+        ],
+        [
+          402.96142578125,
+          507.7490234375
+        ],
+        [
+          56.3623046875,
+          507.7490234375
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Nutzung von Online-Diensten f\u00fcr die Fernwartung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          572.296875
+        ],
+        [
+          445.6689453125,
+          572.296875
+        ],
+        [
+          445.6689453125,
+          591.208984375
+        ],
+        [
+          55.635986328125,
+          591.208984375
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Unbekannte Fernwartungskomponenten",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.345458984375,
+          56.3765869140625
+        ],
+        [
+          378.2666015625,
+          56.3765869140625
+        ],
+        [
+          378.2666015625,
+          76.0081787109375
+        ],
+        [
+          55.345458984375,
+          76.0081787109375
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.5633544921875,
+          212.14453125
+        ],
+        [
+          209.7607421875,
+          212.14453125
+        ],
+        [
+          209.7607421875,
+          233.5234375
+        ],
+        [
+          55.5633544921875,
+          233.5234375
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          462.11328125
+        ],
+        [
+          238.087158203125,
+          462.11328125
+        ],
+        [
+          238.087158203125,
+          481.025390625
+        ],
+        [
+          55.926513671875,
+          481.025390625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A1 Planung des Einsatzes der Fernwartung (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          513.09375
+        ],
+        [
+          396.8603515625,
+          513.09375
+        ],
+        [
+          396.8603515625,
+          528.716796875
+        ],
+        [
+          55.49072265625,
+          528.716796875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A2 Sicherer Verbindungsaufbau bei der Fernwartung von Clients (B) \n[Benutzende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          594.498046875
+        ],
+        [
+          534.5703125,
+          594.498046875
+        ],
+        [
+          534.5703125,
+          627.1049194335938
+        ],
+        [
+          55.926513671875,
+          627.1049194335938
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A3 Absicherung der Schnittstellen zur Fernwartung (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.2001953125,
+          679.6025390625
+        ],
+        [
+          453.22265625,
+          679.6025390625
+        ],
+        [
+          453.22265625,
+          696.0478515625
+        ],
+        [
+          55.2001953125,
+          696.0478515625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A4 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.9991455078125,
+          89.2158203125
+        ],
+        [
+          232.421875,
+          89.2158203125
+        ],
+        [
+          232.421875,
+          106.072265625
+        ],
+        [
+          55.9991455078125,
+          106.072265625
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          137.52392578125
+        ],
+        [
+          266.849365234375,
+          137.52392578125
+        ],
+        [
+          266.849365234375,
+          156.23046875
+        ],
+        [
+          55.635986328125,
+          156.23046875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A5 Einsatz von Online-Diensten (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          201.352294921875
+        ],
+        [
+          332.07275390625,
+          201.352294921875
+        ],
+        [
+          332.07275390625,
+          217.900390625
+        ],
+        [
+          56.07177734375,
+          217.900390625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A6 Erstellung einer Richtlinie f\u00fcr die Fernwartung (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          309.171875
+        ],
+        [
+          443.3447265625,
+          309.171875
+        ],
+        [
+          443.3447265625,
+          325.6171875
+        ],
+        [
+          55.926513671875,
+          325.6171875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A7 Dokumentation bei der Fernwartung (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          377.419921875
+        ],
+        [
+          382.62451171875,
+          377.419921875
+        ],
+        [
+          382.62451171875,
+          394.2763671875
+        ],
+        [
+          55.49072265625,
+          394.2763671875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A8 Sichere Protokolle bei der Fernwartung (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          459.2353515625
+        ],
+        [
+          396.8603515625,
+          459.2353515625
+        ],
+        [
+          396.8603515625,
+          475.6806640625
+        ],
+        [
+          55.635986328125,
+          475.6806640625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A9 Auswahl und Beschaffung geeigneter Fernwartungswerkzeuge (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          559.962890625
+        ],
+        [
+          538.6376953125,
+          559.962890625
+        ],
+        [
+          538.6376953125,
+          576.408203125
+        ],
+        [
+          55.635986328125,
+          576.408203125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A10 Umgang mit Fernwartungswerkzeugen (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          641.7783203125
+        ],
+        [
+          403.8330078125,
+          641.7783203125
+        ],
+        [
+          403.8330078125,
+          658.2236328125
+        ],
+        [
+          55.926513671875,
+          658.2236328125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A11 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.2001953125,
+          57.044677734375
+        ],
+        [
+          240.556640625,
+          57.044677734375
+        ],
+        [
+          240.556640625,
+          73.05908203125
+        ],
+        [
+          55.2001953125,
+          73.05908203125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A12 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.2728271484375,
+          99.494140625
+        ],
+        [
+          238.52294921875,
+          99.494140625
+        ],
+        [
+          238.52294921875,
+          115.1171875
+        ],
+        [
+          55.2728271484375,
+          115.1171875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A13 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          142.04638671875
+        ],
+        [
+          239.10400390625,
+          142.04638671875
+        ],
+        [
+          239.10400390625,
+          157.4638671875
+        ],
+        [
+          55.635986328125,
+          157.4638671875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A15 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.2728271484375,
+          183.98193359375
+        ],
+        [
+          239.9755859375,
+          183.98193359375
+        ],
+        [
+          239.9755859375,
+          199.05908203125
+        ],
+        [
+          55.2728271484375,
+          199.05908203125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A16 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.345458984375,
+          225.91748046875
+        ],
+        [
+          238.52294921875,
+          225.91748046875
+        ],
+        [
+          238.52294921875,
+          241.54052734375
+        ],
+        [
+          55.345458984375,
+          241.54052734375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A17 Authentisierungsmechanismen bei der Fernwartung (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.345458984375,
+          268.4697265625
+        ],
+        [
+          484.599609375,
+          268.4697265625
+        ],
+        [
+          484.599609375,
+          283.681640625
+        ],
+        [
+          55.345458984375,
+          283.681640625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A18 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          348.84619140625
+        ],
+        [
+          239.539794921875,
+          348.84619140625
+        ],
+        [
+          239.539794921875,
+          364.6590270996094
+        ],
+        [
+          55.635986328125,
+          364.6590270996094
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A19 Fernwartung durch Dritte (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.2728271484375,
+          390.9873046875
+        ],
+        [
+          321.61376953125,
+          390.9873046875
+        ],
+        [
+          321.61376953125,
+          406.6590270996094
+        ],
+        [
+          55.2728271484375,
+          406.6590270996094
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A20 Betrieb der Fernwartung (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.8538818359375,
+          564.07421875
+        ],
+        [
+          313.47900390625,
+          564.07421875
+        ],
+        [
+          313.47900390625,
+          579.697265625
+        ],
+        [
+          55.8538818359375,
+          579.697265625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A21 Erstellung eines Notfallplans f\u00fcr den Ausfall der Fernwartung (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          657.4013671875
+        ],
+        [
+          539.7998046875,
+          657.4013671875
+        ],
+        [
+          539.7998046875,
+          673.0590515136719
+        ],
+        [
+          55.926513671875,
+          673.0590515136719
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A24 Absicherung integrierter Fernwartungssysteme (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          56.0682373046875
+        ],
+        [
+          453.22265625,
+          56.0682373046875
+        ],
+        [
+          453.22265625,
+          73.05908203125
+        ],
+        [
+          55.49072265625,
+          73.05908203125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A25 Entkopplung der Kommunikation bei der Fernwartung (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.926513671875,
+          183.7763671875
+        ],
+        [
+          502.03125,
+          183.7763671875
+        ],
+        [
+          502.03125,
+          200.6328125
+        ],
+        [
+          55.926513671875,
+          200.6328125
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          270.9365234375
+        ],
+        [
+          391.630859375,
+          270.9365234375
+        ],
+        [
+          391.630859375,
+          290.259765625
+        ],
+        [
+          55.49072265625,
+          290.259765625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A14 Dedizierte Clients und Konten bei der Fernwartung (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.2001953125,
+          361.18017578125
+        ],
+        [
+          479.951171875,
+          361.18017578125
+        ],
+        [
+          479.951171875,
+          378.44775390625
+        ],
+        [
+          55.2001953125,
+          378.44775390625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A22 Redundante Kommunikationsverbindungen (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.345458984375,
+          462.5244140625
+        ],
+        [
+          440.439453125,
+          462.5244140625
+        ],
+        [
+          440.439453125,
+          478.6590270996094
+        ],
+        [
+          55.345458984375,
+          478.6590270996094
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.5.A23 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.8538818359375,
+          516.7939453125
+        ],
+        [
+          242.59033203125,
+          516.7939453125
+        ],
+        [
+          242.59033203125,
+          533.8590393066406
+        ],
+        [
+          55.8538818359375,
+          533.8590393066406
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          566.1298828125
+        ],
+        [
+          335.55908203125,
+          566.1298828125
+        ],
+        [
+          335.55908203125,
+          587.5087890625
+        ],
+        [
+          55.78125,
+          587.5087890625
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.67230224609375,
+          600.25390625
+        ],
+        [
+          190.731201171875,
+          600.25390625
+        ],
+        [
+          190.731201171875,
+          617.6555023193359
+        ],
+        [
+          55.67230224609375,
+          617.6555023193359
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          66
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          136
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          88
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          10
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/OPS.1.2.5 Fernwartung.pdf.clean"
+}

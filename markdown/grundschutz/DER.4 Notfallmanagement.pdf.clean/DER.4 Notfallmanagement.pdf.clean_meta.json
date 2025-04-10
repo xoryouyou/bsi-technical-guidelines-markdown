@@ -1,0 +1,1027 @@
+{
+  "table_of_contents": [
+    {
+      "title": "DER.4 Notfallmanagement",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          201.66064453125
+        ],
+        [
+          436.953125,
+          201.66064453125
+        ],
+        [
+          436.953125,
+          240.71826171875
+        ],
+        [
+          55.926513671875,
+          240.71826171875
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          274.43115234375
+        ],
+        [
+          194.94384765625,
+          274.43115234375
+        ],
+        [
+          194.94384765625,
+          298.27685546875
+        ],
+        [
+          55.96282958984375,
+          298.27685546875
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.03546142578125,
+          308.96630859375
+        ],
+        [
+          161.387939453125,
+          308.96630859375
+        ],
+        [
+          161.387939453125,
+          328.70068359375
+        ],
+        [
+          56.03546142578125,
+          328.70068359375
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.03546142578125,
+          549.2734375
+        ],
+        [
+          169.2537384033203,
+          549.2734375
+        ],
+        [
+          169.2537384033203,
+          569.0078125
+        ],
+        [
+          56.03546142578125,
+          569.0078125
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.78125,
+          658.2236328125
+        ],
+        [
+          303.310546875,
+          658.2236328125
+        ],
+        [
+          303.310546875,
+          677.9580078125
+        ],
+        [
+          55.78125,
+          677.9580078125
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          167.94775390625
+        ],
+        [
+          220.51025390625,
+          167.94775390625
+        ],
+        [
+          220.51025390625,
+          189.12109375
+        ],
+        [
+          55.7086181640625,
+          189.12109375
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Personalausfall",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          264.97509765625
+        ],
+        [
+          195.8154296875,
+          264.97509765625
+        ],
+        [
+          195.8154296875,
+          284.29833984375
+        ],
+        [
+          55.7086181640625,
+          284.29833984375
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Ausfall von IT-Systemen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.5633544921875,
+          414.8330078125
+        ],
+        [
+          259.150390625,
+          414.8330078125
+        ],
+        [
+          259.150390625,
+          433.7451171875
+        ],
+        [
+          55.5633544921875,
+          433.7451171875
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Ausfall eines Weitverkehrsnetzes (WAN)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          510.2158203125
+        ],
+        [
+          368.9697265625,
+          510.2158203125
+        ],
+        [
+          368.9697265625,
+          529.1279296875
+        ],
+        [
+          55.635986328125,
+          529.1279296875
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Ausfall eines Geb\u00e4udes",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          632.7333984375
+        ],
+        [
+          247.529296875,
+          632.7333984375
+        ],
+        [
+          247.529296875,
+          651.6455078125
+        ],
+        [
+          55.49072265625,
+          651.6455078125
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Ausfall einer Lieferung oder Dienstleistung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.2001953125,
+          56.633544921875
+        ],
+        [
+          391.0498046875,
+          56.633544921875
+        ],
+        [
+          391.0498046875,
+          76.26513671875
+        ],
+        [
+          55.2001953125,
+          76.26513671875
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          193.02685546875
+        ],
+        [
+          209.47021484375,
+          193.02685546875
+        ],
+        [
+          209.47021484375,
+          213.58349609375
+        ],
+        [
+          55.7086181640625,
+          213.58349609375
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.8538818359375,
+          456.357421875
+        ],
+        [
+          238.52294921875,
+          456.357421875
+        ],
+        [
+          238.52294921875,
+          474.4955139160156
+        ],
+        [
+          55.8538818359375,
+          474.4955139160156
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.9991455078125,
+          513.5048828125
+        ],
+        [
+          266.7041015625,
+          513.5048828125
+        ],
+        [
+          266.7041015625,
+          531.5947265625
+        ],
+        [
+          55.9991455078125,
+          531.5947265625
+        ]
+      ]
+    },
+    {
+      "title": "DER.4.A1 Erstellung eines Notfallhandbuchs (S)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.9991455078125,
+          576.408203125
+        ],
+        [
+          347.76123046875,
+          576.408203125
+        ],
+        [
+          347.76123046875,
+          592.853515625
+        ],
+        [
+          55.9991455078125,
+          592.853515625
+        ]
+      ]
+    },
+    {
+      "title": "DER.4.A2 Integration von Notfallmanagement und \nInformationssicherheitsmanagement (S) [Informationssicherheitsbeauftragte \n(ISB)]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          114.808837890625
+        ],
+        [
+          535.1513671875,
+          114.808837890625
+        ],
+        [
+          535.1513671875,
+          166.611572265625
+        ],
+        [
+          56.07177734375,
+          166.611572265625
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          209.574951171875
+        ],
+        [
+          392.79296875,
+          209.574951171875
+        ],
+        [
+          392.79296875,
+          229.8232421875
+        ],
+        [
+          55.49072265625,
+          229.8232421875
+        ]
+      ]
+    },
+    {
+      "title": "DER.4.A3 Festlegung des Geltungsbereichs und der \nNotfallmanagementstrategie (H) [Institutionsleitung]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          300.126953125
+        ],
+        [
+          384.36767578125,
+          300.126953125
+        ],
+        [
+          384.36767578125,
+          334.662109375
+        ],
+        [
+          56.07177734375,
+          334.662109375
+        ]
+      ]
+    },
+    {
+      "title": "DER.4.A4 Leitlinie zum Notfallmanagement und \u00dcbernahme der \nGesamtverantwortung durch die Institutionsleitung (H) [Institutionsleitung]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          385.43701171875
+        ],
+        [
+          527.0166015625,
+          385.43701171875
+        ],
+        [
+          527.0166015625,
+          419.14990234375
+        ],
+        [
+          55.78125,
+          419.14990234375
+        ]
+      ]
+    },
+    {
+      "title": "DER.4.A5 Aufbau einer geeigneten Organisationsstruktur f\u00fcr das \nNotfallmanagement (H) [Institutionsleitung]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          483.0810546875
+        ],
+        [
+          456.1279296875,
+          483.0810546875
+        ],
+        [
+          456.1279296875,
+          517.6162109375
+        ],
+        [
+          55.926513671875,
+          517.6162109375
+        ]
+      ]
+    },
+    {
+      "title": "DER.4.A6 Bereitstellung angemessener Ressourcen f\u00fcr das \nNotfallmanagement (H) [Institutionsleitung]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          595.3203125
+        ],
+        [
+          414.320068359375,
+          595.3203125
+        ],
+        [
+          414.320068359375,
+          629.85546875
+        ],
+        [
+          55.635986328125,
+          629.85546875
+        ]
+      ]
+    },
+    {
+      "title": "DER.4.A7 Erstellung eines Notfallkonzepts (H) [Institutionsleitung]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.345458984375,
+          692.7587890625
+        ],
+        [
+          466.005859375,
+          692.7587890625
+        ],
+        [
+          466.005859375,
+          710.8486328125
+        ],
+        [
+          55.345458984375,
+          710.8486328125
+        ]
+      ]
+    },
+    {
+      "title": "DER.4.A8 Integration der Mitarbeitenden in den Notfallmanagement-Prozess \n(H) [Vorgesetzte, Personalabteilung]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          141.4296875
+        ],
+        [
+          532.53662109375,
+          141.4296875
+        ],
+        [
+          532.53662109375,
+          175.5537109375
+        ],
+        [
+          56.07177734375,
+          175.5537109375
+        ]
+      ]
+    },
+    {
+      "title": "DER.4.A9 Integration von Notfallmanagement in organisationsweite Abl\u00e4ufe \nund Prozesse (H) [Institutionsleitung]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          239.6904296875
+        ],
+        [
+          529.921875,
+          239.6904296875
+        ],
+        [
+          529.921875,
+          273.814453125
+        ],
+        [
+          55.78125,
+          273.814453125
+        ]
+      ]
+    },
+    {
+      "title": "DER.4.A10 Tests und Notfall\u00fcbungen (H) [Institutionsleitung]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          338.56787109375
+        ],
+        [
+          433.466796875,
+          338.56787109375
+        ],
+        [
+          433.466796875,
+          356.65771484375
+        ],
+        [
+          55.635986328125,
+          356.65771484375
+        ]
+      ]
+    },
+    {
+      "title": "DER.4.A11 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.4349365234375,
+          432.51171875
+        ],
+        [
+          223.99658203125,
+          432.51171875
+        ],
+        [
+          223.99658203125,
+          450.6015625
+        ],
+        [
+          56.4349365234375,
+          450.6015625
+        ]
+      ]
+    },
+    {
+      "title": "DER.4.A12 Dokumentation im Notfallmanagement-Prozess (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          475.26953125
+        ],
+        [
+          443.63525390625,
+          475.26953125
+        ],
+        [
+          443.63525390625,
+          492.537109375
+        ],
+        [
+          56.07177734375,
+          492.537109375
+        ]
+      ]
+    },
+    {
+      "title": "DER.4.A13 \u00dcberpr\u00fcfung und Steuerung des Notfallmanagement-Systems (H) \n[Institutionsleitung]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          556.673828125
+        ],
+        [
+          527.7943725585938,
+          556.673828125
+        ],
+        [
+          527.7943725585938,
+          590.38671875
+        ],
+        [
+          56.07177734375,
+          590.38671875
+        ]
+      ]
+    },
+    {
+      "title": "DER.4.A14 Regelm\u00e4\u00dfige \u00dcberpr\u00fcfung und Verbesserung der \nNotfallma\u00dfnahmen (H) [Institutionsleitung]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          642.189453125
+        ],
+        [
+          427.94677734375,
+          642.189453125
+        ],
+        [
+          427.94677734375,
+          676.724609375
+        ],
+        [
+          56.07177734375,
+          676.724609375
+        ]
+      ]
+    },
+    {
+      "title": "DER.4.A15 Bewertung der Leistungsf\u00e4higkeit des Notfallmanagementsystems \n(H) [Institutionsleitung]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          174.3203125
+        ],
+        [
+          534.27978515625,
+          174.3203125
+        ],
+        [
+          534.27978515625,
+          208.23876953125
+        ],
+        [
+          55.78125,
+          208.23876953125
+        ]
+      ]
+    },
+    {
+      "title": "DER.4.A16 Notfallvorsorge- und Notfallreaktionsplanung f\u00fcr ausgelagerte \nKomponenten (H) [Institutionsleitung]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          344.9404296875
+        ],
+        [
+          513.65234375,
+          344.9404296875
+        ],
+        [
+          513.65234375,
+          378.6533203125
+        ],
+        [
+          55.635986328125,
+          378.6533203125
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          507.7490234375
+        ],
+        [
+          336.4306640625,
+          507.7490234375
+        ],
+        [
+          336.4306640625,
+          529.9501953125
+        ],
+        [
+          55.49072265625,
+          529.9501953125
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.81756591796875,
+          541.873046875
+        ],
+        [
+          190.87646484375,
+          541.873046875
+        ],
+        [
+          190.87646484375,
+          560.78515625
+        ],
+        [
+          55.81756591796875,
+          560.78515625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          74
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          37
+        ],
+        [
+          "Line",
+          13
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/DER.4 Notfallmanagement.pdf.clean"
+}

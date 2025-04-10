@@ -1,0 +1,1324 @@
+{
+  "table_of_contents": [
+    {
+      "title": "SYS.4.1 Drucker, Kopierer und \nMultifunktionsger\u00e4te",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          200.941162109375
+        ],
+        [
+          482.275390625,
+          200.941162109375
+        ],
+        [
+          482.275390625,
+          276.6923828125
+        ],
+        [
+          55.926513671875,
+          276.6923828125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.2896728515625,
+          313.89990234375
+        ],
+        [
+          194.6533203125,
+          313.89990234375
+        ],
+        [
+          194.6533203125,
+          336.51220703125
+        ],
+        [
+          56.2896728515625,
+          336.51220703125
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.89019775390625,
+          347.4072265625
+        ],
+        [
+          160.806884765625,
+          347.4072265625
+        ],
+        [
+          160.806884765625,
+          367.9638671875
+        ],
+        [
+          55.89019775390625,
+          367.9638671875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.81756591796875,
+          547.2177734375
+        ],
+        [
+          169.2537384033203,
+          547.2177734375
+        ],
+        [
+          169.2537384033203,
+          568.5966796875
+        ],
+        [
+          55.81756591796875,
+          568.5966796875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.635986328125,
+          629.85546875
+        ],
+        [
+          303.8916015625,
+          629.85546875
+        ],
+        [
+          303.8916015625,
+          650.412109375
+        ],
+        [
+          55.635986328125,
+          650.412109375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.8538818359375,
+          377.21435546875
+        ],
+        [
+          220.51025390625,
+          377.21435546875
+        ],
+        [
+          220.51025390625,
+          399.00439453125
+        ],
+        [
+          55.8538818359375,
+          399.00439453125
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Unerlaubte Einsicht in ausgedruckte Dokumente",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          474.8583984375
+        ],
+        [
+          428.818359375,
+          474.8583984375
+        ],
+        [
+          428.818359375,
+          494.05548095703125
+        ],
+        [
+          55.635986328125,
+          494.05548095703125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Sichtbarkeit von Metadaten",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          127.451171875
+        ],
+        [
+          282.9736328125,
+          127.451171875
+        ],
+        [
+          282.9736328125,
+          146.36328125
+        ],
+        [
+          55.7086181640625,
+          146.36328125
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Ungen\u00fcgender Schutz gespeicherter Informationen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          460.46875
+        ],
+        [
+          449.736328125,
+          460.46875
+        ],
+        [
+          449.736328125,
+          479.380859375
+        ],
+        [
+          55.635986328125,
+          479.380859375
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unverschl\u00fcsselte Kommunikation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.8538818359375,
+          640.544921875
+        ],
+        [
+          329.4580078125,
+          640.544921875
+        ],
+        [
+          329.4580078125,
+          660.279296875
+        ],
+        [
+          55.8538818359375,
+          660.279296875
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Unberechtigter Versand von Informationen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          56.427978515625
+        ],
+        [
+          396.8603515625,
+          56.427978515625
+        ],
+        [
+          396.8603515625,
+          76.26513671875
+        ],
+        [
+          55.635986328125,
+          76.26513671875
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Unkontrollierter Datenaustausch \u00fcber Speicherschnittstellen \nbei Druckern, Kopierern und Multifunktionsger\u00e4ten",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          238.25146484375
+        ],
+        [
+          518.30078125,
+          238.25146484375
+        ],
+        [
+          518.30078125,
+          276.07568359375
+        ],
+        [
+          55.78125,
+          276.07568359375
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Ungen\u00fcgend abgesicherte Netzzug\u00e4nge von Druckern, \nKopierern und Multifunktionsger\u00e4ten",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          483.9033203125
+        ],
+        [
+          471.52587890625,
+          483.9033203125
+        ],
+        [
+          471.52587890625,
+          522.5498046875
+        ],
+        [
+          55.78125,
+          522.5498046875
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Mangelhafter Zugriffsschutz zur Ger\u00e4teadministration",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          678.369140625
+        ],
+        [
+          469.4921875,
+          678.369140625
+        ],
+        [
+          469.4921875,
+          698.103515625
+        ],
+        [
+          55.635986328125,
+          698.103515625
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          343.70703125
+        ],
+        [
+          209.034423828125,
+          343.70703125
+        ],
+        [
+          209.034423828125,
+          365.0859375
+        ],
+        [
+          55.635986328125,
+          365.0859375
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          593.67578125
+        ],
+        [
+          237.6513671875,
+          593.67578125
+        ],
+        [
+          237.6513671875,
+          612.587890625
+        ],
+        [
+          55.8538818359375,
+          612.587890625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A1 Planung des Einsatzes von Druckern, Kopierern und \nMultifunktionsger\u00e4ten (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          644.65625
+        ],
+        [
+          444.06378173828125,
+          644.65625
+        ],
+        [
+          444.06378173828125,
+          677.546875
+        ],
+        [
+          56.07177734375,
+          677.546875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A2 Geeignete Aufstellung und Zugriff auf Drucker, Kopierer und \nMultifunktionsger\u00e4te (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.345458984375,
+          247.9130859375
+        ],
+        [
+          499.1259765625,
+          247.9130859375
+        ],
+        [
+          499.1259765625,
+          280.54498291015625
+        ],
+        [
+          55.345458984375,
+          280.54498291015625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A3 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          404.34912109375
+        ],
+        [
+          219.34814453125,
+          404.34912109375
+        ],
+        [
+          219.34814453125,
+          420.9390563964844
+        ],
+        [
+          55.926513671875,
+          420.9390563964844
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A12 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.9991455078125,
+          448.134765625
+        ],
+        [
+          228.64501953125,
+          448.134765625
+        ],
+        [
+          228.64501953125,
+          462.9390563964844
+        ],
+        [
+          55.9991455078125,
+          462.9390563964844
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A13 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.1444091796875,
+          489.248046875
+        ],
+        [
+          227.7734375,
+          489.248046875
+        ],
+        [
+          227.7734375,
+          504.9390563964844
+        ],
+        [
+          56.1444091796875,
+          504.9390563964844
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A22 Ordnungsgem\u00e4\u00dfe Entsorgung ausgedruckter Dokumente (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          532.005859375
+        ],
+        [
+          504.35546875,
+          532.005859375
+        ],
+        [
+          504.35546875,
+          547.62890625
+        ],
+        [
+          55.635986328125,
+          547.62890625
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          631.9111328125
+        ],
+        [
+          266.849365234375,
+          631.9111328125
+        ],
+        [
+          266.849365234375,
+          650.0009765625
+        ],
+        [
+          55.635986328125,
+          650.0009765625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A4 Erstellung einer Sicherheitsrichtlinie f\u00fcr den Einsatz von Druckern, \nKopierern und Multifunktionsger\u00e4ten (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          696.0478515625
+        ],
+        [
+          538.92822265625,
+          696.0478515625
+        ],
+        [
+          538.92822265625,
+          728.1449279785156
+        ],
+        [
+          55.49072265625,
+          728.1449279785156
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A5 Erstellung von Nutzungsrichtlinien f\u00fcr den Umgang mit Druckern, \nKopierern und Multifunktionsger\u00e4ten (S) [Informationssicherheitsbeauftragte \n(ISB)]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.07177734375,
+          88.907470703125
+        ],
+        [
+          538.92822265625,
+          88.907470703125
+        ],
+        [
+          538.92822265625,
+          139.07080078125
+        ],
+        [
+          56.07177734375,
+          139.07080078125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A6 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.3623046875,
+          191.485107421875
+        ],
+        [
+          219.92919921875,
+          191.485107421875
+        ],
+        [
+          219.92919921875,
+          208.958251953125
+        ],
+        [
+          56.3623046875,
+          208.958251953125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A7 Beschr\u00e4nkung der administrativen Fernzugriffe auf Drucker, \nKopierer und Multifunktionsger\u00e4te (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.217041015625,
+          233.31787109375
+        ],
+        [
+          498.01544189453125,
+          233.31787109375
+        ],
+        [
+          498.01544189453125,
+          266.61962890625
+        ],
+        [
+          56.217041015625,
+          266.61962890625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A8 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.1444091796875,
+          377.21435546875
+        ],
+        [
+          219.92919921875,
+          377.21435546875
+        ],
+        [
+          219.92919921875,
+          394.07080078125
+        ],
+        [
+          56.1444091796875,
+          394.07080078125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A9 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.07177734375,
+          418.73876953125
+        ],
+        [
+          219.493408203125,
+          418.73876953125
+        ],
+        [
+          219.493408203125,
+          435.45904541015625
+        ],
+        [
+          56.07177734375,
+          435.45904541015625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A10 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.2896728515625,
+          461.7021484375
+        ],
+        [
+          226.611328125,
+          461.7021484375
+        ],
+        [
+          226.611328125,
+          478.1474609375
+        ],
+        [
+          56.2896728515625,
+          478.1474609375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A11 Einschr\u00e4nkung der Anbindung von Druckern, Kopierern und \nMultifunktionsger\u00e4ten (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.217041015625,
+          503.6376953125
+        ],
+        [
+          507.841796875,
+          503.6376953125
+        ],
+        [
+          507.841796875,
+          536.2649230957031
+        ],
+        [
+          56.217041015625,
+          536.2649230957031
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A15 Verschl\u00fcsselung von Informationen bei Druckern, Kopierern und \nMultifunktionsger\u00e4ten (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.07177734375,
+          627.7998046875
+        ],
+        [
+          533.9892578125,
+          627.7998046875
+        ],
+        [
+          533.9892578125,
+          661.0649261474609
+        ],
+        [
+          56.07177734375,
+          661.0649261474609
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A17 Schutz von Nutz- und Metadaten (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          713.3154296875
+        ],
+        [
+          350.95703125,
+          713.3154296875
+        ],
+        [
+          350.95703125,
+          730.5830078125
+        ],
+        [
+          55.78125,
+          730.5830078125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A18 Konfiguration von Druckern, Kopierern und \nMultifunktionsger\u00e4ten (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          135.365478515625
+        ],
+        [
+          404.90350341796875,
+          135.365478515625
+        ],
+        [
+          404.90350341796875,
+          168.256103515625
+        ],
+        [
+          55.78125,
+          168.256103515625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A19 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.3623046875,
+          305.4716796875
+        ],
+        [
+          227.047119140625,
+          305.4716796875
+        ],
+        [
+          227.047119140625,
+          321.9169921875
+        ],
+        [
+          56.3623046875,
+          321.9169921875
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.635986328125,
+          352.95751953125
+        ],
+        [
+          391.630859375,
+          352.95751953125
+        ],
+        [
+          391.630859375,
+          372.28076171875
+        ],
+        [
+          55.635986328125,
+          372.28076171875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A14 Authentisierung und Autorisierung bei Druckern, Kopierern und \nMultifunktionsger\u00e4ten (H)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.217041015625,
+          443.6123046875
+        ],
+        [
+          529.921875,
+          443.6123046875
+        ],
+        [
+          529.921875,
+          476.5029296875
+        ],
+        [
+          56.217041015625,
+          476.5029296875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A16 Verringerung von Ausfallzeiten bei Druckern, Kopierern und \nMultifunktionsger\u00e4ten (H)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.217041015625,
+          568.185546875
+        ],
+        [
+          506.0986328125,
+          568.185546875
+        ],
+        [
+          506.0986328125,
+          601.076171875
+        ],
+        [
+          56.217041015625,
+          601.076171875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A20 Erweiterter Schutz von Informationen bei Druckern, Kopierern \nund Multifunktionsger\u00e4ten (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.635986328125,
+          55.811279296875
+        ],
+        [
+          521.787109375,
+          55.811279296875
+        ],
+        [
+          521.787109375,
+          89.977294921875
+        ],
+        [
+          55.635986328125,
+          89.977294921875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.4.1.A21 Erweiterte Absicherung von Druckern, Kopierern und \nMultifunktionsger\u00e4ten (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.3623046875,
+          233.1123046875
+        ],
+        [
+          462.2822265625,
+          233.1123046875
+        ],
+        [
+          462.2822265625,
+          266.26495361328125
+        ],
+        [
+          56.3623046875,
+          266.26495361328125
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.926513671875,
+          382.97021484375
+        ],
+        [
+          335.849609375,
+          382.97021484375
+        ],
+        [
+          335.849609375,
+          405.17138671875
+        ],
+        [
+          55.926513671875,
+          405.17138671875
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.1444091796875,
+          417.09423828125
+        ],
+        [
+          189.71435546875,
+          417.09423828125
+        ],
+        [
+          189.71435546875,
+          435.80078125
+        ],
+        [
+          56.1444091796875,
+          435.80078125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          72
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          120
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          82
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/SYS.4.1 Drucker, Kopierer und Multifunktionsger\u00e4te.pdf.clean"
+}

@@ -1,0 +1,1127 @@
+{
+  "table_of_contents": [
+    {
+      "title": "APP.3.2 Webserver",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          54.8370361328125,
+          201.24951171875
+        ],
+        [
+          315.22216796875,
+          201.24951171875
+        ],
+        [
+          315.22216796875,
+          239.07373046875
+        ],
+        [
+          54.8370361328125,
+          239.07373046875
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.89019775390625,
+          274.63671875
+        ],
+        [
+          195.089111328125,
+          274.63671875
+        ],
+        [
+          195.089111328125,
+          298.0712890625
+        ],
+        [
+          55.89019775390625,
+          298.0712890625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          309.171875
+        ],
+        [
+          161.82373046875,
+          309.171875
+        ],
+        [
+          161.82373046875,
+          328.4951171875
+        ],
+        [
+          55.8538818359375,
+          328.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          464.580078125
+        ],
+        [
+          169.2537384033203,
+          464.580078125
+        ],
+        [
+          169.2537384033203,
+          483.4921875
+        ],
+        [
+          55.96282958984375,
+          483.4921875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.9991455078125,
+          534.47265625
+        ],
+        [
+          303.02001953125,
+          534.47265625
+        ],
+        [
+          303.02001953125,
+          553.384765625
+        ],
+        [
+          55.9991455078125,
+          553.384765625
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2728271484375,
+          173.29248046875
+        ],
+        [
+          221.3818359375,
+          173.29248046875
+        ],
+        [
+          221.3818359375,
+          195.2880859375
+        ],
+        [
+          55.2728271484375,
+          195.2880859375
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Reputationsverlust",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.5633544921875,
+          258.6025390625
+        ],
+        [
+          222.5439453125,
+          258.6025390625
+        ],
+        [
+          222.5439453125,
+          277.92578125
+        ],
+        [
+          55.5633544921875,
+          277.92578125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Manipulation des Webservers",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.5633544921875,
+          407.4326171875
+        ],
+        [
+          296.337890625,
+          407.4326171875
+        ],
+        [
+          296.337890625,
+          425.93359375
+        ],
+        [
+          55.5633544921875,
+          425.93359375
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Denial of Service (DoS)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.4180908203125,
+          489.6591796875
+        ],
+        [
+          245.205078125,
+          489.6591796875
+        ],
+        [
+          245.205078125,
+          508.5712890625
+        ],
+        [
+          55.4180908203125,
+          508.5712890625
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Verlust vertraulicher Daten",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          618.34375
+        ],
+        [
+          281.375732421875,
+          618.34375
+        ],
+        [
+          281.375732421875,
+          638.078125
+        ],
+        [
+          55.635986328125,
+          638.078125
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Versto\u00df gegen Gesetze oder Regelungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          56.4793701171875
+        ],
+        [
+          367.8076171875,
+          56.4793701171875
+        ],
+        [
+          367.8076171875,
+          76.4193115234375
+        ],
+        [
+          55.49072265625,
+          76.4193115234375
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Fehlende oder mangelhafte Fehlerbehebung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          139.682373046875
+        ],
+        [
+          398.603515625,
+          139.682373046875
+        ],
+        [
+          398.603515625,
+          158.594482421875
+        ],
+        [
+          55.49072265625,
+          158.594482421875
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.5633544921875,
+          236.4013671875
+        ],
+        [
+          209.1796875,
+          236.4013671875
+        ],
+        [
+          209.1796875,
+          256.9580078125
+        ],
+        [
+          55.5633544921875,
+          256.9580078125
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          485.5478515625
+        ],
+        [
+          239.249267578125,
+          485.5478515625
+        ],
+        [
+          239.249267578125,
+          504.4955139160156
+        ],
+        [
+          55.926513671875,
+          504.4955139160156
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A1 Sichere Konfiguration eines Webservers (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          537.3505859375
+        ],
+        [
+          391.630859375,
+          537.3505859375
+        ],
+        [
+          391.630859375,
+          552.9736328125
+        ],
+        [
+          55.345458984375,
+          552.9736328125
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A2 Schutz der Webserver-Dateien (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          663.9794921875
+        ],
+        [
+          332.65380859375,
+          663.9794921875
+        ],
+        [
+          332.65380859375,
+          680.4248046875
+        ],
+        [
+          55.7086181640625,
+          680.4248046875
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A3 Absicherung von Datei-Uploads und -Downloads (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.345458984375,
+          129.5068359375
+        ],
+        [
+          446.8310546875,
+          129.5068359375
+        ],
+        [
+          446.8310546875,
+          145.9521484375
+        ],
+        [
+          55.345458984375,
+          145.9521484375
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A4 Protokollierung von Ereignissen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.345458984375,
+          197.13818359375
+        ],
+        [
+          345.146484375,
+          197.13818359375
+        ],
+        [
+          345.146484375,
+          213.45904541015625
+        ],
+        [
+          55.345458984375,
+          213.45904541015625
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A5 Authentisierung (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          330.75634765625
+        ],
+        [
+          246.9482421875,
+          330.75634765625
+        ],
+        [
+          246.9482421875,
+          347.259033203125
+        ],
+        [
+          55.49072265625,
+          347.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A6 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          386.25927734375
+        ],
+        [
+          223.41552734375,
+          386.25927734375
+        ],
+        [
+          223.41552734375,
+          402.45904541015625
+        ],
+        [
+          55.78125,
+          402.45904541015625
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A7 Rechtliche Rahmenbedingungen f\u00fcr Webangebote (B) \n[Fachverantwortliche, Zentrale Verwaltung, Compliance-Beauftragte]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          428.8115234375
+        ],
+        [
+          486.2696228027344,
+          428.8115234375
+        ],
+        [
+          486.2696228027344,
+          461.7021484375
+        ],
+        [
+          55.635986328125,
+          461.7021484375
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A11 Verschl\u00fcsselung \u00fcber TLS (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          514.73828125
+        ],
+        [
+          310.283203125,
+          514.73828125
+        ],
+        [
+          310.283203125,
+          530.361328125
+        ],
+        [
+          55.635986328125,
+          530.361328125
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          620.810546875
+        ],
+        [
+          266.123046875,
+          620.810546875
+        ],
+        [
+          266.123046875,
+          638.900390625
+        ],
+        [
+          55.78125,
+          638.900390625
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A8 Planung des Einsatzes eines Webservers (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.2001953125,
+          684.947265625
+        ],
+        [
+          389.01611328125,
+          684.947265625
+        ],
+        [
+          389.01611328125,
+          700.5703125
+        ],
+        [
+          55.2001953125,
+          700.5703125
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A9 Festlegung einer Sicherheitsrichtlinie f\u00fcr den Webserver (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.345458984375,
+          55.9654541015625
+        ],
+        [
+          492.1533203125,
+          55.9654541015625
+        ],
+        [
+          492.1533203125,
+          73.05908203125
+        ],
+        [
+          55.345458984375,
+          73.05908203125
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A10 Auswahl eines geeigneten Webhosters (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          138.140625
+        ],
+        [
+          386.4013671875,
+          138.140625
+        ],
+        [
+          386.4013671875,
+          154.79150390625
+        ],
+        [
+          55.926513671875,
+          154.79150390625
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A12 Geeigneter Umgang mit Fehlern und Fehlermeldungen (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.345458984375,
+          331.98974609375
+        ],
+        [
+          489.8291015625,
+          331.98974609375
+        ],
+        [
+          489.8291015625,
+          349.25732421875
+        ],
+        [
+          55.345458984375,
+          349.25732421875
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A13 Zugriffskontrolle f\u00fcr Webcrawler (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          466.224609375
+        ],
+        [
+          357.3486328125,
+          466.224609375
+        ],
+        [
+          357.3486328125,
+          483.4921875
+        ],
+        [
+          55.49072265625,
+          483.4921875
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A14 Integrit\u00e4tspr\u00fcfungen und Schutz vor Schadsoftware (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          534.8837890625
+        ],
+        [
+          471.2353515625,
+          534.8837890625
+        ],
+        [
+          471.2353515625,
+          551.3291015625
+        ],
+        [
+          55.49072265625,
+          551.3291015625
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A16 Penetrationstest und Revision (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          604.365234375
+        ],
+        [
+          336.4306640625,
+          604.365234375
+        ],
+        [
+          336.4306640625,
+          620.810546875
+        ],
+        [
+          55.635986328125,
+          620.810546875
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A20 Benennung von Anzusprechenden (S) [Zentrale Verwaltung]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          54.90966796875,
+          685.3583984375
+        ],
+        [
+          500.869140625,
+          685.3583984375
+        ],
+        [
+          500.869140625,
+          701.8037109375
+        ],
+        [
+          54.90966796875,
+          701.8037109375
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.217041015625,
+          108.1279296875
+        ],
+        [
+          391.630859375,
+          108.1279296875
+        ],
+        [
+          391.630859375,
+          127.24560546875
+        ],
+        [
+          56.217041015625,
+          127.24560546875
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A15 Redundanz (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          198.474365234375
+        ],
+        [
+          224.287109375,
+          198.474365234375
+        ],
+        [
+          224.287109375,
+          214.81689453125
+        ],
+        [
+          56.07177734375,
+          214.81689453125
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A17 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.9991455078125,
+          253.6689453125
+        ],
+        [
+          233.0029296875,
+          253.6689453125
+        ],
+        [
+          233.0029296875,
+          270.1142578125
+        ],
+        [
+          55.9991455078125,
+          270.1142578125
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A18 Schutz vor Denial-of-Service-Angriffen (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          295.81005859375
+        ],
+        [
+          396.8603515625,
+          295.81005859375
+        ],
+        [
+          396.8603515625,
+          312.25537109375
+        ],
+        [
+          55.635986328125,
+          312.25537109375
+        ]
+      ]
+    },
+    {
+      "title": "APP.3.2.A19 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          351.107421875
+        ],
+        [
+          233.148193359375,
+          351.107421875
+        ],
+        [
+          233.148193359375,
+          367.9638671875
+        ],
+        [
+          55.78125,
+          367.9638671875
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.054931640625,
+          399.41552734375
+        ],
+        [
+          335.849609375,
+          399.41552734375
+        ],
+        [
+          335.849609375,
+          420.38330078125
+        ],
+        [
+          55.054931640625,
+          420.38330078125
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.59967041015625,
+          433.333984375
+        ],
+        [
+          191.312255859375,
+          433.333984375
+        ],
+        [
+          191.312255859375,
+          450.8554992675781
+        ],
+        [
+          55.59967041015625,
+          450.8554992675781
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/APP.3.2 Webserver.pdf.clean"
+}

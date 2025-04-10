@@ -1,0 +1,854 @@
+{
+  "table_of_contents": [
+    {
+      "title": "OPS.1.2.6 NTP-\nZeitsynchronisation",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.5633544921875,
+          200.6328125
+        ],
+        [
+          342.2412109375,
+          200.6328125
+        ],
+        [
+          342.2412109375,
+          277.103515625
+        ],
+        [
+          55.5633544921875,
+          277.103515625
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.3623046875,
+          313.6943359375
+        ],
+        [
+          194.072265625,
+          313.6943359375
+        ],
+        [
+          194.072265625,
+          336.306640625
+        ],
+        [
+          56.3623046875,
+          336.306640625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.89019775390625,
+          347.20166015625
+        ],
+        [
+          160.225830078125,
+          347.20166015625
+        ],
+        [
+          160.225830078125,
+          368.16943359375
+        ],
+        [
+          55.89019775390625,
+          368.16943359375
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.1444091796875,
+          724.0048828125
+        ],
+        [
+          169.2537384033203,
+          724.0048828125
+        ],
+        [
+          169.2537384033203,
+          744.5615234375
+        ],
+        [
+          56.1444091796875,
+          744.5615234375
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.4180908203125,
+          56.3251953125
+        ],
+        [
+          305.92529296875,
+          56.3251953125
+        ],
+        [
+          305.92529296875,
+          76.573486328125
+        ],
+        [
+          55.4180908203125,
+          76.573486328125
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          310.4052734375
+        ],
+        [
+          219.783935546875,
+          310.4052734375
+        ],
+        [
+          219.783935546875,
+          331.373046875
+        ],
+        [
+          55.49072265625,
+          331.373046875
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Unzureichende Planung des Einsatzes von NTP",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          408.04931640625
+        ],
+        [
+          416.03515625,
+          408.04931640625
+        ],
+        [
+          416.03515625,
+          426.3447265625
+        ],
+        [
+          55.49072265625,
+          426.3447265625
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Keine oder fehlerhafte Zeitinformationen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.926513671875,
+          581.7529296875
+        ],
+        [
+          380.5908203125,
+          581.7529296875
+        ],
+        [
+          380.5908203125,
+          600.6650390625
+        ],
+        [
+          55.926513671875,
+          600.6650390625
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Widerspr\u00fcchliche Zeitinformationen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          56.016845703125
+        ],
+        [
+          349.2138671875,
+          56.016845703125
+        ],
+        [
+          349.2138671875,
+          76.67626953125
+        ],
+        [
+          55.345458984375,
+          76.67626953125
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Manipulation der NTP-Kommunikation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          184.906982421875
+        ],
+        [
+          370.712890625,
+          184.906982421875
+        ],
+        [
+          370.712890625,
+          204.024658203125
+        ],
+        [
+          55.635986328125,
+          204.024658203125
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          314.5166015625
+        ],
+        [
+          210.05126953125,
+          314.5166015625
+        ],
+        [
+          210.05126953125,
+          335.0732421875
+        ],
+        [
+          55.7086181640625,
+          335.0732421875
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          563.6630859375
+        ],
+        [
+          238.232421875,
+          563.6630859375
+        ],
+        [
+          238.232421875,
+          582.5751953125
+        ],
+        [
+          55.7086181640625,
+          582.5751953125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.6.A1 Planung des NTP- Einsatzes (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          614.6435546875
+        ],
+        [
+          326.552734375,
+          614.6435546875
+        ],
+        [
+          326.552734375,
+          631.0888671875
+        ],
+        [
+          55.78125,
+          631.0888671875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.6.A2 Sichere Nutzung fremder Zeitquellen (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          734.283203125
+        ],
+        [
+          385.52978515625,
+          734.283203125
+        ],
+        [
+          385.52978515625,
+          750.728515625
+        ],
+        [
+          55.78125,
+          750.728515625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.6.A3 Sichere Konfiguration von NTP-Servern (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          89.113037109375
+        ],
+        [
+          403.8330078125,
+          89.113037109375
+        ],
+        [
+          403.8330078125,
+          106.4833984375
+        ],
+        [
+          55.926513671875,
+          106.4833984375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.6.A4 Nichtber\u00fccksichtigung unaufgeforderter Zeitinformationen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.217041015625,
+          203.099609375
+        ],
+        [
+          525.2734375,
+          203.099609375
+        ],
+        [
+          525.2734375,
+          220.3671875
+        ],
+        [
+          56.217041015625,
+          220.3671875
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          264.76953125
+        ],
+        [
+          266.849365234375,
+          264.76953125
+        ],
+        [
+          266.849365234375,
+          283.2705078125
+        ],
+        [
+          55.926513671875,
+          283.2705078125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.6.A5 Nutzung des Client-Server-Modus f\u00fcr NTP (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          327.87841796875
+        ],
+        [
+          416.6162109375,
+          327.87841796875
+        ],
+        [
+          416.6162109375,
+          344.32373046875
+        ],
+        [
+          55.926513671875,
+          344.32373046875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.6.A6 \u00dcberwachung von IT-Systemen mit NTP-Nutzung (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.2001953125,
+          395.9208984375
+        ],
+        [
+          463.1005859375,
+          395.9208984375
+        ],
+        [
+          463.1005859375,
+          412.6590270996094
+        ],
+        [
+          55.2001953125,
+          412.6590270996094
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.6.A7 Sichere Konfiguration von NTP-Clients (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.2001953125,
+          609.298828125
+        ],
+        [
+          396.279296875,
+          609.298828125
+        ],
+        [
+          396.279296875,
+          625.744140625
+        ],
+        [
+          55.2001953125,
+          625.744140625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.6.A8 Einsatz sicherer Protokolle zur Zeitsynchronisation (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          56.4793701171875
+        ],
+        [
+          471.2353515625,
+          56.4793701171875
+        ],
+        [
+          471.2353515625,
+          73.05908203125
+        ],
+        [
+          55.49072265625,
+          73.05908203125
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          130.740234375
+        ],
+        [
+          391.92138671875,
+          130.740234375
+        ],
+        [
+          391.92138671875,
+          149.655517578125
+        ],
+        [
+          55.78125,
+          149.655517578125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.6.A9 Verf\u00fcgbarkeit ausreichend vieler genauer Zeitquellen (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          221.189453125
+        ],
+        [
+          485.1806640625,
+          221.189453125
+        ],
+        [
+          485.1806640625,
+          237.634765625
+        ],
+        [
+          55.78125,
+          237.634765625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.6.A10 Ausschlie\u00dflich interne NTP-Server (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          303.62158203125
+        ],
+        [
+          378.55712890625,
+          303.62158203125
+        ],
+        [
+          378.55712890625,
+          319.24462890625
+        ],
+        [
+          55.78125,
+          319.24462890625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.6.A11 Redundante NTP-Server (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.5633544921875,
+          358.30224609375
+        ],
+        [
+          315.22216796875,
+          358.30224609375
+        ],
+        [
+          315.22216796875,
+          374.33642578125
+        ],
+        [
+          55.5633544921875,
+          374.33642578125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.6.A12 NTP-Server mit authentifizierten Ausk\u00fcnften (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          414.0107421875
+        ],
+        [
+          445.6689453125,
+          414.0107421875
+        ],
+        [
+          445.6689453125,
+          429.6337890625
+        ],
+        [
+          55.635986328125,
+          429.6337890625
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.5633544921875,
+          488.0146484375
+        ],
+        [
+          336.4306640625,
+          488.0146484375
+        ],
+        [
+          336.4306640625,
+          508.5167236328125
+        ],
+        [
+          55.5633544921875,
+          508.5167236328125
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          522.5498046875
+        ],
+        [
+          189.278564453125,
+          522.5498046875
+        ],
+        [
+          189.278564453125,
+          539.6554870605469
+        ],
+        [
+          55.635986328125,
+          539.6554870605469
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          72
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          117
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          71
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/OPS.1.2.6 NTP-Zeitsynchronisation.pdf.clean"
+}

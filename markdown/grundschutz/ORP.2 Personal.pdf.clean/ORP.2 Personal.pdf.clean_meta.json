@@ -1,0 +1,907 @@
+{
+  "table_of_contents": [
+    {
+      "title": "ORP.2 Personal",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          200.6328125
+        ],
+        [
+          270.916748046875,
+          200.6328125
+        ],
+        [
+          270.916748046875,
+          239.279296875
+        ],
+        [
+          55.926513671875,
+          239.279296875
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          274.63671875
+        ],
+        [
+          194.6533203125,
+          274.63671875
+        ],
+        [
+          194.6533203125,
+          298.0712890625
+        ],
+        [
+          55.926513671875,
+          298.0712890625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.1444091796875,
+          308.96630859375
+        ],
+        [
+          161.24267578125,
+          308.96630859375
+        ],
+        [
+          161.24267578125,
+          328.70068359375
+        ],
+        [
+          56.1444091796875,
+          328.70068359375
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.9991455078125,
+          431.2783203125
+        ],
+        [
+          169.23780822753906,
+          431.2783203125
+        ],
+        [
+          169.23780822753906,
+          451.8349609375
+        ],
+        [
+          55.9991455078125,
+          451.8349609375
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          527.4833984375
+        ],
+        [
+          303.60107421875,
+          527.4833984375
+        ],
+        [
+          303.60107421875,
+          547.2177734375
+        ],
+        [
+          55.8538818359375,
+          547.2177734375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.635986328125,
+          695.63671875
+        ],
+        [
+          221.3818359375,
+          695.63671875
+        ],
+        [
+          221.3818359375,
+          718.66015625
+        ],
+        [
+          55.635986328125,
+          718.66015625
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Personalausfall",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.74493408203125,
+          56.016845703125
+        ],
+        [
+          196.9775390625,
+          56.016845703125
+        ],
+        [
+          196.9775390625,
+          75.956787109375
+        ],
+        [
+          55.74493408203125,
+          75.956787109375
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Unzureichende Kenntnis \u00fcber Regelungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2001953125,
+          127.24560546875
+        ],
+        [
+          385.2392578125,
+          127.24560546875
+        ],
+        [
+          385.2392578125,
+          145.541015625
+        ],
+        [
+          55.2001953125,
+          145.541015625
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Sorglosigkeit im Umgang mit Informationen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          235.16796875
+        ],
+        [
+          401.79931640625,
+          235.16796875
+        ],
+        [
+          401.79931640625,
+          254.90234375
+        ],
+        [
+          55.49072265625,
+          254.90234375
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unzureichende Qualifikationen der Mitarbeitenden",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          330.9619140625
+        ],
+        [
+          451.4794921875,
+          330.9619140625
+        ],
+        [
+          451.4794921875,
+          350.28515625
+        ],
+        [
+          55.49072265625,
+          350.28515625
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.926513671875,
+          508.16015625
+        ],
+        [
+          208.743896484375,
+          508.16015625
+        ],
+        [
+          208.743896484375,
+          528.716796875
+        ],
+        [
+          55.926513671875,
+          528.716796875
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          56.633544921875
+        ],
+        [
+          237.36083984375,
+          56.633544921875
+        ],
+        [
+          237.36083984375,
+          76.470703125
+        ],
+        [
+          55.7086181640625,
+          76.470703125
+        ]
+      ]
+    },
+    {
+      "title": "ORP.2.A1 Geregelte Einarbeitung neuer Mitarbeitender (B) [Vorgesetzte]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          106.89453125
+        ],
+        [
+          497.3828125,
+          106.89453125
+        ],
+        [
+          497.3828125,
+          124.36767578125
+        ],
+        [
+          55.635986328125,
+          124.36767578125
+        ]
+      ]
+    },
+    {
+      "title": "ORP.2.A2 Geregelte Verfahrensweise beim Weggang von Mitarbeitenden (B) \n[Vorgesetzte, IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          201.557861328125
+        ],
+        [
+          522.65869140625,
+          201.557861328125
+        ],
+        [
+          522.65869140625,
+          235.16796875
+        ],
+        [
+          55.78125,
+          235.16796875
+        ]
+      ]
+    },
+    {
+      "title": "ORP.2.A3 Festlegung von Vertretungsregelungen (B) [Vorgesetzte]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          476.9140625
+        ],
+        [
+          459.033203125,
+          476.9140625
+        ],
+        [
+          459.033203125,
+          494.181640625
+        ],
+        [
+          55.926513671875,
+          494.181640625
+        ]
+      ]
+    },
+    {
+      "title": "ORP.2.A4 Festlegung von Regelungen f\u00fcr den Einsatz von Fremdpersonal (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          624.5107421875
+        ],
+        [
+          524.40185546875,
+          624.5107421875
+        ],
+        [
+          524.40185546875,
+          641.7783203125
+        ],
+        [
+          55.78125,
+          641.7783203125
+        ]
+      ]
+    },
+    {
+      "title": "ORP.2.A5 Vertraulichkeitsvereinbarungen f\u00fcr den Einsatz von Fremdpersonal \n(B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          55.400146484375
+        ],
+        [
+          536.8316040039062,
+          55.400146484375
+        ],
+        [
+          536.8316040039062,
+          89.977294921875
+        ],
+        [
+          55.49072265625,
+          89.977294921875
+        ]
+      ]
+    },
+    {
+      "title": "ORP.2.A14 Aufgaben und Zust\u00e4ndigkeiten von Mitarbeitenden (B) \n[Vorgesetzte]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          155.099853515625
+        ],
+        [
+          461.9384765625,
+          155.099853515625
+        ],
+        [
+          461.9384765625,
+          189.223876953125
+        ],
+        [
+          56.07177734375,
+          189.223876953125
+        ]
+      ]
+    },
+    {
+      "title": "ORP.2.A15 Qualifikation des Personals (B) [Vorgesetzte]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          292.3154296875
+        ],
+        [
+          394.5361328125,
+          292.3154296875
+        ],
+        [
+          394.5361328125,
+          310.4052734375
+        ],
+        [
+          55.635986328125,
+          310.4052734375
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          439.08984375
+        ],
+        [
+          265.5419921875,
+          439.08984375
+        ],
+        [
+          265.5419921875,
+          458.82421875
+        ],
+        [
+          55.78125,
+          458.82421875
+        ]
+      ]
+    },
+    {
+      "title": "ORP.2.A6 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.1444091796875,
+          502.8154296875
+        ],
+        [
+          213.828125,
+          502.8154296875
+        ],
+        [
+          213.828125,
+          520.0830078125
+        ],
+        [
+          56.1444091796875,
+          520.0830078125
+        ]
+      ]
+    },
+    {
+      "title": "ORP.2.A7 \u00dcberpr\u00fcfung der Vertrauensw\u00fcrdigkeit von Mitarbeitenden (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.345458984375,
+          544.7509765625
+        ],
+        [
+          505.517578125,
+          544.7509765625
+        ],
+        [
+          505.517578125,
+          562.0185546875
+        ],
+        [
+          55.345458984375,
+          562.0185546875
+        ]
+      ]
+    },
+    {
+      "title": "ORP.2.A8 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.9991455078125,
+          639.72265625
+        ],
+        [
+          213.53759765625,
+          639.72265625
+        ],
+        [
+          213.53759765625,
+          656.2590484619141
+        ],
+        [
+          55.9991455078125,
+          656.2590484619141
+        ]
+      ]
+    },
+    {
+      "title": "ORP.2.A9 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.1444091796875,
+          680.8359375
+        ],
+        [
+          214.11865234375,
+          680.8359375
+        ],
+        [
+          214.11865234375,
+          698.2590484619141
+        ],
+        [
+          56.1444091796875,
+          698.2590484619141
+        ]
+      ]
+    },
+    {
+      "title": "ORP.2.A10 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          723.1826171875
+        ],
+        [
+          221.67236328125,
+          723.1826171875
+        ],
+        [
+          221.67236328125,
+          740.4501953125
+        ],
+        [
+          55.635986328125,
+          740.4501953125
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          55.811279296875
+        ],
+        [
+          392.79296875,
+          55.811279296875
+        ],
+        [
+          392.79296875,
+          76.573486328125
+        ],
+        [
+          55.78125,
+          76.573486328125
+        ]
+      ]
+    },
+    {
+      "title": "ORP.2.A11 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.507568359375,
+          146.97998046875
+        ],
+        [
+          226.0302734375,
+          146.97998046875
+        ],
+        [
+          226.0302734375,
+          163.42529296875
+        ],
+        [
+          56.507568359375,
+          163.42529296875
+        ]
+      ]
+    },
+    {
+      "title": "ORP.2.A12 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.2896728515625,
+          188.812744140625
+        ],
+        [
+          226.90185546875,
+          188.812744140625
+        ],
+        [
+          226.90185546875,
+          205.258056640625
+        ],
+        [
+          56.2896728515625,
+          205.258056640625
+        ]
+      ]
+    },
+    {
+      "title": "ORP.2.A13 Sicherheits\u00fcberpr\u00fcfung (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          230.85107421875
+        ],
+        [
+          296.337890625,
+          230.85107421875
+        ],
+        [
+          296.337890625,
+          247.70751953125
+        ],
+        [
+          55.78125,
+          247.70751953125
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.4180908203125,
+          363.44140625
+        ],
+        [
+          336.4306640625,
+          363.44140625
+        ],
+        [
+          336.4306640625,
+          386.0537109375
+        ],
+        [
+          55.4180908203125,
+          386.0537109375
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          397.5654296875
+        ],
+        [
+          191.1669921875,
+          397.5654296875
+        ],
+        [
+          191.1669921875,
+          416.05548095703125
+        ],
+        [
+          55.8538818359375,
+          416.05548095703125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          66
+        ],
+        [
+          "Line",
+          26
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/ORP.2 Personal.pdf.clean"
+}

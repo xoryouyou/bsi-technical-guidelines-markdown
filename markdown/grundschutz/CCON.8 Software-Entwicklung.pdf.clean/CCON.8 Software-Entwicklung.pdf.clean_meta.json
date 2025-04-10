@@ -1,0 +1,1379 @@
+{
+  "table_of_contents": [
+    {
+      "title": "CON.8 Software-Entwicklung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.3623046875,
+          200.83837890625
+        ],
+        [
+          475.01220703125,
+          200.83837890625
+        ],
+        [
+          475.01220703125,
+          239.89599609375
+        ],
+        [
+          56.3623046875,
+          239.89599609375
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          274.02001953125
+        ],
+        [
+          194.6533203125,
+          274.02001953125
+        ],
+        [
+          194.6533203125,
+          298.27685546875
+        ],
+        [
+          55.8538818359375,
+          298.27685546875
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.89019775390625,
+          308.7607421875
+        ],
+        [
+          160.9521484375,
+          308.7607421875
+        ],
+        [
+          160.9521484375,
+          328.90625
+        ],
+        [
+          55.89019775390625,
+          328.90625
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          615.0546875
+        ],
+        [
+          169.23780822753906,
+          615.0546875
+        ],
+        [
+          169.23780822753906,
+          634.7890625
+        ],
+        [
+          55.926513671875,
+          634.7890625
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          711.259765625
+        ],
+        [
+          303.310546875,
+          711.259765625
+        ],
+        [
+          303.310546875,
+          731.81640625
+        ],
+        [
+          55.926513671875,
+          731.81640625
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.8538818359375,
+          383.998046875
+        ],
+        [
+          220.80078125,
+          383.998046875
+        ],
+        [
+          220.80078125,
+          404.9658203125
+        ],
+        [
+          55.8538818359375,
+          404.9658203125
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Auswahl eines ungeeigneten Vorgehensmodells",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.78125,
+          481.025390625
+        ],
+        [
+          421.55517578125,
+          481.025390625
+        ],
+        [
+          421.55517578125,
+          500.759765625
+        ],
+        [
+          55.78125,
+          500.759765625
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Auswahl einer ungeeigneten Entwicklungsumgebung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          689.4697265625
+        ],
+        [
+          463.1005859375,
+          689.4697265625
+        ],
+        [
+          463.1005859375,
+          708.3818359375
+        ],
+        [
+          55.635986328125,
+          708.3818359375
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Fehlende oder unzureichende Qualit\u00e4tssicherung des \nEntwicklungsprozesses",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.054931640625,
+          121.181396484375
+        ],
+        [
+          462.51953125,
+          121.181396484375
+        ],
+        [
+          462.51953125,
+          160.033447265625
+        ],
+        [
+          55.054931640625,
+          160.033447265625
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Fehlende oder unzureichende Dokumentation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          295.81005859375
+        ],
+        [
+          411.9677734375,
+          295.81005859375
+        ],
+        [
+          411.9677734375,
+          314.05548095703125
+        ],
+        [
+          55.345458984375,
+          314.05548095703125
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Unzureichend gesicherter Einsatz von \nEntwicklungsumgebungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.2001953125,
+          437.4453125
+        ],
+        [
+          354.3004150390625,
+          437.4453125
+        ],
+        [
+          354.3004150390625,
+          475.26953125
+        ],
+        [
+          55.2001953125,
+          475.26953125
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Software-Konzeptionsfehler",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.345458984375,
+          55.9654541015625
+        ],
+        [
+          289.510498046875,
+          55.9654541015625
+        ],
+        [
+          289.510498046875,
+          76.4193115234375
+        ],
+        [
+          55.345458984375,
+          76.4193115234375
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Fehlendes oder unzureichendes Test- und Freigabeverfahren",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          321.9169921875
+        ],
+        [
+          513.0712890625,
+          321.9169921875
+        ],
+        [
+          513.0712890625,
+          342.4736328125
+        ],
+        [
+          55.49072265625,
+          342.4736328125
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Software-Tests mit Produktivdaten",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.4180908203125,
+          490.4814453125
+        ],
+        [
+          337.01171875,
+          490.4814453125
+        ],
+        [
+          337.01171875,
+          510.2158203125
+        ],
+        [
+          55.4180908203125,
+          510.2158203125
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.4180908203125,
+          56.7877197265625
+        ],
+        [
+          211.21337890625,
+          56.7877197265625
+        ],
+        [
+          211.21337890625,
+          79.7083740234375
+        ],
+        [
+          55.4180908203125,
+          79.7083740234375
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.9991455078125,
+          306.2939453125
+        ],
+        [
+          238.232421875,
+          306.2939453125
+        ],
+        [
+          238.232421875,
+          326.439453125
+        ],
+        [
+          55.9991455078125,
+          326.439453125
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A2 Auswahl eines Vorgehensmodells (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.1444091796875,
+          357.89111328125
+        ],
+        [
+          345.7275390625,
+          357.89111328125
+        ],
+        [
+          345.7275390625,
+          375.15869140625
+        ],
+        [
+          56.1444091796875,
+          375.15869140625
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A3 Auswahl einer Entwicklungsumgebung (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          490.4814453125
+        ],
+        [
+          381.171875,
+          490.4814453125
+        ],
+        [
+          381.171875,
+          507.7490234375
+        ],
+        [
+          55.635986328125,
+          507.7490234375
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A4 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.217041015625,
+          559.962890625
+        ],
+        [
+          217.314453125,
+          559.962890625
+        ],
+        [
+          217.314453125,
+          576.408203125
+        ],
+        [
+          56.217041015625,
+          576.408203125
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A5 Sicheres Systemdesign (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          601.8984375
+        ],
+        [
+          278.90625,
+          601.8984375
+        ],
+        [
+          278.90625,
+          618.34375
+        ],
+        [
+          56.07177734375,
+          618.34375
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A6 Verwendung von externen Bibliotheken aus vertrauensw\u00fcrdigen \nQuellen (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          300.74365234375
+        ],
+        [
+          521.787109375,
+          300.74365234375
+        ],
+        [
+          521.787109375,
+          333.3449401855469
+        ],
+        [
+          56.07177734375,
+          333.3449401855469
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A7 Durchf\u00fchrung von entwicklungsbegleitenden Software-Tests (B) \n[Testende, Entwickelnde]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          386.0537109375
+        ],
+        [
+          518.30078125,
+          386.0537109375
+        ],
+        [
+          518.30078125,
+          418.544921875
+        ],
+        [
+          55.926513671875,
+          418.544921875
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A8 Bereitstellung von Patches, Updates und \u00c4nderungen (B) \n[Entwickelnde]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          607.2431640625
+        ],
+        [
+          468.330078125,
+          607.2431640625
+        ],
+        [
+          468.330078125,
+          640.544921875
+        ],
+        [
+          56.07177734375,
+          640.544921875
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A9 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          737.9833984375
+        ],
+        [
+          217.459716796875,
+          737.9833984375
+        ],
+        [
+          217.459716796875,
+          754.5390472412109
+        ],
+        [
+          56.07177734375,
+          754.5390472412109
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A10 Versionsverwaltung des Quellcodes (B) [Entwickelnde]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          55.5543212890625
+        ],
+        [
+          460.7763671875,
+          55.5543212890625
+        ],
+        [
+          460.7763671875,
+          73.1302490234375
+        ],
+        [
+          55.635986328125,
+          73.1302490234375
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A20 \u00dcberpr\u00fcfung von externen Komponenten (B)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          183.57080078125
+        ],
+        [
+          405.576171875,
+          183.57080078125
+        ],
+        [
+          405.576171875,
+          200.6328125
+        ],
+        [
+          55.635986328125,
+          200.6328125
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.8538818359375,
+          336.7177734375
+        ],
+        [
+          266.99462890625,
+          336.7177734375
+        ],
+        [
+          266.99462890625,
+          356.041015625
+        ],
+        [
+          55.8538818359375,
+          356.041015625
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A1 Definition von Rollen und Zust\u00e4ndigkeiten (S) [Zentrale Verwaltung]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.926513671875,
+          399.82666015625
+        ],
+        [
+          540.9619140625,
+          399.82666015625
+        ],
+        [
+          540.9619140625,
+          416.68310546875
+        ],
+        [
+          55.926513671875,
+          416.68310546875
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A11 Erstellung einer Richtlinie f\u00fcr die Software-Entwicklung (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.054931640625,
+          613.41015625
+        ],
+        [
+          492.734375,
+          613.41015625
+        ],
+        [
+          492.734375,
+          629.85546875
+        ],
+        [
+          55.054931640625,
+          629.85546875
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A12 Ausf\u00fchrliche Dokumentation (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          707.970703125
+        ],
+        [
+          328.2958984375,
+          707.970703125
+        ],
+        [
+          328.2958984375,
+          725.23828125
+        ],
+        [
+          55.635986328125,
+          725.23828125
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A13 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.9991455078125,
+          134.4404296875
+        ],
+        [
+          223.41552734375,
+          134.4404296875
+        ],
+        [
+          223.41552734375,
+          152.5302734375
+        ],
+        [
+          55.9991455078125,
+          152.5302734375
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A14 Schulung des Entwicklungsteams zur Informationssicherheit (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.07177734375,
+          176.889892578125
+        ],
+        [
+          521.49658203125,
+          176.889892578125
+        ],
+        [
+          521.49658203125,
+          194.157470703125
+        ],
+        [
+          56.07177734375,
+          194.157470703125
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A15 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.926513671875,
+          422.64453125
+        ],
+        [
+          221.817626953125,
+          422.64453125
+        ],
+        [
+          221.817626953125,
+          439.5390625
+        ],
+        [
+          55.926513671875,
+          439.5390625
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A16 Geeignete Steuerung der Software-Entwicklung (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.054931640625,
+          465.40234375
+        ],
+        [
+          439.27734375,
+          465.40234375
+        ],
+        [
+          439.27734375,
+          481.84765625
+        ],
+        [
+          55.054931640625,
+          481.84765625
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A21 Bedrohungsmodellierung (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.7086181640625,
+          586.275390625
+        ],
+        [
+          303.02001953125,
+          586.275390625
+        ],
+        [
+          303.02001953125,
+          603.54296875
+        ],
+        [
+          55.7086181640625,
+          603.54296875
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A22 Sicherer Software-Entwurf (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.635986328125,
+          680.8359375
+        ],
+        [
+          311.4453125,
+          680.8359375
+        ],
+        [
+          311.4453125,
+          697.5390472412109
+        ],
+        [
+          55.635986328125,
+          697.5390472412109
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.635986328125,
+          55.70849609375
+        ],
+        [
+          392.2119140625,
+          55.70849609375
+        ],
+        [
+          392.2119140625,
+          76.470703125
+        ],
+        [
+          55.635986328125,
+          76.470703125
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A17 Auswahl vertrauensw\u00fcrdiger Entwicklungswerkzeuge (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.07177734375,
+          147.493896484375
+        ],
+        [
+          481.98486328125,
+          147.493896484375
+        ],
+        [
+          481.98486328125,
+          163.939208984375
+        ],
+        [
+          56.07177734375,
+          163.939208984375
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A18 Regelm\u00e4\u00dfige Sicherheitsaudits f\u00fcr die Entwicklungsumgebung (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.217041015625,
+          215.0224609375
+        ],
+        [
+          536.3134765625,
+          215.0224609375
+        ],
+        [
+          536.3134765625,
+          231.87890625
+        ],
+        [
+          56.217041015625,
+          231.87890625
+        ]
+      ]
+    },
+    {
+      "title": "CON.8.A19 Regelm\u00e4\u00dfige Integrit\u00e4tspr\u00fcfung der Entwicklungsumgebung (H) \n[IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          270.1142578125
+        ],
+        [
+          524.6912841796875,
+          270.1142578125
+        ],
+        [
+          524.6912841796875,
+          303.8271484375
+        ],
+        [
+          55.78125,
+          303.8271484375
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          388.109375
+        ],
+        [
+          335.55908203125,
+          388.109375
+        ],
+        [
+          335.55908203125,
+          409.48828125
+        ],
+        [
+          55.78125,
+          409.48828125
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.9991455078125,
+          421.822265625
+        ],
+        [
+          190.87646484375,
+          421.822265625
+        ],
+        [
+          190.87646484375,
+          440.05548095703125
+        ],
+        [
+          55.9991455078125,
+          440.05548095703125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          75
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          128
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          121
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          117
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          11
+        ],
+        [
+          "Line",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/CCON.8 Software-Entwicklung.pdf.clean"
+}

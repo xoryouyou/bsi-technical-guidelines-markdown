@@ -1,0 +1,1171 @@
+{
+  "table_of_contents": [
+    {
+      "title": "IND.3.2 Fernwartung im \nindustriellen Umfeld",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.3623046875,
+          201.24951171875
+        ],
+        [
+          400.97406005859375,
+          201.24951171875
+        ],
+        [
+          400.97406005859375,
+          277.30908203125
+        ],
+        [
+          56.3623046875,
+          277.30908203125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.63999938964844,
+          313.89990234375
+        ],
+        [
+          194.217529296875,
+          313.89990234375
+        ],
+        [
+          194.217529296875,
+          336.51220703125
+        ],
+        [
+          56.63999938964844,
+          336.51220703125
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.2896728515625,
+          347.4072265625
+        ],
+        [
+          160.66162109375,
+          347.4072265625
+        ],
+        [
+          160.66162109375,
+          367.9638671875
+        ],
+        [
+          56.2896728515625,
+          367.9638671875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.926513671875,
+          57.0960693359375
+        ],
+        [
+          169.37744140625,
+          57.0960693359375
+        ],
+        [
+          169.37744140625,
+          77.4471435546875
+        ],
+        [
+          55.926513671875,
+          77.4471435546875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          127.24560546875
+        ],
+        [
+          304.47265625,
+          127.24560546875
+        ],
+        [
+          304.47265625,
+          145.74658203125
+        ],
+        [
+          55.635986328125,
+          145.74658203125
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.5633544921875,
+          721.5380859375
+        ],
+        [
+          223.125,
+          721.5380859375
+        ],
+        [
+          223.125,
+          743.7392578125
+        ],
+        [
+          55.5633544921875,
+          743.7392578125
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Unvollst\u00e4ndig dokumentierte Fernwartungszug\u00e4nge in der OT",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          94.663330078125
+        ],
+        [
+          526.435546875,
+          94.663330078125
+        ],
+        [
+          526.435546875,
+          114.294921875
+        ],
+        [
+          55.635986328125,
+          114.294921875
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Unzureichende Verf\u00fcgbarkeit durch Abh\u00e4ngigkeiten von der \nB\u00fcro- und Geb\u00e4ude-IT",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          374.74755859375
+        ],
+        [
+          515.9765625,
+          374.74755859375
+        ],
+        [
+          515.9765625,
+          412.98291015625
+        ],
+        [
+          55.49072265625,
+          412.98291015625
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Unzureichende Regelungen f\u00fcr die Nutzung von OT-\nFernwartungszug\u00e4ngen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          661.1015625
+        ],
+        [
+          457.87109375,
+          661.1015625
+        ],
+        [
+          457.87109375,
+          698.92578125
+        ],
+        [
+          55.635986328125,
+          698.92578125
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unzureichende menschliche Kontrolle \u00fcber OT-\nFernwartungssitzungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.345458984375,
+          264.97509765625
+        ],
+        [
+          424.7509765625,
+          264.97509765625
+        ],
+        [
+          424.7509765625,
+          304.03271484375
+        ],
+        [
+          55.345458984375,
+          304.03271484375
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Direkte IP-basierte Zugriffsm\u00f6glichkeiten auf ICS aus \nunsicheren Zonen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          644.2451171875
+        ],
+        [
+          463.6934814453125,
+          644.2451171875
+        ],
+        [
+          463.6934814453125,
+          682.0693359375
+        ],
+        [
+          55.635986328125,
+          682.0693359375
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Unsichere alternative OT-Fernwartungszug\u00e4nge f\u00fcr St\u00f6rungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          166.817138671875
+        ],
+        [
+          529.05029296875,
+          166.817138671875
+        ],
+        [
+          529.05029296875,
+          186.140380859375
+        ],
+        [
+          55.78125,
+          186.140380859375
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Unsichere Konzeption von OT-Fernwartungszug\u00e4ngen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          334.86767578125
+        ],
+        [
+          472.3974609375,
+          334.86767578125
+        ],
+        [
+          472.3974609375,
+          354.60205078125
+        ],
+        [
+          55.49072265625,
+          354.60205078125
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Veraltete technische Konzeption von OT-\nFernwartungszug\u00e4ngen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          522.9609375
+        ],
+        [
+          378.2666015625,
+          522.9609375
+        ],
+        [
+          378.2666015625,
+          561.607421875
+        ],
+        [
+          55.78125,
+          561.607421875
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          57.4044189453125
+        ],
+        [
+          210.9228515625,
+          57.4044189453125
+        ],
+        [
+          210.9228515625,
+          79.6055908203125
+        ],
+        [
+          55.635986328125,
+          79.6055908203125
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          320.47802734375
+        ],
+        [
+          237.506103515625,
+          320.47802734375
+        ],
+        [
+          237.506103515625,
+          340.21240234375
+        ],
+        [
+          55.635986328125,
+          340.21240234375
+        ]
+      ]
+    },
+    {
+      "title": "IND.3.2.A1 Planung des Einsatzes der Fernwartung in der OT (B) [Planende]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          54.764404296875,
+          371.04736328125
+        ],
+        [
+          514.2333984375,
+          371.04736328125
+        ],
+        [
+          514.2333984375,
+          387.49267578125
+        ],
+        [
+          54.764404296875,
+          387.49267578125
+        ]
+      ]
+    },
+    {
+      "title": "IND.3.2.A2 Konsistente Dokumentation der Fernwartung durch OT sowie \nB\u00fcro- und Geb\u00e4ude-IT (B) [IT-Betrieb, Wartungspersonal]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.07177734375,
+          55.194580078125
+        ],
+        [
+          511.03759765625,
+          55.194580078125
+        ],
+        [
+          511.03759765625,
+          90.44921875
+        ],
+        [
+          56.07177734375,
+          90.44921875
+        ]
+      ]
+    },
+    {
+      "title": "IND.3.2.A3 Regelm\u00e4\u00dfige Pr\u00fcfungen sowie Ausnahmegenehmigungen \nbestehender OT-Fernwartungszug\u00e4nge (B) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.926513671875,
+          161.677978515625
+        ],
+        [
+          484.0185546875,
+          161.677978515625
+        ],
+        [
+          484.0185546875,
+          194.568603515625
+        ],
+        [
+          55.926513671875,
+          194.568603515625
+        ]
+      ]
+    },
+    {
+      "title": "IND.3.2.A4 Verbindliche Regelung der OT-Fernwartung durch Dritte (B)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          265.1806640625
+        ],
+        [
+          497.3828125,
+          265.1806640625
+        ],
+        [
+          497.3828125,
+          282.4482421875
+        ],
+        [
+          55.49072265625,
+          282.4482421875
+        ]
+      ]
+    },
+    {
+      "title": "IND.3.2.A5 Interne Abstimmung f\u00fcr die OT-Fernwartung mit der B\u00fcro- und \nGeb\u00e4ude-IT (B) [Planende]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          511.44921875
+        ],
+        [
+          522.65869140625,
+          511.44921875
+        ],
+        [
+          522.65869140625,
+          543.4649047851562
+        ],
+        [
+          55.78125,
+          543.4649047851562
+        ]
+      ]
+    },
+    {
+      "title": "IND.3.2.A6 Absicherung jedes Fernwartungszugriffs auf die OT (B) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.345458984375,
+          682.48046875
+        ],
+        [
+          535.1513671875,
+          682.48046875
+        ],
+        [
+          535.1513671875,
+          698.92578125
+        ],
+        [
+          55.345458984375,
+          698.92578125
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.8538818359375,
+          109.15576171875
+        ],
+        [
+          266.99462890625,
+          109.15576171875
+        ],
+        [
+          266.99462890625,
+          127.8623046875
+        ],
+        [
+          55.8538818359375,
+          127.8623046875
+        ]
+      ]
+    },
+    {
+      "title": "IND.3.2.A7 Technische Entkopplung von Zugriffen (S) [Planende]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.49072265625,
+          171.853515625
+        ],
+        [
+          453.8037109375,
+          171.853515625
+        ],
+        [
+          453.8037109375,
+          189.12109375
+        ],
+        [
+          55.49072265625,
+          189.12109375
+        ]
+      ]
+    },
+    {
+      "title": "IND.3.2.A8 Explizite Freigabe jeder OT-Fernwartungssitzung (S) \n[Mitarbeitende]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.345458984375,
+          358.30224609375
+        ],
+        [
+          447.9931640625,
+          358.30224609375
+        ],
+        [
+          447.9931640625,
+          392.01513671875
+        ],
+        [
+          55.345458984375,
+          392.01513671875
+        ]
+      ]
+    },
+    {
+      "title": "IND.3.2.A9 Sicherer Austausch von Dateien begleitend zur OT-Fernwartung (S) \n[Planende, IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.926513671875,
+          542.2841796875
+        ],
+        [
+          538.1109619140625,
+          542.2841796875
+        ],
+        [
+          538.1109619140625,
+          575.1748046875
+        ],
+        [
+          55.926513671875,
+          575.1748046875
+        ]
+      ]
+    },
+    {
+      "title": "IND.3.2.A10 Beobachtung und Kontrolle von OT-Fernwartungssitzungen (S) \n[Mitarbeitende]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          672.61328125
+        ],
+        [
+          523.1021728515625,
+          672.61328125
+        ],
+        [
+          523.1021728515625,
+          705.50390625
+        ],
+        [
+          55.78125,
+          705.50390625
+        ]
+      ]
+    },
+    {
+      "title": "IND.3.2.A11 Zentrale Verwaltung aller Konten f\u00fcr die OT-Fernwartung (S) [IT-\nBetrieb]",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          114.91162109375
+        ],
+        [
+          533.69873046875,
+          114.91162109375
+        ],
+        [
+          533.69873046875,
+          148.66497802734375
+        ],
+        [
+          55.78125,
+          148.66497802734375
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.345458984375,
+          193.335205078125
+        ],
+        [
+          391.630859375,
+          193.335205078125
+        ],
+        [
+          391.630859375,
+          212.14453125
+        ],
+        [
+          55.345458984375,
+          212.14453125
+        ]
+      ]
+    },
+    {
+      "title": "IND.3.2.A12 Dedizierte Fernwartungsl\u00f6sung in der OT (H) [Planende]",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          283.681640625
+        ],
+        [
+          475.302734375,
+          283.681640625
+        ],
+        [
+          475.302734375,
+          300.5380859375
+        ],
+        [
+          55.78125,
+          300.5380859375
+        ]
+      ]
+    },
+    {
+      "title": "IND.3.2.A13 Protokollierung der Inhalte von Fernwartungszugriffen in der OT \n(H) [Planende, Datenschutzbeauftragte]",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.217041015625,
+          397.5654296875
+        ],
+        [
+          537.13818359375,
+          397.5654296875
+        ],
+        [
+          537.13818359375,
+          430.8671875
+        ],
+        [
+          56.217041015625,
+          430.8671875
+        ]
+      ]
+    },
+    {
+      "title": "IND.3.2.A14 Technische Kontrolle von Fernwartungssitzungen (H) [Planende, \nDatenschutzbeauftragte]",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.07177734375,
+          495.826171875
+        ],
+        [
+          530.19921875,
+          495.826171875
+        ],
+        [
+          530.19921875,
+          529.5390625
+        ],
+        [
+          56.07177734375,
+          529.5390625
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.7086181640625,
+          659.45703125
+        ],
+        [
+          335.55908203125,
+          659.45703125
+        ],
+        [
+          335.55908203125,
+          680.8359375
+        ],
+        [
+          55.7086181640625,
+          680.8359375
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.2896728515625,
+          693.5810546875
+        ],
+        [
+          191.1669921875,
+          693.5810546875
+        ],
+        [
+          191.1669921875,
+          711.6708984375
+        ],
+        [
+          56.2896728515625,
+          711.6708984375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          69
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          150
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          11
+        ],
+        [
+          "Line",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/IND.3.2 Fernwartung im industriellen Umfeld.pdf.clean"
+}

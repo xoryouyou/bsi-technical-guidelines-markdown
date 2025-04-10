@@ -1,0 +1,1185 @@
+{
+  "table_of_contents": [
+    {
+      "title": "APP.5.2 Microsoft Exchange und \nOutlook",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.054931640625,
+          200.2216796875
+        ],
+        [
+          513.3636474609375,
+          200.2216796875
+        ],
+        [
+          513.3636474609375,
+          277.103515625
+        ],
+        [
+          55.054931640625,
+          277.103515625
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.3623046875,
+          313.48876953125
+        ],
+        [
+          195.234375,
+          313.48876953125
+        ],
+        [
+          195.234375,
+          336.51220703125
+        ],
+        [
+          56.3623046875,
+          336.51220703125
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.03546142578125,
+          347.61279296875
+        ],
+        [
+          160.9521484375,
+          347.61279296875
+        ],
+        [
+          160.9521484375,
+          367.75830078125
+        ],
+        [
+          56.03546142578125,
+          367.75830078125
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.89019775390625,
+          587.919921875
+        ],
+        [
+          169.2537384033203,
+          587.919921875
+        ],
+        [
+          169.2537384033203,
+          607.654296875
+        ],
+        [
+          55.89019775390625,
+          607.654296875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.07177734375,
+          657.4013671875
+        ],
+        [
+          304.8515319824219,
+          657.4013671875
+        ],
+        [
+          304.8515319824219,
+          677.1357421875
+        ],
+        [
+          56.07177734375,
+          677.1357421875
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.5633544921875,
+          95.0230712890625
+        ],
+        [
+          221.67236328125,
+          95.0230712890625
+        ],
+        [
+          221.67236328125,
+          117.686767578125
+        ],
+        [
+          55.5633544921875,
+          117.686767578125
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Fehlende oder unzureichende Regelungen f\u00fcr Exchange und \nOutlook",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          192.8212890625
+        ],
+        [
+          511.0865478515625,
+          192.8212890625
+        ],
+        [
+          511.0865478515625,
+          231.4677734375
+        ],
+        [
+          55.49072265625,
+          231.4677734375
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Fehlerhafte Migration von Exchange",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          347.61279296875
+        ],
+        [
+          343.984375,
+          347.61279296875
+        ],
+        [
+          343.984375,
+          368.16943359375
+        ],
+        [
+          55.49072265625,
+          368.16943359375
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Unzul\u00e4ssiger Browserzugriff auf Exchange",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          542.6953125
+        ],
+        [
+          384.0771484375,
+          542.6953125
+        ],
+        [
+          384.0771484375,
+          561.607421875
+        ],
+        [
+          55.635986328125,
+          561.607421875
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unerlaubte Anbindung anderer Systeme an Exchange",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.78125,
+          710.8486328125
+        ],
+        [
+          461.357421875,
+          710.8486328125
+        ],
+        [
+          461.357421875,
+          730.5830078125
+        ],
+        [
+          55.78125,
+          730.5830078125
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Fehlerhafte Administration von Zugangs- und Zugriffsrechten \nunter Exchange und Outlook",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          219.1337890625
+        ],
+        [
+          525.8544921875,
+          219.1337890625
+        ],
+        [
+          525.8544921875,
+          257.7802734375
+        ],
+        [
+          55.926513671875,
+          257.7802734375
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Fehlerhafte Konfiguration von Exchange",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          334.45654296875
+        ],
+        [
+          373.6181640625,
+          334.45654296875
+        ],
+        [
+          373.6181640625,
+          353.77978515625
+        ],
+        [
+          55.49072265625,
+          353.77978515625
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Fehlerhafte Konfiguration von Outlook",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          469.1025390625
+        ],
+        [
+          365.4833984375,
+          469.1025390625
+        ],
+        [
+          365.4833984375,
+          488.8369140625
+        ],
+        [
+          55.635986328125,
+          488.8369140625
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Fehlfunktionen und Missbrauch selbst entwickelter Makros \nsowie Programmierschnittstellen unter Outlook",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.07177734375,
+          605.1875
+        ],
+        [
+          508.13232421875,
+          605.1875
+        ],
+        [
+          508.13232421875,
+          643.01171875
+        ],
+        [
+          56.07177734375,
+          643.01171875
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.8538818359375,
+          96.0509033203125
+        ],
+        [
+          210.63232421875,
+          96.0509033203125
+        ],
+        [
+          210.63232421875,
+          117.686767578125
+        ],
+        [
+          55.8538818359375,
+          117.686767578125
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.1444091796875,
+          345.14599609375
+        ],
+        [
+          239.10400390625,
+          345.14599609375
+        ],
+        [
+          239.10400390625,
+          364.46923828125
+        ],
+        [
+          56.1444091796875,
+          364.46923828125
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A1 Planung des Einsatzes von Exchange und Outlook (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          396.53759765625
+        ],
+        [
+          450.8984375,
+          396.53759765625
+        ],
+        [
+          450.8984375,
+          412.98291015625
+        ],
+        [
+          55.635986328125,
+          412.98291015625
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A2 Auswahl einer geeigneten Exchange-Infrastruktur (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          530.361328125
+        ],
+        [
+          454.9658203125,
+          530.361328125
+        ],
+        [
+          454.9658203125,
+          546.806640625
+        ],
+        [
+          55.635986328125,
+          546.806640625
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A3 Berechtigungsmanagement und Zugriffsrechte (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          612.1767578125
+        ],
+        [
+          433.75732421875,
+          612.1767578125
+        ],
+        [
+          433.75732421875,
+          628.6220703125
+        ],
+        [
+          55.78125,
+          628.6220703125
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A4 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          726.4716796875
+        ],
+        [
+          225.15869140625,
+          726.4716796875
+        ],
+        [
+          225.15869140625,
+          742.9169921875
+        ],
+        [
+          56.07177734375,
+          742.9169921875
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A5 Datensicherung von Exchange (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.5633544921875,
+          56.5821533203125
+        ],
+        [
+          333.525390625,
+          56.5821533203125
+        ],
+        [
+          333.525390625,
+          73.4385986328125
+        ],
+        [
+          55.5633544921875,
+          73.4385986328125
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.5633544921875,
+          151.399658203125
+        ],
+        [
+          266.99462890625,
+          151.399658203125
+        ],
+        [
+          266.99462890625,
+          169.283935546875
+        ],
+        [
+          55.5633544921875,
+          169.283935546875
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A6 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          214.40576171875
+        ],
+        [
+          223.270263671875,
+          214.40576171875
+        ],
+        [
+          223.270263671875,
+          230.43994140625
+        ],
+        [
+          56.07177734375,
+          230.43994140625
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A7 Migration von Exchange-Systemen (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.345458984375,
+          256.9580078125
+        ],
+        [
+          360.25390625,
+          256.9580078125
+        ],
+        [
+          360.25390625,
+          272.5810546875
+        ],
+        [
+          55.345458984375,
+          272.5810546875
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A8 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          351.107421875
+        ],
+        [
+          223.41552734375,
+          351.107421875
+        ],
+        [
+          223.41552734375,
+          367.1416015625
+        ],
+        [
+          55.8538818359375,
+          367.1416015625
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A9 Sichere Konfiguration von Exchange-Servern (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.2001953125,
+          393.865234375
+        ],
+        [
+          424.7509765625,
+          393.865234375
+        ],
+        [
+          424.7509765625,
+          409.8994140625
+        ],
+        [
+          55.2001953125,
+          409.8994140625
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A10 Sichere Konfiguration von Outlook (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          506.9267578125
+        ],
+        [
+          366.35498046875,
+          506.9267578125
+        ],
+        [
+          366.35498046875,
+          524.1943359375
+        ],
+        [
+          55.49072265625,
+          524.1943359375
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A11 Absicherung der Kommunikation zwischen Exchange-Systemen \n(S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          634.3779296875
+        ],
+        [
+          529.921875,
+          634.3779296875
+        ],
+        [
+          529.921875,
+          667.0649261474609
+        ],
+        [
+          55.78125,
+          667.0649261474609
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A12 Einsatz von Outlook Anywhere, MAPI over HTTP und Outlook im \nWeb (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          96.102294921875
+        ],
+        [
+          538.6376953125,
+          96.102294921875
+        ],
+        [
+          538.6376953125,
+          129.4649658203125
+        ],
+        [
+          56.07177734375,
+          129.4649658203125
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A13 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          181.720703125
+        ],
+        [
+          229.952392578125,
+          181.720703125
+        ],
+        [
+          229.952392578125,
+          198.37158203125
+        ],
+        [
+          55.926513671875,
+          198.37158203125
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A14 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.5633544921875,
+          223.86181640625
+        ],
+        [
+          228.935546875,
+          223.86181640625
+        ],
+        [
+          228.935546875,
+          239.85906982421875
+        ],
+        [
+          55.5633544921875,
+          239.85906982421875
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A15 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.4180908203125,
+          266.61962890625
+        ],
+        [
+          230.38818359375,
+          266.61962890625
+        ],
+        [
+          230.38818359375,
+          282.24267578125
+        ],
+        [
+          55.4180908203125,
+          282.24267578125
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A16 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          308.55517578125
+        ],
+        [
+          229.80712890625,
+          308.55517578125
+        ],
+        [
+          229.80712890625,
+          323.85906982421875
+        ],
+        [
+          55.49072265625,
+          323.85906982421875
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A19 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          350.6962890625
+        ],
+        [
+          229.5166015625,
+          350.6962890625
+        ],
+        [
+          229.5166015625,
+          365.908203125
+        ],
+        [
+          55.49072265625,
+          365.908203125
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.054931640625,
+          397.77099609375
+        ],
+        [
+          391.630859375,
+          397.77099609375
+        ],
+        [
+          391.630859375,
+          416.05548095703125
+        ],
+        [
+          55.054931640625,
+          416.05548095703125
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A17 Verschl\u00fcsselung von Exchange-Datenbankdateien (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          487.603515625
+        ],
+        [
+          464.2626953125,
+          487.603515625
+        ],
+        [
+          464.2626953125,
+          504.048828125
+        ],
+        [
+          55.635986328125,
+          504.048828125
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.2.A18 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          675.080078125
+        ],
+        [
+          233.0029296875,
+          675.080078125
+        ],
+        [
+          233.0029296875,
+          690.703125
+        ],
+        [
+          56.07177734375,
+          690.703125
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.2001953125,
+          56.8905029296875
+        ],
+        [
+          337.01171875,
+          56.8905029296875
+        ],
+        [
+          337.01171875,
+          79.4000244140625
+        ],
+        [
+          55.2001953125,
+          79.4000244140625
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.67230224609375,
+          91.271484375
+        ],
+        [
+          192.04302978515625,
+          91.271484375
+        ],
+        [
+          192.04302978515625,
+          108.9754638671875
+        ],
+        [
+          55.67230224609375,
+          108.9754638671875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          71
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          88
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          21
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/APP.5.2 Microsoft Exchange und Outlook.pdf.clean"
+}

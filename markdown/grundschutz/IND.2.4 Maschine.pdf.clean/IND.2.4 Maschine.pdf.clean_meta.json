@@ -1,0 +1,492 @@
+{
+  "table_of_contents": [
+    {
+      "title": "IND.2.4 Maschine",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.054931640625,
+          201.0439453125
+        ],
+        [
+          304.47265625,
+          201.0439453125
+        ],
+        [
+          304.47265625,
+          240.5126953125
+        ],
+        [
+          55.054931640625,
+          240.5126953125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.2896728515625,
+          274.84228515625
+        ],
+        [
+          195.52490234375,
+          274.84228515625
+        ],
+        [
+          195.52490234375,
+          297.86572265625
+        ],
+        [
+          56.2896728515625,
+          297.86572265625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.1444091796875,
+          308.96630859375
+        ],
+        [
+          161.533203125,
+          308.96630859375
+        ],
+        [
+          161.533203125,
+          328.28955078125
+        ],
+        [
+          56.1444091796875,
+          328.28955078125
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.1444091796875,
+          523.3720703125
+        ],
+        [
+          169.2537384033203,
+          523.3720703125
+        ],
+        [
+          169.2537384033203,
+          542.2841796875
+        ],
+        [
+          56.1444091796875,
+          542.2841796875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.9991455078125,
+          606.4208984375
+        ],
+        [
+          303.310546875,
+          606.4208984375
+        ],
+        [
+          303.310546875,
+          625.3330078125
+        ],
+        [
+          55.9991455078125,
+          625.3330078125
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2728271484375,
+          57.1474609375
+        ],
+        [
+          222.5439453125,
+          57.1474609375
+        ],
+        [
+          222.5439453125,
+          78.9375
+        ],
+        [
+          55.2728271484375,
+          78.9375
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Ausfall oder St\u00f6rung durch ungen\u00fcgende Wartung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          142.86865234375
+        ],
+        [
+          442.763671875,
+          142.86865234375
+        ],
+        [
+          442.763671875,
+          162.19189453125
+        ],
+        [
+          55.345458984375,
+          162.19189453125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Gezielte Manipulationen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          225.50634765625
+        ],
+        [
+          262.0556640625,
+          225.50634765625
+        ],
+        [
+          262.0556640625,
+          244.41845703125
+        ],
+        [
+          55.7086181640625,
+          244.41845703125
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.926513671875,
+          322.328125
+        ],
+        [
+          208.30810546875,
+          322.328125
+        ],
+        [
+          208.30810546875,
+          342.884765625
+        ],
+        [
+          55.926513671875,
+          342.884765625
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.8538818359375,
+          571.474609375
+        ],
+        [
+          237.94189453125,
+          571.474609375
+        ],
+        [
+          237.94189453125,
+          590.38671875
+        ],
+        [
+          55.8538818359375,
+          590.38671875
+        ]
+      ]
+    },
+    {
+      "title": "IND.2.4.A1 Fernwartung durch Maschinen- und Anlagenbauende (B) [OT-\nBetrieb (Operational Technology, OT)]",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.926513671875,
+          621.6328125
+        ],
+        [
+          505.517578125,
+          621.6328125
+        ],
+        [
+          505.517578125,
+          654.7049255371094
+        ],
+        [
+          55.926513671875,
+          654.7049255371094
+        ]
+      ]
+    },
+    {
+      "title": "IND.2.4.A2 Betrieb nach Ende der Gew\u00e4hrleistung (B) [OT-Betrieb (Operational \nTechnology, OT)]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.217041015625,
+          56.016845703125
+        ],
+        [
+          537.882080078125,
+          56.016845703125
+        ],
+        [
+          537.882080078125,
+          89.977294921875
+        ],
+        [
+          56.217041015625,
+          89.977294921875
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          149.03564453125
+        ],
+        [
+          266.123046875,
+          149.03564453125
+        ],
+        [
+          266.123046875,
+          167.3310546875
+        ],
+        [
+          55.49072265625,
+          167.3310546875
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.07177734375,
+          204.846923828125
+        ],
+        [
+          393.3740234375,
+          204.846923828125
+        ],
+        [
+          393.3740234375,
+          223.03955078125
+        ],
+        [
+          56.07177734375,
+          223.03955078125
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.5633544921875,
+          261.8916015625
+        ],
+        [
+          335.849609375,
+          261.8916015625
+        ],
+        [
+          335.849609375,
+          282.4482421875
+        ],
+        [
+          55.5633544921875,
+          282.4482421875
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.10809326171875,
+          296.015625
+        ],
+        [
+          192.183837890625,
+          296.015625
+        ],
+        [
+          192.183837890625,
+          312.8720703125
+        ],
+        [
+          56.10809326171875,
+          312.8720703125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          44
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/IND.2.4 Maschine.pdf.clean"
+}

@@ -1,0 +1,1467 @@
+{
+  "table_of_contents": [
+    {
+      "title": "OPS.1.1.7 Systemmanagement",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.3623046875,
+          202.27734375
+        ],
+        [
+          484.0185546875,
+          202.27734375
+        ],
+        [
+          484.0185546875,
+          240.5126953125
+        ],
+        [
+          56.3623046875,
+          240.5126953125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          274.63671875
+        ],
+        [
+          195.089111328125,
+          274.63671875
+        ],
+        [
+          195.089111328125,
+          298.0712890625
+        ],
+        [
+          55.926513671875,
+          298.0712890625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.03546142578125,
+          309.171875
+        ],
+        [
+          161.533203125,
+          309.171875
+        ],
+        [
+          161.533203125,
+          328.4951171875
+        ],
+        [
+          56.03546142578125,
+          328.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.81756591796875,
+          562.4296875
+        ],
+        [
+          169.2537384033203,
+          562.4296875
+        ],
+        [
+          169.2537384033203,
+          582.1640625
+        ],
+        [
+          55.81756591796875,
+          582.1640625
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          659.0458984375
+        ],
+        [
+          303.310546875,
+          659.0458984375
+        ],
+        [
+          303.310546875,
+          677.9580078125
+        ],
+        [
+          55.926513671875,
+          677.9580078125
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          340.0068359375
+        ],
+        [
+          220.2197265625,
+          340.0068359375
+        ],
+        [
+          220.2197265625,
+          360.5634765625
+        ],
+        [
+          55.7086181640625,
+          360.5634765625
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Unberechtigter Zugriff auf die Systemmanagement-L\u00f6sung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          439.5009765625
+        ],
+        [
+          503.7744140625,
+          439.5009765625
+        ],
+        [
+          503.7744140625,
+          456.7685546875
+        ],
+        [
+          55.345458984375,
+          456.7685546875
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Fehler in Automatisierungsfunktionen f\u00fcr das \nSystemmanagement",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.78125,
+          620.810546875
+        ],
+        [
+          412.3612976074219,
+          620.810546875
+        ],
+        [
+          412.3612976074219,
+          656.5353851318359
+        ],
+        [
+          55.78125,
+          656.5353851318359
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Unberechtigte Eingriffe in die Systemmanagement-\nKommunikation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          55.6571044921875
+        ],
+        [
+          449.736328125,
+          55.6571044921875
+        ],
+        [
+          449.736328125,
+          94.45538330078125
+        ],
+        [
+          55.635986328125,
+          94.45538330078125
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unzureichende Zeitsynchronisation der Systemmanagement-\nKomponenten",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          205.56640625
+        ],
+        [
+          520.625,
+          205.56640625
+        ],
+        [
+          520.625,
+          242.05535888671875
+        ],
+        [
+          55.635986328125,
+          242.05535888671875
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Inkompatibilit\u00e4t zwischen den zu verwaltenden Systemen und \nder Systemmanagement-L\u00f6sung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          410.7216796875
+        ],
+        [
+          528.1787109375,
+          410.7216796875
+        ],
+        [
+          528.1787109375,
+          449.3681640625
+        ],
+        [
+          55.926513671875,
+          449.3681640625
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Verbindungsverlust zwischen Anwendenden und \nSystemmanagement-L\u00f6sung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          544.33984375
+        ],
+        [
+          434.4355773925781,
+          544.33984375
+        ],
+        [
+          434.4355773925781,
+          584.630859375
+        ],
+        [
+          55.926513671875,
+          584.630859375
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Verbindungsverlust zwischen Systemmanagement-L\u00f6sung und \nzu verwaltenden Systemen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.345458984375,
+          56.1710205078125
+        ],
+        [
+          532.9550170898438,
+          56.1710205078125
+        ],
+        [
+          532.9550170898438,
+          94.45538330078125
+        ],
+        [
+          55.345458984375,
+          94.45538330078125
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Unzureichende Abstimmung zwischen Systemmanagement und \nNetzmanagement",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          191.485107421875
+        ],
+        [
+          539.21875,
+          191.485107421875
+        ],
+        [
+          539.21875,
+          229.20654296875
+        ],
+        [
+          55.635986328125,
+          229.20654296875
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.7086181640625,
+          320.2724609375
+        ],
+        [
+          209.7607421875,
+          320.2724609375
+        ],
+        [
+          209.7607421875,
+          341.240234375
+        ],
+        [
+          55.7086181640625,
+          341.240234375
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.7086181640625,
+          569.830078125
+        ],
+        [
+          238.232421875,
+          569.830078125
+        ],
+        [
+          238.232421875,
+          589.564453125
+        ],
+        [
+          55.7086181640625,
+          589.564453125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A1 Anforderungsspezifikation f\u00fcr das Systemmanagement (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          620.810546875
+        ],
+        [
+          496.220703125,
+          620.810546875
+        ],
+        [
+          496.220703125,
+          637.255859375
+        ],
+        [
+          56.07177734375,
+          637.255859375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A2 Planung des Systemmanagements (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          721.126953125
+        ],
+        [
+          364.90234375,
+          721.126953125
+        ],
+        [
+          364.90234375,
+          738.39453125
+        ],
+        [
+          55.926513671875,
+          738.39453125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A3 Zeitsynchronisation f\u00fcr das Systemmanagement (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          491.3037109375
+        ],
+        [
+          453.51318359375,
+          491.3037109375
+        ],
+        [
+          453.51318359375,
+          507.7490234375
+        ],
+        [
+          55.78125,
+          507.7490234375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A4 Absicherung der Systemmanagement-Kommunikation (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          559.5517578125
+        ],
+        [
+          495.05859375,
+          559.5517578125
+        ],
+        [
+          495.05859375,
+          576.0990600585938
+        ],
+        [
+          55.635986328125,
+          576.0990600585938
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A5 Gegenseitige Authentisierung von Systemmanagement-L\u00f6sung \nund zu verwaltenden Systemen (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          681.658203125
+        ],
+        [
+          527.0166015625,
+          681.658203125
+        ],
+        [
+          527.0166015625,
+          714.548828125
+        ],
+        [
+          55.635986328125,
+          714.548828125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A6 Absicherung des Zugriffs auf die Systemmanagement-L\u00f6sung (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          57.044677734375
+        ],
+        [
+          531.083984375,
+          57.044677734375
+        ],
+        [
+          531.083984375,
+          73.489990234375
+        ],
+        [
+          55.635986328125,
+          73.489990234375
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.5633544921875,
+          223.2451171875
+        ],
+        [
+          266.99462890625,
+          223.2451171875
+        ],
+        [
+          266.99462890625,
+          241.74609375
+        ],
+        [
+          55.5633544921875,
+          241.74609375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A7 Festlegung einer Sicherheitsrichtlinie f\u00fcr das \nSystemmanagement (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.2001953125,
+          273.60888671875
+        ],
+        [
+          414.00146484375,
+          273.60888671875
+        ],
+        [
+          414.00146484375,
+          305.864990234375
+        ],
+        [
+          55.2001953125,
+          305.864990234375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A8 Erstellung eines Systemmanagement-Konzepts (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          654.5234375
+        ],
+        [
+          445.087890625,
+          654.5234375
+        ],
+        [
+          445.087890625,
+          670.4190521240234
+        ],
+        [
+          55.635986328125,
+          670.4190521240234
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A9 Fein- und Umsetzungsplanung f\u00fcr das Systemmanagement (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.2001953125,
+          261.8916015625
+        ],
+        [
+          516.26708984375,
+          261.8916015625
+        ],
+        [
+          516.26708984375,
+          277.92578125
+        ],
+        [
+          55.2001953125,
+          277.92578125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A10 Konzept f\u00fcr den sicheren Betrieb der Systemmanagement-\nL\u00f6sung (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          329.728515625
+        ],
+        [
+          503.7744140625,
+          329.728515625
+        ],
+        [
+          503.7744140625,
+          362.74493408203125
+        ],
+        [
+          55.635986328125,
+          362.74493408203125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A11 Regelm\u00e4\u00dfiger Soll-Ist-Vergleich im Rahmen des \nSystemmanagements (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          447.3125
+        ],
+        [
+          439.8583984375,
+          447.3125
+        ],
+        [
+          439.8583984375,
+          480.3449401855469
+        ],
+        [
+          55.635986328125,
+          480.3449401855469
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A12 Ausl\u00f6sung von Aktionen durch die zentralen Komponenten der \nSystemmanagement-L\u00f6sung (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.926513671875,
+          638.4892578125
+        ],
+        [
+          535.1513671875,
+          638.4892578125
+        ],
+        [
+          535.1513671875,
+          670.5576171875
+        ],
+        [
+          55.926513671875,
+          670.5576171875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A13 Verpflichtung zur Nutzung der vorgesehenen Schnittstellen f\u00fcr \ndas Systemmanagement (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.07177734375,
+          55.1431884765625
+        ],
+        [
+          532.9848022460938,
+          55.1431884765625
+        ],
+        [
+          532.9848022460938,
+          89.977294921875
+        ],
+        [
+          56.07177734375,
+          89.977294921875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A14 Zentrale Konfigurationsverwaltung f\u00fcr zu verwaltende Systeme \n(S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.07177734375,
+          168.564453125
+        ],
+        [
+          537.4755859375,
+          168.564453125
+        ],
+        [
+          537.4755859375,
+          201.4649658203125
+        ],
+        [
+          56.07177734375,
+          201.4649658203125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A15 Status\u00fcberwachung, Protokollierung und Alarmierung bei \nrelevanten Ereignissen in der Systemmanagement-L\u00f6sung und den zu \nverwaltenden Systemen (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.926513671875,
+          384.4091796875
+        ],
+        [
+          504.9365234375,
+          384.4091796875
+        ],
+        [
+          504.9365234375,
+          434.2707824707031
+        ],
+        [
+          55.926513671875,
+          434.2707824707031
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A16 Einbindung des Systemmanagements in die Notfallplanung (S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.07177734375,
+          56.53076171875
+        ],
+        [
+          526.14501953125,
+          56.53076171875
+        ],
+        [
+          526.14501953125,
+          73.284423828125
+        ],
+        [
+          56.07177734375,
+          73.284423828125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A17 Kontrolle der Systemmanagement-Kommunikation (S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          125.703857421875
+        ],
+        [
+          482.8564453125,
+          125.703857421875
+        ],
+        [
+          482.8564453125,
+          142.149169921875
+        ],
+        [
+          55.78125,
+          142.149169921875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A18 \u00dcberpr\u00fcfung des Systemzustands (S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.926513671875,
+          193.6435546875
+        ],
+        [
+          367.8076171875,
+          193.6435546875
+        ],
+        [
+          367.8076171875,
+          210.70556640625
+        ],
+        [
+          55.926513671875,
+          210.70556640625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A19 Absicherung der Systemmanagement-Kommunikation \nzwischen der Systemmanagement-L\u00f6sung und den zu verwaltenden Systemen \n(S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.3623046875,
+          262.50830078125
+        ],
+        [
+          540.778564453125,
+          262.50830078125
+        ],
+        [
+          540.778564453125,
+          311.870849609375
+        ],
+        [
+          56.3623046875,
+          311.870849609375
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.926513671875,
+          383.17578125
+        ],
+        [
+          392.79296875,
+          383.17578125
+        ],
+        [
+          392.79296875,
+          401.6767578125
+        ],
+        [
+          55.926513671875,
+          401.6767578125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A20 Hochverf\u00fcgbare Realisierung der Systemmanagement-L\u00f6sung \n(H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.217041015625,
+          474.0361328125
+        ],
+        [
+          528.1787109375,
+          474.0361328125
+        ],
+        [
+          528.1787109375,
+          506.2649230957031
+        ],
+        [
+          56.217041015625,
+          506.2649230957031
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A21 Physische Trennung der zentralen Systemmanagementnetze (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.217041015625,
+          559.962890625
+        ],
+        [
+          537.4755859375,
+          559.962890625
+        ],
+        [
+          537.4755859375,
+          575.5859375
+        ],
+        [
+          56.217041015625,
+          575.5859375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A22 Einbindung des Systemmanagements in automatisierte \nDetektionssysteme (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.926513671875,
+          614.6435546875
+        ],
+        [
+          483.99774169921875,
+          614.6435546875
+        ],
+        [
+          483.99774169921875,
+          646.6649322509766
+        ],
+        [
+          55.926513671875,
+          646.6649322509766
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A23 Standort-\u00fcbergreifende Zeitsynchronisation f\u00fcr das \nSystemmanagement (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.78125,
+          55.605712890625
+        ],
+        [
+          464.84375,
+          55.605712890625
+        ],
+        [
+          464.84375,
+          90.24365234375
+        ],
+        [
+          55.78125,
+          90.24365234375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A24 Automatisierte \u00dcberpr\u00fcfung von sicherheitsrelevanten \nKonfigurationen durch geeignete Detektionssysteme (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.926513671875,
+          141.63525390625
+        ],
+        [
+          484.0185546875,
+          141.63525390625
+        ],
+        [
+          484.0185546875,
+          175.96484375
+        ],
+        [
+          55.926513671875,
+          175.96484375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A25 Protokollierung und Reglementierung von \nSystemmanagement-Sitzungen (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.78125,
+          227.56201171875
+        ],
+        [
+          407.68896484375,
+          227.56201171875
+        ],
+        [
+          407.68896484375,
+          261.27490234375
+        ],
+        [
+          55.78125,
+          261.27490234375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.7.A26 Entkopplung von Zugriffen auf die Systemmanagement-L\u00f6sung \n(H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.635986328125,
+          371.6640625
+        ],
+        [
+          537.508544921875,
+          371.6640625
+        ],
+        [
+          537.508544921875,
+          404.2649230957031
+        ],
+        [
+          55.635986328125,
+          404.2649230957031
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.49072265625,
+          448.95703125
+        ],
+        [
+          336.14013671875,
+          448.95703125
+        ],
+        [
+          336.14013671875,
+          471.158203125
+        ],
+        [
+          55.49072265625,
+          471.158203125
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.52703857421875,
+          482.669921875
+        ],
+        [
+          190.5859375,
+          482.669921875
+        ],
+        [
+          190.5859375,
+          501.58203125
+        ],
+        [
+          55.52703857421875,
+          501.58203125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          135
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          133
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "ListItem",
+          17
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "ListItem",
+          14
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          117
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          117
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          69
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/OPS.1.1.7 Systemmanagement.pdf.clean"
+}

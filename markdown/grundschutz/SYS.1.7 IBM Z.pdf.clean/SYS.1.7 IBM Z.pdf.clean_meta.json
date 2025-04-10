@@ -1,0 +1,1630 @@
+{
+  "table_of_contents": [
+    {
+      "title": "SYS.1.7 IBM Z",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.7086181640625,
+          200.2216796875
+        ],
+        [
+          250.72509765625,
+          200.2216796875
+        ],
+        [
+          250.72509765625,
+          239.279296875
+        ],
+        [
+          55.7086181640625,
+          239.279296875
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.18072509765625,
+          274.84228515625
+        ],
+        [
+          195.379638671875,
+          274.84228515625
+        ],
+        [
+          195.379638671875,
+          297.86572265625
+        ],
+        [
+          56.18072509765625,
+          297.86572265625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.07177734375,
+          309.171875
+        ],
+        [
+          161.678466796875,
+          309.171875
+        ],
+        [
+          161.678466796875,
+          328.4951171875
+        ],
+        [
+          56.07177734375,
+          328.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.10809326171875,
+          418.32763671875
+        ],
+        [
+          169.2537384033203,
+          418.32763671875
+        ],
+        [
+          169.2537384033203,
+          437.4453125
+        ],
+        [
+          56.10809326171875,
+          437.4453125
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.78125,
+          488.0146484375
+        ],
+        [
+          304.76318359375,
+          488.0146484375
+        ],
+        [
+          304.76318359375,
+          507.7490234375
+        ],
+        [
+          55.78125,
+          507.7490234375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.07177734375,
+          108.1279296875
+        ],
+        [
+          222.108154296875,
+          108.1279296875
+        ],
+        [
+          222.108154296875,
+          130.12353515625
+        ],
+        [
+          56.07177734375,
+          130.12353515625
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Unzureichende oder fehlerhafte Konfiguration der Hardware \noder des z/OS-Betriebssystems",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.926513671875,
+          193.6435546875
+        ],
+        [
+          518.30078125,
+          193.6435546875
+        ],
+        [
+          518.30078125,
+          231.25537109375
+        ],
+        [
+          55.926513671875,
+          231.25537109375
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Fehlerhafte Konfiguration des z/OS-Sicherheitssystems RACF",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          334.45654296875
+        ],
+        [
+          520.0439453125,
+          334.45654296875
+        ],
+        [
+          520.0439453125,
+          354.60205078125
+        ],
+        [
+          55.635986328125,
+          354.60205078125
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Fehlbedienung der z/OS-Systemfunktionen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          470.7470703125
+        ],
+        [
+          395.1171875,
+          470.7470703125
+        ],
+        [
+          395.1171875,
+          489.6591796875
+        ],
+        [
+          55.345458984375,
+          489.6591796875
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Manipulation der z/OS-Systemsteuerung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.926513671875,
+          607.2431640625
+        ],
+        [
+          376.5234375,
+          607.2431640625
+        ],
+        [
+          376.5234375,
+          626.1552734375
+        ],
+        [
+          55.926513671875,
+          626.1552734375
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Angriffe \u00fcber TCP/IP auf z/OS-Systeme",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.78125,
+          716.6044921875
+        ],
+        [
+          364.90234375,
+          716.6044921875
+        ],
+        [
+          364.90234375,
+          735.5166015625
+        ],
+        [
+          55.78125,
+          735.5166015625
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Fehlerhafte Zeichensatzkonvertierung beim Einsatz von z/OS",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          160.95849609375
+        ],
+        [
+          519.462890625,
+          160.95849609375
+        ],
+        [
+          519.462890625,
+          180.28173828125
+        ],
+        [
+          55.78125,
+          180.28173828125
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.4180908203125,
+          298.0712890625
+        ],
+        [
+          209.47021484375,
+          298.0712890625
+        ],
+        [
+          209.47021484375,
+          318.6279296875
+        ],
+        [
+          55.4180908203125,
+          318.6279296875
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          547.62890625
+        ],
+        [
+          238.087158203125,
+          547.62890625
+        ],
+        [
+          238.087158203125,
+          566.541015625
+        ],
+        [
+          55.926513671875,
+          566.541015625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A1 Einsatz restriktiver z/OS-Kennungen (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          597.3759765625
+        ],
+        [
+          370.1318359375,
+          597.3759765625
+        ],
+        [
+          370.1318359375,
+          614.6435546875
+        ],
+        [
+          55.635986328125,
+          614.6435546875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A2 Absicherung sicherheitskritischer z/OS-Dienstprogramme (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          731.4052734375
+        ],
+        [
+          502.03125,
+          731.4052734375
+        ],
+        [
+          502.03125,
+          748.6728515625
+        ],
+        [
+          55.78125,
+          748.6728515625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A3 Wartung von Z-Systemen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.217041015625,
+          101.8067626953125
+        ],
+        [
+          300.986328125,
+          101.8067626953125
+        ],
+        [
+          300.986328125,
+          119.228515625
+        ],
+        [
+          56.217041015625,
+          119.228515625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A4 Schulung des z/OS-Bedienungspersonals (B) [Vorgesetzte]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          209.574951171875
+        ],
+        [
+          477.626953125,
+          209.574951171875
+        ],
+        [
+          477.626953125,
+          226.73974609375
+        ],
+        [
+          55.926513671875,
+          226.73974609375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A5 Einsatz und Sicherung systemnaher z/OS-Terminals (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          279.1591796875
+        ],
+        [
+          464.2626953125,
+          279.1591796875
+        ],
+        [
+          464.2626953125,
+          295.6044921875
+        ],
+        [
+          56.07177734375,
+          295.6044921875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A6 Einsatz und Sicherung der Remote Support Facility (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          386.67041015625
+        ],
+        [
+          456.99951171875,
+          386.67041015625
+        ],
+        [
+          456.99951171875,
+          403.52685546875
+        ],
+        [
+          55.49072265625,
+          403.52685546875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A7 Restriktive Autorisierung unter z/OS (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          507.7490234375
+        ],
+        [
+          370.1318359375,
+          507.7490234375
+        ],
+        [
+          370.1318359375,
+          524.259033203125
+        ],
+        [
+          55.635986328125,
+          524.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A8 Einsatz des z/OS-Sicherheitssystems RACF (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          615.876953125
+        ],
+        [
+          403.54248046875,
+          615.876953125
+        ],
+        [
+          403.54248046875,
+          632.322265625
+        ],
+        [
+          55.49072265625,
+          632.322265625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A9 Mandantenf\u00e4higkeit unter z/OS (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.217041015625,
+          148.110595703125
+        ],
+        [
+          339.9169921875,
+          148.110595703125
+        ],
+        [
+          339.9169921875,
+          164.555908203125
+        ],
+        [
+          56.217041015625,
+          164.555908203125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A10 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.9991455078125,
+          256.546875
+        ],
+        [
+          227.7734375,
+          256.546875
+        ],
+        [
+          227.7734375,
+          272.25909423828125
+        ],
+        [
+          55.9991455078125,
+          272.25909423828125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A11 Schutz der Session-Daten (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.5633544921875,
+          298.27685546875
+        ],
+        [
+          305.634765625,
+          298.27685546875
+        ],
+        [
+          305.634765625,
+          314.25909423828125
+        ],
+        [
+          55.5633544921875,
+          314.25909423828125
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.7086181640625,
+          359.94677734375
+        ],
+        [
+          266.123046875,
+          359.94677734375
+        ],
+        [
+          266.123046875,
+          377.6554870605469
+        ],
+        [
+          55.7086181640625,
+          377.6554870605469
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A12 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          423.8779296875
+        ],
+        [
+          226.32080078125,
+          423.8779296875
+        ],
+        [
+          226.32080078125,
+          439.0590515136719
+        ],
+        [
+          55.926513671875,
+          439.0590515136719
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A13 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          465.8134765625
+        ],
+        [
+          226.466064453125,
+          465.8134765625
+        ],
+        [
+          226.466064453125,
+          481.0590515136719
+        ],
+        [
+          55.78125,
+          481.0590515136719
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A14 Berichtswesen zum sicheren Betrieb von z/OS (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          507.7490234375
+        ],
+        [
+          429.68994140625,
+          507.7490234375
+        ],
+        [
+          429.68994140625,
+          523.3720703125
+        ],
+        [
+          55.78125,
+          523.3720703125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A15 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.2896728515625,
+          602.3095703125
+        ],
+        [
+          226.32080078125,
+          602.3095703125
+        ],
+        [
+          226.32080078125,
+          617.9326171875
+        ],
+        [
+          56.2896728515625,
+          617.9326171875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A16 \u00dcberwachung von z/OS-Systemen (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.217041015625,
+          644.2451171875
+        ],
+        [
+          357.9296875,
+          644.2451171875
+        ],
+        [
+          357.9296875,
+          660.6904296875
+        ],
+        [
+          56.217041015625,
+          660.6904296875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A17 Synchronisierung von z/OS-Passw\u00f6rtern und RACF-Kommandos \n(S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          54.764404296875,
+          55.400146484375
+        ],
+        [
+          533.32470703125,
+          55.400146484375
+        ],
+        [
+          533.32470703125,
+          90.44921875
+        ],
+        [
+          54.764404296875,
+          90.44921875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A18 Rollenkonzept f\u00fcr z/OS-Systeme (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.9991455078125,
+          182.029052734375
+        ],
+        [
+          350.08544921875,
+          182.029052734375
+        ],
+        [
+          350.08544921875,
+          198.679931640625
+        ],
+        [
+          55.9991455078125,
+          198.679931640625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A19 Absicherung von z/OS-Transaktionsmonitoren (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          263.125
+        ],
+        [
+          439.27734375,
+          263.125
+        ],
+        [
+          439.27734375,
+          279.5703125
+        ],
+        [
+          55.635986328125,
+          279.5703125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A20 Stilllegung von z/OS-Systemen (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.4180908203125,
+          371.6640625
+        ],
+        [
+          338.173828125,
+          371.6640625
+        ],
+        [
+          338.173828125,
+          388.5205078125
+        ],
+        [
+          55.4180908203125,
+          388.5205078125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A21 Absicherung des Startvorgangs von z/OS-Systemen (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          499.9375
+        ],
+        [
+          463.1005859375,
+          499.9375
+        ],
+        [
+          463.1005859375,
+          515.560546875
+        ],
+        [
+          55.635986328125,
+          515.560546875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A22 Absicherung der Betriebsfunktionen von z/OS (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          632.7333984375
+        ],
+        [
+          432.59521484375,
+          632.7333984375
+        ],
+        [
+          432.59521484375,
+          649.1787109375
+        ],
+        [
+          55.78125,
+          649.1787109375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A23 Absicherung von z/VM (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.2001953125,
+          55.8626708984375
+        ],
+        [
+          291.689453125,
+          55.8626708984375
+        ],
+        [
+          291.689453125,
+          73.5413818359375
+        ],
+        [
+          55.2001953125,
+          73.5413818359375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A24 Datentr\u00e4gerverwaltung unter z/OS-Systemen (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.926513671875,
+          217.69482421875
+        ],
+        [
+          428.818359375,
+          217.69482421875
+        ],
+        [
+          428.818359375,
+          234.55126953125
+        ],
+        [
+          55.926513671875,
+          234.55126953125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A25 Festlegung der Systemdimensionierung von z/OS (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          351.107421875
+        ],
+        [
+          452.060546875,
+          351.107421875
+        ],
+        [
+          452.060546875,
+          368.7861328125
+        ],
+        [
+          55.635986328125,
+          368.7861328125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A26 WorkLoad Management f\u00fcr z/OS-Systeme (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          473.625
+        ],
+        [
+          408.77197265625,
+          473.625
+        ],
+        [
+          408.77197265625,
+          490.0703125
+        ],
+        [
+          55.78125,
+          490.0703125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A27 Zeichensatzkonvertierung bei z/OS-Systemen (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          555.029296875
+        ],
+        [
+          429.68994140625,
+          555.029296875
+        ],
+        [
+          429.68994140625,
+          571.474609375
+        ],
+        [
+          55.78125,
+          571.474609375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A28 Lizenzschl\u00fcssel-Management f\u00fcr z/OS-Software (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          649.1787109375
+        ],
+        [
+          444.5068359375,
+          649.1787109375
+        ],
+        [
+          444.5068359375,
+          666.4462890625
+        ],
+        [
+          55.635986328125,
+          666.4462890625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A29 Absicherung von Unix System Services bei z/OS-Systemen (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          717.837890625
+        ],
+        [
+          506.0986328125,
+          717.837890625
+        ],
+        [
+          506.0986328125,
+          735.10546875
+        ],
+        [
+          55.49072265625,
+          735.10546875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A30 Absicherung der z/OS-Trace-Funktionen (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          167.228271484375
+        ],
+        [
+          400.63720703125,
+          167.228271484375
+        ],
+        [
+          400.63720703125,
+          184.701416015625
+        ],
+        [
+          55.78125,
+          184.701416015625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A31 Notfallvorsorge f\u00fcr z/OS-Systeme (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.345458984375,
+          263.125
+        ],
+        [
+          357.3486328125,
+          263.125
+        ],
+        [
+          357.3486328125,
+          279.9814453125
+        ],
+        [
+          55.345458984375,
+          279.9814453125
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.49072265625,
+          337.33447265625
+        ],
+        [
+          391.34033203125,
+          337.33447265625
+        ],
+        [
+          391.34033203125,
+          356.65771484375
+        ],
+        [
+          55.49072265625,
+          356.65771484375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A32 Festlegung von Standards f\u00fcr z/OS-Systemdefinitionen (H)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          428.400390625
+        ],
+        [
+          491.28173828125,
+          428.400390625
+        ],
+        [
+          491.28173828125,
+          444.845703125
+        ],
+        [
+          55.78125,
+          444.845703125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A33 Trennung von Test- und Produktionssystemen unter z/OS (H)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.635986328125,
+          522.138671875
+        ],
+        [
+          509.5849609375,
+          522.138671875
+        ],
+        [
+          509.5849609375,
+          539.40625
+        ],
+        [
+          55.635986328125,
+          539.40625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A34 Batch-Job-Planung f\u00fcr z/OS-Systeme (H)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          591.208984375
+        ],
+        [
+          380.5908203125,
+          591.208984375
+        ],
+        [
+          380.5908203125,
+          607.654296875
+        ],
+        [
+          55.78125,
+          607.654296875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A35 Einsatz von RACF-Exits (H)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.49072265625,
+          659.45703125
+        ],
+        [
+          296.9189453125,
+          659.45703125
+        ],
+        [
+          296.9189453125,
+          675.90234375
+        ],
+        [
+          55.49072265625,
+          675.90234375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A36 Interne Kommunikation von Betriebssystemen (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.054931640625,
+          56.4793701171875
+        ],
+        [
+          442.763671875,
+          56.4793701171875
+        ],
+        [
+          442.763671875,
+          73.05908203125
+        ],
+        [
+          55.054931640625,
+          73.05908203125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A37 Parallel Sysplex unter z/OS (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.8538818359375,
+          125.909423828125
+        ],
+        [
+          318.12744140625,
+          125.909423828125
+        ],
+        [
+          318.12744140625,
+          142.149169921875
+        ],
+        [
+          55.8538818359375,
+          142.149169921875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.7.A38 Einsatz des VTAM Session Management Exit unter z/OS (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          305.67724609375
+        ],
+        [
+          492.734375,
+          305.67724609375
+        ],
+        [
+          492.734375,
+          322.12255859375
+        ],
+        [
+          55.78125,
+          322.12255859375
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.7086181640625,
+          419.7666015625
+        ],
+        [
+          336.14013671875,
+          419.7666015625
+        ],
+        [
+          336.14013671875,
+          440.3232421875
+        ],
+        [
+          55.7086181640625,
+          440.3232421875
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.49072265625,
+          453.890625
+        ],
+        [
+          192.0446319580078,
+          453.890625
+        ],
+        [
+          192.0446319580078,
+          471.2554931640625
+        ],
+        [
+          55.49072265625,
+          471.2554931640625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          82
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/SYS.1.7 IBM Z.pdf.clean"
+}

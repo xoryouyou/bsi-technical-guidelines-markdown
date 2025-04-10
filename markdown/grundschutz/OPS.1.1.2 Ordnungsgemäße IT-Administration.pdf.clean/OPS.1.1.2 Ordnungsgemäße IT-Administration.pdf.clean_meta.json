@@ -1,0 +1,1628 @@
+{
+  "table_of_contents": [
+    {
+      "title": "OPS.1.1.2 Ordnungsgem\u00e4\u00dfe IT-\nAdministration",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.49072265625,
+          201.24951171875
+        ],
+        [
+          493.02490234375,
+          201.24951171875
+        ],
+        [
+          493.02490234375,
+          276.5596923828125
+        ],
+        [
+          55.49072265625,
+          276.5596923828125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.2896728515625,
+          314.10546875
+        ],
+        [
+          194.36279296875,
+          314.10546875
+        ],
+        [
+          194.36279296875,
+          336.306640625
+        ],
+        [
+          56.2896728515625,
+          336.306640625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          347.4072265625
+        ],
+        [
+          160.225830078125,
+          347.4072265625
+        ],
+        [
+          160.225830078125,
+          367.9638671875
+        ],
+        [
+          55.926513671875,
+          367.9638671875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.74493408203125,
+          600.25390625
+        ],
+        [
+          169.2537384033203,
+          600.25390625
+        ],
+        [
+          169.2537384033203,
+          619.98828125
+        ],
+        [
+          55.74493408203125,
+          619.98828125
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.4180908203125,
+          56.839111328125
+        ],
+        [
+          305.634765625,
+          56.839111328125
+        ],
+        [
+          305.634765625,
+          76.573486328125
+        ],
+        [
+          55.4180908203125,
+          76.573486328125
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.78125,
+          639.72265625
+        ],
+        [
+          221.962890625,
+          639.72265625
+        ],
+        [
+          221.962890625,
+          661.1015625
+        ],
+        [
+          55.78125,
+          661.1015625
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Unzureichend geregelte Zust\u00e4ndigkeiten",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          55.9654541015625
+        ],
+        [
+          373.90869140625,
+          55.9654541015625
+        ],
+        [
+          373.90869140625,
+          76.2137451171875
+        ],
+        [
+          55.49072265625,
+          76.2137451171875
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Unzureichende Dokumentation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.8538818359375,
+          354.60205078125
+        ],
+        [
+          311.4453125,
+          354.60205078125
+        ],
+        [
+          311.4453125,
+          374.74755859375
+        ],
+        [
+          55.8538818359375,
+          374.74755859375
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Missbrauch von privilegierten Berechtigungen durch \nAdministrierende",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          569.0078125
+        ],
+        [
+          460.48583984375,
+          569.0078125
+        ],
+        [
+          460.48583984375,
+          607.654296875
+        ],
+        [
+          55.49072265625,
+          607.654296875
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Preisgabe von sch\u00fctzenswerten Informationen an unberechtigte \nPersonen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          56.839111328125
+        ],
+        [
+          539.5592651367188,
+          56.839111328125
+        ],
+        [
+          539.5592651367188,
+          94.868896484375
+        ],
+        [
+          56.07177734375,
+          94.868896484375
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Personalausfall von Kernkompetenztr\u00e4gern",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          198.885498046875
+        ],
+        [
+          395.40771484375,
+          198.885498046875
+        ],
+        [
+          395.40771484375,
+          217.900390625
+        ],
+        [
+          55.78125,
+          217.900390625
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Unzureichende Verf\u00fcgbarkeit von Administrierenden",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.2001953125,
+          392.6318359375
+        ],
+        [
+          465.4248046875,
+          392.6318359375
+        ],
+        [
+          465.4248046875,
+          411.955078125
+        ],
+        [
+          55.2001953125,
+          411.955078125
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Unzureichende Absicherung von Administrationswerkzeugen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.2001953125,
+          560.78515625
+        ],
+        [
+          522.3681640625,
+          560.78515625
+        ],
+        [
+          522.3681640625,
+          580.51953125
+        ],
+        [
+          55.2001953125,
+          580.51953125
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Ausfall der Administrationsm\u00f6glichkeit",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          56.3251953125
+        ],
+        [
+          367.2265625,
+          56.3251953125
+        ],
+        [
+          367.2265625,
+          76.367919921875
+        ],
+        [
+          55.635986328125,
+          76.367919921875
+        ]
+      ]
+    },
+    {
+      "title": "2.9. Fehlgeleitete Administration",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          198.98828125
+        ],
+        [
+          291.1083984375,
+          198.98828125
+        ],
+        [
+          291.1083984375,
+          218.10595703125
+        ],
+        [
+          55.8538818359375,
+          218.10595703125
+        ]
+      ]
+    },
+    {
+      "title": "2.10. Fehlerhafte Administration",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.5633544921875,
+          334.2509765625
+        ],
+        [
+          296.337890625,
+          334.2509765625
+        ],
+        [
+          296.337890625,
+          353.57421875
+        ],
+        [
+          55.5633544921875,
+          353.57421875
+        ]
+      ]
+    },
+    {
+      "title": "2.11. St\u00f6rung der IT durch IT-Administrationst\u00e4tigkeiten",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.345458984375,
+          488.0146484375
+        ],
+        [
+          467.4344787597656,
+          488.0146484375
+        ],
+        [
+          467.4344787597656,
+          508.5712890625
+        ],
+        [
+          55.345458984375,
+          508.5712890625
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          612.1767578125
+        ],
+        [
+          208.88916015625,
+          612.1767578125
+        ],
+        [
+          208.88916015625,
+          632.7333984375
+        ],
+        [
+          55.78125,
+          632.7333984375
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.7086181640625,
+          135.2626953125
+        ],
+        [
+          239.10400390625,
+          135.2626953125
+        ],
+        [
+          239.10400390625,
+          153.763671875
+        ],
+        [
+          55.7086181640625,
+          153.763671875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A1 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          185.21533203125
+        ],
+        [
+          234.45556640625,
+          185.21533203125
+        ],
+        [
+          234.45556640625,
+          201.8662109375
+        ],
+        [
+          56.07177734375,
+          201.8662109375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A2 Vertretungsregelungen (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.345458984375,
+          227.767578125
+        ],
+        [
+          299.82421875,
+          227.767578125
+        ],
+        [
+          299.82421875,
+          243.8017578125
+        ],
+        [
+          55.345458984375,
+          243.8017578125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A3 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          327.6728515625
+        ],
+        [
+          235.472412109375,
+          327.6728515625
+        ],
+        [
+          235.472412109375,
+          344.259033203125
+        ],
+        [
+          55.926513671875,
+          344.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A4 Beendigung der T\u00e4tigkeit in der IT-Administration (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          369.81396484375
+        ],
+        [
+          467.7490234375,
+          369.81396484375
+        ],
+        [
+          467.7490234375,
+          386.25927734375
+        ],
+        [
+          55.49072265625,
+          386.25927734375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A5 Nachweisbarkeit von administrativen T\u00e4tigkeiten (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          550.095703125
+        ],
+        [
+          461.64794921875,
+          550.095703125
+        ],
+        [
+          461.64794921875,
+          566.541015625
+        ],
+        [
+          55.78125,
+          566.541015625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A6 Schutz administrativer T\u00e4tigkeiten (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          710.4375
+        ],
+        [
+          371.58447265625,
+          710.4375
+        ],
+        [
+          371.58447265625,
+          726.8828125
+        ],
+        [
+          56.07177734375,
+          726.8828125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A21 Regelung der IT-Administrationsrollen (B)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          121.90087890625
+        ],
+        [
+          405.28564453125,
+          121.90087890625
+        ],
+        [
+          405.28564453125,
+          138.75732421875
+        ],
+        [
+          55.49072265625,
+          138.75732421875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A22 Trennung von administrativen und anderen T\u00e4tigkeiten (B)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          262.09716796875
+        ],
+        [
+          507.55126953125,
+          262.09716796875
+        ],
+        [
+          507.55126953125,
+          278.54248046875
+        ],
+        [
+          55.49072265625,
+          278.54248046875
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.7086181640625,
+          409.0771484375
+        ],
+        [
+          266.7041015625,
+          409.0771484375
+        ],
+        [
+          266.7041015625,
+          427.9892578125
+        ],
+        [
+          55.7086181640625,
+          427.9892578125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A7 Regelung der IT-Administrationst\u00e4tigkeit (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.345458984375,
+          471.98046875
+        ],
+        [
+          409.6435546875,
+          471.98046875
+        ],
+        [
+          409.6435546875,
+          488.42578125
+        ],
+        [
+          55.345458984375,
+          488.42578125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A8 Administration von Fachanwendungen (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          691.1142578125
+        ],
+        [
+          399.765625,
+          691.1142578125
+        ],
+        [
+          399.765625,
+          706.7373046875
+        ],
+        [
+          55.635986328125,
+          706.7373046875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A9 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          115.939453125
+        ],
+        [
+          231.114501953125,
+          115.939453125
+        ],
+        [
+          231.114501953125,
+          132.17919921875
+        ],
+        [
+          55.78125,
+          132.17919921875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A10 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.926513671875,
+          157.875
+        ],
+        [
+          238.087158203125,
+          157.875
+        ],
+        [
+          238.087158203125,
+          174.11474609375
+        ],
+        [
+          55.926513671875,
+          174.11474609375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A11 Dokumentation von IT-Administrationst\u00e4tigkeiten (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.926513671875,
+          200.2216796875
+        ],
+        [
+          477.626953125,
+          200.2216796875
+        ],
+        [
+          477.626953125,
+          216.255859375
+        ],
+        [
+          55.926513671875,
+          216.255859375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A12 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.217041015625,
+          498.29296875
+        ],
+        [
+          238.52294921875,
+          498.29296875
+        ],
+        [
+          238.52294921875,
+          514.73828125
+        ],
+        [
+          56.217041015625,
+          514.73828125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A13 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.07177734375,
+          541.05078125
+        ],
+        [
+          239.249267578125,
+          541.05078125
+        ],
+        [
+          239.249267578125,
+          556.673828125
+        ],
+        [
+          56.07177734375,
+          556.673828125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A16 Erweiterte Sicherheitsma\u00dfnahmen f\u00fcr Administrationszug\u00e4nge \n(S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          582.5751953125
+        ],
+        [
+          537.1574096679688,
+          582.5751953125
+        ],
+        [
+          537.1574096679688,
+          614.7449340820312
+        ],
+        [
+          55.78125,
+          614.7449340820312
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A20 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.9991455078125,
+          733.0498046875
+        ],
+        [
+          238.52294921875,
+          733.0498046875
+        ],
+        [
+          238.52294921875,
+          749.4951171875
+        ],
+        [
+          55.9991455078125,
+          749.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A23 Rollen- und Berechtigungskonzept f\u00fcr administrative Zugriffe \n(S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.345458984375,
+          55.4515380859375
+        ],
+        [
+          529.3408203125,
+          55.4515380859375
+        ],
+        [
+          529.3408203125,
+          89.977294921875
+        ],
+        [
+          55.345458984375,
+          89.977294921875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A24 Pr\u00fcfen von IT-Administrationst\u00e4tigkeiten (S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.635986328125,
+          207.82763671875
+        ],
+        [
+          419.521484375,
+          207.82763671875
+        ],
+        [
+          419.521484375,
+          225.50634765625
+        ],
+        [
+          55.635986328125,
+          225.50634765625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A25 Zeitfenster f\u00fcr schwerwiegende IT-Administrationst\u00e4tigkeiten \n(S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.635986328125,
+          393.865234375
+        ],
+        [
+          529.921875,
+          393.865234375
+        ],
+        [
+          529.921875,
+          427.0649108886719
+        ],
+        [
+          55.635986328125,
+          427.0649108886719
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A26 Backup der Konfiguration (S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          479.380859375
+        ],
+        [
+          321.03271484375,
+          479.380859375
+        ],
+        [
+          321.03271484375,
+          495.826171875
+        ],
+        [
+          55.78125,
+          495.826171875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A27 Ersatz f\u00fcr zentrale IT-Administrationswerkzeuge (S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.635986328125,
+          560.78515625
+        ],
+        [
+          463.681640625,
+          560.78515625
+        ],
+        [
+          463.681640625,
+          578.052734375
+        ],
+        [
+          55.635986328125,
+          578.052734375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A28 Protokollierung administrativer T\u00e4tigkeiten (S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.345458984375,
+          655.7568359375
+        ],
+        [
+          433.466796875,
+          655.7568359375
+        ],
+        [
+          433.466796875,
+          672.2021484375
+        ],
+        [
+          55.345458984375,
+          672.2021484375
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.78125,
+          56.016845703125
+        ],
+        [
+          392.79296875,
+          56.016845703125
+        ],
+        [
+          392.79296875,
+          76.67626953125
+        ],
+        [
+          55.78125,
+          76.67626953125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A14 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.2896728515625,
+          147.185546875
+        ],
+        [
+          243.4619140625,
+          147.185546875
+        ],
+        [
+          243.4619140625,
+          164.0419921875
+        ],
+        [
+          56.2896728515625,
+          164.0419921875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A15 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.2896728515625,
+          189.12109375
+        ],
+        [
+          244.91455078125,
+          189.12109375
+        ],
+        [
+          244.91455078125,
+          205.9775390625
+        ],
+        [
+          56.2896728515625,
+          205.9775390625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A17 IT-Administration im Vier-Augen-Prinzip (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.926513671875,
+          231.056640625
+        ],
+        [
+          423.0078125,
+          231.056640625
+        ],
+        [
+          423.0078125,
+          247.501953125
+        ],
+        [
+          55.926513671875,
+          247.501953125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A18 Durchg\u00e4ngige Protokollierung administrativer T\u00e4tigkeiten (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.3623046875,
+          299.09912109375
+        ],
+        [
+          527.0166015625,
+          299.09912109375
+        ],
+        [
+          527.0166015625,
+          315.54443359375
+        ],
+        [
+          56.3623046875,
+          315.54443359375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A19 Nutzung hochverf\u00fcgbarer IT-Administrationswerkzeuge (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.78125,
+          380.91455078125
+        ],
+        [
+          514.2333984375,
+          380.91455078125
+        ],
+        [
+          514.2333984375,
+          397.35986328125
+        ],
+        [
+          55.78125,
+          397.35986328125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A29 Monitoring der IT-Administrationswerkzeuge (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.926513671875,
+          448.95703125
+        ],
+        [
+          449.1552734375,
+          448.95703125
+        ],
+        [
+          449.1552734375,
+          465.45904541015625
+        ],
+        [
+          55.926513671875,
+          465.45904541015625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.2.A30 Sicherheitsmonitoring administrativer T\u00e4tigkeiten (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.926513671875,
+          531.18359375
+        ],
+        [
+          479.951171875,
+          531.18359375
+        ],
+        [
+          479.951171875,
+          547.62890625
+        ],
+        [
+          55.926513671875,
+          547.62890625
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.5633544921875,
+          619.166015625
+        ],
+        [
+          336.14013671875,
+          619.166015625
+        ],
+        [
+          336.14013671875,
+          640.544921875
+        ],
+        [
+          55.5633544921875,
+          640.544921875
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.5633544921875,
+          652.87890625
+        ],
+        [
+          191.1669921875,
+          652.87890625
+        ],
+        [
+          191.1669921875,
+          670.96875
+        ],
+        [
+          55.5633544921875,
+          670.96875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          64
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          152
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          92
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "SectionHeader",
+          10
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/OPS.1.1.2 Ordnungsgem\u00e4\u00dfe IT-Administration.pdf.clean"
+}

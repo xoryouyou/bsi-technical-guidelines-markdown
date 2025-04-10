@@ -1,0 +1,988 @@
+{
+  "table_of_contents": [
+    {
+      "title": "NET.4.3 Faxger\u00e4te und Faxserver",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.635986328125,
+          203.099609375
+        ],
+        [
+          512.490234375,
+          203.099609375
+        ],
+        [
+          512.490234375,
+          239.6904296875
+        ],
+        [
+          55.635986328125,
+          239.6904296875
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.9991455078125,
+          274.43115234375
+        ],
+        [
+          194.94384765625,
+          274.43115234375
+        ],
+        [
+          194.94384765625,
+          297.86572265625
+        ],
+        [
+          55.9991455078125,
+          297.86572265625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          309.171875
+        ],
+        [
+          160.9521484375,
+          309.171875
+        ],
+        [
+          160.9521484375,
+          328.4951171875
+        ],
+        [
+          55.926513671875,
+          328.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.67230224609375,
+          596.142578125
+        ],
+        [
+          169.2537384033203,
+          596.142578125
+        ],
+        [
+          169.2537384033203,
+          615.0546875
+        ],
+        [
+          55.67230224609375,
+          615.0546875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.7086181640625,
+          705.50390625
+        ],
+        [
+          303.310546875,
+          705.50390625
+        ],
+        [
+          303.310546875,
+          725.23828125
+        ],
+        [
+          55.7086181640625,
+          725.23828125
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          160.95849609375
+        ],
+        [
+          221.67236328125,
+          160.95849609375
+        ],
+        [
+          221.67236328125,
+          183.365234375
+        ],
+        [
+          55.7086181640625,
+          183.365234375
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Unzureichende oder falsche Versorgung mit Verbrauchsg\u00fctern",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          259.21923828125
+        ],
+        [
+          527.0166015625,
+          259.21923828125
+        ],
+        [
+          527.0166015625,
+          278.95361328125
+        ],
+        [
+          55.345458984375,
+          278.95361328125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Fehlerhafte Fax\u00fcbertragung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2001953125,
+          368.99169921875
+        ],
+        [
+          285.2978515625,
+          368.99169921875
+        ],
+        [
+          285.2978515625,
+          388.31494140625
+        ],
+        [
+          55.2001953125,
+          388.31494140625
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Manipulation von Adressb\u00fcchern und Verteilerlisten",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          647.5341796875
+        ],
+        [
+          459.6142578125,
+          647.5341796875
+        ],
+        [
+          459.6142578125,
+          667.2685546875
+        ],
+        [
+          55.49072265625,
+          667.2685546875
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unbefugtes Lesen von Faxsendungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          174.7314453125
+        ],
+        [
+          348.0517578125,
+          174.7314453125
+        ],
+        [
+          348.0517578125,
+          193.43798828125
+        ],
+        [
+          55.49072265625,
+          193.43798828125
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Auswertung von Restinformationen in Faxger\u00e4ten und \nFaxservern",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          284.0927734375
+        ],
+        [
+          472.978515625,
+          284.0927734375
+        ],
+        [
+          472.978515625,
+          321.25537109375
+        ],
+        [
+          55.49072265625,
+          321.25537109375
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Vort\u00e4uschen eines falschen Absendenden bei Faxsendungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          457.1796875
+        ],
+        [
+          507.55126953125,
+          457.1796875
+        ],
+        [
+          507.55126953125,
+          476.091796875
+        ],
+        [
+          55.49072265625,
+          476.091796875
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          608.0654296875
+        ],
+        [
+          209.034423828125,
+          608.0654296875
+        ],
+        [
+          209.034423828125,
+          628.6220703125
+        ],
+        [
+          55.926513671875,
+          628.6220703125
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.1444091796875,
+          134.64599609375
+        ],
+        [
+          237.94189453125,
+          134.64599609375
+        ],
+        [
+          237.94189453125,
+          153.96923828125
+        ],
+        [
+          56.1444091796875,
+          153.96923828125
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.3.A1 Geeignete Aufstellung eines Faxger\u00e4tes (B) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          185.62646484375
+        ],
+        [
+          474.140625,
+          185.62646484375
+        ],
+        [
+          474.140625,
+          202.27734375
+        ],
+        [
+          55.926513671875,
+          202.27734375
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.3.A2 Informationen f\u00fcr Mitarbeitende \u00fcber die Faxnutzung (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          279.36474609375
+        ],
+        [
+          479.951171875,
+          279.36474609375
+        ],
+        [
+          479.951171875,
+          296.25909423828125
+        ],
+        [
+          55.926513671875,
+          296.25909423828125
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.3.A3 Sicherer Betrieb eines Faxservers (B) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          387.6982421875
+        ],
+        [
+          422.13623046875,
+          387.6982421875
+        ],
+        [
+          422.13623046875,
+          404.259033203125
+        ],
+        [
+          55.78125,
+          404.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.9991455078125,
+          528.716796875
+        ],
+        [
+          266.41357421875,
+          528.716796875
+        ],
+        [
+          266.41357421875,
+          547.62890625
+        ],
+        [
+          55.9991455078125,
+          547.62890625
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.3.A4 Erstellung einer Sicherheitsrichtlinie f\u00fcr die Faxnutzung (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          592.03125
+        ],
+        [
+          491.572265625,
+          592.03125
+        ],
+        [
+          491.572265625,
+          608.4765625
+        ],
+        [
+          55.78125,
+          608.4765625
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.3.A5 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.217041015625,
+          687.0029296875
+        ],
+        [
+          221.67236328125,
+          687.0029296875
+        ],
+        [
+          221.67236328125,
+          703.4482421875
+        ],
+        [
+          56.217041015625,
+          703.4482421875
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.3.A6 Beschaffung geeigneter Faxger\u00e4te und Faxserver (S) \n[Beschaffungsstelle]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          55.9140625
+        ],
+        [
+          443.05419921875,
+          55.9140625
+        ],
+        [
+          443.05419921875,
+          90.24365234375
+        ],
+        [
+          55.49072265625,
+          90.24365234375
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.3.A7 Geeignete Kennzeichnung ausgehender Faxsendungen (S) \n[Benutzende]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          239.6904296875
+        ],
+        [
+          481.385009765625,
+          239.6904296875
+        ],
+        [
+          481.385009765625,
+          273.4649658203125
+        ],
+        [
+          55.78125,
+          273.4649658203125
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.3.A8 Geeignete Entsorgung von Fax-Verbrauchsg\u00fctern und -\nErsatzteilen (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          378.2421875
+        ],
+        [
+          469.4921875,
+          378.2421875
+        ],
+        [
+          469.4921875,
+          411.5439453125
+        ],
+        [
+          55.926513671875,
+          411.5439453125
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.3.A9 Nutzung von Sende- und Empfangsprotokollen (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          503.2265625
+        ],
+        [
+          436.08154296875,
+          503.2265625
+        ],
+        [
+          436.08154296875,
+          520.494140625
+        ],
+        [
+          55.78125,
+          520.494140625
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.3.A10 Kontrolle programmierbarer Zieladressen, Protokolle und \nVerteilerlisten (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          656.990234375
+        ],
+        [
+          492.42877197265625,
+          656.990234375
+        ],
+        [
+          492.42877197265625,
+          689.880859375
+        ],
+        [
+          55.78125,
+          689.880859375
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.345458984375,
+          55.5029296875
+        ],
+        [
+          392.2119140625,
+          55.5029296875
+        ],
+        [
+          392.2119140625,
+          76.470703125
+        ],
+        [
+          55.345458984375,
+          76.470703125
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.3.A11 Schutz vor \u00dcberlastung des Faxger\u00e4tes (H) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          146.877197265625
+        ],
+        [
+          464.84375,
+          146.877197265625
+        ],
+        [
+          464.84375,
+          164.555908203125
+        ],
+        [
+          55.78125,
+          164.555908203125
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.3.A12 Sperren bestimmter Quell- und Ziel-Faxnummern (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          240.71826171875
+        ],
+        [
+          466.005859375,
+          240.71826171875
+        ],
+        [
+          466.005859375,
+          258.39697265625
+        ],
+        [
+          55.78125,
+          258.39697265625
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.3.A13 Festlegung berechtigter Faxbedienenden (H) [Benutzende]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.217041015625,
+          308.96630859375
+        ],
+        [
+          488.6669921875,
+          308.96630859375
+        ],
+        [
+          488.6669921875,
+          326.25909423828125
+        ],
+        [
+          56.217041015625,
+          326.25909423828125
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.3.A14 Fertigung von Kopien eingehender Faxsendungen (H) \n[Benutzende]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          404.5546875
+        ],
+        [
+          464.55322265625,
+          404.5546875
+        ],
+        [
+          464.55322265625,
+          437.86492919921875
+        ],
+        [
+          55.78125,
+          437.86492919921875
+        ]
+      ]
+    },
+    {
+      "title": "NET.4.3.A15 Ank\u00fcndigung und R\u00fcckversicherung im Umgang mit \nFaxsendungen (H) [Benutzende]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          503.2265625
+        ],
+        [
+          463.681640625,
+          503.2265625
+        ],
+        [
+          463.681640625,
+          536.2649230957031
+        ],
+        [
+          55.78125,
+          536.2649230957031
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          661.1015625
+        ],
+        [
+          336.14013671875,
+          661.1015625
+        ],
+        [
+          336.14013671875,
+          682.48046875
+        ],
+        [
+          55.78125,
+          682.48046875
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.25335693359375,
+          695.2255859375
+        ],
+        [
+          191.748046875,
+          695.2255859375
+        ],
+        [
+          191.748046875,
+          713.3154296875
+        ],
+        [
+          56.25335693359375,
+          713.3154296875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          76
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/NET.4.3 Faxger\u00e4te und Faxserver.pdf.clean"
+}

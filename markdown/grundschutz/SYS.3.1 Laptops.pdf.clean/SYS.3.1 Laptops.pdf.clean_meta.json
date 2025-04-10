@@ -1,0 +1,953 @@
+{
+  "table_of_contents": [
+    {
+      "title": "SYS.3.1 Laptops",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.635986328125,
+          201.455078125
+        ],
+        [
+          273.531494140625,
+          201.455078125
+        ],
+        [
+          273.531494140625,
+          240.1015625
+        ],
+        [
+          55.635986328125,
+          240.1015625
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.03546142578125,
+          274.63671875
+        ],
+        [
+          194.94384765625,
+          274.63671875
+        ],
+        [
+          194.94384765625,
+          297.66015625
+        ],
+        [
+          56.03546142578125,
+          297.66015625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.10809326171875,
+          309.171875
+        ],
+        [
+          161.24267578125,
+          309.171875
+        ],
+        [
+          161.24267578125,
+          328.4951171875
+        ],
+        [
+          56.10809326171875,
+          328.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.1444091796875,
+          549.6845703125
+        ],
+        [
+          168.21533203125,
+          549.6845703125
+        ],
+        [
+          168.21533203125,
+          569.4189453125
+        ],
+        [
+          56.1444091796875,
+          569.4189453125
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.9991455078125,
+          617.9326171875
+        ],
+        [
+          303.8916015625,
+          617.9326171875
+        ],
+        [
+          303.8916015625,
+          638.4892578125
+        ],
+        [
+          55.9991455078125,
+          638.4892578125
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.5633544921875,
+          153.96923828125
+        ],
+        [
+          220.80078125,
+          153.96923828125
+        ],
+        [
+          220.80078125,
+          175.34814453125
+        ],
+        [
+          55.5633544921875,
+          175.34814453125
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Beeintr\u00e4chtigung durch wechselnde Einsatzumgebung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.926513671875,
+          238.66259765625
+        ],
+        [
+          468.9111328125,
+          238.66259765625
+        ],
+        [
+          468.9111328125,
+          258.39697265625
+        ],
+        [
+          55.926513671875,
+          258.39697265625
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Diebstahl und Verlust von Laptops",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.4180908203125,
+          374.130859375
+        ],
+        [
+          328.58642578125,
+          374.130859375
+        ],
+        [
+          328.58642578125,
+          394.2763671875
+        ],
+        [
+          55.4180908203125,
+          394.2763671875
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Ungeordnete Weitergabe von Laptops",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          524.1943359375
+        ],
+        [
+          352.119140625,
+          524.1943359375
+        ],
+        [
+          352.119140625,
+          543.1064453125
+        ],
+        [
+          55.635986328125,
+          543.1064453125
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.78125,
+          659.8681640625
+        ],
+        [
+          208.017578125,
+          659.8681640625
+        ],
+        [
+          208.017578125,
+          681.2470703125
+        ],
+        [
+          55.78125,
+          681.2470703125
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.9991455078125,
+          182.645751953125
+        ],
+        [
+          238.8134765625,
+          182.645751953125
+        ],
+        [
+          238.8134765625,
+          201.557861328125
+        ],
+        [
+          55.9991455078125,
+          201.557861328125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A1 Regelungen zur mobilen Nutzung von Laptops (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          233.31787109375
+        ],
+        [
+          428.2373046875,
+          233.31787109375
+        ],
+        [
+          428.2373046875,
+          249.09906005859375
+        ],
+        [
+          55.635986328125,
+          249.09906005859375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A2 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.2896728515625,
+          314.927734375
+        ],
+        [
+          220.2197265625,
+          314.927734375
+        ],
+        [
+          220.2197265625,
+          330.69903564453125
+        ],
+        [
+          56.2896728515625,
+          330.69903564453125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A3 Einsatz von Personal Firewalls (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.8538818359375,
+          356.86328125
+        ],
+        [
+          329.16748046875,
+          356.86328125
+        ],
+        [
+          329.16748046875,
+          372.8974609375
+        ],
+        [
+          55.8538818359375,
+          372.8974609375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A4 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.217041015625,
+          451.8349609375
+        ],
+        [
+          221.236572265625,
+          451.8349609375
+        ],
+        [
+          221.236572265625,
+          467.4990539550781
+        ],
+        [
+          56.217041015625,
+          467.4990539550781
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A5 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.9991455078125,
+          493.359375
+        ],
+        [
+          219.92919921875,
+          493.359375
+        ],
+        [
+          219.92919921875,
+          509.4990539550781
+        ],
+        [
+          55.9991455078125,
+          509.4990539550781
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A9 Sicherer Fernzugriff mit Laptops (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          536.1171875
+        ],
+        [
+          343.11279296875,
+          536.1171875
+        ],
+        [
+          343.11279296875,
+          551.740234375
+        ],
+        [
+          55.7086181640625,
+          551.740234375
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.5633544921875,
+          597.787109375
+        ],
+        [
+          266.123046875,
+          597.787109375
+        ],
+        [
+          266.123046875,
+          615.0546875
+        ],
+        [
+          55.5633544921875,
+          615.0546875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A6 Sicherheitsrichtlinien f\u00fcr Laptops (S)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          660.279296875
+        ],
+        [
+          349.50439453125,
+          660.279296875
+        ],
+        [
+          349.50439453125,
+          676.724609375
+        ],
+        [
+          55.49072265625,
+          676.724609375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A7 Geregelte \u00dcbergabe und R\u00fccknahme eines Laptops (S) [Benutzende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          55.811279296875
+        ],
+        [
+          535.732421875,
+          55.811279296875
+        ],
+        [
+          535.732421875,
+          73.078857421875
+        ],
+        [
+          56.07177734375,
+          73.078857421875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A8 Sicherer Anschluss von Laptops an Datennetze (S) [Benutzende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          177.1982421875
+        ],
+        [
+          510.7470703125,
+          177.1982421875
+        ],
+        [
+          510.7470703125,
+          194.67138671875
+        ],
+        [
+          55.926513671875,
+          194.67138671875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A10 Abgleich der Datenbest\u00e4nde von Laptops (S) [Benutzende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          245.4462890625
+        ],
+        [
+          482.8564453125,
+          245.4462890625
+        ],
+        [
+          482.8564453125,
+          262.7138671875
+        ],
+        [
+          55.635986328125,
+          262.7138671875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A11 Sicherstellung der Energieversorgung von Laptops (S) \n[Benutzende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          341.85693359375
+        ],
+        [
+          459.6142578125,
+          341.85693359375
+        ],
+        [
+          459.6142578125,
+          374.74755859375
+        ],
+        [
+          55.49072265625,
+          374.74755859375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A12 Verlustmeldung f\u00fcr Laptops (S) [Benutzende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          425.93359375
+        ],
+        [
+          405.28564453125,
+          425.93359375
+        ],
+        [
+          405.28564453125,
+          443.201171875
+        ],
+        [
+          55.49072265625,
+          443.201171875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A13 Verschl\u00fcsselung von Laptops (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.5633544921875,
+          507.337890625
+        ],
+        [
+          327.1337890625,
+          507.337890625
+        ],
+        [
+          327.1337890625,
+          524.60546875
+        ],
+        [
+          55.5633544921875,
+          524.60546875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A14 Geeignete Aufbewahrung von Laptops (S) [Benutzende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          549.6845703125
+        ],
+        [
+          467.7490234375,
+          549.6845703125
+        ],
+        [
+          467.7490234375,
+          566.9521484375
+        ],
+        [
+          55.926513671875,
+          566.9521484375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A15 Geeignete Auswahl von Laptops (S) [Beschaffungsstelle]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          631.0888671875
+        ],
+        [
+          469.4921875,
+          631.0888671875
+        ],
+        [
+          469.4921875,
+          648.3564453125
+        ],
+        [
+          55.78125,
+          648.3564453125
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          706.326171875
+        ],
+        [
+          392.79296875,
+          706.326171875
+        ],
+        [
+          392.79296875,
+          725.23828125
+        ],
+        [
+          55.926513671875,
+          725.23828125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A16 Zentrale Administration und Verwaltung von Laptops (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          89.318603515625
+        ],
+        [
+          484.89013671875,
+          89.318603515625
+        ],
+        [
+          484.89013671875,
+          105.969482421875
+        ],
+        [
+          56.07177734375,
+          105.969482421875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A17 Sammelaufbewahrung von Laptops (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          157.875
+        ],
+        [
+          370.1318359375,
+          157.875
+        ],
+        [
+          370.1318359375,
+          174.11474609375
+        ],
+        [
+          55.926513671875,
+          174.11474609375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.3.1.A18 Einsatz von Diebstahl-Sicherungen (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          225.91748046875
+        ],
+        [
+          368.67919921875,
+          225.91748046875
+        ],
+        [
+          368.67919921875,
+          242.36279296875
+        ],
+        [
+          56.07177734375,
+          242.36279296875
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          287.79296875
+        ],
+        [
+          336.72119140625,
+          287.79296875
+        ],
+        [
+          336.72119140625,
+          308.349609375
+        ],
+        [
+          55.8538818359375,
+          308.349609375
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          321.71142578125
+        ],
+        [
+          190.5859375,
+          321.71142578125
+        ],
+        [
+          190.5859375,
+          339.2554931640625
+        ],
+        [
+          56.07177734375,
+          339.2554931640625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          117
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          49
+        ],
+        [
+          "Line",
+          18
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/SYS.3.1 Laptops.pdf.clean"
+}
