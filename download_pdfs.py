@@ -46,7 +46,7 @@ def main():
     list_of_pdf_urls = 'data/pdf_links.txt'
 
     # Create downloads directory
-    download_dir = os.path.join(os.path.dirname(__file__), 'pdf')
+    download_dir = os.path.join(os.path.dirname(__file__), 'pdf','tr')
     os.makedirs(download_dir, exist_ok=True)
     
     # Read and parse pdf_links.txt
