@@ -98,6 +98,6 @@ The python scripts can be run using `https://github.com/astral-sh/uv`
 * BSI TR-03183 Cyber-Resilienz-Anforderungen
 * BSI TR-03184 Informationssicherheit für Weltraumsysteme
 * BSI TR-03185 Sicherer Software-Lebenszyklus
-* BSI TR-03191 - Common Security Advisory Framework (CSAF)
+* BSI TR-03191 Common Security Advisory Framework (CSAF)
 * BSI TR-03209 Elektromagnetische Schirmung von Gebäuden
-* TR-03179-1 Central Bank Digital Currency
+* BSI TR-03179-1 Central Bank Digital Currency
