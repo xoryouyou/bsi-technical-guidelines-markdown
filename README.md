@@ -3,10 +3,9 @@
 > [!NOTE]  
 > All copyright remains with the respective authors of the documents, this repoository is just a format shift to Markdown.
 
-This repository contains all [BSI technical guidelines](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/technische-richtlinien_node.html)
- (BSI Technische Richtlinien) and [IT Grundschutz](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/IT-Grundschutz-Bausteine/Bausteine_Download_Edition_node.html) documents.
+This repository contains all BSI technical guidelines  which are published [here](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/technische-richtlinien_node.html)
 
-It was created out of necessity to have all documents in one place searchable and usable in tools like [obsidian](https://github.com/obsidianmd)
+It was created out of necessity to have all TRs in one place searchable and usable in tools like [obsidian](https://github.com/obsidianmd)
 
 The PDFs were converted using [marker](https://github.com/VikParuchuri/marker) and [ollama](https://github.com/ollama/ollama) to markdown.
 
@@ -14,13 +13,32 @@ The PDFs were converted using [marker](https://github.com/VikParuchuri/marker) a
 
 ## Procedure
 
-The python scripts can be run using [uv](https://github.com/astral-sh/uv)
+The python env is setup using `https://github.com/astral-sh/uv`
 
-0. `uv sync`
-1. `uv run scrape_pdf_links.py`
-2. `uv run download_pdfs.py`
-3. start an ollama server of your choice
-4. `./convert.sh`
+```bash
+usage: scraper.py [-h] [--scrape-pdf-list] [--output OUTPUT] [--fetch-tr-pdf-links] [--fetch-grundschutz-pdf-links]
+
+Scraping and Conversion for BSI Technical Guidelines
+
+options:
+  -h, --help            show this help message and exit
+  --scrape-pdf-list     Scrape PDF links from TR list and save to data/pdf_links.txt
+  --output OUTPUT       Output directory for downloaded PDFs
+  --fetch-tr-pdf-links  Extracts all the TR pages from main page and scrape the sub pages for PDF links
+  --fetch-grundschutz-pdf-links
+                        Fetch all the Grundschutz PDF links from the overview page
+  --download-pdfs       Download all PDFs from the lists in /data
+
+```
+
+
+0. use `uv sync` - setup dependencies
+1. use `uv run scraper.py --fetch-tr-pdf-links` to populate `data/tr-pdf-links.txt`
+2. use `uv run scraper.py --fetch-grundschutz-pdf-links` to populate `data/grundschutz-pdf-links.txt`
+3. use `uv run scraper.py --download-pdfs` to download all pdfs (note: this should do nothing since they are all present in the repo already)
+4. start an ollama server of your choice
+5. run `./convert.sh`
+6. use `uv run generate_table.py` to generate a markdown overview at `/markdown/README.md`
 
 ## Details
 * `scrape_pdf_links.py` was used to loop over all TR pages from `data/tr-list.txt` and extract links for the PDFs on them and store them in `data/pdf_links.txt`
