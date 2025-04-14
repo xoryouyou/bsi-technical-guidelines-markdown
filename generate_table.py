@@ -23,7 +23,7 @@ def generate_markdown_table():
             if os.path.isdir(full_path):
                 # Create a relative link to the directory
                 # add angled brackets so spaces in links work
-                relative_link = f"[{entry}](<{entry}>)"
+                relative_link = f"[{entry}](<{os.path.basename(base_dir)}/{entry}>)"
                 
                 # Add row to table
                 table += f"| {relative_link} | |\n"
