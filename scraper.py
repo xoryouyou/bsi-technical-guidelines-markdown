@@ -9,6 +9,9 @@ from urllib.parse import urljoin
 from pathlib import Path
 import logging
 import coloredlogs
+import re
+
+from models.tr import TR, Document, Repository
 
 
 TR_OVERVIEW_PAGE = "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/technische-richtlinien_node.html"
@@ -54,7 +57,8 @@ class Scraper:
 
         return parser
 
-    def extract_pdf_links_from_tr_page(self, url):
+    def extract_pdf_links_from_tr_page(self, url) -> list[Document]:
+        """Extract all PDF links from the BSI technical guidelines page."""
         try:
             self.logger.debug(f"sending request to: {url}")
 
@@ -68,7 +72,7 @@ class Scraper:
 
             self.logger.info(f"Title: {title}")
             # Find all links
-            pdf_links = []
+            documents = []
             for link in soup.find_all("a"):
                 href = link.get("href", "")
 
@@ -77,73 +81,85 @@ class Scraper:
                     # split of the url params and re-add the ".pdf?__blob=publicationFile"
                     cutoff = href.rfind(".pdf")
                     href = href[:cutoff] + ".pdf?__blob=publicationFile"
+                    filename = href.split("/")[-1].split("?")[0]
                     # Convert relative URLs to absolute
                     full_url = urljoin(url, href)
                     self.logger.info(f"Found PDF link: {full_url}")
-                    pdf_links.append((full_url,title))
-            return pdf_links
+                    d = Document(filename=filename, url_pdf=full_url, title=title)
+                    documents.append(d)
+            return documents
         except Exception as e:
             self.logger.error(f"Error extracting TR links from {url}  -> {str(e)}")
-            return []
+            return None
+
+    def extract_tr_id_from_name(self, name: str) -> str:
+        """
+        Extract the TR ID from the name.
+        The TR ID is typically in the format "TR-00000".
+        """
+        match = re.search(r"TR\-\d{5}", name)
+        if match:
+            return match.group(0)
+        return None
 
     def fetch_tr_pdf_links(self, url):
         """Extract all TR links from the BSI technical guidelines overview page.
         and extract all pdf links from the sub TR pages."""
+
+        repository = Repository()
         try:
             # Check if cached file exists
-            cached_file = Path("data/tr-overview-page-list.txt")
-            tr_links = []
+            repo_file = Path("data/tr-overview.json")
 
-            if cached_file.exists():
+            if repo_file.exists():
                 self.logger.info("Reading cached TR links from file")
-                with open(cached_file, "r") as f:
-                    tr_links = [line.strip().split(';') for line in f.readlines()]
-                print("TR Links from cache:", tr_links)
+                with open(repo_file, "r") as f:
+                    repository = Repository.model_validate_json(f.read())
+                self.logger.debug(f"TR Repo loaded {repository}")
             else:
                 self.logger.info(f"Fetching TR list from {url}")
 
+                # Fetch the TR overview page
                 response = requests.get(url, headers=USER_AGENT_HEADER)
                 response.raise_for_status()
 
+                # Extract the TR overview section
                 soup = BeautifulSoup(response.text, "html.parser")
-
                 section = soup.find("ul", {"class": "links"})
-            
 
-                tr_links = []
-                # Find all links in this section
+                # Find all links in the overview section
                 for link in section.find_all("a"):
                     href = link.get("href", "")
                     title = link.get_text().strip()
                     # Convert relative URLs to absolute
                     full_url = urljoin("https://www.bsi.bund.de", href)
                     if "/Technische-Richtlinien/" in full_url:  # Only include TR links
-                        tr_links.append((full_url, title))
+
+                        # Extract the TR ID and title from the name
+                        id = self.extract_tr_id_from_name(title)
+                        tr = TR(id=id, title=title, url_overview_page=full_url)
+                        repository.trs.append(tr)
 
                 # Save the TR links to a file
-                with open(cached_file, "w") as f:
+                with open(repo_file, "w") as f:
                     #f.write('url;title\n')  # Write header
-                    for link,title in tr_links:
-                        f.write(f"{link}; {title}\n")
+                    f.write(repository.model_dump_json(indent=2))
                     f.flush()  # Ensure writing to disk
 
-            pdf_links = []
-            for url,description in tr_links:
-                self.logger.debug(f"Processing: {url} - {description}")
+            for tr in repository.trs:
+                self.logger.debug(f"Processing: {tr.url_overview_page}")
                 # Add delay to be nice to the server
                 sleepytime = randint(5, 10)
                 self.logger.debug(f"waiting for {sleepytime} seconds")
                 time.sleep(sleepytime)
                 # append the extracted pdf links to the list
-                pdf_links += self.extract_pdf_links_from_tr_page(url)
+                tr.documents = self.extract_pdf_links_from_tr_page(tr.url_overview_page)
 
             # Save the PDF links to a file
-            with open("data/tr-pdf-links.txt", "w") as f:
-                for url, description in pdf_links:
-                    f.write(f"{url}; {description}\n")
+            with open("data/tr-overview-and-documents.json", "w") as f:
+                f.write(repository.model_dump_json(indent=2))
                 f.flush()
 
-            return pdf_links
 
         except Exception as e:
             self.logger.error(f"Error extracting TR links: {str(e)} ")
@@ -176,7 +192,6 @@ class Scraper:
 
         except Exception as e:
             self.logger.error(f"Error downloading PDFs: {str(e)}")
-
 
     def download_pdfs(self):
         """Download all PDF files"""
@@ -292,9 +307,7 @@ class Scraper:
         args = self.parser.parse_args()
         self.logger.debug(f"ARGS: {args}")
         if args.fetch_tr_pdf_links:
-            trs = self.fetch_tr_pdf_links(TR_OVERVIEW_PAGE)
-            for t in trs:
-                print(t)
+            self.fetch_tr_pdf_links(TR_OVERVIEW_PAGE)
         if args.fetch_grundschutz_pdf_links:
             gs = self.fetch_grundschutz_pdf_links(GRUNDSCHUTZ_OVERVIEW_PAGE)
             for g in gs:
