@@ -1,0 +1,988 @@
+{
+  "table_of_contents": [
+    {
+      "title": "OPS.1.1.6 Software-Tests und -\nFreigaben",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.3623046875,
+          201.763427734375
+        ],
+        [
+          479.66064453125,
+          201.763427734375
+        ],
+        [
+          479.66064453125,
+          276.6923828125
+        ],
+        [
+          56.3623046875,
+          276.6923828125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.5802001953125,
+          313.89990234375
+        ],
+        [
+          195.52490234375,
+          313.89990234375
+        ],
+        [
+          195.52490234375,
+          336.51220703125
+        ],
+        [
+          56.5802001953125,
+          336.51220703125
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.18072509765625,
+          347.818359375
+        ],
+        [
+          160.66162109375,
+          347.818359375
+        ],
+        [
+          160.66162109375,
+          367.9638671875
+        ],
+        [
+          56.18072509765625,
+          367.9638671875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.03546142578125,
+          653.701171875
+        ],
+        [
+          169.2537384033203,
+          653.701171875
+        ],
+        [
+          169.2537384033203,
+          673.435546875
+        ],
+        [
+          56.03546142578125,
+          673.435546875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          56.53076171875
+        ],
+        [
+          305.634765625,
+          56.53076171875
+        ],
+        [
+          305.634765625,
+          76.573486328125
+        ],
+        [
+          55.7086181640625,
+          76.573486328125
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          270.525390625
+        ],
+        [
+          221.09130859375,
+          270.525390625
+        ],
+        [
+          221.09130859375,
+          292.7265625
+        ],
+        [
+          55.7086181640625,
+          292.7265625
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Software-Tests mit Produktivdaten",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2728271484375,
+          367.9638671875
+        ],
+        [
+          336.14013671875,
+          367.9638671875
+        ],
+        [
+          336.14013671875,
+          388.109375
+        ],
+        [
+          55.2728271484375,
+          388.109375
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Fehlendes oder unzureichendes Testverfahren",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          550.095703125
+        ],
+        [
+          412.548828125,
+          550.095703125
+        ],
+        [
+          412.548828125,
+          569.830078125
+        ],
+        [
+          55.635986328125,
+          569.830078125
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Fehlendes oder unzureichendes Freigabeverfahren",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.78125,
+          678.369140625
+        ],
+        [
+          442.763671875,
+          678.369140625
+        ],
+        [
+          442.763671875,
+          698.103515625
+        ],
+        [
+          55.78125,
+          698.103515625
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Fehlende oder unzureichende Dokumentation der Tests und \nTestergebnisse",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.2001953125,
+          56.222412109375
+        ],
+        [
+          511.466552734375,
+          56.222412109375
+        ],
+        [
+          511.466552734375,
+          94.9716796875
+        ],
+        [
+          55.2001953125,
+          94.9716796875
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Fehlende oder unzureichende Dokumentation der \nFreigabekriterien",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          198.268798828125
+        ],
+        [
+          441.31103515625,
+          198.268798828125
+        ],
+        [
+          441.31103515625,
+          236.05535888671875
+        ],
+        [
+          55.78125,
+          236.05535888671875
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          339.595703125
+        ],
+        [
+          209.034423828125,
+          339.595703125
+        ],
+        [
+          209.034423828125,
+          361.796875
+        ],
+        [
+          55.78125,
+          361.796875
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          603.1318359375
+        ],
+        [
+          238.232421875,
+          603.1318359375
+        ],
+        [
+          238.232421875,
+          622.8662109375
+        ],
+        [
+          55.78125,
+          622.8662109375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.6.A1 Planung der Software-Tests (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          654.5234375
+        ],
+        [
+          325.9716796875,
+          654.5234375
+        ],
+        [
+          325.9716796875,
+          670.96875
+        ],
+        [
+          55.635986328125,
+          670.96875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.6.A2 Durchf\u00fchrung von funktionalen Software-Tests (B) [Testende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          161.061279296875
+        ],
+        [
+          516.5576171875,
+          161.061279296875
+        ],
+        [
+          516.5576171875,
+          178.534423828125
+        ],
+        [
+          55.926513671875,
+          178.534423828125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.6.A3 Auswertung der Testergebnisse (B) [Testende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          229.61767578125
+        ],
+        [
+          413.1298828125,
+          229.61767578125
+        ],
+        [
+          413.1298828125,
+          246.47412109375
+        ],
+        [
+          55.926513671875,
+          246.47412109375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.6.A4 Freigabe der Software (B) [Fachverantwortliche]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          285.53173828125
+        ],
+        [
+          429.98046875,
+          285.53173828125
+        ],
+        [
+          429.98046875,
+          301.56591796875
+        ],
+        [
+          55.926513671875,
+          301.56591796875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.6.A5 Durchf\u00fchrung von Software-Tests f\u00fcr nicht funktionale \nAnforderungen (B) [Testende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          411.955078125
+        ],
+        [
+          482.56591796875,
+          411.955078125
+        ],
+        [
+          482.56591796875,
+          445.66796875
+        ],
+        [
+          55.78125,
+          445.66796875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.6.A11 Verwendung von anonymisierten oder pseudonymisierten \nTestdaten (B) [Datenschutzbeauftragte, Testende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          511.0380859375
+        ],
+        [
+          507.841796875,
+          511.0380859375
+        ],
+        [
+          507.841796875,
+          543.4649047851562
+        ],
+        [
+          55.78125,
+          543.4649047851562
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.8538818359375,
+          641.7783203125
+        ],
+        [
+          265.83251953125,
+          641.7783203125
+        ],
+        [
+          265.83251953125,
+          660.6904296875
+        ],
+        [
+          55.8538818359375,
+          660.6904296875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.6.A6 Geordnete Einweisung der Software-Testenden (S) \n[Fachverantwortliche]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.217041015625,
+          705.0927734375
+        ],
+        [
+          446.25,
+          705.0927734375
+        ],
+        [
+          446.25,
+          737.8649215698242
+        ],
+        [
+          56.217041015625,
+          737.8649215698242
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.6.A7 Personalauswahl der Software-Testenden (S) [Personalabteilung, \nFachverantwortliche]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          89.2158203125
+        ],
+        [
+          532.24609375,
+          89.2158203125
+        ],
+        [
+          532.24609375,
+          122.31201171875
+        ],
+        [
+          55.926513671875,
+          122.31201171875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.6.A8 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.3623046875,
+          219.33935546875
+        ],
+        [
+          231.259765625,
+          219.33935546875
+        ],
+        [
+          231.259765625,
+          236.60693359375
+        ],
+        [
+          56.3623046875,
+          236.60693359375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.6.A9 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          262.7138671875
+        ],
+        [
+          230.96923828125,
+          262.7138671875
+        ],
+        [
+          230.96923828125,
+          278.748046875
+        ],
+        [
+          55.926513671875,
+          278.748046875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.6.A10 Erstellung eines Abnahmeplans (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          304.44384765625
+        ],
+        [
+          354.73388671875,
+          304.44384765625
+        ],
+        [
+          354.73388671875,
+          320.25909423828125
+        ],
+        [
+          56.07177734375,
+          320.25909423828125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.6.A12 Durchf\u00fchrung von Regressionstests (S) [Testende]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          385.84814453125
+        ],
+        [
+          447.9931640625,
+          385.84814453125
+        ],
+        [
+          447.9931640625,
+          402.29345703125
+        ],
+        [
+          55.78125,
+          402.29345703125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.6.A13 Trennung der Testumgebung von der Produktivumgebung (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          493.7705078125
+        ],
+        [
+          523.5302734375,
+          493.7705078125
+        ],
+        [
+          523.5302734375,
+          510.2158203125
+        ],
+        [
+          55.635986328125,
+          510.2158203125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.6.A15 \u00dcberpr\u00fcfung der Installation und zugeh\u00f6rigen Dokumentation \n(S) [Testende]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          589.1533203125
+        ],
+        [
+          532.369873046875,
+          589.1533203125
+        ],
+        [
+          532.369873046875,
+          621.4649353027344
+        ],
+        [
+          55.926513671875,
+          621.4649353027344
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          680.4248046875
+        ],
+        [
+          392.79296875,
+          680.4248046875
+        ],
+        [
+          392.79296875,
+          699.3369140625
+        ],
+        [
+          56.07177734375,
+          699.3369140625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.6.A14 Durchf\u00fchrung von Penetrationstests (H) [Testende]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          55.8626708984375
+        ],
+        [
+          456.1279296875,
+          55.8626708984375
+        ],
+        [
+          456.1279296875,
+          73.2330322265625
+        ],
+        [
+          55.49072265625,
+          73.2330322265625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.6.A16 Sicherheits\u00fcberpr\u00fcfung der Testenden (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          183.7763671875
+        ],
+        [
+          402.6708984375,
+          183.7763671875
+        ],
+        [
+          402.6708984375,
+          201.24951171875
+        ],
+        [
+          55.78125,
+          201.24951171875
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.7086181640625,
+          284.9150390625
+        ],
+        [
+          335.55908203125,
+          284.9150390625
+        ],
+        [
+          335.55908203125,
+          307.52734375
+        ],
+        [
+          55.7086181640625,
+          307.52734375
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.96282958984375,
+          318.83349609375
+        ],
+        [
+          191.1669921875,
+          318.83349609375
+        ],
+        [
+          191.1669921875,
+          337.33447265625
+        ],
+        [
+          55.96282958984375,
+          337.33447265625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          69
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          130
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/OPS_1_1_6_Software_Tests_und_Freigaben_Edition_2023"
+}

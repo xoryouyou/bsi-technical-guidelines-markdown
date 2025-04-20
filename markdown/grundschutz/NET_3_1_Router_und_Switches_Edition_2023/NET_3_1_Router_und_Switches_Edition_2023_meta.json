@@ -1,0 +1,1407 @@
+{
+  "table_of_contents": [
+    {
+      "title": "NET.3.1 Router und Switches",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.49072265625,
+          202.174560546875
+        ],
+        [
+          463.681640625,
+          202.174560546875
+        ],
+        [
+          463.681640625,
+          239.279296875
+        ],
+        [
+          55.49072265625,
+          239.279296875
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          274.43115234375
+        ],
+        [
+          195.234375,
+          274.43115234375
+        ],
+        [
+          195.234375,
+          297.86572265625
+        ],
+        [
+          55.96282958984375,
+          297.86572265625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.07177734375,
+          309.171875
+        ],
+        [
+          161.533203125,
+          309.171875
+        ],
+        [
+          161.533203125,
+          328.4951171875
+        ],
+        [
+          56.07177734375,
+          328.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.81756591796875,
+          562.0185546875
+        ],
+        [
+          169.2537384033203,
+          562.0185546875
+        ],
+        [
+          169.2537384033203,
+          581.7529296875
+        ],
+        [
+          55.81756591796875,
+          581.7529296875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          618.34375
+        ],
+        [
+          303.310546875,
+          618.34375
+        ],
+        [
+          303.310546875,
+          638.078125
+        ],
+        [
+          55.8538818359375,
+          638.078125
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.4180908203125,
+          297.86572265625
+        ],
+        [
+          220.80078125,
+          297.86572265625
+        ],
+        [
+          220.80078125,
+          319.65576171875
+        ],
+        [
+          55.4180908203125,
+          319.65576171875
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Distributed Denial of Service (DDoS)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.4180908203125,
+          395.71533203125
+        ],
+        [
+          341.66015625,
+          395.71533203125
+        ],
+        [
+          341.66015625,
+          415.86083984375
+        ],
+        [
+          55.4180908203125,
+          415.86083984375
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Manipulation",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          492.537109375
+        ],
+        [
+          184.339599609375,
+          492.537109375
+        ],
+        [
+          184.339599609375,
+          511.44921875
+        ],
+        [
+          55.635986328125,
+          511.44921875
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Fehlerhafte Konfiguration eines Routers oder Switches",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          588.3310546875
+        ],
+        [
+          471.2353515625,
+          588.3310546875
+        ],
+        [
+          471.2353515625,
+          608.0654296875
+        ],
+        [
+          55.635986328125,
+          608.0654296875
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Fehlerhafte Planung und Konzeption",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          697.6923828125
+        ],
+        [
+          347.470703125,
+          697.6923828125
+        ],
+        [
+          347.470703125,
+          717.4267578125
+        ],
+        [
+          55.635986328125,
+          717.4267578125
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Inkompatible aktive Netzkomponenten",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          94.9202880859375
+        ],
+        [
+          367.51708984375,
+          94.9202880859375
+        ],
+        [
+          367.51708984375,
+          114.294921875
+        ],
+        [
+          55.78125,
+          114.294921875
+        ]
+      ]
+    },
+    {
+      "title": "2.6. MAC-Flooding",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.59967041015625,
+          204.94970703125
+        ],
+        [
+          192.03857421875,
+          204.94970703125
+        ],
+        [
+          192.03857421875,
+          224.27294921875
+        ],
+        [
+          55.59967041015625,
+          224.27294921875
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Spanning-Tree-Angriffe",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.4180908203125,
+          299.92138671875
+        ],
+        [
+          256.2451171875,
+          299.92138671875
+        ],
+        [
+          256.2451171875,
+          320.06689453125
+        ],
+        [
+          55.4180908203125,
+          320.06689453125
+        ]
+      ]
+    },
+    {
+      "title": "2.8. GARP-Attacken",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          422.64453125
+        ],
+        [
+          199.59373474121094,
+          422.64453125
+        ],
+        [
+          199.59373474121094,
+          442.37890625
+        ],
+        [
+          55.345458984375,
+          442.37890625
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          545.162109375
+        ],
+        [
+          208.30810546875,
+          545.162109375
+        ],
+        [
+          208.30810546875,
+          568.185546875
+        ],
+        [
+          55.635986328125,
+          568.185546875
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          56.6849365234375
+        ],
+        [
+          238.377685546875,
+          56.6849365234375
+        ],
+        [
+          238.377685546875,
+          76.9332275390625
+        ],
+        [
+          55.926513671875,
+          76.9332275390625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A1 Sichere Grundkonfiguration eines Routers oder Switches (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          107.10009765625
+        ],
+        [
+          498.544921875,
+          107.10009765625
+        ],
+        [
+          498.544921875,
+          124.162109375
+        ],
+        [
+          55.49072265625,
+          124.162109375
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A2 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.9991455078125,
+          365.29150390625
+        ],
+        [
+          224.57763671875,
+          365.29150390625
+        ],
+        [
+          224.57763671875,
+          382.14794921875
+        ],
+        [
+          55.9991455078125,
+          382.14794921875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A3 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          407.84375
+        ],
+        [
+          223.41552734375,
+          407.84375
+        ],
+        [
+          223.41552734375,
+          423.8779296875
+        ],
+        [
+          55.926513671875,
+          423.8779296875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A4 Schutz der Administrationsschnittstellen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          449.779296875
+        ],
+        [
+          398.603515625,
+          449.779296875
+        ],
+        [
+          398.603515625,
+          465.45904541015625
+        ],
+        [
+          55.635986328125,
+          465.45904541015625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A5 Schutz vor Fragmentierungsangriffen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          661.923828125
+        ],
+        [
+          379.13818359375,
+          661.923828125
+        ],
+        [
+          379.13818359375,
+          678.369140625
+        ],
+        [
+          55.78125,
+          678.369140625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A6 Notfallzugriff auf Router und Switches (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          717.4267578125
+        ],
+        [
+          385.8203125,
+          717.4267578125
+        ],
+        [
+          385.8203125,
+          733.8720703125
+        ],
+        [
+          55.78125,
+          733.8720703125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A7 Protokollierung bei Routern und Switches (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          54.90966796875,
+          55.9140625
+        ],
+        [
+          407.900390625,
+          55.9140625
+        ],
+        [
+          407.900390625,
+          73.489990234375
+        ],
+        [
+          54.90966796875,
+          73.489990234375
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A8 Regelm\u00e4\u00dfige Datensicherung (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          210.0888671875
+        ],
+        [
+          327.1337890625,
+          210.0888671875
+        ],
+        [
+          327.1337890625,
+          227.25909423828125
+        ],
+        [
+          55.635986328125,
+          227.25909423828125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A9 Betriebsdokumentationen (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          266.4140625
+        ],
+        [
+          309.99267578125,
+          266.4140625
+        ],
+        [
+          309.99267578125,
+          282.859375
+        ],
+        [
+          55.78125,
+          282.859375
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          341.240234375
+        ],
+        [
+          266.123046875,
+          341.240234375
+        ],
+        [
+          266.123046875,
+          359.330078125
+        ],
+        [
+          55.78125,
+          359.330078125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A10 Erstellung einer Sicherheitsrichtlinie (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          404.5546875
+        ],
+        [
+          380.5908203125,
+          404.5546875
+        ],
+        [
+          380.5908203125,
+          421.0
+        ],
+        [
+          55.635986328125,
+          421.0
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A11 Beschaffung eines Routers oder Switches (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          538.583984375
+        ],
+        [
+          402.96142578125,
+          538.583984375
+        ],
+        [
+          402.96142578125,
+          555.029296875
+        ],
+        [
+          55.78125,
+          555.029296875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A12 Erstellung einer Konfigurations-Checkliste f\u00fcr Router und \nSwitches (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          632.7333984375
+        ],
+        [
+          495.05859375,
+          632.7333984375
+        ],
+        [
+          495.05859375,
+          666.3449249267578
+        ],
+        [
+          55.926513671875,
+          666.3449249267578
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A13 Administration \u00fcber ein gesondertes Managementnetz (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          732.2275390625
+        ],
+        [
+          488.37646484375,
+          732.2275390625
+        ],
+        [
+          488.37646484375,
+          748.6728515625
+        ],
+        [
+          56.07177734375,
+          748.6728515625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A14 Schutz vor Missbrauch von ICMP-Nachrichten (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          115.631103515625
+        ],
+        [
+          439.8583984375,
+          115.631103515625
+        ],
+        [
+          439.8583984375,
+          131.870849609375
+        ],
+        [
+          55.635986328125,
+          131.870849609375
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A15 Bogon- und Spoofing-Filterung (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.5633544921875,
+          157.66943359375
+        ],
+        [
+          347.18017578125,
+          157.66943359375
+        ],
+        [
+          347.18017578125,
+          174.52587890625
+        ],
+        [
+          55.5633544921875,
+          174.52587890625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A16 Schutz vor \"IPv6 Routing Header Type-0\"-Angriffen (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          212.76123046875
+        ],
+        [
+          473.85009765625,
+          212.76123046875
+        ],
+        [
+          473.85009765625,
+          230.02880859375
+        ],
+        [
+          55.78125,
+          230.02880859375
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A17 Schutz vor DoS- und DDoS-Angriffen (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          267.85302734375
+        ],
+        [
+          382.333984375,
+          267.85302734375
+        ],
+        [
+          382.333984375,
+          284.70947265625
+        ],
+        [
+          55.926513671875,
+          284.70947265625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A18 Einrichtung von Access Control Lists (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          323.5615234375
+        ],
+        [
+          378.2666015625,
+          323.5615234375
+        ],
+        [
+          378.2666015625,
+          340.0068359375
+        ],
+        [
+          55.635986328125,
+          340.0068359375
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A19 Sicherung von Switch-Ports (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.7086181640625,
+          417.2998046875
+        ],
+        [
+          324.8095703125,
+          417.2998046875
+        ],
+        [
+          324.8095703125,
+          434.259033203125
+        ],
+        [
+          55.7086181640625,
+          434.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A20 Sicherheitsaspekte von Routing-Protokollen (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          460.0576171875
+        ],
+        [
+          425.9130859375,
+          460.0576171875
+        ],
+        [
+          425.9130859375,
+          476.259033203125
+        ],
+        [
+          55.926513671875,
+          476.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A21 Identit\u00e4ts- und Berechtigungsmanagement in der \nNetzinfrastruktur (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.217041015625,
+          573.94140625
+        ],
+        [
+          439.8548278808594,
+          573.94140625
+        ],
+        [
+          439.8548278808594,
+          607.0649261474609
+        ],
+        [
+          56.217041015625,
+          607.0649261474609
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A22 Notfallvorsorge bei Routern und Switches (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          646.30078125
+        ],
+        [
+          409.35302734375,
+          646.30078125
+        ],
+        [
+          409.35302734375,
+          662.74609375
+        ],
+        [
+          55.49072265625,
+          662.74609375
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A23 Revision und Penetrationstests (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.8538818359375,
+          88.907470703125
+        ],
+        [
+          343.11279296875,
+          88.907470703125
+        ],
+        [
+          343.11279296875,
+          106.380615234375
+        ],
+        [
+          55.8538818359375,
+          106.380615234375
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.926513671875,
+          190.251708984375
+        ],
+        [
+          392.79296875,
+          190.251708984375
+        ],
+        [
+          392.79296875,
+          209.574951171875
+        ],
+        [
+          55.926513671875,
+          209.574951171875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A24 Einsatz von Netzzugangskontrollen (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.07177734375,
+          280.392578125
+        ],
+        [
+          373.90869140625,
+          280.392578125
+        ],
+        [
+          373.90869140625,
+          296.4267578125
+        ],
+        [
+          56.07177734375,
+          296.4267578125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A25 Erweiterter Integrit\u00e4tsschutz f\u00fcr die Konfigurationsdateien (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.07177734375,
+          347.818359375
+        ],
+        [
+          520.33447265625,
+          347.818359375
+        ],
+        [
+          520.33447265625,
+          365.0859375
+        ],
+        [
+          56.07177734375,
+          365.0859375
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A26 Hochverf\u00fcgbarkeit (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          403.11572265625
+        ],
+        [
+          273.095703125,
+          403.11572265625
+        ],
+        [
+          273.095703125,
+          419.97216796875
+        ],
+        [
+          55.78125,
+          419.97216796875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A27 Bandbreitenmanagement f\u00fcr kritische Anwendungen und \nDienste (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          485.958984375
+        ],
+        [
+          493.48590087890625,
+          485.958984375
+        ],
+        [
+          493.48590087890625,
+          518.2649230957031
+        ],
+        [
+          55.78125,
+          518.2649230957031
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.1.A28 Einsatz von zertifizierten Produkten (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          557.49609375
+        ],
+        [
+          380.009765625,
+          557.49609375
+        ],
+        [
+          380.009765625,
+          573.94140625
+        ],
+        [
+          55.78125,
+          573.94140625
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.345458984375,
+          619.166015625
+        ],
+        [
+          335.849609375,
+          619.166015625
+        ],
+        [
+          335.849609375,
+          640.544921875
+        ],
+        [
+          55.345458984375,
+          640.544921875
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.2728271484375,
+          652.87890625
+        ],
+        [
+          190.87646484375,
+          652.87890625
+        ],
+        [
+          190.87646484375,
+          670.96875
+        ],
+        [
+          55.2728271484375,
+          670.96875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          72
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          131
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          17
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/NET_3_1_Router_und_Switches_Edition_2023"
+}

@@ -1,0 +1,1174 @@
+{
+  "table_of_contents": [
+    {
+      "title": "DER.2.1 Behandlung von \nSicherheitsvorf\u00e4llen",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.217041015625,
+          200.941162109375
+        ],
+        [
+          408.25018310546875,
+          200.941162109375
+        ],
+        [
+          408.25018310546875,
+          277.103515625
+        ],
+        [
+          56.217041015625,
+          277.103515625
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.61651611328125,
+          313.6943359375
+        ],
+        [
+          194.36279296875,
+          313.6943359375
+        ],
+        [
+          194.36279296875,
+          336.7177734375
+        ],
+        [
+          56.61651611328125,
+          336.7177734375
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.1444091796875,
+          347.4072265625
+        ],
+        [
+          160.66162109375,
+          347.4072265625
+        ],
+        [
+          160.66162109375,
+          367.9638671875
+        ],
+        [
+          56.1444091796875,
+          367.9638671875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.9991455078125,
+          619.98828125
+        ],
+        [
+          169.2537384033203,
+          619.98828125
+        ],
+        [
+          169.2537384033203,
+          639.72265625
+        ],
+        [
+          55.9991455078125,
+          639.72265625
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.9991455078125,
+          689.4697265625
+        ],
+        [
+          303.8916015625,
+          689.4697265625
+        ],
+        [
+          303.8916015625,
+          710.0263671875
+        ],
+        [
+          55.9991455078125,
+          710.0263671875
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2728271484375,
+          174.11474609375
+        ],
+        [
+          220.80078125,
+          174.11474609375
+        ],
+        [
+          220.80078125,
+          195.90478515625
+        ],
+        [
+          55.2728271484375,
+          195.90478515625
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Ungeeigneter Umgang mit Sicherheitsvorf\u00e4llen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2001953125,
+          272.5810546875
+        ],
+        [
+          418.06884765625,
+          272.5810546875
+        ],
+        [
+          418.06884765625,
+          291.904296875
+        ],
+        [
+          55.2001953125,
+          291.904296875
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Zerst\u00f6rung von Beweisspuren bei der Behandlung von \nSicherheitsvorf\u00e4llen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          685.3583984375
+        ],
+        [
+          468.9111328125,
+          685.3583984375
+        ],
+        [
+          468.9111328125,
+          722.6553802490234
+        ],
+        [
+          55.635986328125,
+          722.6553802490234
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.2728271484375,
+          313.6943359375
+        ],
+        [
+          209.7607421875,
+          313.6943359375
+        ],
+        [
+          209.7607421875,
+          334.2509765625
+        ],
+        [
+          55.2728271484375,
+          334.2509765625
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          576.408203125
+        ],
+        [
+          237.506103515625,
+          576.408203125
+        ],
+        [
+          237.506103515625,
+          596.142578125
+        ],
+        [
+          55.926513671875,
+          596.142578125
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A1 Definition eines Sicherheitsvorfalls (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.217041015625,
+          626.9775390625
+        ],
+        [
+          364.3212890625,
+          626.9775390625
+        ],
+        [
+          364.3212890625,
+          643.4228515625
+        ],
+        [
+          56.217041015625,
+          643.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A2 Erstellung einer Richtlinie zur Behandlung von \nSicherheitsvorf\u00e4llen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          55.605712890625
+        ],
+        [
+          418.9404296875,
+          55.605712890625
+        ],
+        [
+          418.9404296875,
+          90.24365234375
+        ],
+        [
+          55.49072265625,
+          90.24365234375
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A3 Festlegung von Verantwortlichkeiten und Ansprechpersonen bei \nSicherheitsvorf\u00e4llen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          227.3564453125
+        ],
+        [
+          527.59765625,
+          227.3564453125
+        ],
+        [
+          527.59765625,
+          260.658203125
+        ],
+        [
+          55.926513671875,
+          260.658203125
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A4 Benachrichtigung betroffener Stellen bei Sicherheitsvorf\u00e4llen (B) \n[Institutionsleitung, IT-Betrieb, Datenschutzbeauftragte, Notfallbeauftragte]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          397.35986328125
+        ],
+        [
+          527.59765625,
+          397.35986328125
+        ],
+        [
+          527.59765625,
+          430.8671875
+        ],
+        [
+          55.78125,
+          430.8671875
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A5 Behebung von Sicherheitsvorf\u00e4llen (B) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          522.5498046875
+        ],
+        [
+          435.791015625,
+          522.5498046875
+        ],
+        [
+          435.791015625,
+          539.8173828125
+        ],
+        [
+          55.49072265625,
+          539.8173828125
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A6 Wiederherstellung der Betriebsumgebung nach \nSicherheitsvorf\u00e4llen (B) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          675.4912109375
+        ],
+        [
+          420.19439697265625,
+          675.4912109375
+        ],
+        [
+          420.19439697265625,
+          709.2041015625
+        ],
+        [
+          55.926513671875,
+          709.2041015625
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.9991455078125,
+          206.902587890625
+        ],
+        [
+          266.41357421875,
+          206.902587890625
+        ],
+        [
+          266.41357421875,
+          226.5341796875
+        ],
+        [
+          55.9991455078125,
+          226.5341796875
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A7 Etablierung einer Vorgehensweise zur Behandlung von \nSicherheitsvorf\u00e4llen (S) [Institutionsleitung]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          270.525390625
+        ],
+        [
+          467.16796875,
+          270.525390625
+        ],
+        [
+          467.16796875,
+          304.23828125
+        ],
+        [
+          55.635986328125,
+          304.23828125
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A8 Aufbau von Organisationsstrukturen zur Behandlung von \nSicherheitsvorf\u00e4llen (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          395.509765625
+        ],
+        [
+          484.599609375,
+          395.509765625
+        ],
+        [
+          484.599609375,
+          428.400390625
+        ],
+        [
+          55.635986328125,
+          428.400390625
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A9 Festlegung von Meldewegen f\u00fcr Sicherheitsvorf\u00e4lle (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          533.2392578125
+        ],
+        [
+          462.22900390625,
+          533.2392578125
+        ],
+        [
+          462.22900390625,
+          550.5068359375
+        ],
+        [
+          55.78125,
+          550.5068359375
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A10 Eind\u00e4mmen der Auswirkung von Sicherheitsvorf\u00e4llen (S) \n[Notfallbeauftragte, IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          705.0927734375
+        ],
+        [
+          486.63330078125,
+          705.0927734375
+        ],
+        [
+          486.63330078125,
+          739.6279296875
+        ],
+        [
+          55.78125,
+          739.6279296875
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A11 Einstufung von Sicherheitsvorf\u00e4llen (S) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.345458984375,
+          88.6505126953125
+        ],
+        [
+          450.3173828125,
+          88.6505126953125
+        ],
+        [
+          450.3173828125,
+          106.27783203125
+        ],
+        [
+          55.345458984375,
+          106.27783203125
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A12 Festlegung der Schnittstellen der Sicherheitsvorfallbehandlung \nzur St\u00f6rungs- und Fehlerbehebung (S) [Notfallbeauftragte]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          171.4423828125
+        ],
+        [
+          525.2734375,
+          171.4423828125
+        ],
+        [
+          525.2734375,
+          203.921875
+        ],
+        [
+          55.78125,
+          203.921875
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A13 Einbindung in das Sicherheits- und Notfallmanagement (S) \n[Notfallbeauftragte]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          315.13330078125
+        ],
+        [
+          497.3828125,
+          315.13330078125
+        ],
+        [
+          497.3828125,
+          348.02392578125
+        ],
+        [
+          55.78125,
+          348.02392578125
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A14 Eskalationsstrategie f\u00fcr Sicherheitsvorf\u00e4lle (S) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          399.41552734375
+        ],
+        [
+          490.9912109375,
+          399.41552734375
+        ],
+        [
+          490.9912109375,
+          416.68310546875
+        ],
+        [
+          55.49072265625,
+          416.68310546875
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A15 Schulung der Mitarbeitenden des Service Desks (S) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          630.677734375
+        ],
+        [
+          518.01025390625,
+          630.677734375
+        ],
+        [
+          518.01025390625,
+          647.9453125
+        ],
+        [
+          55.49072265625,
+          647.9453125
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A16 Dokumentation der Behebung von Sicherheitsvorf\u00e4llen (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          713.3154296875
+        ],
+        [
+          494.4775390625,
+          713.3154296875
+        ],
+        [
+          494.4775390625,
+          729.7607421875
+        ],
+        [
+          55.78125,
+          729.7607421875
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A17 Nachbereitung von Sicherheitsvorf\u00e4llen (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.07177734375,
+          135.05712890625
+        ],
+        [
+          399.47509765625,
+          135.05712890625
+        ],
+        [
+          399.47509765625,
+          151.91357421875
+        ],
+        [
+          56.07177734375,
+          151.91357421875
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A18 Weiterentwicklung der Prozesse durch Erkenntnisse aus \nSicherheitsvorf\u00e4llen und Branchenentwicklungen (S) [Fachverantwortliche]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          321.0947265625
+        ],
+        [
+          524.111328125,
+          321.0947265625
+        ],
+        [
+          524.111328125,
+          354.8076171875
+        ],
+        [
+          55.78125,
+          354.8076171875
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          489.6591796875
+        ],
+        [
+          392.2119140625,
+          489.6591796875
+        ],
+        [
+          392.2119140625,
+          509.3935546875
+        ],
+        [
+          55.49072265625,
+          509.3935546875
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A19 Festlegung von Priorit\u00e4ten f\u00fcr die Behandlung von \nSicherheitsvorf\u00e4llen (H) [Institutionsleitung]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.926513671875,
+          579.697265625
+        ],
+        [
+          449.1552734375,
+          579.697265625
+        ],
+        [
+          449.1552734375,
+          613.41015625
+        ],
+        [
+          55.926513671875,
+          613.41015625
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A20 Einrichtung einer dedizierten Meldestelle f\u00fcr Sicherheitsvorf\u00e4lle \n(H)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.635986328125,
+          54.88623046875
+        ],
+        [
+          533.408203125,
+          54.88623046875
+        ],
+        [
+          533.408203125,
+          90.24365234375
+        ],
+        [
+          55.635986328125,
+          90.24365234375
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A21 Einrichtung eines Teams von Fachleuten f\u00fcr die Behandlung von \nSicherheitsvorf\u00e4llen (H)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.926513671875,
+          181.720703125
+        ],
+        [
+          533.6773681640625,
+          181.720703125
+        ],
+        [
+          533.6773681640625,
+          214.66497802734375
+        ],
+        [
+          55.926513671875,
+          214.66497802734375
+        ]
+      ]
+    },
+    {
+      "title": "DER.2.1.A22 \u00dcberpr\u00fcfung der Effizienz des Managementsystems zur \nBehandlung von Sicherheitsvorf\u00e4llen (H)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          437.4453125
+        ],
+        [
+          477.0458984375,
+          437.4453125
+        ],
+        [
+          477.0458984375,
+          470.3359375
+        ],
+        [
+          55.78125,
+          470.3359375
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.926513671875,
+          587.5087890625
+        ],
+        [
+          335.2685546875,
+          587.5087890625
+        ],
+        [
+          335.2685546875,
+          608.8876953125
+        ],
+        [
+          55.926513671875,
+          608.8876953125
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.03546142578125,
+          620.810546875
+        ],
+        [
+          190.150146484375,
+          620.810546875
+        ],
+        [
+          190.150146484375,
+          639.72265625
+        ],
+        [
+          56.03546142578125,
+          639.72265625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          76
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          122
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          25
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/DER_2_1_Behandlung_von_Sicherheitsvorfaellen_Edition_2023"
+}

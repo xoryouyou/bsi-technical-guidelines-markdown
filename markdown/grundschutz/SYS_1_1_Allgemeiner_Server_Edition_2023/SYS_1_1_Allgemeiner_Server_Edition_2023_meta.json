@@ -1,0 +1,1723 @@
+{
+  "table_of_contents": [
+    {
+      "title": "SYS.1.1 Allgemeiner Server",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.635986328125,
+          201.146728515625
+        ],
+        [
+          434.0478515625,
+          201.146728515625
+        ],
+        [
+          434.0478515625,
+          241.3349609375
+        ],
+        [
+          55.635986328125,
+          241.3349609375
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.10809326171875,
+          274.43115234375
+        ],
+        [
+          194.36279296875,
+          274.43115234375
+        ],
+        [
+          194.36279296875,
+          298.27685546875
+        ],
+        [
+          56.10809326171875,
+          298.27685546875
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          308.96630859375
+        ],
+        [
+          160.9521484375,
+          308.96630859375
+        ],
+        [
+          160.9521484375,
+          328.70068359375
+        ],
+        [
+          55.96282958984375,
+          328.70068359375
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.81756591796875,
+          457.1796875
+        ],
+        [
+          169.2537384033203,
+          457.1796875
+        ],
+        [
+          169.2537384033203,
+          477.736328125
+        ],
+        [
+          55.81756591796875,
+          477.736328125
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.78125,
+          527.072265625
+        ],
+        [
+          303.310546875,
+          527.072265625
+        ],
+        [
+          303.310546875,
+          547.62890625
+        ],
+        [
+          55.78125,
+          547.62890625
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          264.3583984375
+        ],
+        [
+          221.236572265625,
+          264.3583984375
+        ],
+        [
+          221.236572265625,
+          286.5595703125
+        ],
+        [
+          55.49072265625,
+          286.5595703125
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Unzureichende Planung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.5633544921875,
+          363.23583984375
+        ],
+        [
+          256.53564453125,
+          363.23583984375
+        ],
+        [
+          256.53564453125,
+          382.55908203125
+        ],
+        [
+          55.5633544921875,
+          382.55908203125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Fehlerhafte Administration von Servern",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          511.8603515625
+        ],
+        [
+          368.9697265625,
+          511.8603515625
+        ],
+        [
+          368.9697265625,
+          530.7724609375
+        ],
+        [
+          55.635986328125,
+          530.7724609375
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Unberechtigtes Erlangen oder Missbrauch von \nAdministrationsrechten",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          56.222412109375
+        ],
+        [
+          414.2919921875,
+          56.222412109375
+        ],
+        [
+          414.2919921875,
+          94.9716796875
+        ],
+        [
+          55.635986328125,
+          94.9716796875
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Datenverlust",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.8538818359375,
+          264.56396484375
+        ],
+        [
+          177.802734375,
+          264.56396484375
+        ],
+        [
+          177.802734375,
+          283.47607421875
+        ],
+        [
+          55.8538818359375,
+          283.47607421875
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Denial-of-Service-Angriffe",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          497.8818359375
+        ],
+        [
+          276.0009765625,
+          497.8818359375
+        ],
+        [
+          276.0009765625,
+          517.6162109375
+        ],
+        [
+          55.49072265625,
+          517.6162109375
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Bereitstellung unn\u00f6tiger Applikationen und Dienste",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          645.8896484375
+        ],
+        [
+          453.22265625,
+          645.8896484375
+        ],
+        [
+          453.22265625,
+          666.4462890625
+        ],
+        [
+          55.49072265625,
+          666.4462890625
+        ]
+      ]
+    },
+    {
+      "title": "2.7. \u00dcberlastung von Servern",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.2728271484375,
+          121.798095703125
+        ],
+        [
+          263.50830078125,
+          121.798095703125
+        ],
+        [
+          263.50830078125,
+          140.915771484375
+        ],
+        [
+          55.2728271484375,
+          140.915771484375
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          375.775390625
+        ],
+        [
+          209.47021484375,
+          375.775390625
+        ],
+        [
+          209.47021484375,
+          396.7431640625
+        ],
+        [
+          55.926513671875,
+          396.7431640625
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          626.1552734375
+        ],
+        [
+          238.668212890625,
+          626.1552734375
+        ],
+        [
+          238.668212890625,
+          645.0673828125
+        ],
+        [
+          55.78125,
+          645.0673828125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A1 Zugriffsschutz und Nutzung (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.7086181640625,
+          677.1357421875
+        ],
+        [
+          316.38427734375,
+          677.1357421875
+        ],
+        [
+          316.38427734375,
+          693.5810546875
+        ],
+        [
+          55.7086181640625,
+          693.5810546875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A2 Authentisierung an Servern (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          148.316162109375
+        ],
+        [
+          314.3505859375,
+          148.316162109375
+        ],
+        [
+          314.3505859375,
+          164.967041015625
+        ],
+        [
+          55.78125,
+          164.967041015625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A3 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.1444091796875,
+          229.412109375
+        ],
+        [
+          220.51025390625,
+          229.412109375
+        ],
+        [
+          220.51025390625,
+          245.85906982421875
+        ],
+        [
+          56.1444091796875,
+          245.85906982421875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A4 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.1444091796875,
+          272.169921875
+        ],
+        [
+          220.2197265625,
+          272.169921875
+        ],
+        [
+          220.2197265625,
+          288.2041015625
+        ],
+        [
+          56.1444091796875,
+          288.2041015625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A5 Schutz von Schnittstellen (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          313.6943359375
+        ],
+        [
+          299.82421875,
+          313.6943359375
+        ],
+        [
+          299.82421875,
+          330.1396484375
+        ],
+        [
+          55.635986328125,
+          330.1396484375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A6 Deaktivierung nicht ben\u00f6tigter Dienste (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          382.14794921875
+        ],
+        [
+          384.658203125,
+          382.14794921875
+        ],
+        [
+          384.658203125,
+          398.259033203125
+        ],
+        [
+          55.635986328125,
+          398.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A7 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.9991455078125,
+          528.716796875
+        ],
+        [
+          221.3818359375,
+          528.716796875
+        ],
+        [
+          221.3818359375,
+          544.6590270996094
+        ],
+        [
+          55.9991455078125,
+          544.6590270996094
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A8 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          571.0634765625
+        ],
+        [
+          221.3818359375,
+          571.0634765625
+        ],
+        [
+          221.3818359375,
+          586.6865234375
+        ],
+        [
+          56.07177734375,
+          586.6865234375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A9 Einsatz von Virenschutz-Programmen auf Servern (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          613.8212890625
+        ],
+        [
+          452.060546875,
+          613.8212890625
+        ],
+        [
+          452.060546875,
+          629.4443359375
+        ],
+        [
+          55.926513671875,
+          629.4443359375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A10 Protokollierung (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.217041015625,
+          707.5595703125
+        ],
+        [
+          249.998779296875,
+          707.5595703125
+        ],
+        [
+          249.998779296875,
+          724.0048828125
+        ],
+        [
+          56.217041015625,
+          724.0048828125
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.3623046875,
+          208.23876953125
+        ],
+        [
+          266.99462890625,
+          208.23876953125
+        ],
+        [
+          266.99462890625,
+          226.73974609375
+        ],
+        [
+          56.3623046875,
+          226.73974609375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A11 Festlegung einer Sicherheitsrichtlinie f\u00fcr Server (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          271.34765625
+        ],
+        [
+          443.05419921875,
+          271.34765625
+        ],
+        [
+          443.05419921875,
+          288.2041015625
+        ],
+        [
+          55.49072265625,
+          288.2041015625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A12 Planung des Server-Einsatzes (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          379.27001953125
+        ],
+        [
+          328.2958984375,
+          379.27001953125
+        ],
+        [
+          328.2958984375,
+          396.12646484375
+        ],
+        [
+          55.49072265625,
+          396.12646484375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A13 Beschaffung von Servern (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          670.96875
+        ],
+        [
+          302.43896484375,
+          670.96875
+        ],
+        [
+          302.43896484375,
+          688.236328125
+        ],
+        [
+          56.07177734375,
+          688.236328125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A14 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          727.2939453125
+        ],
+        [
+          227.918701171875,
+          727.2939453125
+        ],
+        [
+          227.918701171875,
+          743.7392578125
+        ],
+        [
+          56.07177734375,
+          743.7392578125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A15 Unterbrechungsfreie und stabile Stromversorgung (S) \n[Haustechnik]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.054931640625,
+          55.605712890625
+        ],
+        [
+          459.63690185546875,
+          55.605712890625
+        ],
+        [
+          459.63690185546875,
+          90.0380859375
+        ],
+        [
+          55.054931640625,
+          90.0380859375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A16 Sichere Installation und Grundkonfiguration von Servern (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.345458984375,
+          116.042236328125
+        ],
+        [
+          502.6123046875,
+          116.042236328125
+        ],
+        [
+          502.6123046875,
+          132.898681640625
+        ],
+        [
+          55.345458984375,
+          132.898681640625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A17 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.7086181640625,
+          399.62109375
+        ],
+        [
+          226.0302734375,
+          399.62109375
+        ],
+        [
+          226.0302734375,
+          416.4775390625
+        ],
+        [
+          55.7086181640625,
+          416.4775390625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A18 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.7086181640625,
+          441.9677734375
+        ],
+        [
+          225.44921875,
+          441.9677734375
+        ],
+        [
+          225.44921875,
+          458.4130859375
+        ],
+        [
+          55.7086181640625,
+          458.4130859375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A19 Einrichtung lokaler Paketfilter (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.5633544921875,
+          483.9033203125
+        ],
+        [
+          336.72119140625,
+          483.9033203125
+        ],
+        [
+          336.72119140625,
+          500.3486328125
+        ],
+        [
+          55.5633544921875,
+          500.3486328125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A20 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.07177734375,
+          579.2861328125
+        ],
+        [
+          226.466064453125,
+          579.2861328125
+        ],
+        [
+          226.466064453125,
+          595.7314453125
+        ],
+        [
+          56.07177734375,
+          595.7314453125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A21 Betriebsdokumentation f\u00fcr Server (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.07177734375,
+          621.6328125
+        ],
+        [
+          359.96337890625,
+          621.6328125
+        ],
+        [
+          359.96337890625,
+          638.078125
+        ],
+        [
+          56.07177734375,
+          638.078125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A22 Einbindung in die Notfallplanung (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          728.9384765625
+        ],
+        [
+          357.63916015625,
+          728.9384765625
+        ],
+        [
+          357.63916015625,
+          745.3837890625
+        ],
+        [
+          55.78125,
+          745.3837890625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A23 System\u00fcberwachung und Monitoring von Servern (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.926513671875,
+          89.0616455078125
+        ],
+        [
+          458.4521484375,
+          89.0616455078125
+        ],
+        [
+          458.4521484375,
+          106.175048828125
+        ],
+        [
+          55.926513671875,
+          106.175048828125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A24 Sicherheitspr\u00fcfungen f\u00fcr Server (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.217041015625,
+          171.23681640625
+        ],
+        [
+          348.0517578125,
+          171.23681640625
+        ],
+        [
+          348.0517578125,
+          187.8876953125
+        ],
+        [
+          56.217041015625,
+          187.8876953125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A25 Geregelte Au\u00dferbetriebnahme eines Servers (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.07177734375,
+          291.904296875
+        ],
+        [
+          418.359375,
+          291.904296875
+        ],
+        [
+          418.359375,
+          308.349609375
+        ],
+        [
+          56.07177734375,
+          308.349609375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A35 Erstellung und Pflege eines Betriebshandbuchs (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.926513671875,
+          431.689453125
+        ],
+        [
+          435.791015625,
+          431.689453125
+        ],
+        [
+          435.791015625,
+          448.6590270996094
+        ],
+        [
+          55.926513671875,
+          448.6590270996094
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A37 Kapselung von sicherheitskritischen Anwendungen und \nBetriebssystemkomponenten (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.217041015625,
+          540.228515625
+        ],
+        [
+          477.626953125,
+          540.228515625
+        ],
+        [
+          477.626953125,
+          573.94140625
+        ],
+        [
+          56.217041015625,
+          573.94140625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A39 Zentrale Verwaltung der Sicherheitsrichtlinien von Servern (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.49072265625,
+          678.7802734375
+        ],
+        [
+          513.94287109375,
+          678.7802734375
+        ],
+        [
+          513.94287109375,
+          695.2255859375
+        ],
+        [
+          55.49072265625,
+          695.2255859375
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.926513671875,
+          55.70849609375
+        ],
+        [
+          392.2119140625,
+          55.70849609375
+        ],
+        [
+          392.2119140625,
+          76.470703125
+        ],
+        [
+          55.926513671875,
+          76.470703125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A26 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.507568359375,
+          146.97998046875
+        ],
+        [
+          231.114501953125,
+          146.97998046875
+        ],
+        [
+          231.114501953125,
+          163.83642578125
+        ],
+        [
+          56.507568359375,
+          163.83642578125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A27 Hostbasierte Angriffserkennung (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.217041015625,
+          189.12109375
+        ],
+        [
+          351.5380859375,
+          189.12109375
+        ],
+        [
+          351.5380859375,
+          205.9775390625
+        ],
+        [
+          56.217041015625,
+          205.9775390625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A28 Steigerung der Verf\u00fcgbarkeit durch Redundanz (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          315.3388671875
+        ],
+        [
+          442.763671875,
+          315.3388671875
+        ],
+        [
+          442.763671875,
+          332.25909423828125
+        ],
+        [
+          55.78125,
+          332.25909423828125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A29 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.926513671875,
+          410.92724609375
+        ],
+        [
+          227.628173828125,
+          410.92724609375
+        ],
+        [
+          227.628173828125,
+          427.0590515136719
+        ],
+        [
+          55.926513671875,
+          427.0590515136719
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A30 Ein Dienst pro Server (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.635986328125,
+          452.6572265625
+        ],
+        [
+          283.699951171875,
+          452.6572265625
+        ],
+        [
+          283.699951171875,
+          469.1025390625
+        ],
+        [
+          55.635986328125,
+          469.1025390625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A31 Einsatz von Ausf\u00fchrungskontrolle (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.635986328125,
+          508.16015625
+        ],
+        [
+          363.1591796875,
+          508.16015625
+        ],
+        [
+          363.1591796875,
+          524.60546875
+        ],
+        [
+          55.635986328125,
+          524.60546875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A32 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          56.1444091796875,
+          589.564453125
+        ],
+        [
+          229.5166015625,
+          589.564453125
+        ],
+        [
+          229.5166015625,
+          606.009765625
+        ],
+        [
+          56.1444091796875,
+          606.009765625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A33 Aktive Verwaltung der Wurzelzertifikate (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          631.0888671875
+        ],
+        [
+          402.6708984375,
+          631.0888671875
+        ],
+        [
+          402.6708984375,
+          647.8590545654297
+        ],
+        [
+          55.78125,
+          647.8590545654297
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A34 Festplattenverschl\u00fcsselung (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.4180908203125,
+          56.016845703125
+        ],
+        [
+          321.03271484375,
+          56.016845703125
+        ],
+        [
+          321.03271484375,
+          73.078857421875
+        ],
+        [
+          55.4180908203125,
+          73.078857421875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A36 Absicherung des Bootvorgangs (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.78125,
+          164.8642578125
+        ],
+        [
+          341.36962890625,
+          164.8642578125
+        ],
+        [
+          341.36962890625,
+          182.1318359375
+        ],
+        [
+          55.78125,
+          182.1318359375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.1.1.A38 H\u00e4rtung des Host-Systems mittels Read-Only-Dateisystem (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.635986328125,
+          233.31787109375
+        ],
+        [
+          512.490234375,
+          233.31787109375
+        ],
+        [
+          512.490234375,
+          249.45904541015625
+        ],
+        [
+          55.635986328125,
+          249.45904541015625
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.49072265625,
+          294.98779296875
+        ],
+        [
+          336.14013671875,
+          294.98779296875
+        ],
+        [
+          336.14013671875,
+          315.54443359375
+        ],
+        [
+          55.49072265625,
+          315.54443359375
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.926513671875,
+          329.3173828125
+        ],
+        [
+          191.1669921875,
+          329.3173828125
+        ],
+        [
+          191.1669921875,
+          346.45550537109375
+        ],
+        [
+          55.926513671875,
+          346.45550537109375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          77
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          126
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          125
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "ListItem",
+          15
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          47
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/SYS_1_1_Allgemeiner_Server_Edition_2023"
+}

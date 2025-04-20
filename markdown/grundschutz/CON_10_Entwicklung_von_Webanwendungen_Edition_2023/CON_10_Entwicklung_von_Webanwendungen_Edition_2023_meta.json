@@ -1,0 +1,1115 @@
+{
+  "table_of_contents": [
+    {
+      "title": "CON.10 Entwicklung von \nWebanwendungen",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.635986328125,
+          200.6328125
+        ],
+        [
+          415.30853271484375,
+          200.6328125
+        ],
+        [
+          415.30853271484375,
+          276.5596923828125
+        ],
+        [
+          55.635986328125,
+          276.5596923828125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.2896728515625,
+          314.10546875
+        ],
+        [
+          194.6533203125,
+          314.10546875
+        ],
+        [
+          194.6533203125,
+          336.7177734375
+        ],
+        [
+          56.2896728515625,
+          336.7177734375
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.03546142578125,
+          347.4072265625
+        ],
+        [
+          160.806884765625,
+          347.4072265625
+        ],
+        [
+          160.806884765625,
+          367.9638671875
+        ],
+        [
+          56.03546142578125,
+          367.9638671875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.9991455078125,
+          574.3525390625
+        ],
+        [
+          169.2537384033203,
+          574.3525390625
+        ],
+        [
+          169.2537384033203,
+          594.9091796875
+        ],
+        [
+          55.9991455078125,
+          594.9091796875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.07177734375,
+          643.833984375
+        ],
+        [
+          303.310546875,
+          643.833984375
+        ],
+        [
+          303.310546875,
+          664.390625
+        ],
+        [
+          56.07177734375,
+          664.390625
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.78125,
+          95.3314208984375
+        ],
+        [
+          222.398681640625,
+          95.3314208984375
+        ],
+        [
+          222.398681640625,
+          117.481201171875
+        ],
+        [
+          55.78125,
+          117.481201171875
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Umgehung der Autorisierung bei Webanwendungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          192.924072265625
+        ],
+        [
+          455.546875,
+          192.924072265625
+        ],
+        [
+          455.546875,
+          212.5556640625
+        ],
+        [
+          55.345458984375,
+          212.5556640625
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Unzureichende Eingabevalidierung und Ausgabekodierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          302.79931640625
+        ],
+        [
+          503.7744140625,
+          302.79931640625
+        ],
+        [
+          503.7744140625,
+          322.12255859375
+        ],
+        [
+          55.635986328125,
+          322.12255859375
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Fehlende oder mangelhafte Fehlerbehandlung durch \nWebanwendungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          438.267578125
+        ],
+        [
+          459.90478515625,
+          438.267578125
+        ],
+        [
+          459.90478515625,
+          476.091796875
+        ],
+        [
+          55.49072265625,
+          476.091796875
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unzureichende Protokollierung von sicherheitsrelevanten \nEreignissen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          580.51953125
+        ],
+        [
+          498.5134582519531,
+          580.51953125
+        ],
+        [
+          498.5134582519531,
+          617.6553802490234
+        ],
+        [
+          55.49072265625,
+          617.6553802490234
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Offenlegung sicherheitsrelevanter Informationen durch \nWebanwendungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          56.222412109375
+        ],
+        [
+          482.8564453125,
+          56.222412109375
+        ],
+        [
+          482.8564453125,
+          95.17724609375
+        ],
+        [
+          55.345458984375,
+          95.17724609375
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Missbrauch einer Webanwendung durch automatisierte \nNutzung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          172.778564453125
+        ],
+        [
+          480.5322265625,
+          172.778564453125
+        ],
+        [
+          480.5322265625,
+          209.986083984375
+        ],
+        [
+          55.635986328125,
+          209.986083984375
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Unzureichendes Session-Management von Webanwendungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          326.8505859375
+        ],
+        [
+          522.3681640625,
+          326.8505859375
+        ],
+        [
+          522.3681640625,
+          345.7626953125
+        ],
+        [
+          55.635986328125,
+          345.7626953125
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.5633544921875,
+          476.091796875
+        ],
+        [
+          208.30810546875,
+          476.091796875
+        ],
+        [
+          208.30810546875,
+          497.470703125
+        ],
+        [
+          55.5633544921875,
+          497.470703125
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.9991455078125,
+          726.8828125
+        ],
+        [
+          237.94189453125,
+          726.8828125
+        ],
+        [
+          237.94189453125,
+          745.794921875
+        ],
+        [
+          55.9991455078125,
+          745.794921875
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A1 Authentisierung bei Webanwendungen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.054931640625,
+          56.53076171875
+        ],
+        [
+          387.5634765625,
+          56.53076171875
+        ],
+        [
+          387.5634765625,
+          73.284423828125
+        ],
+        [
+          55.054931640625,
+          73.284423828125
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A2 Zugriffskontrolle bei Webanwendungen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.345458984375,
+          255.51904296875
+        ],
+        [
+          393.3740234375,
+          255.51904296875
+        ],
+        [
+          393.3740234375,
+          272.37548828125
+        ],
+        [
+          55.345458984375,
+          272.37548828125
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A3 Sicheres Session-Management (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          369.6083984375
+        ],
+        [
+          332.9443359375,
+          369.6083984375
+        ],
+        [
+          332.9443359375,
+          386.46484375
+        ],
+        [
+          55.49072265625,
+          386.46484375
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A4 Kontrolliertes Einbinden von Inhalten bei Webanwendungen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          550.095703125
+        ],
+        [
+          524.111328125,
+          550.095703125
+        ],
+        [
+          524.111328125,
+          566.541015625
+        ],
+        [
+          55.926513671875,
+          566.541015625
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A5 Upload-Funktionen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.5633544921875,
+          650.412109375
+        ],
+        [
+          269.0283203125,
+          650.412109375
+        ],
+        [
+          269.0283203125,
+          667.6796875
+        ],
+        [
+          55.5633544921875,
+          667.6796875
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A6 Schutz vor unerlaubter automatisierter Nutzung von \nWebanwendungen (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          56.427978515625
+        ],
+        [
+          452.6416015625,
+          56.427978515625
+        ],
+        [
+          452.6416015625,
+          90.757568359375
+        ],
+        [
+          55.635986328125,
+          90.757568359375
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A7 Schutz vertraulicher Daten (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          155.305419921875
+        ],
+        [
+          311.4453125,
+          155.305419921875
+        ],
+        [
+          311.4453125,
+          172.572998046875
+        ],
+        [
+          55.78125,
+          172.572998046875
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A8 Umfassende Eingabevalidierung und Ausgabekodierung (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          308.55517578125
+        ],
+        [
+          489.8291015625,
+          308.55517578125
+        ],
+        [
+          489.8291015625,
+          325.41162109375
+        ],
+        [
+          55.78125,
+          325.41162109375
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A9 Schutz vor SQL-Injection (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.7086181640625,
+          441.1455078125
+        ],
+        [
+          301.5673828125,
+          441.1455078125
+        ],
+        [
+          301.5673828125,
+          458.4130859375
+        ],
+        [
+          55.7086181640625,
+          458.4130859375
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A10 Restriktive Herausgabe sicherheitsrelevanter Informationen (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          523.783203125
+        ],
+        [
+          524.111328125,
+          523.783203125
+        ],
+        [
+          524.111328125,
+          540.228515625
+        ],
+        [
+          55.635986328125,
+          540.228515625
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          598.1982421875
+        ],
+        [
+          266.99462890625,
+          598.1982421875
+        ],
+        [
+          266.99462890625,
+          617.1103515625
+        ],
+        [
+          55.8538818359375,
+          617.1103515625
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A11 Softwarearchitektur einer Webanwendung (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.345458984375,
+          661.923828125
+        ],
+        [
+          416.6162109375,
+          661.923828125
+        ],
+        [
+          416.6162109375,
+          678.369140625
+        ],
+        [
+          55.345458984375,
+          678.369140625
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A12 Verifikation essenzieller \u00c4nderungen (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          88.6505126953125
+        ],
+        [
+          382.9150390625,
+          88.6505126953125
+        ],
+        [
+          382.9150390625,
+          106.68896484375
+        ],
+        [
+          55.635986328125,
+          106.68896484375
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A13 Fehlerbehandlung (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          183.57080078125
+        ],
+        [
+          265.25146484375,
+          183.57080078125
+        ],
+        [
+          265.25146484375,
+          200.6328125
+        ],
+        [
+          56.07177734375,
+          200.6328125
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A14 Sichere HTTP-Konfiguration bei Webanwendungen (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          316.77783203125
+        ],
+        [
+          471.2353515625,
+          316.77783203125
+        ],
+        [
+          471.2353515625,
+          334.45654296875
+        ],
+        [
+          55.635986328125,
+          334.45654296875
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A15 Verhinderung von Cross-Site-Request-Forgery (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          431.689453125
+        ],
+        [
+          438.6962890625,
+          431.689453125
+        ],
+        [
+          438.6962890625,
+          448.134765625
+        ],
+        [
+          55.926513671875,
+          448.134765625
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A16 Mehr-Faktor-Authentisierung (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.345458984375,
+          512.6826171875
+        ],
+        [
+          336.478271484375,
+          512.6826171875
+        ],
+        [
+          336.478271484375,
+          529.1279296875
+        ],
+        [
+          55.345458984375,
+          529.1279296875
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          560.3740234375
+        ],
+        [
+          392.2119140625,
+          560.3740234375
+        ],
+        [
+          392.2119140625,
+          579.2861328125
+        ],
+        [
+          55.635986328125,
+          579.2861328125
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A17 Verhinderung der Blockade von Ressourcen (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.2001953125,
+          651.234375
+        ],
+        [
+          425.33203125,
+          651.234375
+        ],
+        [
+          425.33203125,
+          667.6796875
+        ],
+        [
+          55.2001953125,
+          667.6796875
+        ]
+      ]
+    },
+    {
+      "title": "CON.10.A18 Kryptografische Absicherung vertraulicher Daten (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          733.0498046875
+        ],
+        [
+          459.6142578125,
+          733.0498046875
+        ],
+        [
+          459.6142578125,
+          749.4951171875
+        ],
+        [
+          55.49072265625,
+          749.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.2001953125,
+          56.7877197265625
+        ],
+        [
+          337.30224609375,
+          56.7877197265625
+        ],
+        [
+          337.30224609375,
+          79.2972412109375
+        ],
+        [
+          55.2001953125,
+          79.2972412109375
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.45440673828125,
+          91.3228759765625
+        ],
+        [
+          190.87646484375,
+          91.3228759765625
+        ],
+        [
+          190.87646484375,
+          109.15576171875
+        ],
+        [
+          55.45440673828125,
+          109.15576171875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          71
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          97
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          37
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/CON_10_Entwicklung_von_Webanwendungen_Edition_2023"
+}

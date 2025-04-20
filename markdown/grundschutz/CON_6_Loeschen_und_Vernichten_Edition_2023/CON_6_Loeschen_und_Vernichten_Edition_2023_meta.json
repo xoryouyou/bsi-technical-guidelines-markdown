@@ -1,0 +1,974 @@
+{
+  "table_of_contents": [
+    {
+      "title": "CON.6 L\u00f6schen und Vernichten",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.63999938964844,
+          200.83837890625
+        ],
+        [
+          497.9638671875,
+          200.83837890625
+        ],
+        [
+          497.9638671875,
+          240.71826171875
+        ],
+        [
+          56.63999938964844,
+          240.71826171875
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.89019775390625,
+          274.2255859375
+        ],
+        [
+          195.089111328125,
+          274.2255859375
+        ],
+        [
+          195.089111328125,
+          298.0712890625
+        ],
+        [
+          55.89019775390625,
+          298.0712890625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.07177734375,
+          309.171875
+        ],
+        [
+          161.24267578125,
+          309.171875
+        ],
+        [
+          161.24267578125,
+          328.4951171875
+        ],
+        [
+          56.07177734375,
+          328.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.89019775390625,
+          647.9453125
+        ],
+        [
+          169.2537384033203,
+          647.9453125
+        ],
+        [
+          169.2537384033203,
+          667.6796875
+        ],
+        [
+          55.89019775390625,
+          667.6796875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.78125,
+          717.4267578125
+        ],
+        [
+          304.47265625,
+          717.4267578125
+        ],
+        [
+          304.47265625,
+          737.1611328125
+        ],
+        [
+          55.78125,
+          737.1611328125
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          108.1279296875
+        ],
+        [
+          222.25341796875,
+          108.1279296875
+        ],
+        [
+          222.25341796875,
+          129.91796875
+        ],
+        [
+          55.7086181640625,
+          129.91796875
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Fehlende oder unzureichend dokumentierte Regelungen beim \nL\u00f6schen und Vernichten",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.78125,
+          207.2109375
+        ],
+        [
+          525.0150756835938,
+          207.2109375
+        ],
+        [
+          525.0150756835938,
+          244.45538330078125
+        ],
+        [
+          55.78125,
+          244.45538330078125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Vertraulichkeitsverlust durch Restinformationen auf \nDatentr\u00e4gern",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.054931640625,
+          388.72607421875
+        ],
+        [
+          461.9384765625,
+          388.72607421875
+        ],
+        [
+          461.9384765625,
+          425.93359375
+        ],
+        [
+          55.054931640625,
+          425.93359375
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Ungeeignete Einbindung externer Dienstleistende in das \nL\u00f6schen und Vernichten",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          55.8626708984375
+        ],
+        [
+          483.7584228515625,
+          55.8626708984375
+        ],
+        [
+          483.7584228515625,
+          94.5091552734375
+        ],
+        [
+          55.635986328125,
+          94.5091552734375
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Ungeeigneter Umgang mit defekten Datentr\u00e4gern oder IT-\nGer\u00e4ten",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          204.744140625
+        ],
+        [
+          495.93017578125,
+          204.744140625
+        ],
+        [
+          495.93017578125,
+          242.05535888671875
+        ],
+        [
+          55.49072265625,
+          242.05535888671875
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          445.2568359375
+        ],
+        [
+          209.1796875,
+          445.2568359375
+        ],
+        [
+          209.1796875,
+          466.6357421875
+        ],
+        [
+          55.7086181640625,
+          466.6357421875
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.07177734375,
+          708.3818359375
+        ],
+        [
+          239.830322265625,
+          708.3818359375
+        ],
+        [
+          239.830322265625,
+          728.1162109375
+        ],
+        [
+          56.07177734375,
+          728.1162109375
+        ]
+      ]
+    },
+    {
+      "title": "CON.6.A1 Regelung f\u00fcr die L\u00f6schung und Vernichtung von Informationen (B) \n[Zentrale Verwaltung, Fachverantwortliche, Datenschutzbeauftragte, IT-\nBetrieb]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          54.5264892578125
+        ],
+        [
+          533.2095947265625,
+          54.5264892578125
+        ],
+        [
+          533.2095947265625,
+          106.78314208984375
+        ],
+        [
+          55.926513671875,
+          106.78314208984375
+        ]
+      ]
+    },
+    {
+      "title": "CON.6.A2 Ordnungsgem\u00e4\u00dfes L\u00f6schen und Vernichten von sch\u00fctzenswerten \nBetriebsmitteln und Informationen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          309.994140625
+        ],
+        [
+          525.2734375,
+          309.994140625
+        ],
+        [
+          525.2734375,
+          341.8649597167969
+        ],
+        [
+          55.926513671875,
+          341.8649597167969
+        ]
+      ]
+    },
+    {
+      "title": "CON.6.A11 L\u00f6schung und Vernichtung von Datentr\u00e4gern durch externe \nDienstleistende (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          479.380859375
+        ],
+        [
+          497.3828125,
+          479.380859375
+        ],
+        [
+          497.3828125,
+          512.271484375
+        ],
+        [
+          55.635986328125,
+          512.271484375
+        ]
+      ]
+    },
+    {
+      "title": "CON.6.A12 Mindestanforderungen an Verfahren zur L\u00f6schung und \nVernichtung (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          610.5322265625
+        ],
+        [
+          469.78271484375,
+          610.5322265625
+        ],
+        [
+          469.78271484375,
+          643.0649261474609
+        ],
+        [
+          55.49072265625,
+          643.0649261474609
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          294.16552734375
+        ],
+        [
+          268.15673828125,
+          294.16552734375
+        ],
+        [
+          268.15673828125,
+          313.07763671875
+        ],
+        [
+          55.8538818359375,
+          313.07763671875
+        ]
+      ]
+    },
+    {
+      "title": "CON.6.A3 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.3623046875,
+          356.86328125
+        ],
+        [
+          216.44287109375,
+          356.86328125
+        ],
+        [
+          216.44287109375,
+          373.7197265625
+        ],
+        [
+          56.3623046875,
+          373.7197265625
+        ]
+      ]
+    },
+    {
+      "title": "CON.6.A4 Auswahl geeigneter Verfahren zur L\u00f6schung oder Vernichtung von \nDatentr\u00e4gern (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          399.00439453125
+        ],
+        [
+          531.6650390625,
+          399.00439453125
+        ],
+        [
+          531.6650390625,
+          432.3449401855469
+        ],
+        [
+          55.635986328125,
+          432.3449401855469
+        ]
+      ]
+    },
+    {
+      "title": "CON.6.A5 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.7086181640625,
+          602.3095703125
+        ],
+        [
+          215.28076171875,
+          602.3095703125
+        ],
+        [
+          215.28076171875,
+          618.7548828125
+        ],
+        [
+          55.7086181640625,
+          618.7548828125
+        ]
+      ]
+    },
+    {
+      "title": "CON.6.A6 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.7086181640625,
+          643.833984375
+        ],
+        [
+          216.15234375,
+          643.833984375
+        ],
+        [
+          216.15234375,
+          660.3390502929688
+        ],
+        [
+          55.7086181640625,
+          660.3390502929688
+        ]
+      ]
+    },
+    {
+      "title": "CON.6.A7 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          686.591796875
+        ],
+        [
+          214.69970703125,
+          686.591796875
+        ],
+        [
+          214.69970703125,
+          702.3390502929688
+        ],
+        [
+          55.8538818359375,
+          702.3390502929688
+        ]
+      ]
+    },
+    {
+      "title": "CON.6.A8 Erstellung einer Richtlinie f\u00fcr die L\u00f6schung und Vernichtung von \nInformationen (S) [Mitarbeitende, IT-Betrieb, Datenschutzbeauftragte]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.217041015625,
+          54.372314453125
+        ],
+        [
+          523.8700561523438,
+          54.372314453125
+        ],
+        [
+          523.8700561523438,
+          90.44921875
+        ],
+        [
+          56.217041015625,
+          90.44921875
+        ]
+      ]
+    },
+    {
+      "title": "CON.6.A9 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          194.363037109375
+        ],
+        [
+          216.297607421875,
+          194.363037109375
+        ],
+        [
+          216.297607421875,
+          211.52783203125
+        ],
+        [
+          56.07177734375,
+          211.52783203125
+        ]
+      ]
+    },
+    {
+      "title": "CON.6.A13 Vernichtung defekter digitaler Datentr\u00e4ger (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          236.4013671875
+        ],
+        [
+          409.6435546875,
+          236.4013671875
+        ],
+        [
+          409.6435546875,
+          254.080078125
+        ],
+        [
+          55.926513671875,
+          254.080078125
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          382.7646484375
+        ],
+        [
+          392.2119140625,
+          382.7646484375
+        ],
+        [
+          392.2119140625,
+          402.087890625
+        ],
+        [
+          55.926513671875,
+          402.087890625
+        ]
+      ]
+    },
+    {
+      "title": "CON.6.A10 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          473.625
+        ],
+        [
+          226.611328125,
+          473.625
+        ],
+        [
+          226.611328125,
+          490.0703125
+        ],
+        [
+          56.07177734375,
+          490.0703125
+        ]
+      ]
+    },
+    {
+      "title": "CON.6.A14 Vernichten von Datentr\u00e4gern auf erh\u00f6hter Sicherheitsstufe (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          514.73828125
+        ],
+        [
+          513.0712890625,
+          514.73828125
+        ],
+        [
+          513.0712890625,
+          532.005859375
+        ],
+        [
+          55.926513671875,
+          532.005859375
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          602.720703125
+        ],
+        [
+          335.849609375,
+          602.720703125
+        ],
+        [
+          335.849609375,
+          624.921875
+        ],
+        [
+          56.07177734375,
+          624.921875
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.74493408203125,
+          636.8447265625
+        ],
+        [
+          190.87646484375,
+          636.8447265625
+        ],
+        [
+          190.87646484375,
+          654.9345703125
+        ],
+        [
+          55.74493408203125,
+          654.9345703125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          80
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          23
+        ],
+        [
+          "Line",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/CON_6_Loeschen_und_Vernichten_Edition_2023"
+}

@@ -1,0 +1,823 @@
+{
+  "table_of_contents": [
+    {
+      "title": "OPS.1.2.4 Telearbeit",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          200.01611328125
+        ],
+        [
+          334.1064453125,
+          200.01611328125
+        ],
+        [
+          334.1064453125,
+          239.89599609375
+        ],
+        [
+          55.926513671875,
+          239.89599609375
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          274.63671875
+        ],
+        [
+          195.089111328125,
+          274.63671875
+        ],
+        [
+          195.089111328125,
+          298.0712890625
+        ],
+        [
+          55.96282958984375,
+          298.0712890625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.03546142578125,
+          309.171875
+        ],
+        [
+          161.678466796875,
+          309.171875
+        ],
+        [
+          161.678466796875,
+          328.4951171875
+        ],
+        [
+          56.03546142578125,
+          328.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.89019775390625,
+          418.32763671875
+        ],
+        [
+          169.2537384033203,
+          418.32763671875
+        ],
+        [
+          169.2537384033203,
+          437.8564453125
+        ],
+        [
+          55.89019775390625,
+          437.8564453125
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          501.9931640625
+        ],
+        [
+          304.76318359375,
+          501.9931640625
+        ],
+        [
+          304.76318359375,
+          520.9052734375
+        ],
+        [
+          55.8538818359375,
+          520.9052734375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          140.81298828125
+        ],
+        [
+          221.09130859375,
+          140.81298828125
+        ],
+        [
+          221.09130859375,
+          162.80859375
+        ],
+        [
+          55.345458984375,
+          162.80859375
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Fehlende oder unzureichende Regelungen f\u00fcr den \nTelearbeitsplatz",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          238.8681640625
+        ],
+        [
+          438.377685546875,
+          238.8681640625
+        ],
+        [
+          438.377685546875,
+          277.92578125
+        ],
+        [
+          55.345458984375,
+          277.92578125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Unerlaubte private Nutzung des dienstlichen \nTelearbeitsrechners",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2001953125,
+          367.75830078125
+        ],
+        [
+          402.8795166015625,
+          367.75830078125
+        ],
+        [
+          402.8795166015625,
+          405.58251953125
+        ],
+        [
+          55.2001953125,
+          405.58251953125
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Verz\u00f6gerungen durch tempor\u00e4r eingeschr\u00e4nkte Erreichbarkeit \nder Mitarbeitenden",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.926513671875,
+          469.1025390625
+        ],
+        [
+          528.1787109375,
+          469.1025390625
+        ],
+        [
+          528.1787109375,
+          507.7490234375
+        ],
+        [
+          55.926513671875,
+          507.7490234375
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Mangelhafte Einbindung der Mitarbeitenden in den \nInformationsfluss",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.926513671875,
+          571.474609375
+        ],
+        [
+          453.22265625,
+          571.474609375
+        ],
+        [
+          453.22265625,
+          610.12109375
+        ],
+        [
+          55.926513671875,
+          610.12109375
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Nichtbeachtung von Sicherheitsma\u00dfnahmen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          699.748046875
+        ],
+        [
+          403.8330078125,
+          699.748046875
+        ],
+        [
+          403.8330078125,
+          719.482421875
+        ],
+        [
+          55.49072265625,
+          719.482421875
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          56.7877197265625
+        ],
+        [
+          210.63232421875,
+          56.7877197265625
+        ],
+        [
+          210.63232421875,
+          79.5028076171875
+        ],
+        [
+          55.345458984375,
+          79.5028076171875
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          306.49951171875
+        ],
+        [
+          238.087158203125,
+          306.49951171875
+        ],
+        [
+          238.087158203125,
+          326.23388671875
+        ],
+        [
+          55.78125,
+          326.23388671875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.4.A1 Regelungen f\u00fcr Telearbeit (B) [Vorgesetzte, Personalabteilung]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          357.685546875
+        ],
+        [
+          516.84814453125,
+          357.685546875
+        ],
+        [
+          516.84814453125,
+          375.3642578125
+        ],
+        [
+          55.78125,
+          375.3642578125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.4.A2 Sicherheitstechnische Anforderungen an den Telearbeitsrechner \n(B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          465.8134765625
+        ],
+        [
+          534.0770874023438,
+          465.8134765625
+        ],
+        [
+          534.0770874023438,
+          498.7049255371094
+        ],
+        [
+          55.78125,
+          498.7049255371094
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.4.A3 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          583.3974609375
+        ],
+        [
+          233.148193359375,
+          583.3974609375
+        ],
+        [
+          233.148193359375,
+          600.6650390625
+        ],
+        [
+          55.78125,
+          600.6650390625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.4.A4 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          625.3330078125
+        ],
+        [
+          234.1650390625,
+          625.3330078125
+        ],
+        [
+          234.1650390625,
+          642.6005859375
+        ],
+        [
+          55.926513671875,
+          642.6005859375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.4.A5 Sensibilisierung und Schulung der Mitarbeitenden (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          667.2685546875
+        ],
+        [
+          466.005859375,
+          667.2685546875
+        ],
+        [
+          466.005859375,
+          684.5361328125
+        ],
+        [
+          55.635986328125,
+          684.5361328125
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          56.5821533203125
+        ],
+        [
+          269.0283203125,
+          56.5821533203125
+        ],
+        [
+          269.0283203125,
+          76.5220947265625
+        ],
+        [
+          55.49072265625,
+          76.5220947265625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.4.A6 Erstellen eines Sicherheitskonzeptes f\u00fcr Telearbeit (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.345458984375,
+          120.4619140625
+        ],
+        [
+          465.4248046875,
+          120.4619140625
+        ],
+        [
+          465.4248046875,
+          137.318359375
+        ],
+        [
+          55.345458984375,
+          137.318359375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.4.A7 Regelung der Nutzung von Kommunikationsm\u00f6glichkeiten bei \nTelearbeit (S) [IT-Betrieb, Mitarbeitende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          201.66064453125
+        ],
+        [
+          525.8544921875,
+          201.66064453125
+        ],
+        [
+          525.8544921875,
+          235.06500244140625
+        ],
+        [
+          55.926513671875,
+          235.06500244140625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.4.A8 Informationsfluss zwischen Mitarbeitenden und Institution (S) \n[Vorgesetzte, Mitarbeitende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.217041015625,
+          299.7158203125
+        ],
+        [
+          522.94921875,
+          299.7158203125
+        ],
+        [
+          522.94921875,
+          333.83984375
+        ],
+        [
+          56.217041015625,
+          333.83984375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.4.A9 Betreuungs- und Wartungskonzept f\u00fcr Telearbeitspl\u00e4tze (S) [IT-\nBetrieb, Mitarbeitende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          437.4453125
+        ],
+        [
+          526.435546875,
+          437.4453125
+        ],
+        [
+          526.435546875,
+          471.98046875
+        ],
+        [
+          56.07177734375,
+          471.98046875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.2.4.A10 Durchf\u00fchrung einer Anforderungsanalyse f\u00fcr den \nTelearbeitsplatz (S) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          549.6845703125
+        ],
+        [
+          452.93212890625,
+          549.6845703125
+        ],
+        [
+          452.93212890625,
+          584.2197265625
+        ],
+        [
+          56.07177734375,
+          584.2197265625
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          667.6796875
+        ],
+        [
+          391.630859375,
+          667.6796875
+        ],
+        [
+          391.630859375,
+          686.591796875
+        ],
+        [
+          55.635986328125,
+          686.591796875
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.2001953125,
+          56.94189453125
+        ],
+        [
+          337.01171875,
+          56.94189453125
+        ],
+        [
+          337.01171875,
+          79.3486328125
+        ],
+        [
+          55.2001953125,
+          79.3486328125
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.5633544921875,
+          91.6826171875
+        ],
+        [
+          190.87646484375,
+          91.6826171875
+        ],
+        [
+          190.87646484375,
+          109.052978515625
+        ],
+        [
+          55.5633544921875,
+          109.052978515625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          95
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          37
+        ],
+        [
+          "Line",
+          13
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/OPS_1_2_4_Telearbeit_Edition_2023"
+}

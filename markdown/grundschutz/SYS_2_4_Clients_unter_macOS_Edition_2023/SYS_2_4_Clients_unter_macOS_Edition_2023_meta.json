@@ -1,0 +1,861 @@
+{
+  "table_of_contents": [
+    {
+      "title": "SYS.2.4 Clients unter macOS",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.78125,
+          201.763427734375
+        ],
+        [
+          453.8037109375,
+          201.763427734375
+        ],
+        [
+          453.8037109375,
+          239.48486328125
+        ],
+        [
+          55.78125,
+          239.48486328125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.78125,
+          274.43115234375
+        ],
+        [
+          194.6533203125,
+          274.43115234375
+        ],
+        [
+          194.6533203125,
+          297.86572265625
+        ],
+        [
+          55.78125,
+          297.86572265625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          309.37744140625
+        ],
+        [
+          161.387939453125,
+          309.37744140625
+        ],
+        [
+          161.387939453125,
+          328.70068359375
+        ],
+        [
+          55.96282958984375,
+          328.70068359375
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.89019775390625,
+          431.689453125
+        ],
+        [
+          169.2537384033203,
+          431.689453125
+        ],
+        [
+          169.2537384033203,
+          451.423828125
+        ],
+        [
+          55.89019775390625,
+          451.423828125
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.78125,
+          514.3271484375
+        ],
+        [
+          303.310546875,
+          514.3271484375
+        ],
+        [
+          303.310546875,
+          534.0615234375
+        ],
+        [
+          55.78125,
+          534.0615234375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.4180908203125,
+          56.53076171875
+        ],
+        [
+          223.125,
+          56.53076171875
+        ],
+        [
+          223.125,
+          79.245849609375
+        ],
+        [
+          55.4180908203125,
+          79.245849609375
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Unkontrollierbarer Zugriff auf ausgelagerte Daten",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          154.5859375
+        ],
+        [
+          438.115234375,
+          154.5859375
+        ],
+        [
+          438.115234375,
+          174.52587890625
+        ],
+        [
+          55.345458984375,
+          174.52587890625
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Missbrauch der Apple-ID als zentrale Zugangsinformation f\u00fcr \nApple-Dienste",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          277.103515625
+        ],
+        [
+          520.696044921875,
+          277.103515625
+        ],
+        [
+          520.696044921875,
+          315.75
+        ],
+        [
+          55.49072265625,
+          315.75
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Angriffe auf Funkschnittstellen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.4180908203125,
+          405.58251953125
+        ],
+        [
+          308.83056640625,
+          405.58251953125
+        ],
+        [
+          308.83056640625,
+          425.93359375
+        ],
+        [
+          55.4180908203125,
+          425.93359375
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Angriffe auf Anwendungen mit Vorschau-Funktion",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.07177734375,
+          554.20703125
+        ],
+        [
+          449.1552734375,
+          554.20703125
+        ],
+        [
+          449.1552734375,
+          573.94140625
+        ],
+        [
+          56.07177734375,
+          573.94140625
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Unsichere Protokolle in macOS oder macOS-Anwendungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          690.703125
+        ],
+        [
+          506.0986328125,
+          690.703125
+        ],
+        [
+          506.0986328125,
+          710.4375
+        ],
+        [
+          55.635986328125,
+          710.4375
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          95.7939453125
+        ],
+        [
+          210.63232421875,
+          95.7939453125
+        ],
+        [
+          210.63232421875,
+          117.78955078125
+        ],
+        [
+          55.78125,
+          117.78955078125
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.07177734375,
+          345.3515625
+        ],
+        [
+          239.10400390625,
+          345.3515625
+        ],
+        [
+          239.10400390625,
+          364.6748046875
+        ],
+        [
+          56.07177734375,
+          364.6748046875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.4.A1 Planung des sicheren Einsatzes von macOS (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          396.7431640625
+        ],
+        [
+          405.28564453125,
+          396.7431640625
+        ],
+        [
+          405.28564453125,
+          413.1884765625
+        ],
+        [
+          55.49072265625,
+          413.1884765625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.4.A2 Nutzung der integrierten Sicherheitsfunktionen von macOS (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          517.205078125
+        ],
+        [
+          512.490234375,
+          517.205078125
+        ],
+        [
+          512.490234375,
+          533.650390625
+        ],
+        [
+          55.926513671875,
+          533.650390625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.4.A3 Verwendung geeigneter Konten (B) [Benutzende]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          586.275390625
+        ],
+        [
+          422.71728515625,
+          586.275390625
+        ],
+        [
+          422.71728515625,
+          602.720703125
+        ],
+        [
+          55.78125,
+          602.720703125
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          687.0029296875
+        ],
+        [
+          266.849365234375,
+          687.0029296875
+        ],
+        [
+          266.849365234375,
+          705.9150390625
+        ],
+        [
+          55.926513671875,
+          705.9150390625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.4.A4 Verwendung einer Festplattenverschl\u00fcsselung (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.2001953125,
+          55.6571044921875
+        ],
+        [
+          427.94677734375,
+          55.6571044921875
+        ],
+        [
+          427.94677734375,
+          73.2330322265625
+        ],
+        [
+          55.2001953125,
+          73.2330322265625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.4.A5 Deaktivierung sicherheitskritischer Funktionen von macOS (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          151.296875
+        ],
+        [
+          509.00390625,
+          151.296875
+        ],
+        [
+          509.00390625,
+          168.564453125
+        ],
+        [
+          55.926513671875,
+          168.564453125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.4.A6 Verwendung aktueller Mac-Hardware (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          219.544921875
+        ],
+        [
+          375.361328125,
+          219.544921875
+        ],
+        [
+          375.361328125,
+          236.4013671875
+        ],
+        [
+          55.635986328125,
+          236.4013671875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.4.A7 Zwei-Faktor-Authentisierung f\u00fcr Apple-ID (S) [Benutzende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          301.15478515625
+        ],
+        [
+          490.11962890625,
+          301.15478515625
+        ],
+        [
+          490.11962890625,
+          318.42236328125
+        ],
+        [
+          55.78125,
+          318.42236328125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.4.A8 Keine Nutzung von iCloud f\u00fcr sch\u00fctzenswerte Daten (S) \n[Benutzende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          343.50146484375
+        ],
+        [
+          466.29638671875,
+          343.50146484375
+        ],
+        [
+          466.29638671875,
+          376.80322265625
+        ],
+        [
+          55.49072265625,
+          376.80322265625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.4.A9 Verwendung von zus\u00e4tzlichen Schutzprogrammen unter macOS (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          455.1240234375
+        ],
+        [
+          537.18505859375,
+          455.1240234375
+        ],
+        [
+          537.18505859375,
+          471.5693359375
+        ],
+        [
+          55.78125,
+          471.5693359375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.4.A10 Aktivierung der Personal Firewall unter macOS (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          523.3720703125
+        ],
+        [
+          439.8583984375,
+          523.3720703125
+        ],
+        [
+          439.8583984375,
+          540.6396484375
+        ],
+        [
+          55.635986328125,
+          540.6396484375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.4.A11 Ger\u00e4teaussonderung von Macs (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.8538818359375,
+          565.71875
+        ],
+        [
+          336.14013671875,
+          565.71875
+        ],
+        [
+          336.14013671875,
+          582.1640625
+        ],
+        [
+          55.8538818359375,
+          582.1640625
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          626.56640625
+        ],
+        [
+          392.79296875,
+          626.56640625
+        ],
+        [
+          392.79296875,
+          645.478515625
+        ],
+        [
+          55.635986328125,
+          645.478515625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.4.A12 Firmware-Kennwort und Boot-Schutz auf Macs (H) [Benutzende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.2001953125,
+          717.015625
+        ],
+        [
+          528.759765625,
+          717.015625
+        ],
+        [
+          528.759765625,
+          734.283203125
+        ],
+        [
+          55.2001953125,
+          734.283203125
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          154.072021484375
+        ],
+        [
+          337.30224609375,
+          154.072021484375
+        ],
+        [
+          337.30224609375,
+          175.862060546875
+        ],
+        [
+          55.78125,
+          175.862060546875
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          188.401611328125
+        ],
+        [
+          192.03857421875,
+          188.401611328125
+        ],
+        [
+          192.03857421875,
+          206.080322265625
+        ],
+        [
+          56.07177734375,
+          206.080322265625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          77
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "SectionHeader",
+          10
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          33
+        ],
+        [
+          "Line",
+          13
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/SYS_2_4_Clients_unter_macOS_Edition_2023"
+}

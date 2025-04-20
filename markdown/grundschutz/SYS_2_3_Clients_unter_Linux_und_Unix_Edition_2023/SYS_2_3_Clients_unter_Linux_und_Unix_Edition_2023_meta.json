@@ -1,0 +1,1057 @@
+{
+  "table_of_contents": [
+    {
+      "title": "SYS.2.3 Clients unter Linux und \nUnix",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.217041015625,
+          201.0439453125
+        ],
+        [
+          501.65008544921875,
+          201.0439453125
+        ],
+        [
+          501.65008544921875,
+          276.5596923828125
+        ],
+        [
+          56.217041015625,
+          276.5596923828125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.63999938964844,
+          313.6943359375
+        ],
+        [
+          195.379638671875,
+          313.6943359375
+        ],
+        [
+          195.379638671875,
+          335.8955078125
+        ],
+        [
+          56.63999938964844,
+          335.8955078125
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.25335693359375,
+          347.61279296875
+        ],
+        [
+          160.516357421875,
+          347.61279296875
+        ],
+        [
+          160.516357421875,
+          367.75830078125
+        ],
+        [
+          56.25335693359375,
+          367.75830078125
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.96282958984375,
+          57.1474609375
+        ],
+        [
+          169.66796875,
+          57.1474609375
+        ],
+        [
+          169.66796875,
+          76.984619140625
+        ],
+        [
+          55.96282958984375,
+          76.984619140625
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          139.476806640625
+        ],
+        [
+          304.18212890625,
+          139.476806640625
+        ],
+        [
+          304.18212890625,
+          158.594482421875
+        ],
+        [
+          55.49072265625,
+          158.594482421875
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          432.1005859375
+        ],
+        [
+          220.655517578125,
+          432.1005859375
+        ],
+        [
+          220.655517578125,
+          453.4794921875
+        ],
+        [
+          55.345458984375,
+          453.4794921875
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Software aus Drittquellen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.5633544921875,
+          529.5390625
+        ],
+        [
+          268.15673828125,
+          529.5390625
+        ],
+        [
+          268.15673828125,
+          549.2734375
+        ],
+        [
+          55.5633544921875,
+          549.2734375
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Ausnutzbarkeit der Skriptumgebung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          652.056640625
+        ],
+        [
+          345.7275390625,
+          652.056640625
+        ],
+        [
+          345.7275390625,
+          671.791015625
+        ],
+        [
+          55.345458984375,
+          671.791015625
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Dynamisches Laden von gemeinsam genutzten Bibliotheken",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          56.222412109375
+        ],
+        [
+          510.7470703125,
+          56.222412109375
+        ],
+        [
+          510.7470703125,
+          76.162353515625
+        ],
+        [
+          55.49072265625,
+          76.162353515625
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Fehlerhafte Konfiguration",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.5633544921875,
+          165.06982421875
+        ],
+        [
+          273.38623046875,
+          165.06982421875
+        ],
+        [
+          273.38623046875,
+          186.03759765625
+        ],
+        [
+          55.5633544921875,
+          186.03759765625
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          361.18017578125
+        ],
+        [
+          209.1796875,
+          361.18017578125
+        ],
+        [
+          209.1796875,
+          382.97021484375
+        ],
+        [
+          55.7086181640625,
+          382.97021484375
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.07177734375,
+          610.5322265625
+        ],
+        [
+          237.796630859375,
+          610.5322265625
+        ],
+        [
+          237.796630859375,
+          630.2666015625
+        ],
+        [
+          56.07177734375,
+          630.2666015625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A1 Authentisierung von Administrierenden und Benutzenden (B) \n[Benutzende]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          661.5126953125
+        ],
+        [
+          504.9365234375,
+          661.5126953125
+        ],
+        [
+          504.9365234375,
+          694.4033203125
+        ],
+        [
+          55.926513671875,
+          694.4033203125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A2 Auswahl einer geeigneten Distribution (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          55.7598876953125
+        ],
+        [
+          380.5908203125,
+          55.7598876953125
+        ],
+        [
+          380.5908203125,
+          73.1302490234375
+        ],
+        [
+          55.49072265625,
+          73.1302490234375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A3 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.3623046875,
+          165.172607421875
+        ],
+        [
+          220.655517578125,
+          165.172607421875
+        ],
+        [
+          220.655517578125,
+          182.234619140625
+        ],
+        [
+          56.3623046875,
+          182.234619140625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A4 Kernel-Aktualisierungen auf unixartigen Systemen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          206.491455078125
+        ],
+        [
+          458.4521484375,
+          206.491455078125
+        ],
+        [
+          458.4521484375,
+          223.45068359375
+        ],
+        [
+          55.926513671875,
+          223.45068359375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A5 Sichere Installation von Software-Paketen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          261.68603515625
+        ],
+        [
+          402.96142578125,
+          261.68603515625
+        ],
+        [
+          402.96142578125,
+          278.54248046875
+        ],
+        [
+          55.78125,
+          278.54248046875
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.9991455078125,
+          408.87158203125
+        ],
+        [
+          266.99462890625,
+          408.87158203125
+        ],
+        [
+          266.99462890625,
+          427.578125
+        ],
+        [
+          55.9991455078125,
+          427.578125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A6 Kein automatisches Einbinden von Wechsellaufwerken (S) \n[Benutzende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.3623046875,
+          471.5693359375
+        ],
+        [
+          482.275390625,
+          471.5693359375
+        ],
+        [
+          482.275390625,
+          505.0649108886719
+        ],
+        [
+          56.3623046875,
+          505.0649108886719
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A7 Restriktive Rechtevergabe auf Dateien und Verzeichnisse (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          557.0849609375
+        ],
+        [
+          490.9912109375,
+          557.0849609375
+        ],
+        [
+          490.9912109375,
+          573.5302734375
+        ],
+        [
+          56.07177734375,
+          573.5302734375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A8 Einsatz von Techniken zur Rechtebeschr\u00e4nkung von Anwendungen \n(S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          626.1552734375
+        ],
+        [
+          541.54296875,
+          626.1552734375
+        ],
+        [
+          541.54296875,
+          658.6649322509766
+        ],
+        [
+          55.78125,
+          658.6649322509766
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A9 Sichere Verwendung von Passw\u00f6rtern auf der Kommandozeile (S) \n[Benutzende]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          55.7598876953125
+        ],
+        [
+          526.4730834960938,
+          55.7598876953125
+        ],
+        [
+          526.4730834960938,
+          89.977294921875
+        ],
+        [
+          55.926513671875,
+          89.977294921875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A10 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          116.14501953125
+        ],
+        [
+          226.175537109375,
+          116.14501953125
+        ],
+        [
+          226.175537109375,
+          132.17919921875
+        ],
+        [
+          56.07177734375,
+          132.17919921875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A11 Verhinderung der \u00dcberlastung der lokalen Festplatte (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          157.4638671875
+        ],
+        [
+          471.81640625,
+          157.4638671875
+        ],
+        [
+          471.81640625,
+          174.3203125
+        ],
+        [
+          55.635986328125,
+          174.3203125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A12 Sicherer Einsatz von Appliances (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.7086181640625,
+          238.8681640625
+        ],
+        [
+          344.27490234375,
+          238.8681640625
+        ],
+        [
+          344.27490234375,
+          255.724609375
+        ],
+        [
+          55.7086181640625,
+          255.724609375
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          340.62353515625
+        ],
+        [
+          392.2119140625,
+          340.62353515625
+        ],
+        [
+          392.2119140625,
+          359.12451171875
+        ],
+        [
+          55.635986328125,
+          359.12451171875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A13 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.1444091796875,
+          429.6337890625
+        ],
+        [
+          230.09765625,
+          429.6337890625
+        ],
+        [
+          230.09765625,
+          446.259033203125
+        ],
+        [
+          56.1444091796875,
+          446.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A14 Absicherung gegen Nutzung unbefugter Peripherieger\u00e4te (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          472.3916015625
+        ],
+        [
+          502.6123046875,
+          472.3916015625
+        ],
+        [
+          502.6123046875,
+          488.8369140625
+        ],
+        [
+          55.926513671875,
+          488.8369140625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A15 Zus\u00e4tzlicher Schutz vor der Ausf\u00fchrung unerw\u00fcnschter Dateien \n(H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          528.3056640625
+        ],
+        [
+          524.6923828125,
+          528.3056640625
+        ],
+        [
+          524.6923828125,
+          560.2649230957031
+        ],
+        [
+          55.635986328125,
+          560.2649230957031
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A16 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.9991455078125,
+          600.25390625
+        ],
+        [
+          229.22607421875,
+          600.25390625
+        ],
+        [
+          229.22607421875,
+          615.876953125
+        ],
+        [
+          55.9991455078125,
+          615.876953125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A17 Zus\u00e4tzliche Verhinderung der Ausbreitung bei der Ausnutzung \nvon Schwachstellen (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          641.3671875
+        ],
+        [
+          516.84814453125,
+          641.3671875
+        ],
+        [
+          516.84814453125,
+          674.2649383544922
+        ],
+        [
+          55.78125,
+          674.2649383544922
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A18 Zus\u00e4tzlicher Schutz des Kernels (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          55.811279296875
+        ],
+        [
+          346.01806640625,
+          55.811279296875
+        ],
+        [
+          346.01806640625,
+          73.284423828125
+        ],
+        [
+          55.49072265625,
+          73.284423828125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A19 Festplatten- oder Dateiverschl\u00fcsselung (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          124.984375
+        ],
+        [
+          393.3740234375,
+          124.984375
+        ],
+        [
+          393.3740234375,
+          142.251953125
+        ],
+        [
+          55.926513671875,
+          142.251953125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.3.A20 Abschaltung kritischer SysRq-Funktionen (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          219.9560546875
+        ],
+        [
+          409.93408203125,
+          219.9560546875
+        ],
+        [
+          409.93408203125,
+          236.8125
+        ],
+        [
+          55.49072265625,
+          236.8125
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.4180908203125,
+          294.57666015625
+        ],
+        [
+          336.4306640625,
+          294.57666015625
+        ],
+        [
+          336.4306640625,
+          315.95556640625
+        ],
+        [
+          55.4180908203125,
+          315.95556640625
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.96282958984375,
+          328.90625
+        ],
+        [
+          191.1669921875,
+          328.90625
+        ],
+        [
+          191.1669921875,
+          346.5849609375
+        ],
+        [
+          55.96282958984375,
+          346.5849609375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          65
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          91
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "SectionHeader",
+          10
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          53
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/SYS_2_3_Clients_unter_Linux_und_Unix_Edition_2023"
+}

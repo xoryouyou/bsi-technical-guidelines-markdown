@@ -1,0 +1,1217 @@
+{
+  "table_of_contents": [
+    {
+      "title": "INF.11 Allgemeines Fahrzeug",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.49072265625,
+          202.07177734375
+        ],
+        [
+          463.97216796875,
+          202.07177734375
+        ],
+        [
+          463.97216796875,
+          241.12939453125
+        ],
+        [
+          55.49072265625,
+          241.12939453125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          274.2255859375
+        ],
+        [
+          194.6533203125,
+          274.2255859375
+        ],
+        [
+          194.6533203125,
+          298.0712890625
+        ],
+        [
+          55.8538818359375,
+          298.0712890625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          308.96630859375
+        ],
+        [
+          161.097412109375,
+          308.96630859375
+        ],
+        [
+          161.097412109375,
+          328.70068359375
+        ],
+        [
+          55.926513671875,
+          328.70068359375
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          530.361328125
+        ],
+        [
+          169.2537384033203,
+          530.361328125
+        ],
+        [
+          169.2537384033203,
+          549.2734375
+        ],
+        [
+          55.8538818359375,
+          549.2734375
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          639.3115234375
+        ],
+        [
+          303.60107421875,
+          639.3115234375
+        ],
+        [
+          303.60107421875,
+          659.0458984375
+        ],
+        [
+          55.8538818359375,
+          659.0458984375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          349.8740234375
+        ],
+        [
+          222.25341796875,
+          349.8740234375
+        ],
+        [
+          222.25341796875,
+          370.841796875
+        ],
+        [
+          55.635986328125,
+          370.841796875
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Fehlende oder unzureichende Regelungen f\u00fcr Fahrzeuge",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          448.5458984375
+        ],
+        [
+          483.4375,
+          448.5458984375
+        ],
+        [
+          483.4375,
+          467.4580078125
+        ],
+        [
+          55.635986328125,
+          467.4580078125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Fehlendes Sicherheitsbewusstsein und Sorglosigkeit beim \nUmgang mit dem Fahrzeug",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          54.90966796875,
+          93.635498046875
+        ],
+        [
+          493.2369689941406,
+          93.635498046875
+        ],
+        [
+          493.2369689941406,
+          134.543212890625
+        ],
+        [
+          54.90966796875,
+          134.543212890625
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Ungeregelte Daten\u00fcbertragung an Dritte und unsichere \nKommunikationsschnittstellen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          407.22705078125
+        ],
+        [
+          478.7890625,
+          407.22705078125
+        ],
+        [
+          478.7890625,
+          445.66796875
+        ],
+        [
+          55.78125,
+          445.66796875
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unsachgem\u00e4\u00dfe Ver\u00e4nderungen am Fahrzeug",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          687.4140625
+        ],
+        [
+          403.251953125,
+          687.4140625
+        ],
+        [
+          403.251953125,
+          706.326171875
+        ],
+        [
+          55.345458984375,
+          706.326171875
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Manipulation, unbefugter Zutritt und Diebstahl bei Fahrzeugen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          154.5859375
+        ],
+        [
+          532.8271484375,
+          154.5859375
+        ],
+        [
+          532.8271484375,
+          173.70361328125
+        ],
+        [
+          55.926513671875,
+          173.70361328125
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Gefahren im Zusammenhang mit Wartung, Reparatur und \nUpdates",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          434.15625
+        ],
+        [
+          496.957275390625,
+          434.15625
+        ],
+        [
+          496.957275390625,
+          471.98046875
+        ],
+        [
+          55.635986328125,
+          471.98046875
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Gefahren bei der Aussonderung",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          666.857421875
+        ],
+        [
+          309.41162109375,
+          666.857421875
+        ],
+        [
+          309.41162109375,
+          685.76953125
+        ],
+        [
+          55.78125,
+          685.76953125
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Unzul\u00e4ssige Temperatur und Luftfeuchte in Fahrzeugen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          94.9716796875
+        ],
+        [
+          479.951171875,
+          94.9716796875
+        ],
+        [
+          479.951171875,
+          114.192138671875
+        ],
+        [
+          55.635986328125,
+          114.192138671875
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.7086181640625,
+          218.3115234375
+        ],
+        [
+          209.7607421875,
+          218.3115234375
+        ],
+        [
+          209.7607421875,
+          239.279296875
+        ],
+        [
+          55.7086181640625,
+          239.279296875
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          481.025390625
+        ],
+        [
+          237.6513671875,
+          481.025390625
+        ],
+        [
+          237.6513671875,
+          500.759765625
+        ],
+        [
+          55.926513671875,
+          500.759765625
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A1 Planung und Beschaffung (B) [Fachverantwortliche, \nBeschaffungsstelle, Datenschutzbeauftragte]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.507568359375,
+          531.5947265625
+        ],
+        [
+          437.5341796875,
+          531.5947265625
+        ],
+        [
+          437.5341796875,
+          564.7049255371094
+        ],
+        [
+          56.507568359375,
+          564.7049255371094
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A2 Wartung, Inspektion und Updates (B) [Fachverantwortliche, IT-\nBetrieb]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          55.400146484375
+        ],
+        [
+          510.166015625,
+          55.400146484375
+        ],
+        [
+          510.166015625,
+          89.977294921875
+        ],
+        [
+          55.49072265625,
+          89.977294921875
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A3 Regelungen f\u00fcr die Fahrzeugbenutzung (B) [IT-Betrieb, \nFachverantwortliche, Benutzende, Datenschutzbeauftragte]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          285.326171875
+        ],
+        [
+          456.708984375,
+          285.326171875
+        ],
+        [
+          456.708984375,
+          319.861328125
+        ],
+        [
+          55.78125,
+          319.861328125
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          488.42578125
+        ],
+        [
+          266.41357421875,
+          488.42578125
+        ],
+        [
+          266.41357421875,
+          508.16015625
+        ],
+        [
+          55.78125,
+          508.16015625
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A4 Erstellung einer Sicherheitsrichtlinie (S) [Fachverantwortliche, IT-\nBetrieb]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          552.5625
+        ],
+        [
+          525.2734375,
+          552.5625
+        ],
+        [
+          525.2734375,
+          585.4649047851562
+        ],
+        [
+          55.78125,
+          585.4649047851562
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A5 Erstellung einer Inventarliste (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.1444091796875,
+          677.546875
+        ],
+        [
+          319.28955078125,
+          677.546875
+        ],
+        [
+          319.28955078125,
+          693.9921875
+        ],
+        [
+          56.1444091796875,
+          693.9921875
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A6 Festlegung von Handlungsanweisungen (S) [Fachverantwortliche, \nBenutzende]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          156.333251953125
+        ],
+        [
+          523.1372680664062,
+          156.333251953125
+        ],
+        [
+          523.1372680664062,
+          188.401611328125
+        ],
+        [
+          55.635986328125,
+          188.401611328125
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A7 Sachgerechter Umgang mit Fahrzeugen und sch\u00fctzenswerten \nInformationen (S) [Fachverantwortliche, Benutzende]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.07177734375,
+          432.1005859375
+        ],
+        [
+          499.99755859375,
+          432.1005859375
+        ],
+        [
+          499.99755859375,
+          464.1449279785156
+        ],
+        [
+          56.07177734375,
+          464.1449279785156
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A8 Schutz vor witterungsbedingten Einfl\u00fcssen (S) [Benutzende, \nFachverantwortliche]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.926513671875,
+          628.2109375
+        ],
+        [
+          487.5048828125,
+          628.2109375
+        ],
+        [
+          487.5048828125,
+          661.1015625
+        ],
+        [
+          55.926513671875,
+          661.1015625
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A9 Sicherstellung der Versorgung (S) [Fachverantwortliche]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.345458984375,
+          55.70849609375
+        ],
+        [
+          465.4248046875,
+          55.70849609375
+        ],
+        [
+          465.4248046875,
+          73.38720703125
+        ],
+        [
+          55.345458984375,
+          73.38720703125
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A10 Aussonderung (S) [IT-Betrieb, Fachverantwortliche]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.49072265625,
+          125.18994140625
+        ],
+        [
+          444.5068359375,
+          125.18994140625
+        ],
+        [
+          444.5068359375,
+          142.45751953125
+        ],
+        [
+          55.49072265625,
+          142.45751953125
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.635986328125,
+          211.93896484375
+        ],
+        [
+          391.630859375,
+          211.93896484375
+        ],
+        [
+          391.630859375,
+          231.67333984375
+        ],
+        [
+          55.635986328125,
+          231.67333984375
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A11 Ersatzvorkehrungen bei Ausf\u00e4llen (H) [Fachverantwortliche]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.07177734375,
+          303.0048828125
+        ],
+        [
+          497.67425537109375,
+          303.0048828125
+        ],
+        [
+          497.67425537109375,
+          319.861328125
+        ],
+        [
+          56.07177734375,
+          319.861328125
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A12 Diebstahlsicherung bzw. Bewachung (H) [Fachverantwortliche, \nMitarbeitende]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          383.5869140625
+        ],
+        [
+          512.9091186523438,
+          383.5869140625
+        ],
+        [
+          512.9091186523438,
+          417.46490478515625
+        ],
+        [
+          55.78125,
+          417.46490478515625
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A13 Sch\u00e4digende Fremdeinwirkung (H) [Fachverantwortliche]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          56.07177734375,
+          469.513671875
+        ],
+        [
+          482.8564453125,
+          469.513671875
+        ],
+        [
+          482.8564453125,
+          486.78125
+        ],
+        [
+          56.07177734375,
+          486.78125
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A14 Schutz sensibler Informationen vor unbefugtem Zugriff und \nKenntnisnahme (H) [IT-Betrieb, Fachverantwortliche]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.926513671875,
+          537.76171875
+        ],
+        [
+          500.869140625,
+          537.76171875
+        ],
+        [
+          500.869140625,
+          571.474609375
+        ],
+        [
+          55.926513671875,
+          571.474609375
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A15 Physische Absicherung der Schnittstellen (H) [IT-Betrieb, \nFachverantwortliche]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.49072265625,
+          636.43359375
+        ],
+        [
+          476.1972961425781,
+          636.43359375
+        ],
+        [
+          476.1972961425781,
+          669.4649353027344
+        ],
+        [
+          55.49072265625,
+          669.4649353027344
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A16 Brandl\u00f6schanlage (H) [Fachverantwortliche]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.635986328125,
+          709.2041015625
+        ],
+        [
+          398.5420837402344,
+          709.2041015625
+        ],
+        [
+          398.5420837402344,
+          725.6494140625
+        ],
+        [
+          55.635986328125,
+          725.6494140625
+        ]
+      ]
+    },
+    {
+      "title": "INF.11.A17 Netztrennung des In-Vehicle-Network mit einem \nSonderfahrzeugnetz \u00fcber Gateways (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.49072265625,
+          55.605712890625
+        ],
+        [
+          434.33837890625,
+          55.605712890625
+        ],
+        [
+          434.33837890625,
+          90.0380859375
+        ],
+        [
+          55.49072265625,
+          90.0380859375
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.7086181640625,
+          232.701171875
+        ],
+        [
+          336.14013671875,
+          232.701171875
+        ],
+        [
+          336.14013671875,
+          254.90234375
+        ],
+        [
+          55.7086181640625,
+          254.90234375
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          267.236328125
+        ],
+        [
+          190.440673828125,
+          267.236328125
+        ],
+        [
+          190.440673828125,
+          285.326171875
+        ],
+        [
+          55.78125,
+          285.326171875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          78
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          124
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          49
+        ],
+        [
+          "Line",
+          19
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/INF_11_Allgemeines_Fahrzeug_2023"
+}

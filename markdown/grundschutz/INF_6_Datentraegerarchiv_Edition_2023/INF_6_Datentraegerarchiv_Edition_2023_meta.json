@@ -1,0 +1,734 @@
+{
+  "table_of_contents": [
+    {
+      "title": "INF.6 Datentr\u00e4gerarchiv",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.49072265625,
+          201.146728515625
+        ],
+        [
+          397.15087890625,
+          201.146728515625
+        ],
+        [
+          397.15087890625,
+          240.5126953125
+        ],
+        [
+          55.49072265625,
+          240.5126953125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.1444091796875,
+          274.63671875
+        ],
+        [
+          194.94384765625,
+          274.63671875
+        ],
+        [
+          194.94384765625,
+          298.0712890625
+        ],
+        [
+          56.1444091796875,
+          298.0712890625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.18072509765625,
+          308.55517578125
+        ],
+        [
+          161.678466796875,
+          308.55517578125
+        ],
+        [
+          161.678466796875,
+          328.28955078125
+        ],
+        [
+          56.18072509765625,
+          328.28955078125
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          392.220703125
+        ],
+        [
+          169.2537384033203,
+          392.220703125
+        ],
+        [
+          169.2537384033203,
+          411.5439453125
+        ],
+        [
+          55.96282958984375,
+          411.5439453125
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.5633544921875,
+          474.447265625
+        ],
+        [
+          303.8916015625,
+          474.447265625
+        ],
+        [
+          303.8916015625,
+          494.181640625
+        ],
+        [
+          55.5633544921875,
+          494.181640625
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.635986328125,
+          636.0224609375
+        ],
+        [
+          221.09130859375,
+          636.0224609375
+        ],
+        [
+          221.09130859375,
+          658.2236328125
+        ],
+        [
+          55.635986328125,
+          658.2236328125
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Unzul\u00e4ssige Temperatur und Luftfeuchtigkeit",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2001953125,
+          56.11962890625
+        ],
+        [
+          411.09619140625,
+          56.11962890625
+        ],
+        [
+          411.09619140625,
+          76.26513671875
+        ],
+        [
+          55.2001953125,
+          76.26513671875
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Fehlende oder unzureichende Regelungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          127.0400390625
+        ],
+        [
+          382.9150390625,
+          127.0400390625
+        ],
+        [
+          382.9150390625,
+          145.74658203125
+        ],
+        [
+          55.635986328125,
+          145.74658203125
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Unbefugter Zutritt zu schutzbed\u00fcrftigen R\u00e4umen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          261.68603515625
+        ],
+        [
+          434.0478515625,
+          261.68603515625
+        ],
+        [
+          434.0478515625,
+          281.00927734375
+        ],
+        [
+          55.345458984375,
+          281.00927734375
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Diebstahl",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.89019775390625,
+          371.04736328125
+        ],
+        [
+          155.43212890625,
+          371.04736328125
+        ],
+        [
+          155.43212890625,
+          389.95947265625
+        ],
+        [
+          55.89019775390625,
+          389.95947265625
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          493.359375
+        ],
+        [
+          209.1796875,
+          493.359375
+        ],
+        [
+          209.1796875,
+          515.560546875
+        ],
+        [
+          55.7086181640625,
+          515.560546875
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.8538818359375,
+          56.427978515625
+        ],
+        [
+          238.52294921875,
+          56.427978515625
+        ],
+        [
+          238.52294921875,
+          76.470703125
+        ],
+        [
+          55.8538818359375,
+          76.470703125
+        ]
+      ]
+    },
+    {
+      "title": "INF.6.A1 Handfeuerl\u00f6scher (B) [Brandschutzbeauftragte]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          107.10009765625
+        ],
+        [
+          402.96142578125,
+          107.10009765625
+        ],
+        [
+          402.96142578125,
+          124.36767578125
+        ],
+        [
+          55.78125,
+          124.36767578125
+        ]
+      ]
+    },
+    {
+      "title": "INF.6.A2 Zutrittsregelung und -kontrolle (B) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          188.812744140625
+        ],
+        [
+          416.03515625,
+          188.812744140625
+        ],
+        [
+          416.03515625,
+          206.285888671875
+        ],
+        [
+          55.49072265625,
+          206.285888671875
+        ]
+      ]
+    },
+    {
+      "title": "INF.6.A3 Schutz vor Staub und anderer Verschmutzung (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          309.78857421875
+        ],
+        [
+          415.74462890625,
+          309.78857421875
+        ],
+        [
+          415.74462890625,
+          326.64501953125
+        ],
+        [
+          55.78125,
+          326.64501953125
+        ]
+      ]
+    },
+    {
+      "title": "INF.6.A4 Geschlossene Fenster und abgeschlossene T\u00fcren (B) [Mitarbeitende]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          378.03662109375
+        ],
+        [
+          524.98291015625,
+          378.03662109375
+        ],
+        [
+          524.98291015625,
+          394.89306640625
+        ],
+        [
+          55.78125,
+          394.89306640625
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          467.046875
+        ],
+        [
+          266.7041015625,
+          467.046875
+        ],
+        [
+          266.7041015625,
+          485.13671875
+        ],
+        [
+          55.78125,
+          485.13671875
+        ]
+      ]
+    },
+    {
+      "title": "INF.6.A5 Verwendung von Schutzschr\u00e4nken (S) [Mitarbeitende]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          529.1279296875
+        ],
+        [
+          445.087890625,
+          529.1279296875
+        ],
+        [
+          445.087890625,
+          546.3955078125
+        ],
+        [
+          55.926513671875,
+          546.3955078125
+        ]
+      ]
+    },
+    {
+      "title": "INF.6.A6 Vermeidung von wasserf\u00fchrenden Leitungen (S) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          585.453125
+        ],
+        [
+          499.99755859375,
+          585.453125
+        ],
+        [
+          499.99755859375,
+          601.8984375
+        ],
+        [
+          55.78125,
+          601.8984375
+        ]
+      ]
+    },
+    {
+      "title": "INF.6.A7 Einhaltung von klimatischen Bedingungen (S) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.2001953125,
+          692.7587890625
+        ],
+        [
+          482.56591796875,
+          692.7587890625
+        ],
+        [
+          482.56591796875,
+          710.0263671875
+        ],
+        [
+          55.2001953125,
+          710.0263671875
+        ]
+      ]
+    },
+    {
+      "title": "INF.6.A8 Sichere T\u00fcren und Fenster (S) [Planende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          88.701904296875
+        ],
+        [
+          362.28759765625,
+          88.701904296875
+        ],
+        [
+          362.28759765625,
+          106.27783203125
+        ],
+        [
+          55.49072265625,
+          106.27783203125
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          203.099609375
+        ],
+        [
+          392.79296875,
+          203.099609375
+        ],
+        [
+          392.79296875,
+          222.01171875
+        ],
+        [
+          56.07177734375,
+          222.01171875
+        ]
+      ]
+    },
+    {
+      "title": "INF.6.A9 Gefahrenmeldeanlage (H) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          292.7265625
+        ],
+        [
+          357.63916015625,
+          292.7265625
+        ],
+        [
+          357.63916015625,
+          310.4052734375
+        ],
+        [
+          56.07177734375,
+          310.4052734375
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.8538818359375,
+          381.32568359375
+        ],
+        [
+          336.14013671875,
+          381.32568359375
+        ],
+        [
+          336.14013671875,
+          402.70458984375
+        ],
+        [
+          55.8538818359375,
+          402.70458984375
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.96282958984375,
+          415.44970703125
+        ],
+        [
+          190.440673828125,
+          415.44970703125
+        ],
+        [
+          190.440673828125,
+          433.333984375
+        ],
+        [
+          55.96282958984375,
+          433.333984375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          73
+        ],
+        [
+          "Line",
+          25
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          63
+        ],
+        [
+          "Line",
+          25
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/INF_6_Datentraegerarchiv_Edition_2023"
+}

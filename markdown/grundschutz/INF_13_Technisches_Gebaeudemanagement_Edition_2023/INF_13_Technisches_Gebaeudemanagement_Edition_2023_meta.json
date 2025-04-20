@@ -1,0 +1,2021 @@
+{
+  "table_of_contents": [
+    {
+      "title": "INF.13 Technisches \nGeb\u00e4udemanagement",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          200.83837890625
+        ],
+        [
+          366.6455078125,
+          200.83837890625
+        ],
+        [
+          366.6455078125,
+          276.89794921875
+        ],
+        [
+          55.926513671875,
+          276.89794921875
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.217041015625,
+          313.89990234375
+        ],
+        [
+          194.217529296875,
+          313.89990234375
+        ],
+        [
+          194.217529296875,
+          336.51220703125
+        ],
+        [
+          56.217041015625,
+          336.51220703125
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          347.20166015625
+        ],
+        [
+          160.9521484375,
+          347.20166015625
+        ],
+        [
+          160.9521484375,
+          367.75830078125
+        ],
+        [
+          55.8538818359375,
+          367.75830078125
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.9991455078125,
+          212.966796875
+        ],
+        [
+          167.9248046875,
+          212.966796875
+        ],
+        [
+          167.9248046875,
+          232.2900390625
+        ],
+        [
+          55.9991455078125,
+          232.2900390625
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.07177734375,
+          282.4482421875
+        ],
+        [
+          303.60107421875,
+          282.4482421875
+        ],
+        [
+          303.60107421875,
+          302.59375
+        ],
+        [
+          56.07177734375,
+          302.59375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          626.9775390625
+        ],
+        [
+          222.25341796875,
+          626.9775390625
+        ],
+        [
+          222.25341796875,
+          649.1787109375
+        ],
+        [
+          55.635986328125,
+          649.1787109375
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Fehlende Grundlagen f\u00fcr die Planung des TGM",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.926513671875,
+          724.8271484375
+        ],
+        [
+          416.6162109375,
+          724.8271484375
+        ],
+        [
+          416.6162109375,
+          744.5615234375
+        ],
+        [
+          55.926513671875,
+          744.5615234375
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Mangelnde Dokumentation beim TGM",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          94.7147216796875
+        ],
+        [
+          360.25390625,
+          94.7147216796875
+        ],
+        [
+          360.25390625,
+          114.603271484375
+        ],
+        [
+          55.635986328125,
+          114.603271484375
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Kompromittierung der Schnittstellen mit TGM",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          261.8916015625
+        ],
+        [
+          417.197265625,
+          261.8916015625
+        ],
+        [
+          417.197265625,
+          282.037109375
+        ],
+        [
+          55.345458984375,
+          282.037109375
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unzureichendes Monitoring der TGA",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          430.4560546875
+        ],
+        [
+          348.34228515625,
+          430.4560546875
+        ],
+        [
+          348.34228515625,
+          450.1904296875
+        ],
+        [
+          55.7086181640625,
+          450.1904296875
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Unzureichendes Rollen- und Berechtigungsmanagement",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.2001953125,
+          559.962890625
+        ],
+        [
+          486.05224609375,
+          559.962890625
+        ],
+        [
+          486.05224609375,
+          579.697265625
+        ],
+        [
+          55.2001953125,
+          579.697265625
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          682.48046875
+        ],
+        [
+          208.5986328125,
+          682.48046875
+        ],
+        [
+          208.5986328125,
+          704.681640625
+        ],
+        [
+          55.7086181640625,
+          704.681640625
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          215.43359375
+        ],
+        [
+          238.232421875,
+          215.43359375
+        ],
+        [
+          238.232421875,
+          233.9345703125
+        ],
+        [
+          55.78125,
+          233.9345703125
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A1 Beurteilung des Ist-Zustands bei der \u00dcbernahme bestehender \nGeb\u00e4ude (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          266.0029296875
+        ],
+        [
+          497.9638671875,
+          266.0029296875
+        ],
+        [
+          497.9638671875,
+          298.304931640625
+        ],
+        [
+          55.635986328125,
+          298.304931640625
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A2 Regelung und Dokumentation von Verantwortlichkeiten und \nZust\u00e4ndigkeiten im Geb\u00e4ude (B) [Institutionsleitung, Planende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          364.6748046875
+        ],
+        [
+          500.869140625,
+          364.6748046875
+        ],
+        [
+          500.869140625,
+          396.7049255371094
+        ],
+        [
+          55.49072265625,
+          396.7049255371094
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A3 Dokumentation von Geb\u00e4udeeinrichtungen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          598.609375
+        ],
+        [
+          410.51513671875,
+          598.609375
+        ],
+        [
+          410.51513671875,
+          615.0990447998047
+        ],
+        [
+          55.49072265625,
+          615.0990447998047
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          706.326171875
+        ],
+        [
+          266.849365234375,
+          706.326171875
+        ],
+        [
+          266.849365234375,
+          724.416015625
+        ],
+        [
+          55.926513671875,
+          724.416015625
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A4 Erstellung einer Sicherheitsrichtlinie f\u00fcr TGM (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.2001953125,
+          55.6571044921875
+        ],
+        [
+          420.39306640625,
+          55.6571044921875
+        ],
+        [
+          420.39306640625,
+          73.4385986328125
+        ],
+        [
+          55.2001953125,
+          73.4385986328125
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A5 Planung des TGM (S) [Planende]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          203.5107421875
+        ],
+        [
+          313.1884765625,
+          203.5107421875
+        ],
+        [
+          313.1884765625,
+          221.189453125
+        ],
+        [
+          55.635986328125,
+          221.189453125
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A6 Erstellung eines TGM-Konzepts (S) [Planende]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          559.140625
+        ],
+        [
+          401.5087890625,
+          559.140625
+        ],
+        [
+          401.5087890625,
+          576.408203125
+        ],
+        [
+          55.926513671875,
+          576.408203125
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A7 Erstellung eines Funkfrequenzkatasters (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          181.001220703125
+        ],
+        [
+          382.62451171875,
+          181.001220703125
+        ],
+        [
+          382.62451171875,
+          197.446533203125
+        ],
+        [
+          55.78125,
+          197.446533203125
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A8 Erstellung und Pflege eines Inventars f\u00fcr das TGM (S) [Planende]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          321.30029296875
+        ],
+        [
+          513.65234375,
+          321.30029296875
+        ],
+        [
+          513.65234375,
+          337.74560546875
+        ],
+        [
+          55.78125,
+          337.74560546875
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A9 Regelung des Einsatzes von Computer-Aided Facility Management \n(S) [Planende]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          409.69384765625
+        ],
+        [
+          529.476318359375,
+          409.69384765625
+        ],
+        [
+          529.476318359375,
+          442.0649108886719
+        ],
+        [
+          55.926513671875,
+          442.0649108886719
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A10 Regelung des Einsatzes von Building Information Modeling (S) \n[Planende]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          508.16015625
+        ],
+        [
+          511.9091796875,
+          508.16015625
+        ],
+        [
+          511.9091796875,
+          540.4649047851562
+        ],
+        [
+          55.635986328125,
+          540.4649047851562
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A11 Angemessene H\u00e4rtung von Systemen im TGM (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          625.744140625
+        ],
+        [
+          427.65625,
+          625.744140625
+        ],
+        [
+          427.65625,
+          641.3671875
+        ],
+        [
+          55.635986328125,
+          641.3671875
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A12 Sichere Konfiguration der TGM-Systeme (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.345458984375,
+          88.8046875
+        ],
+        [
+          398.0224609375,
+          88.8046875
+        ],
+        [
+          398.0224609375,
+          106.4833984375
+        ],
+        [
+          55.345458984375,
+          106.4833984375
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A13 Sichere Anbindung von eingeschr\u00e4nkt vertrauensw\u00fcrdigen \nSystemen im TGM (S) [Planende]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          444.4345703125
+        ],
+        [
+          493.3154296875,
+          444.4345703125
+        ],
+        [
+          493.3154296875,
+          477.46490478515625
+        ],
+        [
+          55.635986328125,
+          477.46490478515625
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A14 Ber\u00fccksichtigung spezieller Rollen und Berechtigungen im TGM (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          543.517578125
+        ],
+        [
+          541.54296875,
+          543.517578125
+        ],
+        [
+          541.54296875,
+          559.962890625
+        ],
+        [
+          55.635986328125,
+          559.962890625
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A15 Schutz vor Schadsoftware im TGM (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          624.921875
+        ],
+        [
+          357.05810546875,
+          624.921875
+        ],
+        [
+          357.05810546875,
+          641.3671875
+        ],
+        [
+          55.78125,
+          641.3671875
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A16 Prozess f\u00fcr \u00c4nderungen im TGM (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.5633544921875,
+          55.194580078125
+        ],
+        [
+          347.18017578125,
+          55.194580078125
+        ],
+        [
+          347.18017578125,
+          73.695556640625
+        ],
+        [
+          55.5633544921875,
+          73.695556640625
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A17 Regelung von Wartungs- und Reparaturarbeiten im TGM (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          203.613525390625
+        ],
+        [
+          496.220703125,
+          203.613525390625
+        ],
+        [
+          496.220703125,
+          220.98388671875
+        ],
+        [
+          55.78125,
+          220.98388671875
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A18 Proaktive Instandhaltung im TGM (S) [Planende]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.345458984375,
+          383.79248046875
+        ],
+        [
+          425.33203125,
+          383.79248046875
+        ],
+        [
+          425.33203125,
+          401.06005859375
+        ],
+        [
+          55.345458984375,
+          401.06005859375
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A19 Konzeptionierung und Durchf\u00fchrung des Monitorings im TGM (S) \n[Planende]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.635986328125,
+          492.537109375
+        ],
+        [
+          536.3134765625,
+          492.537109375
+        ],
+        [
+          536.3134765625,
+          525.4649047851562
+        ],
+        [
+          55.635986328125,
+          525.4649047851562
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A20 Regelung des Ereignismanagements im TGM (S) [Planende]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.345458984375,
+          709.2041015625
+        ],
+        [
+          487.5048828125,
+          709.2041015625
+        ],
+        [
+          487.5048828125,
+          725.6494140625
+        ],
+        [
+          55.345458984375,
+          725.6494140625
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A21 Protokollierung im TGM (S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.5633544921875,
+          89.318603515625
+        ],
+        [
+          300.11474609375,
+          89.318603515625
+        ],
+        [
+          300.11474609375,
+          106.997314453125
+        ],
+        [
+          55.5633544921875,
+          106.997314453125
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A22 Durchf\u00fchrung von Systemtests im TGM (S) [Planende]",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.635986328125,
+          246.6796875
+        ],
+        [
+          459.033203125,
+          246.6796875
+        ],
+        [
+          459.033203125,
+          263.947265625
+        ],
+        [
+          55.635986328125,
+          263.947265625
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A23 Integration des TGM in das Schwachstellenmanagement (S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          441.1455078125
+        ],
+        [
+          491.86279296875,
+          441.1455078125
+        ],
+        [
+          491.86279296875,
+          457.5908203125
+        ],
+        [
+          55.78125,
+          457.5908203125
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A24 Sicherstellung der Kontrolle \u00fcber die Prozesse bei Cloud-Nutzung \nf\u00fcr das TGM (S) [Planende]",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.926513671875,
+          640.1337890625
+        ],
+        [
+          532.8271484375,
+          640.1337890625
+        ],
+        [
+          532.8271484375,
+          673.0649261474609
+        ],
+        [
+          55.926513671875,
+          673.0649261474609
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.635986328125,
+          55.9140625
+        ],
+        [
+          392.2119140625,
+          55.9140625
+        ],
+        [
+          392.2119140625,
+          76.470703125
+        ],
+        [
+          55.635986328125,
+          76.470703125
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A25 Aufbau einer Testumgebung f\u00fcr das TGM (H) [Planende]",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.926513671875,
+          147.185546875
+        ],
+        [
+          470.0732421875,
+          147.185546875
+        ],
+        [
+          470.0732421875,
+          164.65869140625
+        ],
+        [
+          55.926513671875,
+          164.65869140625
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A26 Absicherung von BIM (H) [Planende]",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.7086181640625,
+          240.71826171875
+        ],
+        [
+          347.8843078613281,
+          240.71826171875
+        ],
+        [
+          347.8843078613281,
+          258.80810546875
+        ],
+        [
+          55.7086181640625,
+          258.80810546875
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A27 Einrichtung einer Private Cloud f\u00fcr das TGM (H) [Planende]",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.635986328125,
+          349.0517578125
+        ],
+        [
+          490.9912109375,
+          349.0517578125
+        ],
+        [
+          490.9912109375,
+          366.73046875
+        ],
+        [
+          55.635986328125,
+          366.73046875
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A28 Sichere Nutzung von K\u00fcnstlicher Intelligenz im TGM (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.78125,
+          417.09423828125
+        ],
+        [
+          473.85009765625,
+          417.09423828125
+        ],
+        [
+          473.85009765625,
+          434.259033203125
+        ],
+        [
+          55.78125,
+          434.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A29 Integration des TGM in ein SIEM (H) [IT-Betrieb]",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.49072265625,
+          544.7509765625
+        ],
+        [
+          423.87939453125,
+          544.7509765625
+        ],
+        [
+          423.87939453125,
+          562.0185546875
+        ],
+        [
+          55.49072265625,
+          562.0185546875
+        ]
+      ]
+    },
+    {
+      "title": "INF.13.A30 Durchf\u00fchrung von Penetrationstests im TGM (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.49072265625,
+          626.1552734375
+        ],
+        [
+          427.94677734375,
+          626.1552734375
+        ],
+        [
+          427.94677734375,
+          643.4228515625
+        ],
+        [
+          55.49072265625,
+          643.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          54.90966796875,
+          57.0960693359375
+        ],
+        [
+          335.849609375,
+          57.0960693359375
+        ],
+        [
+          335.849609375,
+          78.6805419921875
+        ],
+        [
+          54.90966796875,
+          78.6805419921875
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Genutzte TGM-spezifische Fachbegriffe",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.926513671875,
+          90.44921875
+        ],
+        [
+          364.90234375,
+          90.44921875
+        ],
+        [
+          364.90234375,
+          109.97802734375
+        ],
+        [
+          55.926513671875,
+          109.97802734375
+        ]
+      ]
+    },
+    {
+      "title": "Automationsebene",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.74493408203125,
+          121.07861328125
+        ],
+        [
+          149.766845703125,
+          121.07861328125
+        ],
+        [
+          149.766845703125,
+          134.8515625
+        ],
+        [
+          55.74493408203125,
+          134.8515625
+        ]
+      ]
+    },
+    {
+      "title": "Building Information Modeling (BIM)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.9991455078125,
+          199.60498046875
+        ],
+        [
+          240.26611328125,
+          199.60498046875
+        ],
+        [
+          240.26611328125,
+          212.76123046875
+        ],
+        [
+          55.9991455078125,
+          212.76123046875
+        ]
+      ]
+    },
+    {
+      "title": "Computer-Aided Facility Management (CAFM)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.78125,
+          264.56396484375
+        ],
+        [
+          283.84521484375,
+          264.56396484375
+        ],
+        [
+          283.84521484375,
+          277.72021484375
+        ],
+        [
+          55.78125,
+          277.72021484375
+        ]
+      ]
+    },
+    {
+      "title": "Feldebene",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.78125,
+          329.11181640625
+        ],
+        [
+          108.36669921875,
+          329.11181640625
+        ],
+        [
+          108.36669921875,
+          342.26806640625
+        ],
+        [
+          55.78125,
+          342.26806640625
+        ]
+      ]
+    },
+    {
+      "title": "Geb\u00e4ude",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.926513671875,
+          420.79443359375
+        ],
+        [
+          101.248779296875,
+          420.79443359375
+        ],
+        [
+          101.248779296875,
+          433.7451171875
+        ],
+        [
+          55.926513671875,
+          433.7451171875
+        ]
+      ]
+    },
+    {
+      "title": "Geb\u00e4udeautomation (englisch Building Automation and Control Systems, BACS)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.926513671875,
+          498.7041015625
+        ],
+        [
+          444.5068359375,
+          498.7041015625
+        ],
+        [
+          444.5068359375,
+          511.8603515625
+        ],
+        [
+          55.926513671875,
+          511.8603515625
+        ]
+      ]
+    },
+    {
+      "title": "Geb\u00e4udekomplex",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          56.03546142578125,
+          550.095703125
+        ],
+        [
+          142.939453125,
+          550.095703125
+        ],
+        [
+          142.939453125,
+          563.251953125
+        ],
+        [
+          56.03546142578125,
+          563.251953125
+        ]
+      ]
+    },
+    {
+      "title": "Gewerk",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.926513671875,
+          601.076171875
+        ],
+        [
+          96.74560546875,
+          601.076171875
+        ],
+        [
+          96.74560546875,
+          614.3993072509766
+        ],
+        [
+          55.926513671875,
+          614.3993072509766
+        ]
+      ]
+    },
+    {
+      "title": "Leitstand (englisch Control Center)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.5633544921875,
+          699.3369140625
+        ],
+        [
+          224.8681640625,
+          699.3369140625
+        ],
+        [
+          224.8681640625,
+          712.4931640625
+        ],
+        [
+          55.5633544921875,
+          712.4931640625
+        ]
+      ]
+    },
+    {
+      "title": "Liegenschaft",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.4180908203125,
+          763.0625
+        ],
+        [
+          120.3509521484375,
+          763.0625
+        ],
+        [
+          120.3509521484375,
+          776.4111785888672
+        ],
+        [
+          55.4180908203125,
+          776.4111785888672
+        ]
+      ]
+    },
+    {
+      "title": "Liegenschaftsportfolio",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.635986328125,
+          101.7039794921875
+        ],
+        [
+          167.779541015625,
+          101.7039794921875
+        ],
+        [
+          167.779541015625,
+          115.631103515625
+        ],
+        [
+          55.635986328125,
+          115.631103515625
+        ]
+      ]
+    },
+    {
+      "title": "Nachfrageorganisation",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.7086181640625,
+          140.40185546875
+        ],
+        [
+          169.95849609375,
+          140.40185546875
+        ],
+        [
+          169.95849609375,
+          153.763671875
+        ],
+        [
+          55.7086181640625,
+          153.763671875
+        ]
+      ]
+    },
+    {
+      "title": "System",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.49072265625,
+          237.634765625
+        ],
+        [
+          94.130859375,
+          237.634765625
+        ],
+        [
+          94.130859375,
+          251.2021484375
+        ],
+        [
+          55.49072265625,
+          251.2021484375
+        ]
+      ]
+    },
+    {
+      "title": "Technische Geb\u00e4udeausr\u00fcstung (englisch Building Services, BS)",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.78125,
+          315.54443359375
+        ],
+        [
+          363.44970703125,
+          315.54443359375
+        ],
+        [
+          363.44970703125,
+          329.11181640625
+        ],
+        [
+          55.78125,
+          329.11181640625
+        ]
+      ]
+    },
+    {
+      "title": "Technisches Geb\u00e4udemanagement (englisch Technical Building Management, TBM)",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.926513671875,
+          406.81591796875
+        ],
+        [
+          461.9384765625,
+          406.81591796875
+        ],
+        [
+          461.9384765625,
+          420.38330078125
+        ],
+        [
+          55.926513671875,
+          420.38330078125
+        ]
+      ]
+    },
+    {
+      "title": "TGA-Anlage",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.926513671875,
+          485.5478515625
+        ],
+        [
+          119.552001953125,
+          485.5478515625
+        ],
+        [
+          119.552001953125,
+          498.7041015625
+        ],
+        [
+          55.926513671875,
+          498.7041015625
+        ]
+      ]
+    },
+    {
+      "title": "4.2. Abk\u00fcrzungen",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          55.635986328125,
+          557.49609375
+        ],
+        [
+          184.4955596923828,
+          557.49609375
+        ],
+        [
+          184.4955596923828,
+          574.763671875
+        ],
+        [
+          55.635986328125,
+          574.763671875
+        ]
+      ]
+    },
+    {
+      "title": "4.3. Wissenswertes",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          55.78125,
+          153.866455078125
+        ],
+        [
+          192.0446319580078,
+          153.866455078125
+        ],
+        [
+          192.0446319580078,
+          170.05548095703125
+        ],
+        [
+          55.78125,
+          170.05548095703125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          30
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          156
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          108
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          126
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          117
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          94
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "SectionHeader",
+          12
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          134
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "TableCell",
+          28
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          74
+        ],
+        [
+          "Line",
+          23
+        ],
+        [
+          "TableCell",
+          12
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/INF_13_Technisches_Gebaeudemanagement_Edition_2023"
+}

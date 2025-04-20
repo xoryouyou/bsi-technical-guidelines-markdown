@@ -1,0 +1,815 @@
+{
+  "table_of_contents": [
+    {
+      "title": "ORP.5 Compliance Management \n(Anforderungsmanagement)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.217041015625,
+          201.8662109375
+        ],
+        [
+          514.4852294921875,
+          201.8662109375
+        ],
+        [
+          514.4852294921875,
+          277.5146484375
+        ],
+        [
+          56.217041015625,
+          277.5146484375
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.2896728515625,
+          313.89990234375
+        ],
+        [
+          194.6533203125,
+          313.89990234375
+        ],
+        [
+          194.6533203125,
+          336.51220703125
+        ],
+        [
+          56.2896728515625,
+          336.51220703125
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.07177734375,
+          347.20166015625
+        ],
+        [
+          160.9521484375,
+          347.20166015625
+        ],
+        [
+          160.9521484375,
+          367.75830078125
+        ],
+        [
+          56.07177734375,
+          367.75830078125
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          561.1962890625
+        ],
+        [
+          169.25376892089844,
+          561.1962890625
+        ],
+        [
+          169.25376892089844,
+          581.7529296875
+        ],
+        [
+          55.926513671875,
+          581.7529296875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.9991455078125,
+          657.4013671875
+        ],
+        [
+          303.310546875,
+          657.4013671875
+        ],
+        [
+          303.310546875,
+          677.9580078125
+        ],
+        [
+          55.9991455078125,
+          677.9580078125
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          95.485595703125
+        ],
+        [
+          221.67236328125,
+          95.485595703125
+        ],
+        [
+          221.67236328125,
+          117.481201171875
+        ],
+        [
+          55.7086181640625,
+          117.481201171875
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Versto\u00df gegen rechtliche Vorgaben",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2728271484375,
+          193.129638671875
+        ],
+        [
+          332.9443359375,
+          193.129638671875
+        ],
+        [
+          332.9443359375,
+          212.5556640625
+        ],
+        [
+          55.2728271484375,
+          212.5556640625
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Unzul\u00e4ssige Weitergabe von Informationen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          355.42431640625
+        ],
+        [
+          393.3740234375,
+          355.42431640625
+        ],
+        [
+          393.3740234375,
+          374.74755859375
+        ],
+        [
+          55.345458984375,
+          374.74755859375
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Unzureichende Identifikationspr\u00fcfung von \nKommunikationspartnern und -partnerinnen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          504.87109375
+        ],
+        [
+          411.04620361328125,
+          504.87109375
+        ],
+        [
+          411.04620361328125,
+          543.517578125
+        ],
+        [
+          55.635986328125,
+          543.517578125
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unbeabsichtigte Weitergabe interner Informationen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          685.76953125
+        ],
+        [
+          456.1279296875,
+          685.76953125
+        ],
+        [
+          456.1279296875,
+          705.50390625
+        ],
+        [
+          55.635986328125,
+          705.50390625
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.4180908203125,
+          57.76416015625
+        ],
+        [
+          210.63232421875,
+          57.76416015625
+        ],
+        [
+          210.63232421875,
+          79.96533203125
+        ],
+        [
+          55.4180908203125,
+          79.96533203125
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.9991455078125,
+          306.705078125
+        ],
+        [
+          237.94189453125,
+          306.705078125
+        ],
+        [
+          237.94189453125,
+          326.0283203125
+        ],
+        [
+          55.9991455078125,
+          326.0283203125
+        ]
+      ]
+    },
+    {
+      "title": "ORP.5.A1 Identifikation der Rahmenbedingungen (B) [Zentrale Verwaltung, \nInstitutionsleitung]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          358.71337890625
+        ],
+        [
+          521.787109375,
+          358.71337890625
+        ],
+        [
+          521.787109375,
+          391.19287109375
+        ],
+        [
+          55.926513671875,
+          391.19287109375
+        ]
+      ]
+    },
+    {
+      "title": "ORP.5.A2 Beachtung der Rahmenbedingungen (B) [Vorgesetzte, Zentrale \nVerwaltung, Institutionsleitung]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.217041015625,
+          469.513671875
+        ],
+        [
+          500.2880859375,
+          469.513671875
+        ],
+        [
+          500.2880859375,
+          502.404296875
+        ],
+        [
+          56.217041015625,
+          502.404296875
+        ]
+      ]
+    },
+    {
+      "title": "ORP.5.A3 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.07177734375,
+          645.8896484375
+        ],
+        [
+          215.28076171875,
+          645.8896484375
+        ],
+        [
+          215.28076171875,
+          662.3349609375
+        ],
+        [
+          56.07177734375,
+          662.3349609375
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.8538818359375,
+          694.4033203125
+        ],
+        [
+          267.28515625,
+          694.4033203125
+        ],
+        [
+          267.28515625,
+          712.4931640625
+        ],
+        [
+          55.8538818359375,
+          712.4931640625
+        ]
+      ]
+    },
+    {
+      "title": "ORP.5.A4 Konzeption und Organisation des Compliance Managements (S) \n[Institutionsleitung]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          56.427978515625
+        ],
+        [
+          511.328125,
+          56.427978515625
+        ],
+        [
+          511.328125,
+          90.552001953125
+        ],
+        [
+          55.635986328125,
+          90.552001953125
+        ]
+      ]
+    },
+    {
+      "title": "ORP.5.A5 Ausnahmegenehmigungen (S) [Vorgesetzte]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          239.279296875
+        ],
+        [
+          385.38507080078125,
+          239.279296875
+        ],
+        [
+          385.38507080078125,
+          256.6590576171875
+        ],
+        [
+          55.926513671875,
+          256.6590576171875
+        ]
+      ]
+    },
+    {
+      "title": "ORP.5.A6 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.217041015625,
+          348.02392578125
+        ],
+        [
+          213.682861328125,
+          348.02392578125
+        ],
+        [
+          213.682861328125,
+          364.6590270996094
+        ],
+        [
+          56.217041015625,
+          364.6590270996094
+        ]
+      ]
+    },
+    {
+      "title": "ORP.5.A7 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          390.1650390625
+        ],
+        [
+          213.392333984375,
+          390.1650390625
+        ],
+        [
+          213.392333984375,
+          406.6590270996094
+        ],
+        [
+          55.926513671875,
+          406.6590270996094
+        ]
+      ]
+    },
+    {
+      "title": "ORP.5.A8 Regelm\u00e4\u00dfige \u00dcberpr\u00fcfungen des Compliance Managements (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          432.1005859375
+        ],
+        [
+          505.517578125,
+          432.1005859375
+        ],
+        [
+          505.517578125,
+          448.6590270996094
+        ],
+        [
+          55.926513671875,
+          448.6590270996094
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          520.494140625
+        ],
+        [
+          391.34033203125,
+          520.494140625
+        ],
+        [
+          391.34033203125,
+          538.583984375
+        ],
+        [
+          55.78125,
+          538.583984375
+        ]
+      ]
+    },
+    {
+      "title": "ORP.5.A9 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.1444091796875,
+          610.12109375
+        ],
+        [
+          218.76708984375,
+          610.12109375
+        ],
+        [
+          218.76708984375,
+          626.2590484619141
+        ],
+        [
+          56.1444091796875,
+          626.2590484619141
+        ]
+      ]
+    },
+    {
+      "title": "ORP.5.A10 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.2896728515625,
+          652.056640625
+        ],
+        [
+          224.57763671875,
+          652.056640625
+        ],
+        [
+          224.57763671875,
+          668.2590484619141
+        ],
+        [
+          56.2896728515625,
+          668.2590484619141
+        ]
+      ]
+    },
+    {
+      "title": "ORP.5.A11 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.3623046875,
+          694.814453125
+        ],
+        [
+          227.047119140625,
+          694.814453125
+        ],
+        [
+          227.047119140625,
+          710.4375
+        ],
+        [
+          56.3623046875,
+          710.4375
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          56.53076171875
+        ],
+        [
+          337.01171875,
+          56.53076171875
+        ],
+        [
+          337.01171875,
+          79.040283203125
+        ],
+        [
+          55.49072265625,
+          79.040283203125
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.67230224609375,
+          91.271484375
+        ],
+        [
+          190.731201171875,
+          91.271484375
+        ],
+        [
+          190.731201171875,
+          109.15576171875
+        ],
+        [
+          55.67230224609375,
+          109.15576171875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          73
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          110
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          33
+        ],
+        [
+          "Line",
+          11
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/ORP_5_Compliance_Management_Editon_2023"
+}

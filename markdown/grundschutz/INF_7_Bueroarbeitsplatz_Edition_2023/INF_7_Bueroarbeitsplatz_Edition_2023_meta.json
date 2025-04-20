@@ -1,0 +1,792 @@
+{
+  "table_of_contents": [
+    {
+      "title": "INF.7 B\u00fcroarbeitsplatz",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.49072265625,
+          200.01611328125
+        ],
+        [
+          373.037109375,
+          200.01611328125
+        ],
+        [
+          373.037109375,
+          240.71826171875
+        ],
+        [
+          55.49072265625,
+          240.71826171875
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          274.63671875
+        ],
+        [
+          195.089111328125,
+          274.63671875
+        ],
+        [
+          195.089111328125,
+          298.0712890625
+        ],
+        [
+          55.96282958984375,
+          298.0712890625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.07177734375,
+          309.171875
+        ],
+        [
+          162.1142578125,
+          309.171875
+        ],
+        [
+          162.1142578125,
+          328.4951171875
+        ],
+        [
+          56.07177734375,
+          328.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.03546142578125,
+          405.17138671875
+        ],
+        [
+          169.813232421875,
+          405.17138671875
+        ],
+        [
+          169.813232421875,
+          425.5224609375
+        ],
+        [
+          56.03546142578125,
+          425.5224609375
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.7086181640625,
+          462.5244140625
+        ],
+        [
+          303.310546875,
+          462.5244140625
+        ],
+        [
+          303.310546875,
+          481.4365234375
+        ],
+        [
+          55.7086181640625,
+          481.4365234375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.635986328125,
+          648.3564453125
+        ],
+        [
+          221.67236328125,
+          648.3564453125
+        ],
+        [
+          221.67236328125,
+          670.5576171875
+        ],
+        [
+          55.635986328125,
+          670.5576171875
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Unbefugter Zutritt",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.5633544921875,
+          56.11962890625
+        ],
+        [
+          220.51025390625,
+          56.11962890625
+        ],
+        [
+          220.51025390625,
+          76.0595703125
+        ],
+        [
+          55.5633544921875,
+          76.0595703125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Beeintr\u00e4chtigung durch ung\u00fcnstige Arbeitsbedingungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2001953125,
+          179.151123046875
+        ],
+        [
+          483.4375,
+          179.151123046875
+        ],
+        [
+          483.4375,
+          198.063232421875
+        ],
+        [
+          55.2001953125,
+          198.063232421875
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Manipulationen durch Reinigungs- und Fremdpersonal oder \nBesuchende",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          301.3603515625
+        ],
+        [
+          514.52392578125,
+          301.3603515625
+        ],
+        [
+          514.52392578125,
+          339.2554016113281
+        ],
+        [
+          55.49072265625,
+          339.2554016113281
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Manipulation oder Zerst\u00f6rung von IT, Zubeh\u00f6r, Informationen \nund Software im B\u00fcroraum",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.07177734375,
+          469.1025390625
+        ],
+        [
+          530.79345703125,
+          469.1025390625
+        ],
+        [
+          530.79345703125,
+          507.25537109375
+        ],
+        [
+          56.07177734375,
+          507.25537109375
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Diebstahl",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.25335693359375,
+          624.5107421875
+        ],
+        [
+          155.72265625,
+          624.5107421875
+        ],
+        [
+          155.72265625,
+          643.4228515625
+        ],
+        [
+          56.25335693359375,
+          643.4228515625
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Fliegende Verkabelung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          94.663330078125
+        ],
+        [
+          249.708251953125,
+          94.663330078125
+        ],
+        [
+          249.708251953125,
+          114.91162109375
+        ],
+        [
+          55.635986328125,
+          114.91162109375
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          191.690673828125
+        ],
+        [
+          209.1796875,
+          191.690673828125
+        ],
+        [
+          209.1796875,
+          212.966796875
+        ],
+        [
+          55.635986328125,
+          212.966796875
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          441.556640625
+        ],
+        [
+          237.215576171875,
+          441.556640625
+        ],
+        [
+          237.215576171875,
+          460.46875
+        ],
+        [
+          55.926513671875,
+          460.46875
+        ]
+      ]
+    },
+    {
+      "title": "INF.7.A1 Geeignete Auswahl und Nutzung eines B\u00fcroraumes (B) [Vorgesetzte]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.217041015625,
+          491.71484375
+        ],
+        [
+          530.5029296875,
+          491.71484375
+        ],
+        [
+          530.5029296875,
+          508.982421875
+        ],
+        [
+          56.217041015625,
+          508.982421875
+        ]
+      ]
+    },
+    {
+      "title": "INF.7.A2 Geschlossene Fenster und abgeschlossene T\u00fcren (B) [Mitarbeitende, \nHaustechnik]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          586.6865234375
+        ],
+        [
+          526.5166015625,
+          586.6865234375
+        ],
+        [
+          526.5166015625,
+          619.9049224853516
+        ],
+        [
+          55.78125,
+          619.9049224853516
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.8538818359375,
+          56.7877197265625
+        ],
+        [
+          268.15673828125,
+          56.7877197265625
+        ],
+        [
+          268.15673828125,
+          76.3165283203125
+        ],
+        [
+          55.8538818359375,
+          76.3165283203125
+        ]
+      ]
+    },
+    {
+      "title": "INF.7.A3 Fliegende Verkabelung (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          120.359130859375
+        ],
+        [
+          273.240966796875,
+          120.359130859375
+        ],
+        [
+          273.240966796875,
+          137.421142578125
+        ],
+        [
+          55.926513671875,
+          137.421142578125
+        ]
+      ]
+    },
+    {
+      "title": "INF.7.A4 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.1444091796875,
+          189.223876953125
+        ],
+        [
+          209.1796875,
+          189.223876953125
+        ],
+        [
+          209.1796875,
+          206.080322265625
+        ],
+        [
+          56.1444091796875,
+          206.080322265625
+        ]
+      ]
+    },
+    {
+      "title": "INF.7.A5 Ergonomischer Arbeitsplatz (S) [Zentrale Verwaltung, Vorgesetzte]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          231.056640625
+        ],
+        [
+          519.462890625,
+          231.056640625
+        ],
+        [
+          519.462890625,
+          247.501953125
+        ],
+        [
+          56.07177734375,
+          247.501953125
+        ]
+      ]
+    },
+    {
+      "title": "INF.7.A6 Aufger\u00e4umter Arbeitsplatz (S) [Mitarbeitende, Vorgesetzte]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          338.97900390625
+        ],
+        [
+          473.5595703125,
+          338.97900390625
+        ],
+        [
+          473.5595703125,
+          356.24658203125
+        ],
+        [
+          55.78125,
+          356.24658203125
+        ]
+      ]
+    },
+    {
+      "title": "INF.7.A7 Geeignete Aufbewahrung dienstlicher Unterlagen und Datentr\u00e4ger \n(S) [Mitarbeitende, Haustechnik]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          447.7236328125
+        ],
+        [
+          525.56396484375,
+          447.7236328125
+        ],
+        [
+          525.56396484375,
+          479.86492919921875
+        ],
+        [
+          56.07177734375,
+          479.86492919921875
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          538.1728515625
+        ],
+        [
+          391.0498046875,
+          538.1728515625
+        ],
+        [
+          391.0498046875,
+          557.0849609375
+        ],
+        [
+          55.926513671875,
+          557.0849609375
+        ]
+      ]
+    },
+    {
+      "title": "INF.7.A8 Einsatz von Diebstahlsicherungen (H) [Mitarbeitende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          627.388671875
+        ],
+        [
+          440.439453125,
+          627.388671875
+        ],
+        [
+          440.439453125,
+          644.65625
+        ],
+        [
+          55.635986328125,
+          644.65625
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.1275634765625,
+          56.7877197265625
+        ],
+        [
+          337.01171875,
+          56.7877197265625
+        ],
+        [
+          337.01171875,
+          78.9888916015625
+        ],
+        [
+          55.1275634765625,
+          78.9888916015625
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.59967041015625,
+          91.6826171875
+        ],
+        [
+          190.5859375,
+          91.6826171875
+        ],
+        [
+          190.5859375,
+          109.052978515625
+        ],
+        [
+          55.59967041015625,
+          109.052978515625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          80
+        ],
+        [
+          "Line",
+          26
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          86
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          33
+        ],
+        [
+          "Line",
+          12
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/INF_7_Bueroarbeitsplatz_Edition_2023"
+}

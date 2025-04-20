@@ -1,0 +1,1111 @@
+{
+  "table_of_contents": [
+    {
+      "title": "APP.4.6 SAP ABAP-\nProgrammierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.2001953125,
+          200.42724609375
+        ],
+        [
+          321.3232421875,
+          200.42724609375
+        ],
+        [
+          321.3232421875,
+          277.72021484375
+        ],
+        [
+          55.2001953125,
+          277.72021484375
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.32598876953125,
+          314.31103515625
+        ],
+        [
+          194.217529296875,
+          314.31103515625
+        ],
+        [
+          194.217529296875,
+          336.51220703125
+        ],
+        [
+          56.32598876953125,
+          336.51220703125
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.89019775390625,
+          347.61279296875
+        ],
+        [
+          160.9521484375,
+          347.61279296875
+        ],
+        [
+          160.9521484375,
+          367.75830078125
+        ],
+        [
+          55.89019775390625,
+          367.75830078125
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.07177734375,
+          614.232421875
+        ],
+        [
+          169.2537384033203,
+          614.232421875
+        ],
+        [
+          169.2537384033203,
+          633.14453125
+        ],
+        [
+          56.07177734375,
+          633.14453125
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          56.53076171875
+        ],
+        [
+          305.92529296875,
+          56.53076171875
+        ],
+        [
+          305.92529296875,
+          76.573486328125
+        ],
+        [
+          55.49072265625,
+          76.573486328125
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.4180908203125,
+          249.5576171875
+        ],
+        [
+          220.51025390625,
+          249.5576171875
+        ],
+        [
+          220.51025390625,
+          271.7587890625
+        ],
+        [
+          55.4180908203125,
+          271.7587890625
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Fehlende Berechtigungspr\u00fcfungen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          348.02392578125
+        ],
+        [
+          332.07275390625,
+          348.02392578125
+        ],
+        [
+          332.07275390625,
+          368.16943359375
+        ],
+        [
+          55.49072265625,
+          368.16943359375
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Verlust von Vertraulichkeit oder Integrit\u00e4t von kritischen Daten",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          497.470703125
+        ],
+        [
+          538.056640625,
+          497.470703125
+        ],
+        [
+          538.056640625,
+          515.6554870605469
+        ],
+        [
+          55.635986328125,
+          515.6554870605469
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Injection-Schwachstellen",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.9991455078125,
+          620.3994140625
+        ],
+        [
+          265.83251953125,
+          620.3994140625
+        ],
+        [
+          265.83251953125,
+          639.3115234375
+        ],
+        [
+          55.9991455078125,
+          639.3115234375
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Umgehung von vorhandenen SAP-Sicherheitsmechanismen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          56.4793701171875
+        ],
+        [
+          510.65411376953125,
+          56.4793701171875
+        ],
+        [
+          510.65411376953125,
+          76.4193115234375
+        ],
+        [
+          55.49072265625,
+          76.4193115234375
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          154.072021484375
+        ],
+        [
+          209.47021484375,
+          154.072021484375
+        ],
+        [
+          209.47021484375,
+          174.834228515625
+        ],
+        [
+          55.7086181640625,
+          174.834228515625
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.4180908203125,
+          403.3212890625
+        ],
+        [
+          238.52294921875,
+          403.3212890625
+        ],
+        [
+          238.52294921875,
+          422.64453125
+        ],
+        [
+          55.4180908203125,
+          422.64453125
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A1 Absicherung von Reports mit Berechtigungspr\u00fcfungen (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          453.4794921875
+        ],
+        [
+          484.0185546875,
+          453.4794921875
+        ],
+        [
+          484.0185546875,
+          470.7470703125
+        ],
+        [
+          55.926513671875,
+          470.7470703125
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A2 Formal korrekte Auswertung von Berechtigungspr\u00fcfungen (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          521.31640625
+        ],
+        [
+          507.841796875,
+          521.31640625
+        ],
+        [
+          507.841796875,
+          538.583984375
+        ],
+        [
+          55.926513671875,
+          538.583984375
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A3 Berechtigungspr\u00fcfung vor dem Start einer Transaktion (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          578.052734375
+        ],
+        [
+          484.0185546875,
+          578.052734375
+        ],
+        [
+          484.0185546875,
+          594.498046875
+        ],
+        [
+          55.78125,
+          594.498046875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A4 Verzicht auf propriet\u00e4re Berechtigungspr\u00fcfungen (B)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          631.9111328125
+        ],
+        [
+          452.060546875,
+          631.9111328125
+        ],
+        [
+          452.060546875,
+          649.1787109375
+        ],
+        [
+          55.49072265625,
+          649.1787109375
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.8538818359375,
+          707.5595703125
+        ],
+        [
+          267.28515625,
+          707.5595703125
+        ],
+        [
+          267.28515625,
+          726.4716796875
+        ],
+        [
+          55.8538818359375,
+          726.4716796875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A5 Erstellung einer Richtlinie f\u00fcr die ABAP-Entwicklung (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.345458984375,
+          55.7598876953125
+        ],
+        [
+          472.978515625,
+          55.7598876953125
+        ],
+        [
+          472.978515625,
+          73.3358154296875
+        ],
+        [
+          55.345458984375,
+          73.3358154296875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A6 Vollst\u00e4ndige Ausf\u00fchrung von Berechtigungspr\u00fcfungen (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          137.626708984375
+        ],
+        [
+          482.8564453125,
+          137.626708984375
+        ],
+        [
+          482.8564453125,
+          155.305419921875
+        ],
+        [
+          55.926513671875,
+          155.305419921875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A7 Berechtigungspr\u00fcfung w\u00e4hrend der Eingabeverarbeitung (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          219.75048828125
+        ],
+        [
+          497.3828125,
+          219.75048828125
+        ],
+        [
+          497.3828125,
+          236.60693359375
+        ],
+        [
+          55.635986328125,
+          236.60693359375
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A8 Schutz vor unberechtigten oder manipulierenden Zugriffen auf das \nDateisystem (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          315.13330078125
+        ],
+        [
+          540.380859375,
+          315.13330078125
+        ],
+        [
+          540.380859375,
+          347.8649597167969
+        ],
+        [
+          55.926513671875,
+          347.8649597167969
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A9 Berechtigungspr\u00fcfung in remote-f\u00e4higen Funktionsbausteinen (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          386.8759765625
+        ],
+        [
+          532.8271484375,
+          386.8759765625
+        ],
+        [
+          532.8271484375,
+          404.1435546875
+        ],
+        [
+          55.926513671875,
+          404.1435546875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A10 Verhinderung der Ausf\u00fchrung von Betriebssystemkommandos (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.3623046875,
+          441.9677734375
+        ],
+        [
+          539.7998046875,
+          441.9677734375
+        ],
+        [
+          539.7998046875,
+          458.4130859375
+        ],
+        [
+          56.3623046875,
+          458.4130859375
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A11 Vermeidung von eingeschleustem Schadcode (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          536.939453125
+        ],
+        [
+          428.2373046875,
+          536.939453125
+        ],
+        [
+          428.2373046875,
+          553.384765625
+        ],
+        [
+          55.49072265625,
+          553.384765625
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A12 Vermeidung von generischer Modulausf\u00fchrung (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.345458984375,
+          592.03125
+        ],
+        [
+          444.5068359375,
+          592.03125
+        ],
+        [
+          444.5068359375,
+          608.4765625
+        ],
+        [
+          55.345458984375,
+          608.4765625
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A13 Vermeidung von generischem Zugriff auf Tabelleninhalte (S)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.2001953125,
+          687.0029296875
+        ],
+        [
+          504.35546875,
+          687.0029296875
+        ],
+        [
+          504.35546875,
+          704.2705078125
+        ],
+        [
+          55.2001953125,
+          704.2705078125
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A14 Vermeidung von nativen SQL-Anweisungen (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.345458984375,
+          56.1710205078125
+        ],
+        [
+          423.5888671875,
+          56.1710205078125
+        ],
+        [
+          423.5888671875,
+          73.4385986328125
+        ],
+        [
+          55.345458984375,
+          73.4385986328125
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A15 Vermeidung von Datenlecks (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.7086181640625,
+          111.314208984375
+        ],
+        [
+          326.552734375,
+          111.314208984375
+        ],
+        [
+          326.552734375,
+          128.787353515625
+        ],
+        [
+          55.7086181640625,
+          128.787353515625
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A16 Verzicht auf systemabh\u00e4ngige Funktionsausf\u00fchrung (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          179.973388671875
+        ],
+        [
+          474.140625,
+          179.973388671875
+        ],
+        [
+          474.140625,
+          197.240966796875
+        ],
+        [
+          55.635986328125,
+          197.240966796875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A17 Verzicht auf mandantenabh\u00e4ngige Funktionsausf\u00fchrung (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.345458984375,
+          261.68603515625
+        ],
+        [
+          501.4501953125,
+          261.68603515625
+        ],
+        [
+          501.4501953125,
+          278.95361328125
+        ],
+        [
+          55.345458984375,
+          278.95361328125
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A18 Vermeidung von Open-SQL-Injection-Schwachstellen (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.345458984375,
+          356.86328125
+        ],
+        [
+          484.599609375,
+          356.86328125
+        ],
+        [
+          484.599609375,
+          374.5419921875
+        ],
+        [
+          55.345458984375,
+          374.5419921875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A19 Schutz vor Cross-Site-Scripting (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.7086181640625,
+          437.8564453125
+        ],
+        [
+          342.822265625,
+          437.8564453125
+        ],
+        [
+          342.822265625,
+          455.1240234375
+        ],
+        [
+          55.7086181640625,
+          455.1240234375
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A20 Keine Zugriffe auf Daten eines anderen Mandanten (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          492.9482421875
+        ],
+        [
+          466.5869140625,
+          492.9482421875
+        ],
+        [
+          466.5869140625,
+          510.2158203125
+        ],
+        [
+          55.635986328125,
+          510.2158203125
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A21 Verbot von verstecktem ABAP-Quelltext (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          562.0185546875
+        ],
+        [
+          401.5087890625,
+          562.0185546875
+        ],
+        [
+          401.5087890625,
+          578.4638671875
+        ],
+        [
+          55.926513671875,
+          578.4638671875
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          622.8662109375
+        ],
+        [
+          392.50244140625,
+          622.8662109375
+        ],
+        [
+          392.50244140625,
+          642.6005859375
+        ],
+        [
+          55.78125,
+          642.6005859375
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.6.A22 Einsatz von ABAP-Codeanalyse Werkzeugen (H)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          712.904296875
+        ],
+        [
+          427.65625,
+          712.904296875
+        ],
+        [
+          427.65625,
+          730.171875
+        ],
+        [
+          55.78125,
+          730.171875
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.1275634765625,
+          57.250244140625
+        ],
+        [
+          336.14013671875,
+          57.250244140625
+        ],
+        [
+          336.14013671875,
+          79.040283203125
+        ],
+        [
+          55.1275634765625,
+          79.040283203125
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          91.9395751953125
+        ],
+        [
+          190.29541015625,
+          91.9395751953125
+        ],
+        [
+          190.29541015625,
+          108.9754638671875
+        ],
+        [
+          55.78125,
+          108.9754638671875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          65
+        ],
+        [
+          "Line",
+          25
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "SectionHeader",
+          10
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          25
+        ],
+        [
+          "Line",
+          9
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/APP_4_6_SAP_ABAP_Programmierung_Edition_2023"
+}

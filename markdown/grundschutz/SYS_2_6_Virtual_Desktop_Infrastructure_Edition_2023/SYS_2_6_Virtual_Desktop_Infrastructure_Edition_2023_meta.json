@@ -1,0 +1,1160 @@
+{
+  "table_of_contents": [
+    {
+      "title": "SYS.2.6 Virtual Desktop \nInfrastructure",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.78125,
+          201.352294921875
+        ],
+        [
+          389.442626953125,
+          201.352294921875
+        ],
+        [
+          389.442626953125,
+          276.5596923828125
+        ],
+        [
+          55.78125,
+          276.5596923828125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.47125244140625,
+          314.10546875
+        ],
+        [
+          194.36279296875,
+          314.10546875
+        ],
+        [
+          194.36279296875,
+          336.306640625
+        ],
+        [
+          56.47125244140625,
+          336.306640625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          347.4072265625
+        ],
+        [
+          160.806884765625,
+          347.4072265625
+        ],
+        [
+          160.806884765625,
+          367.9638671875
+        ],
+        [
+          55.96282958984375,
+          367.9638671875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.10809326171875,
+          109.56689453125
+        ],
+        [
+          168.360595703125,
+          109.56689453125
+        ],
+        [
+          168.360595703125,
+          127.8623046875
+        ],
+        [
+          56.10809326171875,
+          127.8623046875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          192.307373046875
+        ],
+        [
+          303.8916015625,
+          192.307373046875
+        ],
+        [
+          303.8916015625,
+          210.191650390625
+        ],
+        [
+          55.635986328125,
+          210.191650390625
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2728271484375,
+          647.5341796875
+        ],
+        [
+          222.25341796875,
+          647.5341796875
+        ],
+        [
+          222.25341796875,
+          668.9130859375
+        ],
+        [
+          55.2728271484375,
+          668.9130859375
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Qualit\u00e4tsverlust der Bereitstellung virtueller Clients",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.2001953125,
+          55.8626708984375
+        ],
+        [
+          452.6416015625,
+          55.8626708984375
+        ],
+        [
+          452.6416015625,
+          76.1109619140625
+        ],
+        [
+          55.2001953125,
+          76.1109619140625
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Falsche Zuweisung von virtuellen Clients zu Benutzenden",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          230.6455078125
+        ],
+        [
+          492.734375,
+          230.6455078125
+        ],
+        [
+          492.734375,
+          249.96875
+        ],
+        [
+          55.49072265625,
+          249.96875
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Unzureichende Netztrennung durch Fehlkonfiguration in der \nVDI",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          418.9443359375
+        ],
+        [
+          520.8367309570312,
+          418.9443359375
+        ],
+        [
+          520.8367309570312,
+          456.8553771972656
+        ],
+        [
+          55.635986328125,
+          456.8553771972656
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Verlust von virtuellen Clients durch Fehlkonfiguration in der \nVDI",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          606.009765625
+        ],
+        [
+          517.3685913085938,
+          606.009765625
+        ],
+        [
+          517.3685913085938,
+          644.65625
+        ],
+        [
+          55.78125,
+          644.65625
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Ausfall von VDI-Komponenten",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          95.58837890625
+        ],
+        [
+          306.796875,
+          95.58837890625
+        ],
+        [
+          306.796875,
+          114.294921875
+        ],
+        [
+          55.49072265625,
+          114.294921875
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Unberechtigter Zugriff auf virtuelle Clients",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          401.265625
+        ],
+        [
+          389.01611328125,
+          401.265625
+        ],
+        [
+          389.01611328125,
+          420.177734375
+        ],
+        [
+          55.78125,
+          420.177734375
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Nutzung von Templates mit Software-Schwachstellen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          589.1533203125
+        ],
+        [
+          465.71533203125,
+          589.1533203125
+        ],
+        [
+          465.71533203125,
+          607.2431640625
+        ],
+        [
+          55.49072265625,
+          607.2431640625
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.4180908203125,
+          57.0960693359375
+        ],
+        [
+          210.63232421875,
+          57.0960693359375
+        ],
+        [
+          210.63232421875,
+          79.7083740234375
+        ],
+        [
+          55.4180908203125,
+          79.7083740234375
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          306.705078125
+        ],
+        [
+          238.087158203125,
+          306.705078125
+        ],
+        [
+          238.087158203125,
+          326.439453125
+        ],
+        [
+          55.78125,
+          326.439453125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.6.A1 Planung des Einsatzes einer VDI (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.7086181640625,
+          357.89111328125
+        ],
+        [
+          340.20751953125,
+          357.89111328125
+        ],
+        [
+          340.20751953125,
+          375.15869140625
+        ],
+        [
+          55.7086181640625,
+          375.15869140625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.6.A2 Sichere Installation und Konfiguration der VDI-Komponenten (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          529.5390625
+        ],
+        [
+          526.72607421875,
+          529.5390625
+        ],
+        [
+          526.72607421875,
+          546.806640625
+        ],
+        [
+          56.07177734375,
+          546.806640625
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.9991455078125,
+          702.6259765625
+        ],
+        [
+          267.28515625,
+          702.6259765625
+        ],
+        [
+          267.28515625,
+          721.5380859375
+        ],
+        [
+          55.9991455078125,
+          721.5380859375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.6.A3 Sichere Installation und Konfiguration der virtuellen Clients \nmithilfe der VDI (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          55.5029296875
+        ],
+        [
+          497.3828125,
+          55.5029296875
+        ],
+        [
+          497.3828125,
+          89.977294921875
+        ],
+        [
+          55.926513671875,
+          89.977294921875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.6.A4 Netzsegmentierung der VDI-Komponenten (S) [Planende]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          155.510986328125
+        ],
+        [
+          475.302734375,
+          155.510986328125
+        ],
+        [
+          475.302734375,
+          172.572998046875
+        ],
+        [
+          55.926513671875,
+          172.572998046875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.6.A5 Standardisierter Zugriff auf virtuelle Clients (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          249.146484375
+        ],
+        [
+          412.25830078125,
+          249.146484375
+        ],
+        [
+          412.25830078125,
+          266.4140625
+        ],
+        [
+          55.78125,
+          266.4140625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.6.A6 Verwendung einer dedizierten Infrastruktur f\u00fcr virtuelle VDI-\nKomponenten (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          331.57861328125
+        ],
+        [
+          506.0986328125,
+          331.57861328125
+        ],
+        [
+          506.0986328125,
+          364.6649169921875
+        ],
+        [
+          55.926513671875,
+          364.6649169921875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.6.A7 H\u00e4rtung der virtualisierten Clients durch die VDI-L\u00f6sung (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.345458984375,
+          403.52685546875
+        ],
+        [
+          492.1533203125,
+          403.52685546875
+        ],
+        [
+          492.1533203125,
+          419.97216796875
+        ],
+        [
+          55.345458984375,
+          419.97216796875
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.6.A8 H\u00e4rtung der VDI-L\u00f6sung (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.8538818359375,
+          498.7041015625
+        ],
+        [
+          295.17578125,
+          498.7041015625
+        ],
+        [
+          295.17578125,
+          515.1494140625
+        ],
+        [
+          55.8538818359375,
+          515.1494140625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.6.A9 Einbindung der virtuellen Clients in das Patch- und \n\u00c4nderungsmanagement (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          553.384765625
+        ],
+        [
+          439.8583984375,
+          553.384765625
+        ],
+        [
+          439.8583984375,
+          587.09765625
+        ],
+        [
+          55.49072265625,
+          587.09765625
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.6.A10 Monitoring von Verf\u00fcgbarkeit und Nutzungsgrad der VDI (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.345458984375,
+          651.6455078125
+        ],
+        [
+          504.35546875,
+          651.6455078125
+        ],
+        [
+          504.35546875,
+          668.9130859375
+        ],
+        [
+          55.345458984375,
+          668.9130859375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.6.A11 Monitoring von sicherheitsrelevanten Ereignissen der VDI (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          54.764404296875,
+          56.53076171875
+        ],
+        [
+          509.00390625,
+          56.53076171875
+        ],
+        [
+          509.00390625,
+          73.489990234375
+        ],
+        [
+          54.764404296875,
+          73.489990234375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.6.A12 Verteilung von virtuellen Clients auf Virtualisierungsservern (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.926513671875,
+          210.70556640625
+        ],
+        [
+          522.3681640625,
+          210.70556640625
+        ],
+        [
+          522.3681640625,
+          226.73974609375
+        ],
+        [
+          55.926513671875,
+          226.73974609375
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          298.0712890625
+        ],
+        [
+          392.2119140625,
+          298.0712890625
+        ],
+        [
+          392.2119140625,
+          316.9833984375
+        ],
+        [
+          55.635986328125,
+          316.9833984375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.6.A13 Verwendung getrennter VDI-L\u00f6sungen f\u00fcr unterschiedliche \nBenutzendengruppen (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          388.5205078125
+        ],
+        [
+          501.4501953125,
+          388.5205078125
+        ],
+        [
+          501.4501953125,
+          421.0649108886719
+        ],
+        [
+          55.635986328125,
+          421.0649108886719
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.6.A14 Verwendung von nicht-persistenten virtuellen Clients (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          473.625
+        ],
+        [
+          485.1806640625,
+          473.625
+        ],
+        [
+          485.1806640625,
+          490.0703125
+        ],
+        [
+          55.78125,
+          490.0703125
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.6.A15 Hochverf\u00fcgbare Bereitstellung der VDI-Komponenten (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          568.185546875
+        ],
+        [
+          488.0859375,
+          568.185546875
+        ],
+        [
+          488.0859375,
+          584.630859375
+        ],
+        [
+          55.635986328125,
+          584.630859375
+        ]
+      ]
+    },
+    {
+      "title": "SYS.2.6.A16 Integration der VDI in ein SIEM (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.5633544921875,
+          675.90234375
+        ],
+        [
+          347.18017578125,
+          675.90234375
+        ],
+        [
+          347.18017578125,
+          692.34765625
+        ],
+        [
+          55.5633544921875,
+          692.34765625
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.2001953125,
+          57.1988525390625
+        ],
+        [
+          337.01171875,
+          57.1988525390625
+        ],
+        [
+          337.01171875,
+          79.2972412109375
+        ],
+        [
+          55.2001953125,
+          79.2972412109375
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.45440673828125,
+          91.579833984375
+        ],
+        [
+          190.5859375,
+          91.579833984375
+        ],
+        [
+          190.5859375,
+          108.9754638671875
+        ],
+        [
+          55.45440673828125,
+          108.9754638671875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          133
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          102
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          21
+        ],
+        [
+          "Line",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/SYS_2_6_Virtual_Desktop_Infrastructure_Edition_2023"
+}

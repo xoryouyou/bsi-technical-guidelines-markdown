@@ -1,0 +1,1349 @@
+{
+  "table_of_contents": [
+    {
+      "title": "APP.5.4 Unified Communications \nund Collaboration (UCC)",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.345458984375,
+          200.118896484375
+        ],
+        [
+          528.8295288085938,
+          200.118896484375
+        ],
+        [
+          528.8295288085938,
+          277.92578125
+        ],
+        [
+          55.345458984375,
+          277.92578125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.217041015625,
+          313.89990234375
+        ],
+        [
+          194.217529296875,
+          313.89990234375
+        ],
+        [
+          194.217529296875,
+          336.51220703125
+        ],
+        [
+          56.217041015625,
+          336.51220703125
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          347.20166015625
+        ],
+        [
+          160.66162109375,
+          347.20166015625
+        ],
+        [
+          160.66162109375,
+          368.16943359375
+        ],
+        [
+          55.96282958984375,
+          368.16943359375
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.78125,
+          613.41015625
+        ],
+        [
+          169.2537384033203,
+          613.41015625
+        ],
+        [
+          169.2537384033203,
+          633.966796875
+        ],
+        [
+          55.78125,
+          633.966796875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          709.615234375
+        ],
+        [
+          304.8515319824219,
+          709.615234375
+        ],
+        [
+          304.8515319824219,
+          730.171875
+        ],
+        [
+          55.8538818359375,
+          730.171875
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.635986328125,
+          548.451171875
+        ],
+        [
+          221.67236328125,
+          548.451171875
+        ],
+        [
+          221.67236328125,
+          570.65234375
+        ],
+        [
+          55.635986328125,
+          570.65234375
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Eingeschr\u00e4nkte Verf\u00fcgbarkeit von UCC-Diensten",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          646.30078125
+        ],
+        [
+          432.8857421875,
+          646.30078125
+        ],
+        [
+          432.8857421875,
+          665.212890625
+        ],
+        [
+          55.49072265625,
+          665.212890625
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Unzureichende Planung von UCC",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          206.7998046875
+        ],
+        [
+          322.19482421875,
+          206.7998046875
+        ],
+        [
+          322.19482421875,
+          226.123046875
+        ],
+        [
+          55.78125,
+          226.123046875
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Fehlerhafte Konfiguration von UCC",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          472.802734375
+        ],
+        [
+          337.5927734375,
+          472.802734375
+        ],
+        [
+          337.5927734375,
+          491.71484375
+        ],
+        [
+          55.7086181640625,
+          491.71484375
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unbefugte oder missbr\u00e4uchliche Benutzung der \nAdministrationsrechte eines UCC-Dienstes",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          56.5821533203125
+        ],
+        [
+          423.63385009765625,
+          56.5821533203125
+        ],
+        [
+          423.63385009765625,
+          94.6119384765625
+        ],
+        [
+          55.49072265625,
+          94.6119384765625
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Preisgabe von sch\u00fctzenswerten Informationen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          256.9580078125
+        ],
+        [
+          414.873046875,
+          256.9580078125
+        ],
+        [
+          414.873046875,
+          275.655517578125
+        ],
+        [
+          55.635986328125,
+          275.655517578125
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Preisgabe von personenbezogenen Informationen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          576.8193359375
+        ],
+        [
+          436.08154296875,
+          576.8193359375
+        ],
+        [
+          436.08154296875,
+          595.7314453125
+        ],
+        [
+          55.49072265625,
+          595.7314453125
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Wechselwirkungen bei UCC-Diensten",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          94.663330078125
+        ],
+        [
+          353.28125,
+          94.663330078125
+        ],
+        [
+          353.28125,
+          114.294921875
+        ],
+        [
+          55.49072265625,
+          114.294921875
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Zugriff auf Applikationen oder Ressourcen durch Freigabe der \nSteuerung",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          355.21875
+        ],
+        [
+          523.3614501953125,
+          355.21875
+        ],
+        [
+          523.3614501953125,
+          393.4541015625
+        ],
+        [
+          55.49072265625,
+          393.4541015625
+        ]
+      ]
+    },
+    {
+      "title": "2.9. Vorspiegelung falscher Identit\u00e4ten",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          528.3056640625
+        ],
+        [
+          331.201171875,
+          528.3056640625
+        ],
+        [
+          331.201171875,
+          548.0400390625
+        ],
+        [
+          55.8538818359375,
+          548.0400390625
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          57.55859375
+        ],
+        [
+          210.63232421875,
+          57.55859375
+        ],
+        [
+          210.63232421875,
+          79.96533203125
+        ],
+        [
+          55.635986328125,
+          79.96533203125
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.7086181640625,
+          306.91064453125
+        ],
+        [
+          238.232421875,
+          306.91064453125
+        ],
+        [
+          238.232421875,
+          326.23388671875
+        ],
+        [
+          55.7086181640625,
+          326.23388671875
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A1 Planung von UCC (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          357.89111328125
+        ],
+        [
+          256.390380859375,
+          357.89111328125
+        ],
+        [
+          256.390380859375,
+          375.56982421875
+        ],
+        [
+          55.926513671875,
+          375.56982421875
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A2 Ber\u00fccksichtigung von UCC in der Netzplanung (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          623.27734375
+        ],
+        [
+          432.3046875,
+          623.27734375
+        ],
+        [
+          432.3046875,
+          640.544921875
+        ],
+        [
+          55.635986328125,
+          640.544921875
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A3 Initiales und regelm\u00e4\u00dfiges Testen der UCC-Dienste (B)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.345458984375,
+          115.73388671875
+        ],
+        [
+          459.6142578125,
+          115.73388671875
+        ],
+        [
+          459.6142578125,
+          132.384765625
+        ],
+        [
+          55.345458984375,
+          132.384765625
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A4 Deaktivierung nicht ben\u00f6tigter Funktionen und Dienste (B)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          248.52978515625
+        ],
+        [
+          490.41015625,
+          248.52978515625
+        ],
+        [
+          490.41015625,
+          265.38623046875
+        ],
+        [
+          55.78125,
+          265.38623046875
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A5 Rollen- und Berechtigungskonzept f\u00fcr UCC (B)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.2001953125,
+          507.7490234375
+        ],
+        [
+          412.25830078125,
+          507.7490234375
+        ],
+        [
+          412.25830078125,
+          524.1943359375
+        ],
+        [
+          55.2001953125,
+          524.1943359375
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A6 Verschl\u00fcsselung von UCC-Daten (B)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.635986328125,
+          55.5543212890625
+        ],
+        [
+          344.5654296875,
+          55.5543212890625
+        ],
+        [
+          344.5654296875,
+          73.5413818359375
+        ],
+        [
+          55.635986328125,
+          73.5413818359375
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A7 Regelungen f\u00fcr eine sichere Benutzung der UCC-Dienste (B)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.49072265625,
+          287.99853515625
+        ],
+        [
+          491.28173828125,
+          287.99853515625
+        ],
+        [
+          491.28173828125,
+          305.67724609375
+        ],
+        [
+          55.49072265625,
+          305.67724609375
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.5633544921875,
+          507.337890625
+        ],
+        [
+          266.123046875,
+          507.337890625
+        ],
+        [
+          266.123046875,
+          527.072265625
+        ],
+        [
+          55.5633544921875,
+          527.072265625
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A8 Einsatz eines Session Border Controller am Provider-\u00dcbergang (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.345458984375,
+          570.65234375
+        ],
+        [
+          528.759765625,
+          570.65234375
+        ],
+        [
+          528.759765625,
+          587.1390380859375
+        ],
+        [
+          55.345458984375,
+          587.1390380859375
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A9 Sichere Konfiguration von UCC (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.926513671875,
+          665.6240234375
+        ],
+        [
+          337.5927734375,
+          665.6240234375
+        ],
+        [
+          337.5927734375,
+          682.8916015625
+        ],
+        [
+          55.926513671875,
+          682.8916015625
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A10 Absicherung und Einschr\u00e4nkung von Auswertungen von Inhalten \n(S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.926513671875,
+          194.363037109375
+        ],
+        [
+          539.21875,
+          194.363037109375
+        ],
+        [
+          539.21875,
+          226.66497802734375
+        ],
+        [
+          55.926513671875,
+          226.66497802734375
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.49072265625,
+          376.1865234375
+        ],
+        [
+          392.50244140625,
+          376.1865234375
+        ],
+        [
+          392.50244140625,
+          395.0986328125
+        ],
+        [
+          55.49072265625,
+          395.0986328125
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A11 Sicherstellung der Verf\u00fcgbarkeit von Kommunikationsdiensten \n(H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.635986328125,
+          466.6357421875
+        ],
+        [
+          527.59765625,
+          466.6357421875
+        ],
+        [
+          527.59765625,
+          499.0649108886719
+        ],
+        [
+          55.635986328125,
+          499.0649108886719
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A12 Einbindung von UCC in die Notfallplanung (H)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.345458984375,
+          694.814453125
+        ],
+        [
+          419.521484375,
+          694.814453125
+        ],
+        [
+          419.521484375,
+          711.259765625
+        ],
+        [
+          55.345458984375,
+          711.259765625
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A13 Sichere Administration von SIP-Trunks (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.507568359375,
+          134.954345703125
+        ],
+        [
+          399.765625,
+          134.954345703125
+        ],
+        [
+          399.765625,
+          151.810791015625
+        ],
+        [
+          56.507568359375,
+          151.810791015625
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A14 Ende-zu-Ende-Verschl\u00fcsselung (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.635986328125,
+          296.22119140625
+        ],
+        [
+          348.6328125,
+          296.22119140625
+        ],
+        [
+          348.6328125,
+          312.25537109375
+        ],
+        [
+          55.635986328125,
+          312.25537109375
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A15 Einschr\u00e4nkung von KI-Funktionen (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.78125,
+          410.10498046875
+        ],
+        [
+          370.1318359375,
+          410.10498046875
+        ],
+        [
+          370.1318359375,
+          426.3447265625
+        ],
+        [
+          55.78125,
+          426.3447265625
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A16 Einsatz eines SBC an weiteren Netz\u00fcberg\u00e4ngen (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.49072265625,
+          491.3037109375
+        ],
+        [
+          440.72998046875,
+          491.3037109375
+        ],
+        [
+          440.72998046875,
+          507.7490234375
+        ],
+        [
+          55.49072265625,
+          507.7490234375
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A17 Einschr\u00e4nkung der Benutzung von UCC-Diensten (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.07177734375,
+          592.03125
+        ],
+        [
+          459.90478515625,
+          592.03125
+        ],
+        [
+          459.90478515625,
+          608.4765625
+        ],
+        [
+          56.07177734375,
+          608.4765625
+        ]
+      ]
+    },
+    {
+      "title": "APP.5.4.A18 Einbindung von UCC in ein Sicherheitsmonitoring (H)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          56.07177734375,
+          56.016845703125
+        ],
+        [
+          468.03955078125,
+          56.016845703125
+        ],
+        [
+          468.03955078125,
+          73.38720703125
+        ],
+        [
+          56.07177734375,
+          73.38720703125
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.5633544921875,
+          176.684326171875
+        ],
+        [
+          334.1064453125,
+          176.684326171875
+        ],
+        [
+          334.1064453125,
+          198.679931640625
+        ],
+        [
+          55.5633544921875,
+          198.679931640625
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.7086181640625,
+          211.11669921875
+        ],
+        [
+          190.5859375,
+          211.11669921875
+        ],
+        [
+          190.5859375,
+          229.61767578125
+        ],
+        [
+          55.7086181640625,
+          229.61767578125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          75
+        ],
+        [
+          "Line",
+          29
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          150
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "ListItem",
+          11
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          49
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          132
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          35
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/APP_5_4_Unified_Communications_und_Collaboration_Edition_2023"
+}

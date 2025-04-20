@@ -1,0 +1,1235 @@
+{
+  "table_of_contents": [
+    {
+      "title": "NET.2.1 WLAN-Betrieb",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.054931640625,
+          201.0439453125
+        ],
+        [
+          377.1044921875,
+          201.0439453125
+        ],
+        [
+          377.1044921875,
+          238.8681640625
+        ],
+        [
+          55.054931640625,
+          238.8681640625
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.1444091796875,
+          274.84228515625
+        ],
+        [
+          194.94384765625,
+          274.84228515625
+        ],
+        [
+          194.94384765625,
+          298.27685546875
+        ],
+        [
+          56.1444091796875,
+          298.27685546875
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.03546142578125,
+          309.171875
+        ],
+        [
+          161.387939453125,
+          309.171875
+        ],
+        [
+          161.387939453125,
+          328.4951171875
+        ],
+        [
+          56.03546142578125,
+          328.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          557.0849609375
+        ],
+        [
+          169.2537384033203,
+          557.0849609375
+        ],
+        [
+          169.2537384033203,
+          575.9970703125
+        ],
+        [
+          55.96282958984375,
+          575.9970703125
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          626.1552734375
+        ],
+        [
+          304.47265625,
+          626.1552734375
+        ],
+        [
+          304.47265625,
+          645.8896484375
+        ],
+        [
+          55.926513671875,
+          645.8896484375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          252.8466796875
+        ],
+        [
+          221.236572265625,
+          252.8466796875
+        ],
+        [
+          221.236572265625,
+          274.63671875
+        ],
+        [
+          55.49072265625,
+          274.63671875
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Ausfall oder St\u00f6rung eines Funknetzes",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.345458984375,
+          350.6962890625
+        ],
+        [
+          356.1865234375,
+          350.6962890625
+        ],
+        [
+          356.1865234375,
+          370.01953125
+        ],
+        [
+          55.345458984375,
+          370.01953125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Fehlende oder unzureichende Planung des WLAN-Einsatzes",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          486.78125
+        ],
+        [
+          507.2607421875,
+          486.78125
+        ],
+        [
+          507.2607421875,
+          505.693359375
+        ],
+        [
+          55.49072265625,
+          505.693359375
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Fehlende oder unzureichende Regelungen zum WLAN-Einsatz",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.07177734375,
+          668.501953125
+        ],
+        [
+          525.2734375,
+          668.501953125
+        ],
+        [
+          525.2734375,
+          687.4140625
+        ],
+        [
+          56.07177734375,
+          687.4140625
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Ungeeignete Auswahl von Authentisierungsverfahren",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          94.6119384765625
+        ],
+        [
+          466.29638671875,
+          94.6119384765625
+        ],
+        [
+          466.29638671875,
+          113.781005859375
+        ],
+        [
+          55.78125,
+          113.781005859375
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Fehlerhafte Konfiguration der WLAN-Infrastruktur",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          216.87255859375
+        ],
+        [
+          450.8984375,
+          216.87255859375
+        ],
+        [
+          450.8984375,
+          236.19580078125
+        ],
+        [
+          55.49072265625,
+          236.19580078125
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Unzureichende oder fehlende WLAN-Sicherheitsmechanismen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          313.07763671875
+        ],
+        [
+          530.5029296875,
+          313.07763671875
+        ],
+        [
+          530.5029296875,
+          332.81201171875
+        ],
+        [
+          55.635986328125,
+          332.81201171875
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Abh\u00f6ren der WLAN-Kommunikation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          448.95703125
+        ],
+        [
+          350.3759765625,
+          448.95703125
+        ],
+        [
+          350.3759765625,
+          467.869140625
+        ],
+        [
+          55.7086181640625,
+          467.869140625
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Vort\u00e4uschung eines g\u00fcltigen Access Points (Rogue Access Point)",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          584.2197265625
+        ],
+        [
+          531.6650390625,
+          584.2197265625
+        ],
+        [
+          531.6650390625,
+          603.9541015625
+        ],
+        [
+          55.926513671875,
+          603.9541015625
+        ]
+      ]
+    },
+    {
+      "title": "2.9. Ungesch\u00fctzter LAN-Zugang am Access Point",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          56.633544921875
+        ],
+        [
+          401.79931640625,
+          56.633544921875
+        ],
+        [
+          401.79931640625,
+          76.26513671875
+        ],
+        [
+          55.49072265625,
+          76.26513671875
+        ]
+      ]
+    },
+    {
+      "title": "2.10. Hardware-Sch\u00e4den",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          167.022705078125
+        ],
+        [
+          238.52294921875,
+          167.022705078125
+        ],
+        [
+          238.52294921875,
+          185.523681640625
+        ],
+        [
+          55.78125,
+          185.523681640625
+        ]
+      ]
+    },
+    {
+      "title": "2.11. Diebstahl eines Access Points",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          275.66455078125
+        ],
+        [
+          306.2158203125,
+          275.66455078125
+        ],
+        [
+          306.2158203125,
+          294.57666015625
+        ],
+        [
+          55.635986328125,
+          294.57666015625
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          372.28076171875
+        ],
+        [
+          208.5986328125,
+          372.28076171875
+        ],
+        [
+          208.5986328125,
+          393.24853515625
+        ],
+        [
+          55.635986328125,
+          393.24853515625
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          622.0439453125
+        ],
+        [
+          237.506103515625,
+          622.0439453125
+        ],
+        [
+          237.506103515625,
+          640.9560546875
+        ],
+        [
+          55.926513671875,
+          640.9560546875
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A1 Festlegung einer Strategie f\u00fcr den Einsatz von WLANs (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          672.61328125
+        ],
+        [
+          478.2080078125,
+          672.61328125
+        ],
+        [
+          478.2080078125,
+          688.2990417480469
+        ],
+        [
+          55.635986328125,
+          688.2990417480469
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A2 Auswahl eines geeigneten WLAN-Standards (B) [Planende]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          115.836669921875
+        ],
+        [
+          484.22674560546875,
+          115.836669921875
+        ],
+        [
+          484.22674560546875,
+          132.076416015625
+        ],
+        [
+          55.49072265625,
+          132.076416015625
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A3 Auswahl geeigneter Kryptoverfahren f\u00fcr WLAN (B) [Planende]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          275.0478515625
+        ],
+        [
+          506.0986328125,
+          275.0478515625
+        ],
+        [
+          506.0986328125,
+          291.4931640625
+        ],
+        [
+          56.07177734375,
+          291.4931640625
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A4 Geeignete Aufstellung von Access Points (B) [Haustechnik]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          363.44140625
+        ],
+        [
+          483.87750244140625,
+          363.44140625
+        ],
+        [
+          483.87750244140625,
+          379.88671875
+        ],
+        [
+          55.635986328125,
+          379.88671875
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A5 Sichere Basis-Konfiguration der Access Points (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          457.5908203125
+        ],
+        [
+          427.65625,
+          457.5908203125
+        ],
+        [
+          427.65625,
+          474.0361328125
+        ],
+        [
+          55.926513671875,
+          474.0361328125
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A6 Sichere Konfiguration der WLAN-Infrastruktur (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          552.9736328125
+        ],
+        [
+          439.56787109375,
+          552.9736328125
+        ],
+        [
+          439.56787109375,
+          569.4189453125
+        ],
+        [
+          56.07177734375,
+          569.4189453125
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A7 Aufbau eines Distribution Systems (B) [Planende]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          607.654296875
+        ],
+        [
+          427.36572265625,
+          607.654296875
+        ],
+        [
+          427.36572265625,
+          624.099609375
+        ],
+        [
+          55.78125,
+          624.099609375
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A8 Verhaltensregeln bei WLAN-Sicherheitsvorf\u00e4llen (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          663.1572265625
+        ],
+        [
+          449.44580078125,
+          663.1572265625
+        ],
+        [
+          449.44580078125,
+          679.6025390625
+        ],
+        [
+          55.49072265625,
+          679.6025390625
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.5633544921875,
+          174.52587890625
+        ],
+        [
+          267.57568359375,
+          174.52587890625
+        ],
+        [
+          267.57568359375,
+          193.43798828125
+        ],
+        [
+          55.5633544921875,
+          193.43798828125
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A9 Sichere Anbindung von WLANs an ein LAN (S) [Planende]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          237.42919921875
+        ],
+        [
+          477.0458984375,
+          237.42919921875
+        ],
+        [
+          477.0458984375,
+          254.69677734375
+        ],
+        [
+          55.78125,
+          254.69677734375
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A10 Erstellung einer Sicherheitsrichtlinie f\u00fcr den Betrieb von WLANs \n(S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          306.705078125
+        ],
+        [
+          534.015625,
+          306.705078125
+        ],
+        [
+          534.015625,
+          339.4649353027344
+        ],
+        [
+          55.78125,
+          339.4649353027344
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A11 Geeignete Auswahl von WLAN-Komponenten (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          430.8671875
+        ],
+        [
+          436.3720703125,
+          430.8671875
+        ],
+        [
+          436.3720703125,
+          448.134765625
+        ],
+        [
+          55.49072265625,
+          448.134765625
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A12 Einsatz einer geeigneten WLAN-Management-L\u00f6sung (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          513.09375
+        ],
+        [
+          484.599609375,
+          513.09375
+        ],
+        [
+          484.599609375,
+          529.5390625
+        ],
+        [
+          55.635986328125,
+          529.5390625
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A13 Regelm\u00e4\u00dfige Sicherheitschecks in WLANs (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          567.7744140625
+        ],
+        [
+          410.224609375,
+          567.7744140625
+        ],
+        [
+          410.224609375,
+          584.259033203125
+        ],
+        [
+          55.635986328125,
+          584.259033203125
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A14 Regelm\u00e4\u00dfige Audits der WLAN-Komponenten (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          662.74609375
+        ],
+        [
+          438.115234375,
+          662.74609375
+        ],
+        [
+          438.115234375,
+          680.013671875
+        ],
+        [
+          55.635986328125,
+          680.013671875
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          55.8626708984375
+        ],
+        [
+          392.79296875,
+          55.8626708984375
+        ],
+        [
+          392.79296875,
+          76.1109619140625
+        ],
+        [
+          55.49072265625,
+          76.1109619140625
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A15 Verwendung eines VPN zur Absicherung von WLANs (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          147.288330078125
+        ],
+        [
+          480.82275390625,
+          147.288330078125
+        ],
+        [
+          480.82275390625,
+          163.939208984375
+        ],
+        [
+          55.78125,
+          163.939208984375
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A16 Zus\u00e4tzliche Absicherung bei der Anbindung von WLANs an ein \nLAN (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          202.27734375
+        ],
+        [
+          521.2060546875,
+          202.27734375
+        ],
+        [
+          521.2060546875,
+          235.06500244140625
+        ],
+        [
+          55.635986328125,
+          235.06500244140625
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A17 Absicherung der Kommunikation zwischen Access Points (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          274.02001953125
+        ],
+        [
+          506.6796875,
+          274.02001953125
+        ],
+        [
+          506.6796875,
+          290.25909423828125
+        ],
+        [
+          55.635986328125,
+          290.25909423828125
+        ]
+      ]
+    },
+    {
+      "title": "NET.2.1.A18 Einsatz von Wireless Intrusion Detection/Wireless Intrusion \nPrevention Systemen (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          329.3173828125
+        ],
+        [
+          507.841796875,
+          329.3173828125
+        ],
+        [
+          507.841796875,
+          362.2649230957031
+        ],
+        [
+          55.635986328125,
+          362.2649230957031
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.054931640625,
+          408.04931640625
+        ],
+        [
+          335.849609375,
+          408.04931640625
+        ],
+        [
+          335.849609375,
+          428.8115234375
+        ],
+        [
+          55.054931640625,
+          428.8115234375
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.2728271484375,
+          441.556640625
+        ],
+        [
+          189.71435546875,
+          441.556640625
+        ],
+        [
+          189.71435546875,
+          459.2554931640625
+        ],
+        [
+          55.2728271484375,
+          459.2554931640625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          80
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          123
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/NET_2_1_WLAN_Betrieb_Edition_2023"
+}

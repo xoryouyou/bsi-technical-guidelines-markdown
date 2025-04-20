@@ -1,0 +1,1541 @@
+{
+  "table_of_contents": [
+    {
+      "title": "NET.3.4 Network Access Control",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.78125,
+          202.07177734375
+        ],
+        [
+          509.29443359375,
+          202.07177734375
+        ],
+        [
+          509.29443359375,
+          239.48486328125
+        ],
+        [
+          55.78125,
+          239.48486328125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          274.63671875
+        ],
+        [
+          195.52490234375,
+          274.63671875
+        ],
+        [
+          195.52490234375,
+          298.0712890625
+        ],
+        [
+          55.926513671875,
+          298.0712890625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.07177734375,
+          309.171875
+        ],
+        [
+          161.533203125,
+          309.171875
+        ],
+        [
+          161.533203125,
+          328.4951171875
+        ],
+        [
+          56.07177734375,
+          328.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.96282958984375,
+          167.53662109375
+        ],
+        [
+          169.813232421875,
+          167.53662109375
+        ],
+        [
+          169.813232421875,
+          186.2431640625
+        ],
+        [
+          55.96282958984375,
+          186.2431640625
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          263.74169921875
+        ],
+        [
+          305.0537109375,
+          263.74169921875
+        ],
+        [
+          305.0537109375,
+          282.65380859375
+        ],
+        [
+          55.7086181640625,
+          282.65380859375
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          95.7425537109375
+        ],
+        [
+          221.527099609375,
+          95.7425537109375
+        ],
+        [
+          221.527099609375,
+          117.9951171875
+        ],
+        [
+          55.926513671875,
+          117.9951171875
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Unzureichende Planung der NAC-L\u00f6sung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          193.84912109375
+        ],
+        [
+          377.1044921875,
+          193.84912109375
+        ],
+        [
+          377.1044921875,
+          213.3779296875
+        ],
+        [
+          55.49072265625,
+          213.3779296875
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Unzureichend abgestimmte Integration von Endger\u00e4ten in die \nNAC-L\u00f6sung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          388.5205078125
+        ],
+        [
+          524.6923828125,
+          388.5205078125
+        ],
+        [
+          524.6923828125,
+          427.1669921875
+        ],
+        [
+          55.345458984375,
+          427.1669921875
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Nutzung unzureichend sicherer Protokolle bei NAC",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          601.8984375
+        ],
+        [
+          447.9931640625,
+          601.8984375
+        ],
+        [
+          447.9931640625,
+          621.6328125
+        ],
+        [
+          55.635986328125,
+          621.6328125
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Fehlerhafte Konfiguration der NAC-L\u00f6sung",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          54.90966796875,
+          55.605712890625
+        ],
+        [
+          394.24560546875,
+          55.605712890625
+        ],
+        [
+          394.24560546875,
+          76.367919921875
+        ],
+        [
+          54.90966796875,
+          76.367919921875
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Unzureichende Validierung von Konfigurations\u00e4nderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          210.5
+        ],
+        [
+          508.71337890625,
+          210.5
+        ],
+        [
+          508.71337890625,
+          230.6455078125
+        ],
+        [
+          55.78125,
+          230.6455078125
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Unzureichend gesch\u00fctzter Netzzugang",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          347.20166015625
+        ],
+        [
+          358.5107421875,
+          347.20166015625
+        ],
+        [
+          358.5107421875,
+          366.52490234375
+        ],
+        [
+          55.78125,
+          366.52490234375
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Ausfall oder unzureichende Erreichbarkeit der zentralen NAC-\nKomponenten",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          501.9931640625
+        ],
+        [
+          525.2734375,
+          501.9931640625
+        ],
+        [
+          525.2734375,
+          540.6396484375
+        ],
+        [
+          55.635986328125,
+          540.6396484375
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Nachverfolgung von Benutzenden",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.7086181640625,
+          643.833984375
+        ],
+        [
+          328.2958984375,
+          643.833984375
+        ],
+        [
+          328.2958984375,
+          663.568359375
+        ],
+        [
+          55.7086181640625,
+          663.568359375
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.345458984375,
+          56.839111328125
+        ],
+        [
+          210.63232421875,
+          56.839111328125
+        ],
+        [
+          210.63232421875,
+          79.451416015625
+        ],
+        [
+          55.345458984375,
+          79.451416015625
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          306.49951171875
+        ],
+        [
+          237.94189453125,
+          306.49951171875
+        ],
+        [
+          237.94189453125,
+          326.64501953125
+        ],
+        [
+          55.8538818359375,
+          326.64501953125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A1 Begr\u00fcndete Entscheidung f\u00fcr den Einsatz von NAC (B) [Institution]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.3623046875,
+          357.89111328125
+        ],
+        [
+          537.18505859375,
+          357.89111328125
+        ],
+        [
+          537.18505859375,
+          375.56982421875
+        ],
+        [
+          56.3623046875,
+          375.56982421875
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          509.8046875
+        ],
+        [
+          266.99462890625,
+          509.8046875
+        ],
+        [
+          266.99462890625,
+          529.5390625
+        ],
+        [
+          55.78125,
+          529.5390625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A2 Planung des Einsatzes von NAC (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          574.3525390625
+        ],
+        [
+          337.01171875,
+          574.3525390625
+        ],
+        [
+          337.01171875,
+          591.6201171875
+        ],
+        [
+          55.8538818359375,
+          591.6201171875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A3 Erstellung eines Anforderungskatalogs f\u00fcr NAC (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          136.187744140625
+        ],
+        [
+          436.3720703125,
+          136.187744140625
+        ],
+        [
+          436.3720703125,
+          152.427490234375
+        ],
+        [
+          56.07177734375,
+          152.427490234375
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A4 Erstellung eines NAC-Konzepts (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.5633544921875,
+          302.38818359375
+        ],
+        [
+          337.01171875,
+          302.38818359375
+        ],
+        [
+          337.01171875,
+          317.85906982421875
+        ],
+        [
+          55.5633544921875,
+          317.85906982421875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A5 Anpassung von Prozessen f\u00fcr Endger\u00e4te bez\u00fcglich NAC (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          587.5087890625
+        ],
+        [
+          487.5048828125,
+          587.5087890625
+        ],
+        [
+          487.5048828125,
+          603.1318359375
+        ],
+        [
+          55.635986328125,
+          603.1318359375
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A6 Festlegung von Notfallprozessen f\u00fcr NAC (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          700.9814453125
+        ],
+        [
+          399.1845703125,
+          700.9814453125
+        ],
+        [
+          399.1845703125,
+          716.7390441894531
+        ],
+        [
+          55.78125,
+          716.7390441894531
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A7 Nutzung sicherer Authentisierungsverfahren (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          260.658203125
+        ],
+        [
+          422.71728515625,
+          260.658203125
+        ],
+        [
+          422.71728515625,
+          277.103515625
+        ],
+        [
+          55.49072265625,
+          277.103515625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A8 Festlegung der NAC-spezifischen Rollen und Berechtigungen f\u00fcr \nden RADIUS-Server (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.07177734375,
+          360.76904296875
+        ],
+        [
+          524.98291015625,
+          360.76904296875
+        ],
+        [
+          524.98291015625,
+          394.0649108886719
+        ],
+        [
+          56.07177734375,
+          394.0649108886719
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A9 Festlegung eines angepassten NAC-Regelwerkes (S)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          586.275390625
+        ],
+        [
+          440.14892578125,
+          586.275390625
+        ],
+        [
+          440.14892578125,
+          601.8984375
+        ],
+        [
+          55.78125,
+          601.8984375
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A10 Sichere Nutzung von Identit\u00e4ten (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.345458984375,
+          55.9140625
+        ],
+        [
+          354.443359375,
+          55.9140625
+        ],
+        [
+          354.443359375,
+          73.181640625
+        ],
+        [
+          55.345458984375,
+          73.181640625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A11 Sichere Konfiguration der NAC-L\u00f6sung (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.926513671875,
+          157.25830078125
+        ],
+        [
+          395.6982421875,
+          157.25830078125
+        ],
+        [
+          395.6982421875,
+          174.52587890625
+        ],
+        [
+          55.926513671875,
+          174.52587890625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A12 Monitoring der NAC-L\u00f6sung (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.4180908203125,
+          362.619140625
+        ],
+        [
+          328.58642578125,
+          362.619140625
+        ],
+        [
+          328.58642578125,
+          379.88671875
+        ],
+        [
+          55.4180908203125,
+          379.88671875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A13 Erstellung von Validierungsvorgaben f\u00fcr die NAC-Konfiguration \n(S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.345458984375,
+          568.5966796875
+        ],
+        [
+          534.5703125,
+          568.5966796875
+        ],
+        [
+          534.5703125,
+          601.0649108886719
+        ],
+        [
+          55.345458984375,
+          601.0649108886719
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A14 Umsetzung weiterer Ma\u00dfnahmen bei Verwendung von MAC-\nAdress-Authentisierung (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.49072265625,
+          699.3369140625
+        ],
+        [
+          512.490234375,
+          699.3369140625
+        ],
+        [
+          512.490234375,
+          732.2275390625
+        ],
+        [
+          55.49072265625,
+          732.2275390625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A15 Anbindung Virenschutz an NAC-L\u00f6sung (S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          88.8046875
+        ],
+        [
+          400.3466796875,
+          88.8046875
+        ],
+        [
+          400.3466796875,
+          106.791748046875
+        ],
+        [
+          55.78125,
+          106.791748046875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A16 Protokollierung der Ereignisse (S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.7086181640625,
+          202.6884765625
+        ],
+        [
+          340.498046875,
+          202.6884765625
+        ],
+        [
+          340.498046875,
+          220.3671875
+        ],
+        [
+          55.7086181640625,
+          220.3671875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A17 Positionierung des RADIUS-Servers im Management-Bereich (S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.345458984375,
+          368.7861328125
+        ],
+        [
+          528.759765625,
+          368.7861328125
+        ],
+        [
+          528.759765625,
+          386.0537109375
+        ],
+        [
+          55.345458984375,
+          386.0537109375
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A18 Dokumentation der NAC-L\u00f6sung (S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.78125,
+          495.4150390625
+        ],
+        [
+          355.60546875,
+          495.4150390625
+        ],
+        [
+          355.60546875,
+          512.6826171875
+        ],
+        [
+          55.78125,
+          512.6826171875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A19 Ordnungsgem\u00e4\u00dfe Verwaltung von Identit\u00e4ten zur \nAuthentisierung (S)",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.49072265625,
+          655.7568359375
+        ],
+        [
+          443.6539611816406,
+          655.7568359375
+        ],
+        [
+          443.6539611816406,
+          690.2919921875
+        ],
+        [
+          55.49072265625,
+          690.2919921875
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.3623046875,
+          81.918212890625
+        ],
+        [
+          392.50244140625,
+          81.918212890625
+        ],
+        [
+          392.50244140625,
+          101.241455078125
+        ],
+        [
+          56.3623046875,
+          101.241455078125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A20 Einsatz von MACsec (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.926513671875,
+          172.88134765625
+        ],
+        [
+          280.213623046875,
+          172.88134765625
+        ],
+        [
+          280.213623046875,
+          189.5322265625
+        ],
+        [
+          55.926513671875,
+          189.5322265625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A21 Einsatz von Endger\u00e4tekonformit\u00e4tspr\u00fcfung (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.78125,
+          287.17626953125
+        ],
+        [
+          425.9130859375,
+          287.17626953125
+        ],
+        [
+          425.9130859375,
+          303.62158203125
+        ],
+        [
+          55.78125,
+          303.62158203125
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A22 NAC-Autorisierung mit Mikrosegmenten (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.78125,
+          446.490234375
+        ],
+        [
+          409.6435546875,
+          446.490234375
+        ],
+        [
+          409.6435546875,
+          462.935546875
+        ],
+        [
+          55.78125,
+          462.935546875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A23 Einsatz von autarken RADIUS-Servern f\u00fcr unterschiedliche \nNetzbereiche und Funktionen (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          56.07177734375,
+          534.47265625
+        ],
+        [
+          502.03125,
+          534.47265625
+        ],
+        [
+          502.03125,
+          566.8649291992188
+        ],
+        [
+          56.07177734375,
+          566.8649291992188
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A24 Nutzung sicherer Protokolle zwischen NAC-Komponenten (H)",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          55.78125,
+          696.8701171875
+        ],
+        [
+          517.7197265625,
+          696.8701171875
+        ],
+        [
+          517.7197265625,
+          713.3154296875
+        ],
+        [
+          55.78125,
+          713.3154296875
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A25 Einbindung der NAC-L\u00f6sung in ein Sicherheitsmonitoring (H)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.78125,
+          88.907470703125
+        ],
+        [
+          515.3955078125,
+          88.907470703125
+        ],
+        [
+          515.3955078125,
+          106.072265625
+        ],
+        [
+          55.78125,
+          106.072265625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A26 Hochverf\u00fcgbarkeit der zentralen NAC-Komponenten (H)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.926513671875,
+          235.16796875
+        ],
+        [
+          485.1806640625,
+          235.16796875
+        ],
+        [
+          485.1806640625,
+          252.0244140625
+        ],
+        [
+          55.926513671875,
+          252.0244140625
+        ]
+      ]
+    },
+    {
+      "title": "NET.3.4.A27 Pr\u00fcfung der Notwendigkeit f\u00fcr MAC-Adress-Authentisierung (H)",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.78125,
+          381.9423828125
+        ],
+        [
+          535.1513671875,
+          381.9423828125
+        ],
+        [
+          535.1513671875,
+          398.798828125
+        ],
+        [
+          55.78125,
+          398.798828125
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.635986328125,
+          508.16015625
+        ],
+        [
+          335.849609375,
+          508.16015625
+        ],
+        [
+          335.849609375,
+          529.5390625
+        ],
+        [
+          55.635986328125,
+          529.5390625
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          55.67230224609375,
+          542.6953125
+        ],
+        [
+          190.0048828125,
+          542.6953125
+        ],
+        [
+          190.0048828125,
+          560.0554809570312
+        ],
+        [
+          55.67230224609375,
+          560.0554809570312
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          86
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          147
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "ListItem",
+          13
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListGroup",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          100
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListItem",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          74
+        ],
+        [
+          "Line",
+          33
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/NET_3_4_Network_Access_Control_Edition_2023"
+}

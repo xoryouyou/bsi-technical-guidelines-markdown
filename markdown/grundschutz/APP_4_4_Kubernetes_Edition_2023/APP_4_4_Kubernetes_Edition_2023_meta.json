@@ -1,0 +1,1213 @@
+{
+  "table_of_contents": [
+    {
+      "title": "APP.4.4 Kubernetes",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          54.619140625,
+          201.352294921875
+        ],
+        [
+          328.58642578125,
+          201.352294921875
+        ],
+        [
+          328.58642578125,
+          240.1015625
+        ],
+        [
+          54.619140625,
+          240.1015625
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          274.43115234375
+        ],
+        [
+          195.089111328125,
+          274.43115234375
+        ],
+        [
+          195.089111328125,
+          297.86572265625
+        ],
+        [
+          55.96282958984375,
+          297.86572265625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.1444091796875,
+          309.171875
+        ],
+        [
+          161.533203125,
+          309.171875
+        ],
+        [
+          161.533203125,
+          328.4951171875
+        ],
+        [
+          56.1444091796875,
+          328.4951171875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          301.56591796875
+        ],
+        [
+          167.63427734375,
+          301.56591796875
+        ],
+        [
+          167.63427734375,
+          319.24462890625
+        ],
+        [
+          55.7086181640625,
+          319.24462890625
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          370.63623046875
+        ],
+        [
+          303.8916015625,
+          370.63623046875
+        ],
+        [
+          303.8916015625,
+          388.72607421875
+        ],
+        [
+          55.49072265625,
+          388.72607421875
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          643.833984375
+        ],
+        [
+          221.527099609375,
+          643.833984375
+        ],
+        [
+          221.527099609375,
+          664.390625
+        ],
+        [
+          55.49072265625,
+          664.390625
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Mangelhafte Authentisierung und Autorisierung in der Control \nPlane",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          56.07177734375,
+          56.6849365234375
+        ],
+        [
+          531.9926147460938,
+          56.6849365234375
+        ],
+        [
+          531.9926147460938,
+          94.45538330078125
+        ],
+        [
+          56.07177734375,
+          94.45538330078125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Vertraulichkeitsverlust von Zugangsdaten",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          231.056640625
+        ],
+        [
+          383.49609375,
+          231.056640625
+        ],
+        [
+          383.49609375,
+          249.96875
+        ],
+        [
+          55.49072265625,
+          249.96875
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Ressourcenkonflikte auf Nodes",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.926513671875,
+          327.05615234375
+        ],
+        [
+          306.2158203125,
+          327.05615234375
+        ],
+        [
+          306.2158203125,
+          345.55712890625
+        ],
+        [
+          55.926513671875,
+          345.55712890625
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unautorisierte \u00c4nderungen an Clustern",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          396.33203125
+        ],
+        [
+          367.2265625,
+          396.33203125
+        ],
+        [
+          367.2265625,
+          415.6552734375
+        ],
+        [
+          55.635986328125,
+          415.6552734375
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Unberechtigte Kommunikation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.8538818359375,
+          518.849609375
+        ],
+        [
+          309.7021484375,
+          518.849609375
+        ],
+        [
+          309.7021484375,
+          537.76171875
+        ],
+        [
+          55.8538818359375,
+          537.76171875
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.4180908203125,
+          700.9814453125
+        ],
+        [
+          211.21337890625,
+          700.9814453125
+        ],
+        [
+          211.21337890625,
+          722.3603515625
+        ],
+        [
+          55.4180908203125,
+          722.3603515625
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.9991455078125,
+          247.501953125
+        ],
+        [
+          237.94189453125,
+          247.501953125
+        ],
+        [
+          237.94189453125,
+          266.4140625
+        ],
+        [
+          55.9991455078125,
+          266.4140625
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A1 Planung der Separierung der Anwendungen (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          298.0712890625
+        ],
+        [
+          416.6162109375,
+          298.0712890625
+        ],
+        [
+          416.6162109375,
+          314.5166015625
+        ],
+        [
+          55.926513671875,
+          314.5166015625
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A2 Planung der Automatisierung mit CI/CD (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          483.4921875
+        ],
+        [
+          394.82666015625,
+          483.4921875
+        ],
+        [
+          394.82666015625,
+          500.759765625
+        ],
+        [
+          55.78125,
+          500.759765625
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A3 Identit\u00e4ts- und Berechtigungsmanagement bei Kubernetes (B)",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          578.875
+        ],
+        [
+          507.2607421875,
+          578.875
+        ],
+        [
+          507.2607421875,
+          595.3203125
+        ],
+        [
+          55.635986328125,
+          595.3203125
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A4 Separierung von Pods (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.7086181640625,
+          56.427978515625
+        ],
+        [
+          281.52099609375,
+          56.427978515625
+        ],
+        [
+          281.52099609375,
+          73.181640625
+        ],
+        [
+          55.7086181640625,
+          73.181640625
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A5 Datensicherung im Cluster (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.9991455078125,
+          138.140625
+        ],
+        [
+          310.57373046875,
+          138.140625
+        ],
+        [
+          310.57373046875,
+          154.79150390625
+        ],
+        [
+          55.9991455078125,
+          154.79150390625
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.5633544921875,
+          351.5185546875
+        ],
+        [
+          267.28515625,
+          351.5185546875
+        ],
+        [
+          267.28515625,
+          369.6083984375
+        ],
+        [
+          55.5633544921875,
+          369.6083984375
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A6 Initialisierung von Pods (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          414.421875
+        ],
+        [
+          291.689453125,
+          414.421875
+        ],
+        [
+          291.689453125,
+          430.8671875
+        ],
+        [
+          55.8538818359375,
+          430.8671875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A7 Separierung der Netze bei Kubernetes (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          495.826171875
+        ],
+        [
+          375.9423828125,
+          495.826171875
+        ],
+        [
+          375.9423828125,
+          512.271484375
+        ],
+        [
+          55.635986328125,
+          512.271484375
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A8 Absicherung von Konfigurationsdateien bei Kubernetes (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          669.32421875
+        ],
+        [
+          486.3427734375,
+          669.32421875
+        ],
+        [
+          486.3427734375,
+          684.947265625
+        ],
+        [
+          55.49072265625,
+          684.947265625
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A9 Nutzung von Kubernetes Service-Accounts (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          54.90966796875,
+          56.2738037109375
+        ],
+        [
+          409.35302734375,
+          56.2738037109375
+        ],
+        [
+          409.35302734375,
+          73.1302490234375
+        ],
+        [
+          54.90966796875,
+          73.1302490234375
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A10 Absicherung von Prozessen der Automatisierung (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          235.5791015625
+        ],
+        [
+          452.6416015625,
+          235.5791015625
+        ],
+        [
+          452.6416015625,
+          252.435546875
+        ],
+        [
+          55.635986328125,
+          252.435546875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A11 \u00dcberwachung der Container (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.7086181640625,
+          329.728515625
+        ],
+        [
+          325.9716796875,
+          329.728515625
+        ],
+        [
+          325.9716796875,
+          346.6590270996094
+        ],
+        [
+          55.7086181640625,
+          346.6590270996094
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A12 Absicherung der Infrastruktur-Anwendungen (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.345458984375,
+          438.267578125
+        ],
+        [
+          434.0478515625,
+          438.267578125
+        ],
+        [
+          434.0478515625,
+          454.712890625
+        ],
+        [
+          55.345458984375,
+          454.712890625
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          611.3544921875
+        ],
+        [
+          391.92138671875,
+          611.3544921875
+        ],
+        [
+          391.92138671875,
+          631.0888671875
+        ],
+        [
+          55.78125,
+          631.0888671875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A13 Automatisierte Auditierung der Konfiguration (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          701.8037109375
+        ],
+        [
+          440.72998046875,
+          701.8037109375
+        ],
+        [
+          440.72998046875,
+          719.0712890625
+        ],
+        [
+          55.78125,
+          719.0712890625
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A14 Verwendung dedizierter Nodes (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.4180908203125,
+          88.7532958984375
+        ],
+        [
+          346.8896484375,
+          88.7532958984375
+        ],
+        [
+          346.8896484375,
+          106.175048828125
+        ],
+        [
+          55.4180908203125,
+          106.175048828125
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A15 Trennung von Anwendungen auf Node- und Cluster-Ebene (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          227.97314453125
+        ],
+        [
+          518.30078125,
+          227.97314453125
+        ],
+        [
+          518.30078125,
+          244.82958984375
+        ],
+        [
+          55.635986328125,
+          244.82958984375
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A16 Verwendung von Operatoren (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.7086181640625,
+          283.88720703125
+        ],
+        [
+          335.55908203125,
+          283.88720703125
+        ],
+        [
+          335.55908203125,
+          300.33251953125
+        ],
+        [
+          55.7086181640625,
+          300.33251953125
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A17 Attestierung von Nodes (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.7086181640625,
+          339.595703125
+        ],
+        [
+          300.4052734375,
+          339.595703125
+        ],
+        [
+          300.4052734375,
+          356.041015625
+        ],
+        [
+          55.7086181640625,
+          356.041015625
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A18 Verwendung von Mikro-Segmentierung (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.345458984375,
+          407.4326171875
+        ],
+        [
+          402.08984375,
+          407.4326171875
+        ],
+        [
+          402.08984375,
+          424.2890625
+        ],
+        [
+          55.345458984375,
+          424.2890625
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A19 Hochverf\u00fcgbarkeit von Kubernetes (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          547.62890625
+        ],
+        [
+          372.4560546875,
+          547.62890625
+        ],
+        [
+          372.4560546875,
+          564.07421875
+        ],
+        [
+          55.635986328125,
+          564.07421875
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A20 Verschl\u00fcsselte Datenhaltung bei Pods (H)",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          719.8935546875
+        ],
+        [
+          385.8203125,
+          719.8935546875
+        ],
+        [
+          385.8203125,
+          737.9833984375
+        ],
+        [
+          55.49072265625,
+          737.9833984375
+        ]
+      ]
+    },
+    {
+      "title": "APP.4.4.A21 Regelm\u00e4\u00dfiger Restart von Pods (H)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          56.0682373046875
+        ],
+        [
+          348.34228515625,
+          56.0682373046875
+        ],
+        [
+          348.34228515625,
+          73.3358154296875
+        ],
+        [
+          55.78125,
+          73.3358154296875
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.4180908203125,
+          131.5625
+        ],
+        [
+          336.14013671875,
+          131.5625
+        ],
+        [
+          336.14013671875,
+          152.5302734375
+        ],
+        [
+          55.4180908203125,
+          152.5302734375
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.67230224609375,
+          164.65869140625
+        ],
+        [
+          192.0446319580078,
+          164.65869140625
+        ],
+        [
+          192.0446319580078,
+          183.2554931640625
+        ],
+        [
+          55.67230224609375,
+          183.2554931640625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          134
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "ListItem",
+          8
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          107
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          106
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          104
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "ListItem",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          14
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          51
+        ],
+        [
+          "Line",
+          18
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/APP_4_4_Kubernetes_Edition_2023"
+}

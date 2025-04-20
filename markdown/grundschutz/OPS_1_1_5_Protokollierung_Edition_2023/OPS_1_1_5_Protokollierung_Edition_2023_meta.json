@@ -1,0 +1,1046 @@
+{
+  "table_of_contents": [
+    {
+      "title": "OPS.1.1.5 Protokollierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.217041015625,
+          201.352294921875
+        ],
+        [
+          417.7783203125,
+          201.352294921875
+        ],
+        [
+          417.7783203125,
+          240.5126953125
+        ],
+        [
+          56.217041015625,
+          240.5126953125
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.96282958984375,
+          274.02001953125
+        ],
+        [
+          194.508056640625,
+          274.02001953125
+        ],
+        [
+          194.508056640625,
+          297.86572265625
+        ],
+        [
+          55.96282958984375,
+          297.86572265625
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          308.55517578125
+        ],
+        [
+          161.24267578125,
+          308.55517578125
+        ],
+        [
+          161.24267578125,
+          328.70068359375
+        ],
+        [
+          55.8538818359375,
+          328.70068359375
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          543.517578125
+        ],
+        [
+          169.2537384033203,
+          543.517578125
+        ],
+        [
+          169.2537384033203,
+          563.251953125
+        ],
+        [
+          55.8538818359375,
+          563.251953125
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.8538818359375,
+          625.744140625
+        ],
+        [
+          303.02001953125,
+          625.744140625
+        ],
+        [
+          303.02001953125,
+          646.30078125
+        ],
+        [
+          55.8538818359375,
+          646.30078125
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.78125,
+          303.416015625
+        ],
+        [
+          219.783935546875,
+          303.416015625
+        ],
+        [
+          219.783935546875,
+          325.6171875
+        ],
+        [
+          55.78125,
+          325.6171875
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Fehlende oder unzureichende Protokollierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2001953125,
+          402.70458984375
+        ],
+        [
+          413.1298828125,
+          402.70458984375
+        ],
+        [
+          413.1298828125,
+          421.0
+        ],
+        [
+          55.2001953125,
+          421.0
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Fehlerhafte Auswahl von relevanten Protokollierungsdaten",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          649.58984375
+        ],
+        [
+          505.517578125,
+          649.58984375
+        ],
+        [
+          505.517578125,
+          668.501953125
+        ],
+        [
+          55.49072265625,
+          668.501953125
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Fehlende oder fehlerhafte Zeitsynchronisation bei der \nProtokollierung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          133.720947265625
+        ],
+        [
+          468.330078125,
+          133.720947265625
+        ],
+        [
+          468.330078125,
+          174.011962890625
+        ],
+        [
+          55.345458984375,
+          174.011962890625
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Fehlplanung bei der Protokollierung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.7086181640625,
+          288.82080078125
+        ],
+        [
+          344.5654296875,
+          288.82080078125
+        ],
+        [
+          344.5654296875,
+          308.96630859375
+        ],
+        [
+          55.7086181640625,
+          308.96630859375
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Vertraulichkeits- und Integrit\u00e4tsverlust von \nProtokollierungsdaten",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          373.10302734375
+        ],
+        [
+          397.44140625,
+          373.10302734375
+        ],
+        [
+          397.44140625,
+          410.51611328125
+        ],
+        [
+          55.345458984375,
+          410.51611328125
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Falsch konfigurierte Protokollierung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          554.20703125
+        ],
+        [
+          345.7275390625,
+          554.20703125
+        ],
+        [
+          345.7275390625,
+          573.94140625
+        ],
+        [
+          55.78125,
+          573.94140625
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Ausfall von Datenquellen f\u00fcr Protokollierungsdaten",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          708.3818359375
+        ],
+        [
+          453.51318359375,
+          708.3818359375
+        ],
+        [
+          453.51318359375,
+          728.1162109375
+        ],
+        [
+          55.49072265625,
+          728.1162109375
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Ungen\u00fcgend dimensionierte Protokollierungsinfrastruktur",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.054931640625,
+          121.181396484375
+        ],
+        [
+          504.9365234375,
+          121.181396484375
+        ],
+        [
+          504.9365234375,
+          140.504638671875
+        ],
+        [
+          55.054931640625,
+          140.504638671875
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          258.6025390625
+        ],
+        [
+          208.162841796875,
+          258.6025390625
+        ],
+        [
+          208.162841796875,
+          278.748046875
+        ],
+        [
+          55.635986328125,
+          278.748046875
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.5633544921875,
+          507.337890625
+        ],
+        [
+          237.36083984375,
+          507.337890625
+        ],
+        [
+          237.36083984375,
+          527.072265625
+        ],
+        [
+          55.5633544921875,
+          527.072265625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.5.A1 Erstellung einer Sicherheitsrichtlinie f\u00fcr die Protokollierung (B) \n[Fachverantwortliche]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.926513671875,
+          557.9072265625
+        ],
+        [
+          528.9354858398438,
+          557.9072265625
+        ],
+        [
+          528.9354858398438,
+          591.1049194335938
+        ],
+        [
+          55.926513671875,
+          591.1049194335938
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.5.A2 ENTFALLEN (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          56.1710205078125
+        ],
+        [
+          234.74609375,
+          56.1710205078125
+        ],
+        [
+          234.74609375,
+          73.2330322265625
+        ],
+        [
+          55.8538818359375,
+          73.2330322265625
+        ]
+      ]
+    },
+    {
+      "title": "Diese Anforderung ist entfallen.",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.9991455078125,
+          79.5028076171875
+        ],
+        [
+          207.4365234375,
+          79.5028076171875
+        ],
+        [
+          207.4365234375,
+          93.0701904296875
+        ],
+        [
+          55.9991455078125,
+          93.0701904296875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.5.A3 Konfiguration der Protokollierung auf System- und Netzebene (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          98.7232666015625
+        ],
+        [
+          540.9619140625,
+          98.7232666015625
+        ],
+        [
+          540.9619140625,
+          115.05908203125
+        ],
+        [
+          55.78125,
+          115.05908203125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.5.A4 Zeitsynchronisation der IT-Systeme (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          271.55322265625
+        ],
+        [
+          376.5234375,
+          271.55322265625
+        ],
+        [
+          376.5234375,
+          287.99853515625
+        ],
+        [
+          55.78125,
+          287.99853515625
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.5.A5 Einhaltung rechtlicher Rahmenbedingungen (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.07177734375,
+          327.6728515625
+        ],
+        [
+          432.01416015625,
+          327.6728515625
+        ],
+        [
+          432.01416015625,
+          343.70703125
+        ],
+        [
+          56.07177734375,
+          343.70703125
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          485.958984375
+        ],
+        [
+          266.41357421875,
+          485.958984375
+        ],
+        [
+          266.41357421875,
+          503.6554870605469
+        ],
+        [
+          55.8538818359375,
+          503.6554870605469
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.5.A6 Aufbau einer zentralen Protokollierungsinfrastruktur (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          550.095703125
+        ],
+        [
+          485.1806640625,
+          550.095703125
+        ],
+        [
+          485.1806640625,
+          565.71875
+        ],
+        [
+          55.926513671875,
+          565.71875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.5.A7 ENTFALLEN (S)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          56.1444091796875,
+          721.5380859375
+        ],
+        [
+          231.259765625,
+          721.5380859375
+        ],
+        [
+          231.259765625,
+          737.9833984375
+        ],
+        [
+          56.1444091796875,
+          737.9833984375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.5.A8 Archivierung von Protokollierungsdaten (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.2001953125,
+          56.3251953125
+        ],
+        [
+          406.73828125,
+          56.3251953125
+        ],
+        [
+          406.73828125,
+          73.489990234375
+        ],
+        [
+          55.2001953125,
+          73.489990234375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.5.A9 Bereitstellung von Protokollierungsdaten f\u00fcr die Auswertung (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          112.547607421875
+        ],
+        [
+          532.8271484375,
+          112.547607421875
+        ],
+        [
+          532.8271484375,
+          128.25909423828125
+        ],
+        [
+          55.78125,
+          128.25909423828125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.5.A10 Zugriffsschutz f\u00fcr Protokollierungsdaten (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          291.28759765625
+        ],
+        [
+          415.4541015625,
+          291.28759765625
+        ],
+        [
+          415.4541015625,
+          307.32177734375
+        ],
+        [
+          56.07177734375,
+          307.32177734375
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.345458984375,
+          352.3408203125
+        ],
+        [
+          392.2119140625,
+          352.3408203125
+        ],
+        [
+          392.2119140625,
+          370.841796875
+        ],
+        [
+          55.345458984375,
+          370.841796875
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.5.A11 Steigerung des Protokollierungsumfangs (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          441.9677734375
+        ],
+        [
+          417.197265625,
+          441.9677734375
+        ],
+        [
+          417.197265625,
+          458.4130859375
+        ],
+        [
+          55.78125,
+          458.4130859375
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.5.A12 Verschl\u00fcsselung der Protokollierungsdaten (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.926513671875,
+          582.5751953125
+        ],
+        [
+          431.142578125,
+          582.5751953125
+        ],
+        [
+          431.142578125,
+          599.0205078125
+        ],
+        [
+          55.926513671875,
+          599.0205078125
+        ]
+      ]
+    },
+    {
+      "title": "OPS.1.1.5.A13 Hochverf\u00fcgbare Protokollierungsinfrastruktur (H)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          663.9794921875
+        ],
+        [
+          454.9658203125,
+          663.9794921875
+        ],
+        [
+          454.9658203125,
+          680.4248046875
+        ],
+        [
+          55.635986328125,
+          680.4248046875
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.2728271484375,
+          56.6849365234375
+        ],
+        [
+          337.30224609375,
+          56.6849365234375
+        ],
+        [
+          337.30224609375,
+          79.6055908203125
+        ],
+        [
+          55.2728271484375,
+          79.6055908203125
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.67230224609375,
+          91.3228759765625
+        ],
+        [
+          191.021728515625,
+          91.3228759765625
+        ],
+        [
+          191.021728515625,
+          109.15576171875
+        ],
+        [
+          55.67230224609375,
+          109.15576171875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          74
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          118
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          117
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          111
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          85
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          43
+        ],
+        [
+          "Line",
+          15
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/OPS_1_1_5_Protokollierung_Edition_2023"
+}

@@ -1,0 +1,1400 @@
+{
+  "table_of_contents": [
+    {
+      "title": "DER.3.2 Revisionen auf Basis des \nLeitfadens IS-Revision",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.07177734375,
+          201.0439453125
+        ],
+        [
+          516.632080078125,
+          201.0439453125
+        ],
+        [
+          516.632080078125,
+          277.103515625
+        ],
+        [
+          56.07177734375,
+          277.103515625
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.63999938964844,
+          314.31103515625
+        ],
+        [
+          194.94384765625,
+          314.31103515625
+        ],
+        [
+          194.94384765625,
+          336.51220703125
+        ],
+        [
+          56.63999938964844,
+          336.51220703125
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.2896728515625,
+          347.61279296875
+        ],
+        [
+          160.66162109375,
+          347.61279296875
+        ],
+        [
+          160.66162109375,
+          367.75830078125
+        ],
+        [
+          56.2896728515625,
+          367.75830078125
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          56.25335693359375,
+          57.1474609375
+        ],
+        [
+          169.66796875,
+          57.1474609375
+        ],
+        [
+          169.66796875,
+          77.190185546875
+        ],
+        [
+          56.25335693359375,
+          77.190185546875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          139.3740234375
+        ],
+        [
+          304.18212890625,
+          139.3740234375
+        ],
+        [
+          304.18212890625,
+          158.697265625
+        ],
+        [
+          55.7086181640625,
+          158.697265625
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.7086181640625,
+          497.0595703125
+        ],
+        [
+          221.09130859375,
+          497.0595703125
+        ],
+        [
+          221.09130859375,
+          519.2607421875
+        ],
+        [
+          55.7086181640625,
+          519.2607421875
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Versto\u00df gegen die Vorgaben des UP Bund",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.926513671875,
+          595.3203125
+        ],
+        [
+          376.5234375,
+          595.3203125
+        ],
+        [
+          376.5234375,
+          615.0546875
+        ],
+        [
+          55.926513671875,
+          615.0546875
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Aussetzen von Sicherheitsma\u00dfnahmen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          94.868896484375
+        ],
+        [
+          360.25390625,
+          94.868896484375
+        ],
+        [
+          360.25390625,
+          114.08935546875
+        ],
+        [
+          55.635986328125,
+          114.08935546875
+        ]
+      ]
+    },
+    {
+      "title": "2.3. Wirkungslose oder nicht wirtschaftliche Umsetzung von \nSicherheitsma\u00dfnahmen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          204.846923828125
+        ],
+        [
+          484.89013671875,
+          204.846923828125
+        ],
+        [
+          484.89013671875,
+          242.1572265625
+        ],
+        [
+          55.78125,
+          242.1572265625
+        ]
+      ]
+    },
+    {
+      "title": "2.4. Unzureichende Umsetzung des Managementsystems f\u00fcr \nInformationssicherheit",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          392.01513671875
+        ],
+        [
+          483.72802734375,
+          392.01513671875
+        ],
+        [
+          483.72802734375,
+          430.4560546875
+        ],
+        [
+          55.49072265625,
+          430.4560546875
+        ]
+      ]
+    },
+    {
+      "title": "2.5. Unzureichende Qualifikation des Pr\u00fcfteams",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          519.671875
+        ],
+        [
+          396.279296875,
+          519.671875
+        ],
+        [
+          396.279296875,
+          539.40625
+        ],
+        [
+          55.78125,
+          539.40625
+        ]
+      ]
+    },
+    {
+      "title": "2.6. Befangenheit interner IS-Revisionsteams",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          628.6220703125
+        ],
+        [
+          376.23291015625,
+          628.6220703125
+        ],
+        [
+          376.23291015625,
+          648.3564453125
+        ],
+        [
+          55.49072265625,
+          648.3564453125
+        ]
+      ]
+    },
+    {
+      "title": "2.7. Fehlende langfristige Planung",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.78125,
+          725.23828125
+        ],
+        [
+          298.37158203125,
+          725.23828125
+        ],
+        [
+          298.37158203125,
+          744.97265625
+        ],
+        [
+          55.78125,
+          744.97265625
+        ]
+      ]
+    },
+    {
+      "title": "2.8. Mangelhafte Planung und Abstimmung bei der Durchf\u00fchrung \nvon IS-Revisionen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.345458984375,
+          109.052978515625
+        ],
+        [
+          523.2481079101562,
+          109.052978515625
+        ],
+        [
+          523.2481079101562,
+          146.05535888671875
+        ],
+        [
+          55.345458984375,
+          146.05535888671875
+        ]
+      ]
+    },
+    {
+      "title": "2.9. Fehlende Abstimmung mit der Personalvertretung",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          236.60693359375
+        ],
+        [
+          442.47314453125,
+          236.60693359375
+        ],
+        [
+          442.47314453125,
+          255.93017578125
+        ],
+        [
+          55.49072265625,
+          255.93017578125
+        ]
+      ]
+    },
+    {
+      "title": "2.10. Absichtliches Verschweigen von Abweichungen oder \nProblemen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          346.5849609375
+        ],
+        [
+          473.302978515625,
+          346.5849609375
+        ],
+        [
+          473.302978515625,
+          383.6553955078125
+        ],
+        [
+          55.49072265625,
+          383.6553955078125
+        ]
+      ]
+    },
+    {
+      "title": "2.11. Vertraulichkeitsverlust von sch\u00fctzenswerten Informationen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          474.0361328125
+        ],
+        [
+          527.0166015625,
+          474.0361328125
+        ],
+        [
+          527.0166015625,
+          493.7705078125
+        ],
+        [
+          55.635986328125,
+          493.7705078125
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.217041015625,
+          584.2197265625
+        ],
+        [
+          209.47021484375,
+          584.2197265625
+        ],
+        [
+          209.47021484375,
+          605.5986328125
+        ],
+        [
+          56.217041015625,
+          605.5986328125
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          108.9501953125
+        ],
+        [
+          238.958740234375,
+          108.9501953125
+        ],
+        [
+          238.958740234375,
+          127.8623046875
+        ],
+        [
+          55.926513671875,
+          127.8623046875
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A1 Benennung von Verantwortlichen f\u00fcr die IS-Revision (B) \n[Institutionsleitung]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          159.51953125
+        ],
+        [
+          475.8365173339844,
+          159.51953125
+        ],
+        [
+          475.8365173339844,
+          191.864990234375
+        ],
+        [
+          55.78125,
+          191.864990234375
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A2 Erstellung eines IS-Revisionshandbuches (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          231.26220703125
+        ],
+        [
+          400.927734375,
+          231.26220703125
+        ],
+        [
+          400.927734375,
+          247.70751953125
+        ],
+        [
+          55.49072265625,
+          247.70751953125
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A3 Definition der Pr\u00fcfungsgrundlage (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.926513671875,
+          312.0498046875
+        ],
+        [
+          356.1865234375,
+          312.0498046875
+        ],
+        [
+          356.1865234375,
+          328.90625
+        ],
+        [
+          55.926513671875,
+          328.90625
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A4 Erstellung einer Planung f\u00fcr die IS-Revision (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          380.708984375
+        ],
+        [
+          417.7783203125,
+          380.708984375
+        ],
+        [
+          417.7783203125,
+          397.9765625
+        ],
+        [
+          55.635986328125,
+          397.9765625
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A5 Auswahl eines geeigneten IS-Revisionsteams (B)",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          495.00390625
+        ],
+        [
+          423.0078125,
+          495.00390625
+        ],
+        [
+          423.0078125,
+          511.44921875
+        ],
+        [
+          55.49072265625,
+          511.44921875
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A6 Vorbereitung einer IS-Revision (B) [IS-Revisionsteam]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          589.9755859375
+        ],
+        [
+          456.1279296875,
+          589.9755859375
+        ],
+        [
+          456.1279296875,
+          606.4208984375
+        ],
+        [
+          55.49072265625,
+          606.4208984375
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A7 Durchf\u00fchrung einer IS-Revision (B) [IS-Revisionsteam]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.635986328125,
+          670.96875
+        ],
+        [
+          464.2626953125,
+          670.96875
+        ],
+        [
+          464.2626953125,
+          687.4590606689453
+        ],
+        [
+          55.635986328125,
+          687.4590606689453
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A8 Aufbewahrung von IS-Revisionsberichten (B)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.78125,
+          56.11962890625
+        ],
+        [
+          406.44775390625,
+          56.11962890625
+        ],
+        [
+          406.44775390625,
+          73.489990234375
+        ],
+        [
+          55.78125,
+          73.489990234375
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.5633544921875,
+          144.71875
+        ],
+        [
+          266.7041015625,
+          144.71875
+        ],
+        [
+          266.7041015625,
+          164.453125
+        ],
+        [
+          55.5633544921875,
+          164.453125
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A9 Integration in den Informationssicherheitsprozess (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.635986328125,
+          207.41650390625
+        ],
+        [
+          455.546875,
+          207.41650390625
+        ],
+        [
+          455.546875,
+          224.68408203125
+        ],
+        [
+          55.635986328125,
+          224.68408203125
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A10 Kommunikationsabsprache (S)",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.7086181640625,
+          321.9169921875
+        ],
+        [
+          324.228515625,
+          321.9169921875
+        ],
+        [
+          324.228515625,
+          338.3623046875
+        ],
+        [
+          55.7086181640625,
+          338.3623046875
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A11 Durchf\u00fchrung eines Auftaktgespr\u00e4chs f\u00fcr eine IS-\nQuerschnittsrevision (S) [IS-Revisionsteam]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.49072265625,
+          389.95947265625
+        ],
+        [
+          442.763671875,
+          389.95947265625
+        ],
+        [
+          442.763671875,
+          423.466796875
+        ],
+        [
+          55.49072265625,
+          423.466796875
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A12 Erstellung eines Pr\u00fcfplans (S) [IS-Revisionsteam]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          56.07177734375,
+          534.8837890625
+        ],
+        [
+          433.466796875,
+          534.8837890625
+        ],
+        [
+          433.466796875,
+          551.3291015625
+        ],
+        [
+          56.07177734375,
+          551.3291015625
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A13 Sichtung und Pr\u00fcfung der Dokumente (S) [IS-Revisionsteam]",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          55.345458984375,
+          649.1787109375
+        ],
+        [
+          507.2607421875,
+          649.1787109375
+        ],
+        [
+          507.2607421875,
+          665.6240234375
+        ],
+        [
+          55.345458984375,
+          665.6240234375
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A14 Auswahl der Zielobjekte und der zu pr\u00fcfenden Anforderungen (S) \n[IS-Revisionsteam]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          56.016845703125
+        ],
+        [
+          536.4204711914062,
+          56.016845703125
+        ],
+        [
+          536.4204711914062,
+          90.140869140625
+        ],
+        [
+          55.78125,
+          90.140869140625
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A15 Auswahl von geeigneten Pr\u00fcfmethoden (S) [IS-Revisionsteam]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.345458984375,
+          266.4140625
+        ],
+        [
+          515.3955078125,
+          266.4140625
+        ],
+        [
+          515.3955078125,
+          283.681640625
+        ],
+        [
+          55.345458984375,
+          283.681640625
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A16 Erstellung eines Ablaufplans f\u00fcr die Vor-Ort-Pr\u00fcfung (S) [IS-\nRevisionsteam]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.78125,
+          322.328125
+        ],
+        [
+          502.6123046875,
+          322.328125
+        ],
+        [
+          502.6123046875,
+          355.21875
+        ],
+        [
+          55.78125,
+          355.21875
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A17 Durchf\u00fchrung der Vor-Ort-Pr\u00fcfung (S) [IS-Revisionsteam]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.635986328125,
+          407.22705078125
+        ],
+        [
+          492.734375,
+          407.22705078125
+        ],
+        [
+          492.734375,
+          424.2890625
+        ],
+        [
+          55.635986328125,
+          424.2890625
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A18 Durchf\u00fchrung von Interviews (S) [IS-Revisionsteam]",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          55.49072265625,
+          670.96875
+        ],
+        [
+          456.99951171875,
+          670.96875
+        ],
+        [
+          456.99951171875,
+          687.4590606689453
+        ],
+        [
+          55.49072265625,
+          687.4590606689453
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A19 \u00dcberpr\u00fcfung der gew\u00e4hlten Risikobehandlungsoptionen (S) [IS-\nRevisionsteam]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.926513671875,
+          55.1431884765625
+        ],
+        [
+          527.0166015625,
+          55.1431884765625
+        ],
+        [
+          527.0166015625,
+          89.977294921875
+        ],
+        [
+          55.926513671875,
+          89.977294921875
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A20 Nachbereitung der Vor-Ort-Pr\u00fcfung (S) [IS-Revisionsteam]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.49072265625,
+          154.9970703125
+        ],
+        [
+          493.896484375,
+          154.9970703125
+        ],
+        [
+          493.896484375,
+          172.2646484375
+        ],
+        [
+          55.49072265625,
+          172.2646484375
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A21 Erstellung eines IS-Revisionsberichts (S) [IS-Revisionsteam]",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          236.4013671875
+        ],
+        [
+          497.3828125,
+          236.4013671875
+        ],
+        [
+          497.3828125,
+          253.6689453125
+        ],
+        [
+          55.78125,
+          253.6689453125
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A22 Nachbereitung einer IS-Revision (S)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          441.9677734375
+        ],
+        [
+          353.8623046875,
+          441.9677734375
+        ],
+        [
+          353.8623046875,
+          458.4130859375
+        ],
+        [
+          55.78125,
+          458.4130859375
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          562.0185546875
+        ],
+        [
+          392.79296875,
+          562.0185546875
+        ],
+        [
+          392.79296875,
+          581.7529296875
+        ],
+        [
+          55.78125,
+          581.7529296875
+        ]
+      ]
+    },
+    {
+      "title": "DER.3.2.A23 ENTFALLEN (H)",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          55.78125,
+          652.056640625
+        ],
+        [
+          234.600830078125,
+          652.056640625
+        ],
+        [
+          234.600830078125,
+          668.501953125
+        ],
+        [
+          55.78125,
+          668.501953125
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.2728271484375,
+          56.3251953125
+        ],
+        [
+          337.30224609375,
+          56.3251953125
+        ],
+        [
+          337.30224609375,
+          79.040283203125
+        ],
+        [
+          55.2728271484375,
+          79.040283203125
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          55.67230224609375,
+          91.47705078125
+        ],
+        [
+          191.021728515625,
+          91.47705078125
+        ],
+        [
+          191.021728515625,
+          109.258544921875
+        ],
+        [
+          55.67230224609375,
+          109.258544921875
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          66
+        ],
+        [
+          "Line",
+          28
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          105
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          117
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          101
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          98
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          99
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          87
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          37
+        ],
+        [
+          "Line",
+          14
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/DER_3_2_Revisionen_auf_Basis_des_Leitfadens_IS_Revision_Edition_2023"
+}

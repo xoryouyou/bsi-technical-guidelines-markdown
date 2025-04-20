@@ -1,0 +1,847 @@
+{
+  "table_of_contents": [
+    {
+      "title": "IND.2.7 Safety Instrumented \nSystems",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.507568359375,
+          200.42724609375
+        ],
+        [
+          461.10662841796875,
+          200.42724609375
+        ],
+        [
+          461.10662841796875,
+          278.13134765625
+        ],
+        [
+          56.507568359375,
+          278.13134765625
+        ]
+      ]
+    },
+    {
+      "title": "1. Beschreibung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.54388427734375,
+          313.89990234375
+        ],
+        [
+          195.234375,
+          313.89990234375
+        ],
+        [
+          195.234375,
+          336.51220703125
+        ],
+        [
+          56.54388427734375,
+          336.51220703125
+        ]
+      ]
+    },
+    {
+      "title": "1.1. Einleitung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          56.18072509765625,
+          347.4072265625
+        ],
+        [
+          160.66162109375,
+          347.4072265625
+        ],
+        [
+          160.66162109375,
+          367.9638671875
+        ],
+        [
+          56.18072509765625,
+          367.9638671875
+        ]
+      ]
+    },
+    {
+      "title": "1.2. Zielsetzung",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          55.926513671875,
+          654.1123046875
+        ],
+        [
+          169.2537384033203,
+          654.1123046875
+        ],
+        [
+          169.2537384033203,
+          673.8466796875
+        ],
+        [
+          55.926513671875,
+          673.8466796875
+        ]
+      ]
+    },
+    {
+      "title": "1.3. Abgrenzung und Modellierung",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          56.4793701171875
+        ],
+        [
+          305.634765625,
+          56.4793701171875
+        ],
+        [
+          305.634765625,
+          76.6248779296875
+        ],
+        [
+          55.49072265625,
+          76.6248779296875
+        ]
+      ]
+    },
+    {
+      "title": "2. Gef\u00e4hrdungslage",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.2728271484375,
+          158.800048828125
+        ],
+        [
+          221.962890625,
+          158.800048828125
+        ],
+        [
+          221.962890625,
+          181.412353515625
+        ],
+        [
+          55.2728271484375,
+          181.412353515625
+        ]
+      ]
+    },
+    {
+      "title": "2.1. Manipulation des Logiksystems",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          55.49072265625,
+          256.9580078125
+        ],
+        [
+          308.5400390625,
+          256.9580078125
+        ],
+        [
+          308.5400390625,
+          276.28125
+        ],
+        [
+          55.49072265625,
+          276.28125
+        ]
+      ]
+    },
+    {
+      "title": "2.2. Unzureichende \u00dcberwachungs- und Detektionsverfahren",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.2001953125,
+          55.9654541015625
+        ],
+        [
+          492.734375,
+          55.9654541015625
+        ],
+        [
+          492.734375,
+          76.0081787109375
+        ],
+        [
+          55.2001953125,
+          76.0081787109375
+        ]
+      ]
+    },
+    {
+      "title": "3. Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.8538818359375,
+          198.268798828125
+        ],
+        [
+          208.30810546875,
+          198.268798828125
+        ],
+        [
+          208.30810546875,
+          219.75048828125
+        ],
+        [
+          55.8538818359375,
+          219.75048828125
+        ]
+      ]
+    },
+    {
+      "title": "3.1. Basis-Anforderungen",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.8538818359375,
+          448.5458984375
+        ],
+        [
+          237.94189453125,
+          448.5458984375
+        ],
+        [
+          237.94189453125,
+          468.2802734375
+        ],
+        [
+          55.8538818359375,
+          468.2802734375
+        ]
+      ]
+    },
+    {
+      "title": "IND.2.7.A1 Erfassung und Dokumentation (B) [Planende, Wartungspersonal]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.635986328125,
+          499.9375
+        ],
+        [
+          523.5302734375,
+          499.9375
+        ],
+        [
+          523.5302734375,
+          516.3828125
+        ],
+        [
+          55.635986328125,
+          516.3828125
+        ]
+      ]
+    },
+    {
+      "title": "IND.2.7.A2 Zweckgebundene Nutzung der Hard- und Softwarekomponenten \n(B) [Wartungspersonal]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.345458984375,
+          568.185546875
+        ],
+        [
+          528.759765625,
+          568.185546875
+        ],
+        [
+          528.759765625,
+          600.7049255371094
+        ],
+        [
+          55.345458984375,
+          600.7049255371094
+        ]
+      ]
+    },
+    {
+      "title": "IND.2.7.A3 \u00c4nderung des Anwendungsprogramms auf dem Logiksystem (B) \n[Wartungspersonal]",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          55.49072265625,
+          640.1337890625
+        ],
+        [
+          520.625,
+          640.1337890625
+        ],
+        [
+          520.625,
+          673.0244140625
+        ],
+        [
+          55.49072265625,
+          673.0244140625
+        ]
+      ]
+    },
+    {
+      "title": "3.2. Standard-Anforderungen",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.7086181640625,
+          56.736328125
+        ],
+        [
+          268.15673828125,
+          56.736328125
+        ],
+        [
+          268.15673828125,
+          76.367919921875
+        ],
+        [
+          55.7086181640625,
+          76.367919921875
+        ]
+      ]
+    },
+    {
+      "title": "IND.2.7.A4 Verankerung von Informationssicherheit im Functional Safety \nManagement (S) [ICS-Informationssicherheitsbeauftragte]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          120.66748046875
+        ],
+        [
+          513.0712890625,
+          120.66748046875
+        ],
+        [
+          513.0712890625,
+          153.4649658203125
+        ],
+        [
+          55.635986328125,
+          153.4649658203125
+        ]
+      ]
+    },
+    {
+      "title": "IND.2.7.A5 Notfallmanagement von SIS (S) [ICS-\nInformationssicherheitsbeauftragte]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.49072265625,
+          206.18310546875
+        ],
+        [
+          350.08544921875,
+          206.18310546875
+        ],
+        [
+          350.08544921875,
+          239.07373046875
+        ],
+        [
+          55.49072265625,
+          239.07373046875
+        ]
+      ]
+    },
+    {
+      "title": "IND.2.7.A6 Sichere Planung und Spezifikation des SIS (S) [Planende, \nWartungspersonal, ICS-Informationssicherheitsbeauftragte]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          291.28759765625
+        ],
+        [
+          469.12371826171875,
+          291.28759765625
+        ],
+        [
+          469.12371826171875,
+          323.864990234375
+        ],
+        [
+          55.635986328125,
+          323.864990234375
+        ]
+      ]
+    },
+    {
+      "title": "IND.2.7.A7 Trennung und Unabh\u00e4ngigkeit des SIS von der Umgebung (S) \n[Planende, Wartungspersonal]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          363.0302734375
+        ],
+        [
+          502.03125,
+          363.0302734375
+        ],
+        [
+          502.03125,
+          396.7431640625
+        ],
+        [
+          55.78125,
+          396.7431640625
+        ]
+      ]
+    },
+    {
+      "title": "IND.2.7.A8 Sichere \u00dcbertragung von Engineering Daten auf SIS (S) [Planende, \nWartungspersonal, ICS-Informationssicherheitsbeauftragte]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          461.291015625
+        ],
+        [
+          529.3408203125,
+          461.291015625
+        ],
+        [
+          529.3408203125,
+          495.00390625
+        ],
+        [
+          55.78125,
+          495.00390625
+        ]
+      ]
+    },
+    {
+      "title": "IND.2.7.A9 Absicherung der Daten- und Signalverbindungen (S) [Planende, \nWartungspersonal, ICS-Informationssicherheitsbeauftragte]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          56.07177734375,
+          519.2607421875
+        ],
+        [
+          513.94287109375,
+          519.2607421875
+        ],
+        [
+          513.94287109375,
+          553.0649108886719
+        ],
+        [
+          56.07177734375,
+          553.0649108886719
+        ]
+      ]
+    },
+    {
+      "title": "IND.2.7.A10 Anzeige und Alarmierung von simulierten oder gebr\u00fcckten \nVariablen (S) [Planende]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.635986328125,
+          592.03125
+        ],
+        [
+          497.9638671875,
+          592.03125
+        ],
+        [
+          497.9638671875,
+          625.0649261474609
+        ],
+        [
+          55.635986328125,
+          625.0649261474609
+        ]
+      ]
+    },
+    {
+      "title": "IND.2.7.A11 Umgang mit integrierten Systemen (S) [Planende, \nWartungspersonal, ICS-Informationssicherheitsbeauftragte]",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          55.78125,
+          690.2919921875
+        ],
+        [
+          436.08154296875,
+          690.2919921875
+        ],
+        [
+          436.08154296875,
+          724.8271484375
+        ],
+        [
+          55.78125,
+          724.8271484375
+        ]
+      ]
+    },
+    {
+      "title": "3.3. Anforderungen bei erh\u00f6htem Schutzbedarf",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.49072265625,
+          55.9654541015625
+        ],
+        [
+          392.2119140625,
+          55.9654541015625
+        ],
+        [
+          392.2119140625,
+          76.0081787109375
+        ],
+        [
+          55.49072265625,
+          76.0081787109375
+        ]
+      ]
+    },
+    {
+      "title": "IND.2.7.A12 Sicherstellen der Integrit\u00e4t und Authentizit\u00e4t von \nAnwendungsprogrammen und Konfigurationsdaten (H) [Planende]",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.78125,
+          147.699462890625
+        ],
+        [
+          468.330078125,
+          147.699462890625
+        ],
+        [
+          468.330078125,
+          179.973388671875
+        ],
+        [
+          55.78125,
+          179.973388671875
+        ]
+      ]
+    },
+    {
+      "title": "4. Weiterf\u00fchrende Informationen",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.4180908203125,
+          264.56396484375
+        ],
+        [
+          334.6875,
+          264.56396484375
+        ],
+        [
+          334.6875,
+          286.76513671875
+        ],
+        [
+          55.4180908203125,
+          286.76513671875
+        ]
+      ]
+    },
+    {
+      "title": "4.1. Wissenswertes",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          55.8538818359375,
+          299.09912109375
+        ],
+        [
+          191.45751953125,
+          299.09912109375
+        ],
+        [
+          191.45751953125,
+          317.18896484375
+        ],
+        [
+          55.8538818359375,
+          317.18896484375
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          73
+        ],
+        [
+          "Line",
+          31
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          121
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          109
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "TableCell",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          92
+        ],
+        [
+          "Line",
+          42
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          126
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          51
+        ],
+        [
+          "Line",
+          17
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data/IND_2_7_Safety_Instrumented_Systems_Edition_2023"
+}
