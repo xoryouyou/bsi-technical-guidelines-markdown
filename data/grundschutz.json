@@ -1,985 +1,953 @@
 {
   "trs": [],
   "grundschutz_bausteine": [
-    [
-      [
-        "ISMS",
+    {
+      "id": "ISMS",
+      "title": "Sicherheitsmanagement",
+      "documents": [
         {
-          "id": "ISMS",
-          "title": "Sicherheitsmanagemen",
-          "documents": [
-            {
-              "filename": "ISMS_1_Sicherheitsmanagement_Edition_2023.pdf",
-              "title": "Sicherheitsmanagemen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/01_ISMS_Sicherheitsmanagement/ISMS_1_Sicherheitsmanagement_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            }
-          ]
-        }
-      ],
-      [
-        "ORP",
-        {
-          "id": "ORP",
-          "title": "Organisation und Personal",
-          "documents": [
-            {
-              "filename": "ORP_1_Organisation_Edition_2023.pdf",
-              "title": "Organisation und Personal",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/02_ORP_Organisation_und_Personal/ORP_1_Organisation_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "ORP_2_Personal_Editon_2023.pdf",
-              "title": "Organisation und Personal",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/02_ORP_Organisation_und_Personal/ORP_2_Personal_Editon_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "ORP_3_Sensibilisierung_und_Schulung_Editon_2023.pdf",
-              "title": "Organisation und Personal",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/02_ORP_Organisation_und_Personal/ORP_3_Sensibilisierung_und_Schulung_Editon_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "ORP_4_Identitaets_und_Berechtigungsmanagement_Editon_2023.pdf",
-              "title": "Organisation und Personal",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/02_ORP_Organisation_und_Personal/ORP_4_Identitaets_und_Berechtigungsmanagement_Editon_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "ORP_5_Compliance_Management_Editon_2023.pdf",
-              "title": "Organisation und Personal",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/02_ORP_Organisation_und_Personal/ORP_5_Compliance_Management_Editon_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            }
-          ]
-        }
-      ],
-      [
-        "CON",
-        {
-          "id": "CON",
-          "title": "Konzeption und Vorgehensweise",
-          "documents": [
-            {
-              "filename": "CON_1_Kryptokonzept_Edition_2023.pdf",
-              "title": "Konzeption und Vorgehensweise",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_1_Kryptokonzept_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "CON_2_Datenschutz_Edition_2023.pdf",
-              "title": "Konzeption und Vorgehensweise",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_2_Datenschutz_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "CON_3_Datensicherungskonzept_Edition_2023.pdf",
-              "title": "Konzeption und Vorgehensweise",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_3_Datensicherungskonzept_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "CON_6_Loeschen_und_Vernichten_Edition_2023.pdf",
-              "title": "Konzeption und Vorgehensweise",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_6_Loeschen_und_Vernichten_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "CON_7_Informationssicherheit_auf_Auslandsreisen_Edition_2023.pdf",
-              "title": "Konzeption und Vorgehensweise",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_7_Informationssicherheit_auf_Auslandsreisen_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "CON_8_Software_Entwicklung_Edition_2023.pdf",
-              "title": "Konzeption und Vorgehensweise",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_8_Software_Entwicklung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "CON_9_Informationsaustausch_Edition_2023.pdf",
-              "title": "Konzeption und Vorgehensweise",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_9_Informationsaustausch_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "CON_10_Entwicklung_von_Webanwendungen_Edition_2023.pdf",
-              "title": "Konzeption und Vorgehensweise",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_10_Entwicklung_von_Webanwendungen_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "CON_11_1_Geheimschutz_Edition_2023.pdf",
-              "title": "Konzeption und Vorgehensweise",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_11_1_Geheimschutz_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            }
-          ]
-        }
-      ],
-      [
-        "OPS",
-        {
-          "id": "OPS",
-          "title": "Betrieb",
-          "documents": [
-            {
-              "filename": "OPS_1_1_1_Allgemeiner_IT_Betrieb_Edition_2023.pdf",
-              "title": "Betrieb",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_1_1_Allgemeiner_IT_Betrieb_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "OPS_1_1_2_Ordnungsgemaesse_IT_Administration_Edition_2023.pdf",
-              "title": "Betrieb",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_1_2_Ordnungsgemaesse_IT_Administration_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "OPS_1_1_3_Patch_und_Aenderungsmanagement_Edition_2023.pdf",
-              "title": "Betrieb",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_1_3_Patch_und_Aenderungsmanagement_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "OPS_1_1_4_Schutz_vor_Schadprogrammen_Edition_2023.pdf",
-              "title": "Betrieb",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_1_4_Schutz_vor_Schadprogrammen_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "OPS_1_1_5_Protokollierung_Edition_2023.pdf",
-              "title": "Betrieb",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_1_5_Protokollierung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "OPS_1_1_6_Software_Tests_und_Freigaben_Edition_2023.pdf",
-              "title": "Betrieb",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_1_6_Software_Tests_und_Freigaben_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "OPS_1_1_7_Systemmanagement_Edition_2023.pdf",
-              "title": "Betrieb",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_1_7_Systemmanagement_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "OPS_1_2_2_Archivierung_Edition_2023.pdf",
-              "title": "Betrieb",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_2_2_Archivierung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "OPS_1_2_4_Telearbeit_Edition_2023.pdf",
-              "title": "Betrieb",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_2_4_Telearbeit_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "OPS_1_2_5_Fernwartung_Edition_2023.pdf",
-              "title": "Betrieb",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_2_5_Fernwartung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "OPS_1_2_6_NTP_Zeitsynchronisation_Edition_2023.pdf",
-              "title": "Betrieb",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_2_6_NTP_Zeitsynchronisation_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "OPS_2_2_Cloud-Nutzung_Edition_2023.pdf",
-              "title": "Betrieb",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_2_2_Cloud-Nutzung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "OPS_2_3_Nutzung_von_Outsourcing_Edition_2023.pdf",
-              "title": "Betrieb",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_2_3_Nutzung_von_Outsourcing_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "OPS_3_2_Anbieten_von_Outsourcing_Edition_2023.pdf",
-              "title": "Betrieb",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_3_2_Anbieten_von_Outsourcing_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            }
-          ]
-        }
-      ],
-      [
-        "DER",
-        {
-          "id": "DER",
-          "title": "Detektion und Reaktion",
-          "documents": [
-            {
-              "filename": "DER_1_Detektion_von_sicherheitsrelevanten_Ereignissen_Edition_2023.pdf",
-              "title": "Detektion und Reaktion",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/05_DER_Detektion_und_Reaktion/DER_1_Detektion_von_sicherheitsrelevanten_Ereignissen_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "DER_2_1_Behandlung_von_Sicherheitsvorfaellen_Edition_2023.pdf",
-              "title": "Detektion und Reaktion",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/05_DER_Detektion_und_Reaktion/DER_2_1_Behandlung_von_Sicherheitsvorfaellen_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "DER_2_2_Vorsorge_fuer_die_IT_Forensik_2023.pdf",
-              "title": "Detektion und Reaktion",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/05_DER_Detektion_und_Reaktion/DER_2_2_Vorsorge_fuer_die_IT_Forensik_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "DER_2_3_Bereinigung_weitreichender_Sicherheitsvorfaelle_Edition_2023.pdf",
-              "title": "Detektion und Reaktion",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/05_DER_Detektion_und_Reaktion/DER_2_3_Bereinigung_weitreichender_Sicherheitsvorfaelle_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "DER_3_1_Audits_und_Revisionen_Edition_2023.pdf",
-              "title": "Detektion und Reaktion",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/05_DER_Detektion_und_Reaktion/DER_3_1_Audits_und_Revisionen_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "DER_3_2_Revisionen_auf_Basis_des_Leitfadens_IS_Revision_Edition_2023.pdf",
-              "title": "Detektion und Reaktion",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/05_DER_Detektion_und_Reaktion/DER_3_2_Revisionen_auf_Basis_des_Leitfadens_IS_Revision_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "DER_4_Notfallmanagement_Edition_2023.pdf",
-              "title": "Detektion und Reaktion",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/05_DER_Detektion_und_Reaktion/DER_4_Notfallmanagement_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            }
-          ]
-        }
-      ],
-      [
-        "APP",
-        {
-          "id": "APP",
-          "title": "Anwendungen",
-          "documents": [
-            {
-              "filename": "APP_1_1_Office_Produkte_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_1_1_Office_Produkte_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_1_2_Webbrowser_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_1_2_Webbrowser_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_1_4_Mobile_Anwendungen_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_1_4_Mobile_Anwendungen_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_2_1_Allgemeiner_Verzeichnisdienst_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_2_1_Allgemeiner_Verzeichnisdienst_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_2_2_Active_Directory_Domain_Services_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_2_2_Active_Directory_Domain_Services_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_2_3_OpenLDAP_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_2_3_OpenLDAP_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_3_1_Webanwendungen_und_Webservices_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_3_1_Webanwendungen_und_Webservices_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_3_2_Webserver_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_3_2_Webserver_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_3_3_Fileserver_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_3_3_Fileserver_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_3_4_Samba_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_3_4_Samba_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_3_6_DNS_Server_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_3_6_DNS_Server_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_4_2_SAP_ERP_System_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_4_2_SAP_ERP_System_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_4_3_Relationale_Datenbanksysteme_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_4_3_Relationale_Datenbanksysteme_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_4_4_Kubernetes_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_4_4_Kubernetes_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_4_6_SAP_ABAP_Programmierung_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_4_6_SAP_ABAP_Programmierung_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_5_2_Microsoft_Exchange_und_Outlook_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_5_2_Microsoft_Exchange_und_Outlook_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_5_3_Allgemeiner_E-Mail_Client_und_Server_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_5_3_Allgemeiner_E-Mail_Client_und_Server_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_5_4_Unified_Communications_und_Collaboration_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_5_4_Unified_Communications_und_Collaboration_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_6_Allgemeine_Software_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_6_Allgemeine_Software_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "APP_7_Entwicklung_von_Individualsoftware_Edition_2023.pdf",
-              "title": "Anwendungen",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_7_Entwicklung_von_Individualsoftware_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            }
-          ]
-        }
-      ],
-      [
-        "SYS",
-        {
-          "id": "SYS",
-          "title": "IT-Systeme",
-          "documents": [
-            {
-              "filename": "SYS_1_1_Allgemeiner_Server_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_1_Allgemeiner_Server_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_1_2_2_Windows_Server_2012_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_2_2_Windows_Server_2012_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_1_2_3_Windows_Server_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_2_3_Windows_Server_Edition_2023.pdf?__blob=publicationFile&v=5#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_1_3_Server_unter_Linux_und_Unix_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_3_Server_unter_Linux_und_Unix_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_1_5_Virtualisierung_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_5_Virtualisierung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_1_6_Containerisierung_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_6_Containerisierung_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_1_7_IBM_Z_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_7_IBM_Z_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_1_8_Speicherloesungen_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_8_Speicherloesungen_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_1_9_Terminalserver_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_9_Terminalserver_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_2_1_Allgemeiner_Client_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_2_1_Allgemeiner_Client_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_2_2_3_Clients_unter_Windows_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_2_2_3_Clients_unter_Windows_Edition_2023.pdf?__blob=publicationFile&v=5#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_2_3_Clients_unter_Linux_und_Unix_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_2_3_Clients_unter_Linux_und_Unix_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_2_4_Clients_unter_macOS_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_2_4_Clients_unter_macOS_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_2_5_Client_Virtualisierung_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_2_5_Client_Virtualisierung_Edition_2023.pdf?__blob=publicationFile&v=2#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_2_6_Virtual_Desktop_Infrastructure_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_2_6_Virtual_Desktop_Infrastructure_Edition_2023.pdf?__blob=publicationFile&v=2#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_3_1_Laptops_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_3_1_Laptops_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_3_2_1_Allgemeine_Smartphones_und_Tablets_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_3_2_1_Allgemeine_Smartphones_und_Tablets_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_3_2_2_Mobile_Device_Management_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_3_2_2_Mobile_Device_Management_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_3_2_3_iOS_for_Enterprise_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_3_2_3_iOS_for_Enterprise_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_3_2_4_Android_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_3_2_4_Android_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_3_3_Mobiltelefon_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_3_3_Mobiltelefon_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_4_1_Drucker_Kopierer_und_Multifunktionsgeraete_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_4_1_Drucker_Kopierer_und_Multifunktionsgeraete_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_4_3_Eingebettete_Systeme_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_4_3_Eingebettete_Systeme_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_4_4_Allgemeines_IoT_Geraet_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_4_4_Allgemeines_IoT_Geraet_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "SYS_4_5_Wechseldatentraeger_Edition_2023.pdf",
-              "title": "IT-Systeme",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_4_5_Wechseldatentraeger_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            }
-          ]
-        }
-      ],
-      [
-        "IND",
-        {
-          "id": "IND",
-          "title": "Industrielle IT",
-          "documents": [
-            {
-              "filename": "IND_1_Prozessleit_und_Automatisierungstechnik_Edition_2023.pdf",
-              "title": "Industrielle IT",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/08_IND_Industrielle_IT/IND_1_Prozessleit_und_Automatisierungstechnik_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "IND_2_1_Allgemeine_ICS_Komponente_Edition_2023.pdf",
-              "title": "Industrielle IT",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/08_IND_Industrielle_IT/IND_2_1_Allgemeine_ICS_Komponente_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "IND_2_2_Speicherprogrammierbare_Steuerung_Edition_2023.pdf",
-              "title": "Industrielle IT",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/08_IND_Industrielle_IT/IND_2_2_Speicherprogrammierbare_Steuerung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "IND_2_3_Sensoren_und_Aktoren_Edition_2023.pdf",
-              "title": "Industrielle IT",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/08_IND_Industrielle_IT/IND_2_3_Sensoren_und_Aktoren_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "IND_2_4_Maschine_Edition_2023.pdf",
-              "title": "Industrielle IT",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/08_IND_Industrielle_IT/IND_2_4_Maschine_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "IND_2_7_Safety_Instrumented_Systems_Edition_2023.pdf",
-              "title": "Industrielle IT",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/08_IND_Industrielle_IT/IND_2_7_Safety_Instrumented_Systems_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "IND_3_2_Fernwartung_im_industriellen_Umfeld_Edition_2023.pdf",
-              "title": "Industrielle IT",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/08_IND_Industrielle_IT/IND_3_2_Fernwartung_im_industriellen_Umfeld_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            }
-          ]
-        }
-      ],
-      [
-        "NET",
-        {
-          "id": "NET",
-          "title": "Netye und Kommunikation",
-          "documents": [
-            {
-              "filename": "NET_1_1_Netzarchitektur_und_design_Edition_2023.pdf",
-              "title": "Netye und Kommunikation",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_1_1_Netzarchitektur_und_design_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "NET_1_2_Netzmanagement_Edition_2023.pdf",
-              "title": "Netye und Kommunikation",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_1_2_Netzmanagement_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "NET_2_1_WLAN_Betrieb_Edition_2023.pdf",
-              "title": "Netye und Kommunikation",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_2_1_WLAN_Betrieb_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "NET_2_2_WLAN_Nutzung_Edition_2023.pdf",
-              "title": "Netye und Kommunikation",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_2_2_WLAN_Nutzung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "NET_3_1_Router_und_Switches_Edition_2023.pdf",
-              "title": "Netye und Kommunikation",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_3_1_Router_und_Switches_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "NET_3_2_Firewall_Edition_2023.pdf",
-              "title": "Netye und Kommunikation",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_3_2_Firewall_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "NET_3_3_VPN_Edition_2023.pdf",
-              "title": "Netye und Kommunikation",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_3_3_VPN_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "NET_3_4_Network_Access_Control_Edition_2023.pdf",
-              "title": "Netye und Kommunikation",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_3_4_Network_Access_Control_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "NET_4_1_TK_Anlagen_Edition_2023.pdf",
-              "title": "Netye und Kommunikation",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_4_1_TK_Anlagen_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "NET_4_2_VoIP_Edition_2023.pdf",
-              "title": "Netye und Kommunikation",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_4_2_VoIP_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "NET_4_3_Faxgeraete_und_Faxserver_Edition_2023.pdf",
-              "title": "Netye und Kommunikation",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_4_3_Faxgeraete_und_Faxserver_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
-              "sha256": null
-            }
-          ]
-        }
-      ],
-      [
-        "INF",
-        {
-          "id": "INF",
-          "title": "Infrastruktur",
-          "documents": [
-            {
-              "filename": "INF_1_Allgemeines_Gebaeude_Edition_2023.pdf",
-              "title": "Infrastruktur",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_1_Allgemeines_Gebaeude_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "INF_2_Rechenzentrum_sowie_Serverraum_Edition_2023.pdf",
-              "title": "Infrastruktur",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_2_Rechenzentrum_sowie_Serverraum_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "INF_5_Raum_sowie_Schrank_fuer_technische_Infrastruktur_Edition_2023.pdf",
-              "title": "Infrastruktur",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_5_Raum_sowie_Schrank_fuer_technische_Infrastruktur_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "INF_6_Datentraegerarchiv_Edition_2023.pdf",
-              "title": "Infrastruktur",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_6_Datentraegerarchiv_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "INF_7_Bueroarbeitsplatz_Edition_2023.pdf",
-              "title": "Infrastruktur",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_7_Bueroarbeitsplatz_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "INF_8_Haeuslicher_Arbeitsplatz_Edition_2023.pdf",
-              "title": "Infrastruktur",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_8_Haeuslicher_Arbeitsplatz_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "INF_9_IT_Mobiler_Arbeitsplatz_Edition_2023.pdf",
-              "title": "Infrastruktur",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_9_IT_Mobiler_Arbeitsplatz_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "INF_10_Besprechungs_Veranstaltungs_und_Schulungsraeume_Edition_2023.pdf",
-              "title": "Infrastruktur",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_10_Besprechungs_Veranstaltungs_und_Schulungsraeume_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "INF_11_Allgemeines_Fahrzeug_2023.pdf",
-              "title": "Infrastruktur",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_11_Allgemeines_Fahrzeug_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "INF_12_Verkabelung_2023.pdf",
-              "title": "Infrastruktur",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_12_Verkabelung_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "INF_13_Technisches_Gebaeudemanagement_Edition_2023.pdf",
-              "title": "Infrastruktur",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_13_Technisches_Gebaeudemanagement_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            },
-            {
-              "filename": "INF_14_Gebaeudeautomation_Edition_2023.pdf",
-              "title": "Infrastruktur",
-              "description": null,
-              "version": null,
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_14_Gebaeudeautomation_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
-              "sha256": null
-            }
-          ]
+          "filename": "ISMS_1_Sicherheitsmanagement_Edition_2023.pdf",
+          "title": "Sicherheitsmanagement",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/01_ISMS_Sicherheitsmanagement/ISMS_1_Sicherheitsmanagement_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
         }
       ]
-    ]
+    },
+    {
+      "id": "ORP",
+      "title": "Organisation und Personal",
+      "documents": [
+        {
+          "filename": "ORP_1_Organisation_Edition_2023.pdf",
+          "title": "Organisation und Personal",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/02_ORP_Organisation_und_Personal/ORP_1_Organisation_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "ORP_2_Personal_Editon_2023.pdf",
+          "title": "Organisation und Personal",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/02_ORP_Organisation_und_Personal/ORP_2_Personal_Editon_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "ORP_3_Sensibilisierung_und_Schulung_Editon_2023.pdf",
+          "title": "Organisation und Personal",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/02_ORP_Organisation_und_Personal/ORP_3_Sensibilisierung_und_Schulung_Editon_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "ORP_4_Identitaets_und_Berechtigungsmanagement_Editon_2023.pdf",
+          "title": "Organisation und Personal",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/02_ORP_Organisation_und_Personal/ORP_4_Identitaets_und_Berechtigungsmanagement_Editon_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "ORP_5_Compliance_Management_Editon_2023.pdf",
+          "title": "Organisation und Personal",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/02_ORP_Organisation_und_Personal/ORP_5_Compliance_Management_Editon_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "id": "CON",
+      "title": "Konzeption und Vorgehensweise",
+      "documents": [
+        {
+          "filename": "CON_1_Kryptokonzept_Edition_2023.pdf",
+          "title": "Konzeption und Vorgehensweise",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_1_Kryptokonzept_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "CON_2_Datenschutz_Edition_2023.pdf",
+          "title": "Konzeption und Vorgehensweise",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_2_Datenschutz_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "CON_3_Datensicherungskonzept_Edition_2023.pdf",
+          "title": "Konzeption und Vorgehensweise",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_3_Datensicherungskonzept_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "CON_6_Loeschen_und_Vernichten_Edition_2023.pdf",
+          "title": "Konzeption und Vorgehensweise",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_6_Loeschen_und_Vernichten_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "CON_7_Informationssicherheit_auf_Auslandsreisen_Edition_2023.pdf",
+          "title": "Konzeption und Vorgehensweise",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_7_Informationssicherheit_auf_Auslandsreisen_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "CON_8_Software_Entwicklung_Edition_2023.pdf",
+          "title": "Konzeption und Vorgehensweise",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_8_Software_Entwicklung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "CON_9_Informationsaustausch_Edition_2023.pdf",
+          "title": "Konzeption und Vorgehensweise",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_9_Informationsaustausch_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "CON_10_Entwicklung_von_Webanwendungen_Edition_2023.pdf",
+          "title": "Konzeption und Vorgehensweise",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_10_Entwicklung_von_Webanwendungen_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "CON_11_1_Geheimschutz_Edition_2023.pdf",
+          "title": "Konzeption und Vorgehensweise",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/03_CON_Konzepte_und_Vorgehensweisen/CON_11_1_Geheimschutz_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "id": "OPS",
+      "title": "Betrieb",
+      "documents": [
+        {
+          "filename": "OPS_1_1_1_Allgemeiner_IT_Betrieb_Edition_2023.pdf",
+          "title": "Betrieb",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_1_1_Allgemeiner_IT_Betrieb_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "OPS_1_1_2_Ordnungsgemaesse_IT_Administration_Edition_2023.pdf",
+          "title": "Betrieb",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_1_2_Ordnungsgemaesse_IT_Administration_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "OPS_1_1_3_Patch_und_Aenderungsmanagement_Edition_2023.pdf",
+          "title": "Betrieb",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_1_3_Patch_und_Aenderungsmanagement_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "OPS_1_1_4_Schutz_vor_Schadprogrammen_Edition_2023.pdf",
+          "title": "Betrieb",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_1_4_Schutz_vor_Schadprogrammen_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "OPS_1_1_5_Protokollierung_Edition_2023.pdf",
+          "title": "Betrieb",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_1_5_Protokollierung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "OPS_1_1_6_Software_Tests_und_Freigaben_Edition_2023.pdf",
+          "title": "Betrieb",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_1_6_Software_Tests_und_Freigaben_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "OPS_1_1_7_Systemmanagement_Edition_2023.pdf",
+          "title": "Betrieb",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_1_7_Systemmanagement_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "OPS_1_2_2_Archivierung_Edition_2023.pdf",
+          "title": "Betrieb",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_2_2_Archivierung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "OPS_1_2_4_Telearbeit_Edition_2023.pdf",
+          "title": "Betrieb",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_2_4_Telearbeit_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "OPS_1_2_5_Fernwartung_Edition_2023.pdf",
+          "title": "Betrieb",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_2_5_Fernwartung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "OPS_1_2_6_NTP_Zeitsynchronisation_Edition_2023.pdf",
+          "title": "Betrieb",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_1_2_6_NTP_Zeitsynchronisation_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "OPS_2_2_Cloud-Nutzung_Edition_2023.pdf",
+          "title": "Betrieb",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_2_2_Cloud-Nutzung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "OPS_2_3_Nutzung_von_Outsourcing_Edition_2023.pdf",
+          "title": "Betrieb",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_2_3_Nutzung_von_Outsourcing_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "OPS_3_2_Anbieten_von_Outsourcing_Edition_2023.pdf",
+          "title": "Betrieb",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/04_OPS_Betrieb/OPS_3_2_Anbieten_von_Outsourcing_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "id": "DER",
+      "title": "Detektion und Reaktion",
+      "documents": [
+        {
+          "filename": "DER_1_Detektion_von_sicherheitsrelevanten_Ereignissen_Edition_2023.pdf",
+          "title": "Detektion und Reaktion",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/05_DER_Detektion_und_Reaktion/DER_1_Detektion_von_sicherheitsrelevanten_Ereignissen_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "DER_2_1_Behandlung_von_Sicherheitsvorfaellen_Edition_2023.pdf",
+          "title": "Detektion und Reaktion",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/05_DER_Detektion_und_Reaktion/DER_2_1_Behandlung_von_Sicherheitsvorfaellen_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "DER_2_2_Vorsorge_fuer_die_IT_Forensik_2023.pdf",
+          "title": "Detektion und Reaktion",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/05_DER_Detektion_und_Reaktion/DER_2_2_Vorsorge_fuer_die_IT_Forensik_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "DER_2_3_Bereinigung_weitreichender_Sicherheitsvorfaelle_Edition_2023.pdf",
+          "title": "Detektion und Reaktion",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/05_DER_Detektion_und_Reaktion/DER_2_3_Bereinigung_weitreichender_Sicherheitsvorfaelle_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "DER_3_1_Audits_und_Revisionen_Edition_2023.pdf",
+          "title": "Detektion und Reaktion",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/05_DER_Detektion_und_Reaktion/DER_3_1_Audits_und_Revisionen_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "DER_3_2_Revisionen_auf_Basis_des_Leitfadens_IS_Revision_Edition_2023.pdf",
+          "title": "Detektion und Reaktion",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/05_DER_Detektion_und_Reaktion/DER_3_2_Revisionen_auf_Basis_des_Leitfadens_IS_Revision_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "DER_4_Notfallmanagement_Edition_2023.pdf",
+          "title": "Detektion und Reaktion",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/05_DER_Detektion_und_Reaktion/DER_4_Notfallmanagement_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "id": "APP",
+      "title": "Anwendungen",
+      "documents": [
+        {
+          "filename": "APP_1_1_Office_Produkte_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_1_1_Office_Produkte_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_1_2_Webbrowser_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_1_2_Webbrowser_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_1_4_Mobile_Anwendungen_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_1_4_Mobile_Anwendungen_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_2_1_Allgemeiner_Verzeichnisdienst_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_2_1_Allgemeiner_Verzeichnisdienst_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_2_2_Active_Directory_Domain_Services_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_2_2_Active_Directory_Domain_Services_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_2_3_OpenLDAP_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_2_3_OpenLDAP_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_3_1_Webanwendungen_und_Webservices_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_3_1_Webanwendungen_und_Webservices_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_3_2_Webserver_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_3_2_Webserver_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_3_3_Fileserver_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_3_3_Fileserver_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_3_4_Samba_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_3_4_Samba_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_3_6_DNS_Server_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_3_6_DNS_Server_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_4_2_SAP_ERP_System_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_4_2_SAP_ERP_System_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_4_3_Relationale_Datenbanksysteme_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_4_3_Relationale_Datenbanksysteme_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_4_4_Kubernetes_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_4_4_Kubernetes_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_4_6_SAP_ABAP_Programmierung_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_4_6_SAP_ABAP_Programmierung_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_5_2_Microsoft_Exchange_und_Outlook_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_5_2_Microsoft_Exchange_und_Outlook_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_5_3_Allgemeiner_E-Mail_Client_und_Server_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_5_3_Allgemeiner_E-Mail_Client_und_Server_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_5_4_Unified_Communications_und_Collaboration_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_5_4_Unified_Communications_und_Collaboration_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_6_Allgemeine_Software_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_6_Allgemeine_Software_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "APP_7_Entwicklung_von_Individualsoftware_Edition_2023.pdf",
+          "title": "Anwendungen",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/06_APP_Anwendungen/APP_7_Entwicklung_von_Individualsoftware_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "id": "SYS",
+      "title": "IT-Systeme",
+      "documents": [
+        {
+          "filename": "SYS_1_1_Allgemeiner_Server_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_1_Allgemeiner_Server_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_1_2_2_Windows_Server_2012_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_2_2_Windows_Server_2012_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_1_2_3_Windows_Server_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_2_3_Windows_Server_Edition_2023.pdf?__blob=publicationFile&v=5#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_1_3_Server_unter_Linux_und_Unix_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_3_Server_unter_Linux_und_Unix_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_1_5_Virtualisierung_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_5_Virtualisierung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_1_6_Containerisierung_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_6_Containerisierung_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_1_7_IBM_Z_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_7_IBM_Z_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_1_8_Speicherloesungen_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_8_Speicherloesungen_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_1_9_Terminalserver_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_1_9_Terminalserver_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_2_1_Allgemeiner_Client_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_2_1_Allgemeiner_Client_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_2_2_3_Clients_unter_Windows_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_2_2_3_Clients_unter_Windows_Edition_2023.pdf?__blob=publicationFile&v=5#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_2_3_Clients_unter_Linux_und_Unix_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_2_3_Clients_unter_Linux_und_Unix_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_2_4_Clients_unter_macOS_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_2_4_Clients_unter_macOS_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_2_5_Client_Virtualisierung_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_2_5_Client_Virtualisierung_Edition_2023.pdf?__blob=publicationFile&v=2#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_2_6_Virtual_Desktop_Infrastructure_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_2_6_Virtual_Desktop_Infrastructure_Edition_2023.pdf?__blob=publicationFile&v=2#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_3_1_Laptops_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_3_1_Laptops_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_3_2_1_Allgemeine_Smartphones_und_Tablets_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_3_2_1_Allgemeine_Smartphones_und_Tablets_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_3_2_2_Mobile_Device_Management_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_3_2_2_Mobile_Device_Management_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_3_2_3_iOS_for_Enterprise_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_3_2_3_iOS_for_Enterprise_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_3_2_4_Android_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_3_2_4_Android_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_3_3_Mobiltelefon_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_3_3_Mobiltelefon_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_4_1_Drucker_Kopierer_und_Multifunktionsgeraete_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_4_1_Drucker_Kopierer_und_Multifunktionsgeraete_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_4_3_Eingebettete_Systeme_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_4_3_Eingebettete_Systeme_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_4_4_Allgemeines_IoT_Geraet_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_4_4_Allgemeines_IoT_Geraet_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "SYS_4_5_Wechseldatentraeger_Edition_2023.pdf",
+          "title": "IT-Systeme",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/07_SYS_IT_Systeme/SYS_4_5_Wechseldatentraeger_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "id": "IND",
+      "title": "Industrielle IT",
+      "documents": [
+        {
+          "filename": "IND_1_Prozessleit_und_Automatisierungstechnik_Edition_2023.pdf",
+          "title": "Industrielle IT",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/08_IND_Industrielle_IT/IND_1_Prozessleit_und_Automatisierungstechnik_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "IND_2_1_Allgemeine_ICS_Komponente_Edition_2023.pdf",
+          "title": "Industrielle IT",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/08_IND_Industrielle_IT/IND_2_1_Allgemeine_ICS_Komponente_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "IND_2_2_Speicherprogrammierbare_Steuerung_Edition_2023.pdf",
+          "title": "Industrielle IT",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/08_IND_Industrielle_IT/IND_2_2_Speicherprogrammierbare_Steuerung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "IND_2_3_Sensoren_und_Aktoren_Edition_2023.pdf",
+          "title": "Industrielle IT",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/08_IND_Industrielle_IT/IND_2_3_Sensoren_und_Aktoren_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "IND_2_4_Maschine_Edition_2023.pdf",
+          "title": "Industrielle IT",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/08_IND_Industrielle_IT/IND_2_4_Maschine_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "IND_2_7_Safety_Instrumented_Systems_Edition_2023.pdf",
+          "title": "Industrielle IT",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/08_IND_Industrielle_IT/IND_2_7_Safety_Instrumented_Systems_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "IND_3_2_Fernwartung_im_industriellen_Umfeld_Edition_2023.pdf",
+          "title": "Industrielle IT",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/08_IND_Industrielle_IT/IND_3_2_Fernwartung_im_industriellen_Umfeld_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "id": "NET",
+      "title": "Netye und Kommunikation",
+      "documents": [
+        {
+          "filename": "NET_1_1_Netzarchitektur_und_design_Edition_2023.pdf",
+          "title": "Netye und Kommunikation",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_1_1_Netzarchitektur_und_design_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "NET_1_2_Netzmanagement_Edition_2023.pdf",
+          "title": "Netye und Kommunikation",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_1_2_Netzmanagement_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "NET_2_1_WLAN_Betrieb_Edition_2023.pdf",
+          "title": "Netye und Kommunikation",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_2_1_WLAN_Betrieb_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "NET_2_2_WLAN_Nutzung_Edition_2023.pdf",
+          "title": "Netye und Kommunikation",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_2_2_WLAN_Nutzung_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "NET_3_1_Router_und_Switches_Edition_2023.pdf",
+          "title": "Netye und Kommunikation",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_3_1_Router_und_Switches_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "NET_3_2_Firewall_Edition_2023.pdf",
+          "title": "Netye und Kommunikation",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_3_2_Firewall_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "NET_3_3_VPN_Edition_2023.pdf",
+          "title": "Netye und Kommunikation",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_3_3_VPN_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "NET_3_4_Network_Access_Control_Edition_2023.pdf",
+          "title": "Netye und Kommunikation",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_3_4_Network_Access_Control_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "NET_4_1_TK_Anlagen_Edition_2023.pdf",
+          "title": "Netye und Kommunikation",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_4_1_TK_Anlagen_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "NET_4_2_VoIP_Edition_2023.pdf",
+          "title": "Netye und Kommunikation",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_4_2_VoIP_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "NET_4_3_Faxgeraete_und_Faxserver_Edition_2023.pdf",
+          "title": "Netye und Kommunikation",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/09_NET_Netze_und_Kommunikation/NET_4_3_Faxgeraete_und_Faxserver_Edition_2023.pdf?__blob=publicationFile&v=4#download=1",
+          "sha256": null
+        }
+      ]
+    },
+    {
+      "id": "INF",
+      "title": "Infrastruktur",
+      "documents": [
+        {
+          "filename": "INF_1_Allgemeines_Gebaeude_Edition_2023.pdf",
+          "title": "Infrastruktur",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_1_Allgemeines_Gebaeude_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "INF_2_Rechenzentrum_sowie_Serverraum_Edition_2023.pdf",
+          "title": "Infrastruktur",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_2_Rechenzentrum_sowie_Serverraum_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "INF_5_Raum_sowie_Schrank_fuer_technische_Infrastruktur_Edition_2023.pdf",
+          "title": "Infrastruktur",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_5_Raum_sowie_Schrank_fuer_technische_Infrastruktur_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "INF_6_Datentraegerarchiv_Edition_2023.pdf",
+          "title": "Infrastruktur",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_6_Datentraegerarchiv_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "INF_7_Bueroarbeitsplatz_Edition_2023.pdf",
+          "title": "Infrastruktur",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_7_Bueroarbeitsplatz_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "INF_8_Haeuslicher_Arbeitsplatz_Edition_2023.pdf",
+          "title": "Infrastruktur",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_8_Haeuslicher_Arbeitsplatz_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "INF_9_IT_Mobiler_Arbeitsplatz_Edition_2023.pdf",
+          "title": "Infrastruktur",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_9_IT_Mobiler_Arbeitsplatz_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "INF_10_Besprechungs_Veranstaltungs_und_Schulungsraeume_Edition_2023.pdf",
+          "title": "Infrastruktur",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_10_Besprechungs_Veranstaltungs_und_Schulungsraeume_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "INF_11_Allgemeines_Fahrzeug_2023.pdf",
+          "title": "Infrastruktur",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_11_Allgemeines_Fahrzeug_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "INF_12_Verkabelung_2023.pdf",
+          "title": "Infrastruktur",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_12_Verkabelung_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "INF_13_Technisches_Gebaeudemanagement_Edition_2023.pdf",
+          "title": "Infrastruktur",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_13_Technisches_Gebaeudemanagement_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        },
+        {
+          "filename": "INF_14_Gebaeudeautomation_Edition_2023.pdf",
+          "title": "Infrastruktur",
+          "description": null,
+          "version": null,
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Grundschutz/IT-GS-Kompendium_Einzel_PDFs_2023/10_INF_Infrastruktur/INF_14_Gebaeudeautomation_Edition_2023.pdf?__blob=publicationFile&v=3#download=1",
+          "sha256": null
+        }
+      ]
+    }
   ]
 }

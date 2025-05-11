@@ -22,7 +22,7 @@ USER_AGENT_HEADER = {"User-Agent": "curl/7.54.1"}
 
 
 ABBREVIATION_TITLE_MAPPING = {
-    "ISMS":"Sicherheitsmanagemen",
+    "ISMS":"Sicherheitsmanagement",
     "ORP":"Organisation und Personal",
     "CON":"Konzeption und Vorgehensweise",
     "OPS":"Betrieb",
@@ -203,7 +203,7 @@ class Scraper:
                 for entry in ABBREVIATION_TITLE_MAPPING.keys():
                     g = Grundschutz(id=entry, title=ABBREVIATION_TITLE_MAPPING[entry])
                     grundschutz_map[entry] = g
-
+                    print(f"Grundschutz entry: {g}")
 
                 # Find all links in this section
                 for link in soup.find_all("a"):
@@ -235,7 +235,7 @@ class Scraper:
                         grundschutz_map[id].documents.append(d)
                         
 
-                repository.grundschutz_bausteine.append(list(grundschutz_map.items()))
+                repository.grundschutz_bausteine= [grundschutz_map[k] for k in grundschutz_map ]
                 # Save the GS links to a file
                 print("repository: ", repository.grundschutz_bausteine)
                 print("repository: ", repository.model_dump_json(indent=2))
@@ -329,7 +329,7 @@ class Scraper:
 
                 self.logger.info(f"Downloaded: {filename}")
 
-            # Create Grundschutz downloads directory
+            # Create Grundschutz download directory
             download_dir = Path("pdf/grundschutz")
             download_dir.mkdir(parents=True, exist_ok=True)
 
