@@ -19,21 +19,22 @@ from models.tr import TR, Document, Grundschutz, Repository
 TR_OVERVIEW_PAGE = "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/technische-richtlinien_node.html"
 GRUNDSCHUTZ_OVERVIEW_PAGE = "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/IT-Grundschutz-Bausteine/Bausteine_Download_Edition_node.html"
 USER_AGENT_HEADER = {"User-Agent": "curl/7.54.1"}
-# USER_AGENT_HEADER = {"User-Agent": "BSI document scraper v0.1 - https://github.com/xoryouyou/bsi-technical-guidelines-markdown"} 
+# USER_AGENT_HEADER = {"User-Agent": "BSI document scraper v0.1 - https://github.com/xoryouyou/bsi-technical-guidelines-markdown"}
 
 
 ABBREVIATION_TITLE_MAPPING = {
-    "ISMS":"Sicherheitsmanagement",
-    "ORP":"Organisation und Personal",
-    "CON":"Konzeption und Vorgehensweise",
-    "OPS":"Betrieb",
-    "DER":"Detektion und Reaktion",
-    "APP":"Anwendungen",
-    "SYS":"IT-Systeme",
-    "IND":"Industrielle IT",
-    "NET":"Netye und Kommunikation",
-    "INF":"Infrastruktur",
+    "ISMS": "Sicherheitsmanagement",
+    "ORP": "Organisation und Personal",
+    "CON": "Konzeption und Vorgehensweise",
+    "OPS": "Betrieb",
+    "DER": "Detektion und Reaktion",
+    "APP": "Anwendungen",
+    "SYS": "IT-Systeme",
+    "IND": "Industrielle IT",
+    "NET": "Netye und Kommunikation",
+    "INF": "Infrastruktur",
 }
+
 
 # This script scrapes the BSI website for PDF links related to technical guidelines and IT-Grundschutz.
 class Scraper:
@@ -77,7 +78,13 @@ class Scraper:
             self.logger.debug(f"response status code: {response.status_code}")
 
             soup = BeautifulSoup(response.text, "html.parser")
-            title = soup.select_one("#content > div > div > div:nth-child(1) > div > div.c-intro__content > h1").get_text().strip()
+            title = (
+                soup.select_one(
+                    "#content > div > div > div:nth-child(1) > div > div.c-intro__content > h1"
+                )
+                .get_text()
+                .strip()
+            )
 
             self.logger.info(f"Title: {title}")
             # Find all links
@@ -112,7 +119,6 @@ class Scraper:
         return None
 
     def extract_grundschutz_id_from_name(self, name: str) -> str:
-
         id = re.match(r"([A-Z]{3,4})_", name).group(1)
         return id
 
@@ -148,7 +154,6 @@ class Scraper:
                     # Convert relative URLs to absolute
                     full_url = urljoin("https://www.bsi.bund.de", href)
                     if "/Technische-Richtlinien/" in full_url:  # Only include TR links
-
                         # Extract the TR ID and title from the name
                         id = self.extract_tr_id_from_name(title)
                         tr = TR(id=id, title=title, url_overview_page=full_url)
@@ -156,7 +161,7 @@ class Scraper:
 
                 # Save the TR links to a file
                 with open(repo_file, "w") as f:
-                    #f.write('url;title\n')  # Write header
+                    # f.write('url;title\n')  # Write header
                     f.write(repository.model_dump_json(indent=2))
                     f.flush()  # Ensure writing to disk
 
@@ -174,7 +179,6 @@ class Scraper:
                 f.write(repository.model_dump_json(indent=2))
                 f.flush()
 
-
         except Exception as e:
             self.logger.error(f"Error extracting TR links: {str(e)} ")
             return []
@@ -189,9 +193,10 @@ class Scraper:
                 self.logger.info("Reading cached Grundschutz links from file")
                 with open(repo_file, "r") as f:
                     repository = Repository.model_validate_json(f.read())
-                self.logger.debug(f"Grundschutz Repo loaded {repository.model_dump_json(indent=2)}")
+                self.logger.debug(
+                    f"Grundschutz Repo loaded {repository.model_dump_json(indent=2)}"
+                )
             else:
-
                 self.logger.debug(f"Fetching Grundschutz list from {url}")
                 response = requests.get(url)
                 response.raise_for_status()
@@ -216,25 +221,27 @@ class Scraper:
                     if "/Grundschutz/" in full_url:  # Only include GS links
                         # split of the url params and re-add the ".pdf?__blob=publicationFile"
 
-                        filename = Path(href).name.split('?')[0]
+                        filename = Path(href).name.split("?")[0]
 
                         id = self.extract_grundschutz_id_from_name(filename)
                         title = ABBREVIATION_TITLE_MAPPING.get(id, "Unknown")
 
                         d = Document(filename=filename, title=title, url_pdf=full_url)
                         grundschutz_map[id].documents.append(d)
-                        
 
-                repository.grundschutz_bausteine= [grundschutz_map[k] for k in grundschutz_map ]
+                repository.grundschutz_bausteine = [
+                    grundschutz_map[k] for k in grundschutz_map
+                ]
                 # Save the GS links to a file
                 with open("data/grundschutz.json", "w") as f:
                     f.write(repository.model_dump_json(indent=2))
                     f.flush()
 
-
         except Exception as e:
-            self.logger.error(f"Error extracting GS links: {str(e)} { traceback.format_exc() } ")
-            return []        
+            self.logger.error(
+                f"Error extracting GS links: {str(e)} {traceback.format_exc()} "
+            )
+            return []
 
     def download_pdfs(self):
         """Download all PDF files"""
@@ -242,8 +249,10 @@ class Scraper:
         try:
             tr_file = "data/tr-overview-with-documents.json"
             grundschutz_file = "data/grundschutz.json"
-            
-            tr_pdf_links, grundschutz_pdf_links = load_pdf_links_from_cache(tr_file=tr_file,grundschutz_file=grundschutz_file)
+
+            tr_pdf_links, grundschutz_pdf_links = load_pdf_links_from_cache(
+                tr_file=tr_file, grundschutz_file=grundschutz_file
+            )
             # Create TR downloads directory
             download_dir = Path("pdf/tr")
             if not download_dir.exists():
@@ -254,7 +263,9 @@ class Scraper:
 
                 # Check if file already exists
                 if filepath.exists():
-                    self.logger.debug(f"File {filename} already exists. Skipping download.")
+                    self.logger.debug(
+                        f"File {filename} already exists. Skipping download."
+                    )
                     continue
 
                 # Download the PDF file
@@ -272,13 +283,14 @@ class Scraper:
             download_dir = Path("pdf/grundschutz")
             download_dir.mkdir(parents=True, exist_ok=True)
 
-            for pdf_link in grundschutz_pdf_links:
-                filename = pdf_link.split("/")[-1].split('?')[0]
+            for pdf_link, title, filename in grundschutz_pdf_links:
                 filepath = download_dir / filename
 
                 # Check if file already exists
                 if filepath.exists():
-                    self.logger.debug(f"File {filename} already exists. Skipping download.")
+                    self.logger.debug(
+                        f"File {filename} already exists. Skipping download."
+                    )
                     continue
 
                 # Download the PDF file
@@ -291,7 +303,9 @@ class Scraper:
                 self.logger.info(f"Downloaded: {filename}")
 
         except Exception as e:
-            self.logger.error(f"Error downloading PDFs: {str(e)}")
+            self.logger.error(
+                f"Error downloading PDFs: {str(e)} {traceback.format_exc()} "
+            )
 
     def run(self):
         args = self.parser.parse_args()
