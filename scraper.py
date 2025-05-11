@@ -20,7 +20,9 @@ TR_OVERVIEW_PAGE = "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisati
 GRUNDSCHUTZ_OVERVIEW_PAGE = "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/IT-Grundschutz-Bausteine/Bausteine_Download_Edition_node.html"
 USER_AGENT_HEADER = {"User-Agent": "curl/7.54.1"}
 # USER_AGENT_HEADER = {"User-Agent": "BSI document scraper v0.1 - https://github.com/xoryouyou/bsi-technical-guidelines-markdown"}
-
+FILE_TR_OVERVIEW_WITH_DOCUMENTS = "data/tr-overview-with-documents.json"
+FILE_TR_OVERVIEW = "data/tr-overview.json"
+FILE_GRUNDSCHUTZ = "data/grundschutz.json"
 
 ABBREVIATION_TITLE_MAPPING = {
     "ISMS": "Sicherheitsmanagement",
@@ -129,7 +131,7 @@ class Scraper:
         repository = Repository()
         try:
             # Check if cached file exists
-            repo_file = Path("data/tr-overview.json")
+            repo_file = Path(FILE_TR_OVERVIEW)
 
             if repo_file.exists():
                 self.logger.info("Reading cached TR links from file")
@@ -175,7 +177,7 @@ class Scraper:
                 tr.documents = self.extract_pdf_links_from_tr_page(tr.url_overview_page)
 
             # Save the PDF links to a file
-            with open("data/tr-overview-and-documents.json", "w") as f:
+            with open(repo_file, "w") as f:
                 f.write(repository.model_dump_json(indent=2))
                 f.flush()
 
@@ -186,7 +188,7 @@ class Scraper:
     def fetch_grundschutz_pdf_links(self, url):
         """Extract all Grundschutz PDF file links from the overview page."""
 
-        repo_file = Path("data/grundschutz.json")
+        repo_file = Path(FILE_GRUNDSCHUTZ)
         repository = None
         try:
             if repo_file.exists():
@@ -233,7 +235,7 @@ class Scraper:
                     grundschutz_map[k] for k in grundschutz_map
                 ]
                 # Save the GS links to a file
-                with open("data/grundschutz.json", "w") as f:
+                with open(FILE_GRUNDSCHUTZ, "w") as f:
                     f.write(repository.model_dump_json(indent=2))
                     f.flush()
 
@@ -247,8 +249,8 @@ class Scraper:
         """Download all PDF files"""
 
         try:
-            tr_file = "data/tr-overview-with-documents.json"
-            grundschutz_file = "data/grundschutz.json"
+            tr_file = FILE_TR_OVERVIEW_WITH_DOCUMENTS
+            grundschutz_file = FILE_GRUNDSCHUTZ
 
             tr_pdf_links, grundschutz_pdf_links = load_pdf_links_from_cache(
                 tr_file=tr_file, grundschutz_file=grundschutz_file
