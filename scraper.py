@@ -10,8 +10,9 @@ from pathlib import Path
 import logging
 import coloredlogs
 import re
-from pprint import pprint
+import traceback
 
+from cache import load_pdf_links_from_cache
 from models.tr import TR, Document, Grundschutz, Repository
 
 
@@ -48,11 +49,6 @@ class Scraper:
             description="Scraping and Conversion for BSI Technical Guidelines"
         )
         parser.add_argument(
-            "--scrape-pdf-list",
-            help="Scrape PDF links from TR list and save to data/pdf_links.txt",
-            action="store_true",
-        )
-        parser.add_argument(
             "--fetch-tr-pdf-links",
             help="Extracts all the TR pages from main page and scrape the sub pages for PDF links",
             action="store_true",
@@ -62,7 +58,6 @@ class Scraper:
             help="Fetch all the Grundschutz PDF links from the overview page",
             action="store_true",
         )
-
         parser.add_argument(
             "--download-pdfs",
             help="Download all PDFs from the lists in /data",
@@ -115,6 +110,11 @@ class Scraper:
         if match:
             return match.group(0)
         return None
+
+    def extract_grundschutz_id_from_name(self, name: str) -> str:
+
+        id = re.match(r"([A-Z]{3,4})_", name).group(1)
+        return id
 
     def fetch_tr_pdf_links(self, url):
         """Extract all TR links from the BSI technical guidelines overview page.
@@ -189,7 +189,7 @@ class Scraper:
                 self.logger.info("Reading cached Grundschutz links from file")
                 with open(repo_file, "r") as f:
                     repository = Repository.model_validate_json(f.read())
-                self.logger.debug(f"Grundschutz Repo loaded {repository}")
+                self.logger.debug(f"Grundschutz Repo loaded {repository.model_dump_json(indent=2)}")
             else:
 
                 self.logger.debug(f"Fetching Grundschutz list from {url}")
@@ -203,7 +203,6 @@ class Scraper:
                 for entry in ABBREVIATION_TITLE_MAPPING.keys():
                     g = Grundschutz(id=entry, title=ABBREVIATION_TITLE_MAPPING[entry])
                     grundschutz_map[entry] = g
-                    print(f"Grundschutz entry: {g}")
 
                 # Find all links in this section
                 for link in soup.find_all("a"):
@@ -212,103 +211,43 @@ class Scraper:
                     if ".pdf" not in href:
                         continue
 
-
-
                     # Convert relative URLs to absolute
                     full_url = urljoin("https://www.bsi.bund.de", href)
                     if "/Grundschutz/" in full_url:  # Only include GS links
-                        print("href: ", href)
                         # split of the url params and re-add the ".pdf?__blob=publicationFile"
-                        
-                        cutoff = href.rfind(".pdf")
-                        href = href[:cutoff] + ".pdf?__blob=publicationFile"
-                        filename = href.split("?")[0]
-                        
-                        p = Path(filename)
-                        print(f"filename: {p.name}")
-                        id = re.match(r"([A-Z]{3,4})_", p.name).group(1)
+
+                        filename = Path(href).name.split('?')[0]
+
+                        id = self.extract_grundschutz_id_from_name(filename)
                         title = ABBREVIATION_TITLE_MAPPING.get(id, "Unknown")
 
-                        
-
-                        d = Document(filename=p.name, title=title, url_pdf=full_url)
+                        d = Document(filename=filename, title=title, url_pdf=full_url)
                         grundschutz_map[id].documents.append(d)
                         
 
                 repository.grundschutz_bausteine= [grundschutz_map[k] for k in grundschutz_map ]
                 # Save the GS links to a file
-                print("repository: ", repository.grundschutz_bausteine)
-                print("repository: ", repository.model_dump_json(indent=2))
                 with open("data/grundschutz.json", "w") as f:
                     f.write(repository.model_dump_json(indent=2))
                     f.flush()
 
 
         except Exception as e:
-            self.logger.error(f"Error extracting GS links: {str(e)} { e.__traceback__}")
-            return []
-        
-    def download_grundschutz_pdfs(self, pdf_links):
-        """Download all PDF files from the list of links."""
-        try:
-            # Create downloads directory
-            download_dir = Path("pdf/grundschutz")
-            download_dir.mkdir(parents=True, exist_ok=True)
-
-            for pdf_link, title in pdf_links:
-                filename = f"{title}.pdf"
-                filepath = download_dir / filename
-
-                # Check if file already exists
-                if filepath.exists():
-                    self.logger.debug(f"File {filename} already exists. Skipping download.")
-                    continue
-
-                # Download the PDF file
-                response = requests.get(pdf_link, stream=True)
-                response.raise_for_status()
-
-                with open(filepath, "wb") as f:
-                    for chunk in response.iter_content(chunk_size=8192):
-                        f.write(chunk)
-                self.logger.info(f"Downloaded: {filename}")
-
-        except Exception as e:
-            self.logger.error(f"Error downloading PDFs: {str(e)}")
+            self.logger.error(f"Error extracting GS links: {str(e)} { traceback.format_exc() } ")
+            return []        
 
     def download_pdfs(self):
         """Download all PDF files"""
 
         try:
-            # TODO: download file from Repository
-            # TODO: add sha256 checksum when downloaded
-
-            repository = None
-            # Read the PDF links from the file
-            tr_pdf_links = []
-            with open("data/tr-overview-with-documents.json", "r") as f:
-                repository = Repository.model_validate_json(f.read())
-                for tr in repository.trs:
-                    for doc in tr.documents:
-                        pdf_link = doc.url_pdf
-                        if "bundesgesundheitsministerium.de" in pdf_link or "bgbl.de" in pdf_link:
-                            # Skip links that are not from BSI
-                            continue
-                        tr_pdf_links.append((pdf_link,doc.title,doc.filename))
-            self.logger.debug(f"Found {len(tr_pdf_links)} TR PDFs to download")
-
-            grundschutz_pdf_links = []
-            # Read the Grundschutz PDF links from the file
-            with open("data/grundschutz-pdf-links.txt", "r") as f:
-                for line in f:
-                    pdf_link = line.strip()
-                    grundschutz_pdf_links.append(pdf_link)
-            self.logger.debug(f"Found {len(grundschutz_pdf_links)} Grundschutz PDFs to download")
-
-
+            tr_file = "data/tr-overview-with-documents.json"
+            grundschutz_file = "data/grundschutz.json"
+            
+            tr_pdf_links, grundschutz_pdf_links = load_pdf_links_from_cache(tr_file=tr_file,grundschutz_file=grundschutz_file)
             # Create TR downloads directory
             download_dir = Path("pdf/tr")
-            download_dir.mkdir(parents=True, exist_ok=True)
+            if not download_dir.exists():
+                download_dir.mkdir(parents=True, exist_ok=True)
 
             for pdf_link, title, filename in tr_pdf_links:
                 filepath = download_dir / filename
