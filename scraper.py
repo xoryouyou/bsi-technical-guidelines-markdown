@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+import shutil
 import requests
 from bs4 import BeautifulSoup
 import time
@@ -12,7 +13,7 @@ import coloredlogs
 import re
 import traceback
 
-from cache import load_pdf_links_from_cache
+from cache import download_file, hash_file, load_pdf_links_from_cache, load_repository_from_file, move_temp_file_to_final_location, write_repository_to_file
 from models.tr import TR, Document, Grundschutz, Repository
 
 
@@ -20,9 +21,10 @@ TR_OVERVIEW_PAGE = "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisati
 GRUNDSCHUTZ_OVERVIEW_PAGE = "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/IT-Grundschutz-Bausteine/Bausteine_Download_Edition_node.html"
 USER_AGENT_HEADER = {"User-Agent": "curl/7.54.1"}
 # USER_AGENT_HEADER = {"User-Agent": "BSI document scraper v0.1 - https://github.com/xoryouyou/bsi-technical-guidelines-markdown"}
-FILE_TR_OVERVIEW_WITH_DOCUMENTS = "data/tr-overview-with-documents.json"
 FILE_TR_OVERVIEW = "data/tr-overview.json"
 FILE_GRUNDSCHUTZ = "data/grundschutz.json"
+PATH_GRUNDSCHUTZ = Path("pdf/grundschutz")
+PATH_TR = Path("pdf/tr")
 
 ABBREVIATION_TITLE_MAPPING = {
     "ISMS": "Sicherheitsmanagement",
@@ -66,6 +68,11 @@ class Scraper:
             help="Download all PDFs from the lists in /data",
             action="store_true",
         )
+        parser.add_argument(
+            "--hash-pdfs",
+            help="Hash all PDFs in the repository and store the checksum",
+            action="store_true",
+        )
 
         return parser
 
@@ -102,6 +109,9 @@ class Scraper:
                     filename = href.split("/")[-1].split("?")[0]
                     # Convert relative URLs to absolute
                     full_url = urljoin(url, href)
+                    if "bgbl.de" in href:
+                    # Skip links that are not from BSI
+                        continue
                     self.logger.info(f"Found PDF link: {full_url}")
                     d = Document(filename=filename, url_pdf=full_url, title=title)
                     documents.append(d)
@@ -135,8 +145,7 @@ class Scraper:
 
             if repo_file.exists():
                 self.logger.info("Reading cached TR links from file")
-                with open(repo_file, "r") as f:
-                    repository = Repository.model_validate_json(f.read())
+                repository = load_repository_from_file(repo_file)
                 self.logger.debug(f"TR Repo loaded {repository}")
             else:
                 self.logger.info(f"Fetching TR list from {url}")
@@ -162,10 +171,7 @@ class Scraper:
                         repository.trs.append(tr)
 
                 # Save the TR links to a file
-                with open(repo_file, "w") as f:
-                    # f.write('url;title\n')  # Write header
-                    f.write(repository.model_dump_json(indent=2))
-                    f.flush()  # Ensure writing to disk
+                write_repository_to_file(repository, repo_file)
 
             for tr in repository.trs:
                 self.logger.debug(f"Processing: {tr.url_overview_page}")
@@ -177,9 +183,7 @@ class Scraper:
                 tr.documents = self.extract_pdf_links_from_tr_page(tr.url_overview_page)
 
             # Save the PDF links to a file
-            with open(repo_file, "w") as f:
-                f.write(repository.model_dump_json(indent=2))
-                f.flush()
+            write_repository_to_file(repository, repo_file)
 
         except Exception as e:
             self.logger.error(f"Error extracting TR links: {str(e)} ")
@@ -193,8 +197,7 @@ class Scraper:
         try:
             if repo_file.exists():
                 self.logger.info("Reading cached Grundschutz links from file")
-                with open(repo_file, "r") as f:
-                    repository = Repository.model_validate_json(f.read())
+                repository = load_repository_from_file(repo_file)
                 self.logger.debug(
                     f"Grundschutz Repo loaded {repository.model_dump_json(indent=2)}"
                 )
@@ -235,9 +238,7 @@ class Scraper:
                     grundschutz_map[k] for k in grundschutz_map
                 ]
                 # Save the GS links to a file
-                with open(FILE_GRUNDSCHUTZ, "w") as f:
-                    f.write(repository.model_dump_json(indent=2))
-                    f.flush()
+                write_repository_to_file(repository, FILE_GRUNDSCHUTZ)
 
         except Exception as e:
             self.logger.error(
@@ -249,60 +250,89 @@ class Scraper:
         """Download all PDF files"""
 
         try:
-            tr_file = FILE_TR_OVERVIEW_WITH_DOCUMENTS
-            grundschutz_file = FILE_GRUNDSCHUTZ
+            grundschutz = load_repository_from_file(FILE_GRUNDSCHUTZ)
+            # Download all Grundschutz PDFs
+            for grundschutz_baustein in grundschutz.grundschutz_bausteine:
+                for document in grundschutz_baustein.documents:
+                    # Check if file already exists
+                    filepath = PATH_GRUNDSCHUTZ / document.filename
+                    repository_hashsum = document.sha256
+                    if filepath.exists():
+                        self.logger.debug(
+                            f"File {document.filename} already exists. Skipping download."
+                        )
+                        file_hashsum = hash_file(filepath)
+                        if file_hashsum == repository_hashsum:
+                            self.logger.info("Stored hash matches file hash for %s", filepath)
+                        else:
+                            self.logger.info(
+                                "Hash mismatch for %s: %s != %s",
+                                document.filename,
+                                file_hashsum,
+                                repository_hashsum,
+                            )
 
-            tr_pdf_links, grundschutz_pdf_links = load_pdf_links_from_cache(
-                tr_file=tr_file, grundschutz_file=grundschutz_file
-            )
-            # Create TR downloads directory
-            download_dir = Path("pdf/tr")
-            if not download_dir.exists():
-                download_dir.mkdir(parents=True, exist_ok=True)
+                    else:
+                        self.logger.info(f"Downloading {document.filename} from {document.url_pdf}")
+                        temp_file, file_hashsum = download_file(document.url_pdf)
+                        self.logger.info(f"Downloaded: {document.filename}")
+                        if file_hashsum != repository_hashsum:
+                            self.logger.info(
+                                "Hash mismatch for %s: %s != %s",
+                                document.filename,
+                                file_hashsum,
+                                repository_hashsum,
+                            )
+                            # Update the repository with the new hash
+                            document.sha256 = file_hashsum
+                            self.logger.info(f"Copying temp file from {temp_file.name} to {filepath}")
+                            # Move the temporary file to the final location
+                            move_temp_file_to_final_location(temp_file, filepath)
 
-            for pdf_link, title, filename in tr_pdf_links:
-                filepath = download_dir / filename
+            # Save the updated repository to a file
+            write_repository_to_file(grundschutz, FILE_GRUNDSCHUTZ)
 
-                # Check if file already exists
-                if filepath.exists():
-                    self.logger.debug(
-                        f"File {filename} already exists. Skipping download."
-                    )
-                    continue
+            tr_repository = load_repository_from_file(FILE_TR_OVERVIEW)
+            # Download all TR PDFs
+            for tr in tr_repository.trs:
+                for document in tr.documents:
+                    # Check if file already exists
+                    filepath = PATH_TR / Path(document.filename)
+                    repository_hashsum = document.sha256
+                    if filepath.exists():
+                        self.logger.debug(
+                            f"File {document.filename} already exists. Skipping download."
+                        )
+                        file_hashsum = hash_file(filepath)
+                        if file_hashsum == repository_hashsum:
+                            self.logger.info("Stored hash matches file hash for %s", filepath)
+                        else:
+                            self.logger.info(
+                                "Hash mismatch for %s: %s != %s",
+                                document.filename,
+                                file_hashsum,
+                                repository_hashsum,
+                            )
 
-                # Download the PDF file
-                self.logger.info(f"Downloading {filename} from {pdf_link}")
-                response = requests.get(pdf_link, stream=True)
-                response.raise_for_status()
+                    else:
+                        self.logger.info(f"Downloading {document.filename} from {document.url_pdf}")
+                        temp_file, file_hashsum = download_file(document.url_pdf)
+                        self.logger.info(f"Downloaded: {document.filename}")
+                        if file_hashsum != repository_hashsum:
+                            self.logger.info(
+                                "Hash mismatch for %s: %s != %s",
+                                document.filename,
+                                file_hashsum,
+                                repository_hashsum,
+                            )
+                            # Update the repository with the new hash
+                            document.sha256 = file_hashsum
+                            self.logger.info(f"Copying temp file from {temp_file.name} to {filepath}")
+                            # Move the temporary file to the final location
+                            move_temp_file_to_final_location(temp_file, filepath)
 
-                content = response.content
-                with open(filepath, "wb") as f:
-                    f.write(content)
-
-                self.logger.info(f"Downloaded: {filename}")
-
-            # Create Grundschutz download directory
-            download_dir = Path("pdf/grundschutz")
-            download_dir.mkdir(parents=True, exist_ok=True)
-
-            for pdf_link, title, filename in grundschutz_pdf_links:
-                filepath = download_dir / filename
-
-                # Check if file already exists
-                if filepath.exists():
-                    self.logger.debug(
-                        f"File {filename} already exists. Skipping download."
-                    )
-                    continue
-
-                # Download the PDF file
-                response = requests.get(pdf_link, stream=True)
-                response.raise_for_status()
-
-                with open(filepath, "wb") as f:
-                    for chunk in response.iter_content(chunk_size=8192):
-                        f.write(chunk)
-                self.logger.info(f"Downloaded: {filename}")
+            # Save the updated repository to a file
+            write_repository_to_file(tr_repository, FILE_TR_OVERVIEW)
 
         except Exception as e:
             self.logger.error(
@@ -318,7 +348,9 @@ class Scraper:
             self.fetch_grundschutz_pdf_links(GRUNDSCHUTZ_OVERVIEW_PAGE)
         if args.download_pdfs:
             self.download_pdfs()
-        # todo hash local files function
+        if args.hash_pdfs:
+            self.hash_pdfs()
+        
 
 
 def main():
