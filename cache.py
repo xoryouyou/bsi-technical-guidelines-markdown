@@ -7,7 +7,6 @@ import requests
 import shutil
 
 def load_pdf_links_from_cache(tr_file, grundschutz_file) -> tuple:
-    # TODO: add sha256 checksum when downloaded
     logger = logging.getLogger("Cache")
     coloredlogs.install(
         level="DEBUG", fmt="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
@@ -81,7 +80,7 @@ def download_file(url: str) -> tuple:
         
         return temp_file, hashsum.hexdigest()
     else:
-        raise Exception(f"Failed to download file: {response.status_code}")
+        raise FileNotFoundError(f"Failed to download file: {response.status_code}")
     
 def move_temp_file_to_final_location(temp_file, final_file_path):
     # Move the temporary file to the final location

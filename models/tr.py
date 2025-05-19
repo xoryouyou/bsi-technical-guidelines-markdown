@@ -9,8 +9,7 @@ class Repository(BaseModel):
 
 class TR(BaseModel):
     id: str  # e.g. "TR-03110"
-    # description: str
-    # url_html: str
+
     title: str
     url_overview_page: str
     documents: List["Document"] = Field(default_factory=list)
@@ -24,9 +23,9 @@ class Grundschutz(BaseModel):
 
 class Document(BaseModel):
     filename: str
-    title: Optional[str] = None  # TODO: extract form PDF
-    description: Optional[str] = None  # TODO: scrape from website
-    version: Optional[str] = None  # TODO extract from PDF
+    title: Optional[str] = None  
+    description: Optional[str] = None  
+    version: Optional[str] = None  
     url_pdf: str
     sha256: Optional[str] = None
     # url_html: str

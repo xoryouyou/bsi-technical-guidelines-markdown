@@ -20,11 +20,11 @@ from models.tr import TR, Document, Grundschutz, Repository
 TR_OVERVIEW_PAGE = "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/technische-richtlinien_node.html"
 GRUNDSCHUTZ_OVERVIEW_PAGE = "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/IT-Grundschutz-Bausteine/Bausteine_Download_Edition_node.html"
 USER_AGENT_HEADER = {"User-Agent": "curl/7.54.1"}
-# USER_AGENT_HEADER = {"User-Agent": "BSI document scraper v0.1 - https://github.com/xoryouyou/bsi-technical-guidelines-markdown"}
 FILE_TR_OVERVIEW = "data/tr-overview.json"
 FILE_GRUNDSCHUTZ = "data/grundschutz.json"
 PATH_GRUNDSCHUTZ = Path("pdf/grundschutz")
 PATH_TR = Path("pdf/tr")
+SOUP_PARSER = "html.parser"
 
 ABBREVIATION_TITLE_MAPPING = {
     "ISMS": "Sicherheitsmanagement",
@@ -81,12 +81,11 @@ class Scraper:
         try:
             self.logger.debug(f"sending request to: {url}")
 
-            # TODO: investigate 503 errors
             response = requests.get(url, headers=USER_AGENT_HEADER)
             response.raise_for_status()
             self.logger.debug(f"response status code: {response.status_code}")
 
-            soup = BeautifulSoup(response.text, "html.parser")
+            soup = BeautifulSoup(response.text, SOUP_PARSER)
             title = (
                 soup.select_one(
                     "#content > div > div > div:nth-child(1) > div > div.c-intro__content > h1"
@@ -118,7 +117,7 @@ class Scraper:
             return documents
         except Exception as e:
             self.logger.error(f"Error extracting TR links from {url}  -> {str(e)}")
-            return None
+            return []
 
     def extract_tr_id_from_name(self, name: str) -> str:
         """
@@ -128,11 +127,10 @@ class Scraper:
         match = re.search(r"TR\-\d{5}", name)
         if match:
             return match.group(0)
-        return None
+        return ""
 
     def extract_grundschutz_id_from_name(self, name: str) -> str:
-        id = re.match(r"([A-Z]{3,4})_", name).group(1)
-        return id
+        return re.match(r"([A-Z]{3,4})_", name).group(1)
 
     def fetch_tr_pdf_links(self, url):
         """Extract all TR links from the BSI technical guidelines overview page.
@@ -155,7 +153,7 @@ class Scraper:
                 response.raise_for_status()
 
                 # Extract the TR overview section
-                soup = BeautifulSoup(response.text, "html.parser")
+                soup = BeautifulSoup(response.text, SOUP_PARSER)
                 section = soup.find("ul", {"class": "links"})
 
                 # Find all links in the overview section
@@ -166,8 +164,8 @@ class Scraper:
                     full_url = urljoin("https://www.bsi.bund.de", href)
                     if "/Technische-Richtlinien/" in full_url:  # Only include TR links
                         # Extract the TR ID and title from the name
-                        id = self.extract_tr_id_from_name(title)
-                        tr = TR(id=id, title=title, url_overview_page=full_url)
+                        tr_id = self.extract_tr_id_from_name(title)
+                        tr = TR(id=tr_id, title=title, url_overview_page=full_url)
                         repository.trs.append(tr)
 
                 # Save the TR links to a file
@@ -206,7 +204,7 @@ class Scraper:
                 response = requests.get(url)
                 response.raise_for_status()
                 repository = Repository()
-                soup = BeautifulSoup(response.text, "html.parser")
+                soup = BeautifulSoup(response.text, SOUP_PARSER)
 
                 # pre populate Grundschutz entries
                 grundschutz_map = {}
@@ -228,11 +226,11 @@ class Scraper:
 
                         filename = Path(href).name.split("?")[0]
 
-                        id = self.extract_grundschutz_id_from_name(filename)
-                        title = ABBREVIATION_TITLE_MAPPING.get(id, "Unknown")
+                        grundschutz_id = self.extract_grundschutz_id_from_name(filename)
+                        title = ABBREVIATION_TITLE_MAPPING.get(grundschutz_id, "Unknown")
 
                         d = Document(filename=filename, title=title, url_pdf=full_url)
-                        grundschutz_map[id].documents.append(d)
+                        grundschutz_map[grundschutz_id].documents.append(d)
 
                 repository.grundschutz_bausteine = [
                     grundschutz_map[k] for k in grundschutz_map
@@ -246,6 +244,41 @@ class Scraper:
             )
             return []
 
+    def check_if_file_matches_existing_repository_entry(self, document, filepath):
+        repository_hashsum = document.sha256
+        if filepath.exists():
+            self.logger.debug(
+                f"File {document.filename} already exists. Skipping download."
+            )
+            file_hashsum = hash_file(filepath)
+            if file_hashsum == repository_hashsum:
+                self.logger.info("Stored hash matches file hash for %s", filepath)
+            else:
+                self.logger.info(
+                    "Hash mismatch for %s: %s != %s",
+                    document.filename,
+                    file_hashsum,
+                    repository_hashsum,
+                )
+
+        else:
+            self.logger.info(f"Downloading {document.filename} from {document.url_pdf}")
+            temp_file, file_hashsum = download_file(document.url_pdf)
+            self.logger.info(f"Downloaded: {document.filename}")
+            if file_hashsum != repository_hashsum:
+                self.logger.info(
+                    "Hash mismatch for %s: %s != %s",
+                    document.filename,
+                    file_hashsum,
+                    repository_hashsum,
+                )
+                # Update the repository with the new hash
+                document.sha256 = file_hashsum
+                self.logger.info(f"Copying temp file from {temp_file.name} to {filepath}")
+                # Move the temporary file to the final location
+                move_temp_file_to_final_location(temp_file, filepath)
+
+
     def download_pdfs(self):
         """Download all PDF files"""
 
@@ -256,38 +289,8 @@ class Scraper:
                 for document in grundschutz_baustein.documents:
                     # Check if file already exists
                     filepath = PATH_GRUNDSCHUTZ / document.filename
-                    repository_hashsum = document.sha256
-                    if filepath.exists():
-                        self.logger.debug(
-                            f"File {document.filename} already exists. Skipping download."
-                        )
-                        file_hashsum = hash_file(filepath)
-                        if file_hashsum == repository_hashsum:
-                            self.logger.info("Stored hash matches file hash for %s", filepath)
-                        else:
-                            self.logger.info(
-                                "Hash mismatch for %s: %s != %s",
-                                document.filename,
-                                file_hashsum,
-                                repository_hashsum,
-                            )
+                    self.check_if_file_matches_existing_repository_entry(document, filepath)
 
-                    else:
-                        self.logger.info(f"Downloading {document.filename} from {document.url_pdf}")
-                        temp_file, file_hashsum = download_file(document.url_pdf)
-                        self.logger.info(f"Downloaded: {document.filename}")
-                        if file_hashsum != repository_hashsum:
-                            self.logger.info(
-                                "Hash mismatch for %s: %s != %s",
-                                document.filename,
-                                file_hashsum,
-                                repository_hashsum,
-                            )
-                            # Update the repository with the new hash
-                            document.sha256 = file_hashsum
-                            self.logger.info(f"Copying temp file from {temp_file.name} to {filepath}")
-                            # Move the temporary file to the final location
-                            move_temp_file_to_final_location(temp_file, filepath)
 
             # Save the updated repository to a file
             write_repository_to_file(grundschutz, FILE_GRUNDSCHUTZ)
@@ -298,38 +301,7 @@ class Scraper:
                 for document in tr.documents:
                     # Check if file already exists
                     filepath = PATH_TR / Path(document.filename)
-                    repository_hashsum = document.sha256
-                    if filepath.exists():
-                        self.logger.debug(
-                            f"File {document.filename} already exists. Skipping download."
-                        )
-                        file_hashsum = hash_file(filepath)
-                        if file_hashsum == repository_hashsum:
-                            self.logger.info("Stored hash matches file hash for %s", filepath)
-                        else:
-                            self.logger.info(
-                                "Hash mismatch for %s: %s != %s",
-                                document.filename,
-                                file_hashsum,
-                                repository_hashsum,
-                            )
-
-                    else:
-                        self.logger.info(f"Downloading {document.filename} from {document.url_pdf}")
-                        temp_file, file_hashsum = download_file(document.url_pdf)
-                        self.logger.info(f"Downloaded: {document.filename}")
-                        if file_hashsum != repository_hashsum:
-                            self.logger.info(
-                                "Hash mismatch for %s: %s != %s",
-                                document.filename,
-                                file_hashsum,
-                                repository_hashsum,
-                            )
-                            # Update the repository with the new hash
-                            document.sha256 = file_hashsum
-                            self.logger.info(f"Copying temp file from {temp_file.name} to {filepath}")
-                            # Move the temporary file to the final location
-                            move_temp_file_to_final_location(temp_file, filepath)
+                    self.check_if_file_matches_existing_repository_entry(document, filepath)
 
             # Save the updated repository to a file
             write_repository_to_file(tr_repository, FILE_TR_OVERVIEW)
