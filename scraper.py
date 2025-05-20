@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import argparse
-import shutil
 import requests
 from bs4 import BeautifulSoup
 import time
@@ -13,15 +12,14 @@ import coloredlogs
 import re
 import traceback
 
-from cache import download_file, hash_file, load_pdf_links_from_cache, load_repository_from_file, move_temp_file_to_final_location, write_repository_to_file
+from cache import download_file, hash_file, load_repository_from_file, move_temp_file_to_final_location, write_repository_to_file
 from models.tr import TR, Document, Grundschutz, Repository
 
 
 TR_OVERVIEW_PAGE = "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/technische-richtlinien_node.html"
 GRUNDSCHUTZ_OVERVIEW_PAGE = "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/IT-Grundschutz-Bausteine/Bausteine_Download_Edition_node.html"
 USER_AGENT_HEADER = {"User-Agent": "curl/7.54.1"}
-FILE_TR_OVERVIEW = "data/tr-overview.json"
-FILE_GRUNDSCHUTZ = "data/grundschutz.json"
+FILE_REPOSITORY = "data/repository.json"
 PATH_GRUNDSCHUTZ = Path("pdf/grundschutz")
 PATH_TR = Path("pdf/tr")
 SOUP_PARSER = "html.parser"
@@ -139,12 +137,12 @@ class Scraper:
         repository = Repository()
         try:
             # Check if cached file exists
-            repo_file = Path(FILE_TR_OVERVIEW)
+            repo_file = Path(FILE_REPOSITORY)
 
             if repo_file.exists():
                 self.logger.info("Reading cached TR links from file")
                 repository = load_repository_from_file(repo_file)
-                self.logger.debug(f"TR Repo loaded {repository}")
+                self.logger.debug(f"TR Repo loaded trs: {len(repository.trs)}")
             else:
                 self.logger.info(f"Fetching TR list from {url}")
 
@@ -190,15 +188,13 @@ class Scraper:
     def fetch_grundschutz_pdf_links(self, url):
         """Extract all Grundschutz PDF file links from the overview page."""
 
-        repo_file = Path(FILE_GRUNDSCHUTZ)
+        repo_file = Path(FILE_REPOSITORY)
         repository = None
         try:
             if repo_file.exists():
                 self.logger.info("Reading cached Grundschutz links from file")
                 repository = load_repository_from_file(repo_file)
-                self.logger.debug(
-                    f"Grundschutz Repo loaded {repository.model_dump_json(indent=2)}"
-                )
+                self.logger.debug(f"Grundschutz Repo loaded bausteine: {len(repository.grundschutz_bausteine)}")
             else:
                 self.logger.debug(f"Fetching Grundschutz list from {url}")
                 response = requests.get(url)
@@ -236,7 +232,7 @@ class Scraper:
                     grundschutz_map[k] for k in grundschutz_map
                 ]
                 # Save the GS links to a file
-                write_repository_to_file(repository, FILE_GRUNDSCHUTZ)
+                write_repository_to_file(repository, FILE_REPOSITORY)
 
         except Exception as e:
             self.logger.error(
@@ -283,7 +279,7 @@ class Scraper:
         """Download all PDF files"""
 
         try:
-            grundschutz = load_repository_from_file(FILE_GRUNDSCHUTZ)
+            grundschutz = load_repository_from_file(FILE_REPOSITORY)
             # Download all Grundschutz PDFs
             for grundschutz_baustein in grundschutz.grundschutz_bausteine:
                 for document in grundschutz_baustein.documents:
@@ -293,9 +289,9 @@ class Scraper:
 
 
             # Save the updated repository to a file
-            write_repository_to_file(grundschutz, FILE_GRUNDSCHUTZ)
+            write_repository_to_file(grundschutz, FILE_REPOSITORY)
 
-            tr_repository = load_repository_from_file(FILE_TR_OVERVIEW)
+            tr_repository = load_repository_from_file(FILE_REPOSITORY)
             # Download all TR PDFs
             for tr in tr_repository.trs:
                 for document in tr.documents:
@@ -304,7 +300,7 @@ class Scraper:
                     self.check_if_file_matches_existing_repository_entry(document, filepath)
 
             # Save the updated repository to a file
-            write_repository_to_file(tr_repository, FILE_TR_OVERVIEW)
+            write_repository_to_file(tr_repository, FILE_REPOSITORY)
 
         except Exception as e:
             self.logger.error(
