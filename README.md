@@ -43,7 +43,7 @@ options:
 * `download_pdfs.py` will download them into the `/pdf` folder.
 * `convert.sh` was used to loop over all PDFs and convert them using Marker and Ollama.
 
-## List of all IT-Grundschutz documents contained as of `10.04.2025`
+## List of all IT-Grundschutz documents contained as of `10 April 2025`
 * APP.1.1 Office-Produkte.pdf.clean.pdf
 * APP.1.2 Webbrowser.pdf.clean.pdf
 * APP.1.4 Mobile Anwendungen (Apps).pdf.clean.pdf
@@ -157,7 +157,7 @@ options:
 * SYS.4.4 Allgemeines IoT-Gerät.pdf.clean.pdf
 * SYS.4.5 Wechseldatenträger.pdf.clean.pdf
 
-## List of all TRs contained as of `09.04.2025`
+## List of all TRs contained as of `09 April 2025`
 * BSI TR-01201 De-Mail
 * BSI TR-02102 Kryptographische Verfahren: Empfehlungen und Schlüssellängen
 * BSI TR-02103 X.509-Zertifikate und Zertifizierungspfadvalidierung
