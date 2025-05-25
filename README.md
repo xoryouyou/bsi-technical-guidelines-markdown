@@ -30,13 +30,14 @@ options:
 
 ```
 
-0. use `uv sync` - setup dependencies
-1. use `uv run scraper.py --fetch-tr-pdf-links` to populate `data/tr-pdf-links.txt`
-2. use `uv run scraper.py --fetch-grundschutz-pdf-links` to populate `data/grundschutz-pdf-links.txt`
-3. use `uv run scraper.py --download-pdfs` to download all pdfs (note: this should do nothing since they are all present in the repo already)
-4. start an ollama server of your choice
-5. run `./convert.sh`
-6. use `uv run generate_table.py` to generate a Markdown overview at `/markdown/README.md`
+### Usage
+0. Run `uv sync` - setup dependencies
+1. Run `uv run scraper.py --fetch-tr-pdf-links` to populate `data/tr-pdf-links.txt`
+2. Run `uv run scraper.py --fetch-grundschutz-pdf-links` to populate `data/grundschutz-pdf-links.txt`
+3. `uv run scraper.py --download-pdfs` to download all PDFs; note, this most likely does nothing because they usually are already there.
+6. Start an Ollama server of your choice.
+7. Run `./convert.sh`
+8. Run `uv run generate_table.py` to generate a table in Markdown: `/markdown/README.md`
 
 #### Details
 * `scrape_pdf_links.py` was used to loop over all TR pages from `data/tr-list.txt` and extract links for the PDFs on them and store them in `data/pdf_links.txt`.
