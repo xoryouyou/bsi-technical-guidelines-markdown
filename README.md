@@ -40,7 +40,7 @@ options:
 8. Run `uv run generate_table.py` to generate a table in Markdown: `/markdown/README.md`
 
 #### Details
-* `scrape_pdf_links.py` was used to loop over all TR pages from `data/tr-list.txt` and extract links for the PDFs on them and store them in `data/pdf_links.txt`.
+* `scrape_pdf_links.py` was used to loop over all TR pages from `data/tr-list.txt` to extract links for the PDFs and then stores these links in `data/pdf_links.txt`.
 * `download_pdfs.py` did download them into the `/pdf` folder.
 * `convert.sh` was used to loop over all PDFs and convert them using Marker and Ollama.
 
