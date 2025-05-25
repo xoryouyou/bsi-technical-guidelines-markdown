@@ -1,7 +1,7 @@
 # BSI Technical Guidelines Markdown
 
 > [!NOTE]  
-> All copyrights remain unchanged for each document as their content is unaltered, including copyright notices; this repository merely provides a format conversion from PDF to Markdown.
+> All copyrights remain unchanged for each document as their content is unaltered, including copyright notices; this repository merely provides their format conversion from PDF to Markdown.
 
 This repository contains all BSI technical guidelines (TRs) which are published [here](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/technische-richtlinien_node.html).
 
