@@ -41,7 +41,7 @@ options:
 
 #### Details
 * `scrape_pdf_links.py` was used to loop over all TR pages from `data/tr-list.txt` and extract links for the PDFs on them and store them in `data/pdf_links.txt`.
-* `download_pdfs.py` will download them into the `/pdf` folder.
+* `download_pdfs.py` did download them into the `/pdf` folder.
 * `convert.sh` was used to loop over all PDFs and convert them using Marker and Ollama.
 
 ## List of all IT-Grundschutz documents provided as of `10 April 2025`
