@@ -17,14 +17,14 @@ from models.tr import TR, Document, Grundschutz, Repository
 
 
 TR_OVERVIEW_PAGE = "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/technische-richtlinien_node.html"
-GRUNDSCHUTZ_OVERVIEW_PAGE = "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/IT-Grundschutz-Bausteine/Bausteine_Download_Edition_node.html"
+GS_OVERVIEW_PAGE = "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/IT-Grundschutz-Bausteine/Bausteine_Download_Edition_node.html"
 USER_AGENT_HEADER = {"User-Agent": "curl/7.54.1"}
 FILE_REPOSITORY = "data/repository.json"
-PATH_GRUNDSCHUTZ = Path("pdf/grundschutz")
-PATH_TR = Path("pdf/tr")
+GS_PATH = Path("pdf/grundschutz")
+TR_PATH = Path("pdf/tr")
 SOUP_PARSER = "html.parser"
 
-ABBREVIATION_TITLE_MAPPING = {
+GS_ABBREVIATION_TITLE_MAPPING = {
     "ISMS": "Sicherheitsmanagement",
     "ORP": "Organisation und Personal",
     "CON": "Konzeption und Vorgehensweise",
@@ -204,8 +204,8 @@ class Scraper:
 
                 # pre populate Grundschutz entries
                 grundschutz_map = {}
-                for entry in ABBREVIATION_TITLE_MAPPING.keys():
-                    g = Grundschutz(id=entry, title=ABBREVIATION_TITLE_MAPPING[entry])
+                for entry in GS_ABBREVIATION_TITLE_MAPPING.keys():
+                    g = Grundschutz(id=entry, title=GS_ABBREVIATION_TITLE_MAPPING[entry])
                     grundschutz_map[entry] = g
 
                 # Find all links in this section
@@ -223,7 +223,7 @@ class Scraper:
                         filename = Path(href).name.split("?")[0]
 
                         grundschutz_id = self.extract_grundschutz_id_from_name(filename)
-                        title = ABBREVIATION_TITLE_MAPPING.get(grundschutz_id, "Unknown")
+                        title = GS_ABBREVIATION_TITLE_MAPPING.get(grundschutz_id, "Unknown")
 
                         d = Document(filename=filename, title=title, url_pdf=full_url)
                         grundschutz_map[grundschutz_id].documents.append(d)
@@ -284,7 +284,7 @@ class Scraper:
             for grundschutz_baustein in grundschutz.grundschutz_bausteine:
                 for document in grundschutz_baustein.documents:
                     # Check if file already exists
-                    filepath = PATH_GRUNDSCHUTZ / document.filename
+                    filepath = GS_PATH / document.filename
                     self.check_if_file_matches_existing_repository_entry(document, filepath)
 
 
@@ -296,7 +296,7 @@ class Scraper:
             for tr in tr_repository.trs:
                 for document in tr.documents:
                     # Check if file already exists
-                    filepath = PATH_TR / Path(document.filename)
+                    filepath = TR_PATH / Path(document.filename)
                     self.check_if_file_matches_existing_repository_entry(document, filepath)
 
             # Save the updated repository to a file
@@ -313,7 +313,7 @@ class Scraper:
         if args.fetch_tr_pdf_links:
             self.fetch_tr_pdf_links(TR_OVERVIEW_PAGE)
         if args.fetch_grundschutz_pdf_links:
-            self.fetch_grundschutz_pdf_links(GRUNDSCHUTZ_OVERVIEW_PAGE)
+            self.fetch_grundschutz_pdf_links(GS_OVERVIEW_PAGE)
         if args.download_pdfs:
             self.download_pdfs()
         if args.hash_pdfs:
