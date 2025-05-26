@@ -332,115 +332,115 @@
 | [ts_119511v010101p](<tr/ts_119511v010101p>) | |
 | [ts_119512v010101p](<tr/ts_119512v010101p>) | |
 | [ts_119512v010102p](<tr/ts_119512v010102p>) | |
-| [APP.1.1 Office-Produkte.pdf.clean](<grundschutz/APP.1.1 Office-Produkte.pdf.clean>) | |
-| [APP.1.2 Webbrowser.pdf.clean](<grundschutz/APP.1.2 Webbrowser.pdf.clean>) | |
-| [APP.1.4 Mobile Anwendungen (Apps).pdf.clean](<grundschutz/APP.1.4 Mobile Anwendungen (Apps).pdf.clean>) | |
-| [APP.2.1 Allgemeiner Verzeichnisdienst.pdf.clean](<grundschutz/APP.2.1 Allgemeiner Verzeichnisdienst.pdf.clean>) | |
-| [APP.2.2 Active Directory Domain Services.pdf.clean](<grundschutz/APP.2.2 Active Directory Domain Services.pdf.clean>) | |
-| [APP.2.3 OpenLDAP.pdf.clean](<grundschutz/APP.2.3 OpenLDAP.pdf.clean>) | |
-| [APP.3.1 Webanwendungen und Webservices.pdf.clean](<grundschutz/APP.3.1 Webanwendungen und Webservices.pdf.clean>) | |
-| [APP.3.2 Webserver.pdf.clean](<grundschutz/APP.3.2 Webserver.pdf.clean>) | |
-| [APP.3.3 Fileserver.pdf.clean](<grundschutz/APP.3.3 Fileserver.pdf.clean>) | |
-| [APP.3.4 Samba.pdf.clean](<grundschutz/APP.3.4 Samba.pdf.clean>) | |
-| [APP.3.6 DNS-Server.pdf.clean](<grundschutz/APP.3.6 DNS-Server.pdf.clean>) | |
-| [APP.4.2 SAP-ERP-System.pdf.clean](<grundschutz/APP.4.2 SAP-ERP-System.pdf.clean>) | |
-| [APP.4.3 Relationale Datenbanken.pdf.clean](<grundschutz/APP.4.3 Relationale Datenbanken.pdf.clean>) | |
-| [APP.4.4 Kubernetes.pdf.clean](<grundschutz/APP.4.4 Kubernetes.pdf.clean>) | |
-| [APP.4.6 SAP ABAP-Programmierung.pdf.clean](<grundschutz/APP.4.6 SAP ABAP-Programmierung.pdf.clean>) | |
-| [APP.5.2 Microsoft Exchange und Outlook.pdf.clean](<grundschutz/APP.5.2 Microsoft Exchange und Outlook.pdf.clean>) | |
-| [APP.5.3 Allgemeiner E-Mail-Client und -Server.pdf.clean](<grundschutz/APP.5.3 Allgemeiner E-Mail-Client und -Server.pdf.clean>) | |
-| [APP.5.4 Unified Communications und Collaboration (UCC).pdf.clean](<grundschutz/APP.5.4 Unified Communications und Collaboration (UCC).pdf.clean>) | |
-| [APP.6 Allgemeine Software.pdf.clean](<grundschutz/APP.6 Allgemeine Software.pdf.clean>) | |
-| [APP.7 Entwicklung von Individualsoftware.pdf.clean](<grundschutz/APP.7 Entwicklung von Individualsoftware.pdf.clean>) | |
-| [CCON.1 Kryptokonzept.pdf.clean](<grundschutz/CCON.1 Kryptokonzept.pdf.clean>) | |
-| [CCON.10 Entwicklung von Webanwendungen.pdf.clean](<grundschutz/CCON.10 Entwicklung von Webanwendungen.pdf.clean>) | |
-| [CCON.11.1 Geheimschutz VS-NUR FÜR DEN DIENSTGEBRAUCH (VS-NfD).pdf.clean](<grundschutz/CCON.11.1 Geheimschutz VS-NUR FÜR DEN DIENSTGEBRAUCH (VS-NfD).pdf.clean>) | |
-| [CCON.2 Datenschutz.pdf.clean](<grundschutz/CCON.2 Datenschutz.pdf.clean>) | |
-| [CCON.3 Datensicherungskonzept.pdf.clean](<grundschutz/CCON.3 Datensicherungskonzept.pdf.clean>) | |
-| [CCON.6 Löschen und Vernichten.pdf.clean](<grundschutz/CCON.6 Löschen und Vernichten.pdf.clean>) | |
-| [CCON.7 Informationssicherheit auf Auslandsreisen.pdf.clean](<grundschutz/CCON.7 Informationssicherheit auf Auslandsreisen.pdf.clean>) | |
-| [CCON.8 Software-Entwicklung.pdf.clean](<grundschutz/CCON.8 Software-Entwicklung.pdf.clean>) | |
-| [CCON.9 Informationsaustausch.pdf.clean](<grundschutz/CCON.9 Informationsaustausch.pdf.clean>) | |
-| [DER.1 Detektion von sicherheitsrelevanten Ereignissen.pdf.clean](<grundschutz/DER.1 Detektion von sicherheitsrelevanten Ereignissen.pdf.clean>) | |
-| [DER.2.1 Behandlung von Sicherheitsvorfällen.pdf.clean](<grundschutz/DER.2.1 Behandlung von Sicherheitsvorfällen.pdf.clean>) | |
-| [DER.2.2 Vorsorge für die IT-Forensik.pdf.clean](<grundschutz/DER.2.2 Vorsorge für die IT-Forensik.pdf.clean>) | |
-| [DER.2.3 Bereinigung weitreichender Sicherheitsvorfälle.pdf.clean](<grundschutz/DER.2.3 Bereinigung weitreichender Sicherheitsvorfälle.pdf.clean>) | |
-| [DER.3.1 Audits und Revisionen.pdf.clean](<grundschutz/DER.3.1 Audits und Revisionen.pdf.clean>) | |
-| [DER.3.2 Revisionen auf Basis des Leitfadens IS-Revision.pdf.clean](<grundschutz/DER.3.2 Revisionen auf Basis des Leitfadens IS-Revision.pdf.clean>) | |
-| [DER.4 Notfallmanagement.pdf.clean](<grundschutz/DER.4 Notfallmanagement.pdf.clean>) | |
-| [IND.1 Prozessleit- und Automatisierungstechnik.pdf.clean](<grundschutz/IND.1 Prozessleit- und Automatisierungstechnik.pdf.clean>) | |
-| [IND.2.1 Allgemeine ICS-Komponente.pdf.clean](<grundschutz/IND.2.1 Allgemeine ICS-Komponente.pdf.clean>) | |
-| [IND.2.2 Speicherprogrammierbare Steuerung (SPS).pdf.clean](<grundschutz/IND.2.2 Speicherprogrammierbare Steuerung (SPS).pdf.clean>) | |
-| [IND.2.3 Sensoren und Aktoren.pdf.clean](<grundschutz/IND.2.3 Sensoren und Aktoren.pdf.clean>) | |
-| [IND.2.4 Maschine.pdf.clean](<grundschutz/IND.2.4 Maschine.pdf.clean>) | |
-| [IND.2.7 Safety Instrumented Systems.pdf.clean](<grundschutz/IND.2.7 Safety Instrumented Systems.pdf.clean>) | |
-| [IND.3.2 Fernwartung im industriellen Umfeld.pdf.clean](<grundschutz/IND.3.2 Fernwartung im industriellen Umfeld.pdf.clean>) | |
-| [INF.1 Allgemeines Gebäude.pdf.clean](<grundschutz/INF.1 Allgemeines Gebäude.pdf.clean>) | |
-| [INF.10 Besprechungs-, Veranstaltungs- und Schulungsräume.pdf.clean](<grundschutz/INF.10 Besprechungs-, Veranstaltungs- und Schulungsräume.pdf.clean>) | |
-| [INF.11 Allgemeines Fahrzeug.pdf.clean](<grundschutz/INF.11 Allgemeines Fahrzeug.pdf.clean>) | |
-| [INF.12 Verkabelung.pdf.clean](<grundschutz/INF.12 Verkabelung.pdf.clean>) | |
-| [INF.13 Technisches Gebäudemanagement.pdf.clean](<grundschutz/INF.13 Technisches Gebäudemanagement.pdf.clean>) | |
-| [INF.14 Gebäudeautomation.pdf.clean](<grundschutz/INF.14 Gebäudeautomation.pdf.clean>) | |
-| [INF.2 Rechenzentrum sowie Serverraum.pdf.clean](<grundschutz/INF.2 Rechenzentrum sowie Serverraum.pdf.clean>) | |
-| [INF.5 Raum sowie Schrank für technische Infrastruktur.pdf.clean](<grundschutz/INF.5 Raum sowie Schrank für technische Infrastruktur.pdf.clean>) | |
-| [INF.6 Datenträgerarchiv.pdf.clean](<grundschutz/INF.6 Datenträgerarchiv.pdf.clean>) | |
-| [INF.7 Büroarbeitsplatz.pdf.clean](<grundschutz/INF.7 Büroarbeitsplatz.pdf.clean>) | |
-| [INF.8 Häuslicher Arbeitsplatz.pdf.clean](<grundschutz/INF.8 Häuslicher Arbeitsplatz.pdf.clean>) | |
-| [INF.9 Mobiler Arbeitsplatz.pdf.clean](<grundschutz/INF.9 Mobiler Arbeitsplatz.pdf.clean>) | |
-| [ISMS.1 Sicherheitsmanagement.pdf.clean](<grundschutz/ISMS.1 Sicherheitsmanagement.pdf.clean>) | |
+| [APP_1_1_Office_Produkte_Edition_2023](<grundschutz/APP_1_1_Office_Produkte_Edition_2023>) | |
+| [APP_1_2_Webbrowser_Edition_2023](<grundschutz/APP_1_2_Webbrowser_Edition_2023>) | |
+| [APP_1_4_Mobile_Anwendungen_Edition_2023](<grundschutz/APP_1_4_Mobile_Anwendungen_Edition_2023>) | |
+| [APP_2_1_Allgemeiner_Verzeichnisdienst_Edition_2023](<grundschutz/APP_2_1_Allgemeiner_Verzeichnisdienst_Edition_2023>) | |
+| [APP_2_2_Active_Directory_Domain_Services_Edition_2023](<grundschutz/APP_2_2_Active_Directory_Domain_Services_Edition_2023>) | |
+| [APP_2_3_OpenLDAP_Edition_2023](<grundschutz/APP_2_3_OpenLDAP_Edition_2023>) | |
+| [APP_3_1_Webanwendungen_und_Webservices_Edition_2023](<grundschutz/APP_3_1_Webanwendungen_und_Webservices_Edition_2023>) | |
+| [APP_3_2_Webserver_Edition_2023](<grundschutz/APP_3_2_Webserver_Edition_2023>) | |
+| [APP_3_3_Fileserver_Edition_2023](<grundschutz/APP_3_3_Fileserver_Edition_2023>) | |
+| [APP_3_4_Samba_Edition_2023](<grundschutz/APP_3_4_Samba_Edition_2023>) | |
+| [APP_3_6_DNS_Server_Edition_2023](<grundschutz/APP_3_6_DNS_Server_Edition_2023>) | |
+| [APP_4_2_SAP_ERP_System_Edition_2023](<grundschutz/APP_4_2_SAP_ERP_System_Edition_2023>) | |
+| [APP_4_3_Relationale_Datenbanksysteme_Edition_2023](<grundschutz/APP_4_3_Relationale_Datenbanksysteme_Edition_2023>) | |
+| [APP_4_4_Kubernetes_Edition_2023](<grundschutz/APP_4_4_Kubernetes_Edition_2023>) | |
+| [APP_4_6_SAP_ABAP_Programmierung_Edition_2023](<grundschutz/APP_4_6_SAP_ABAP_Programmierung_Edition_2023>) | |
+| [APP_5_2_Microsoft_Exchange_und_Outlook_Edition_2023](<grundschutz/APP_5_2_Microsoft_Exchange_und_Outlook_Edition_2023>) | |
+| [APP_5_3_Allgemeiner_E-Mail_Client_und_Server_Edition_2023](<grundschutz/APP_5_3_Allgemeiner_E-Mail_Client_und_Server_Edition_2023>) | |
+| [APP_5_4_Unified_Communications_und_Collaboration_Edition_2023](<grundschutz/APP_5_4_Unified_Communications_und_Collaboration_Edition_2023>) | |
+| [APP_6_Allgemeine_Software_Edition_2023](<grundschutz/APP_6_Allgemeine_Software_Edition_2023>) | |
+| [APP_7_Entwicklung_von_Individualsoftware_Edition_2023](<grundschutz/APP_7_Entwicklung_von_Individualsoftware_Edition_2023>) | |
+| [CON_10_Entwicklung_von_Webanwendungen_Edition_2023](<grundschutz/CON_10_Entwicklung_von_Webanwendungen_Edition_2023>) | |
+| [CON_11_1_Geheimschutz_Edition_2023](<grundschutz/CON_11_1_Geheimschutz_Edition_2023>) | |
+| [CON_1_Kryptokonzept_Edition_2023](<grundschutz/CON_1_Kryptokonzept_Edition_2023>) | |
+| [CON_2_Datenschutz_Edition_2023](<grundschutz/CON_2_Datenschutz_Edition_2023>) | |
+| [CON_3_Datensicherungskonzept_Edition_2023](<grundschutz/CON_3_Datensicherungskonzept_Edition_2023>) | |
+| [CON_6_Loeschen_und_Vernichten_Edition_2023](<grundschutz/CON_6_Loeschen_und_Vernichten_Edition_2023>) | |
+| [CON_7_Informationssicherheit_auf_Auslandsreisen_Edition_2023](<grundschutz/CON_7_Informationssicherheit_auf_Auslandsreisen_Edition_2023>) | |
+| [CON_8_Software_Entwicklung_Edition_2023](<grundschutz/CON_8_Software_Entwicklung_Edition_2023>) | |
+| [CON_9_Informationsaustausch_Edition_2023](<grundschutz/CON_9_Informationsaustausch_Edition_2023>) | |
+| [DER_1_Detektion_von_sicherheitsrelevanten_Ereignissen_Edition_2023](<grundschutz/DER_1_Detektion_von_sicherheitsrelevanten_Ereignissen_Edition_2023>) | |
+| [DER_2_1_Behandlung_von_Sicherheitsvorfaellen_Edition_2023](<grundschutz/DER_2_1_Behandlung_von_Sicherheitsvorfaellen_Edition_2023>) | |
+| [DER_2_2_Vorsorge_fuer_die_IT_Forensik_2023](<grundschutz/DER_2_2_Vorsorge_fuer_die_IT_Forensik_2023>) | |
+| [DER_2_3_Bereinigung_weitreichender_Sicherheitsvorfaelle_Edition_2023](<grundschutz/DER_2_3_Bereinigung_weitreichender_Sicherheitsvorfaelle_Edition_2023>) | |
+| [DER_3_1_Audits_und_Revisionen_Edition_2023](<grundschutz/DER_3_1_Audits_und_Revisionen_Edition_2023>) | |
+| [DER_3_2_Revisionen_auf_Basis_des_Leitfadens_IS_Revision_Edition_2023](<grundschutz/DER_3_2_Revisionen_auf_Basis_des_Leitfadens_IS_Revision_Edition_2023>) | |
+| [DER_4_Notfallmanagement_Edition_2023](<grundschutz/DER_4_Notfallmanagement_Edition_2023>) | |
+| [IND_1_Prozessleit_und_Automatisierungstechnik_Edition_2023](<grundschutz/IND_1_Prozessleit_und_Automatisierungstechnik_Edition_2023>) | |
+| [IND_2_1_Allgemeine_ICS_Komponente_Edition_2023](<grundschutz/IND_2_1_Allgemeine_ICS_Komponente_Edition_2023>) | |
+| [IND_2_2_Speicherprogrammierbare_Steuerung_Edition_2023](<grundschutz/IND_2_2_Speicherprogrammierbare_Steuerung_Edition_2023>) | |
+| [IND_2_3_Sensoren_und_Aktoren_Edition_2023](<grundschutz/IND_2_3_Sensoren_und_Aktoren_Edition_2023>) | |
+| [IND_2_4_Maschine_Edition_2023](<grundschutz/IND_2_4_Maschine_Edition_2023>) | |
+| [IND_2_7_Safety_Instrumented_Systems_Edition_2023](<grundschutz/IND_2_7_Safety_Instrumented_Systems_Edition_2023>) | |
+| [IND_3_2_Fernwartung_im_industriellen_Umfeld_Edition_2023](<grundschutz/IND_3_2_Fernwartung_im_industriellen_Umfeld_Edition_2023>) | |
+| [INF_10_Besprechungs_Veranstaltungs_und_Schulungsraeume_Edition_2023](<grundschutz/INF_10_Besprechungs_Veranstaltungs_und_Schulungsraeume_Edition_2023>) | |
+| [INF_11_Allgemeines_Fahrzeug_2023](<grundschutz/INF_11_Allgemeines_Fahrzeug_2023>) | |
+| [INF_12_Verkabelung_2023](<grundschutz/INF_12_Verkabelung_2023>) | |
+| [INF_13_Technisches_Gebaeudemanagement_Edition_2023](<grundschutz/INF_13_Technisches_Gebaeudemanagement_Edition_2023>) | |
+| [INF_14_Gebaeudeautomation_Edition_2023](<grundschutz/INF_14_Gebaeudeautomation_Edition_2023>) | |
+| [INF_1_Allgemeines_Gebaeude_Edition_2023](<grundschutz/INF_1_Allgemeines_Gebaeude_Edition_2023>) | |
+| [INF_2_Rechenzentrum_sowie_Serverraum_Edition_2023](<grundschutz/INF_2_Rechenzentrum_sowie_Serverraum_Edition_2023>) | |
+| [INF_5_Raum_sowie_Schrank_fuer_technische_Infrastruktur_Edition_2023](<grundschutz/INF_5_Raum_sowie_Schrank_fuer_technische_Infrastruktur_Edition_2023>) | |
+| [INF_6_Datentraegerarchiv_Edition_2023](<grundschutz/INF_6_Datentraegerarchiv_Edition_2023>) | |
+| [INF_7_Bueroarbeitsplatz_Edition_2023](<grundschutz/INF_7_Bueroarbeitsplatz_Edition_2023>) | |
+| [INF_8_Haeuslicher_Arbeitsplatz_Edition_2023](<grundschutz/INF_8_Haeuslicher_Arbeitsplatz_Edition_2023>) | |
+| [INF_9_IT_Mobiler_Arbeitsplatz_Edition_2023](<grundschutz/INF_9_IT_Mobiler_Arbeitsplatz_Edition_2023>) | |
+| [ISMS_1_Sicherheitsmanagement_Edition_2023](<grundschutz/ISMS_1_Sicherheitsmanagement_Edition_2023>) | |
 | [IT_Grundschutz_Kompendium_Edition2023](<grundschutz/IT_Grundschutz_Kompendium_Edition2023>) | |
-| [NET.1.1 Netzarchitektur und -design.pdf.clean](<grundschutz/NET.1.1 Netzarchitektur und -design.pdf.clean>) | |
-| [NET.1.2 Netzmanagement.pdf.clean](<grundschutz/NET.1.2 Netzmanagement.pdf.clean>) | |
-| [NET.2.1 WLAN-Betrieb.pdf.clean](<grundschutz/NET.2.1 WLAN-Betrieb.pdf.clean>) | |
-| [NET.2.2 WLAN-Nutzung.pdf.clean](<grundschutz/NET.2.2 WLAN-Nutzung.pdf.clean>) | |
-| [NET.3.1 Router und Switches.pdf.clean](<grundschutz/NET.3.1 Router und Switches.pdf.clean>) | |
-| [NET.3.2 Firewall.pdf.clean](<grundschutz/NET.3.2 Firewall.pdf.clean>) | |
-| [NET.3.3 VPN.pdf.clean](<grundschutz/NET.3.3 VPN.pdf.clean>) | |
-| [NET.3.4 Network Access Control.pdf.clean](<grundschutz/NET.3.4 Network Access Control.pdf.clean>) | |
-| [NET.4.1 TK-Anlagen.pdf.clean](<grundschutz/NET.4.1 TK-Anlagen.pdf.clean>) | |
-| [NET.4.2 VoIP.pdf.clean](<grundschutz/NET.4.2 VoIP.pdf.clean>) | |
-| [NET.4.3 Faxgeräte und Faxserver.pdf.clean](<grundschutz/NET.4.3 Faxgeräte und Faxserver.pdf.clean>) | |
-| [OPS.1.1.1 Allgemeiner IT-Betrieb.pdf.clean](<grundschutz/OPS.1.1.1 Allgemeiner IT-Betrieb.pdf.clean>) | |
-| [OPS.1.1.2 Ordnungsgemäße IT-Administration.pdf.clean](<grundschutz/OPS.1.1.2 Ordnungsgemäße IT-Administration.pdf.clean>) | |
-| [OPS.1.1.3 Patch- und Änderungsmanagement.pdf.clean](<grundschutz/OPS.1.1.3 Patch- und Änderungsmanagement.pdf.clean>) | |
-| [OPS.1.1.4 Schutz vor Schadprogrammen.pdf.clean](<grundschutz/OPS.1.1.4 Schutz vor Schadprogrammen.pdf.clean>) | |
-| [OPS.1.1.5 Protokollierung.pdf.clean](<grundschutz/OPS.1.1.5 Protokollierung.pdf.clean>) | |
-| [OPS.1.1.6 Software-Tests und -Freigaben.pdf.clean](<grundschutz/OPS.1.1.6 Software-Tests und -Freigaben.pdf.clean>) | |
-| [OPS.1.1.7 Systemmanagement.pdf.clean](<grundschutz/OPS.1.1.7 Systemmanagement.pdf.clean>) | |
-| [OPS.1.2.2 Archivierung.pdf.clean](<grundschutz/OPS.1.2.2 Archivierung.pdf.clean>) | |
-| [OPS.1.2.4 Telearbeit.pdf.clean](<grundschutz/OPS.1.2.4 Telearbeit.pdf.clean>) | |
-| [OPS.1.2.5 Fernwartung.pdf.clean](<grundschutz/OPS.1.2.5 Fernwartung.pdf.clean>) | |
-| [OPS.1.2.6 NTP-Zeitsynchronisation.pdf.clean](<grundschutz/OPS.1.2.6 NTP-Zeitsynchronisation.pdf.clean>) | |
-| [OPS.2.2 Cloud-Nutzung.pdf.clean](<grundschutz/OPS.2.2 Cloud-Nutzung.pdf.clean>) | |
-| [OPS.2.3 Nutzung von Outsourcing.pdf.clean](<grundschutz/OPS.2.3 Nutzung von Outsourcing.pdf.clean>) | |
-| [OPS.3.2 Anbieten von Outsourcing.pdf.clean](<grundschutz/OPS.3.2 Anbieten von Outsourcing.pdf.clean>) | |
-| [ORP.1 Organisation.pdf.clean](<grundschutz/ORP.1 Organisation.pdf.clean>) | |
-| [ORP.2 Personal.pdf.clean](<grundschutz/ORP.2 Personal.pdf.clean>) | |
-| [ORP.3 Sensibilisierung und Schulung zur Informationssicherheit.pdf.clean](<grundschutz/ORP.3 Sensibilisierung und Schulung zur Informationssicherheit.pdf.clean>) | |
-| [ORP.4 Identitäts- und Berechtigungsmanagement.pdf.clean](<grundschutz/ORP.4 Identitäts- und Berechtigungsmanagement.pdf.clean>) | |
-| [ORP.5 Compliance Management (Anforderungsmanagement).pdf.clean](<grundschutz/ORP.5 Compliance Management (Anforderungsmanagement).pdf.clean>) | |
-| [SYS.1.1 Allgemeiner Server.pdf.clean](<grundschutz/SYS.1.1 Allgemeiner Server.pdf.clean>) | |
-| [SYS.1.2.2 Windows Server 2012.pdf.clean](<grundschutz/SYS.1.2.2 Windows Server 2012.pdf.clean>) | |
-| [SYS.1.2.3 Windows Server.pdf.clean](<grundschutz/SYS.1.2.3 Windows Server.pdf.clean>) | |
-| [SYS.1.3 Server unter Linux und Unix.pdf.clean](<grundschutz/SYS.1.3 Server unter Linux und Unix.pdf.clean>) | |
-| [SYS.1.5 Virtualisierung.pdf.clean](<grundschutz/SYS.1.5 Virtualisierung.pdf.clean>) | |
-| [SYS.1.6 Containerisierung.pdf.clean](<grundschutz/SYS.1.6 Containerisierung.pdf.clean>) | |
-| [SYS.1.7 IBM Z.pdf.clean](<grundschutz/SYS.1.7 IBM Z.pdf.clean>) | |
-| [SYS.1.8 Speicherlösungen.pdf.clean](<grundschutz/SYS.1.8 Speicherlösungen.pdf.clean>) | |
-| [SYS.1.9 Terminalserver.pdf.clean](<grundschutz/SYS.1.9 Terminalserver.pdf.clean>) | |
-| [SYS.2.1 Allgemeiner Client.pdf.clean](<grundschutz/SYS.2.1 Allgemeiner Client.pdf.clean>) | |
-| [SYS.2.2.3 Clients unter Windows.pdf.clean](<grundschutz/SYS.2.2.3 Clients unter Windows.pdf.clean>) | |
-| [SYS.2.3 Clients unter Linux und Unix.pdf.clean](<grundschutz/SYS.2.3 Clients unter Linux und Unix.pdf.clean>) | |
-| [SYS.2.4 Clients unter macOS.pdf.clean](<grundschutz/SYS.2.4 Clients unter macOS.pdf.clean>) | |
-| [SYS.2.5 Client-Virtualisierung.pdf.clean](<grundschutz/SYS.2.5 Client-Virtualisierung.pdf.clean>) | |
-| [SYS.2.6 Virtual Desktop Infrastructure.pdf.clean](<grundschutz/SYS.2.6 Virtual Desktop Infrastructure.pdf.clean>) | |
-| [SYS.3.1 Laptops.pdf.clean](<grundschutz/SYS.3.1 Laptops.pdf.clean>) | |
-| [SYS.3.2.1 Allgemeine Smartphones und Tablets.pdf.clean](<grundschutz/SYS.3.2.1 Allgemeine Smartphones und Tablets.pdf.clean>) | |
-| [SYS.3.2.2 Mobile Device Management (MDM).pdf.clean](<grundschutz/SYS.3.2.2 Mobile Device Management (MDM).pdf.clean>) | |
-| [SYS.3.2.3 iOS (for Enterprise).pdf.clean](<grundschutz/SYS.3.2.3 iOS (for Enterprise).pdf.clean>) | |
-| [SYS.3.2.4 Android.pdf.clean](<grundschutz/SYS.3.2.4 Android.pdf.clean>) | |
-| [SYS.3.3 Mobiltelefon.pdf.clean](<grundschutz/SYS.3.3 Mobiltelefon.pdf.clean>) | |
-| [SYS.4.1 Drucker, Kopierer und Multifunktionsgeräte.pdf.clean](<grundschutz/SYS.4.1 Drucker, Kopierer und Multifunktionsgeräte.pdf.clean>) | |
-| [SYS.4.3 Eingebettete Systeme.pdf.clean](<grundschutz/SYS.4.3 Eingebettete Systeme.pdf.clean>) | |
-| [SYS.4.4 Allgemeines IoT-Gerät.pdf.clean](<grundschutz/SYS.4.4 Allgemeines IoT-Gerät.pdf.clean>) | |
-| [SYS.4.5 Wechseldatenträger.pdf.clean](<grundschutz/SYS.4.5 Wechseldatenträger.pdf.clean>) | |
+| [NET_1_1_Netzarchitektur_und_design_Edition_2023](<grundschutz/NET_1_1_Netzarchitektur_und_design_Edition_2023>) | |
+| [NET_1_2_Netzmanagement_Edition_2023](<grundschutz/NET_1_2_Netzmanagement_Edition_2023>) | |
+| [NET_2_1_WLAN_Betrieb_Edition_2023](<grundschutz/NET_2_1_WLAN_Betrieb_Edition_2023>) | |
+| [NET_2_2_WLAN_Nutzung_Edition_2023](<grundschutz/NET_2_2_WLAN_Nutzung_Edition_2023>) | |
+| [NET_3_1_Router_und_Switches_Edition_2023](<grundschutz/NET_3_1_Router_und_Switches_Edition_2023>) | |
+| [NET_3_2_Firewall_Edition_2023](<grundschutz/NET_3_2_Firewall_Edition_2023>) | |
+| [NET_3_3_VPN_Edition_2023](<grundschutz/NET_3_3_VPN_Edition_2023>) | |
+| [NET_3_4_Network_Access_Control_Edition_2023](<grundschutz/NET_3_4_Network_Access_Control_Edition_2023>) | |
+| [NET_4_1_TK_Anlagen_Edition_2023](<grundschutz/NET_4_1_TK_Anlagen_Edition_2023>) | |
+| [NET_4_2_VoIP_Edition_2023](<grundschutz/NET_4_2_VoIP_Edition_2023>) | |
+| [NET_4_3_Faxgeraete_und_Faxserver_Edition_2023](<grundschutz/NET_4_3_Faxgeraete_und_Faxserver_Edition_2023>) | |
+| [OPS_1_1_1_Allgemeiner_IT_Betrieb_Edition_2023](<grundschutz/OPS_1_1_1_Allgemeiner_IT_Betrieb_Edition_2023>) | |
+| [OPS_1_1_2_Ordnungsgemaesse_IT_Administration_Edition_2023](<grundschutz/OPS_1_1_2_Ordnungsgemaesse_IT_Administration_Edition_2023>) | |
+| [OPS_1_1_3_Patch_und_Aenderungsmanagement_Edition_2023](<grundschutz/OPS_1_1_3_Patch_und_Aenderungsmanagement_Edition_2023>) | |
+| [OPS_1_1_4_Schutz_vor_Schadprogrammen_Edition_2023](<grundschutz/OPS_1_1_4_Schutz_vor_Schadprogrammen_Edition_2023>) | |
+| [OPS_1_1_5_Protokollierung_Edition_2023](<grundschutz/OPS_1_1_5_Protokollierung_Edition_2023>) | |
+| [OPS_1_1_6_Software_Tests_und_Freigaben_Edition_2023](<grundschutz/OPS_1_1_6_Software_Tests_und_Freigaben_Edition_2023>) | |
+| [OPS_1_1_7_Systemmanagement_Edition_2023](<grundschutz/OPS_1_1_7_Systemmanagement_Edition_2023>) | |
+| [OPS_1_2_2_Archivierung_Edition_2023](<grundschutz/OPS_1_2_2_Archivierung_Edition_2023>) | |
+| [OPS_1_2_4_Telearbeit_Edition_2023](<grundschutz/OPS_1_2_4_Telearbeit_Edition_2023>) | |
+| [OPS_1_2_5_Fernwartung_Edition_2023](<grundschutz/OPS_1_2_5_Fernwartung_Edition_2023>) | |
+| [OPS_1_2_6_NTP_Zeitsynchronisation_Edition_2023](<grundschutz/OPS_1_2_6_NTP_Zeitsynchronisation_Edition_2023>) | |
+| [OPS_2_2_Cloud-Nutzung_Edition_2023](<grundschutz/OPS_2_2_Cloud-Nutzung_Edition_2023>) | |
+| [OPS_2_3_Nutzung_von_Outsourcing_Edition_2023](<grundschutz/OPS_2_3_Nutzung_von_Outsourcing_Edition_2023>) | |
+| [OPS_3_2_Anbieten_von_Outsourcing_Edition_2023](<grundschutz/OPS_3_2_Anbieten_von_Outsourcing_Edition_2023>) | |
+| [ORP_1_Organisation_Edition_2023](<grundschutz/ORP_1_Organisation_Edition_2023>) | |
+| [ORP_2_Personal_Editon_2023](<grundschutz/ORP_2_Personal_Editon_2023>) | |
+| [ORP_3_Sensibilisierung_und_Schulung_Editon_2023](<grundschutz/ORP_3_Sensibilisierung_und_Schulung_Editon_2023>) | |
+| [ORP_4_Identitaets_und_Berechtigungsmanagement_Editon_2023](<grundschutz/ORP_4_Identitaets_und_Berechtigungsmanagement_Editon_2023>) | |
+| [ORP_5_Compliance_Management_Editon_2023](<grundschutz/ORP_5_Compliance_Management_Editon_2023>) | |
+| [SYS_1_1_Allgemeiner_Server_Edition_2023](<grundschutz/SYS_1_1_Allgemeiner_Server_Edition_2023>) | |
+| [SYS_1_2_2_Windows_Server_2012_Edition_2023](<grundschutz/SYS_1_2_2_Windows_Server_2012_Edition_2023>) | |
+| [SYS_1_2_3_Windows_Server_Edition_2023](<grundschutz/SYS_1_2_3_Windows_Server_Edition_2023>) | |
+| [SYS_1_3_Server_unter_Linux_und_Unix_Edition_2023](<grundschutz/SYS_1_3_Server_unter_Linux_und_Unix_Edition_2023>) | |
+| [SYS_1_5_Virtualisierung_Edition_2023](<grundschutz/SYS_1_5_Virtualisierung_Edition_2023>) | |
+| [SYS_1_6_Containerisierung_Edition_2023](<grundschutz/SYS_1_6_Containerisierung_Edition_2023>) | |
+| [SYS_1_7_IBM_Z_Edition_2023](<grundschutz/SYS_1_7_IBM_Z_Edition_2023>) | |
+| [SYS_1_8_Speicherloesungen_Edition_2023](<grundschutz/SYS_1_8_Speicherloesungen_Edition_2023>) | |
+| [SYS_1_9_Terminalserver_Edition_2023](<grundschutz/SYS_1_9_Terminalserver_Edition_2023>) | |
+| [SYS_2_1_Allgemeiner_Client_Edition_2023](<grundschutz/SYS_2_1_Allgemeiner_Client_Edition_2023>) | |
+| [SYS_2_2_3_Clients_unter_Windows_Edition_2023](<grundschutz/SYS_2_2_3_Clients_unter_Windows_Edition_2023>) | |
+| [SYS_2_3_Clients_unter_Linux_und_Unix_Edition_2023](<grundschutz/SYS_2_3_Clients_unter_Linux_und_Unix_Edition_2023>) | |
+| [SYS_2_4_Clients_unter_macOS_Edition_2023](<grundschutz/SYS_2_4_Clients_unter_macOS_Edition_2023>) | |
+| [SYS_2_5_Client_Virtualisierung_Edition_2023](<grundschutz/SYS_2_5_Client_Virtualisierung_Edition_2023>) | |
+| [SYS_2_6_Virtual_Desktop_Infrastructure_Edition_2023](<grundschutz/SYS_2_6_Virtual_Desktop_Infrastructure_Edition_2023>) | |
+| [SYS_3_1_Laptops_Edition_2023](<grundschutz/SYS_3_1_Laptops_Edition_2023>) | |
+| [SYS_3_2_1_Allgemeine_Smartphones_und_Tablets_Edition_2023](<grundschutz/SYS_3_2_1_Allgemeine_Smartphones_und_Tablets_Edition_2023>) | |
+| [SYS_3_2_2_Mobile_Device_Management_Edition_2023](<grundschutz/SYS_3_2_2_Mobile_Device_Management_Edition_2023>) | |
+| [SYS_3_2_3_iOS_for_Enterprise_2023](<grundschutz/SYS_3_2_3_iOS_for_Enterprise_2023>) | |
+| [SYS_3_2_4_Android_Edition_2023](<grundschutz/SYS_3_2_4_Android_Edition_2023>) | |
+| [SYS_3_3_Mobiltelefon_Edition_2023](<grundschutz/SYS_3_3_Mobiltelefon_Edition_2023>) | |
+| [SYS_4_1_Drucker_Kopierer_und_Multifunktionsgeraete_Edition_2023](<grundschutz/SYS_4_1_Drucker_Kopierer_und_Multifunktionsgeraete_Edition_2023>) | |
+| [SYS_4_3_Eingebettete_Systeme_Edition_2023](<grundschutz/SYS_4_3_Eingebettete_Systeme_Edition_2023>) | |
+| [SYS_4_4_Allgemeines_IoT_Geraet_Edition_2023](<grundschutz/SYS_4_4_Allgemeines_IoT_Geraet_Edition_2023>) | |
+| [SYS_4_5_Wechseldatentraeger_Edition_2023](<grundschutz/SYS_4_5_Wechseldatentraeger_Edition_2023>) | |
