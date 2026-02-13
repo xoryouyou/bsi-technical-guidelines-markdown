@@ -11,15 +11,17 @@ import logging
 import coloredlogs
 import re
 import traceback
+from datetime import datetime
 
 from cache import download_file, hash_file, load_repository_from_file, move_temp_file_to_final_location, write_repository_to_file
-from models.tr import TR, Document, Grundschutz, Repository
+from models.tr import TR, Document, DocumentVersion, Grundschutz, Repository
 
 
 TR_OVERVIEW_PAGE = "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/technische-richtlinien_node.html"
 GS_OVERVIEW_PAGE = "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/IT-Grundschutz-Bausteine/Bausteine_Download_Edition_node.html"
 USER_AGENT_HEADER = {"User-Agent": "curl/7.54.1"}
 FILE_REPOSITORY = "data/repository.json"
+TR_PDF_LINKS_FILE = "data/tr-pdf-links.txt"
 GS_PATH = Path("pdf/grundschutz")
 TR_PATH = Path("pdf/tr")
 SOUP_PARSER = "html.parser"
@@ -62,13 +64,33 @@ class Scraper:
             action="store_true",
         )
         parser.add_argument(
-            "--download-pdfs",
-            help="Download all PDFs from the lists in /data",
+            "--hash-pdfs",
+            help="Hash all PDFs in the repository and store the checksum",
             action="store_true",
         )
         parser.add_argument(
-            "--hash-pdfs",
-            help="Hash all PDFs in the repository and store the checksum",
+            "--export-tr-links",
+            help="Export all TR PDF links to data/tr-pdf-links.txt",
+            action="store_true",
+        )
+        parser.add_argument(
+            "--sync",
+            help="Sync local PDFs with BSI website (check for updates and download new files)",
+            action="store_true",
+        )
+        parser.add_argument(
+            "--sync-tr",
+            help="Sync only TR PDFs with BSI website",
+            action="store_true",
+        )
+        parser.add_argument(
+            "--sync-grundschutz",
+            help="Sync only Grundschutz PDFs with BSI website",
+            action="store_true",
+        )
+        parser.add_argument(
+            "--force",
+            help="Force re-download even if file exists and checksum matches",
             action="store_true",
         )
 
@@ -240,85 +262,318 @@ class Scraper:
             )
             return []
 
-    def check_if_file_matches_existing_repository_entry(self, document, filepath):
-        repository_hashsum = document.sha256
-        if filepath.exists():
-            self.logger.debug(
-                f"File {document.filename} already exists. Skipping download."
-            )
-            file_hashsum = hash_file(filepath)
-            if file_hashsum == repository_hashsum:
-                self.logger.info("Stored hash matches file hash for %s", filepath)
-            else:
-                self.logger.info(
-                    "Hash mismatch for %s: %s != %s",
-                    document.filename,
-                    file_hashsum,
-                    repository_hashsum,
-                )
-
-        else:
-            self.logger.info(f"Downloading {document.filename} from {document.url_pdf}")
-            temp_file, file_hashsum = download_file(document.url_pdf)
-            self.logger.info(f"Downloaded: {document.filename}")
-            if file_hashsum != repository_hashsum:
-                self.logger.info(
-                    "Hash mismatch for %s: %s != %s",
-                    document.filename,
-                    file_hashsum,
-                    repository_hashsum,
-                )
-                # Update the repository with the new hash
-                document.sha256 = file_hashsum
-                self.logger.info(f"Copying temp file from {temp_file.name} to {filepath}")
-                # Move the temporary file to the final location
-                move_temp_file_to_final_location(temp_file, filepath)
-
-
-    def download_pdfs(self):
-        """Download all PDF files"""
-
+    def export_tr_links(self):
+        """Export all TR PDF links to data/tr-pdf-links.txt"""
         try:
-            grundschutz = load_repository_from_file(FILE_REPOSITORY)
-            # Download all Grundschutz PDFs
-            for grundschutz_baustein in grundschutz.grundschutz_bausteine:
-                for document in grundschutz_baustein.documents:
-                    # Check if file already exists
-                    filepath = GS_PATH / document.filename
-                    self.check_if_file_matches_existing_repository_entry(document, filepath)
+            repo_file = Path(FILE_REPOSITORY)
+            if not repo_file.exists():
+                self.logger.error("Repository file not found. Run --fetch-tr-pdf-links first.")
+                return
 
-
-            # Save the updated repository to a file
-            write_repository_to_file(grundschutz, FILE_REPOSITORY)
-
-            tr_repository = load_repository_from_file(FILE_REPOSITORY)
-            # Download all TR PDFs
-            for tr in tr_repository.trs:
+            repository = load_repository_from_file(repo_file)
+            links = []
+            
+            for tr in repository.trs:
                 for document in tr.documents:
-                    # Check if file already exists
-                    filepath = TR_PATH / Path(document.filename)
-                    self.check_if_file_matches_existing_repository_entry(document, filepath)
-
-            # Save the updated repository to a file
-            write_repository_to_file(tr_repository, FILE_REPOSITORY)
-
+                    links.append(f"{document.url_pdf}\t{document.filename}\t{tr.title}")
+            
+            # Write to file
+            with open(TR_PDF_LINKS_FILE, "w", encoding="utf-8") as f:
+                f.write(f"# TR PDF Links - Generated at {datetime.now().isoformat()}\n")
+                f.write(f"# Total: {len(links)} links\n")
+                f.write("# Format: URL\\tFilename\\tTitle\n\n")
+                for link in links:
+                    f.write(link + "\n")
+            
+            self.logger.info(f"Exported {len(links)} TR PDF links to {TR_PDF_LINKS_FILE}")
         except Exception as e:
-            self.logger.error(
-                f"Error downloading PDFs: {str(e)} {traceback.format_exc()} "
+            self.logger.error(f"Error exporting TR links: {str(e)} {traceback.format_exc()}")
+
+    def sync_document(self, document: Document, filepath: Path, force: bool = False) -> tuple[bool, str]:
+        """
+        Sync a single document with the BSI website.
+        
+        Returns:
+            tuple[bool, str]: (was_updated, status_message)
+            
+        Logic:
+        1. If file doesn't exist locally -> download it
+        2. If file exists but no checksum in repo -> hash local file and store
+        3. If file exists with checksum -> download from BSI, compare checksums
+           - If different -> we have a newer version, update local file
+           - If same -> file is up to date
+        """
+        local_file_exists = filepath.exists()
+        repo_checksum = document.sha256
+        
+        # Ensure parent directory exists
+        filepath.parent.mkdir(parents=True, exist_ok=True)
+        
+        # Case 1: File doesn't exist locally - download it
+        if not local_file_exists:
+            self.logger.info(f"[NEW] Downloading {document.filename}")
+            try:
+                temp_file, file_hashsum = download_file(document.url_pdf)
+                move_temp_file_to_final_location(temp_file, filepath)
+                now = datetime.now()
+                
+                # Add initial version entry
+                initial_version = DocumentVersion(
+                    sha256=file_hashsum,
+                    url_pdf=document.url_pdf,
+                    retrieved_at=now,
+                    latest=True
+                )
+                document.versions.append(initial_version)
+                
+                self.logger.info(f"[NEW] Downloaded and saved {document.filename}")
+                return True, "downloaded"
+            except Exception as e:
+                self.logger.error(f"[ERROR] Failed to download {document.filename}: {str(e)}")
+                return False, f"download_failed: {str(e)}"
+        
+        # Case 2: File exists but no checksum in repo - hash local file
+        if local_file_exists and not repo_checksum:
+            self.logger.info(f"[HASH] Computing checksum for existing file {document.filename}")
+            now = datetime.now()
+            file_hash = hash_file(filepath)
+            
+            # Add initial version entry
+            initial_version = DocumentVersion(
+                sha256=file_hash,
+                url_pdf=document.url_pdf,
+                retrieved_at=now,
+                latest=True
             )
+            document.versions.append(initial_version)
+            
+            return True, "checksum_added"
+        
+        # Case 3: File exists with checksum - check for updates from BSI
+        if local_file_exists and repo_checksum:
+            local_checksum = hash_file(filepath)
+            
+            # Verify local file matches stored checksum
+            if local_checksum != repo_checksum:
+                self.logger.warning(
+                    f"[MISMATCH] Local file checksum differs from repository for {document.filename}"
+                )
+                self.logger.warning(f"  Local:  {local_checksum}")
+                self.logger.warning(f"  Stored: {repo_checksum}")
+            
+            # Check BSI for updates (unless force is set, then always download)
+            if force:
+                self.logger.info(f"[FORCE] Re-downloading {document.filename}")
+            else:
+                self.logger.info(f"[CHECK] Checking BSI for updates to {document.filename}")
+            
+            try:
+                temp_file, remote_checksum = download_file(document.url_pdf)
+                
+                if remote_checksum != repo_checksum:
+                    # BSI has a newer version!
+                    self.logger.info(f"[UPDATE] New version found for {document.filename}")
+                    self.logger.info(f"  Old checksum: {repo_checksum}")
+                    self.logger.info(f"  New checksum: {remote_checksum}")
+                    
+                    # Mark all existing versions as not latest
+                    for v in document.versions:
+                        v.latest = False
+                    
+                    # Update document with new version
+                    move_temp_file_to_final_location(temp_file, filepath)
+                    now = datetime.now()
+                    
+                    # Add new version as latest
+                    new_version = DocumentVersion(
+                        sha256=remote_checksum,
+                        url_pdf=document.url_pdf,
+                        retrieved_at=now,
+                        latest=True
+                    )
+                    document.versions.append(new_version)
+                    
+                    self.logger.info(f"  Version history now has {len(document.versions)} entries")
+                    return True, "updated"
+                else:
+                    # File is up to date
+                    self.logger.debug(f"[OK] {document.filename} is up to date")
+                    # Clean up temp file (close first, then unlink)
+                    temp_path = Path(temp_file.name)
+                    temp_file.close()
+                    temp_path.unlink(missing_ok=True)
+                    return False, "up_to_date"
+                    
+            except Exception as e:
+                self.logger.error(f"[ERROR] Failed to check updates for {document.filename}: {str(e)}")
+                return False, f"check_failed: {str(e)}"
+        
+        return False, "unknown"
+
+    def sync_tr_pdfs(self, force: bool = False):
+        """Sync all TR PDFs with BSI website."""
+        self.logger.info("=" * 60)
+        self.logger.info("Starting TR PDF sync...")
+        self.logger.info("=" * 60)
+        
+        repo_file = Path(FILE_REPOSITORY)
+        if not repo_file.exists():
+            self.logger.error("Repository file not found. Run --fetch-tr-pdf-links first.")
+            return
+        
+        repository = load_repository_from_file(repo_file)
+        
+        stats = {"downloaded": 0, "updated": 0, "up_to_date": 0, "failed": 0, "checksum_added": 0}
+        
+        for tr in repository.trs:
+            self.logger.info(f"\nProcessing TR: {tr.title}")
+            for document in tr.documents:
+                filepath = TR_PATH / document.filename
+                
+                # Add delay to be nice to the server
+                time.sleep(randint(1, 3))
+                
+                _, status = self.sync_document(document, filepath, force)
+                if status in stats:
+                    stats[status] += 1
+                elif "failed" in status:
+                    stats["failed"] += 1
+        
+        # Save updated repository
+        write_repository_to_file(repository, repo_file)
+        
+        self.logger.info("\n" + "=" * 60)
+        self.logger.info("TR Sync Complete!")
+        self.logger.info(f"  Downloaded:  {stats['downloaded']}")
+        self.logger.info(f"  Updated:     {stats['updated']}")
+        self.logger.info(f"  Up to date:  {stats['up_to_date']}")
+        self.logger.info(f"  Checksums:   {stats['checksum_added']}")
+        self.logger.info(f"  Failed:      {stats['failed']}")
+        self.logger.info("=" * 60)
+
+    def sync_grundschutz_pdfs(self, force: bool = False):
+        """Sync all Grundschutz PDFs with BSI website."""
+        self.logger.info("=" * 60)
+        self.logger.info("Starting Grundschutz PDF sync...")
+        self.logger.info("=" * 60)
+        
+        repo_file = Path(FILE_REPOSITORY)
+        if not repo_file.exists():
+            self.logger.error("Repository file not found. Run --fetch-grundschutz-pdf-links first.")
+            return
+        
+        repository = load_repository_from_file(repo_file)
+        
+        stats = {"downloaded": 0, "updated": 0, "up_to_date": 0, "failed": 0, "checksum_added": 0}
+        
+        for baustein in repository.grundschutz_bausteine:
+            self.logger.info(f"\nProcessing Grundschutz: {baustein.id} - {baustein.title}")
+            for document in baustein.documents:
+                filepath = GS_PATH / document.filename
+                
+                # Add delay to be nice to the server
+                time.sleep(randint(1, 3))
+                
+                _, status = self.sync_document(document, filepath, force)
+                if status in stats:
+                    stats[status] += 1
+                elif "failed" in status:
+                    stats["failed"] += 1
+        
+        # Save updated repository
+        write_repository_to_file(repository, repo_file)
+        
+        self.logger.info("\n" + "=" * 60)
+        self.logger.info("Grundschutz Sync Complete!")
+        self.logger.info(f"  Downloaded:  {stats['downloaded']}")
+        self.logger.info(f"  Updated:     {stats['updated']}")
+        self.logger.info(f"  Up to date:  {stats['up_to_date']}")
+        self.logger.info(f"  Checksums:   {stats['checksum_added']}")
+        self.logger.info(f"  Failed:      {stats['failed']}")
+        self.logger.info("=" * 60)
+
+    def sync_all(self, force: bool = False):
+        """Sync all PDFs (TR and Grundschutz) with BSI website."""
+        self.sync_tr_pdfs(force)
+        self.sync_grundschutz_pdfs(force)
+
+    def hash_pdfs(self):
+        """Hash all PDFs in the repository and store the checksum."""
+        self.logger.info("Hashing all PDFs in the repository...")
+        
+        repo_file = Path(FILE_REPOSITORY)
+        if not repo_file.exists():
+            self.logger.error("Repository file not found. Run --fetch-tr-pdf-links first.")
+            return
+        
+        repository = load_repository_from_file(repo_file)
+        updated_count = 0
+        
+        def update_document_hash(document: Document, filepath: Path):
+            """Helper to update document hash and version."""
+            nonlocal updated_count
+            if filepath.exists():
+                file_hash = hash_file(filepath)
+                now = datetime.now()
+                if document.sha256 != file_hash:
+                    self.logger.info(f"[HASH] {document.filename}: {file_hash}")
+                    
+                    # Mark existing versions as not latest
+                    for v in document.versions:
+                        v.latest = False
+                    
+                    # Add new version entry
+                    version = DocumentVersion(
+                        sha256=file_hash,
+                        url_pdf=document.url_pdf,
+                        retrieved_at=now,
+                        latest=True
+                    )
+                    document.versions.append(version)
+                    updated_count += 1
+                else:
+                    self.logger.debug(f"[OK] {document.filename} hash unchanged")
+        
+        # Hash TR PDFs
+        for tr in repository.trs:
+            for document in tr.documents:
+                filepath = TR_PATH / document.filename
+                update_document_hash(document, filepath)
+        
+        # Hash Grundschutz PDFs
+        for baustein in repository.grundschutz_bausteine:
+            for document in baustein.documents:
+                filepath = GS_PATH / document.filename
+                update_document_hash(document, filepath)
+        
+        # Save updated repository
+        write_repository_to_file(repository, repo_file)
+        self.logger.info(f"Hashing complete. Updated {updated_count} checksums.")
 
     def run(self):
         args = self.parser.parse_args()
         self.logger.debug(f"ARGS: {args}")
+        
         if args.fetch_tr_pdf_links:
             self.fetch_tr_pdf_links(TR_OVERVIEW_PAGE)
+        
         if args.fetch_grundschutz_pdf_links:
             self.fetch_grundschutz_pdf_links(GS_OVERVIEW_PAGE)
-        if args.download_pdfs:
-            self.download_pdfs()
+        
+        if args.export_tr_links:
+            self.export_tr_links()
+        
         if args.hash_pdfs:
             self.hash_pdfs()
         
+        if args.sync:
+            self.sync_all(force=args.force)
+        
+        if args.sync_tr:
+            self.sync_tr_pdfs(force=args.force)
+        
+        if args.sync_grundschutz:
+            self.sync_grundschutz_pdfs(force=args.force)
 
 
 def main():

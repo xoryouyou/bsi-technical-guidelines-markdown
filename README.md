@@ -10,40 +10,103 @@ It was created out of necessity to provide all BSI TRs at a single location whic
 The PDFs are converted using [Marker](https://github.com/VikParuchuri/marker) and [Ollama](https://github.com/ollama/ollama) to Markdown.
 
 
-## Conversion process
+## Setup
 
 The Python env is setup using [`https://github.com/astral-sh/uv`](https://github.com/astral-sh/uv).
 
 ```bash
-usage: scraper.py [-h] [--scrape-pdf-list] [--output OUTPUT] [--fetch-tr-pdf-links] [--fetch-grundschutz-pdf-links]
+usage: scraper.py [-h] [--fetch-tr-pdf-links] [--fetch-grundschutz-pdf-links]
+                  [--hash-pdfs] [--export-tr-links] [--sync]
+                  [--sync-tr] [--sync-grundschutz] [--force]
 
 Scraping and Conversion for BSI Technical Guidelines
 
 options:
   -h, --help            show this help message and exit
-  --scrape-pdf-list     Scrape PDF links from TR list and save to data/pdf_links.txt
-  --output OUTPUT       Output directory for downloaded PDFs
   --fetch-tr-pdf-links  Extracts all the TR pages from main page and scrape the sub pages for PDF links
   --fetch-grundschutz-pdf-links
                         Fetch all the Grundschutz PDF links from the overview page
-  --download-pdfs       Download all PDFs from the lists in /data
-
+  --hash-pdfs           Hash all PDFs in the repository and store the checksum
+  --export-tr-links     Export all TR PDF links to data/tr-pdf-links.txt
+  --sync                Sync local PDFs with BSI website (check for updates and download new files)
+  --sync-tr             Sync only TR PDFs with BSI website
+  --sync-grundschutz    Sync only Grundschutz PDFs with BSI website
+  --force               Force re-download even if file exists and checksum matches
 ```
 
 
-### Usage
-0. Run `uv sync` - setup dependencies
-1. Run `uv run scraper.py --fetch-tr-pdf-links` to populate `data/tr-pdf-links.txt`
-2. Run `uv run scraper.py --fetch-grundschutz-pdf-links` to populate `data/grundschutz-pdf-links.txt`
-3. `uv run scraper.py --download-pdfs` to download all PDFs; note, this most likely does nothing because they usually are already there.
-6. Start an Ollama server of your choice.
-7. Run `./convert.sh`
-8. Run `uv run generate_table.py` to generate a table in Markdown: `/markdown/README.md`
+### Initial Setup
+```bash
+# 1. Install dependencies
+uv sync
 
-#### Details
-* `scrape_pdf_links.py` was used to loop over all TR pages from `data/tr-list.txt` to extract links to the PDFs and then store these links in `data/pdf_links.txt`.
-* `download_pdfs.py` did download them into the `/pdf` folder.
-* `convert.sh` was used to loop over all PDFs and convert them using Marker and Ollama.
+# 2. Fetch PDF links from BSI website
+uv run scraper.py --fetch-tr-pdf-links
+uv run scraper.py --fetch-grundschutz-pdf-links
+
+# 3. Download all PDFs
+uv run scraper.py --sync
+
+# 4. (Optional) Export TR links to text file
+uv run scraper.py --export-tr-links
+```
+
+### Syncing / Mirroring
+The scraper maintains a local repository (`data/repository.json`) that tracks a version history with checksums and timestamps for each change
+
+To keep your local PDFs in sync with BSI (must have run the fetch commands from above before):
+```bash
+# Sync everything (TR + Grundschutz)
+uv run scraper.py --sync
+
+# Sync only TR documents
+uv run scraper.py --sync-tr
+
+# Sync only Grundschutz documents  
+uv run scraper.py --sync-grundschutz
+
+# Force re-download all files
+uv run scraper.py --sync --force
+```
+
+The sync process:
+1. Checks if the file exists locally
+2. If not, downloads it and stores the checksum
+3. If it exists, downloads from BSI and compares checksums
+4. If checksums differ, adds the old version to history and saves the new file ( old version is in git history)
+5. Updates `retrieved_at` timestamp on changes
+
+#### Additional Commands
+```bash
+# Hash all existing local PDFs and update repository checksums
+uv run scraper.py --hash-pdfs
+```
+
+### Conversion (PDF to Markdown)
+After downloading PDFs, convert them to Markdown:
+```bash
+# 1. Start an Ollama server or lm studio
+ollama serve
+
+# 2. Run the conversion script
+./convert.sh
+
+# 3. Generate the table of contents
+uv run generate_table.py
+```
+
+Converted Markdown files are saved to `markdown/`.
+
+### Repository Structure
+```
+data/
+  repository.json    # Main repository tracking all documents, checksums, and timestamps
+  tr-pdf-links.txt   # Exported list of TR PDF links (URL, filename, title)
+pdf/
+  tr/                # Downloaded TR PDFs
+  grundschutz/       # Downloaded Grundschutz PDFs
+markdown/            # Converted Markdown files
+```
 
 ## List of all IT-Grundschutz documents provided as of `10 April 2025`
 * APP.1.1 Office-Produkte

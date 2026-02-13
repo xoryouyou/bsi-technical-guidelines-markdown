@@ -1,4 +1,5 @@
 from typing import List, Optional
+from datetime import datetime
 from pydantic import BaseModel, Field
 
 
@@ -21,11 +22,36 @@ class Grundschutz(BaseModel):
     documents: List["Document"] = Field(default_factory=list)
 
 
+class DocumentVersion(BaseModel):
+    """Tracks historical versions of a document."""
+    sha256: str
+    url_pdf: str
+    retrieved_at: datetime
+    latest: bool = False
+
+
 class Document(BaseModel):
     filename: str
     title: Optional[str] = None  
-    description: Optional[str] = None  
-    version: Optional[str] = None  
     url_pdf: str
-    sha256: Optional[str] = None
-    # url_html: str
+    versions: List[DocumentVersion] = Field(default_factory=list)  # Version history
+    
+    @property
+    def latest_version(self) -> Optional["DocumentVersion"]:
+        """Get the latest version entry."""
+        for v in self.versions:
+            if v.latest:
+                return v
+        return self.versions[-1] if self.versions else None
+    
+    @property
+    def sha256(self) -> Optional[str]:
+        """Get SHA256 from latest version."""
+        v = self.latest_version
+        return v.sha256 if v else None
+    
+    @property
+    def retrieved_at(self) -> Optional[datetime]:
+        """Get retrieved_at from latest version."""
+        v = self.latest_version
+        return v.retrieved_at if v else None
