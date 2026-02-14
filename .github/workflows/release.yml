@@ -1,0 +1,65 @@
+name: Create Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version (e.g., v1.0.0)'
+        required: true
+        type: string
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: github.actor == github.repository_owner
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create archives
+        run: |
+          # Create tar.gz archives for each directory
+          tar -czvf pdf.tar.gz pdf/
+          tar -czvf markdown.tar.gz markdown/
+          tar -czvf data.tar.gz data/
+          
+          # Create a combined tar.gz archive
+          tar -czvf bsi-guidelines-${{ inputs.version }}.tar.gz pdf/ markdown/ data/
+          
+          # Create zip archives for users unable to extrract tar.gz :P
+          zip -r pdf.zip pdf/
+          zip -r markdown.zip markdown/
+          zip -r data.zip data/
+          zip -r bsi-guidelines-${{ inputs.version }}.zip pdf/ markdown/ data/
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.version }}
+          name: BSI Guidelines ${{ inputs.version }}
+          body: |
+            ## BSI Technical Guidelines Release ${{ inputs.version }}
+            
+            ### Contents (tar.gz for Linux/macOS)
+            - `pdf.tar.gz` - All PDF documents
+            - `markdown.tar.gz` - Converted Markdown files
+            - `data.tar.gz` - Repository metadata (repository.json)
+            - `bsi-guidelines-${{ inputs.version }}.tar.gz` - All files combined
+            
+            ### Contents (zip for Windows)
+            - `pdf.zip` - All PDF documents
+            - `markdown.zip` - Converted Markdown files
+            - `data.zip` - Repository metadata (repository.json)
+            - `bsi-guidelines-${{ inputs.version }}.zip` - All files combined
+          files: |
+            pdf.tar.gz
+            markdown.tar.gz
+            data.tar.gz
+            bsi-guidelines-${{ inputs.version }}.tar.gz
+            pdf.zip
+            markdown.zip
+            data.zip
+            bsi-guidelines-${{ inputs.version }}.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
