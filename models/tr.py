@@ -32,6 +32,7 @@ class DocumentVersion(BaseModel):
 
 class Document(BaseModel):
     filename: str
+    identifier: Optional[str] = None  # e.g. "BSI TR-03108-1"
     title: Optional[str] = None  
     url_pdf: str
     versions: List[DocumentVersion] = Field(default_factory=list)  # Version history

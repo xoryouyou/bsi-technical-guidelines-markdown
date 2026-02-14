@@ -12,6 +12,10 @@ import coloredlogs
 import re
 import traceback
 from datetime import datetime
+from typing import Optional
+
+import pypdfium2 as pdfium
+from pdftext.extraction import plain_text_output
 
 from cache import download_file, hash_file, load_repository_from_file, move_temp_file_to_final_location, write_repository_to_file
 from models.tr import TR, Document, DocumentVersion, Grundschutz, Repository
@@ -25,6 +29,113 @@ TR_PDF_LINKS_FILE = "data/tr-pdf-links.txt"
 GS_PATH = Path("pdf/grundschutz")
 TR_PATH = Path("pdf/tr")
 SOUP_PARSER = "html.parser"
+
+def extract_title_from_pdf(pdf_path: str) -> Optional[str]:
+    """Extract the title from a PDF file using metadata or first page content."""
+    try:
+        pdf = pdfium.PdfDocument(pdf_path)
+        
+        # First try metadata
+        try:
+            metadata = pdf.get_metadata_dict()
+            title = metadata.get('Title', '').strip()
+            if title and len(title) > 5:
+                pdf.close()
+                return title
+        except Exception:
+            pass
+        
+        # Fall back to extracting from first page content
+        try:
+            text = plain_text_output(pdf_path, sort=True, hyphens=True, max_pages=1)
+            first_lines = text[:500].strip().split('\n')
+            
+            potential_title = []
+            for line in first_lines[:5]:
+                line = line.strip()
+                if line and len(line) > 5:
+                    if any(skip in line.lower() for skip in ['version:', 'date:', 'page', 'document history']):
+                        break
+                    potential_title.append(line)
+                    if len(potential_title) >= 2:
+                        break
+            
+            if potential_title:
+                pdf.close()
+                return ' '.join(potential_title)
+        except Exception:
+            pass
+        
+        pdf.close()
+    except Exception:
+        pass
+    
+    return None
+
+
+def extract_identifier_from_filename(filename: str, tr_id: str) -> str:
+    """
+    Extract document identifier from filename and TR id.
+    
+    Examples:
+        TR03108-1.pdf + TR-03108 -> BSI TR-03108-1
+        BSI-TR-02102-2.pdf + TR-02102 -> BSI TR-02102-2
+        TR_De_Mail.pdf + TR-01201 -> BSI TR-01201
+        TR-03130_TR-eID-Server_Part2.pdf + TR-03130 -> BSI TR-03130-2
+    """
+    stem = Path(filename).stem
+    
+    # Extract the TR number from tr_id (e.g., "TR-03108" -> "03108")
+    tr_num_match = re.search(r'TR[-_]?(\d+)', tr_id, re.IGNORECASE)
+    if not tr_num_match:
+        return f"BSI {tr_id}"
+    
+    tr_num = tr_num_match.group(1)
+    
+    # Look for part/sub-document number in filename
+    # Pattern 1: TR03108-1, BSI-TR-03108-2 (number directly after TR number)
+    part_match = re.search(
+        rf'(?:TR[-_]?)?{tr_num}[-_](\d+(?:[-_.]\d+)*)',
+        stem,
+        re.IGNORECASE
+    )
+    
+    if part_match:
+        part = part_match.group(1).replace("_", "-").replace(".", "-")
+        return f"BSI TR-{tr_num}-{part}"
+    
+    # Pattern 2: _Part2, _Teil3 anywhere in filename
+    part_suffix = re.search(r'[_-]?[Pp]art[-_]?(\d+)', stem)
+    if part_suffix:
+        return f"BSI TR-{tr_num}-{part_suffix.group(1)}"
+    
+    teil_suffix = re.search(r'[_-]?[Tt]eil[-_]?(\d+)', stem)
+    if teil_suffix:
+        return f"BSI TR-{tr_num}-{teil_suffix.group(1)}"
+    
+    return f"BSI TR-{tr_num}"
+
+
+def extract_gs_identifier_from_filename(filename: str) -> Optional[str]:
+    """
+    Extract Grundschutz identifier from filename.
+    
+    Examples:
+        ISMS_1_Sicherheitsmanagement_Edition_2023.pdf -> ISMS.1
+        APP_1_1_Office_Produkte_Edition_2023.pdf -> APP.1.1
+        ORP_2_Personal_Editon_2023.pdf -> ORP.2
+    """
+    stem = Path(filename).stem
+    
+    # Match pattern like ISMS_1, APP_1_1, ORP_2, etc. at the start
+    match = re.match(r'^([A-Z]+)_([\d_]+)', stem)
+    if match:
+        prefix = match.group(1)
+        numbers = match.group(2).rstrip('_').replace('_', '.')
+        return f"{prefix}.{numbers}"
+    
+    return None
+
 
 GS_ABBREVIATION_TITLE_MAPPING = {
     "ISMS": "Sicherheitsmanagement",
@@ -91,6 +202,11 @@ class Scraper:
         parser.add_argument(
             "--force",
             help="Force re-download even if file exists and checksum matches",
+            action="store_true",
+        )
+        parser.add_argument(
+            "--update-identifiers",
+            help="Update document identifiers in repository.json",
             action="store_true",
         )
 
@@ -326,6 +442,11 @@ class Scraper:
                 )
                 document.versions.append(initial_version)
                 
+                # Extract title from PDF
+                title = extract_title_from_pdf(str(filepath))
+                if title:
+                    document.title = title
+                
                 self.logger.info(f"[NEW] Downloaded and saved {document.filename}")
                 return True, "downloaded"
             except Exception as e:
@@ -346,6 +467,12 @@ class Scraper:
                 latest=True
             )
             document.versions.append(initial_version)
+            
+            # Extract title from PDF if not already set
+            if not document.title:
+                title = extract_title_from_pdf(str(filepath))
+                if title:
+                    document.title = title
             
             return True, "checksum_added"
         
@@ -393,6 +520,11 @@ class Scraper:
                     )
                     document.versions.append(new_version)
                     
+                    # Re-extract title from updated PDF
+                    title = extract_title_from_pdf(str(filepath))
+                    if title:
+                        document.title = title
+                    
                     self.logger.info(f"  Version history now has {len(document.versions)} entries")
                     return True, "updated"
                 else:
@@ -429,6 +561,10 @@ class Scraper:
             self.logger.info(f"\nProcessing TR: {tr.title}")
             for document in tr.documents:
                 filepath = TR_PATH / document.filename
+                
+                # Set identifier if not already set
+                if not document.identifier:
+                    document.identifier = extract_identifier_from_filename(document.filename, tr.id)
                 
                 # Add delay to be nice to the server
                 time.sleep(randint(1, 3))
@@ -470,6 +606,10 @@ class Scraper:
             self.logger.info(f"\nProcessing Grundschutz: {baustein.id} - {baustein.title}")
             for document in baustein.documents:
                 filepath = GS_PATH / document.filename
+                
+                # Set identifier if not already set
+                if not document.identifier:
+                    document.identifier = extract_gs_identifier_from_filename(document.filename)
                 
                 # Add delay to be nice to the server
                 time.sleep(randint(1, 3))
@@ -550,6 +690,37 @@ class Scraper:
         write_repository_to_file(repository, repo_file)
         self.logger.info(f"Hashing complete. Updated {updated_count} checksums.")
 
+    def update_identifiers(self):
+        """Update document identifiers in repository.json."""
+        self.logger.info("Updating document identifiers...")
+        
+        repo_file = Path(FILE_REPOSITORY)
+        if not repo_file.exists():
+            self.logger.error("Repository file not found.")
+            return
+        
+        repository = load_repository_from_file(repo_file)
+        updated_count = 0
+        
+        # Update TR documents (always regenerate to catch pattern updates)
+        for tr in repository.trs:
+            for document in tr.documents:
+                new_id = extract_identifier_from_filename(document.filename, tr.id)
+                if document.identifier != new_id:
+                    document.identifier = new_id
+                    updated_count += 1
+        
+        # Update Grundschutz documents
+        for baustein in repository.grundschutz_bausteine:
+            for document in baustein.documents:
+                if not document.identifier:
+                    document.identifier = extract_gs_identifier_from_filename(document.filename)
+                    if document.identifier:
+                        updated_count += 1
+        
+        write_repository_to_file(repository, repo_file)
+        self.logger.info(f"Updated {updated_count} document identifiers.")
+
     def run(self):
         args = self.parser.parse_args()
         self.logger.debug(f"ARGS: {args}")
@@ -574,6 +745,9 @@ class Scraper:
         
         if args.sync_grundschutz:
             self.sync_grundschutz_pdfs(force=args.force)
+        
+        if args.update_identifiers:
+            self.update_identifiers()
 
 
 def main():
