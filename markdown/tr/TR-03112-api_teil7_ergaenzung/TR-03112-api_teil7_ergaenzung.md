@@ -1,323 +1,443 @@
-![](_page_0_Picture_0.jpeg)
+## Technical Guideline TR-03112-7 - eCard-API-Framework 
 
-# Technical Guideline TR-03112-7 eCard-API-Framework
+Amendment: eIDType Signalling for Extended Access Control 
 
-## Amendment: eIDType Signalling for Extended Access Control
+Version 1.2.0 30.09.2021 
 
-Version 1.2.0 30.09.2021
+Federal Office for Information Security Post Box 20 03 63 D-53133 Bonn Phone: +49 22899 9582-0 E-Mail: eid@bsi.bund.de Internet: https://www.bsi.bund.de © Federal Office for Information Security 2021 
 
-![](_page_0_Picture_5.jpeg)
+Table of Contents 
 
-Federal Office for Information Security Post Box 20 03 63 D-53133 Bonn Phone: +49 22899 9582-0 E-Mail: eid@bsi.bund.de Internet: https://www.bsi.bund.de © Federal Office for Information Security 2021
+## Table of Contents 
 
-| 1     | About this document 5                           |  |
-|-------|-------------------------------------------------|--|
-| 2     | ISO/IEC 24727 protocols 6                       |  |
-| 2.1   | Extended Access Control 6                       |  |
-| 2.1.1 | EAC protocol specification 6                    |  |
-| 2.1.2 | Marker 6                                        |  |
-| 2.1.3 | Call and return of CardApplicationStartSession6 |  |
-| 2.1.4 | Overview of EAC protocol sequence 10            |  |
-| 2.1.5 | DIDCreate, DIDUpdate and DIDGet14               |  |
-| 2.1.6 | Non-supported functions 14                      |  |
+|1|About this document........................................................................................................................................................................ 5|
+|---|---|
+|2|ISO/IEC 24727 protocols................................................................................................................................................................. 6|
+|2.1|Extended Access Control......................................................................................................................................................... 6|
+|2.1.1|EAC protocol specifcation...............................................................................................................................................6|
+|2.1.2|Marker........................................................................................................................................................................................ 6|
+|2.1.3|Call and return of CardApplicationStartSession....................................................................................................6|
+|2.1.4|Overview of EAC protocol sequence.........................................................................................................................10|
+|2.1.5|DIDCreate, DIDUpdate and DIDGet.........................................................................................................................14|
+|2.1.6|Non-supported functions..............................................................................................................................................14|
 
-|  |  | Figure 1: Message Sequence after CardApplicationStartSession(EACSession)9 |
-|--|--|---------------------------------------------------------------------------|
-|  |  |                                                                           |
 
-## 1 About this document
 
-This Amendment to Part 7 of TR-03112-7 extends the Extended Access Control protocol defined in section 3.6 of that TR by the necessary elements for support of different types of eID document, e.g. eID Cards and eID Applets hosted on a Secure Element of a mobile device.
+## **Table of Figures** 
 
-## 2 ISO/IEC 24727 protocols
+Figure 1: Message Sequence after CardApplicationStartSession(EACSession)...................................................................9 
 
-The following section replaces Section 3.6 of TR-03112-7.
+Federal Office for Information Security 
 
-### 2.1 Extended Access Control
+3 
 
-This protocol specified in [TR-03110] forms the framework for mutual authentication with keys exchanged using the Extended Access Control protocol.
+About this document 1 
 
-The identifier for this protocol is urn:oid:1.3.162.15480.3.0.14 for iso(1) identified-organization (3) CEN (162) CEN 15480 (15480) part3(3) annex-a(0) extended-access-control-protocol(14)
+## 1 About this document 
 
-The following protocol variant is available for this purpose:
+This Amendment to Part 7 of TR-03112-7 extends the Extended Access Control protocol defined in section 3.6 of that TR by the necessary elements for support of different types of eID document, e.g. eID Cards and eID Applets hosted on a Secure Element of a mobile device. 
 
-- **•** urn:oid:1.3.162.15480.3.0.14.2 for EAC Version 2 in accordance with [TR-03110], which comprises the following sub-protocols:
-	- **◦** Password Authenticated Connection Establishment (PACE) in accordance with [TR-03110]
-	- **◦** Chip Authentication version 2 or version 3 (CA) in accordance with [TR-03110]
-	- **◦** Terminal Authentication version 2 (TA) in accordance with [TR-03110]
-	- **◦** Restricted Identification (RI) in accordance with [TR-03110]
+Federal Office for Information Security 
 
-### 2.1.1 EAC protocol specification
+5 
 
-The Extended Access Control (EAC) protocol is specified in the following sections:
+2 ISO/IEC 24727 protocols 
 
-- **•** Marker
-- **•** Call and return of CardApplicationStartSession
-- **•** Overview of EAC protocol sequence
-- **•** Phase 1 Extended PACE protocol
-- **•** Phase 2 Combination of Terminal and Chip Authentication
-- <span id="page-5-0"></span>**•** Secure messaging with APDU batches
+## 2 ISO/IEC 24727 protocols 
 
-### 2.1.2 Marker
+The following section replaces Section 3.6 of TR-03112-7. 
 
-[section unchanged]
+## 2.1 Extended Access Control 
 
-### 2.1.3 Call and return of CardApplicationStartSession
+This protocol specified in [TR-03110] forms the framework for mutual authentication with keys exchanged using the Extended Access Control protocol. 
 
-The protected channel to the card by means of EAC is established by requesting CardApplicationStartSession with a corresponding DID for the EAC protocol. In this context the DIDName refers to the DID on the ICC with the marker structure defined in Section [2.1.2](#page-5-0). The AuthenticationProtocolData are of type EACSessionInputType explained in more detail below, through which the optional test sequences for age verification, document validity and municipality citizenship MAY be specified and / or the generation of a sector-specific pseudonym MAY be requested.
+The identifier for this protocol is urn:oid:1.3.162.15480.3.0.14 for iso(1) identified-organization (3) CEN (162) CEN 15480 (15480) part3(3) annex-a(0) extended-access-control-protocol(14) 
 
-If required, a differentiation MAY also be made between different eService keys (with different certificates and authorisations) using the SAMConnectionHandle. Handles for the keys/certificates, which are
+The following protocol variant is available for this purpose: 
 
-currently available to the eService SAL are returned without additional parameters when CardApplicationPath is called.
+- urn:oid:1.3.162.15480.3.0.14.2 for EAC Version 2 in accordance with [TR-03110], which comprises the following sub-protocols: 
 
-EACSessionInputType:
+   - Password Authenticated Connection Establishment (PACE) in accordance with [TR-03110] 
 
-**•** AcceptedEIDType [string, 0..\*] (OPTIONAL)
+   - Chip Authentication version 2 or version 3 (CA) in accordance with [TR-03110] 
 
-This parameter MAY be used to explicitly specify the accepted eID types. The elements contain string literals to identify accepted eID types as defined in Section 4 of [TR-03159]. If no AcceptedEIDType element is present, the list CardCertified, SECertified and SEEndorsed is assumed.
+   - Terminal Authentication version 2 (TA) in accordance with [TR-03110] 
 
-**•** RequiredAge [positiveInteger, 0..1] (OPTIONAL)
+   - Restricted Identification (RI) in accordance with [TR-03110] 
 
-MAY be used for age verification with a specific minimum age. If this element is missing, the age is not verified. This element is converted by the Server SAL into the format required for the ICC (cf. [TR-03110], Part 3). If the age verification process fails, a warning is returned in the AgeVerification element explained below (.../sal/mEAC#AgeVerificationFailedWarning).
+## 2.1.1 EAC protocol specification 
 
-**•** RequiredCommunity [string, 0..1] (OPTIONAL)
+The Extended Access Control (EAC) protocol is specified in the following sections: 
 
-MAY be used to check whether the citizen is affiliated with a certain municipality. If the community affiliation process fails, a warning is returned in the CommunityVerification element explained below (.../sal/mEAC#CommunityVerificationFailedWarning). If this element is missing, the citizenship is not checked.
+- Marker 
 
-**•** VerifyDocumentValidity [boolean, 0..1] (OPTIONAL)
+- Call and return of CardApplicationStartSession 
 
-MAY specify whether the current document validity will be checked. If this element is missing or FALSE, the document validity is not checked. This element is converted by the Server SAL into the format required for the ICC (cf. [TR-03110], Part 3). If the document validity check fails, the warning (.../sal/mEAC#DocumentValidityVerificationFailed) is returned.
+- Overview of EAC protocol sequence 
 
-**•** PerformRestrictedIdentification [boolean, 0..1] (OPTIONAL)
+- Phase 1 - Extended PACE protocol 
 
-MAY specify whether the sector-specific pseudonym is to be calculated once the trustworthy channel has been established between the Server and ICC with the Restricted Identification protocol.
+- Phase 2 - Combination of Terminal and Chip Authentication 
 
-**•** RequiredCHAT [hexBinary, 0..1] (OPTIONAL)
+- Secure messaging with APDU batches 
 
-If the Server does not want to use the full access rights provided by the CHAT of the addressed certificate or leave it up to the configuration of the Server-SAL, it MAY explicitly specify the required CHAT here.
+## 2.1.2 Marker 
 
-**•** OptionalCHAT [hexBinary, 0..1] (OPTIONAL)
+## [section unchanged] 
 
-In a similar manner the Server MAY specify optional access rights.
+## 2.1.3 Call and return of CardApplicationStartSession 
 
-**•** DataSetToBeRead [DataSetNameType, 0..\*] (OPTIONAL)
+The protected channel to the card by means of EAC is established by requesting 
 
-In order to minimise the number of messages which have to be sent via the network, it is possible to send the necessary APDUs for the Restricted Identification protocol together with the APDUs for the data readout in one single Transmit request. To allow this, the data groups which are to be read out must be specified when invoking
+CardApplicationStartSession with a corresponding DID for the EAC protocol. In this context the DIDName refers to the DID on the ICC with the marker structure defined in Section 2.1.2. The AuthenticationProtocolData are of type EACSessionInputType explained in more detail below, through which the optional test sequences for age verification, document validity and municipality citizenship MAY be specified and / or the generation of a sector-specific pseudonym MAY be requested. 
 
-CardApplicationStartSession, with one DataSetToBeRead element available for each data set to be read out.
+If required, a differentiation MAY also be made between different eService keys (with different certificates and authorisations) using the SAMConnectionHandle. Handles for the keys/certificates, which are 
 
-**•** TransactionInfo [string, 0..1] (OPTIONAL)
+Federal Office for Information Security 
 
-This element MAY contain transaction-related information, which MUST be displayed in the eID-PIN dialogue before the PACE-protocol is performed.
+6 
 
-In response to the CardApplicationStartSession request, a CardApplicationStartSessionResponse is returned with AuthenticationProtocolData of the EACSessionOutputType:
+ISO/IEC 24727 protocols 2 
 
-**•** UsedEIDType [string, 0..1] (CONDITIONAL)
+currently available to the eService SAL are returned without additional parameters when CardApplicationPath is called. 
 
-MUST contain a string defined in Section 4 of [TR-03159] specifying the eID type actually used for authentication, if an AcceptedEIDType element was present in EACSessionInputType.
+## EACSessionInputType: 
 
-**•** AgeVerification [anyURI, 0..1] (CONDITIONAL)
+- AcceptedEIDType [string, 0..*] 
 
-If a RequiredAge element was transferred on invocation, the result of the age verification is returned in this element. If the check was successful, the returned URI is .../resultmajor#ok, whereas the error code returned if the age verification failed is .../ sal/EAC#AgeVerificationFailedWarning.
+(OPTIONAL) 
 
-**•** CommunityVerification [anyURI, 0..1] (CONDITIONAL)
+This parameter MAY be used to explicitly specify the accepted  eID types. The elements contain string literals to identify accepted eID types as defined in Section 4 of [TR-03159]. If no AcceptedEIDType element is present, the list CardCertified, SECertified and SEEndorsed is assumed. 
 
-If a RequiredCommunity element was transferred on invocation, the result of the citizenship check is returned in this element. If the check was successful, the returned URI is .../resultmajor#ok, whereas the error code returned if the citizenship check failed is
+- RequiredAge [positiveInteger, 0..1] 
 
-- .../sal/EAC#CommunityVerificationFailedWarning.
-- **•** DocumentValidityVerification [anyURI, 0..1] (CONDITIONAL)
+(OPTIONAL) 
 
-If the document validity check was requested with the VerifyDocumentValidity element, which is assigned the status True, the result of this check is returned in this element. If the check is successful, the returned URI is .../resultmajor#ok, whereas the error code .../ sal/EAC#DocumentValidityVerificationFailed is returned if the document validity check fails.
+MAY be used for age verification with a specific minimum age. If this element is missing, the age is not verified. This element is converted by the Server SAL into the format required for the ICC (cf.  [TR-03110], Part 3). If the age verification process fails, a warning is returned in the AgeVerification element explained below 
 
-**•** SectorSpecificIdentifier [hexBinary, 0..1] (CONDITIONAL)
+   - (.../sal/mEAC#AgeVerificationFailedWarning). 
 
-If the PerformRestrictedIdentification element was used to request the calculation of the sector-specific pseudonym, this is returned here.
+- RequiredCommunity [string, 0..1] 
 
-**•** DataSet [0..\*] (CONDITIONAL)
+(OPTIONAL) 
 
-In response to each DataSet request either its content or an error message, indicating that readout was unsuccessful is returned. The precise structure of this element is explained in detail below.
+MAY be used to check whether the citizen is affiliated with a certain municipality. If the community affiliation process fails, a warning is returned in the CommunityVerification element explained below (.../sal/mEAC#CommunityVerificationFailedWarning). If this element is missing, the citizenship is not checked. 
 
-**◦** DataSetName [DataSetNameType] (REQUIRED)
+- VerifyDocumentValidity [boolean, 0..1] 
 
-Contains the name of the DataSet.
+(OPTIONAL) 
 
-**◦** dss:Result [] (REQUIRED)
+MAY specify whether the current document validity will be checked. If this element is missing or FALSE, the document validity is not checked. This element is converted by the Server SAL into the format required for the ICC (cf.  [TR-03110], Part 3). If the document validity check fails, the warning (.../sal/mEAC#DocumentValidityVerificationFailed) is returned. 
 
-Contains the result of the request. If the DataSet readout was successful, the URI returned in the ResultMajor element is .../resultmajor#ok. If the process fails, the URI returned in the ResultMajor element is .../resultmajor#error and, in addition, further details are returned in the ResultMinor element as to the cause of the error, distinguishing between the following cases:
+- PerformRestrictedIdentification [boolean, 0..1] 
 
-8 Federal Office for Information Security
+(OPTIONAL) 
 
-- **▪** .../resultminor/sal/unknownDataSetName
-- **▪** .../resultminor/sal/securityConditionsNotSatisfied
-- **▪** .../resultminor/sal/prerequisitesNotSatisfied
+MAY specify whether the sector-specific pseudonym is to be calculated once the trustworthy channel has been established between the Server and ICC with the Restricted Identification protocol. 
 
-```
-◦ DSI [0..*] (CONDITIONAL)
-```
-Is available once for each Data Structure for Interoperability contained in the DataSet. See below for details.
+- RequiredCHAT [hexBinary, 0..1] 
 
-**▪** DSIName [DSINameType] (REQUIRED)
+(OPTIONAL) 
 
-Contains the name of the Data Structure for Interoperability (DSI).
+If the Server does not want to use the full access rights provided by the CHAT of the addressed certificate or leave it up to the configuration of the Server-SAL, it MAY explicitly specify the required CHAT here. 
 
-**▪** Dss:Result [] (REQUIRED)
+- OptionalCHAT [hexBinary, 0..1] 
 
-Contains the result of the request. If the DSI readout was successful, the message returned in the ResultMajor element is /.../resultmajor#ok. If the process fails, the message returned in the ResultMajor element is
+(OPTIONAL) 
 
-.../resultmajor#error and, in addition, further details are returned in the ResultMinor element as to the cause of the error, distinguishing between the following cases:
+In a similar manner the Server MAY specify optional access rights. 
 
-- **•** .../resultminor/sal/unknownDSIName
-- **•** .../resultminor/sal/prerequisitesNotSatisfied
-- **•** .../resultminor/sal/securityConditionsNotSatisfied
-- **▪** DSIContent [hexBinary, 0..1] (CONDITIONAL)
+- DataSetToBeRead [DataSetNameType, 0..*] 
 
-The content of the DSI is returned here if the process is successful.
+(OPTIONAL) 
 
-### 2.1.4 Overview of EAC protocol sequence
+In order to minimise the number of messages which have to be sent via the network, it is possible to send the necessary APDUs for the Restricted Identification protocol together with the APDUs for the data readout in one single Transmit request. To allow this, the data groups which are to be read out must be specified when invoking 
 
-<span id="page-9-0"></span>The sequence between both SAL instances after invocation of CardApplicationStartSession on the eService SAL is shown in [1](#page-9-0).
+CardApplicationStartSession, with one DataSetToBeRead element available for each data set to be read out. 
 
-#### 2.1.4.1 Phase 1 - Extended PACE protocol
+Federal Office for Information Security 
 
-The eService-SAL invokes DIDAuthenticate with the DIDName provided for PACE (cf. PACEDID element in Section [2.1.2\)](#page-5-0) and AuthenticationProtocolData of the EAC1InputType explained in more detail below.
+7 
 
-The eService certificate, the corresponding DV certificate and additional link certificates are transferred in this process and MAY be verified by the client SAL. If the verification fails, the user MUST be informed accordingly and the authentication protocol MUST be aborted.
+2 ISO/IEC 24727 protocols 
 
-The DIDAuthenticate-message also contains corresponding certificate descriptions (see specification of the ASN.1-based CertificateDescription structure in [TR-03110], Part 3), information about the required and optional Card Holder Authorization Template (CHAT) (RequiredCHAT and OptionalCHAT), the AuthenticatedAuxiliaryData prepared for the chip and additional TransactionInfo, if required.
+- TransactionInfo [string, 0..1] 
 
-The file EF.CardAccess is read out and, following the PACE protocol process, the challenge for the Terminal Authentication is requested from the chip.
+(OPTIONAL) 
 
-![](_page_9_Figure_8.jpeg)
+This element MAY contain transaction-related information, which MUST be displayed in the eID-PIN dialogue before the PACE-protocol is performed. 
 
-*Figure 1: Message Sequence after CardApplicationStartSession(EACSession)*
+In response to the CardApplicationStartSession request, a 
 
-The data described are returned in the AuthenticationProtocolData of type EAC1OutputType, which is explained in more detail below. If this process is successful the ASN.1-encoded SecurityInfo structure from EF.CardAccess and the "card identity" *ID ICC* (see [TR-03110], Part 2) is returned.
+CardApplicationStartSessionResponse is returned with AuthenticationProtocolData of the EACSessionOutputType: 
 
-If the CertificateHolderAuthorizationTemplate (CHAT) has been further restricted by the user it will be returned. If the client SAL has not been able to build a ICC-verifiable certificate chain there will be up to two CertificationAuthorityReference elements, which specify the root keys that are available for the certificate verification on the ICC. The SecurityInfos structure from the EF.CardAccess file contains the domain parameters which are used in the next step to generate a fresh key pair.
+- UsedEIDType [string, 0..1] (CONDITIONAL) 
 
-EAC1InputType:
+MUST contain a string defined in Section 4 of [TR-03159] specifying the eID type actually used for authentication, if an AcceptedEIDType element was present in EACSessionInputType. 
 
-**•** AcceptedEIDType [string, 0..\*] (OPTIONAL)
+- AgeVerification [anyURI, 0..1] (CONDITIONAL) 
 
-This parameter MAY be used to explicitly specify the accepted eID types. The elements contain string literals to identify accepted eID types as defined in Section 4 of [TR-03159]. If no AcceptedEIDType element is present, the list CardCertified, SECertified and SEEndorsed is assumed.
+If a RequiredAge element was transferred on invocation, the result of the age verification is returned in this element. If the check was successful, the returned URI is .../resultmajor#ok, whereas the error code returned if the age verification failed is .../ sal/EAC#AgeVerificationFailedWarning. 
 
-**•** Certificate [hexBinary, 1..\*] (REQUIRED)
+- CommunityVerification [anyURI, 0..1] 
 
-MUST contain exactly one eService certificate and the corresponding DV certificate. Additional link-certificates MAY be included. The eService SAL SHOULD include all link-certificates known to the eService.
+(CONDITIONAL) 
 
-The client SAL MAY pre-verify the eService certificate according to [TR-03110], Part 3, before display. In this case the client SAL MUST maintain trust point(s) according to [TR-03110], Part 3 (the role of MRTD chip must be performed by the client SAL). This includes secure storage of the trust point(s) and update of trust point(s) according to the rules in [TR-03110], Part 3. If the verification fails, the user MUST be informed accordingly and the authentication protocol MUST be aborted.
+If a RequiredCommunity element was transferred on invocation, the result of the citizenship check is returned in this element. If the check was successful, the returned URI is .../resultmajor#ok, whereas the error code returned if the citizenship check failed is .../sal/EAC#CommunityVerificationFailedWarning. 
 
-**•** CertificateDescription [hexBinary] (REQUIRED)
+- DocumentValidityVerification [anyURI, 0..1] 
 
-The client SAL MUST check that exactly one CertificateDescription-element is present and MUST display the content of this element in a suitable manner before capturing the PIN and performing the PACE-protocol.
+(CONDITIONAL) 
 
-**•** RequiredCHAT [hexBinary, 0..1] (OPTIONAL)
+If the document validity check was requested with the VerifyDocumentValidity element, which is assigned the status True, the result of this check is returned in this element. If the check is successful, the returned URI is .../resultmajor#ok, whereas the error code .../ sal/EAC#DocumentValidityVerificationFailed is returned if the document validity check fails. 
 
-Specifies the data, which are required by the Server.
+- SectorSpecificIdentifier [hexBinary, 0..1] (CONDITIONAL) 
 
-If the full rights specified in the certificate are not supposed to be used, a CHAT already restricted by the Server MAY be transferred to the client SAL. It SHOULD be possible, applying the principle of data-minimization, to configure the Server SAL to dictate which CHAT is transferred with which certificates and in which cases.
+If the PerformRestrictedIdentification element was used to request the calculation of the sector-specific pseudonym, this is returned here. 
 
-**•** OptionalCHAT [hexBinary, 0..1] (OPTIONAL)
+- DataSet [0..*] (CONDITIONAL) 
 
-Specifies the data, which are requested by the Server, but which transmission may be supressed by the user.
+In response to each DataSet request either its content or an error message, indicating that readout was unsuccessful is returned. The precise structure of this element is explained in detail below. 
 
-**•** AuthenticatedAuxiliaryData [hexBinary, 0..1] (OPTIONAL)
+|**◦**|DataSetName [DataSetNameType]<br>(REQUIRED)|DataSetName [DataSetNameType]<br>(REQUIRED)|
+|---|---|---|
+||Contains the name of theDataSet.||
+|**◦**|dss:Result []<br>(REQUIRED)||
+||Contains the result of the request. If theDataSetreadout was successful, the URI||
+||returned in theResultMajorelement is.../resultmajor#ok. If the process fails, the||
+||URI returned in theResultMajorelement is.../resultmajor#errorand, in||
+||addition, further details are returned in theResultMinorelement as to the cause of the||
+||error, distinguishing between the following cases:||
 
-MAY contain additional data which are used to check the validity of the card, verify the age or check municipality citizenship. These data MUST be relayed in the form specified in [TR-03110], Part 3. For each piece of data transmitted for additional verification after successful Terminal Authentication, a Verify command is requested (e.g. with OID 0.4.0.127.0.7.3.1.4.1
 
-(id-auxiliaryData-1) for age verification, with 0.4.0.127.0.7.3.1.4.2 (id-auxiliaryData-2) for the document validity check or with 0.4.0.127.0.7.3.1.4.3 (id-auxiliaryData-3) to check municipality citizenship, cf. also [TR-03110], Part 3.
 
-**•** TransactionInfo [string, 0..1] (OPTIONAL)
+Federal Office for Information Security 
 
-This element MAY contain transaction-related information, which MUST be displayed in the eID-PIN dialogue before the PACE-protocol is performed.
+8 
 
-A DIDAuthenticateResponse element with AuthenticationProtocolData of type EAC1OutputType is returned in response to this request:
+ISO/IEC 24727 protocols 2 
 
-**•** CertificateHolderAuthorizationTemplate [hexBinary, 0..1]
+- .../resultminor/sal/unknownDataSetName 
 
-(CONDITIONAL)
+||**▪**|.../resultminor/sal/unknownDataSetName|
+|---|---|---|
+||**▪**|.../resultminor/sal/securityConditionsNotSatisfied|
+||**▪**|.../resultminor/sal/prerequisitesNotSatisfied|
+|**◦**|DSI [0..*]<br>(CONDITIONAL)||
+||Is available once for each Data Structure for Interoperability contained in theDataSet.||
+||See|below for details.|
+||**▪**|DSIName [DSINameType]<br>(REQUIRED)|
+|||Contains the name of the Data Structure for Interoperability (DSI).|
+||**▪**|Dss:Result []<br>(REQUIRED)|
+|||Contains the result of the request. If the DSI readout was successful, the message|
+|||returned in theResultMajorelement is/.../resultmajor#ok. If the process|
+|||fails, the message returned in theResultMajorelement is|
+|||.../resultmajor#errorand, in addition, further details are returned in the|
+|||ResultMinorelement as to the cause of the error, distinguishing between the|
+|||following cases:|
+|||**•**<br>.../resultminor/sal/unknownDSIName|
+|||**•**<br>.../resultminor/sal/prerequisitesNotSatisfied|
+|||**•**<br>.../resultminor/sal/securityConditionsNotSatisfied|
+||**▪**|DSIContent [hexBinary, 0..1]<br>(CONDITIONAL)|
+|||The content of the DSI is returned here if the process is successful.|
 
-If the user has imposed further restrictions on the CHAT transmitted by the Server, such that the actual access rights do not correspond with the access rights which might potentially ensue from the certificate, the Server SAL MUST be informed of the CHAT restricted by the user in this manner.
 
-**•** CertificationAuthorityReference [string, 0..2] (CONDITIONAL)
 
-As part of the Terminal Authentication the client SAL SHALL build a ICC-verfiable certificate chain from the certificates provided by the Server. The client SAL MAY also use certificates known to the client from other sources (e.g. internal certificate stores) to build a chain. This element MUST be present if the client SAL is not able to build a ICC-verifiable certificate chain. In that case the element contains up to two references to the certification authority, which are provided by the chip (see [TR-03110], Part 3). If two references are returned, the first reference is the more current of the two.
+Federal Office for Information Security 
 
-**•** EFCardAccess [hexBinary] (REQUIRED)
+9 
 
-MUST contain the ASN.1-coded SecurityInfos from the EF.CardAccess file (cf. [TR-03110], Table A.1).
+2 ISO/IEC 24727 protocols 
 
-**•** IDPICC [hexBinary] (REQUIRED)
+## 2.1.4 Overview of EAC protocol sequence 
 
-MUST contain the "card identity" *IDICC*. As stipulated in [TR-03110], Part 2, this involves the compressed ephemeral public key of the ICC in case of PACE. The Server SAL MUST check that this element occurs exactly once.
+The sequence between both SAL instances after invocation of CardApplicationStartSession on the eService SAL is shown in 1. 
 
-**•** Challenge [hexBinary] (REQUIRED)
+## 2.1.4.1 Phase 1 - Extended PACE protocol 
 
-MUST contain the random number generated by the ICC, *rICC,TA*, which is signed by the Server SAL during the Terminal Authentication. The Server SAL MUST check that this element occurs exactly once.
+The eService-SAL invokes DIDAuthenticate with the DIDName provided for PACE (cf. PACEDID element in Section 2.1.2) and AuthenticationProtocolData of the EAC1InputType explained in more detail below. 
 
-#### 2.1.4.2 Phase 2 - Combination of Terminal and Chip Authentication
+The eService certificate, the corresponding DV certificate and additional link certificates are transferred in this process and MAY be verified by the client SAL. If the verification fails, the user MUST be informed accordingly and the authentication protocol MUST be aborted. 
 
-Using the Chip Authentication domain parameters (see SecurityInfo structure above), the eService SAL generates a fresh key pair in the next step, forms an appropriate chain of additionally required certificates and finally, where required, signs the Challenge which has been transmitted.
+The DIDAuthenticate-message also contains corresponding certificate descriptions (see specification of the ASN.1-based CertificateDescription structure in [TR-03110], Part 3), information about the required and optional Card Holder Authorization Template (CHAT) (RequiredCHAT and OptionalCHAT), the AuthenticatedAuxiliaryData prepared for the chip and additional TransactionInfo, if required. 
 
-The eService SAL then invokes DIDAuthenticate for the CADID (cf. Section [2.1.2](#page-5-0)) and relays AuthenticationProtocolData of type EAC2InputType, which is described in more detail below, to the client SAL. In addition to the certificate chain applicable to the ICC, this element contains the newly generated public key EphemeralPublicKey. The certificate chain is verified by the ICC.
+The file EF.CardAccess is read out and, following the PACE protocol process, the challenge for the Terminal Authentication is requested from the chip. 
 
-The signature generated by the terminal (Signature) is checked by means of EXTERNAL AUTHENTICATE. The file EF.CardSecurity is read out and Chip Authentication is executed by invoking MSE:SET AT and GENERAL AUTHENTICATE. The results of these actions (EF.CardSecurity, authentication token and nonce) are returned to the eService SAL in AuthenticationProtocolData of type EAC2OutputType, which is explained in more detail below.
 
-EAC2InputType:
+![](markdown/tr/TR-03112-api_teil7_ergaenzung/TR-03112-api_teil7_ergaenzung.pdf-0010-08.png)
 
-**•** Certificate [hexBinary, 0..\*] (OPTIONAL)
 
-The Certificate element MAY occur any number of times and contains a certificate in each case so that, together with the Server certificate already transmitted, the resulting overall chain is one which is verifiable by the ICC. The sender MUST NOT include an Server certificate. The receiver MUST ignore Server certificates contained in this element. The receiver MAY additionally use certificates known to the receiver to build a complete certificate chain. This element MUST be provided if the element CertificationAuthorityReference in EAC1OutputType is present. If the element CertificationAuthorityReference is not present, the client SAL SHALL build a chain from the certificates transmitted in Phase 1 which is verifiable by the ICC.
+_Figure 1: Message Sequence after CardApplicationStartSession(EACSession)_ 
 
-**•** EphemeralPublicKey [hexBinary] (REQUIRED)
+Federal Office for Information Security 
 
-MUST contain the public key of the key pair newly generated by the Server SAL. The key SHALL be encoded as unsigned integer (DH keys) or elliptic curve point (ECDH keys) according to [TR-03110], Part 3, Appendix D. In case of ECDH keys this implies the uncompressed encoding according to [TR-03111], i.e. including encoding indicator 0x04. The client SAL MUST check that this element occurs exactly once.
+10 
 
-**•** Signature [hexBinary] (REQUIRED)
+ISO/IEC 24727 protocols 2 
 
-MUST contain the signature generated by the Server SAL during Terminal Authentication.
+The data described are returned in the AuthenticationProtocolData of type EAC1OutputType, which is explained in more detail below. If this process is successful the ASN.1-encoded SecurityInfo structure from EF.CardAccess and the “card identity” _ID ICC_ (see [TR-03110], Part 2) is returned. 
 
-AuthenticationProtocolData of type EAC2OutputType are returned in the subsequent DIDAuthenticateResponse:
+If the CertificateHolderAuthorizationTemplate (CHAT) has been further restricted by the user it will be returned. If the client SAL has not been able to build a ICC-verifiable certificate chain there will be up to two CertificationAuthorityReference elements, which specify the root keys that are available for the certificate verification on the ICC. The SecurityInfos structure from the EF.CardAccess file contains the domain parameters which are used in the next step to generate a fresh key pair. 
 
-**•** EFCardSecurity [hexBinary] (REQUIRED)
+## EAC1InputType: 
 
-Contains a SignedData structure in accordance with [RFC3852] which contains the full SecurityInfo structure in the content data (EncapsulatedContentInfo). This signature is checked by the Server SAL during Passive Authentication. The Server SAL MUST check that this element occurs exactly once.
+- AcceptedEIDType [string, 0..*] 
 
-**•** The following elements SHALL be present if and only if Chip Authentication version 2 is used **◦** AuthenticationToken [hexBinary] (CONDITIONAL)
+(OPTIONAL) 
 
-Contains the authentication token (*TICC*). The Server SAL MUST check that this element occurs exactly once.
+This parameter MAY be used to explicitly specify the accepted  eID types. The elements contain string literals to identify accepted eID types as defined in Section 4 of [TR-03159]. If no AcceptedEIDType element is present, the list CardCertified, SECertified and SEEndorsed is assumed. 
 
-**◦** Nonce [hexBinary] (CONDITIONAL)
+- Certificate [hexBinary, 1..*] 
 
-Contains the random number (*rICC,CA*). The Server SAL MUST check that this element occurs exactly once.
+(REQUIRED) 
 
-- **•** The following element SHALL be present if and only if Chip Authentication version 3 is used
-	- **◦** EphemeralPublicKey [hexBinary] (CONDITIONAL)
+MUST contain exactly one eService certificate and the corresponding DV certificate. Additional link-certificates MAY be included. The eService SAL SHOULD include all link-certificates known to the eService. 
 
-MUST contain the public key of the key pair newly generated by the ICC. The key SHALL be encoded as unsigned integer (DH keys) or elliptic curve point (ECDH keys) according to [TR-03110], Part 3, Appendix D. In case of ECDH keys this implies the uncompressed
+The client SAL MAY pre-verify the eService certificate according to [TR-03110], Part 3, before display. In this case the client SAL MUST maintain trust point(s) according  to [TR-03110], Part 3 (the role of MRTD chip must be performed by the client SAL). This includes secure storage of the trust point(s) and update of trust point(s) according to the rules in [TR-03110], Part 3. If the verification fails, the user MUST be informed accordingly and the authentication protocol MUST be aborted. 
 
-encoding according to [TR-03111], i.e. including encoding indicator 0x04. The Server SAL MUST check that this element occurs exactly once.
+- CertificateDescription [hexBinary] (REQUIRED) 
 
-Note: Chip Authentication version 3 comprises two phases, an anonymous Diffie-Helman Key Exchange and a signature of the ICC's key share by the ICC. The above exchange only maps the first phase to AuthenticationProtocolData/DIDAuthenticate. Since Secure Messaging is established after the Key Exchange, the second phase is encapsulated in this Secure Messaging channel, i.e. transmitted using Transmit.
+The client SAL MUST check that exactly one  CertificateDescription-element is present and MUST display the content of this element in a suitable manner before capturing the PIN and performing the PACE-protocol. 
 
-#### 2.1.4.3 Secure messaging with APDU batches
+- RequiredCHAT [hexBinary, 0..1] (OPTIONAL) Specifies the data, which are required by the Server. 
 
-If the signature extracted from EFCardSecurity (Passive Authentication) and the authentication token generated in the Chip Authentication process are verified, the eService SAL MAY then communicate with the ICC via APDUs protected by secure messaging in order to — according to the information requested by means of CardApplicationStartSession — request the generation of the sector-specific pseudonym, perform additional checks or read out certain data stored on the ICC. The APDUs required for this MAY be calculated in advance by the eService SAL and transferred as a batch using the Transmit function from Part 6 of this Guideline via the network to the IFD-Layer on the side of the ICC. The IFD-Layer on the side of the ICC in turn sends the APDUs prepared by the eService SAL to the ICC in sequence and logs the respective response APDUs, which are ultimately sent back to the eService SAL as a collective batch in the TransmitResponse.
+If the full rights specified in the certificate are not supposed to be used, a CHAT already restricted by the Server MAY be transferred to the client SAL. It SHOULD be possible, applying the principle of data-minimization, to configure the Server SAL to dictate which CHAT is transferred with which certificates and in which cases. 
 
-### 2.1.5 DIDCreate, DIDUpdate and DIDGet
+- OptionalCHAT [hexBinary, 0..1] (OPTIONAL) 
 
-[section unchanged]
+Specifies the data, which are requested by the Server, but which transmission may be supressed by the user. 
 
-### 2.1.6 Non-supported functions
+- AuthenticatedAuxiliaryData [hexBinary, 0..1] (OPTIONAL) 
 
-[section unchanged]
+MAY contain additional data which are used to check the validity of the card, verify the age or check municipality citizenship. These data MUST be relayed in the form specified in [TR03110], Part 3. For each piece of data transmitted for additional verification after successful Terminal Authentication, a Verify command is requested (e.g. with OID 0.4.0.127.0.7.3.1.4.1 
 
-### **References**
+Federal Office for Information Security 
 
-| IETF: RFC 3852: R. Housley: Cryptographic message syntax (CMS)                |
-|-------------------------------------------------------------------------------|
-| BSI: Technische Richtlinie TR-03110: Advanced Security Mechanisms for Machine |
-| Readable Travel Documents                                                     |
-| BSI: Technische Richtlinie TR-03111, Elliptic Curve Cryptography (ECC)        |
-| BSI: Technische Richtlinie TR-03159, Mobile Identities                        |
-|                                                                               |
+11 
+
+2 ISO/IEC 24727 protocols 
+
+(id-auxiliaryData-1) for age verification, with 0.4.0.127.0.7.3.1.4.2 (id-auxiliaryData-2) for the document validity check or with 0.4.0.127.0.7.3.1.4.3 (id-auxiliaryData-3) to check municipality citizenship, cf. also [TR-03110], Part 3. 
+
+- TransactionInfo [string, 0..1] 
+
+(OPTIONAL) 
+
+This element MAY contain transaction-related information, which MUST be displayed in the eID-PIN dialogue before the PACE-protocol is performed. 
+
+A DIDAuthenticateResponse element with AuthenticationProtocolData of type EAC1OutputType is returned in response to this request: 
+
+- CertificateHolderAuthorizationTemplate [hexBinary, 0..1] 
+
+(CONDITIONAL) 
+
+If the user has imposed further restrictions on the CHAT transmitted by the Server, such that the actual access rights do not correspond with the access rights which might potentially ensue from the certificate, the Server SAL MUST be informed of the CHAT restricted by the user in this manner. 
+
+- CertificationAuthorityReference [string, 0..2] 
+
+(CONDITIONAL) 
+
+As part of the Terminal Authentication the client SAL SHALL build a ICC-verfiable certificate chain from the certificates provided by the Server. The client SAL MAY also use certificates known to the client from other sources (e.g. internal certificate stores) to build a chain. This element MUST be present if the client SAL is not able to build a ICC-verifiable certificate chain. In that case the element contains up to two references to the certification authority, which are provided by the chip (see [TR-03110], Part 3). If two references are returned, the first reference is the more current of the two. 
+
+- EFCardAccess [hexBinary] (REQUIRED) 
+
+MUST contain  the ASN.1-coded SecurityInfos from the EF.CardAccess file (cf. [TR03110], Table A.1). 
+
+- IDPICC [hexBinary] (REQUIRED) 
+
+MUST contain the “card identity” _IDICC_ . As stipulated in [TR-03110], Part 2, this involves the compressed ephemeral public key of the ICC in case of PACE. The Server SAL MUST check that this element occurs exactly once. 
+
+- Challenge [hexBinary] 
+
+(REQUIRED) 
+
+MUST contain the random number generated by the ICC, _rICC,TA_ , which is signed by the Server SAL during the Terminal Authentication. The Server SAL MUST check that this element occurs exactly once. 
+
+## 2.1.4.2 Phase 2 - Combination of Terminal and Chip Authentication 
+
+Using the Chip Authentication domain parameters (see SecurityInfo structure above), the eService SAL generates a fresh key pair in the next step, forms an appropriate chain of additionally required certificates and finally, where required, signs the Challenge which has been transmitted. 
+
+The eService SAL then invokes DIDAuthenticate for the CADID (cf. Section 2.1.2) and relays AuthenticationProtocolData of type EAC2InputType, which is described in more detail below, to the client SAL. In addition to the certificate chain applicable to the ICC, this element contains the newly generated public key EphemeralPublicKey. The certificate chain is verified by the ICC. 
+
+Federal Office for Information Security 
+
+12 
+
+ISO/IEC 24727 protocols 2 
+
+The signature generated by the terminal (Signature) is checked by means of EXTERNAL AUTHENTICATE. The file EF.CardSecurity is read out and Chip Authentication is executed by invoking MSE:SET AT and GENERAL AUTHENTICATE. The results of these actions (EF.CardSecurity, authentication token and nonce) are returned to the eService SAL in AuthenticationProtocolData of type EAC2OutputType, which is explained in more detail below. 
+
+## EAC2InputType: 
+
+- Certificate [hexBinary, 0..*] 
+
+(OPTIONAL) 
+
+The Certificate element MAY occur any number of times and contains a certificate in each case so that, together with the Server certificate already transmitted, the resulting overall chain is one which is verifiable by the ICC. The sender MUST NOT include an Server certificate. The receiver MUST ignore Server certificates contained in this element. The receiver MAY additionally use certificates known to the receiver to build a complete certificate chain. This element MUST be provided if the element CertificationAuthorityReference in EAC1OutputType is present. If the element CertificationAuthorityReference is not present, the client SAL SHALL build a chain from the certificates transmitted in Phase 1 which is verifiable by the ICC. 
+
+- EphemeralPublicKey [hexBinary] 
+
+(REQUIRED) 
+
+   - MUST contain the public key of the key pair newly generated by the Server SAL.  The key SHALL be encoded as unsigned integer (DH keys) or elliptic curve point (ECDH keys) according to [TR-03110], Part 3, Appendix D. In case of ECDH keys this implies the uncompressed encoding according to [TR-03111], i.e. including encoding indicator 0x04. The client SAL MUST check that this element occurs exactly once. 
+
+- Signature [hexBinary] 
+
+(REQUIRED) 
+
+MUST contain the signature generated by the Server SAL during Terminal Authentication. 
+
+AuthenticationProtocolData of type EAC2OutputType are returned in the subsequent DIDAuthenticateResponse: 
+
+- EFCardSecurity [hexBinary] (REQUIRED) 
+
+Contains a SignedData structure in accordance with [RFC3852] which contains the full SecurityInfo structure in the content data (EncapsulatedContentInfo). This signature is checked by the Server SAL during Passive Authentication. The Server SAL MUST check that this element occurs exactly once. 
+
+- The following elements SHALL be present if and only if Chip Authentication version 2 is used **◦** AuthenticationToken [hexBinary] (CONDITIONAL) 
+
+Contains the authentication token ( _TICC_ ). The Server SAL MUST check that this element occurs exactly once. 
+
+- Nonce [hexBinary] (CONDITIONAL) 
+
+Contains the random number ( _rICC,CA_ ). The Server SAL MUST check that this element occurs exactly once. 
+
+- The following element SHALL be present if and only if Chip Authentication version 3 is used **◦** EphemeralPublicKey [hexBinary] (CONDITIONAL) 
+
+MUST contain the public key of the key pair newly generated by the ICC.  The key SHALL be encoded as unsigned integer (DH keys) or elliptic curve point (ECDH keys) according to [TR-03110], Part 3, Appendix D. In case of ECDH keys this implies the uncompressed 
+
+Federal Office for Information Security 
+
+13 
+
+2 ISO/IEC 24727 protocols 
+
+encoding according to [TR-03111], i.e. including encoding indicator 0x04. The Server SAL MUST check that this element occurs exactly once. 
+
+Note: Chip Authentication version 3 comprises two phases, an anonymous Diffie-Helman Key Exchange and a signature of the ICC’s key share by the ICC. The above exchange only maps the first phase to AuthenticationProtocolData/DIDAuthenticate. Since Secure Messaging is established after the Key Exchange, the second phase is encapsulated in this Secure Messaging channel, i.e. transmitted using Transmit. 
+
+## 2.1.4.3 Secure messaging with APDU batches 
+
+If the signature extracted from EFCardSecurity (Passive Authentication) and the authentication token generated in the Chip Authentication process are verified, the eService SAL MAY then communicate with the ICC via APDUs protected by secure messaging in order to — according to the information requested by means of CardApplicationStartSession — request the generation of the sector-specific pseudonym, perform additional checks or read out certain data stored on  the ICC. The APDUs required for this MAY be calculated in advance by the eService SAL and transferred as a batch using the Transmit function from Part 6 of this Guideline via the network to the IFD-Layer on the side of the ICC. The IFDLayer on the side of the ICC in turn sends the APDUs prepared by the eService SAL to the ICC in sequence and logs the respective response APDUs, which are ultimately sent back to the eService SAL as a collective batch in the TransmitResponse. 
+
+## 2.1.5 DIDCreate, DIDUpdate and DIDGet 
+
+[section unchanged] 
+
+## 2.1.6 Non-supported functions 
+
+[section unchanged] 
+
+Federal Office for Information Security 
+
+14 
+
+ISO/IEC 24727 protocols 2 
+
+## **References** 
+
+[RFC3852] IETF: RFC 3852: R. Housley: Cryptographic message syntax (CMS) [TR-03110] BSI: Technische Richtlinie TR-03110: Advanced Security Mechanisms for Machine Readable Travel Documents [TR-03111] BSI: Technische Richtlinie TR-03111, Elliptic Curve Cryptography (ECC) [TR-03159] BSI: Technische Richtlinie TR-03159, Mobile Identities 
+
+Federal Office for Information Security 
+
+15 
+

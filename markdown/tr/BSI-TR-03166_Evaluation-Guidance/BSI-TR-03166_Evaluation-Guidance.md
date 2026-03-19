@@ -1,1134 +1,1891 @@
-![](_page_0_Picture_0.jpeg)
+## Evaluation Guidance 
 
-# Evaluation Guidance
+## BSI TR-03166 2.0 
 
-BSI TR-03166 Date: 2024-10-16 Version: 1.1
+Version: 2.0 
 
-![](_page_0_Picture_4.jpeg)
+## Document history 
 
-# Document history
+Table 1 Document history 
 
-Table 1 Document history
+|Table 1 Document history||||
+|---|---|---|---|
+|Version|Date|Editor|Description|
+|1.0|2024|BSI||
+|1.1|2024|BSI||
+|2.0 (Draft)|2025|BSI|Adaption of Testing IDs<br>and clarification of<br>terms|
+|2.0|2026|BSI|Errors and<br>inconsistencies solved<br>Added notes and<br>clarifications based on<br>feedback.|
 
-| Version | Date       | Editor | Description   |
-|---------|------------|--------|---------------|
-| 1.1     | 2024-10-16 | BSI    | Final release |
-|         |            |        |               |
-|         |            |        |               |
-|         |            |        |               |
-|         |            |        |               |
-|         |            |        |               |
-|         |            |        |               |
 
-Federal Office for Information Security P.O. Box 20 03 63 53133 Bonn E-Mail: biometrie@bsi.bund.de Internet: https://www.bsi.bund.de © Federal Office for Information Security 2024
 
-| 1 |       | Introduction 4                                                                                                                               |    |
-|---|-------|----------------------------------------------------------------------------------------------------------------------------------------------|----|
-|   | 1.1   | Presentation Attack Instrument (PAI) Overview 4                                                                                              |    |
-|   | 1.1.1 | Modality Face  5                                                                                                                             |    |
-|   | 1.1.2 | Modality Finger 6                                                                                                                            |    |
-| 2 |       | Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms 7                                                               |    |
-|   | 2.1   | Documentation 7                                                                                                                              |    |
-|   | 2.2   | Initial Functional Test of the Biometric System 7                                                                                            |    |
-|   | 2.3   | Pre-Evaluation Process 8                                                                                                                     |    |
-|   | 2.3.1 | Modality Face  8                                                                                                                             |    |
-|   | 2.3.2 | Modality Finger12                                                                                                                            |    |
-| 3 |       | Evaluation Phase and Test Cases19                                                                                                            |    |
-|   | 3.1   | Biometric Performance Evaluation 19                                                                                                          |    |
-|   | 3.1.1 | Expected Result of the Biometric Performance Evaluation21                                                                                    |    |
-|   | 3.2   | Presentation Attack Detection Evaluation 21                                                                                                  |    |
-|   | 3.2.1 | Evaluation Metric 21                                                                                                                         |    |
-|   | 3.2.2 | Minimal Test Coverage 22                                                                                                                     |    |
-|   | 3.2.3 | Expected Result for the Presentation Attack Detection Evaluation22                                                                           |    |
-| 4 |       | Material List Including Relevant Technologies Covering Different Presentation Attack Instruments (For<br>communication with manufacturer) 23 |    |
-|   | 4.1   | Modality Face23                                                                                                                              |    |
-|   | 4.2   | Modality Finger23                                                                                                                            |    |
-| 5 |       | 25                                                                                                                                           |    |
-|   | 5.1   | Creating Artefacts for the Modality Face25                                                                                                   |    |
-|   | 5.1.1 | PAIs Based on a Frontal Face Image Printout25                                                                                                |    |
-|   | 5.1.2 |                                                                                                                                              | 26 |
-|   | 5.1.3 | PAIs based on 3D-Masks Containing Facial Biometric Characteristics of an Identity27                                                          |    |
-|   | 5.1.4 | Make-up Attack30                                                                                                                             |    |
-|   | 5.2   | Build Artefacts for the Modality Finger31                                                                                                    |    |
-|   | 5.2.1 | Recommend Materials and Tools31                                                                                                              |    |
-|   | 5.2.2 | Source Information 32                                                                                                                        |    |
-|   | 5.3   | Apply the Artefact to the TOE34                                                                                                              |    |
-| 6 |       | Appendix: Minimal Information Requirements of a Testing Report 35                                                                            |    |
-| 7 |       | Bibliography38                                                                                                                               |    |
+Federal Office for Information Security P.O. Box 20 03 63 53133 Bonn E-Mail: biometrie@bsi.bund.de Internet: https://www.bsi.bund.de © Federal Office for Information Security 2026 
 
-# <span id="page-3-0"></span>1 Introduction
+Table of Contents 
 
-This document describes the evaluation process for biometric systems within the BSI TR-03166, currently supporting the modalities face and finger.
+## Table of Contents 
 
-The certification process itself consists of two parts covering the biometric performance of the system and the resistance against defined Presentation Attack Instruments (PAIs) or attack potentials as defined by the Common Criteria Evaluation Methodology (CEM) (1).
+|1|Introduction ............................................................................................................................................................................................ 4|Introduction ............................................................................................................................................................................................ 4|
+|---|---|---|
+||1.1|Presentation Attack Instrument (PAI) Overview ........................................................................................................ 5|
+||1.1.1|Modality Face ......................................................................................................................................................................... 5|
+||1.1.2|Modality Finger ..................................................................................................................................................................... 6|
+|2|Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms (Normative) ................... 7||
+||2.1|Documentation ........................................................................................................................................................................... 7|
+||2.2|Initial Functional Test of the Biometric System ......................................................................................................... 7|
+||2.3|Pre-Evaluation Process ........................................................................................................................................................... 8|
+||2.3.1|Modality Face ......................................................................................................................................................................... 9|
+||2.3.2|Modality Finger ................................................................................................................................................................... 13|
+|3|Evaluation Phase (Normative) ...................................................................................................................................................... 19||
+||3.1|Biometric Performance Evaluation ................................................................................................................................ 19|
+||3.1.1|[BAL-1] Biometric Assurance Level 1 ........................................................................................................................ 19|
+||3.1.2|[BAL-2] Biometric Assurance Level 2 ........................................................................................................................ 20|
+||3.1.3|[BAL-3] Biometric Assurance Level 3 ........................................................................................................................ 21|
+||3.2|Presentation Attack Detection Evaluation .................................................................................................................. 22|
+||3.2.1|Evaluation Metric ............................................................................................................................................................... 22|
+||3.2.2|Fixed Time Methodology: Pre-Evaluation and PAD-Evaluation ................................................................ 24|
+||3.2.3|Minimal Test Coverage .................................................................................................................................................... 25|
+||3.2.4|Expected Result for the Presentation Attack Detection Evaluation ........................................................... 27|
+|4|Material List Including Relevant Technologies Covering Different Presentation Attack Instruments||
+|(Informative) ................................................................................................................................................................................................... 28|||
+||4.1|Modality Face ............................................................................................................................................................................. 28|
+||4.2|Modality Finger ........................................................................................................................................................................ 28|
+|5|Append<br>.......................................... 30||
+||5.1|Creating Artefacts for the Modality Face ...................................................................................................................... 30|
+||5.1.1|PAIs Based on a Frontal Face Image Printout ....................................................................................................... 30|
+||5.1.2|.......... 31|
+||5.1.3|PAIs based on 3D-Masks Containing Facial Biometric Characteristics of an Identity ...................... 32|
+||5.1.4|Make-up Attack ................................................................................................................................................................... 35|
+||5.2|Build Artefacts for the Modality Finger ........................................................................................................................ 36|
+||5.2.1|Recommend Materials and Tools ............................................................................................................................... 36|
+||5.2.2|Source Information ........................................................................................................................................................... 37|
+||5.3|Apply the Artefact to the TOE ............................................................................................................................................ 39|
+|6|Appendix: Minimal Information Requirements of a Testing Report ........................................................................ 40||
+|7|Bibliography .......................................................................................................................................................................................... 43||
 
-This document does not specify new methods for the performance evaluation, rather international standards shall be used. The applied standards shall be justified by the evaluator and must be harmonized with the standard used by the manufacturer of the Target of Evaluation (TOE). Nevertheless, this document summarizes some key points for the biometric performance testing described by the ISO/IEC 19795-series.
 
-Content of this toolbox is a brief description of a Presentation Attack Detection (PAD) pre-evaluation, where the evaluator creates initial PAI with the aim to create, from the given material characteristics / properties, artefacts with the highest potential to successfully circumvent the PAD and to be recognized as a valid biometric verification / authentication. In addition, the evaluator should gain knowledge about the TOE to reduce the probability of failed authentication processes due to insufficient knowledge about the TOE and how to present artefacts in a suitable manner.
 
-setting. This could be for example the image resolution to capture a biometric image or the printing quality of the PAI. Due to the variety of devices and materials (e.g. printer, ink and paper) this document does not define specific brands or models / types of products. Instead, general requirements dealing with the artefact e and knowledge of biometric systems.
+Federal Office for Information Security 
 
-The overall intention of this toolbox is to cover state-of-the-art artefacts, published via legal and public sources, for evaluating the robustness against presentation attacks on fingerprint scanners and face recognition systems. In contrast to other established standards, this evaluation is based on the premise that an attacker is in possession of the best data to create biometric artefacts and to attack the biometric system on the sensor level. This assumption is con fact, that there is a huge number of potential materials, mixtures and variations for creating presentation attack instruments and that in general it is relatively easy to capture fingerprints and faces in many different ways and manufacture artefacts that produce high quality presentation attack instruments. Hence, in order to have a realistic chance to discover the vulnerabilities of a biometric system with a reasonable and practicable amount of effort, the evaluation should use the best available representations of each artefact species.
+3 
 
-In particular, that includes for fingerprint artefacts using direct casts or other means to acquire similar quality fingerprints as the basis for manufacturing artefacts in contrast to using latent fingerprints, which quality data and essentially reduce the comparability between evaluations. In terms of face recognition, this means that an evaluator should use face images with the quality of biometric frontal face images and 3D face data with the best possible quality e.g. acquired via photogrammetry.
+1 Introduction 
 
-In conformance to the main document of the technical guideline BSI TR-03166 (2), only attacks with PAIs are part of the evaluation. The present discussions of video-injection attacks or attacks other than Presentation Attacks (PA) are not part of this evaluation, but may be discussed and evaluated in the context of resistance against high attack potentials.
+## 1 Introduction 
 
-# <span id="page-3-1"></span>1.1 Presentation Attack Instrument (PAI) Overview
+This document serves as a supporting document to BSI TR-03166 for product manufacturers and as the testing specification for evaluations laboratories. Within this document best practices and guidelines are formulated for the currently covered biometric modalities fingerprint and face. 
 
-The following subsection gives a general overview of the PAI Classes considered for the functional testing of the TOE. Exemplary materials, their properties and further possible modifications, for the modalities face
+The evaluation process itself consists of two parts covering the biometric performance of the system and the resistance against defined Presentation Attack Instruments (PAIs) or attack potentials as defined by the Common Criteria Evaluation Methodology (CEM) [1]. 
 
-and finger are summarized in [Table 2](#page-4-1) and [Table 3](#page-5-1). This overview does not cover all possible PAI classes, materials with their different material properties or potential modifications of the created PAI. In conformance with the technical guideline an evaluator is free in his decision to create PAIs within the BALs attack potential resistance.
+This document does not specify new methods for the performance evaluation, but uses international standards. In particular to evaluate the biometric performance of a biometric system several different assumptions and methods are standardised, e.g., for the composition of the test crew or the crew size to prove the biometric performance of the system. 
 
-### <span id="page-4-0"></span>1.1.1 Modality Face
+Content of this document is a brief description of a Presentation Attack Detection (PAD) pre-evaluation, where the evaluator creates initial PAI with the aim to create, from the given material characteristics / properties, artefacts with the highest potential to successfully circumvent the PAD and to pass as a valid biometric verification / authentication. In addition, the evaluator gains knowledge about the Target of Evaluation (TOE) to reduce the probability of failed authentication processes e.g., by knowing how to present artefacts in a suitable manner to the TOE. The pre-evaluation process is designed with the intention to reduce the impact by the differences in skills between evaluators on the evaluation results (limited attempts per artefact). In addition, this attempt supports our claim that the TOE is tested within the certification and not only the skill and experience of an evaluator. 
 
-<span id="page-4-1"></span>Table 2 Overview of PAI Classes for the Modality Face
+Further, this document defines best practices setting. This could be for example the image resolution to capture a biometric image or the printing quality of the PAI. Due to the variety of devices and materials (e.g., printer, ink and paper) this document does not define specific brands or models / types of products. Instead, general requirements and best practices systems. 
 
-| PAI Class                               | Materials / Material Properties                                                      | Modifications                                                                                                                                                                                                              |
-|-----------------------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Printed Photo of a<br>Face              | Printer type<br>•<br>Printing stocks<br>•<br>Size<br>•                               | Cut outs<br>•<br>Source image manipulation /<br>•<br>modification<br>Full / partial faces<br>•                                                                                                                             |
-| Display to Present the<br>Modality Face | Display technology<br>•<br>Display size<br>•<br>Framerate<br>•<br>Pixel density<br>• | Static (Images)<br>•<br>Dynamic<br>•<br>Video (recorded or from other public<br>•<br>source)<br>•<br>software<br>Image / video manipulation /<br>•<br>modification<br>Projection surface<br>•<br>Full / partial faces<br>• |
-| 3D-Masks                                | Printer type / technology<br>•<br>Material<br>•                                      | Cut outs<br>•<br>Colouring<br>•<br>Image texture<br>•<br>Full / partial faces<br>•                                                                                                                                         |
-| Non-permanent make<br>up                | Different brands<br>•<br>Different Colour Schemes<br>•                               | Face abstraction<br>•                                                                                                                                                                                                      |
+The overall intention of this document is to cover state-of-the-art artefacts, published via legal and public sources, for evaluating the robustness against presentation attacks on fingerprint scanners and face recognition systems. In contrast to other established standards, this evaluation is based on the premise that an attacker is in possession of the best data to create biometric artefacts and to attack the biometric system - that there is a huge number of potential materials, mixtures and variations for creating presentation attack instruments and that it is relatively easy in general to capture fingerprints and faces in many different ways and manufacture artefacts that produce high quality presentation attack instruments. Hence, in order to have a realistic chance to discover the vulnerabilities of a biometric system with a reasonable and practicable amount of effort, the evaluation uses the best available representations of each artefact species. 
 
-# <span id="page-5-0"></span>1.1.2 Modality Finger
+In particular, for fingerprint artefacts that includes using direct casts or other means to acquire similar quality fingerprints as the basis for manufacturing artefacts in contrast to using latent fingerprints, which quality data and essentially reduce the comparability between evaluations. In terms of face recognition, this means that an evaluator uses face images with the quality of biometric frontal face images and 3D face data with the best possible quality e.g., acquired via photogrammetry. 
 
-<span id="page-5-1"></span>Table 3 Overview of PAI Classes for the Modality Finger
+In conformance to the main document of the technical guideline BSI TR-03166 [2], only attacks with PAIs are part of the evaluation. The present discussions of video-injection attacks or attacks other than Presentation Attacks (PA) are not part of this evaluation, but can be possibly discussed and evaluated in the context of resistance against high attack potentials. 
 
-| PAI Class                                        | Materials / Material Properties                                                     | Modifications<br>(for all classes)                                   |
-|--------------------------------------------------|-------------------------------------------------------------------------------------|----------------------------------------------------------------------|
-| Latent Fingermark1                               | base material<br>•                                                                  | additives<br>•                                                       |
-| Printed / Drawn<br>Fingerprint<br>Representation | base material<br>•<br>colour<br>•                                                   |                                                                      |
-| 2<br>-Artefact                                   | direct positive or moulding<br>•<br>technology<br>base material<br>•<br>colour<br>• | artefact thickness<br>•<br>additives<br>•<br>Mixture variations<br>• |
-| 3D-Artefact                                      | direct positive or moulding<br>•<br>technology<br>base material<br>•<br>colour<br>• | (if applicable)                                                      |
+Federal Office for Information Security 
 
-<sup>1</sup> A simple attack method is to utilize the latent fingermark a previous user left on the sensor. The sample quality of fingermarks can be increased by using additives like powders to enhance the contrast.
+4 
 
-<sup>2</sup> The 2D information of fingerprints can also be used to generate so called 2.5D finger artefacts, where the 2D information is used to create a mould to cast fingerprint artefacts.
+1 Introduction 
 
-# <span id="page-6-0"></span>2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms
+## 1.1 Presentation Attack Instrument (PAI) Overview 
 
-# <span id="page-6-1"></span>2.1 Documentation
+The following subsection gives a general overview of the PAI Classes considered for the testing of the TOE via PAIs in front of the device sensor (attack vector 1). Exemplary materials, their properties and further possible modifications, for the modalities face and finger are summarised in Table 2 and Table 3. These overviews do not cover all possible PAI classes, materials with their different material properties or potential modifications of the created PAI. In conformance with the technical guideline an evaluator is free in his decision to create PAIs within the Biometric Assurance Levels (BALs) attack potential resistance. 
 
-For the pre-evaluation of the biometric authentication / verification system the evaluator MUST document:
+## 1.1.1 Modality Face 
 
-• The environment
+Table 2 Overview of PAI Classes for the Modality Face 
 
-Note: The environment may differ from the environment of the biometric performance testing.
+|PAI Class|Materials / Material Properties|Modifications|
+|---|---|---|
+|Printed Photo of a Face|• Printer type<br>• Printing stocks<br>• Size|• Cut outs<br>• Source image manipulation /<br>modification<br>• Full / partial faces|
+|Display to Present the<br>Modality Face|• Display technology<br>• Display size<br>• Framerate<br>• Pixel density|• Static (Images)<br>• Dynamic<br>• Video (recorded or from other public<br>source)<br>•<br>software<br>• Image / video manipulation /<br>modification<br>• Projection surface<br>• Full / partial faces|
+|3D-Masks|• Printer type / technology<br>• Material|• Cut outs<br>• Colouring<br>• Image texture<br>• Full / partial faces|
+|Non-permanent make<br>up|• Different brands<br>• Different Colour Schemes|• Face abstraction|
 
-• The Target of Evaluation including software and hardware version
 
-Note: This information should be identical to the information regarding the system for the biometric performance evaluation, see. Appendix Chapte[r 6.](#page-34-0) During the evaluation of the Presentation Attack Detection capability of the system the evaluator may use different applications, which contain more information e.g. PAD score to perform Hill-Climbing-Attacks.
 
-- PAI preparation and manufacturing processes including tools, materials and methods
-- PAI presentation
+Federal Office for Information Security 
 
-Evaluator Note: The documentation SHALL be in a manner that the BSI is able to reproduce the evaluation including the environment and the artefacts types.
-
-# <span id="page-6-2"></span>2.2 Initial Functional Test of the Biometric System
+5 
 
-The testing facility SHALL evaluate the general functionality of the biometric system by bona fide tests. The environment for enrolment and the biometric authentication / verification SHALL be identical and well documented. The basic functional test SHALL be performed with a sufficiently large number of different identities to cover different aspects of an identity. This list is not complete and open for further aspects.
+1 Introduction 
 
-- Generals Aspects:
-	- Gender
-	- Age
+## 1.1.2 Modality Finger 
 
-- Ethnic groups
-- Skin conditions due to occupation / hobbies / medical conditions
+Table 3 Overview of PAI Classes for the Modality Finger 
 
-Device and biometric modality specific aspects:
+|PAI Class|Materials / Material Properties|Modifications<br>(for all classes)|
+|---|---|---|
+|Latent Fingermark1|• base material|• additives|
+|Printed / Drawn<br>Fingerprint<br>Representation|• base material<br>• colour|• artefact thickness<br>• additives<br>• Mixture variations<br>(if applicable)|
+|2<br>-Artefact|• direct positive or moulding<br>technology<br>• base material<br>• colour||
+|3D-Artefact|• direct positive or moulding<br>technology<br>• base material<br>• colour||
 
-| Face                              | Finger                                       |
-|-----------------------------------|----------------------------------------------|
-| Face hair (hair, eyebrows, beard) | Technology (optical, conductive, supersonic, |
-| •                                 | •                                            |
-| Glasses<br>•                      | other)                                       |
-| Make-up3                          | Sensor position on TOE                       |
-| •                                 | •                                            |
-| Tattoos                           | Sensor size on TOE4                          |
-| •                                 | •                                            |
 
-3 Evaluator Note: The make-up considered during the functionality is different from the mentioned Presentation Attack using make-up to impersonate a different identity.
 
-<sup>4</sup> The sensor size in relation to the way the finger covers the sensor area during the scan could have an impact on usability aspects and defines how environmental parameters like lightning conditions could potentially interfere with the scanning process.
+- 1  A simple attack method is to utilise the latent fingermark a previous user left on the sensor. The sample quality of fingermarks can be increased by using additives like powders to enhance the contrast. 
 
-| Face       | Finger                              |
-|------------|-------------------------------------|
-| Technology | Contactless or contact based sensor |
-| •          | •                                   |
+- 2 The 2D information of fingerprints can also be used to generate so called 2.5D finger artefacts, where the 2D information is used to create a mould to cast fingerprint artefacts. 
 
-# <span id="page-7-0"></span>2.3 Pre-Evaluation Process
+Federal Office for Information Security 
 
-Prior to the evaluation for the product certification, the evaluator SHALL perform a preparation process.
+6 
 
-Due to specific properties and characteristics of a TOE and the considered presentation attack instruments, the evaluator SHALL figure out the Presentation Attack Instrument classes, the materials and variants best suited to create the Presentation Attack Instruments, which may be successful in a biometric verification / authentication process.
+2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms (Normative) 
 
-Additionally, each PAI designated for the evaluation SHALL be optimized in the pre-evaluation process, so that:
+## 2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms (Normative) 
 
-- a sufficiently high biometric score can be achieved (quality)
-- the chance to overcome the PAD-component has a high probability (relative for this PAI)
-- changes in artefact quality based on age / time and wearing effects during testing SHALL be considered and minimized
+## 2.1 Documentation 
 
-As specified in the main document BSI TR-03166 (2), in addition to the Presentation Attack Instruments for the BAL normal, the evaluator is free to create new Presentation Attack Instruments, which would be classified in CEM (1) with an attack potential enhanced-basic for BAL substantial or moderate for BAL high.
+INI-DOC-01: For the pre-evaluation of the biometric authentication / verification system the evaluator SHALL document: 
 
-### <span id="page-7-1"></span>2.3.1 Modality Face
+- The evaluation environment 
 
-#### 2.3.1.1 Pre-Evaluation Optimization
+Note: The environment can differ from the environment of the biometric performance testing. 
 
-Table 4 Pre-Evaluation Optimization Aspects for each PAI Class of the Modality Face
+Example: The evaluation environment can be documented via a photo documentation and description of the equipment. 
 
-| PAI<br>Nr. | PAI Class        | Optimization Aspects                                                                   |
-|------------|------------------|----------------------------------------------------------------------------------------|
-| 01         | Paper            | try different paper types:<br>•                                                        |
-|            |                  | size<br>•                                                                              |
-|            |                  | paper weight / thickness<br>•                                                          |
-|            |                  | surface smoothness<br>•                                                                |
-|            |                  | amount of wood-contingent<br>•                                                         |
-|            |                  | amount of additives<br>•                                                               |
-|            |                  | paper colours<br>•                                                                     |
-|            |                  | transparency<br>•                                                                      |
-|            |                  | different toner / ink types (esp. for the wet paper variant)<br>•                      |
-|            |                  | presentation of real skin in combination with the PAI to attack PAD<br>•<br>mechanisms |
-|            |                  | additives to mimic skin properties<br>•                                                |
-| 02         | Transparent Foil | ink or toner types<br>•                                                                |
-|            |                  | foil materials<br>•                                                                    |
-|            |                  | thickness<br>•                                                                         |
+- The Target of Evaluation including software and hardware version 
 
-|    |           | presentation of real skin in combination with the PAI to attack PAD<br>•<br>mechanisms |
-|----|-----------|----------------------------------------------------------------------------------------|
-| 03 | Fabric    | face image transfer method and material<br>•                                           |
-|    |           | different fabrics<br>•                                                                 |
-|    |           | base colour<br>•                                                                       |
-|    |           | material<br>•                                                                          |
-|    |           | weave density<br>•                                                                     |
-|    |           | additives to mimic skin properties<br>•                                                |
-| 04 | Display   | display technology<br>•                                                                |
-|    |           | brightness<br>•                                                                        |
-|    |           | refresh rates / repetition rates<br>•                                                  |
-|    |           | PWM flickering<br>•                                                                    |
-|    |           | resolution<br>•                                                                        |
-|    |           | Prevention / minimization of Moiré effect<br>•                                         |
-| 05 | Projector | Projector technology<br>•                                                              |
-|    |           | brightness<br>•                                                                        |
-|    |           | refresh rates / repetition rates<br>•                                                  |
-|    |           | PWM flickering<br>•                                                                    |
-|    |           | Resolution<br>•                                                                        |
-| 06 | 3D-Masks  | Base material<br>•                                                                     |
-|    |           | material<br>•                                                                          |
-|    |           | thickness<br>•                                                                         |
-|    |           | colour<br>•                                                                            |
-|    |           | texture<br>•                                                                           |
-|    |           | additional facial features<br>•                                                        |
-|    |           | eye brows<br>•                                                                         |
-|    |           | eye lashes<br>•                                                                        |
-|    |           | lipstick / lip gloss<br>•                                                              |
-|    |           | additives to mimic skin properties<br>•                                                |
-|    |           | fit<br>•                                                                               |
-|    |           |                                                                                        |
+Note: This information has to be identical to the information regarding the system for the biometric performance evaluation, see. Appendix Chapter 6. During the evaluation of the PAD capability of the system the evaluator can use different applications, which contain more information e.g., PAD score to perform Hill-Climbing-Attacks. 
 
-#### 2.3.1.2 Source for the Presentation Attack Instrument Manufacturing Process
+- PAI preparation and manufacturing processes including tools, materials and methods 
 
-For functional testing, the test laboratory SHALL create Presentation Attack Instruments (PAIs) under the assumption of a worst-case attack. This includes that an attacker has access to the best possible source data, which suits the attack and the functionality of the Presentation Attack Detection mechanisms / technologies.
+- PAI presentation 
 
-#### <span id="page-9-0"></span>2.3.1.2.1 Source Requirements for 2D-Presentation Attack Instruments
+INI-DOC-02 : The documentation SHALL be in a reproducible manner including the environment and the artefacts types. 
 
-A guidance for creating a frontal face images is described in ISO/IEC 19794-5:2011 (3), 29794-5:2010 (4) and 39794-5:2019 Annex D (5). An evaluator MUST define all acquisition settings to achieve an image as good as possible to achieve a live-like representation of the identity for the evaluation.
+## 2.2 Initial Functional Test of the Biometric System 
 
-The source image SHOULD contain a suffic respect to the aspect ratio of the original image.
+INI-FUN-01: The evaluation laboratory SHALL evaluate the general functionality of the biometric system by bona fide tests. 
 
-Example:
+INI-FUN-02: The environment for enrolment and the biometric authentication / verification attempts SHALL be identical and well documented. 
 
-- 1. The presented image on a smartphone requires at least an image resolution matching the display resolution.
-- 2. An image printed on a
+INI-FUN-03: The basic functional test SHALL be performed with a sufficiently large number (at least 10 different identities) of different identities covering different general aspects. 
 
-#### <span id="page-9-2"></span>2.3.1.2.2 Source Requirements for 3D-Presentation Attack Instruments
+Note: The aim of INI-FUN-03 is to evaluate the existence of a notable bias among the test crew, which can be an indicator for an accidentally high false rejection rate of the biometric system. 
 
-The guidance to acquire a 2D image for the evaluation is defined in [2.3.1.2.1](#page-9-0) and can be used for the artefacts texture.
+This list is not complete and open for further aspects. 
 
-Evaluator Note: Due to the 3D characteristics, the evaluator should apply the guidance for 2D images to every image used to create the PAI, even if the acquired image is not a full frontal image of the identity.
+- General aspects to be considered for the Initial Functional Test: 
 
-The technology to acquire the 3D data SHOULD be state-of-the-art in order to provide a sufficient texture quality and 3D-accuracy. Therefore, this guideline does not define the use of a specific technology to acquire 3D-data of the identity to represent with a PAI.
+   - Gender 
 
-Evaluator Note: A practical solution may be the use of photogrammetry to achieve a detailed texture and reconstruct 3D-data for creating a PAI.
+   - Age 
 
-#### 2.3.1.3 Presentation Attack Instrument Manufacturing
+   - Ethnic groups 
 
-This section gives an overview and general requirements for specific manufacturing steps. The general definition for Presentation Attack Instruments is the characteristic that a PAI MUST biometrically match with the reference enrolled to the TOE. Additionally, the evaluator SHALL achieve the highest possible quality of a PAI for the evaluation. Indicators SHALL be identified during the pre-evaluation phase.
+   - Skin conditions due to occupation / hobbies / medical conditions 
 
-Additional information regarding tools, materials and tips and tricks for the PAI can be found in Chapter [5.](#page-24-0)
+Additional to the general aspects, device and biometric modality specific aspects can influence the functionality of a biometric device. 
 
-#### 2.3.1.3.1 2D-Presentation Attack Instruments
+Federal Office for Information Security 
 
-The subsection deals with the overview of requirements for the PAI manufacturing, variations and modifications to consider. The PAIs are limited to 2D materials / geometries and cover 2D identity representations on different materials and displays / projectors to present the PAI to the TOE.
+7 
 
-#### 2.3.1.3.1.1 Print of a Frontal Face Image
+2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms (Normative) 
 
-The evaluator SHALL print the image with a colour calibrated printer using the best native printing quality. -evaluation process, see [2.3](#page-7-0) [Pre-](#page-7-0)[Evaluation Process.](#page-7-0) Aim of the PAI creation is to achieve a live-like presentation of the identity.
+Table 4 Dependent on the biometric modality additional aspects can influence the functionality of the biometric system. 
 
-#### <span id="page-9-1"></span>2.3.1.3.1.2 Display to Present a Facial Image
+|Face||Finger|
+|---|---|---|
+|•|Face hair (hair, eyebrows, beard)|• Technology (optical, conductive, supersonic,|
+|•|Glasses|other)|
+|•|Make-up3|• Sensor position on TOE|
+|•|Tattoos|• Sensor size on TOE4|
+|•|Technology|• Contactless or contact based sensor|
 
-The evaluator SHOULD present the facial representation on a colour calibrated display and SHALL additionally consider following points:
 
-- The display SHALL be chosen in a way, that the TOE does not capture any artefacts (PWM-flickering, black stripes (display refresh rates) and strong visible Moiré pattern).
-- The face presentation on the display SHOULD be performed with an optimized brightness of the PAI (display / projector).
-- The displayed image SHOULD be recognized as a face and the biometric comparison must be successful. A possible parameter might be the size, which SHOULD be optimized in the pre-evaluation.
-- The evaluator SHALL take care of effects with glare and non-glare displays. In case a display shows too strong reflection, an anti-glare foil MAY be applied to the display surface.
-- The evaluator SHOULD use displays with common pixel densities.
 
-#### <span id="page-10-1"></span>2.3.1.3.2 3D-Presentation Attack Instruments
+Note: The listed aspects are only informational for the evaluator and are not a requirement, which has to be tested during the evaluation. 
 
-This subsection deals with requirements and recommendations for 3D PAIs, which are created and presented to the TOE during the evaluation.
+## 2.3 Pre-Evaluation Process 
 
-#### 2.3.1.3.2.1 3D-Masks
+PRE-PRO-01: Prior to the evaluation, the evaluator SHALL prepare PAIs for the pre-evaluation. 
 
-The geometry of the artefact SHOULD be as close as possible to the original form and size of the identities used in the evaluation. In addition, the evaluator SHOULD consider that it might be useful and may improve the biometric comparison score, if the 3D- inner part is customized for each evaluator.
+PRE-PRO-01X: For the pre-evaluation of the TOE the evaluator SHALL have access to a TOE-like biometric system, which allows as specified in GEN-PAD-03 & GEN-COM-01, the access to biometric comparison scores and PAD scores 
 
-3D-masks can be produced with different processes. These possibilities are summarized in Table 5 [Possible](#page-10-0)  [approaches to create a 3D mask from different sources with and without moulding process](#page-10-0).
+PRE-PRO-02: Due to specific properties and characteristics of a TOE and the considered PAIs, the evaluator SHALL figure out the PAI classes, the materials and variants best suited to create the PAIs, which are likely be successful in a biometric verification / authentication process. 
 
-the PAI should show a skin-like base colour, without further facial details that the mask SHALL contain the facial image texture, which might be part of the mask production step or due to a post-processing, where the evaluator or an expert adds a texture to the mask representing the identity presented to the TOE.
+Note: Some biometric systems using technologies intrinsically resistant against certain attack types. Therefore, more suitable artefact types have to the focus of the evaluation, although this does not mean this kind of artefacts do not have to be tested during the evaluation. 
 
-Evaluator reminder: The created masks MUST achieve a sufficiently high comparison score to be used as an artefact during the evaluation.
+PRE-PRO-03 : Additionally, each PAI designated for the evaluation SHALL be optimised in the preevaluation process, so that: 
 
-| Source                   | Mould (Negative)                                                                                                                                                                                                                                       | Artefact (Positive)                                                                                                                             |
-|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| Direct<br>mould          | The face of the identity to represent<br>during the evaluation and the<br>evaluators face are necessary for the<br>moulding process to achieve a tight<br>fit between the mask and the<br>evaluators face. The result will be two<br>different moulds. | The positive can be casted based on the created<br>moulds with different materials. By post<br>can be done.                                     |
-| Photos                   | ---                                                                                                                                                                                                                                                    | Via photogrammetry or other 3D reconstruction<br>methods a directly usable 3D positive is created,<br>which can be done e.g. with a 3D-printer. |
-|                          | A mould is created based on the 3D<br>reconstruction (photogrammetry or<br>other)                                                                                                                                                                      | The positive can be casted with different<br>materials.                                                                                         |
-| 3D-scan                  | ---                                                                                                                                                                                                                                                    | Direct 3D-printed positive                                                                                                                      |
-|                          | 3D-printed mould based on the 3D<br>scan of the evaluator.                                                                                                                                                                                             | The positive can be casted with different<br>materials                                                                                          |
-| Handcrafte<br>d positive | The handcrafted positive may be<br>used to create a mould.                                                                                                                                                                                             | The result of the moulding process may be used<br>with different materials to cast a positive mask                                              |
+- a sufficiently high comparison score can be achieved exceeding the TOEs comparison threshold 
 
-<span id="page-10-0"></span>Table 5 Possible approaches to create a 3D mask from different sources with and without moulding process
+- in case it is not possible to achieve a sufficient comparison score, the necessary attempts for the test case SHALL be performed and the TOE passes the evaluation for the test case. 
 
-The moulding process is a specialized process which cannot cover all possible methods to produce all kinds of 3D-Masks and may be used to create highly specialized 3D-masks e.g. created by make-up artists etc.
+- the chance to overcome the PAD-component with a high probability (relative for this PAI-class) 
 
-#### <span id="page-11-1"></span>2.3.1.3.3 Other / Various (out of scope)
+- changes in artefact quality based on age / time and wearing effects during testing SHALL be considered and minimized 
 
-Due to the quickly increasing number of biometric and PAD sensor technologies, application scenarios and attack tools, there exist many PAIs that are currently out of scope of this technical guideline, like e.g. Adversarial Attacks or Make-Up-Attacks, but have the potential to become relevant in the near future. In the following we want to address one of those as an example.
+As specified in the main document BSI TR-03166 [2]: 
 
-#### 2.3.1.3.3.1 Make-Up
+- For the Biometric Assurance Level (BAL) 1, the evaluator is restricted to certain Materials / Material Properties and Modifications. 
 
-#### Evaluator Note:
+- In addition to the Presentation Attack Instruments for the BAL 1, the evaluator is free to create new Presentation Attack Instruments which would be classified in CEM [1] with an attack potential enhanced-basic for BAL 2 or moderate for BAL 3. 
 
-The usage of make-up to impersonate a different identity is currently out of scope, but may be considered in future releases of the evaluation guidance.
+- 3  Note: The make-up considered during the functionality is different from the mentioned Presentation Attack using make-up to impersonate a different identity. 
 
-Exemplary Variations
+- 4  The sensor size in relation to the way the finger covers the sensor area during the scan could have an impact on usability aspects and defines how environmental parameters like lightning conditions could potentially interfere with the scanning process. 
 
-- Make-up brand
-- Make-up type
-- Make-up thickness
-- Partial make-up
+Federal Office for Information Security 
 
-Evaluator Note: Referring to the definition of a PAI the evaluator must check if the biometric comparison The evaluator achieves a real time comparison score between a reference image and a video input, e.g. a webcam.
+8 
 
-### <span id="page-11-0"></span>2.3.2 Modality Finger
+2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms (Normative) 
 
-#### 2.3.2.1 Pre-Evaluation Optimization
+## 2.3.1 Modality Face 
 
-Table 6 Pre-Evaluation Optimization Aspects for each PAI Class of the Modality Finger
+## 2.3.1.1 Pre-Evaluation Optimisation 
 
-| PAI<br>Nr. | PAI Class        | Optimization Aspects                                                                                   |
-|------------|------------------|--------------------------------------------------------------------------------------------------------|
-| 01         | Fingermarks      | amount of powder<br>•                                                                                  |
-|            |                  | prepping the finger with a little bit of grease to produce a<br>•<br>more prominent fingermark         |
-|            |                  | find an optimal way to leave a clear fingermark<br>•                                                   |
-|            |                  | try using similar techniques as they do in fingerprint<br>•<br>forensic procedures (brush, tape, etc.) |
-|            |                  | try tape to protect the fingermark and real skin on top to<br>•<br>attack PAD mechanisms               |
-| 02         | Paper [2D-print] | try different paper types:<br>•                                                                        |
-|            |                  | paper weight / thickness<br>•                                                                          |
-|            |                  | surface smoothness<br>•                                                                                |
-|            |                  | amount of wood-contingent<br>•                                                                         |
-|            |                  | amount of additives<br>•                                                                               |
-|            |                  | paper colours<br>•                                                                                     |
-|            |                  | different toner types (esp. for the wet paper variant)<br>•                                            |
-|            |                  | amount of water for the wet paper variant<br>•                                                         |
+Table 5 includes parameters which can be considered during the pre-evaluation to improve the probability to achieve a false classification of a PAI as bona fide. The list is neither extensive nor normative. The preevaluation process is designed with the intention to reduce the impact by the differences in skills between evaluators on the evaluation results (limited attempts per artefact). Therefore, an evaluator can use the preevaluation phase to find based on an initial guess and expertise the most promising PAI to be used during the evaluation. 
 
-| try real skin on top to attack PAD mechanisms<br>•<br>03<br>Transparent Foil [2D-print]<br>ink or toner types<br>•<br>foil materials<br>•<br>thickness<br>•<br>try real skin on top (without fingerprints)<br>•<br>to attack PAD mechanisms<br>04<br>Gelatine [casted]<br>gelatine-glycerine (-water) mixing ratio<br>•<br>(mix with glycerine)<br>time after creation of the artefact<br>•<br>reduce bubbles on the contact surface<br>•<br>try real skin on top to attack PAD mechanisms with thin<br>•<br>artefacts<br>different artefact thickness >2mm up to a full finger<br>•<br>artefact<br>•<br>amount of additives<br>05<br>Gelafix [casted]<br>time after creation of the artefact<br>•<br>(transparent)<br>reduce bubbles on the contact surface<br>•<br>try real skin on top to attack PAD mechanisms with thin<br>•<br>artefacts<br>different artefact thickness >2mm up to a full finger<br>•<br>artefact<br>amount of additives<br>•<br>06<br>Gelafix [casted]<br>time after creation of the artefact<br>•<br>(coloured)<br>reduce bubbles on the contact surface<br>•<br>try different available colours<br>•<br>try real skin on top to attack PAD mechanisms with thin<br>•<br>artefacts<br>different artefact thickness >2mm up to a full finger<br>•<br>artefact<br>amount of additives<br>•<br>07<br>Silicone [casted]<br>different silicone types<br>•<br>(transparent, 2-components)<br>reduce bubbles on the contact surface<br>•<br>try real skin on top to attack PAD mechanisms with thin<br>•<br>artefacts<br>amount of additives<br>• | PAI<br>Nr. | PAI Class | Optimization Aspects |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|-----------|----------------------|
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |            |           |                      |
+Table 5 Pre-Evaluation Optimisation Aspects for each PAI Class of the Modality Face 
 
-| PAI<br>Nr. | PAI Class                                                                                             | Optimization Aspects                                                                                                                                                                                                                                                                                                                                                  |
-|------------|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 08         | Silicone [casted]<br>(coloured)5                                                                      | different silicone types<br>•<br>reduce bubbles on the contact surface<br>•<br>try different colour mixtures<br>•<br>try real skin on top to attack PAD mechanisms with very<br>•<br>thin artefacts<br>amount of additives<br>•                                                                                                                                       |
-| 09         | Latex [casted]                                                                                        | different latex types<br>•<br>reduce bubbles on the contact surface<br>•<br>(a vacuum chamber can help)<br>try real skin on top to attack PAD mechanisms with very<br>•<br>thin artefacts<br>amount of additives<br>•                                                                                                                                                 |
-| 10         | Wood Glue [casted]<br>(added glycerine)                                                               | wood-glue-glycerine mixing ratio<br>•<br>time after creation of the artefact<br>•<br>(sometimes a dryer surface gets better results)<br>reduce bubbles on the contact surface<br>•<br>try real skin on top to attack PAD mechanisms with thin<br>•<br>artefacts<br>different artefact thickness >2mm up to a full finger<br>•<br>artefact<br>amount of additives<br>• |
-| 11         | Window Colour [casted]<br>(acrylic)                                                                   | different window colour types<br>•<br>reduce bubbles on the contact surface<br>•<br>(a vacuum chamber can help)<br>try real skin on top to attack PAD mechanisms with very<br>•<br>thin artefacts<br>amount of additives<br>•                                                                                                                                         |
-| 12         | Nanotips [casted]<br>(conductive rubber)                                                              | different Nanotip types / colours<br>•<br>reduce bubbles in the material<br>•<br>amount of additives<br>•                                                                                                                                                                                                                                                             |
-| 13         | 3D-printed positive 6<br>(full colour print, flexible<br>polymer material: shore<br>hardness A10-A20) | material composition<br>•<br>artefact colour / texture<br>•<br>shore hardness<br>•<br>model resolution (e.g. with pores), smooth edges<br>•                                                                                                                                                                                                                           |
+|PAI-<br>Nr.|PAI Class|Optimization Aspects|
+|---|---|---|
+|01|Paper|• try different paper types:<br>• size<br>• paper weight / thickness<br>• surface smoothness<br>• amount of wood-contingent<br>• amount of additives<br>• paper colours<br>• transparency<br>• different toner / ink types (esp. for the wet paper variant)<br>• presentation of real skin in combination with the PAI to attack PAD<br>mechanisms<br>• additives to mimic skin properties|
+|02|Transparent Foil|• ink or toner types<br>• foil materials<br>• thickness<br>• presentation of real skin in combination with the PAI to attack PAD<br>mechanisms|
+|03|Fabric|• face image transfer method and material<br>• different fabrics<br>• base colour<br>• material<br>• weave density<br>• additives to mimic skin properties|
+|04|Display|• display technology<br>• brightness<br>• refresh rates / repetition rates<br>• PWM flickering|
 
-<sup>6</sup> Currently the only printer model available and tested for this PAI at BSI is the Stratasys J850 DAP, with Agilus30 and Tissue Matrix materials.
 
-#### 2.3.2.2 Source Data for the Presentation Attack Instrument Manufacturing Process
 
-For the evaluation, the test laboratory SHALL create Presentation Attack Instruments (PAIs) under the - attacker has access to the best possible source data, which suits the attack and the functionality of the fingerprint sensor and the implemented Presentation Attack Detection mechanisms / technologies.
+Federal Office for Information Security 
 
-#### 2.3.2.2.1 Source Requirements for 2D and 2.5D-Presentation Attack Instruments
+9 
 
-Source images for the PAI manufacturing process can be acquired based on different methods:
+2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms (Normative) 
 
-- 1. Reference fingerprint images acquired with contacted-based fingerprint scanners fulfilling the following requirements:
-	- a. Minimal image resolution 500 PPI
-	- b. No image compression
-	- c. No automatized image enhancement
-- 2. Fingerprints digitalized from ink fingerprints
-	- a. Minimal scanner resolution 600 DPI
-	- b. No image compression
-	- c. No automatized image enhancement
-- 3. Contactless fingerprint acquisition with standard camera equipment
-	- a. The evaluation facility MAY take images directly from the fingers and extract fingerprints via image analysis.
-- 4. Contactless 3D fingerprint acquisition
-	- a. Various technologies enable a contactless 3D acquisition of the fingerprint. A 2D fingerprint can be achieved with different projection methods.
-- 5. Enhancement of latent fingermarks
-	- a. By using different methods to enhance the visibility of a latent fingermarks, the ridge pattern MAY be digitized via a digital camera etc.
+|||• resolution<br>• Prevention / minimisation of Moiré effect|
+|---|---|---|
+|05|Projector|• Projector technology<br>• brightness<br>• refresh rates / repetition rates<br>• PWM flickering<br>• Resolution|
+|06|3D-Masks|• Base material<br>• material<br>• thickness<br>• colour<br>• texture<br>• additional facial features<br>• eye brows<br>• eye lashes<br>• lipstick / lip gloss<br>• additives to mimic skin properties<br>• fit|
 
-Image enhancing modifications on the fingerprint SHALL be documented in a way that the BSI can reproduce the steps.
 
-artefact to attack the biometric system, but may be used as the simplest attack. Therefore, the use of latent fingerprint as source data for fingerprint artefacts is out of scope of this toolbox.
 
-The 2D information of fingerprints can also be used to generate so called 2.5D finger artefacts, where the 2D information is used to create a mould to cast fingerprint artefacts.
+Example: A biometric system uses light in the human non-visible spectrum. An evaluator has the knowledge from previous evaluations with other systems that a certain combination of paper and ink or toner works best to at least generate an image which can be recognised by the capture device. 
 
-#### 2.3.2.2.2 Source Requirements for 3D-Presentation Attack Instruments
+2.3.1.2 Source for the Presentation Attack Instrument Manufacturing Process 
 
-Source data for the PAI manufacturing process can be acquired based on different methods:
+PRE-SOU-01: For testing, the test laboratory SHALL create PAIs under the assumption of a worst-case attack. This includes that an attacker having access to the best possible source data which suits the attack and the functionality of the PAD mechanisms / technologies. 
 
-- 1. Cooperative moulding with different materials may be a valid method to create a high quality 3Dfingerprint artefact
-	- a. Level of detail (ridges, valleys, sweat pores)
-	- b. Material durability
-	- c. No alteration over time
-- 2. Digital 3D-model acquisition
-	- a. Region of interest of the finger
-	- b. Achievable voxel resolution of the method, shall fit to the application For example isotropic resolution 25 µm
+## 2.3.1.2.1 Source Requirements for 2D-Presentation Attack Instruments 
 
-#### 2.3.2.3 Presentation Attack Instrument Manufacturing
+A guidance for creating frontal face images is given in ISO/IEC 19794-5:2011 [3], 29794-5:2010 [4] and 397945:2019 Annex D [5]. 
 
-This section gives an overview and general requirements for specific manufacturing steps.
+PRE-SOU-02: An evaluator SHALL define all acquisition settings to capture an image as good as possible to achieve a live-like representation of the identity for the evaluation and fitting to the TOE. 
 
-#### <span id="page-15-0"></span>2.3.2.3.1 2D-Presentation Attack Instruments
+PRE-SOU-03: The source image SHOULD contain a sufficient number of pixels to crop the image to the face area with respect to the aspect ratio of the original image. 
 
-The subsection deals with the overview of requirements for the PAI manufacturing, variations and modifications to consider. The PAIs are limited to 2D materials / geometries and cover 2D prints on different materials presented to the TOE.
+Examples: 
 
-#### 2.3.2.3.1.1 rface
+1. The presented image on a smartphone requires at least an image resolution matching the display resolution. 
 
-For some fingerprint scanner technologies it may be sufficient to cover an old accepted genuine fingerprint with some sheet of plastics or paper. Additional enhancement steps like the use of fingerprint powder (possible use of different colours) to enhance the optical density of the latent fingerprint to achieve the necessary ridge pattern, may be performed. Different materials in different colours can act as background for the latent fingerprint.
 
-#### 2.3.2.3.1.2 Print of a Fingerprint
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0010-11.png)
 
-Depending on the source information, the evaluator MUST scale the fingerprint image to the fingerprint image size of the enrolled identity.
 
-The evaluator SHOULD print the image with a calibrated printer using the best native printing quality. The source image for a printed artefact SHALL be at least 1000 PPI (pixel per inch).
+2. An image printed on a paper requires at least the resolu 
 
-in the printing result. Therefore, the evaluation facility SHALL take care of the detail preservation of the final print. Depending of the technology used by the biometric system adding additives may be necessary to generate an image of the fingerprint.
+Federal Office for Information Security 
 
-As an example, conductive paint may be used to generate a fingerprint image on a fingerprint sensor based o
+10 
 
-Exemplary Variations:
+2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms (Normative) 
 
-- Different printer technologies (e.g. inkjet / laser)
-- Different pigment containing media / conductive additives
-- Different printing targets (paper, transparent sheets, plastics) including base colour and thickness of the material
-- Colour spaces (CMYK / BW / RGB)
-- Wetting the artefact
-- Partial artefacts
+## 2.3.1.2.2 Source Requirements for 3D-Presentation Attack Instruments 
 
-#### 2.3.2.3.2 2.5D-Presentation Attack Instruments
+The guidance to acquire a 2D image for the evaluation is defined in 2.3.1.2.1 and can be used for the artefacts texture. 
 
-The evaluator SHALL present so called 2.5D fingerprint artefacts. This class of artefacts may be created based on the acquired fingerprints as described in [2.3.2.3.1](#page-15-0) [2D-Presentation Attack Instruments.](#page-15-0) In contrast to 2D artefacts this class of artefacts contains distinct depth information.
+PRE-SOU-04: The technology to acquire the 3D data SHALL be state-of-the-art in order to provide a sufficient texture quality and 3D-accuracy. 
 
-#### 2.3.2.3.2.1 Moulding Process
+Therefore, this guideline does not define the use of a specific technology to acquire 3D-data of the identity to represent with a PAI. 
 
-The 2D fingerprint may be used as source to achieve 2.5D moulds in various materials. The 2D fingerprint acts in this process as a template for e.g. exposure etching processes, engraving or 3D printed moulds.
+Note: A practical solution can be the use of photogrammetry to achieve a detailed texture and reconstruct 3D-data for creating a PAI. Therefore, it can be useful to apply the best practices for full frontal face images as well to other PAIs and their production steps. 
 
-Engraving can be done e.g. in plastic or metal (e.g. with laser engravers on Delrin or aluminium) or by using lithographic processes (e.g. for using UV-imprinting on Nyloprint plates as an alternative to using PCBs).
+Note: For the creating process, the evaluation laboratory has to check for scaling errors of the created artefact, in particular if 3D technologies are used by the TOE for biometric comparison and PAD. 
 
-Depending on the processing method, the template SHOULD be mirrored along the vertical axis and the binarized presentation SHOULD be inverted.
+## 2.3.1.3 Presentation Attack Instrument Manufacturing 
 
-#### 2.3.2.3.2.2 Casting Process
+This section gives an overview and general requirements for specific manufacturing steps. 
 
-Due to material properties the moulding or the casting material may change in size during the drying processes. Therefore, the evaluator SHALL take care that the fingerprint artefacts enables a successful comparison with the enrolled fingerprint.
+PAI-QUA-01: The general definition for Presentation Attack Instruments is that the PAI SHALL exceed the necessary comparison score of the biometric system to achieve a positive biometric comparison with the enrolled reference. 
 
-For the casting process, the created mould SHALL be cleaned from dust or remaining residuals of a previous casting process. The evaluator SHALL take care that only cleaning methods are used which do not alter, influence the mould or influence the casting material in its hardening crosslinking process.
+PAI-QUA-02: Additionally, the evaluator SHALL achieve the highest possible quality of a PAI for the evaluation by attempts to improve the PAI during the pre-evaluation phase. 
 
-Positive materials MUST be within in their use best before period. It is recommended to use always fresh components and materials.
+Note: Maximising the PAI quality can be beneficial to improve the evaluation, due to the fact that such a PAI can be used under various environmental conditions, e.g., low illumination conditions, and presentation angles. Furthermore, such PAIs can be used in evaluations with high biometric performance settings. 
 
-his experience SHALL document the deviations.
+Additional information regarding tools, materials and tips and tricks for the PAI can be found in Chapter 5. 
 
-Exemplary Variations:
+## 2.3.1.3.1 2D-Presentation Attack Instruments 
 
-- Different technologies / methods to create a 2.5D mould
-- Different negative materials
-- Different positive materials and additives
+The subsection deals with the overview of requirements for the PAI manufacturing, variations and modifications to consider. The PAIs are limited to 2D materials / geometries and cover 2D identity representations on different materials and displays / projectors to present the PAI to the TOE. 
 
-#### 2.3.2.3.3 3D-Presentation Attack Instruments
+## 2.3.1.3.1.1 Print of a Frontal Face Image 
 
-The evaluator SHALL present finger artefacts to the TOE containing a partial or the whole fingerprint information on the artefacts. Different methods and processes are possible to create such artefacts.
+PAI-QUA-03: The evaluator SHOULD print the image with a colour calibrated printer using the best native printing quality. 
 
-#### 2.3.2.3.3.1 Mould-based Artefact Creation
+PAI-QUA-04: All other manufacturing parameters SHALL be identified during the pre-evaluation process, see 2.3 Pre-Evaluation Process. 
 
-#### Mould Creation
+Note: Aim of the PAI creation is to achieve a live-like presentation of the identity or at least a PAI which fulfils the quality requirement PAI-QUA-01 . 
 
- 
+2.3.1.3.1.2 Display to Present a Facial Image 
 
-The evaluation laboratory SHALL prepare the moulding material as described by the product manufacturer. Materials SHALL NOT be used after their best before date. It is recommended to always use fresh / new materials to exclude variations in the mould quality based on the materials.
+PAI-QUA-05: The evaluator SHOULD present the facial representation on a colour calibrated display. 
 
-Depending on the negative materials for the moulding process protective containers MAY be necessary in order to keep their physical properties. The fingerprints taken in a cooperative manner SHALL be taken from freshly washed hands. The evaluator must wait until the moulding material hardens, following the / exclude alterations of the fingerprint artefact and overall reduction of the artefact quality.
+PAI-QUA-06: Additional points SHALL be considered: 
 
-Release agents MAY help to remove the finger out of the moulding material. It is recommended to test several release agents, since some could prevent the proper curation of some artefact materials.
+PAI-QUA-06a: The display SHALL be chosen in a way that the TOE does not capture any artefacts (PWMflickering, black stripes (display refresh rates) and strong visible Moiré pattern). 
 
-Besides the cooperative moulding process, the evaluation laboratory MAY create finger artefacts based on acquired 3D finger data with subsequent creation with 3D-printing or other technologies.
+PAI-QUA-06b: The face presentation on the display SHOULD be performed with an optimised brightness of the PAI (display / projector). 
 
-#### Casting Process
+Note: Optimisation has to be done during the pre-evaluation phase. 
 
-The evaluator SHALL only use materials and ingredients which have not reached their date of expiry and knowledge and experience SHALL be properly documented.
+Federal Office for Information Security 
 
-- Different negative materials for the moulding process (cooperative)
-- Optional: Different negative materials for the moulding process (based on 3D finger data)
-- Different positive materials
-- Different additives, adjusted to the evaluated fingerprint sensor technology
+11 
 
-#### 2.3.2.3.3.2 Direct Artefact Creation from 3D Fingerprint Data
+2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms (Normative) 
 
-In case 3D fingerprint data are acquired, the evaluator can directly create an artefact based on this data, for may be necessary. In addition, the evaluator MUST take care, that the used 3D printing technology fulfils necessary requirements to achieve a functional biometric artefact. The printing resolution MUST be high enough to replicate the ridge pattern of the finger.
+PAI-QUA-06c: The evaluator SHALL take care of effects with glare and non-glare displays. 
 
-#### 2.3.2.3.4 Quality Check
+Note: In case a display shows too strong reflections, an anti-glare foil can be applied to the display surface. 
 
-The created artefact SHALL be quality checked. Artefacts SHALL only be used for PAD-testing if the artefact has generated sufficient comparison scores in comparison to the enrolment data. This can be done based on ns during a deactivated PAD-mechanism or with established fingerprint comparison solutions, if the PAD-mechanisms cannot be deactivated.
+## 2.3.1.3.2 3D-Presentation Attack Instruments 
 
-# <span id="page-18-0"></span>3 Evaluation Phase and Test Cases
+This subsection deals with requirements and recommendations for 3D PAIs, which are created and presented to the TOE during the evaluation. 
 
-The following sections describe the Biometric Performance and the Presentation Attack Detection mechanism evaluation of the Target of Evaluation. Requirements regarding the biometric performance for the different Biometric Assurance Level are specified in the BSI TR-03166.
+2.3.1.3.2.1 3D-Masks 
 
-# <span id="page-18-1"></span>3.1 Biometric Performance Evaluation
+PAI-QUA-07: The geometry of the artefact SHOULD be as close as possible to the original form and size of the identities used in the evaluation. 
 
-For the biometric performance evaluation, the evaluator SHALL use the methodology described in ISO/IEC 19795-1:2021 (6), ISO/IEC 19795-2:2007 (7) and ISO/IEC TS 19795-9:2019 (8).
+PAI-QUA-08: The evaluator SHOULD consider that it might be useful and can improve the biometric comparison score, if the 3Dsed for each evaluator. 
 
-The performance testing SHALL be in a fashion of a scenario evaluation as described in subsection 6.5.3.3 of ISO / IEC19795-1:2021 (6). To achieve conformance to 19795-1:2021 (6) the Clauses 7 through 12 MUST be followed.
+3D-masks can be produced with different processes. These possibilities are summarised in Table 6 Possible approaches to create a 3D mask from different sources with and without moulding process. 
 
-The evaluation methodology for a scenario evaluation is further described in ISO/IEC 19795-2 (7). Relevant clause from the standard are clause 5, 7 and 8 except 7.3.5.
 
-Minimal Information which MUST be included in the testing report are given in the Appendix (Chapter [6\)](#page-34-0).
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0012-09.png)
 
-The following text passage are quotes from in ISO/IEC 19795-9:2019 (8) in 5.Overview of full-system evaluation of mobile devices and 6.Guidance for testing and reporting:
 
-#### 5. Overview of full-system evaluation of mobile devices
+Coloured 
 
-#### 5.1 General description
+PAI-QUA-09: SHOULD show a skin-like base colour, without further facial details. 
 
-process and subsystems in a realistic scenario. As such, an evaluation shall additionally conform to the requirements of ISO/IEC 19795-2:2007,
+PAI-QUA-10: which might be part of the mask production step or due to a post-processing where the evaluator or an expert adds a texture to the mask representing the identity presented to the TOE. 
 
-nge of a biometric evaluation of a mobile device for the evaluator is to assess that the observed errors rates, FAR and FRR, support a claimed performance with a sufficient statistical certainty. ISO/IEC 19795-1 recommends the use of Rule of 3 or Rule of 30 approaches to assess performance claims.
+Note: The created masks have to achieve a sufficiently high comparison score to be used as an artefact during the evaluation ( PAI-QUA-01 ). 
 
-- Rule of 3 defines the minimum number of transactions required for the estimation of a minimum error rate at a 95 % confidence level when no errors are obtained during the evaluation.
-- Rule of 30 states that to be 90 % confident that the true error rate is within ±30 % of the observed error rate, there should be at least 30 errors. Based on the predefined error rates and the number of errors, i.e. 30 errors, it is possible to define the minimum number of transactions.
+Table 6 Possible approaches to create a 3D mask from different sources with and without moulding process. 
 
-The target requirement for an error will directly influence the number of independent tests required to have statistical significance, and thus the size of the test crew, the time spent and the cost of the evaluation. To reduce the duration and cost of executing a biometric performance evaluation, the number of recognition
+|Source|Mould (Negative)|Artefact (Positive)|
+|---|---|---|
+|Direct<br>mould|The face of the identity to represent<br>during the evaluation and the<br>evaluators face are necessary for the<br>moulding process to achieve a tight<br>fit between the mask and the<br>evaluators face. The result will be two<br>different moulds.|The positive can be cast based on the created<br>moulds with different materials. By post-<br>proces<br>can be done.|
+|Photos|---|Via photogrammetry or other 3D reconstruction<br>methods a directly usable 3D positive is created,<br>which can be done e.g. with a 3D-printer.|
+||A mould is created based on the 3D<br>reconstruction (photogrammetry or<br>other)|The positive can be casted with different<br>materials.|
+|3D-scan|---|Directly 3D-printed positive|
+||3D-printed mould based on the 3D-<br>scan of the evaluator.|The positive can be cast with different materials|
+|Handcrafted<br>positive|The handcrafted positive may be<br>used to create a mould.|The result of the moulding process may be used<br>with different materials to cast a positive mask|
 
-For FAR evaluation, while the independence criteria would require that one test subject is only involved in one impostor transaction, it is commonly agreed that the statistical loss of computing all possible crosscomparisons between test subjects is acceptable. This approximation shall be considered relevant for a mobile device evaluation (i.e. with N test subjects, ( ⋅ ( − 1))/2 impostors tests can be made). In general, all possible cross-
 
-A mobile device customized for evaluation could address these issues by offline testing:
 
- the reference and probe biometric templates acquired on the device can be exported from the customized mobile device and compared offline using a dedicated SDK.
+The moulding process is a specialised process to create highly specialised 3D-masks e.g created by make-up artists etc. 
 
- alternatively, the mobile-device manufacturer could provide a dataset and a dedicated SDK for offline testing. The evaluator should then assert the relevance of the provided data.
+Federal Office for Information Security 
 
-One way to limit the increase of size of the test crew and to achieve affordable and time efficient evaluations is to allow multiple transactions to be executed by the same test subject. However, this will decrease test independence and increase statistic uncertainty. To help mitigate the decrease of independence, one test subject should never proceed to more than five mated transactions.
+12 
 
-In addition to Rule of 3 and Rule of 30, bootstrapping (sampling with replacement) is also a method to determine confidence particularly when a distribution cannot be assumed. Bootstrapping allows the use of the test data to determine the confidence depending on the test scenario, e.g. number of subjects and number of attempts (or transactions) per subject. When attempting to establish whether an error rate is below a threshold, it is appropriate to choose a one-sided upper bound. In this method, the statistical
+2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms (Normative) 
 
-#### 6 Guidance for testing and reporting
+## 2.3.2 Modality Finger 
 
-#### 6.3 Performance measurement
+## 2.3.2.1 Pre-Evaluation Optimisation 
 
-#### 6.3.2 Optional technology evaluation for lower FAR claims
+Table 7 Pre-Evaluation Optimisation Aspects for each PAI Class of the Modality Finger 
 
-For evaluation of FAR claims below 0.01 %, the evaluator may proceed to a technology evaluation of the matching component.
+|PAI-<br>Nr.|PAI Class|Optimization Aspects|
+|---|---|---|
+|01|Fingermarks|• amount of powder<br>• prepping the finger with a little bit of grease to produce a<br>more prominent fingermark<br>• find an optimal way to leave a clear fingermark<br>• try using similar techniques as in fingerprint forensic<br>procedures (brush, tape, etc.)<br>• try tape to protect the fingermark and real skin on top to<br>attack PAD mechanisms|
+|02|Paper[2D-print]|• try different paper types:<br>• paper weight / thickness<br>• surface smoothness<br>• amount of wood-contingent<br>• amount of additives<br>• paper colours<br>• different toner types (esp. for the wet paper variant)<br>• amount of water for the wet paper variant<br>• try real skin on top to attack PAD mechanisms|
+|03|Transparent Foil[2D-print]|• ink or toner types<br>• foil materials<br>• thickness<br>• try real skin on top (without fingerprints)<br>to attack PAD mechanisms|
+|04|Gelatine[cast]<br>(mix with glycerine)|• gelatine-glycerine (-water) mixing ratio<br>• time after creation of the artefact<br>• reduce bubbles on the contact surface<br>• try real skin on top to attack PAD mechanisms with thin<br>artefacts<br>• different artefact thickness >2mm up to a full finger<br>artefact<br>• amount of additives|
+|05|Gelafix[cast]<br>(transparent)|• time after creation of the artefact<br>• reduce bubbles on the contact surface|
 
-The ToE may then be tested in two stages:
 
-- Stage 1: Scenario evaluation: the evaluator shall evaluate FAR with the data collected from the test crew. The test crew dataset shall be large enough to have at least statistical significance for evaluating a FAR claim of 0.01 % or below.
-- Stage 2: Technology evaluation: If a FAR claim of 0.01 % or below is verified at stage 1, the evaluator may use a pre-existing dataset not acquired from the test crew for this second stage. This preexisting dataset may be provided by the supplier and shall be acquired with the same sensor. The pre-existing dataset should be large enough to allow using Rule of 30 when evaluating the FAR claim. The evaluator shall validate that the pre-existing dataset is consistent with the test crew dataset by sub-sampling the pre-existing dataset to the size of the test crew dataset and evaluating FAR by bootstrapping. The mean of the bootstrap distribution shall be below or equal to the value measured at stage 1.
 
-| FAR target | Statistical approach                                                                | Test size                                                                                                                       |
-|------------|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| > 0.1 %    | Evaluator should use Rule of 30                                                     | Test size should follow Rule of 30<br>requirements                                                                              |
-|            | Evaluator should use Rule of 3, if<br>applicable Evaluator may use<br>bootstrapping | Test size should follow Rule of 3<br>requirements                                                                               |
-| <0.01 %    | Evaluator should use two-stage<br>evaluation                                        | Test size shall at least be 246 (requirement<br>for Rule of 3 at 0.01 %) If used, pre-existing<br>dataset shall at least be 530 |
+Federal Office for Information Security 
 
-Table 7 Recommended statistical approaches to evaluate the biometric performance of a system
+13 
 
-# <span id="page-20-0"></span>3.1.1 Expected Result of the Biometric Performance Evaluation
+2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms (Normative) 
 
-As described in [3.1](#page-18-1) [Biometric Performance Evaluation](#page-18-1) the evaluator SHALL use the referenced biometric performance standards to evaluate the biometric performance of the Target of Evaluation. If the biometric performance is sufficient for the aimed Biometric Assurance Level, the Target of Evaluation passes the test.
+|||• try real skin on top to attack PAD mechanisms with thin<br>artefacts<br>• different artefact thickness >2mm up to a full finger<br>artefact<br>• amount of additives|
+|---|---|---|
+|06|Gelafix[cast]<br>(coloured)|• time after creation of the artefact<br>• reduce bubbles on the contact surface<br>• try different available colours<br>• try real skin on top to attack PAD mechanisms with thin<br>artefacts<br>• different artefact thickness >2mm up to a full finger<br>artefact<br>• amount of additives|
+|07|Silicone[cast]<br>(transparent, 2-components)|• different silicone types<br>• reduce bubbles on the contact surface<br>• try real skin on top to attack PAD mechanisms with thin<br>artefacts<br>• amount of additives|
+|08|Silicone[cast]<br>(coloured)|• different silicone types<br>• reduce bubbles on the contact surface<br>• try different colour mixtures<br>• try real skin on top to attack PAD mechanisms with very<br>thin artefacts<br>• amount of additives|
+|09|Latex[cast]|• different latex types<br>• reduce bubbles on the contact surface<br>(a vacuum chamber can help)<br>• try real skin on top to attack PAD mechanisms with very<br>thin artefacts<br>• amount of additives|
+|10|Wood Glue[cast]<br>(added glycerine)|• wood-glue-glycerine mixing ratio<br>• time after creation of the artefact<br>(sometimes a dryer surface gets better results)<br>• reduce bubbles on the contact surface<br>• try real skin on top to attack PAD mechanisms with thin<br>artefacts<br>• different artefact thickness >2mm up to a full finger<br>artefact|
 
-Evaluator Note: The required biometric performance for a single modality may be lower as required, if biometrics is realized with multi-modalities, -instances or presentations.
 
-# <span id="page-20-1"></span>3.2 Presentation Attack Detection Evaluation
 
-After creating the best suited Presentation Attack Instruments for evaluating the TOE in the initial preevaluation phase, the evaluator uses these instruments for the testing process. For the higher BALs the evaluator SHALL follow the rating scheme of attack potentials as defined in CEM (1) Every PAI is presented to the TOE and evaluated following the evaluation metric as described in [3.2.1](#page-20-2) [Evaluation Metric.](#page-20-2) The ng the testing.
+Federal Office for Information Security 
 
-# <span id="page-20-2"></span>3.2.1 Evaluation Metric
+14 
 
-The evaluation metric for this technical guideline is very similar to established vulnerability analysis procedures in Common Criteria. Prior to the Evaluation Phase the evaluator MUST perform the steps described in chapte[r 2](#page-6-0) [Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms.](#page-6-0) All steps of the evaluation, including the pre-evaluation phase, are depicted in [Figure 1.](#page-21-2)
+2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms (Normative) 
 
-Criteria for pass or fail within the PAD evaluation are defined in the following schema:
+|||• amount of additives|
+|---|---|---|
+|11|Window Colour[cast]<br>(acrylic)|• different window colour types<br>• reduce bubbles on the contact surface<br>(a vacuum chamber can help)<br>• try real skin on top to attack PAD mechanisms with very<br>thin artefacts<br>• amount of additives|
+|12|Conductive rubber|• different types of colours<br>• reduce bubbles in the material<br>• amount of additives|
+|13|3D-printed positive<br>(full colour print, flexible<br>polymer material: shore<br>hardness A10-A20)|• material composition<br>• artefact colour / texture<br>• shore hardness<br>• model resolution (e.g., with pores), smooth edges|
 
-- Each artefact is applied at least 15 times with minimum 2 evaluators and 3 different identities. In the case that 3 presentation attacks are classified as bona-fide attempts for one evaluator (presented identity), the TOE has failed the test and the evaluator can stop testing with this artefact.
-- If the TOE classifies a PA 1 or 2 times as bona-fide, the evaluator SHALL perform at least 15 additional attempts.
-	- If only 1 attempt out of 30 was classified as bona-fide, the TOE passes the test (provided the evaluators have no reason to doubt the results - otherwise they can add more attempts with variations until they are confident with the outcome. The evaluators SHALL document their decision).
-	- If two PAs were successful, the evaluator SHALL create new PAIs of the same species with varying parameters (see Toolbox) to optimize the PA further and to gain confidence about the reliability of the PA.
 
-The evaluator SHALL repeat the evaluation with at least 1 new PAI.
 
-- The TOE fails the test for an artefact if three or more attempts have been wrongly classified as bona-fide attempts.
-- If the PAD-mechanism classifies all PA attempts correctly as PA, the system passes the test.
-- If the TOE fails the test for a single artefact with an attack potential lower than the targeted BAL (esp. all PAIs of the functionality test), the TOE fails the evaluation and the evaluation lab can stop the tests.
+## 2.3.2.2 Source Data for the Presentation Attack Instrument Manufacturing Process 
 
-Evaluator Note: The PA attempts SHOULD be comparable for all evaluators.
+For the evaluation, the testing laboratory has to create Presentation Attack Instruments (PAIs) under the - having access to the best possible source data, suitable for the attack and the functionality of the fingerprint sensor and the implemented Presentation Attack Detection mechanisms / technologies. 
 
-![](_page_21_Figure_1.jpeg)
+## 2.3.2.2.1 Source Requirements for 2D and 2.5D-Presentation Attack Instruments 
 
-<span id="page-21-2"></span><span id="page-21-0"></span>Figure 1 PAD Test Workflow including PAI creation during pre-evaluation and subsequent PAD evaluation
+Source images for the PAI manufacturing process can be acquired based on different methods: 
 
-# 3.2.2 Minimal Test Coverage
+1. Reference fingerprint images acquired with contacted-based fingerprint scanners fulfilling the following requirements: 
 
-The evaluation of the PAD functionality SHALL be performed with Presentation Attack Instruments showing at least three different identities presented by two evaluators. PAIs SHOULD be personalized and during the evaluation an evaluator MUST present a PAI to the TOE with an identity different from his own. The metric regarding passing or failing a test is defined in Section [3.2.1](#page-20-2) [Evaluation Metric.](#page-20-2)
+   - a. Minimal image resolution 500 PPI 
 
-# <span id="page-21-1"></span>3.2.3 Expected Result for the Presentation Attack Detection Evaluation
+   - b. No image compression 
 
-As described in [3.2.1](#page-20-2) [Evaluation Metric](#page-20-2) each Presentation Attack Instrument MUST be correctly classified, within the given tolerance of the defined schema, as a Presentation Attack.
+   - c. No automatized image enhancement 
 
-For the higher BALs the evaluator MUST define, create and optimize additional Presentation Attack Instruments in conformance to BSI TR-03166.
+2. Fingerprints digitalised from ink fingerprints 
 
-# <span id="page-22-0"></span>4 Material List Including Relevant Technologies Covering Different Presentation Attack Instruments (For communication with manufacturer)
+   - a. Minimal scanner resolution 600 DPI 
 
-This chapter should outline the detail level of communication between an evaluation laboratory and the manufacturer of the biometric system during a certification process. The general idea behind this limited amount of information is that manufacturers are going to evaluate and test their solutions in a more extensive manner to succeed in the evaluation process. Speaking in terms of presentation attacks, a manufacturer would likely present more and different artefacts to the TOE, than the evaluation laboratory would do.
+   - b. No image compression 
 
-# <span id="page-22-1"></span>4.1 Modality Face
+   - c. No automatized image enhancement 
 
-#### Print Frontal Face Images (PRT)
+3. Contactless fingerprint acquisition with standard camera equipment 
 
-- Inkjet- / Laser printer
-- Paper
-- Fabrics
-- Foils
+   - a. The evaluation facility can take images directly from the fingers and extract fingerprints via image analysis. 
 
-#### Displays / Projectors Presenting a Frontal Face Image (DSP)
+4. Contactless 3D fingerprint acquisition 
 
-- Different display technologies
-- Display Sizes
-- Pixel densities
+   - a. Various technologies enable a contactless 3D acquisition of the fingerprint. A 2D fingerprint can be achieved with different projection methods. 
 
-#### 3D-Masks (MSK)
+5. Enhancement of latent fingermarks 
 
-- Different 3D-Printing technologies
-- Materials usable for fused material deposition
-- Resins
-- Plaster
-- Additives to fake skin properties
-- Texture and coloration
+Federal Office for Information Security 
 
-# <span id="page-22-2"></span>4.2 Modality Finger
+15 
 
-#### Fingermarks (FMA)
+2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms (Normative) 
 
-- Fingermark enhancement and digitization with post-processing
-- Materials and methods to trigger the fingerprint acquisition, while no real finger is presented to the sensor
+- a. By using different methods to enhance the visibility of a latent fingermarks, the ridge pattern can be digitized via a digital camera etc.. 
 
-#### Fingerprint Print Outs (PRT)
+PAI-SOU-05: Image enhancing modifications on the fingerprint SHALL be documented. 
 
-- Inkjet- / Laser printer
-- Paper / Foil type
+Note: Due to the requirement to work based on the worst-case assumption it is most likely to start with direct moulding. The laboratory can choose which method for fingerprint acquisition fits best TOE. 
 
-#### Casted Finger Artefacts (CAS)
 
-- Different materials and methods to create 2.5D and 3D moulds<sup>7</sup>
-- Casting materials and additives
-	- Gelatine like materials
-	- Silicones
-	- Latex
-	- Glues
-	- Polymers
-	- Conductive materials
-	- Variation in material thickness
-	- Mixtures of different materials
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0016-04.png)
 
-<sup>7</sup> A manufacturer SHALL follow the assumption of a worst-case scenario, where an attacker has access to the best biometric data to create present attack instruments.
 
-# <span id="page-24-0"></span>5 Appendix: Instrument Construction
+create a biometric 
 
-This chapter is informative and should give a general overview of tools, materials and methods to create Presentation Attack Instruments for the modalities Face and Finger, but is not encompassing. Evaluation facilities and their experts may have tools, materials and methods not mentioned in the following sections due to their expertise in the evaluation of biometric authentication components.
+artefact to attack the biometric system, but can be used as the simplest possible attack. Therefore, the use of latent fingerprints as source data for fingerprint artefacts is out of scope of this toolbox. 
 
-# <span id="page-24-1"></span>5.1 Creating Artefacts for the Modality Face
+The 2D information of fingerprints can also be used to generate so called 2.5D finger artefacts, where the 2D information is used to create a mould to cast fingerprint artefacts. 
 
-# <span id="page-24-2"></span>5.1.1 PAIs Based on a Frontal Face Image Printout
+## 2.3.2.2.2 Source Requirements for 3D-Presentation Attack Instruments 
 
-#### 5.1.1.1 Recommended Tools and Materials
+Source data for the PAI manufacturing process can be acquired based on different methods: 
 
-The following enumeration gives an example of tools and materials to create PAI variations based on a print of a frontal face.
+1. Co-operative moulding with different materials is a valid method to create a high-quality 3Dfingerprint artefact 
 
-| 1. | camera                | 6. | photo printer      | 11. flashlight   |
-|----|-----------------------|----|--------------------|------------------|
-| 2. | diffused lights       | 7. | white paper DIN A4 | 12. scissors     |
-| 3. | tripod                | 8. | photo paper DIN A4 | 13. cord         |
-| 4. | laser printer colour  | 9. | tripod adapter     | 14. hole puncher |
-| 5. | inkjet printer colour |    | 10. scalpel        |                  |
+   - a. Level of detail (ridges, valleys, sweat pores) 
 
-#### 5.1.1.2 Source Information
+   - b. Material durability 
 
-For artefacts of this class, high quality pictures of the enrolled user are needed. For requirements see [2.3.1.2.1](#page-9-0) [Source Requirements for 2D-Presentation Attack Instruments.](#page-9-0)
+   - c. No alteration over time 
 
-#### 5.1.1.3 Print the Picture
+2. Digital 3D-model acquisition 
 
-Depending on the PAD-technique used in the TOE, different sizes of prints may be recognized as a face. Therefore, different sizes of a printout may be necessary. A good starting point is an artefact that comes as close as possible to the realistic size of the person that is shown on the picture. The best way to achieve this, is to target on a full-size printout on DIN A4 paper.
+   - a. Region of interest of the finger 
 
-#### 5.1.1.3.1 Possible Modifications
+   - b. Achievable voxel resolution of the method has to fit to the application For example isotropic resolution 25 µm 
 
-In the following, possible / exemplary modifications on a print are described to achieve a modification of the PAI.
+## 2.3.2.3 Presentation Attack Instrument Manufacturing 
 
-Modifications:
+This section gives an overview and general requirements for specific manufacturing steps. 
 
-- Use a different printer
-- Print in black or colour
-- Print on different materials
-- Cut out the eye region of the printed face
-- Cut out the mouth region of the printed face
-- Cut out the shape of the face
-- Take holes on each side of the cut of face with a hole puncher and draw one cord through each hole. The cord allows to carry the printout like a mask.
+## 2.3.2.3.1 2D-Presentation Attack Instruments 
 
-### 5.1.1.4 Artefact Application to the TOE
+The subsection deals with the overview of requirements for the PAI manufacturing, variations and modifications to consider. The PAIs are limited to 2D materials / geometries and cover 2D prints on different materials presented to the TOE. 
 
-The evaluator should hold / wear the printed picture of the face in front of the TOE. It has to be ensured that only the PAI is recognized by the TOE and not the face of the evaluator.
+2.3.2.3.1.1 
 
-As the PAI varies in size, the evaluator should evaluate the TOE using different distances between TOE and PAI, which is part of chapter [2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection](#page-6-0)  [Mechanisms.](#page-6-0)
 
-The evaluator should move / tilt / pan the PAI in front of the TOE to find a position where the face comparison is successful. To evaluate the PAD-functionality of the TOE, a single parameter should be varied in increments.
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0016-22.png)
 
-### <span id="page-25-0"></span>5.1.2 PAIs based on Video of an Identity
 
-#### 5.1.2.1 Recommended Tools and Materials
+For some fingerprint scanner technologies, it can be sufficient to cover an old accepted genuine fingerprint with some sheet of plastics or paper. Additional enhancement steps like the use of fingerprint powder (possible use of different colours) to enhance the optical density of the latent fingerprint to achieve the necessary ridge pattern can be performed. Different materials in different colours can act as background for the latent fingerprint. 
 
-1. camera
+2.3.2.3.1.2 Print of a Fingerprint PAI-QUA-11: Depending on the source information, the evaluator SHALL scale the fingerprint image to the fingerprint image size of the enrolled identity. 
 
-3. diffused lights
+PAI-QUA-12: The evaluator SHOULD print the image with a calibrated printer using the best native printing quality. 
 
-5. tripod adapter
+PAI-QUA-13: The source image for a printed artefact SHALL be at least 1,000 PPI (pixel per inch). 
 
-2. tablet 4. tripod
+Due to the fine structure of used can play a crucial role in the printing result. 
 
-#### <span id="page-25-1"></span>5.1.2.2 Source Information
+Federal Office for Information Security 
 
-For artefacts of this class, high quality pictures / videos of the enrolled user are needed. For requirements see [2.3.1.3.1.2](#page-9-1) [Display to Present a Facial Image](#page-9-1) and for the source dat[a 2.3.1.2.1](#page-9-0) [Source Requirements for 2D-](#page-9-0)[Presentation Attack Instruments.](#page-9-0)
+16 
 
-#### Additional recommendations for videos
+2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms (Normative) 
 
-A facial video of the enrolled identity should be recorded with a resolution at least exceeding the native resolution of the displaying device. The framerate and bitrate of the video should fit the displaying device and the PAD-technology. To include potential challenge-response mechanisms the video may contain head movements in all directions, eye and eyelid movements and opening and closing of the mouth.
+PAI-QUA-14: The evaluation facility SHALL take care of the detail preservation of the final print. 
 
-- 1. The face must be well illuminated without hotspots or shadows.
-- 2. The background should have as few artefacts and distortions as possible.
-- 3. The face must be in focus.
-- 4. The person being filmed should look straight into the direction of the camera and move the head a little bit up, down and sideways during the video.
-- 5. The person being filmed should look relaxed with neutral face expression. During the image acquisition the person can close the eyes and move the face muscles a little bit.
+Depending of the technology used by the biometric system additives can be necessary to generate an image of the fingerprint. 
 
-#### 5.1.2.2.1 Possible Modifications
+Exemplary Variations: 
 
-In the following, possible / exemplary modifications on a static image are described to achieve a modification of the PAI.
+- Different printer technologies (e.g., inkjet / laser) 
 
-- Animate the static image with an appropriate software
-- Instead of a display, a projector may be used to project the image or video on a surface
+- Different pigment containing media / conductive additives 
 
-Closely related to a single static image is the usage of several images in a video / video stream. With this option further modifications are available like:
+- Different printing targets (paper, transparent sheets, plastics) including base colour and thickness of the material 
 
-• Video replay attack
+- Colour spaces (CMYK / BW / RGB) 
 
-• Manipulated video streams by deep fakes
+- Wetting the artefact 
 
-### 5.1.2.3 Artefact Application to the TOE
+- Partial artefacts 
 
-- 1. The evaluator should hold a display presenting the target identity in front of the TOE. It may be necessary to use displays with different sizes and pixel densities. Too small displays present the frontal facial image too small to be recognized by the facial comparison algorithm.
-- 2. Depending on the used display and camera / objective constellation, different distances between PAI and TOE may be necessary. The evaluator should test different distances between PAI and TOE for every PAI.
-- 3. The evaluator should move / tilt / pan the PAI in front of the TOE to find a position where the face comparison is successful. To evaluate the PAD-functionality of the TOE, a single parameter should be varied in increments.
+Note: The exemplary variations are only examples, which can be changed for the PAI creation. Depending on the TOE some variations are more relevant than others. 
 
-### <span id="page-26-0"></span>5.1.3 PAIs based on 3D-Masks Containing Facial Biometric Characteristics of an Identity
+## 2.3.2.3.2 2.5D-Presentation Attack Instruments 
 
-The following subchapters explain how to build artefacts from this class. A general overview of different data / information sources, intermediate steps and a potential post-processing is given in [2.3.1.2.2](#page-9-2) and [2.3.1.3.2.](#page-10-1)
+The evaluator presents so called 2.5D fingerprint artefacts to the TOE. This class of artefacts can be created based on the acquired fingerprints as described in 2.3.2.3.1 2D-Presentation Attack Instruments. In contrast to 2D artefacts this class of artefacts contains distinct depth information. 
 
-The first step in the process is getting a digital copy of the enrollees face. This can be done in different ways, ranging from a completely manual process to a fully automated one. One can for example take pictures of the person who is to be impersonated or one can scan the face of the person by using a 3D laser scanner.
+## 2.3.2.3.2.1 Moulding Process 
 
-Several service providers are on the market to acquire the necessary data and create a 3D-modell of the enrolled identity. Further, 3D-printing services are on the market to print such artefacts. Due to the transfer of personal data, the GDPR must be taken into account.
+The 2D fingerprint can be used as source to achieve 2.5D moulds in various materials. In this process the 2D fingerprint acts as a template for e.g., exposure etching processes, engraving or 3D printed moulds. 
 
-The following subchapters explain how to generate a computer model of the head by photogrammetry and how to produce a 3D silicon mask as this is the process that showed the best results.
+Engraving can be done e.g. in plastic or metal (e.g., with laser engravers on Delrin or aluminium) or by using lithographic processes (e.g. for using UV-imprinting on Nyloprint plates as an alternative to using PCBs). 
 
-Alternatively, there is a description how to build a 3D positive model of the face of an evaluator.
+Depending on the processing method, the template can be mirrored along the vertical axis and the binarized presentation can be inverted. 
 
-#### 5.1.3.1 Recommend Tools and Materials
+## 2.3.2.3.2.2 Casting Process 
 
-| 1. | camera           | 13. scale                 | 25. Super Baldiez        |
-|----|------------------|---------------------------|--------------------------|
-| 2. | diffused lights  | 14. bowls                 | 26. airbrush             |
-| 3. | tripod           | 15. scoops                | 27. silicon adhesive neo |
-| 4. | tripod adapter   | 16. vacuum pump           | 28. dust mask            |
-| 5. | swivel chair     | 17. clamps                | 29. protection googles   |
-| 6. | Photogrammetry   | 18. flocking color for    | 30. cotton buds          |
-|    | software         | silicone                  | 31. jam jar small and    |
-| 7. | 3D Model Editing | 19. silicone colorizer    | medium                   |
-|    | software         | 20. silicone release anti | 32. hair clip            |
-| 8. | 3D printer       | adhesive spray            | 33. Neo Adhesive         |
-| 9. | PLA filament     | 21. isopropyl alcohol     | Remover                  |
-|    | 10. towel        | 22. marker pen            | 34. sealer               |
-|    | 11. softener     | 23. wrapping film         | 35. color for airbrush   |
-|    | 12. silicone     | 24. Vaseline              | 36. Isopropylmyristate   |
-|    |                  |                           |                          |
+Due to material properties the moulding or the casting material can change in size during the drying processes. 
 
-| 37. scalpel        | 41. big garbage bags | 45. powder              |
-|--------------------|----------------------|-------------------------|
-| 38. tissues        | 42. crepe tape       | 46. make-up sponge      |
-| 39. medical gloves | 43. paintbrush       | 47. dust extraction for |
-| 40. nail scissors  | 44. liquid make-up   | airbrush                |
+PAI-QUA-15: The evaluator SHALL take care that the fingerprint artefact enables a successful comparison with the enrolled fingerprint. 
 
-#### 5.1.3.2 Source Information
+PAI-QUA-16: For the casting process, the created mould SHALL be cleaned from dust or remaining residuals of a previous casting process. 
 
-For photogrammetry, as one possibility to generate a 3D-modell of a head, images from different angles of the head are necessary to calculate a 3D-modell. Therefore, different acquisition methods are mentioned in this description:
+PAI-QUA-17: The evaluator SHALL take care that only cleaning methods are used which do not alter or influence the mould, or influence the casting material in its hardening or crosslinking process. 
 
-- move around the person with a camera taking pictures
-- mount a camera on a tripod, and rotate the person using a swivel chair
-- use a dedicated portrait studio with several cameras taking simultaneously pictures from different angles
+PAI-QUA-18: Positive materials SHALL be used within in their best before period. 
 
-For artefacts of this class, high quality pictures of the enrolled user are needed. For requirements see [2.3.1.2.1](#page-9-0) [Source Requirements for 2D-Presentation Attack Instruments](#page-9-0)
+Note: It is recommended to use always fresh components and materials. 
 
-To minimize possible artefacts during the computational 3D-model generation process, the person should move as little as possible and face the (central) camera (at the beginning) with neutral expression. In addition to the recommendations mentioned i[n 5.1.2.2](#page-25-1) [Source Information,](#page-25-1) the evaluator must take care that a sufficient number of images are captured to generate a 3D-model.
+PAI-QUA-19: The evaluator SHALL use materials according to the instructions given by the manufacturer. evaluator SHALL document the deviations. 
 
-- The person being photographed should look straight into one direction during the whole shooting.
-- The person being photographed should look relaxed with neutral face expression. They shall hold the same expression during the whole shooting.
-- The head must be well illuminated without hotspots or shadows.
-- The background should have as few artefacts and distortions as possible.
-- The face must be in focus.
-- There should be a sufficient overlap between the pictures.
+Exemplary Variations: 
 
-#### 5.1.3.3 3D-Model Generation, Mould and Mask Creation
+- Different technologies / methods to create a 2.5D mould 
 
-Based on the captured images, a 3D-model can be generated with an appropriate photogrammetry software. Due to the variety of software solutions, the lab must figure out the settings to achieve the best generated 3D-model.
+- Different negative materials 
 
-For further use post processing steps may be necessary to create a 3D-mask or a mould to cast a 3D-mask later on.
+Federal Office for Information Security 
 
-- Repair the mesh
-- Simplify the mesh
+17 
 
-To create a mould from the 3D-model, expertise in 3D-modelling is necessary. Therefore, no general description about the modelling process can be given.
+2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms (Normative) 
 
-To create the mould, or a 3D-mask directly, several options are available like:
+- Different positive materials and additives 
 
-- 3D-Printing
-	- Fused Material Deposition (FMD)
-	- Stereolithography (SLA)
+## 2.3.2.3.3 3D-Presentation Attack Instruments 
 
-• Digital Light Processing (DLP)
+PAI-QUA-20: The evaluator SHALL present finger artefacts to the TOE containing a partial or complete fingerprint. Different methods and processes are possible to create such artefacts. 
 
-A directly printed 3D-mask may be coloured and painted to create a face-like texture of the face. High-end 3D-printers may support multi-colour 3D-printing, which may make the post processing with colouring and painting unnecessary.
+## 2.3.2.3.3.1 Mould-based Artefact Creation Mould Creation 
 
-The mould for the casting process should be prepared with a mould release agent to remove the casted mask from the mould. The mould can be used with different materials to create various masks.
+PAI-QUA-21: The evaluation laboratory SHALL prepare the moulding material as described by the product manufacturer. 
 
-#### 5.1.3.3.1 Colouring / Painting of the Mask
+PAI-QUA-22: Materials SHALL be used according to their best before date. 
 
-The pieces of the mould can be used as support during the colouring / painting process. Due to health risks it is not recommended to perform the airbrushing process while the evaluator wears the mask.
+It is recommended to always use fresh / new materials to exclude variations in the mould quality based on the materials. 
 
-Based on experiences, painting the mask is a challenging process. It may be worth to consider asking a make-up artist for this step.
+Depending on the negative materials for the moulding process protective containers can be necessary in order to keep their physical properties. 
 
-- 1. By airbrush:
-	- a. The first step to paint the mask is to mix some isopropanol with colour for airbrush. It is recommended to choose the skin colour of the impersonated person. If the material s base tone of colour is not properly adjusted during the creation step, dispense it with a brush and mix it in a small jar with ca. 2 ml isopropanol.
-	- b. Then, one has to apply the colour mixture with airbrush on the mask with 10 pounds of pressure.
-- 2. By make-up
-	- a. To colorize the mask it is recommend to make-up the mask with the non-permanent makeup.
-	- b. For better results and easier removal of the make-up, one should moisturize the face and let it infiltrate into the skin for ca. 2 minutes.
-	- c. After this, it is recommended to use primer before putting the make-up on. It makes the make-up application smoother and last longer.
-	- d. Liquid contour make-up that matches the skin colour of the enrolee should be applied to the entire face and the neckline with a make-up sponge or the powder brush.
-	- e. The next step is to apply highlighter to the parts of the face that should get accented. If needed, one has to mix up different colours of the cream colour make-up to find the right colour.
-	- f. After this, darker cream colour make-up is applied with a small brush to the parts which should stay in the background. One has to blend over the edges of the different colours with the powder brush.
+PAI-QUA-23: The fingerprints taken in a cooperative manner SHALL be taken from freshly washed hands. PAI-QUA-24: The evaluator SHALL wait instructions. 
 
-Example: To make a face appear smaller, one has to put darker colour on the side of the face and brighter colour on the forehead and the chin. To make a face appear shorter, one has to put darker colour on the forehead and the chin. The Tutorial (How to contour for beginners, 2016) is recommended.
+PAI-QUA-25: During this period any movements of the finger SHALL be reduced to minimize / avoid alterations of the fingerprint artefact and overall reduction of the artefact quality. 
 
-- g. The next step is to shape the eyebrows and give them the needed contour with the eyelash comb. Then use cream color make-up with the trumpet paste brush and, if needed, fill it up with mascara.
-- h. To remove small parts of make-up one can use cotton buds or tissues.
-- i. After these steps, every further make-up depends on the face of the enrollee.
+Release agents can help to remove the finger from the moulding material. It is recommended to test several release agents, since some could prevent the proper curation of some artefact materials. 
 
-Further tutorials and information regarding the topic make-up can be found online.
+Besides the co-operative moulding process, the evaluation laboratory can create finger artefacts based on acquired 3D finger data with subsequent creation with 3D-printing or other technologies. 
 
-#### 5.1.3.4 Artefact Application to the TOE
+Casting Process 
 
-- 1. The evaluator should stay in front of the TOE. Basically, the evaluator should behave naturally as if they would normally use the TOE.
-- 2. One has to try to find the optimal position. If possible, one can test the best position of the attack on every TOE with the enrollee in front of the system (i.e. by means of a genuine attempt).
+PAI-QUA-26: The evaluator SHALL only use materials and ingredients which have not reached their date of expiry. 
 
-#### 5.1.3.4.1 Hard 3D-Masks
+PAI-QUA-27: The evaluator SHOULD follow the instructions provided by the manufacturer. 
 
-A hard mask may be worn with attached straps to hold the mask in place of the evaluator s head. For a tighter fit between mask and evaluator, the inner part of the mask may be shaped with another inner stamp, showing the face shape of the evaluator. The big advantage of hard masks is, that the masks outer shape is independent of evaluator, which may be helpful for the evaluation of biometric systems taking 3D information into account.
+PAI-QUA-27a: If the evaluator changes SHALL be properly documented. 
 
-#### 5.1.3.4.2 Flexible 3D-Masks
+2.3.2.3.3.2 Direct Artefact Creation from 3D Fingerprint Data 
 
-The application of flexible masks may require more effort and preparation steps depending on the PAD functionality.
+In case 3D fingerprint data are acquired, the evaluator can directly create an artefact based on this data, for can be necessary. 
 
-- 1. Before the flexible mask can be applied to the evaluator s face, it is important to clean the face and remove cream and / or make-up from the skin.
-- 2. To get the best result, one should start the application at the nose and then move outside in little steps in every direction.
-- 3. The first step to apply the flexible mask on the evaluator s face is to put some material specific adhesive with a small brush on the tip of the nose and also in the inside tip of the mask nose.
-- 4. Furthermore, one has to apply the mask step by step on the face of the evaluator. It is required to fix every little part with adhesive without air bubbles between mask and skin. To press the mask on the skin, one can use a small sponge ball.
-- 5. When t buds.
-- 6. Finally one has to paint sealer on the edges to smooth them down to the skin to fix the edges.
+PAI-QUA-28: The evaluator SHALL take care that the used 3D printing technology fulfils necessary requirements to achieve a functional biometric artefact. 
 
-### <span id="page-29-0"></span>5.1.4 Make-up Attack
+PAI-QUA-29: The printing resolution SHALL be high enough to replicate the ridge pattern of the finger. 
 
-I[n 2.3.1.3.3](#page-11-1) [Other / Various \(out of scope\)](#page-11-1) an impersonation via creating contours and facial details with make-up is defined to be out of scope. Nevertheless, we want to mention this kind of attack to a biometric system, even it is currently out of scope. To receive an impression of this kind of attacks some videos are available on the internet, where historic person and celebrities are impersonated applying make-up and wigs.
+2.3.2.3.4 Quality Check 
 
-- 1. For better results and easier remove of the make-up one should moisturize the face and let it infiltrate into the skin for ca. 2 minutes.
-- 2. After this it is recommended to use primer before putting the make-up on. It makes the make-up application smoother and last longer.
-- 3. Liquid contour make-up matching the skin color of the enrollee should be applied to the entire face and the neckline with a make-up sponge or a powder brush.
-- 4. The next step is to apply highlighter to the parts of the face, that should get accented (cream color make-up applied with the eyeliner brush, brighter than the enrollees face color). If needed, one has to mix up different colors of the Cream Color make-up to find the right color.
-- 5. After this, darker cream color make-up is applied with a small brush to the parts which should stay in the background. One has to blend over the edges of the different colors with the powder brush.
-- 6. The next step is to shape the eye brows and give them the needed contour with the eyelash comb (. Than use cream color make-up with the trumpet paste brush and if needed to fill it up with mascara.
-- 7. To remove small parts of make-up one can use cotton buds or tissues.
-- 8. After these steps, every further make-up depends on the face of the enrollee.
+PAI-QUA-30: The created artefact SHALL be quality checked. 
 
-#### 5.1.4.1 Recommend Tools and Materials
+PAI-QUA-31: Artefacts SHALL only be used for PAD-testing if the comparison score exceeds the threshold for the biometric comparison. 
 
-| 1. | tripod          | 7. | cream color make-up    | 12. stipple sponge  |
-|----|-----------------|----|------------------------|---------------------|
-| 2. | diffused lights | 8. | liquid contour make    | 13. mascara         |
-| 3. | tripod adapter  |    | up                     | 14. cotton buds     |
-| 4. | make-up brushes | 9. | make-up sponge         | 15. make-up remover |
-| 5. | moisturizer     |    | 10. translucent powder | wipes               |
-| 6. | primer          |    | 11. powder pad         | 16. tissues         |
+Federal Office for Information Security 
 
-Evaluator Note: If the expertise of the evaluator is insufficient, a make-up artist may be consulted to learn the necessary skills or to apply the make-up to the evaluator.
+18 
 
-#### 5.1.4.2 Artefact Application to the TOE
+3 Evaluation Phase (Normative) 
 
-This kind of artefact is highly dependent on the perspective of the biometric verification / authentication system. Therefore, the evaluator must figure out the right position in relation to the TOE to achieve a sufficient biometric score, which matches the requirements regarding the definition of a PAI.
+## 3 Evaluation Phase (Normative) 
 
-- 1. The initial evaluation position should be a frontal image of the face.
-- 2. One has to try to find the right position. If possible, one can test the best position of the attack on every TOE with the enrollee in front of the system (i.e. by means of a genuine attempt).
+The following sections describe the Biometric Performance and the Presentation Attack Detection mechanism evaluation of the Target of Evaluation. Requirements regarding the biometric performance for the different Biometric Assurance Level are specified in the BSI TR-03166. 
 
-# <span id="page-30-0"></span>5.2 Build Artefacts for the Modality Finger
+EVA-GEN-01: In contrast to PRE-PRO-01X the evaluation of the biometric performance as described in 3.1 Biometric Performance Evaluation and 3.2 Presentation Attack Detection Evaluation SHALL be performed with the TOE, which will be available in the market, without the access to biometric comparison scores and PAD scores, but ignoring the organisational measures within the evaluation phase. 
 
-#### <span id="page-30-1"></span>5.2.1 Recommend Materials and Tools
+## 3.1 Biometric Performance Evaluation 
 
-The following list gives an example of recommended tools and materials to create PAI variations:
+For the biometric performance evaluation, the Evaluation Guidance distinguishes between different cases: 
 
-#### PAI-Materials:
+1. Biometric Performance Evaluation (Product Manufacturer) 
 
- 
+   - a. Embedded Capture Device as a Part of the TOE 
 
-- 1. Transparency film for laser and inkjet printers / coloured
-- 2. Paper (white and coloured)
-- 3. Latex (Latex Milk)
-- 4. Wood glue (different brands, water based)
-- 5. Silicone (e.g. Dragon Skin, Dermasil, CPFlesh)
-- 6. Gelafix (different colours)
-- 7. Window Colour (acrylic based)
-- 8. Nanotips (different colours)
+   - b. The biometric system can be used with several different capture devices and therefore the capture device is not part of the TOE. 
 
-#### Mould-Materials:
+2. Biometric Performance Plausibility Check by the Evaluation Laboratory 
 
-- 1. Luxatemp (direct mould)
-- 2. Cast silicone
-- 3. Alabaster Plaster
-- 4. Power Putty (Epoxy)
-- 5. Nyloprint (with printed film)
+   - a. Embedded Capture Device as a Part of the TOE 
 
-#### Additives:
+   - b. The biometric system can be used with several different capture devices and therefore the capture device is not part of the TOE. 
 
-- 1. Distilled Water
-- 2. Glycerine
-- 3. Graphite powder
-- 4. Iron powder
+EVA-PER-01: The test crew for all biometric performance tests SHALL be composed as defined by ISO/IEC 19795-1 chapter 7.4. 
 
-#### Tools:
+EVA-PER-02: For the case where the capture device is not part of the TOE (1b. and 2b.), the evaluation laboratory SHALL use different capture devices covering at least the lowest hardware specification allowed by the product manufacturer up to state-of-the-art capture devices. 
 
-- 1. Fingerprint Powder
-- 2. Fingerprint paste (for pressed and scanned reference fingerprints)
-- 3. Brush
-- 4. Spatula
-- 5. Lighter
-- 6. High res Inkjet-Printer (different inks)
-- 6. 3D-Print Materials (Resins, Polymers)
-- 7. Laser engraver material (e.g. delrin)
-- 8. Mould Silicone (different brands)
-- 9. UV-Photopolymer strips for stabilization
-- 5. Citric Acid (for preservation)
-- 6. Isopropanol (for cleaning)
-- 7. High res Laser-Printer (different toners)
-- 8. Flat bed scanner (>1200 dpi)
-- 9. 3D-Printer (resolution x/y:<30 µm, z:<15 µm)
-- 10. Ideal: 3D-Measurement Tool (e.g.Profilometer)
-- 11. Digital Scale
-- 10. Impregum
-- 11. Indurent Gel
-- 12. Zetalabor Silicone Putty
+Note: Each device taken into account with EVA-PER-02 has to be tested according to the given approximation for the test crew size . 
 
-- 7. Release Agents (for casting)
-- 8. Silicone Colour
-- 9. Water based Colour
-- 12. Hygrometer
-- 13. Heat gun
-- 14. Oven / Microwave
-- 15. Fridge / Freezer
-- 16. UV-Lamp
-- 17. Small Vacuum Chamber (to prevent bubbles)
+EVA-PER-03: The requirements for the minimal amount of Information, which SHALL be included in the testing report, are given in the Appendix (6 Appendix: Minimal Information Requirements of a Testing Report). 
 
-### <span id="page-31-0"></span>5.2.2 Source Information
+EVA-PER-04X : The biometric performance of the TOE SHALL be evaluated based on the assumption of a single attempt per test subject. 
 
-For artefacts of this class, high quality pictures / scans of the user s enrolled fingerprint are needed. For requirements see [2.3.1.2.1](#page-9-0) [Source Requirements for 2D-Presentation Attack Instruments.](#page-9-0) For this class, different ways to create the source image can be followed:
+## 3.1.1 [BAL-1] Biometric Assurance Level 1 
 
-- Without cooperation
-	- Photography of a latent fingerprint on a surface without enhancement (lightning powder)
-	- Enhanced visibility of a latent fingerprint with lightning powder
-		- Transfer the fingerprint via tape on a sheet of paper
-			- Digitalize the latent fingerprint with a flat bed scanner Evaluator Note: With this approach the achieved fingerprint artefact will directly feature the correct size.
-		- Direct photograph of the latent fingerprint Evaluator Note: It is recommended to have an object for scale in the photograph to scale the latent fingerprint to the correct size. The evaluator must account for changes of the fingerprint due to
+## 3.1.1.1 Biometric Performance Evaluation by the Product Manufacturer 
 
-the perspective or properties of the used camera. Depending on the camera used integrated enhancing algorithms are applied to the acquired image.
+To prove a sufficient biometric performance (1 false accept in 10,000 attempts) of the TOE the product manufacturer has to execute and document the performance. Testing of the biometric performance by the product manufacturer can be done with biometric characteristics captured by the product manufacturer or alternatively by using the NIST FRTE 1:1 biometric performance test executed with the VISA-scenario data set. 
 
-- In cooperation
-	- Directly digitized fingerprint by using a fingerprint scanner, different technologies are possible
-	- Cooperative mould creation
-		- Pressing the finger in Play-doh etc.
+## 3.1.1.1.1 Biometric Performance Evaluation via Technology Evaluation 
 
-Evaluators Note: Analog and / or digital post processing steps may be necessary to achieve a sufficient comparison score and to create another type of artefact e.g. 2.5D artefacts. Here, the 2D image will be processed in a manner to create a mould where the fingerprint can be casted.
+EVA-PER-04: The product manufacturer SHALL perform a technology evaluation of the biometric system (excluding the capture device) with 30,000 independent and different biometric characteristics to fulfil the rule of 3 to provide proof for a biometric performance of 1 false accept in 10,000 attempts. 
 
-#### 5.2.2.1 2D Printed Finger Artefacts
+Note: This is an evaluation of the biometric performance using a database. 
 
-This subchapter contains information about the creation process of a 2D artefact, which may be printed with different printer technologies on different materials.
+Federal Office for Information Security 
 
-#### 5.2.2.1.1 Print the Fingerprint Artefact
+19 
 
-To achieve a sufficient comparison score between the enrolled and the presented fingerprint it is necessary to print the artefact in the correct size. Further, a mirroring and / or an inversion of the image may be necessary.
+3 Evaluation Phase (Normative) 
 
-A good starting point is a print with the printer s maximum native resolution on a white sheet of paper.
+As an alternative to EVA-PER-04 the evaluation of the biometric performance provided by the NIST FRTE 1:1 (face) or NIST PFT III (finger) test can be used, if the conditional requirements EVA-PER-05 and EVAPER-06 are met. 
 
-#### 5.2.2.1.2 Possible Modifications
+EVA-PER-05 (Conditional): The biometric performance tested via NIST FRTE 1:1 methodology SHALL use the VISA-scenario. 
 
-In the following, possible / exemplary modifications on a print are described to achieve a modification of the PAI.
+EVA-PER-06 (Conditional): The evaluated biometric performance SHALL go below 1 false accept in 30,000 attempts. 
 
-- Use a different printer / printer technology
-- Print in black or colour
-- Print on different materials
-	- colour
-	- thickness
-	- surface properties
-- Modify the printed artefact with additives like:
-	- Water
-	- Graphite
-	- Glycerol
-	- Contact Spray etc.
-	- Oil
+## 3.1.1.1.2 Embedded Capture Device as a Part of the TOE 
 
-#### 5.2.2.2 Post Processing Steps for 2.5D-Artefact Creation
+EVA-PER-07: The product manufacturer SHALL capture the biometric characteristics of 245 test subjects with the intended and embedded capture device of the TOE. 
 
-To create moulds from the captured 2D fingerprints it is possible to perform some easy post processing steps:
+Note: The number of the required test crew size N can be approximated by the total number of comparisons K following the rule of 3 or rule of 30. Applying the rule of 3 to prove an FAR of 0.01% means 30,000 crosscomparisons have to be performed. The test crew size can be calculated by 
 
-- Binarization via thresholding
-- Line thinning
+## 𝑁≈√2𝐾 
 
-• Height map calculation
+EVA-PER-08: The product manufacturer SHALL evaluated the achieved biometric performance based on the cross-comparison approach defined by ISO/IEC 19795. 
 
-Based on these steps, moulds or fingerprint artefacts including the ridge / valley information of the fingerprint can be created. Moulds can be used with various castable materials.
+EVA-PER-09: The cross-comparison approach SHALL provide proof of a biometric performance of 1 false accept in 10,000 attempts. 
 
-#### 5.2.2.3 Moulds Taken in a Cooperative Scenario
+## 3.1.1.2 Biometric Performance Plausibility Check by the Testing Laboratory 
 
-In a cooperative scenario the evaluator creates a finger mould by pressing the target finger in some plasticine or other material. A drying process at room temperature or at higher temperature may be necessary. During this process, the material may change its dimension (shrinking).
+The evaluation laboratory performs independently from the product manufacturer a plausibility test of the biometric performance of the system including the capture device. 
 
-Exemplary materials are plasticine, silicone with hardening additives, stearin, special plaster or pottery clay.
+Note: The plausibility check has to be performed in all cases by the evaluation laboratory. 
 
-#### 5.2.2.4 Casting of Artefacts
+EVA-PER-10: The evaluation laboratory SHALL capture the biometric characteristics of 245 test subjects with the intended and embedded capture device of the TOE. 
 
-The following aspects should be considered for casting processes:
+EVA-PER-11: The evaluation laboratory SHALL evaluated the achieved biometric performance based on the cross-comparison approach defined by ISO/IEC 19795. 
 
-- it is recommended to test the moulds for:
-	- 3D-accuracy (compared to the original finger)
-	- no surface distortions (e.g. bubbles, moulding/3D-printing artefacts)
-	- changes of physical properties in time (e.g. shrinking, decomposition)
-- in pre-evaluations it is recommended to test the chemical reaction between the artefact materials and the mould (also considering release agents), since some combinations would prevent the artefact from curing properly
-- for mixed materials, a vacuum chamber can help to significantly reduce bubbles.
-- the right temperature can help to control the curing process (e.g. cooler temperatures lead to longer curing times for most materials, hence there is more time for properly mixing and preparing the artefact material for casting)
+EVA-PER-12: The cross-comparison approach SHALL provide proof of a biometric performance of 1 false accept in 10,000 attempts. 
 
-# <span id="page-33-0"></span>5.3 Apply the Artefact to the TOE
+The evaluation laboratory performs independently from the product manufacturer a plausibility test of the biometric performance of the system excluding the capture device. 
 
-The created artefact will be pressed on the scanner surface. For some materials, it may be necessary to apply some additives to the contact surface.
+EVA-PER-13: EVA-PER-10 to EVA-PER-12 are performed with capture devices as specified in EVA-PER-02. 
 
-Using real skin behind the artefact can help attack certain PAD-technologies, especially with thin artefacts.
+## 3.1.2 [BAL-2] Biometric Assurance Level 2 
 
-During pre-evaluation the evaluators should optimize their presentation technique for every artefact, regarding i.a. approach angle, pressure and speed.
+## 3.1.2.1 Biometric Performance Evaluation by the Product Manufacturer 
 
-# <span id="page-34-0"></span>6 Appendix: Minimal Information Requirements of a Testing Report
+To prove a sufficient biometric performance (1 false accept in 33,333 attempts) of the TOE the product manufacturer has to execute and document the performance. Testing of the biometric performance by the product manufacturer can be done with biometric characteristics captured by the product manufacturer or alternatively by using the NIST FRTE 1:1 biometric performance test executed with the VISA-scenario data set. 
 
-[Table 8](#page-34-1) in this chapter summarizes the minimal information that needs to be contained in the testing report within this Technical Guideline. Most parts of this testing report are based on the reporting result list for the biometric performance of a system published in ISO/IEC 19795-1:2021 (6) Clause 12.
+Federal Office for Information Security 
 
-| Test Details                 | Details to Report                                                                                                                                                                    | Information                                                                                                                                                 |
-|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| The system(s) tested         | Including details of algorithms,<br>biometric sensors, user interface,<br>supporting hardware, etc.                                                                                  | 1.<br>System Specification: Manufacturer, model,<br>version, firmware, biometric modality<br>2.<br>Application software: provider, title, version,<br>build |
-| Test organization<br>details | Test organization, location, date of<br>test.                                                                                                                                        | Company / Organization, Date evaluation<br>completed, Date test report published                                                                            |
-| Type of evaluation           | In the case of technology<br>evaluation: details of the test<br>corpus used.                                                                                                         | As defined in Chapter 3 the use case SHALL be a<br>scenario evaluation.                                                                                     |
-|                              | In the case of scenario evaluation:<br>details of the test scenario.                                                                                                                 |                                                                                                                                                             |
-|                              | In the case of operational<br>evaluation: details of the<br>operational application.                                                                                                 |                                                                                                                                                             |
-| Size of evaluation           | Number of test subjects.                                                                                                                                                             |                                                                                                                                                             |
-|                              | Number of instances (fingers,<br>hands or eyes, etc.) enrolled by<br>each test subject.                                                                                              |                                                                                                                                                             |
-|                              | Number of visits made by test<br>subject.                                                                                                                                            |                                                                                                                                                             |
-|                              | Number of transactions per test<br>subject (or test subject instance) at<br>each visit.                                                                                              |                                                                                                                                                             |
-| Test crew                    | Demographics of the test crew<br>(age, gender, etc.)                                                                                                                                 |                                                                                                                                                             |
-|                              | The manner in which the test crew<br>was assembled, to include<br>exclusions, volunteers etc., as well<br>as the degree to which the test<br>crew mirrored the target<br>population. |                                                                                                                                                             |
-|                              | The level of training, instruction,<br>familiarization, and habituation of<br>test crew in the use of the system.                                                                    |                                                                                                                                                             |
+20 
 
-<span id="page-34-1"></span>Table 8 Minimal Requirements of a Testing Report
+3 Evaluation Phase (Normative) 
 
-| Test Details                                                            | Details to Report                                                                                                                                                    | Information                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Test environment                                                        |                                                                                                                                                                      | Comparison trial data shall be collected under<br>environmental conditions that closely<br>approximate those of the target application. This<br>test environment shall be consistent throughout<br>the collection process. The motivation of test<br>subjects, and their level of training and familiarity<br>with the system, should also mirror that of the<br>target application. Non-mated comparison trials<br>shall be made under the same conditions as mated<br>comparison trials.                                                                                                                                                                                                                                                                          |
-|                                                                         |                                                                                                                                                                      | The collection process should ensure that<br>presentation effects and channel effects are either<br>uniform across all subjects or randomly varying<br>across subjects. If the effects are held uniformly<br>across subjects, then the same presentation and<br>channel controls in place during enrolment<br>should be in place for the collection of the test<br>data. Systematic variation of presentation and<br>channel effects between enrolment and test data<br>can lead to results distorted by these factors. If the<br>presentation and channel effects are allowed to<br>vary randomly across test subjects, the<br>experimenter should analyse results and report on<br>any correlation in these effects between<br>enrolment and comparison sessions. |
-| Time separation<br>between enrolment<br>and recognition<br>transactions |                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Quality and decision<br>thresholds used<br>during data collection       | The thresholds used, and those<br>recommended for the target<br>application (if different).                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Control of factors<br>potentially affecting<br>performance              |                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| Test procedures                                                         | E.g. policies for determining<br>enrolment failures.<br>Details of any abnormal cases<br>occurring during testing that are<br>excluded from performance<br>analysis. |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+## 3.1.2.1.1 Biometric Performance Evaluation via Technology Evaluation 
 
-| Test Details                                                                   | Details to Report                                                                                                                                                                                                                                                                                                                              | Information                                                 |
-|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| Deviation from<br>guidelines                                                   | Deviations from the guidelines of<br>this document should be<br>explained. Sometimes it is<br>necessary to compromise one<br>aspect to achieve another; for<br>example, randomizing the order of<br>using fingers on a fingerprint<br>device might lead to user<br>confusion and a higher number of<br>labelling errors.                       |                                                             |
-| Reporting<br>verification system<br>performance                                | FAR and corresponding FRR shall<br>be reported over the range of<br>decision thresholds tested. A<br>detection error trade-off<br>(DET)<br>plot is recommended in the case<br>of multiple operating points.                                                                                                                                    | False Acceptance Rate (FAR) & False Rejection Rate<br>(FRR) |
-| Reporting<br>verification system<br>resistance against<br>presentation attacks | Depending on the BAL to achieve,<br>the minimal test extend is covered<br>by the chapter 3. Documentation<br>SHALL be in the manner, that the<br>testing procedure can be<br>reproduced by others with<br>comparable expertise. For higher<br>BALs the attack potential must be<br>calculated according to CEM (1)<br>for each successful PAI. |                                                             |
+EVA-PER-14: The Product Manufacturer SHALL perform a technology evaluation of the biometric system (excluding the capture device) with 100,000 independent and different biometric characteristics to fulfil the rule of 3 to provide proof for a biometric performance of 1 false accept in 33,333 attempts. 
 
-# <span id="page-37-0"></span>7 Bibliography
 
-1. Common Criteria. Common Methodology for Information Technology Security Evaluation. Geneve, Switzerland : Common Criteria, 2022. CCMB-2022-11-006.
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0021-03.png)
 
-2. Bundesamt für Sicherheit in der Informationstechnik. Technische Richtlinie TR-03166: Technical Guideline for Biometric Authentication Components in Devices for Authentication. Bonn, Germany : s.n., 2024.
 
-3. International Organization for Standardization. Information technology Biometric data interchange formats Part 5: Face image data. Geneva, Switzerland : International Organization for Standardization, 2011. ISO/IEC19794-5.
+formance using a database. 
 
-4. . Information technology Biometric sample quality Part 5: Face image data. Geneva, Switzerland : International Organization for Standardization, 2010. ISO/IEC TR 29794-5.
+As an alternative the evaluation of the biometric performance provided by the NIST FRTE 1:1 (face) or NIST PFT III (finger) test can be used, if the conditional requirements EVA-PER-15 and EVA-PER-16 are met. 
 
-5. . ISO/IEC 39794-5:2019 Information technology Extensible biometric data interchange formats Part 5: Face image data. Geneva, Switzerland : International Organization for Standardization, International Organization for Standardization, 2019. ISO/IEC 39794-5:2019.
+EVA-PER-15: The biometric performance tested via NIST FRTE 1:1 methodology SHALL use the VISAscenario. 
 
-6. . ISO/IEC 19795 Information technology Biometric performance testing and reporting Part 1: Principles and framework. Geneva, Switzerland : International Organization for Standardization, International Organization for Standardization, 2021. ISO/IEC 19795-1:2021.
+EVA-PER-16: The evaluated biometric performance SHALL go below 1 false accept in 100,000 attempts. 
 
-7. . Information technology Biometric performance testing and reporting Part 2: Testing methodologies for technology. Geneva, Switzerland : International Organization for Standardization, 2007. ISO/IEC 19795-2.
+## 3.1.2.1.2 Embedded Capture Device as a Part of the TOE 
 
-8. . Information technology Biometric performance testing and reporting Part 9: Testing on mobile devices. Geneva, Switzerland : International Organization for Standardization, 2019. ISO/IEC TS 19795- 9:2019.
+EVA-PER-17: The product manufacturer SHALL capture the biometric characteristics of 448 test subjects with the intended and embedded capture device of the TOE. 
+
+EVA-PER-18: The product manufacturer SHALL evaluated the achieved biometric performance based on the cross-comparison approach defined by ISO/IEC 19795. 
+
+EVA-PER-19: The cross-comparison approach SHALL provide proof of a biometric performance of 1 false accept in 33,333 attempts. 
+
+## 3.1.2.2 Biometric Performance Plausibility Check by the Evaluation Laboratory 
+
+The evaluation laboratory performs independently from the product manufacturer a plausibility test of the biometric performance of the system including the capture device. 
+
+EVA-PER-20: The evaluation laboratory SHALL capture the biometric characteristics of 448 test subjects with the intended and embedded capture device of the TOE. 
+
+EVA-PER-21: The evaluation laboratory SHALL evaluated the achieved biometric performance based on the cross-comparison approach defined by ISO/IEC 19795. 
+
+EVA-PER-22: The cross-comparison approach SHALL provide proof of a biometric performance of 1 false accept in 33,333 attempts. 
+
+The evaluation laboratory performs independently from the product manufacturer a plausibility test of the biometric performance of the system excluding the capture device. 
+
+EVA-PER-23: EVA-PER-19 to EVA-PER-21 are performed with capture devices as specified in EVA-PER-02. 
+
+## 3.1.3 [BAL-3] Biometric Assurance Level 3 
+
+## 3.1.3.1 Biometric Performance Evaluation by Product Manufacturer 
+
+To prove a sufficient biometric performance (1 false accept in 333,333 attempts) of the TOE the product manufacturer has to execute and document the performance. Testing of the biometric performance by the product manufacturer can be done with biometric characteristics captured by the product manufacturer or alternatively by using the NIST FRTE 1:1 biometric performance test executed with the VISA-scenario data set. 
+
+## 3.1.3.1.1 Biometric Performance Evaluation via Technology Evaluation 
+
+EVA-PER-24: The Product Manufacturer SHALL perform a technology evaluation of the biometric system (excluding the capture device) with 1,000,000 independent and different biometric characteristics to fulfil the rule of 3 to provide proof for a biometric performance of 1 false accept in 333,333 attempts. 
+
+Federal Office for Information Security 
+
+21 
+
+3 Evaluation Phase (Normative) 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0022-01.png)
+
+
+As an alternative the evaluation of the biometric performance provided by the NIST FRTE 1:1 (face) or NIST PFT III (finger) test can be used, if the conditional requirements EVA-PER-25 and EVA-PER-26 are met. 
+
+EVA-PER-25: The biometric performance tested via NIST FRTE 1:1 methodology SHALL use the VISAscenario. 
+
+EVA-PER-26: The evaluated biometric performance SHALL go below 1 false accept in 333,333 attempts. 
+
+## 3.1.3.1.2 Embedded Capture Device as a Part of the TOE 
+
+EVA-PER-27: The product manufacturer SHALL capture the biometric characteristics of 1415 test subjects with the intended and embedded capture device of the TOE. 
+
+EVA-PER-28: The product manufacturer SHALL evaluated the achieved biometric performance based on the cross-comparison approach defined by ISO/IEC 19795. 
+
+EVA-PER-29: The cross-comparison approach SHALL provide proof of a biometric performance of 1 false accept in 333,333 attempts. 
+
+## 3.1.3.2 Biometric Performance Plausibility Check by the Evaluation Laboratory 
+
+The evaluation laboratory performs independently from the product manufacturer a plausibility test of the biometric performance of the system including the capture device. 
+
+EVA-PER-30: The evaluation laboratory SHALL capture the biometric characteristics of 1415 test subjects with the intended and embedded capture device of the TOE. 
+
+EVA-PER-31: The evaluation laboratory SHALL evaluated the achieved biometric performance based on the cross-comparison approach defined by ISO/IEC 19795. 
+
+EVA-PER-32: The cross-comparison approach SHALL provide proof of a biometric performance of 1 false accept in 333,333 attempts. 
+
+The evaluation laboratory performs independently from the product manufacturer a plausibility test of the biometric performance of the system excluding the capture device. 
+
+EVA-PER-33: EVA-PER-28 to EVA-PER-30 are performed with capture devices as specified in EVA-PER-02. 
+
+## 3.2 Presentation Attack Detection Evaluation 
+
+After creating the best suited Presentation Attack Instruments for evaluating the TOE in the initial preevaluation phase, the evaluator uses these instruments for the testing process. The intention of this approach is to minimis can occur during the testing, but has to be performed during the Pre-Evaluation Process. 
+
+EVA-PAD-01: The evaluator SHALL cover all PAI-species, which can be created from the material list in chapter 4 Material List Including Relevant Technologies Covering Different Presentation Attack Instruments. 
+
+EVA-PAD-02: For the BALs 2 and 3 the evaluator SHALL follow the rating scheme of attack potentials as defined in CEM [1] every PAI is presented to the TOE and evaluated following the evaluation metric as described in 3.2.1 Evaluation Metric. 
+
+## 3.2.1 Evaluation Metric 
+
+The evaluation metric for this technical guideline is very similar to established vulnerability analysis procedures in Common Criteria. 
+
+Federal Office for Information Security 
+
+22 
+
+3 Evaluation Phase (Normative) 
+
+EVA-MET-01: Prior to the Evaluation Phase the evaluator SHALL perform the steps described in chapter 2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms. 
+
+All steps of the evaluation, including the pre-evaluation phase, is depicted in Figure 1. 
+
+EVA-MET-02: PAIs SHOULD be personalised to the presenting evaluator, see also PAI-QUA-08. 
+
+Note: The requirement is in particular important for the use of 3D face masks. Flexible masks can deform if not fitting to the evaluator. Both hard masks and flexible masks can show hard edges which can be detected by the TOE as a PA attempt. 
+
+EVA-MET-03: During the evaluation an evaluator SHALL present a PAI to the TOE with an identity different from his own. The metric regarding passing or failing a test is defined in Section 3.2.1 Evaluation Metric. 
+
+EVA-MET-04: For the BALs 2 and 3, the evaluator SHALL define, create and optimise additional Presentation Attack Instruments in conformance to BSI TR-03166. 
+
+EVA-MET-05: Criteria for pass or fail within the PAD evaluation are defined in the following schema: 
+
+- Each artefact SHALL be applied at least 25 times with minimum 2 evaluators and 3 different identities. In the case that 3 presentation attacks are classified as bona-fide attempts for one evaluator (presented identity), the TOE has failed the test and the evaluator can stop testing with this artefact. 
+
+Note: For clarification it is not required that each evaluator has to present 3 different identities. The biometric system has to be tested with 3 different identities, where the evaluators can impersonate each other. 
+
+Note: PAIs which wear off during usage, the evaluator has to create a PAI species based on the same source, e.g. for fingerprints a mould. 
+
+- If the TOE classifies a PA 1 or 2 times as bona-fide, the evaluator SHALL perform at least 25 additional attempts. 
+
+   - If only 1 attempt out of 50 was classified as bona-fide, the TOE passes the test (provided the evaluators have no reason to doubt the results - otherwise they can add more attempts with variations until they are confident with the outcome. The evaluators SHALL document their decision). 
+
+   - If two PAs were successful, the evaluator SHALL create new PAIs of the same species with varying parameters (see Toolbox) to optimise the PA further and to gain confidence about the reliability of the PA. 
+
+The evaluator SHALL repeat the evaluation with at least 1 new PAI. 
+
+- The TOE fails the test for an artefact if three or more attempts have been wrongly classified as bona-fide attempts. 
+
+- If the PAD-mechanism classifies all PA attempts correctly as PA, the system passes the test. 
+
+- If the TOE fails the test for a single artefact with an attack potential lower than the targeted BAL (esp. all PAIs of the functionality test), the TOE fails the evaluation and the evaluation lab can stop the tests. 
+
+Federal Office for Information Security 
+
+23 
+
+3 Evaluation Phase (Normative) 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0024-01.png)
+
+
+Figure 1 PAD Test Workflow including PAI creation during pre-evaluation and subsequent PAD evaluation. 
+
+## 3.2.2 Fixed Time Methodology: Pre-Evaluation and PAD-Evaluation 
+
+In addition to the Evaluation Metric, the Evaluation Guidance defines an upper time limit for each Biometric Assurance Level, which includes only the PAD vulnerability evaluation phase. The pre-evaluation phase as well as the plausibility check of the biometric performance of the biometric system is not part of the Fixed Time Methodology. 
+
+## 3.2.2.1 Biometric Assurance Level 1 
+
+EVA-FTM-01: The upper time limit for the PAD evaluation for BAL 1 SHALL be 15 person-days. 
+
+## 3.2.2.2 Biometric Assurance Level 2 
+
+EVA-FTM-02: The upper time limit for the PAD evaluation for BAL 2 SHALL be 30 person-days. 
+
+Federal Office for Information Security 
+
+24 
+
+3 Evaluation Phase (Normative) 
+
+## 3.2.2.3 Biometric Assurance Level 3 
+
+EVA-FTM-03: The upper time limit for the PAD evaluation for BAL 3 SHALL be 60 person-days. 
+
+## 3.2.3 Minimal Test Coverage 
+
+The evaluation of the PAD functionality has to be performed with PAIs showing at least three different identities presented by at least two evaluators, see EVA-MET-02 . 
+
+The following Table 8 gives an overview of the minimum number of PAI to create and optimise during the pre-evaluation phase. This table covers only the extent for the BAL 1. The additional PAIs freely created by the evaluator for the BALs 2 and 3 are not covered here. 
+
+Table 8 Overview of minimal number of PAIs to create for test coverage of the modality face 
+
+|Nr.|PAI Class|Identities|PAIs|Minimal number<br>of PAIs|
+|---|---|---|---|---|
+|01|Paper|3|• Size<br>• A4<br>• A3<br>• Cut outs (only A4)<br>• Eyes<br>• Mouth<br>• Nose<br>• Face contour<br>• Partial Faces<br>• Periocular<br>• Half mask|15|
+|02|Foil|3|• Size<br>• A4|3|
+|03|Fabric|3|• Size<br>• A4<br>• A3|6|
+|04|Display|3|• Size|12|
+|05|Projector|3||3|
+|06|3D-Masks|3|• Base material<br>• PLA<br>• Resin<br>• Latex<br>• Silicon<br>• Gelatine<br>• Stiffness|30|
+
+
+
+Federal Office for Information Security 
+
+25 
+
+3 Evaluation Phase (Normative) 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0026-01.png)
+
+
+- Solid 
+
+- • Flexible 
+
+- • Surface properties • Colouring • Texture 
+
+- • Cut outs • Eyes 
+
+- • Completeness • Full face • Partial face 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0026-03.png)
+
+
+Table 9 Overview of minimal number of PAIs to create for test coverage of the modality finger 
+
+|Nr.|PAI Class|Identities|PAIs|Minimal<br>number of<br>PAIs|
+|---|---|---|---|---|
+|01|Fingermarks|3|• Pure marks<br>• with powder additives<br>(graphite, metal)|6|
+|02|Paper[2D-print]|3|• dry paper<br>• wet paper|6|
+|03|Transparent Foil[2D-print]|3|• ink / toner|3|
+|04|Gelatine[cast]<br>(mix with glycerine)|3|• thin (~0.3 mm)<br>• middle (~1 mm)<br>• thick (>2 mm)|9|
+|05|Gelafix[cast]<br>(transparent)|3|• thin (~0.3 mm)<br>• middle (~1 mm)<br>• thick (>2 mm)|9|
+|06|Gelafix[cast]<br>(coloured)5|3|• thin (~0.3 mm)<br>• middle (~1 mm)<br>• thick (>2 mm)|9|
+|07|Silicone[cast]<br>(transparent)|3|• thin (~0.3 mm)<br>• middle (~1 mm)<br>• thick (>2 mm)|9|
+
+
+
+> 5  Gelafix is available in many different colours (different skin tones, red, green, etc.). In pre-evaluation, the evaluator has to determine the colour with the best chance for a successful attack. 
+
+Federal Office for Information Security 
+
+26 
+
+3 Evaluation Phase (Normative) 
+
+|08|Silicone[cast]<br>(coloured)6|3|• thin (~0.3 mm)<br>• middle (~1 mm)<br>• thick (>2 mm)|9|
+|---|---|---|---|---|
+|09|Latex[cast]|3|• thin (~0.3 mm)<br>• middle (~1 mm)<br>• thick (>2 mm)|9|
+|10|Wood Glue[cast]<br>(added glycerine)|3|• thin (~0.3 mm)<br>• middle (~1 mm)<br>• thick (>2 mm)|9|
+|11|Window Colour[cast]<br>(acrylic)|3|• thin (~0.3 mm)<br>• middle (~1 mm)<br>• thick (>2 mm)|9|
+|12|Conductiv rubber|3|• thin (~0.3 mm)<br>• middle (~1 mm)<br>• thick (>2 mm)|9|
+|13|3D-printed positive<br>(full colour print, flexible<br>polymer material: shore<br>hardness A10-A20)|3|• thin (~0.3 mm)<br>• middle (~1 mm)<br>• thick (>2 mm)|9|
+
+
+
+## 3.2.4 Expected Result for the Presentation Attack Detection Evaluation 
+
+EVA-RES-01: As described in 3.2.1 Evaluation Metric each Presentation Attack Instrument SHALL be correctly classified, within the given tolerance of the defined schema, as a Presentation Attack. 
+
+> 6  In pre-evaluation, the evaluator has to determine the colour with the best chance to successfully attack the TOE. For a neutral light skin tone, someone can find an exemplary mixture instruction in the appendix. 
+
+Federal Office for Information Security 
+
+27 
+
+4 Material List Including Relevant Technologies Covering Different Presentation Attack Instruments (Informative) 
+
+## 4 Material List Including Relevant Technologies Covering Different Presentation Attack Instruments (Informative) 
+
+This chapter outlines the level of detail for communication between an evaluation laboratory and the manufacturer of the biometric system during a certification process. The general idea behind this limited amount of information is that manufacturers will use this exchange to evaluate and test their solutions in a more extensive manner to succeed in the evaluation process. Speaking in terms of presentation attacks, a manufacturer would likely present more and different artefacts to the TOE than the testing laboratory. 
+
+## 4.1 Modality Face 
+
+Print Frontal Face Images (PRT) 
+
+- Inkjet- / Toner printer 
+
+- Paper 
+
+- Fabrics 
+
+- Foils 
+
+## Displays / Projectors Presenting a Frontal Face Image (DSP) 
+
+- Different display technologies 
+
+- Display Sizes 
+
+- Pixel densities 
+
+## 3D-Masks (MSK) 
+
+- Different 3D-Printing technologies 
+
+- Materials usable for fused material deposition 
+
+- Resins 
+
+- Plaster 
+
+- Additives to fake skin properties 
+
+- Texture and coloration 
+
+## 4.2 Modality Finger 
+
+## Fingermarks (FMA) 
+
+- Fingermark enhancement and digitization with post-processing 
+
+- Materials and methods to trigger the fingerprint acquisition when no real finger is presented to the sensor 
+
+## Fingerprint Print Outs (PRT) 
+
+- Inkjet- / Laser printer 
+
+- Paper / Foil type 
+
+## Cast Finger Artefacts (CAS) 
+
+- Different materials and methods to create 2.5D and 3D moulds 
+
+Federal Office for Information Security 
+
+28 
+
+4 Material List Including Relevant Technologies Covering Different Presentation Attack Instruments (Informative) 
+
+- Casting materials and additives 
+
+   - Gelatine like materials 
+
+   - Silicones 
+
+   - Latex 
+
+   - Glues 
+
+   - Polymers 
+
+   - Conductive materials 
+
+   - Variation in material thickness 
+
+   - Mixtures of different materials 
+
+Federal Office for Information Security 
+
+29 
+
+5 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0030-01.png)
+
+
+## 5 Instrument Construction (Informative) 
+
+This chapter is informative and gives a general overview of tools, materials and methods to create Presentation Attack Instruments for the modalities Face and Finger, but is not comprehensive. Evaluation facilities and their experts can have tools, materials and methods not mentioned in the following sections due to their expertise in the evaluation of biometric authentication components. 
+
+## 5.1 Creating Artefacts for the Modality Face 
+
+## 5.1.1 PAIs Based on a Frontal Face Image Printout 
+
+## 5.1.1.1 Recommended Tools and Materials 
+
+The following enumeration gives an example of tools and materials to create PAI variations based on a print of a frontal face. 
+
+1. camera 6. photo printer 11. flashlight 2. diffused lights 7. white paper DIN A4 12. scissors 3. tripod 8. photo paper DIN A4 13. cord 4. laser printer colour 9. tripod adapter 14. hole puncher 
+
+5. inkjet printer colour 10. scalpel 
+
+## 5.1.1.2 Source Information 
+
+For artefacts of this class, high quality pictures of the enrolled user are needed. For requirements see 2.3.1.2.1 Source Requirements for 2D-Presentation Attack Instruments. 
+
+## 5.1.1.3 Print the Picture 
+
+Depending on the PAD-technique used in the TOE, different sizes of prints can be recognised as a face. Therefore, different sizes of a printout can be necessary. A good starting point is an artefact that comes as close as possible to the realistic size of the person that is shown on the picture. The best way to achieve this is to try a full-size printout on DIN A4 paper. 
+
+## 5.1.1.3.1 Possible Modifications 
+
+In the following, possible / exemplary modifications on a print are described to achieve a modification of the PAI. 
+
+Modifications: 
+
+- Use a different printer 
+
+- Print in black or colour 
+
+- Print on different materials 
+
+- Cut out the eye region of the printed face 
+
+   - Cut out the shape of the face 
+
+   - Take holes on each side of the cut of face with a hole puncher and draw one cord through each hole. The cord allows to carry the printout like a mask. 
+
+- Cut out the mouth region of the printed face 
+
+Federal Office for Information Security 
+
+30 
+
+uction (Informative) 
+
+5 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0031-02.png)
+
+
+## 5.1.1.4 Artefact Application to the TOE 
+
+The evaluator can hold / wear the printed picture of the face in front of the TOE. It has to be ensured that only the PAI is recognized by the TOE and not the face of the evaluator. 
+
+As the PAI varies in size, the evaluator evaluates the TOE using different distances between TOE and PAI, which is part of chapter 2 Pre-Evaluation Phase for Evaluating Presentation Attack Detection Mechanisms. 
+
+The evaluator can move / tilt / pan the PAI in front of the TOE to find a position where the face comparison is successful. To evaluate the PAD-functionality of the TOE, a single parameter can be varied in increments. 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0031-07.png)
+
+
+## 5.1.2 PAIs based on Video of an Identity 
+
+## 5.1.2.1 Recommended Tools and Materials 
+
+1. camera 3. diffused lights 5. tripod adapter 
+
+2. tablet 4. tripod 
+
+## 5.1.2.2 Source Information 
+
+For artefacts of this class, high quality pictures / videos of the enrolled user are needed. For requirements see 2.3.1.3.1.2 Display to Present a Facial Image and for the source data 2.3.1.2.1 Source Requirements for 2DPresentation Attack Instruments. 
+
+## Additional recommendations for videos 
+
+A facial video of the enrolled identity can be recorded with a resolution at least exceeding the native resolution of the displaying device. The framerate and bitrate of the video has to fit the displaying device and the PAD-technology. To include potential challenge-response mechanisms the video can contain head movements in all directions, eye and eyelid movements and opening and closing of the mouth. 
+
+1. The face has to be well illuminated without hotspots or shadows. 
+
+2. The background has to have as few artefacts and distortions as possible. 
+
+3. The face must be in focus. 
+
+4. The person being filmed should look straight into the direction of the camera and move the head a little bit up, down and sideways during the video. 
+
+5. The person being filmed should look relaxed with neutral face expression. During the image acquisition the person can close the eyes and move the face muscles a little bit. 
+
+## 5.1.2.2.1 Possible Modifications 
+
+In the following, possible / exemplary modifications on a static image are described to achieve a modification of the PAI. 
+
+- Animate a static image with an appropriate software 
+
+- Instead of a display, a projector may be used to project the image or video on a surface 
+
+Closely related to a single static image is the usage of several images in a video / video stream. With this option further modifications are available like: 
+
+- Video replay attack 
+
+- Manipulated video streams by deepfakes 
+
+Federal Office for Information Security 
+
+31 
+
+5 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0032-01.png)
+
+
+## 5.1.2.3 Artefact Application to the TOE 
+
+1. The evaluator can hold a display presenting the target identity in front of the TOE. It can be necessary to use displays with different sizes and pixel densities. Too small displays present the frontal facial image too small to be recognized by the facial comparison algorithm. 
+
+2. Depending on the used display and camera / objective constellation, different distances between PAI and TOE can be necessary. The evaluator can test different distances between PAI and TOE for every PAI. 
+
+3. The evaluator should move / tilt / pan the PAI in front of the TOE to find a position where the face comparison is successful. To evaluate the PAD-functionality of the TOE, a single parameter can be varied in increments. 
+
+## 5.1.3 PAIs based on 3D-Masks Containing Facial Biometric Characteristics of an Identity 
+
+The following subchapters explain how to build artefacts from this class. A general overview of different data / information sources, intermediate steps and a potential post-processing is given in 2.3.1.2.2 and 2.3.1.3.2. 
+
+The first step in the process is getting a digital copy of the face. This can be done in different ways, ranging from a completely manual process to a fully automated one. One can for example take pictures of the person to be impersonated or one can scan the face of the person by using a 3D scanning system. 
+
+Several service providers are on the market to acquire the necessary data and create a 3D-model of the enrolled identity. Further, 3D-printing services are on the market to print such artefacts. Due to the transfer of personal data, the GDPR has to be taken into account. 
+
+The following subchapters explain how to generate a computer model of the head by photogrammetry and how to produce a 3D silicone mask as this is the process that showed the best results. 
+
+Alternatively, there is a description how to build a 3D positive model of the face of an evaluator. 
+
+## 5.1.3.1 Recommend Tools and Materials 
+
+   14. bowls 
+
+1. camera 
+
+2. diffused lights 15. scoops 
+
+3. tripod 
+
+   16. vacuum pump 
+
+4. tripod adapter 
+
+   17. clamps 
+
+   18. flocking colour for silicone 
+
+5. swivel chair 
+
+6. Photogrammetry software 
+
+   19. silicone colorizer 
+
+7. 3D Model Editing software 
+
+   20. silicone release antiadhesive spray 
+
+   21. isopropyl alcohol 
+
+8. 3D printer 
+
+9. PLA filament 
+
+   22. marker pen 
+
+   23. wrapping film 
+
+10. towel 
+
+11. softener 
+
+   24. Vaseline 
+
+12. silicone 13. scale 
+
+25. Super Baldiez 
+
+26. airbrush 
+
+27. silicone adhesive neo 
+
+28. dust mask 
+
+29. protection googles 
+
+30. cotton buds 
+
+31. jam jar small and medium 
+
+32. hair clip 
+
+33. Neo Adhesive Remover 
+
+34. sealer 
+
+35. colour for airbrush 
+
+36. Isopropylmyristate 
+
+37. scalpel 
+
+38. tissues 
+
+39. medical gloves 
+
+Federal Office for Information Security 
+
+32 
+
+5 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0033-01.png)
+
+
+|40. nail scissors|43. paintbrush|46. make-up sponge|
+|---|---|---|
+|41. big garbage bags|44. liquid make-up|47. dust extraction for|
+|42. crepe tape|45. powder|airbrush|
+
+
+
+## 5.1.3.2 Source Information 
+
+For photogrammetry, as one possibility to generate a 3D-model of a head, images from different angles of the head are necessary to calculate a 3D-modell. Therefore, different acquisition methods are mentioned in this description: 
+
+- move around the person with a camera taking pictures 
+
+- mount a camera on a tripod, and rotate the person using a swivel chair 
+
+- use a dedicated portrait studio with several cameras taking simultaneously pictures from different angles 
+
+For artefacts of this class, high quality pictures of the enrolled user are needed. For requirements see 2.3.1.2.1 Source Requirements for 2D-Presentation Attack Instruments 
+
+To minimize possible artefacts during the computational 3D-model generation process, the person moves as little as possible and face the (central) camera (at the beginning) with neutral expression. In addition to the recommendations mentioned in 5.1.2.2 Source Information, the evaluator must take care that a sufficient number of images is captured to generate a 3D-model. 
+
+- The person being photographed looks straight into one direction during the whole shooting. 
+
+- The person being photographed looks relaxed with neutral face expression. They hold the same expression during the whole shooting. 
+
+- The head is well illuminated without hotspots (overexposed) or shadows. 
+
+- The background has as few artefacts and distortions as possible. 
+
+- The face is in focus. 
+
+- There is a sufficient overlap between the pictures. 
+
+## 5.1.3.3 3D-Model Generation, Mould and Mask Creation 
+
+Based on the captured images, a 3D-model can be generated with an appropriate photogrammetry software. Due to the variety of software solutions, the lab has to figure out the settings to achieve the best generated 3D-model. 
+
+For further use post processing steps may be necessary to create a 3D-mask or a mould to cast a 3D-mask later on. 
+
+- Repair the mesh 
+
+- Simplify the mesh 
+
+To create a mould from the 3D-model, expertise in 3D-modelling is necessary. Therefore, no general description about the modelling process can be given. 
+
+To create the mould, or a 3D-mask directly, several options are available like: 
+
+- 3D-Printing 
+
+   - Fused Material Deposition (FMD) 
+
+   - Stereolithography (SLA) 
+
+   - Digital Light Processing (DLP) 
+
+Federal Office for Information Security 
+
+33 
+
+) 
+
+5 
+
+A directly printed 3D-mask can be coloured and painted to create a face-like texture of the face. High-end 3D-printers can support multi-colour 3D-printing, which can make the post processing with colouring and painting unnecessary. 
+
+The mould for the casting process should be prepared with a mould release agent to remove the cast mask from the mould. The mould can be used with different materials to create various masks. 
+
+## 5.1.3.3.1 Colouring / Painting of the Mask 
+
+The pieces of the mould can be used as support during the colouring / painting process. Due to health risks, it is not recommended to perform the airbrushing process while the evaluator wears the mask. 
+
+Based on experience, painting the mask is a challenging process. It can be worth to consider asking a makeup artist for this step. 
+
+1. By airbrush: 
+
+   - a. The first step to paint the mask is to mix some isopropanol with colour for airbrush. It is recommended to choose the skin colour of the impersonated person. If the material s base tone of colour is not properly adjusted during the creation step, dispense it with a brush and mix it in a small jar with ca. 2 ml isopropanol. 
+
+   - b. Then, one has to apply the colour mixture with airbrush on the mask with 10 pounds of pressure. 
+
+2. By make-up 
+
+   - a. To colourise the mask, it is recommended to use non-permanent make-up. 
+
+   - b. For better results and easier removal of the make-up, one should moisturize the face and let it infiltrate into the skin for ca. 2 minutes. 
+
+   - c. After this, it is recommended to use primer before putting on the make-up It makes the make-up application smoother and last longer. 
+
+   - d. Liquid contour make-up that matches the skin colour of the enrolee should be applied to the entire face and the neckline with a make-up sponge or the powder brush. 
+
+   - e. The next step is to apply highlighter to the parts of the face that should get accented. If needed, one has to mix up different colours of the cream colour make-up to find the right colour. 
+
+   - f. After this, darker cream colour make-up is applied to the parts which stay in the background with a small brush . One has to blend over the edges of the different colours with the powder brush. 
+
+Example: To make a face appear smaller, one has to put darker colour on the side of the face and brighter colour on the forehead and the chin. To make a face appear shorter, one has to put darker colour on the forehead and the chin. The Tutorial (How to contour for beginners, 2016) is recommended. 
+
+- g. The next step is to shape the eyebrows and give them the needed contour with the eyelash comb. Then use cream colour make-up with the trumpet paste brush and, if needed, fill it up with mascara. 
+
+- h. To remove small parts of make-up one can use cotton buds or tissues. 
+
+- i. After these steps, every further make-up depends on the face of the enrolee. 
+
+Further tutorials and information regarding the topic make-up can be found online. 
+
+Federal Office for Information Security 
+
+34 
+
+5 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0035-01.png)
+
+
+## 5.1.3.4 Artefact Application to the TOE 
+
+1. The evaluator stays in front of the TOE. Basically, the evaluator behaves naturally as if they would normally use the TOE. 
+
+2. One has to try to find the optimal position. If possible, one can test the best position of the attack on every TOE with the enrolee in front of the system (i.e., by means of a genuine attempt). 
+
+## 5.1.3.4.1 Hard 3D-Masks 
+
+A hard mask can be worn with attached straps to hold the mask in place of the evaluator s head. For a tighter fit between mask and evaluator, the inner part of the mask can be shaped with another inner stamp, showing the face shape of the evaluator. The big advantage of hard masks is that the masks outer shape is independent of evaluator, which may be helpful for the evaluation of biometric systems taking 3D information into account. 
+
+## 5.1.3.4.2 Flexible 3D-Masks 
+
+The application of flexible masks may require more effort and preparation steps depending on the PAD functionality. 
+
+1. Before the flexible mask can be applied to the evaluator s face, it is important to clean the face and remove cream and / or make-up from the skin. 
+
+2. To get the best result, one starts the application at the nose and then moves outwards in small steps in every direction. 
+
+3. The first step to apply the flexible mask on the evaluator s face is to put some material specific adhesive on the tip of the nose and also in the inside tip of the mask nose with a small brush. 
+
+4. Furthermore, one has to apply the mask onto the face of the evaluator step by step. It is required to fix every little part with adhesive without air bubbles between mask and skin. To press the mask on the skin, one can use a small sponge ball. 
+
+5. buds. 
+
+6. Finally, one has to paint sealer on the edges to smooth them down to the skin to fix the edges. 
+
+## 5.1.4 Make-up Attack 
+
+An impersonation via creating contours and facial details with make-up is an ongoing topic and relevant in - particular for evaluating TOE within evaluations against higher attack potentials defined BSI-list. To receive an impression of this kind of attacks some videos are available on the internet, where historic person and celebrities are impersonated applying make-up and wigs. 
+
+1. For better results and easier removal of the make-up one should moisturise the face and let it infiltrate into the skin for ca. 2 minutes. 
+
+2. After this it is recommended to use primer before putting on the make-up. It makes the make-up application smoother and last longer. 
+
+3. Liquid contour make-up matching the skin colour of the enrolee is applied to the entire face and the neckline with a make-up sponge or a powder brush. 
+
+4. The next step is to apply highlighter to the parts of the face, that gets accented (cream colour makeup applied with the eyeliner brush, brighter than the enrolees face colour). If needed, one has to mix up different colours of the Cream Colour make-up to find the right colour. 
+
+5. After this, darker cream colour make-up is applied with a small brush to the parts which stay in the background. One has to blend over the edges of the different colours with the powder brush. 
+
+Federal Office for Information Security 
+
+35 
+
+5 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0036-01.png)
+
+
+6. The next step is to shape the eyebrows and give them the needed contour with the eyelash comb. Then use cream colour make-up with the trumpet paste brush and if needed to fill it up with mascara. 
+
+7. To remove small parts of make-up one can use cotton buds or tissues. 
+
+8. After these steps, every further make-up depends on the face of the enrolee. 
+
+## 5.1.4.1 Recommend Tools and Materials 
+
+1. tripod 
+
+2. diffused lights 
+
+3. tripod adapter 
+
+4. make-up brushes 
+
+5. moisturizer 
+
+6. primer 
+
+7. cream colour makeup 
+
+8. liquid contour makeup 
+
+9. make-up sponge 
+
+10. translucent powder 
+
+11. powder pad 
+
+12. stipple sponge 
+
+13. mascara 
+
+14. cotton buds 
+
+15. make-up remover wipes 
+
+16. tissues 
+
+Note: If the expertise of the evaluator is insufficient, a make-up artist may be consulted to learn the necessary skills or to apply the make-up to the evaluator. 
+
+## 5.1.4.2 Artefact Application to the TOE 
+
+This kind of artefact is highly dependent on the perspective of the biometric verification / authentication system. Therefore, the evaluator figures out the right position in relation to the TOE to achieve a sufficient biometric score, which matches the requirements regarding the definition of a PAI. 
+
+1. The initial evaluation position should be a frontal image of the face. 
+
+2. One has to try to find the right position. If possible, one can test the best position of the attack on every TOE with the enrolee in front of the system (e.g., by means of a genuine attempt). 
+
+## 5.2 Build Artefacts for the Modality Finger 
+
+## 5.2.1 Recommend Materials and Tools 
+
+The following list gives an example of recommended tools and materials to create PAI variations: 
+
+PAI-Materials: 
+
+1. Transparency film for laser and inkjet printers / coloured 
+
+2. Paper (white and coloured) 
+
+3. Latex (Latex Milk) 
+
+4. Wood glue (different brands, water based) 
+
+5. Silicone (e.g., Dragon Skin, Dermasil, CPFlesh) 
+
+   7. Window Colour (acrylic based) 
+
+   8. Nanotips (different colours) 
+
+6. Gelafix 
+
+(different colours) 
+
+## Mould-Materials: 
+
+1. Luxatemp (direct mould) 
+
+3. Alabaster Plaster 
+
+4. Power Putty (Epoxy) 
+
+   5. Nyloprint (with printed film) 
+
+2. Cast silicone 
+
+Federal Office for Information Security 
+
+36 
+
+5 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0037-01.png)
+
+
+6. 3D-Print Materials (Resins, Polymers) 
+
+   8. Mould Silicone (different brands) 
+
+7. Laser engraver 9. UV-Photopolymer material (e.g. delrin) strips for stabilization 
+
+   11. Indurent Gel 
+
+   12. Zetalabor Silicone Putty 
+
+10. Impregum 
+
+Additives : 
+
+1. Distilled Water 
+
+2. Glycerine 
+
+3. Graphite powder 
+
+4. Iron powder 
+
+5. Citric Acid (for preservation) 
+
+6. Isopropanol (for cleaning) 
+
+7. Release Agents (for casting) 
+
+8. Silicone Colour 
+
+9. Water based Colour 
+
+## Tools: 
+
+1. Fingerprint Powder 
+
+   7. High-res Laser-Printer (different toners) 
+
+2. Fingerprint paste (for pressed and scanned reference fingerprints) 
+
+   8. Flatbed scanner (>1200 dpi) 
+
+   9. 3D-Printer (resolution x/y:<30 µm, z:<15 µm) 
+
+3. Brush 
+
+4. Spatula 
+
+10. Ideal: 3D- 
+
+5. Lighter Measurement Tool 
+
+6. High-res Inkjet(e.g. Profilometer) Printer (different inks) 
+
+   11. Digital Scale 
+
+12. Hygrometer 
+
+13. Heat gun 
+
+14. Oven / Microwave 
+
+15. Fridge / Freezer 
+
+16. UV-Lamp 
+
+17. Small Vacuum Chamber (to prevent bubbles) 
+
+## 5.2.2 Source Information 
+
+For artefacts of this class, high quality pictures / scans of the user s enrolled fingerprint are needed. For requirements see 2.3.1.2.1 Source Requirements for 2D-Presentation Attack Instruments. For this class, different ways to create the source image can be followed: 
+
+- Without cooperation 
+
+   - Photography of a latent fingerprint on a surface without enhancement (lightning powder) 
+
+   - Enhanced visibility of a latent fingerprint with lightning powder 
+
+      - Transfer the fingerprint via tape on a sheet of paper 
+
+         - Digitalize the latent fingerprint with a flatbed scanner 
+
+Note: With this approach the achieved fingerprint artefact will directly feature the correct size. 
+
+      - Direct photograph of the latent fingerprint Note: It is recommended to have an object for scale in the photograph to scale the latent fingerprint to the correct size. The evaluator must account for changes of the fingerprint due to the perspective or properties of the used camera. Depending on the camera used integrated enhancing algorithms are applied to the acquired image. 
+
+- In cooperation 
+
+   - Directly digitised fingerprint by using a fingerprint scanner, different technologies are possible 
+
+Federal Office for Information Security 
+
+37 
+
+5 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0038-01.png)
+
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0038-02.png)
+
+
+- Cooperative mould creation 
+
+   - Pressing the finger in modelling clay etc. 
+
+Note: Analog and / or digital post processing steps can be necessary to achieve a sufficient comparison score and to create another type of artefact e.g., 2.5D artefacts. Here, the 2D image will be processed in a manner to create a mould where the fingerprint can be cast. 
+
+## 5.2.2.1 2D Printed Finger Artefacts 
+
+This subchapter contains information about the creation process of a 2D artefact, which can be printed with different printer technologies on different materials. 
+
+## 5.2.2.1.1 Print the Fingerprint Artefact 
+
+To achieve a sufficient comparison score between the enrolled and the presented fingerprint it is necessary to print the artefact in the correct size. Further, a mirroring and / or an inversion of the image can be necessary. 
+
+A good starting point is a print with the printer s maximum native resolution on a white sheet of paper. 
+
+## 5.2.2.1.2 Possible Modifications 
+
+In the following, possible / exemplary modifications on a print are described to achieve a modification of the PAI. 
+
+- Use a different printer / printer technology 
+
+- Print in black or colour 
+
+- Print on different materials 
+
+   - colour 
+
+   - thickness 
+
+   - surface properties 
+
+- Modify the printed artefact with additives like: 
+
+   - Water 
+
+   - Graphite 
+
+   - Glycerol 
+
+   - Contact Spray etc. 
+
+   - Oil 
+
+## 5.2.2.2 Post Processing Steps for 2.5D-Artefact Creation 
+
+To create moulds from the captured 2D fingerprints it is possible to perform some easy post processing steps: 
+
+- Binarization via thresholding 
+
+- Line thinning 
+
+- Height map calculation 
+
+Based on these steps, moulds or fingerprint artefacts including the ridge / valley information of the fingerprint can be created. Moulds can be used with various castable materials. 
+
+Federal Office for Information Security 
+
+38 
+
+5 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0039-01.png)
+
+
+## 5.2.2.3 Moulds Taken in a Cooperative Scenario 
+
+In a cooperative scenario the evaluator creates a finger mould by pressing the target finger in some plasticine or other material. A drying process at room temperature or at higher temperature may be necessary. During this process, the material can change its dimension (shrinking). 
+
+Exemplary materials are plasticine, silicone with hardening additives, stearin, special plaster or pottery clay. 
+
+## 5.2.2.4 Casting of Artefacts 
+
+The following aspects should be considered for casting processes: 
+
+- it is recommended to test the moulds for: 
+
+   - 3D-accuracy (compared to the original finger) 
+
+   - no surface distortions (e.g., bubbles, moulding/3D-printing artefacts) 
+
+   - changes of physical properties in time (e.g., shrinking, decomposition) 
+
+- in pre-evaluations it is recommended to test the chemical reaction between the artefact materials and the mould (also considering release agents), since some combinations would prevent the artefact from curing properly. 
+
+- for mixed materials, a vacuum chamber can help to significantly reduce bubbles. 
+
+- the right temperature can help to control the curing process (e.g., cooler temperatures lead to longer curing times for most materials, hence there is more time for properly mixing and preparing the artefact material for casting). 
+
+## 5.3 Apply the Artefact to the TOE 
+
+The created artefact will be pressed on the scanner surface. For some materials, it can be necessary to apply some additives to the contact surface. Using real skin behind the artefact can help attack certain PADtechnologies, especially with thin artefacts. 
+
+During pre-evaluation the evaluators should optimise their presentation technique for every artefact, regarding e.g., approach angle, pressure and speed. 
+
+Federal Office for Information Security 
+
+39 
+
+6 Appendix: Minimal Information Requirements of a Testing Report 
+
+## 6 Appendix: Minimal Information Requirements of a Testing Report 
+
+Table 10 in this chapter summarises the minimal information that needs to be contained in the testing report with regard to this Technical Guideline. Most parts of this testing report are based on the reporting result list for the biometric performance of a system published in ISO/IEC 19795-1:2021 [6] Clause 12. 
+
+Table 10 Minimal Requirements of a Testing Report 
+
+|Test Details|Details to Report|Information|
+|---|---|---|
+|The system(s) tested|Including details of algorithms,<br>biometric sensors, user interface,<br>supporting hardware, etc.|1. System Specification: Manufacturer, model,<br>version, firmware, biometric modality<br>2. Application software: provider, title, version,<br>build|
+|Test organization<br>details|Test organization, location, date of<br>test.|<br>Company / Organization, Date evaluation<br>completed, Date test report published|
+|Type of evaluation|In the case of technology<br>evaluation: details of the test<br>corpus used.<br>In the case of scenario evaluation:<br>details of the test scenario.<br>In the case of operational<br>evaluation: details of the<br>operational application.|As defined in Chapter 3 the use case SHALL be a<br>scenario evaluation.|
+|Size of evaluation|Number of test subjects.<br>Number of instances (fingers,<br>hands or eyes, etc.) enrolled by<br>each test subject.<br>Number of visits made by test<br>subject.<br>Number of transactions per test<br>subject (or test subject instance) at<br>each visit.||
+|Test crew|Demographics of the test crew<br>(age, gender, etc.)<br>The manner in which the test crew<br>was assembled, to include<br>exclusions, volunteers etc., as well<br>as the degree to which the test<br>crew mirrored the target<br>population.<br>The level of training, instruction,<br>familiarisation, and habituation of<br>test crew in the use of the system.||
+
+
+
+Federal Office for Information Security 
+
+40 
+
+6 Appendix: Minimal Information Requirements of a Testing Report 
+
+|Test Details|Details to Report|Information|
+|---|---|---|
+|Test environment||Comparison trial data shall be collected under<br>environmental conditions that closely<br>approximate those of the target application. This<br>test environment shall be consistent throughout<br>the collection process. The motivation of test<br>subjects, and their level of training and familiarity<br>with the system, should also mirror that of the<br>target application. Non-mated comparison trials<br>shall be made under the same conditions as mated<br>comparison trials.<br>The collection process should ensure that<br>presentation effects and channel effects are either<br>uniform across all subjects or randomly varying<br>across subjects. If the effects are held uniformly<br>across subjects, then the same presentation and<br>channel controls in place during enrolment<br>should be in place for the collection of the test<br>data. Systematic variation of presentation and<br>channel effects between enrolment and test data<br>can lead to results distorted by these factors. If the<br>presentation and channel effects are allowed to<br>vary randomly across test subjects, the evaluator<br>should analyse results and report on any<br>correlation in these effects between enrolment<br>and comparison sessions.|
+|Time separation<br>between enrolment<br>and recognition<br>transactions|||
+|Quality and decision<br>thresholds used<br>during data collection|The thresholds used, and those<br>recommended for the target<br>application (if different).||
+|Control of factors<br>potentially affecting<br>performance|||
+|Test procedures|E.g., policies for determining<br>enrolment failures.<br>Details of any abnormal cases<br>occurring during testing that are<br>excluded from performance<br>analysis.||
+
+
+
+Federal Office for Information Security 
+
+41 
+
+6 Appendix: Minimal Information Requirements of a Testing Report 
+
+|Test Details|Details to Report|Information|
+|---|---|---|
+|Deviation from<br>guidelines|Deviations from the guidelines of<br>this document should be<br>explained. Sometimes it is<br>necessary to make a compromise<br>on one aspect to achieve another;<br>for example, randomizing the<br>order of using fingers on a<br>fingerprint device might lead to<br>user confusion and a higher<br>number of labelling errors.||
+|Reporting<br>verification system<br>performance|FAR and corresponding FRR shall<br>be reported over the range of<br>decision thresholds tested. A<br>detection error trade-off<br>(DET)<br>plot is recommended in the case<br>of multiple operating points.|False Acceptance Rate (FAR) and False Rejection<br>Rate (FRR)|
+|Reporting<br>verification system<br>resistance against<br>presentation attacks|Documentation SHALL be in a<br>manner that the testing procedure<br>can be reproduced by others with<br>comparable expertise. For higher<br>BALs than BAL 1, the attack<br>potential must be calculated<br>according to CEM [1] for each<br>successful PAI.||
+
+
+
+Federal Office for Information Security 
+
+42 
+
+7 Bibliography 
+
+## 7 Bibliography 
+
+- [1] Common Switzerland, 2022. 
+
+- [2] -03166: Technical Guideline for Biometric 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0043-04.png)
+
+
+- [3] 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0043-06.png)
+
+
+- [4] International Organization for Standar Biometric sample quality 
+
+
+![](markdown/tr/BSI-TR-03166_Evaluation-Guidance/BSI-TR-03166_Evaluation-Guidance.pdf-0043-08.png)
+
+
+- [5] -5:2019 Information technology Extensible biometric data interchange formats for Standardization, Geneva, Switzerland, 2019. 
+
+- [6] Biometric performance testing and reporting Part 1: Standardization, Geneva, Switzerland, 2021. 
+
+- [7] Biometric performance testing and reporting Part 2: Testing methodologi 
+
+- [8] Biometric performance testing and reporting Standardization, Geneva, Switzerland, 2019. 
+
+Federal Office for Information Security 
+
+43 
+

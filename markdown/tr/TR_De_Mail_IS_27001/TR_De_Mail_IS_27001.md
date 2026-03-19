@@ -1,1456 +1,1873 @@
-![](_page_0_Picture_0.jpeg)
-
-![](_page_0_Picture_2.jpeg)
-
-# BSI – Technische Richtlinie
-
-| Bezeichnung:       | Informationssicherheit auf Basis von ISO/IEC 27001 |
-|--------------------|----------------------------------------------------|
-| Anwendungsbereich: | De-Mail                                            |
-| Kürzel:            | BSI TR 01201 Teil 6.2                              |
-| Version:           | 1.8                                                |
-
-Bundesamt für Sicherheit in der Informationstechnik Postfach 20 03 63 53133 Bonn Tel.: +49 22899 9582-0 E-Mail: [de-mail@bsi.bund.de](mailto:de-mail@bsi.bund.de) Internet: [https://www.bsi.bund.de](https://www.bsi.bund.de/) © Bundesamt für Sicherheit in der Informationstechnik 2019
-
-| 1              | Einleitung 7                                                         |  |
-|----------------|----------------------------------------------------------------------|--|
-| 2              | Aufbau des Dokuments 8                                               |  |
-| 3              | Vorgehensweise nach ISO 9                                            |  |
-| 4              | Anforderungen an die Auditierung 10                                  |  |
-| 4.1            | Auditor 10                                                           |  |
-| 4.2            | Audit 10                                                             |  |
-| 4.3            | Auditbericht 10                                                      |  |
-| 5              | Sicherheitsleitlinie 11                                              |  |
-| 6              | Organisation der Informationssicherheit 12                           |  |
-| 6.1            | Interne Organisation 12                                              |  |
-| 6.1.1          | Aufgaben und Zuständigkeiten im Bereich der Informationssicherheit12 |  |
-| 6.1.2          | Aufgabentrennung 12                                                  |  |
-| 6.1.3          | Kontakt zu Behörden 14                                               |  |
-| 6.1.4          | Kontakt mit Interessengruppen 15                                     |  |
-| 6.1.5          | Informationssicherheit im Projektmanagement15                        |  |
-| 6.2            | Mobilgeräte und Telearbeit 15                                        |  |
-| 6.2.1<br>6.2.2 | Leitlinie zu Mobilgeräten 15<br>Telearbeit 15                        |  |
-| 6.2.3          | Remote-Administration 15                                             |  |
-| 7              | Personalsicherheit 16                                                |  |
-| 7.1            | Vor der Anstellung 16                                                |  |
-| 7.1.1          | Überprüfung 16                                                       |  |
-| 7.1.2          | Arbeitsvertragsklauseln 16                                           |  |
-| 7.2            | Während der Anstellung 16                                            |  |
-| 7.2.1          | Verantwortung des Managements16                                      |  |
-| 7.2.2          | Sensibilisierung, Aus und Weiterbildung zur Informationssicherheit16 |  |
-| 7.2.3          | Disziplinarverfahren 17                                              |  |
-| 7.3            | Beendigung und Wechsel der Anstellung17                              |  |
-| 7.3.1          | Zuständigkeiten bei Beendigung oder Wechsel der Anstellung17         |  |
-| 8              | Management von organisationseigenen Werten18                         |  |
-| 9              | Zugriffskontrolle 19                                                 |  |
-| 9.1            | Geschäftliche Anforderungen in Bezug auf die Zugriffskontrolle19     |  |
-| 9.1.1          | Leitlinie zur Zugangskontrolle 19                                    |  |
-| 9.1.2          | Zugang zu Netzwerken und Netzwerkdiensten19                          |  |
-| 9.2            | Benutzerverwaltung 20                                                |  |
-| 9.3            | Benutzerverantwortung 20                                             |  |
-| 9.4            | Kontrolle des Zugangs zu Systemen und Anwendungen20                  |  |
-| 10             | Kryptographie 21                                                     |  |
-| 10.1           | Kryptographische Maßnahmen 21                                        |  |
-| 10.1.1         | Leitlinie zur Nutzung von kryptographischen Maßnahmen21              |  |
-| 10.1.2         | Verwaltung kryptografischer Schlüssel22                              |  |
-| 11             | Schutz vor physischem Zugang und Umwelteinflüssen24                  |  |
-
-| 11.1           | Sicherheitsbereiche 24                                                                                |  |
-|----------------|-------------------------------------------------------------------------------------------------------|--|
-| 11.1.1         | Physische Sicherheitszonen 24                                                                         |  |
-| 11.1.2         | Physische Zugangskontrollen 25                                                                        |  |
-| 11.1.3         | Sicherung von Büros, sonstigen Räumen und Einrichtungen25                                             |  |
-| 11.1.4         | Schutz vor externen und umweltbedingten Bedrohungen25                                                 |  |
-| 11.1.5         | Arbeit in Sicherheitsbereichen 26                                                                     |  |
-| 11.1.6         | Anlieferungs- und Ladezonen 26                                                                        |  |
-| 11.2           | Sicherheit von Betriebsmitteln 26                                                                     |  |
-| 11.2.1         | Platzierung und Schutz von Betriebsmitteln26                                                          |  |
-| 11.2.2         | Versorgungseinrichtungen 26                                                                           |  |
-| 11.2.3         | Sicherheit der Verkablung 26                                                                          |  |
-| 11.2.4         | Instandhaltung von Betriebsmitteln 26                                                                 |  |
-| 11.2.5         | Entfernung von Werten 26                                                                              |  |
-| 11.2.6         | Sicherheit von Betriebsmitteln und Werten außerhalb der Betriebsgebäude26                             |  |
-| 11.2.7         | Sichere Entsorgung oder Weiterverwendung von Betriebsmitteln26                                        |  |
-| 11.2.8         | Unbeaufsichtigte Endgeräte 27                                                                         |  |
-| 11.2.9         | Der Grundsatz des aufgeräumten Schreibtischs des leeren Bildschirms27                                 |  |
-| 12             | Betriebssicherheit 28                                                                                 |  |
-| 12.1           | Betriebsverfahren und Zuständigkeiten28                                                               |  |
-| 12.1.1         | Dokumentierte Betriebsverfahren 28                                                                    |  |
-| 12.1.2         | Änderungsmanagement 28                                                                                |  |
-| 12.1.3         | Kapazitätsmanagement 29                                                                               |  |
-| 12.1.4         | Trennung von Entwicklungs, Test und Betriebsumgebungen29                                              |  |
-| 12.2           | Schutz vor Malware 29                                                                                 |  |
-| 12.2.1         | Kontrollmaßnahmen gegen Malware29                                                                     |  |
-| 12.3           | Backup 29                                                                                             |  |
-| 12.3.1         | Datensicherungen 29                                                                                   |  |
-| 12.3.2         | Archivierungskonzept 30                                                                               |  |
-| 12.4           | Protokollierung und Überwachung 30                                                                    |  |
-| 12.4.1         | Ereignisprotokollierung 30                                                                            |  |
-| 12.4.2         | Schutz von Protokollinformationen 30                                                                  |  |
-| 12.4.3         | Administrator- und Betreiberprotokoll31                                                               |  |
-| 12.4.4         | Zeitsynchronisation 31                                                                                |  |
-| 12.5           | Kontrolle von Betriebssoftware 32                                                                     |  |
-| 12.5.1         | Installation von Software auf betrieblichen Systemen32                                                |  |
-| 12.5.2         | Integritätsschutz für IT-Systeme 33                                                                   |  |
-| 12.6           | Technisches Schwachstellenmanagement33                                                                |  |
-| 12.6.1         | Management technischer Schwachstellen33                                                               |  |
-| 12.6.2         | Beschränkungen der Software-Installation33                                                            |  |
-|                |                                                                                                       |  |
-| 12.7<br>12.7.1 | Auswirkungen von Audits auf Informationssysteme33<br>Kontrollen für Audits von Informationssystemen33 |  |
-|                |                                                                                                       |  |
-| 12.8           | Web-Applikationen 34                                                                                  |  |
-| 12.8.1         | Schutz der Web-Applikation 34                                                                         |  |
-| 12.8.2         | Web-Applikations-Firewall 34                                                                          |  |
-| 12.9           | Datenbanksicherheit 34                                                                                |  |
-| 12.10          | Öffentlicher Verzeichnisdienst (ÖVD)35                                                                |  |
-| 12.11          | Administration des DNS 36                                                                             |  |
-| 13             | Sicherheit in der Kommunikation 37                                                                    |  |
-| 13.1           | Netzwerksicherheitsmanagement 37                                                                      |  |
-|                |                                                                                                       |  |
 
-| 13.1.1 | Netzwerkkontrollen 37                                                   |  |
-|--------|-------------------------------------------------------------------------|--|
-| 13.1.2 | Sicherheit von Netzwerkdiensten37                                       |  |
-| 13.1.3 | Trennung in Netzwerken 38                                               |  |
-| 13.2   | Informationsübertragung 38                                              |  |
-| 14     | Anschaffung, Entwicklung und Instandhaltung von Systemen39              |  |
-| 14.1   | Sicherheitsanforderungen für Informationssysteme39                      |  |
-| 14.1.1 | Analyse und Spezifikation von Sicherheitsanforderungen39                |  |
-| 14.1.2 | Sicherung von Anwendungsdiensten in öffentlichen Netzen41               |  |
-| 14.1.3 | Schutz von Transaktionen im Zusammenhang mit Anwendungsdiensten41       |  |
-| 14.2   | Sicherheit in Entwicklungs- und Unterstützungsprozessen41               |  |
-| 14.3   | Prüfdaten 41                                                            |  |
-| 15     | Lieferantenbeziehungen 42                                               |  |
-| 16     | Management von Informationssicherheitsvorfällen43                       |  |
-| 16.1   | Management von Informationssicherheitsvorfällen und Verbesserungen43    |  |
-| 16.1.1 | Zuständigkeiten und Verfahren 43                                        |  |
-| 16.1.2 | Meldung von Informationssicherheitsereignissen43                        |  |
-| 16.1.3 | Meldung von Informationssicherheitsschwachstellen43                     |  |
-| 16.1.4 | Bewertung von und Entscheidung über Informationssicherheitsereignisse43 |  |
-| 16.1.5 | Reaktion auf Informationssicherheitsvorfälle43                          |  |
-| 16.1.6 | Erkenntnisse aus Informationssicherheitsvorfällen43                     |  |
-| 16.1.7 | Sammeln von Beweismaterial 44                                           |  |
-| 17     | Informationssicherheitsaspekte des Betriebskontinuitätsmanagements45    |  |
-| 17.1   | Aufrechterhaltung der Informationssicherheit45                          |  |
-| 17.2   | Redundanzen 45                                                          |  |
-| 17.2.1 | Verfügbarkeit von informationsverarbeitenden Einrichtungen45            |  |
-| 17.2.2 | Verfügbarkeitskonzept 45                                                |  |
-| 17.3   | Notfallkonzept 45                                                       |  |
-| 18     | Richtlinienkonformität 47                                               |  |
-| 18.1   | Einhaltung gesetzlicher und vertraglicher Anforderungen47               |  |
-| 18.1.1 | Feststellung anwendbarer Gesetze und vertraglicher Anforderungen47      |  |
-| 18.1.2 | Rechte an geistigem Eigentum 47                                         |  |
-| 18.1.3 | Schutz von Aufzeichnungen 47                                            |  |
-| 18.1.4 | Privatsphäre und Schutz von personenbezogenen Informationen47           |  |
-| 18.1.5 | Regulierung kryptographischer Kontrollmaßnahmen47                       |  |
-| 18.1.6 | Identifizierung der Nutzer 47                                           |  |
-| 18.1.7 | Authentisierung der Nutzer 48                                           |  |
-| 18.2   | Informationssicherheitsprüfungen 49                                     |  |
-| 18.2.1 | Unabhängige Prüfung der Informationssicherheit49                        |  |
-| 18.2.2 | Einhaltung von Sicherheitsleitlinien und -normen49                      |  |
-| 18.2.3 | Technische Konformitätsprüfung 49                                       |  |
-|        | Anhang 50                                                               |  |
+![](markdown/tr/TR_De_Mail_IS_27001/TR_De_Mail_IS_27001.pdf-0001-00.png)
+
+
+
+![](markdown/tr/TR_De_Mail_IS_27001/TR_De_Mail_IS_27001.pdf-0001-01.png)
+
+
+## BSI – Technische Richtlinie 
+
+Bezeichnung: Informationssicherheit auf Basis von ISO/IEC 27001 Anwendungsbereich: De-Mail Kürzel: BSI TR 01201 Teil 6.2 Version: 1.8 
+
+Bundesamt für Sicherheit in der Informationstechnik Postfach 20 03 63 53133 Bonn Tel.: +49 22899 9582-0 E-Mail: de-mail@bsi.bund.de Internet: https://www.bsi.bund.de © Bundesamt für Sicherheit in der Informationstechnik 2019 
+
+Inhaltsverzeichnis 
+
+## Inhaltsverzeichnis 
+
+|1|Einleitung............................................................................................................................................................................................... 7|
+|---|---|
+|2|Aufau des Dokuments................................................................................................................................................................... 8|
+|3|Vorgehensweise nach ISO.............................................................................................................................................................. 9|
+|4|Anforderungen an die Auditierung.........................................................................................................................................10|
+|4.1|Auditor........................................................................................................................................................................................... 10|
+|4.2|Audit................................................................................................................................................................................................ 10|
+|4.3|Auditbericht................................................................................................................................................................................. 10|
+|5|Sicherheitsleitlinie........................................................................................................................................................................... 11|
+|6|Organisation der Informationssicherheit............................................................................................................................12|
+|6.1|Interne Organisation............................................................................................................................................................... 12|
+|6.1.1|Aufgaben und Zuständigkeiten im Bereich der Informationssicherheit................................................12|
+|6.1.2|Aufgabentrennung............................................................................................................................................................ 12|
+|6.1.3|Kontakt zu Behörden........................................................................................................................................................ 14|
+|6.1.4|Kontakt mit Interessengruppen..................................................................................................................................15|
+|6.1.5|Informationssicherheit im Projektmanagement................................................................................................15|
+|6.2|Mobilgeräte und Telearbeit.................................................................................................................................................. 15|
+|6.2.1|Leitlinie zu Mobilgeräten................................................................................................................................................ 15|
+|6.2.2|Telearbeit................................................................................................................................................................................ 15|
+|6.2.3|Remote-Administration..................................................................................................................................................15|
+|7|Personalsicherheit........................................................................................................................................................................... 16|
+|7.1|Vor der Anstellung................................................................................................................................................................... 16|
+|7.1.1|Überprüfung......................................................................................................................................................................... 16|
+|7.1.2|Arbeitsvertragsklauseln...................................................................................................................................................16|
+|7.2|Während der Anstellung....................................................................................................................................................... 16|
+|7.2.1|Verantwortung des Managements.............................................................................................................................16|
+|7.2.2|Sensibilisierung, Aus und Weiterbildung zur Informationssicherheit.....................................................16|
+|7.2.3|Disziplinarverfahren.........................................................................................................................................................17|
+|7.3|Beendigung und Wechsel der Anstellung.....................................................................................................................17|
+|7.3.1|Zuständigkeiten bei Beendigung oder Wechsel der Anstellung..................................................................17|
+|8|Management von organisationseigenen Werten.............................................................................................................18|
+|9|Zugriffskontrolle.............................................................................................................................................................................. 19|
+|9.1|Geschäftliche Anforderungen in Bezug auf die Zugriffskontrolle....................................................................19|
+|9.1.1|Leitlinie zur Zugangskontrolle.....................................................................................................................................19|
+|9.1.2|Zugang zu Netzwerken und Netzwerkdiensten..................................................................................................19|
+|9.2|Benutzerverwaltung................................................................................................................................................................ 20|
+|9.3|Benutzerverantwortung........................................................................................................................................................ 20|
+|9.4|Kontrolle des Zugangs zu Systemen und Anwendungen......................................................................................20|
+|10|Kryptographie................................................................................................................................................................................... 21|
+|10.1|Kryptographische Maßnahmen.........................................................................................................................................21|
+|10.1.1|<br>Leitlinie zur Nutzung von kryptographischen Maßnahmen........................................................................21|
+|10.1.2|<br>Verwaltung kryptografscher Schlüssel...................................................................................................................22|
+|11|Schutz vor physischem Zugang und Umwelteinfüssen...............................................................................................24|
+
+
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+3 
+
+Inhaltsverzeichnis 
+
+|11.1|Sicherheitsbereiche.................................................................................................................................................................. 24|
+|---|---|
+|11.1.1|<br>Physische Sicherheitszonen.........................................................................................................................................24|
+|11.1.2|<br>Physische Zugangskontrollen......................................................................................................................................25|
+|11.1.3|<br>Sicherung von Büros, sonstigen Räumen und Einrichtungen.....................................................................25|
+|11.1.4|<br>Schutz vor externen und umweltbedingten Bedrohungen...........................................................................25|
+|11.1.5|<br>Arbeit in Sicherheitsbereichen.....................................................................................................................................26|
+|11.1.6|<br>Anlieferungs- und Ladezonen......................................................................................................................................26|
+|11.2|Sicherheit von Betriebsmitteln...........................................................................................................................................26|
+|11.2.1|<br>Platzierung und Schutz von Betriebsmitteln........................................................................................................26|
+|11.2.2|<br>Versorgungseinrichtungen............................................................................................................................................26|
+|11.2.3|<br>Sicherheit der Verkablung.............................................................................................................................................26|
+|11.2.4|<br>Instandhaltung von Betriebsmitteln.........................................................................................................................26|
+|11.2.5|<br>Entfernung von Werten..................................................................................................................................................26|
+|11.2.6|<br>Sicherheit von Betriebsmitteln und Werten außerhalb der Betriebsgebäude......................................26|
+|11.2.7|<br>Sichere Entsorgung oder Weiterverwendung von Betriebsmitteln...........................................................26|
+|11.2.8|<br>Unbeaufsichtigte Endgeräte..........................................................................................................................................27|
+|11.2.9|<br>Der Grundsatz des aufgeräumten Schreibtischs des leeren Bildschirms.................................................27|
+|12|Betriebssicherheit............................................................................................................................................................................ 28|
+|12.1|Betriebsverfahren und Zuständigkeiten........................................................................................................................28|
+|12.1.1|<br>Dokumentierte Betriebsverfahren.............................................................................................................................28|
+|12.1.2|<br>Änderungsmanagement.................................................................................................................................................28|
+|12.1.3|<br>Kapazitätsmanagement................................................................................................................................................... 29|
+|12.1.4|<br>Trennung von Entwicklungs, Test und Betriebsumgebungen.....................................................................29|
+|12.2|Schutz vor Malware................................................................................................................................................................. 29|
+|12.2.1|<br>Kontrollmaßnahmen gegen Malware......................................................................................................................29|
+|12.3|Backup............................................................................................................................................................................................ 29|
+|12.3.1|<br>Datensicherungen.............................................................................................................................................................. 29|
+|12.3.2|<br>Archivierungskonzept......................................................................................................................................................30|
+|12.4|Protokollierung und Überwachung.................................................................................................................................30|
+|12.4.1|<br>Ereignisprotokollierung.................................................................................................................................................. 30|
+|12.4.2|<br>Schutz von Protokollinformationen.........................................................................................................................30|
+|12.4.3|<br>Administrator- und Betreiberprotokoll..................................................................................................................31|
+|12.4.4|<br>Zeitsynchronisation..........................................................................................................................................................31|
+|12.5|Kontrolle von Betriebssoftware.........................................................................................................................................32|
+|12.5.1|<br>Installation von Software auf betrieblichen Systemen....................................................................................32|
+|12.5.2|<br>Integritätsschutz für IT-Systeme................................................................................................................................33|
+|12.6|Technisches Schwachstellenmanagement...................................................................................................................33|
+|12.6.1|<br>Management technischer Schwachstellen.............................................................................................................33|
+|12.6.2|<br>Beschränkungen der Software-Installation...........................................................................................................33|
+|12.7|Auswirkungen von Audits auf Informationssysteme..............................................................................................33|
+|12.7.1|<br>Kontrollen für Audits von Informationssystemen............................................................................................33|
+|12.8|Web-Applikationen................................................................................................................................................................. 34|
+|12.8.1|<br>Schutz der Web-Applikation........................................................................................................................................34|
+|12.8.2|<br>Web-Applikations-Firewall...........................................................................................................................................34|
+|12.9|Datenbanksicherheit............................................................................................................................................................... 34|
+|12.10|Öffentlicher Verzeichnisdienst (ÖVD)............................................................................................................................35|
+|12.11|Administration des DNS........................................................................................................................................................36|
+|13|Sicherheit in der Kommunikation...........................................................................................................................................37|
+|13.1|Netzwerksicherheitsmanagement....................................................................................................................................37|
 
-## <span id="page-6-0"></span>1 Einleitung
 
-Das vorliegende Modul der Technischen Richtlinie De-Mail beschreibt die Anforderungen für eine Zertifizierung des erforderlichen Managementsystems für Informationssicherheit (ISMS[1](#page-6-1) ) gemäß ISO/IEC 27001 zur Erlangung eines Testats Informationssicherheit nach De-Mail-Gesetz und bietet somit eine Alternative zur bisher zwingend erforderlichen ISMS-Zertifizierung nach IT-Grundschutz.
 
-Basis für die Erlangung eines Testats Informationssicherheit nach De-Mail-Gesetz kann für den DMDA damit auch ein ISO/IEC 27001-Zertifikat sein. Mit diesem Zertifikat muss nachgewiesen werden, dass die in diesem Dokument definierten Anforderungen erfüllt, d. h. umgesetzt und auditiert sind.
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Die De-Mail spezifischen Anforderungen aus den bereits existierenden TR-Modulen zum Thema Informationssicherheit wurden hier auf die Normenreihe der ISO/IEC 27000 abgebildet. Basis für das vorliegende Dokument waren die ISO/IEC 27001:2013 (im Folgenden mit [27001] bezeichnet) und die ISO/IEC 27002:2013 (im Folgenden mit [27002] bezeichnet).
+4 
 
-<span id="page-6-1"></span>Ein Abkürzungs- und Literaturverzeichnis ist im Dachdokument enthalten.
+Inhaltsverzeichnis 
 
-## <span id="page-7-0"></span>2 Aufbau des Dokuments
+|13.1.1|<br>Netzwerkkontrollen.......................................................................................................................................................... 37|
+|---|---|
+|13.1.2|<br>Sicherheit von Netzwerkdiensten..............................................................................................................................37|
+|13.1.3|<br>Trennung in Netzwerken...............................................................................................................................................38|
+|13.2|Informationsübertragung..................................................................................................................................................... 38|
+|14|Anschaffung, Entwicklung und Instandhaltung von Systemen...............................................................................39|
+|14.1|Sicherheitsanforderungen für Informationssysteme..............................................................................................39|
+|14.1.1|<br>Analyse und Spezifkation von Sicherheitsanforderungen............................................................................39|
+|14.1.2|<br>Sicherung von Anwendungsdiensten in öffentlichen Netzen......................................................................41|
+|14.1.3|<br>Schutz von Transaktionen im Zusammenhang mit Anwendungsdiensten..........................................41|
+|14.2|Sicherheit in Entwicklungs- und Unterstützungsprozessen................................................................................41|
+|14.3|Prüfdaten...................................................................................................................................................................................... 41|
+|15|Lieferantenbeziehungen............................................................................................................................................................... 42|
+|16|Management von Informationssicherheitsvorfällen.....................................................................................................43|
+|16.1|Management von Informationssicherheitsvorfällen und Verbesserungen..................................................43|
+|16.1.1|<br>Zuständigkeiten und Verfahren..................................................................................................................................43|
+|16.1.2|<br>Meldung von Informationssicherheitsereignissen............................................................................................43|
+|16.1.3|<br>Meldung von Informationssicherheitsschwachstellen....................................................................................43|
+|16.1.4|<br>Bewertung von und Entscheidung über Informationssicherheitsereignisse........................................43|
+|16.1.5|<br>Reaktion auf Informationssicherheitsvorfälle.....................................................................................................43|
+|16.1.6|<br>Erkenntnisse aus Informationssicherheitsvorfällen.........................................................................................43|
+|16.1.7|<br>Sammeln von Beweismaterial......................................................................................................................................44|
+|17|Informationssicherheitsaspekte des Betriebskontinuitätsmanagements............................................................45|
+|17.1|Aufrechterhaltung der Informationssicherheit.........................................................................................................45|
+|17.2|Redundanzen.............................................................................................................................................................................. 45|
+|17.2.1|<br>Verfügbarkeit von informationsverarbeitenden Einrichtungen.................................................................45|
+|17.2.2|<br>Verfügbarkeitskonzept....................................................................................................................................................45|
+|17.3|Notfallkonzept............................................................................................................................................................................ 45|
+|18|Richtlinienkonformität................................................................................................................................................................. 47|
+|18.1|Einhaltung gesetzlicher und vertraglicher Anforderungen.................................................................................47|
+|18.1.1|<br>Feststellung anwendbarer Gesetze und vertraglicher Anforderungen....................................................47|
+|18.1.2|<br>Rechte an geistigem Eigentum....................................................................................................................................47|
+|18.1.3|<br>Schutz von Aufzeichnungen.........................................................................................................................................47|
+|18.1.4|<br>Privatsphäre und Schutz von personenbezogenen Informationen...........................................................47|
+|18.1.5|<br>Regulierung kryptographischer Kontrollmaßnahmen....................................................................................47|
+|18.1.6|<br>Identifzierung der Nutzer.............................................................................................................................................47|
+|18.1.7|<br>Authentisierung der Nutzer..........................................................................................................................................48|
+|18.2|Informationssicherheitsprüfungen..................................................................................................................................49|
+|18.2.1|<br>Unabhängige Prüfung der Informationssicherheit...........................................................................................49|
+|18.2.2|<br>Einhaltung von Sicherheitsleitlinien und -normen..........................................................................................49|
+|18.2.3|<br>Technische Konformitätsprüfung..............................................................................................................................49|
+||Anhang.................................................................................................................................................................................................. 50|
 
-Das Kapitel 3 gibt Hinweise und definiert Anforderungen bei einem Vorgehen gemäß der [27001].
 
-Rahmenbedingungen für die Auditierung in Form von Vorgaben für den Auditor, das eigentliche Audit und die Auditberichte sind in Kapitel 4 aufgeführt.
 
-Die durch den DMDA umzusetzenden Anforderungen finden sich ab Kapitel 5. Dabei entspricht die Kapitelnummerierung der Systematik der [27002] und ermöglicht so eine direkte Integration in die individuelle Sicherheitskonzeption.
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Zu den einzelnen Anforderungen der [27002] können folgende Zusätze definiert sein:
+5 
 
-- De-Mail spezifische Umsetzungshinweise Bietet Hinweise auf De-Mail spezifische Belange. Damit werden keine neuen Anforderungen definiert sondern lediglich Informationen zur Umsetzung von Maßnahmen im Umfeld von De-Mail gegeben.
-- De-Mail spezifische Ergänzung Bestehende Anforderungen der [27002] werden durch neue Anforderungen ergänzt. Diese erhalten eine eigene neue Kapitelnummer und sind durch bisher in der Technischen Richtlinie De-Mail formulierte Anforderungen definiert.
+Einleitung 1 
 
-Die ergänzten Anforderungen aus der [27002] sind zur Übersicht im Anhang nochmals tabellarisch aufgeführt.
+## 1 Einleitung 
 
-## <span id="page-8-0"></span>3 Vorgehensweise nach ISO
+Das vorliegende Modul der Technischen Richtlinie De-Mail beschreibt die Anforderungen für eine Zertifizierung des erforderlichen Managementsystems für Informationssicherheit (ISMS[1] ) gemäß ISO/IEC 27001 zur Erlangung eines Testats Informationssicherheit nach De-MailGesetz und bietet somit eine Alternative zur bisher zwingend erforderlichen ISMSZertifizierung nach IT-Grundschutz. 
 
-Dieses Kapitel beschreibt die Besonderheiten bei der Anwendung und Vorgehensweise gemäß der ISO/IEC 27000-Normen im De-Mail-Umfeld. Hierbei lassen sich grundsätzlich zwei Szenarien vorstellen:
+Basis für die Erlangung eines Testats Informationssicherheit nach De-Mail-Gesetz kann für den DMDA damit auch ein ISO/IEC 27001-Zertifikat sein. Mit diesem Zertifikat muss nachgewiesen werden, dass die in diesem Dokument definierten Anforderungen erfüllt, d. h. umgesetzt und auditiert sind. 
 
-1. Wird das ISMS gemäß [27001] erstmalig zertifiziert, werden die Anforderungen aus der ISO/IEC-Norm zusammen mit den De-Mail spezifischen Anforderungen während eines Audits geprüft.
+Die De-Mail spezifischen Anforderungen aus den bereits existierenden TR-Modulen zum Thema Informationssicherheit wurden hier auf die Normenreihe der ISO/IEC 27000 abgebildet. Basis für das vorliegende Dokument waren die ISO/IEC 27001:2013 (im Folgenden mit [27001] bezeichnet) und die ISO/IEC 27002:2013 (im Folgenden mit [27002] bezeichnet). 
 
-2. Liegt bereits ein Zertifikat gemäß [27001] vor, sind in einem weiteren Audit die De-Mailspezifischen Anforderungen zu prüfen und zu bestätigen.
-
-In beiden Szenarien ist darauf zu achten, dass der Scope des ISMS die gesamte Infrastruktur umfasst, die den De-Mail-Betrieb beinhaltet. D. h. sämtliche für den De-Mail-Betrieb erforderliche IT, Räumlichkeiten, Personal sowie alle notwendigen Prozesse müssen im Scope des ISMS enthalten sein. Die Einhaltung dieser Anforderung ist durch den Auditor zu bestätigen (Auditbericht).
-
-Wichtiger Aspekt bei beiden Vorgehensweisen ist die Ergänzung der Anforderungen der ISO/IEC-Norm durch De-Mail spezifische Anforderungen. Dazu werden die einzelnen Anforderungen ab Kapitel 5 mit dem Hinweis "De-Mail spezifische Ergänzung" geeignet ergänzt.
-
-Anforderungen aus der ISO/IEC-Norm, die Ergänzungen für De-Mail enthalten, sind im Anhang in einer separaten Tabelle (vgl. Tabelle A.2) zur Übersicht aufgeführt. Damit wird dem Auditor eine einfache Möglichkeit eröffnet, in einem bereits nach [27001] zertifizierten Bereich ergänzend die De-Mail-spezifischen Anforderung zu prüfen.
-
-Bei der Vorgehensweise nach [27001] ist insbesondere darauf zu achten, dass eine Risikoakzeptanz nur in begründeten Ausnahmefällen ohne die Ergreifung von Maßnahmen erfolgen darf.
-
-## <span id="page-9-0"></span>4 Anforderungen an die Auditierung
-
-Das Kapitel beschreibt Besonderheiten bei der Auditierung, die sowohl den Auditor, das eigentliche Audit und den vom Auditor zu erstellenden Auditbericht betreffen.
-
-## 4.1 Auditor
-
-Die Auditoren müssen beim BSI für den Geltungsbereich De-Mail zertifiziert sein. Das Verfahren der Personenzertifizierung und die konkreten Anforderungen an die Auditoren sind beim BSI in den Dokumenten [VB\_Personen] und [Prog\_Personen] beschrieben.
-
-## 4.2 Audit
+Ein Abkürzungs- und Literaturverzeichnis ist im Dachdokument enthalten. 
 
-Für den Abschluss der Testierung sind bei der erstmaligen Zertifizierung ein Penetrationstest und eine IS-Kurz-Revision durchzuführen und zu dokumentieren. Vorgaben hierfür finden sich in den Dokumenten [IS-Rev] und [PenTest].
+1 **I** nformation **S** ecurity Management System 
 
-## 4.3 Auditbericht
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Der vom Auditor vorgelegte Auditbericht soll insbesondere dokumentieren, dass die in diesem Dokument aufgeführten De-Mail spezifischen Anforderungen beim DMDA geprüft und umgesetzt wurden. Hierzu wird eine Checkliste zur Verfügung gestellt.
+7 
 
-## <span id="page-10-0"></span>5 Sicherheitsleitlinie
+2 Aufbau des Dokuments 
 
-Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 5 sind entsprechend anzuwenden. Vgl. TR De-Mail:
+## 2 Aufbau des Dokuments 
 
-[TR DM IS M] 3.1 Verfahren nach IT-Grundschutz
+Das Kapitel 3 gibt Hinweise und definiert Anforderungen bei einem Vorgehen gemäß der [27001]. 
 
-## <span id="page-11-0"></span>6 Organisation der Informationssicherheit
+Rahmenbedingungen für die Auditierung in Form von Vorgaben für den Auditor, das eigentliche Audit und die Auditberichte sind in Kapitel 4 aufgeführt. 
 
-## 6.1 Interne Organisation
+Die durch den DMDA umzusetzenden Anforderungen finden sich ab Kapitel 5. Dabei entspricht die Kapitelnummerierung der Systematik der [27002] und ermöglicht so eine direkte Integration in die individuelle Sicherheitskonzeption. 
 
-## 6.1.1 Aufgaben und Zuständigkeiten im Bereich der Informationssicherheit
+Zu den einzelnen Anforderungen der [27002] können folgende Zusätze definiert sein: 
 
-Die Maßnahme 6.1.1 der [27002] ist entsprechend anzuwenden.
+- De-Mail spezifsche Umsetzungshinweise Bietet Hinweise auf De-Mail spezifische Belange. Damit werden keine neuen Anforderungen definiert sondern lediglich Informationen zur Umsetzung von Maßnahmen im Umfeld von De-Mail gegeben. 
 
-#### Vgl. TR De-Mail :
+- De-Mail spezifsche Ergänzung Bestehende Anforderungen der [27002] werden durch neue Anforderungen ergänzt. Diese erhalten eine eigene neue Kapitelnummer und sind durch bisher in der Technischen Richtlinie De-Mail formulierte Anforderungen definiert. 
 
-<span id="page-11-1"></span>• [TR DM IS M] 3.1 Verfahren nach IT-Grundschutz
+Die ergänzten Anforderungen aus der [27002] sind zur Übersicht im Anhang nochmals tabellarisch aufgeführt. 
 
-## 6.1.2 Aufgabentrennung
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Die Maßnahme 6.1.2 der [27002] ist entsprechend anzuwenden.
+8 
 
-De-Mail spezifische Umsetzungshinweise
+Vorgehensweise nach ISO 3 
 
-Es muss ein Rollen- und Rechtekonzept entwickelt und dokumentiert werden, das den Grundsätzen der Funktionstrennung und nur den berechtigten Personen den Zugriff erlaubt.
+## 3 Vorgehensweise nach ISO 
 
-Rollenausschlüsse ergeben sich dabei aus den folgenden grundsätzlichen Einschränkungen:
+Dieses Kapitel beschreibt die Besonderheiten bei der Anwendung und Vorgehensweise gemäß der ISO/IEC 27000-Normen im De-Mail-Umfeld. Hierbei lassen sich grundsätzlich zwei Szenarien vorstellen: 
 
-- 1. Keine Leitungsfunktion (wie Leiter DMDA, IT-SiBe, DSB) darf operative oder administrative Aufgaben übernehmen.
-- 2. Keine Kontrollfunktion darf operative oder administrative Aufgaben übernehmen (Überwachung des Logging / Monitoring).
-- 3. Die vollen Administrationsrechte müssen auf wenige Personen reduziert werden.
-- 4. Rollen mit Zugriff auf gespeicherte Daten oder Daten, die übertragen werden, dürfen keinen Zugriff auf die verwendeten Schlüssel haben.
-- 5. Der Zutritt zu Hardware und Netzwerkinfrastruktur darf in der gleichen Rolle abgebildet werden. Änderungen an der Hardware und der Netzinfrastruktur müssen im 4-Augen-Prinzip erfolgen und sind mittels Logging zu protokollieren.
-- 6. Die Aktivitäten zur Identitätserfassung und -verwaltung müssen für ein De-Mail-Konto von verschiedenen Personen ausgeführt werden.
+1. Wird das ISMS gemäß [27001] erstmalig zertifiziert, werden die Anforderungen aus der ISO/IEC-Norm zusammen mit den De-Mail spezifischen Anforderungen während eines Audits geprüft. 
 
-Für die Umsetzung des Rollenkonzepts und der Rollenausschlüsse bietet sich die folgende Aufteilung an:
+2. Liegt bereits ein Zertifikat gemäß [27001] vor, sind in einem weiteren Audit die De-Mailspezifischen Anforderungen zu prüfen und zu bestätigen. 
 
-- **•** Leiter DMDA
-	- **◦** ist der Gesamtverantwortliche für den Betrieb.
-- **•** IT-Sicherheitsbeauftragter (IT-SiBe)
-	- **◦** übernimmt die Aufgaben im Sinne des Managers für Informationssicherheit nach ISO/IEC 27001
-- **•** Datenschutzbeauftragter (DSB)
-- **◦** übernimmt die Aufgabe des Datenschutzbeauftragten für den Bereich De-Mail und damit insbesondere für die Erfüllung der Anforderungen aus dem [DSKritKat]
-- **•** Rechenzentrumsadministrator (RZ-Admin)
-	- **◦** hat Zutritt zum Rechenzentrum und Zugriff auf die Hardwarekomponenten
-	- **◦** ist zuständig für alle Hardwareaufgaben
-	- **◦** begleitet andere Administratoren bei der Arbeit an Hardwarekomponenten
-	- **◦** hat Zugriff auf die zum Betrieb und Wartung notwendigen Logdaten
-	- **◦** hat keinen Zugriff auf das Sicherheitslogging
-	- **◦** hat keinen Zugriff auf Schlüsselmaterial
-- **•** Log-Administrator
-	- **◦** hat alleinigen Zugriff auf das Sicherheitslogging. In den Sicherheits-Logdaten werden alle wesentlichen Änderungen/Aktivitäten der Administratoren auf den Systemen festgehalten.
-	- **◦** Die normalen Log-Daten der Systeme/Anwendungen, die zur Wartung und Betrieb genutzt werden, unterliegen nicht den Einschränkungen des Rollenkonzept.
-	- **◦** überwacht die System und Aktivitäten der anderen Administratoren
-	- **◦** ist alleinig dem Leiter der Organisation unterstellt
-	- **◦** hat keinen Zutritt zum Rechenzentrum
-	- **◦** hat keinen Zugriff auf Schlüsselmaterial
-- **•** Systemadministrator (Sys-Admin)
-	- **◦** leistet halbautomatische Arbeiten zur Applikationssteuerung
-	- **◦** hat keinen Zugriff auf das Sicherheitslogging
-	- **◦** hat keinen Zutritt zum Rechenzentrum
-	- **◦** hat keinen Zugriff auf Schlüsselmaterial
-- **•** Anwendungsadministrator (Appl-Admin)
-	- **◦** betreut die Anwendungen (z. B. Webserver, E-Mailserver, usw.) und das Betriebssystem
-	- **◦** führt Softwareupdates, Patches, Konfigurationsänderungen durch
-	- **◦** hat keinen Zugriff auf das Sicherheitslogging
-	- **◦** hat keinen Zutritt zum Rechenzentrum
-	- **◦** hat keinen Zugriff auf Schlüsselmaterial
-- **•** Schlüsseladministrator (Key-Admin)
-	- **◦** ist zuständig für die Verwaltung von allen Schlüsseln und Zertifikaten
-	- **◦** hat keinen Zugriff auf das Sicherheitslogging
-	- **◦** hat keinen Zutritt zum Rechenzentrum
-- **◦** hat keinen Zugriff auf verschlüsselte Daten
-- **•** Netzwerkadministrator (Net-Admin)
-	- **◦** hat Zugriff auf Netzwerk- und Firewallsysteme
-	- **◦** konfiguriert Firewall, Netzwerkdienst (z. B. DNS, usw.) und ähnliches
-	- **◦** hat keinen Zugriff auf das Sicherheitslogging
-	- **◦** hat keinen Zugriff auf Schlüsselmaterial
-- **•** Storageadministrator (Storage-Admin)
-	- **◦** zuständig für den Betrieb der Datenbanken bzw. anderer Speichersysteme
-	- **◦** hat keinen Zugriff auf das Sicherheitslogging
-	- **◦** hat keinen Zutritt zum Rechenzentrum
-	- **◦** hat keinen Zugriff auf Schlüsselmaterial
+In beiden Szenarien ist darauf zu achten, dass der Scope des ISMS die gesamte Infrastruktur umfasst, die den De-Mail-Betrieb beinhaltet. D. h. sämtliche für den De-Mail-Betrieb erforderliche IT, Räumlichkeiten, Personal sowie alle notwendigen Prozesse müssen im Scope des ISMS enthalten sein. Die Einhaltung dieser Anforderung ist durch den Auditor zu bestätigen (Auditbericht). 
 
-Die wesentlichen Aktivitäten der Administratoren werden zuverlässig im Sicherheitslogging erfasst.
+Wichtiger Aspekt bei beiden Vorgehensweisen ist die Ergänzung der Anforderungen der ISO/IEC-Norm durch De-Mail spezifische Anforderungen. Dazu werden die einzelnen Anforderungen ab Kapitel 5 mit dem Hinweis „De-Mail spezifische Ergänzung“ geeignet ergänzt. 
 
-Die Rollen schließen einander aus. Das bedeutet, dass eine Person nicht gleichzeitig zwei dieser Rollen einnehmen darf.
+Anforderungen aus der ISO/IEC-Norm, die Ergänzungen für De-Mail enthalten, sind im Anhang in einer separaten Tabelle (vgl. Tabelle A.2) zur Übersicht aufgeführt. Damit wird dem Auditor eine einfache Möglichkeit eröffnet, in einem bereits nach [27001] zertifizierten Bereich ergänzend die De-Mail-spezifischen Anforderung zu prüfen. 
 
-Die Rollen des Leiters DMDA, der Datenschutzbeauftragte und des IT-SiBe sind organisatorische Rollen, die keine operative Tätigkeit ausüben.
+Bei der Vorgehensweise nach [27001] ist insbesondere darauf zu achten, dass eine Risikoakzeptanz nur in begründeten Ausnahmefällen ohne die Ergreifung von Maßnahmen erfolgen darf. 
 
-Die anderen Rollen sind für den Betrieb der Technik zuständig. Es ist hier abhängig vom DMDA, welche Personen für einen korrekten Betrieb anwesend sein müssen, um einen korrekten und den Sicherheitsbestimmungen entsprechenden Betrieb zu gewährleisten. Damit ist gemeint, welche Rollen z. B. 24/7 verfügbar sein oder nur Rufbereitschaft gewährleisten müssen.
+Bundesamt für Sicherheit in der Informationstechnik 
 
-#### Vgl. TR De-Mail :
+9 
 
-- **•** [TR DM IS GS] 6.1.2 Rollenkonzept
-- **•** [TR DM IS GS] 6.1.2.4 Rollenausschlüsse
-- **•** [TR DM IS GS] 7.1.1 Rollenkonzept (Beispiele)
+4 Anforderungen an die Auditierung 
 
-#### 6.1.3 Kontakt zu Behörden
+## 4 Anforderungen an die Auditierung 
 
-Die Maßnahme 6.1.3 der [27002] ist entsprechend anzuwenden.
+Das Kapitel beschreibt Besonderheiten bei der Auditierung, die sowohl den Auditor, das eigentliche Audit und den vom Auditor zu erstellenden Auditbericht betreffen. 
 
-#### De-Mail spezifische Umsetzungshinweise
+## 4.1 Auditor 
 
-Gemäß De-Mail-Gesetz ist die zuständige Behörde das BSI. Dabei gilt die Zuständigkeit für die Akkreditierung der DMDA und für die Aufsicht über die akkreditierten DMDA. Ansprechpartner für erforderliche Änderungsmitteilungen im Rahmen der für die Akkreditierung notwendigen Testierungsverfahren ist das Referat D24.
+Die Auditoren müssen beim BSI für den Geltungsbereich De-Mail zertifiziert sein. Das Verfahren der Personenzertifizierung und die konkreten Anforderungen an die Auditoren sind beim BSI in den Dokumenten [VB_Personen] und [Prog_Personen] beschrieben. 
 
-Als Aufsichtsbehörde für den Bereich Datenschutz ist die Bundesbeauftragte für den Datenschutz und die Informationsfreiheit zu nennen.
+## 4.2 Audit 
 
-Abschließend wird auf Ziffer 16.1 "Management von Informationssicherheitsvorfällen und Verbesserungen" hingewiesen.
+Für den Abschluss der Testierung sind bei der erstmaligen Zertifizierung ein Penetrationstest und eine IS-Kurz-Revision durchzuführen und zu dokumentieren. Vorgaben hierfür finden sich in den Dokumenten [IS-Rev] und [PenTest]. 
 
-## 6.1.4 Kontakt mit Interessengruppen
+## 4.3 Auditbericht 
 
-Die Maßnahme 6.1.4 der [27002] ist entsprechend anzuwenden.
+Der vom Auditor vorgelegte Auditbericht soll insbesondere dokumentieren, dass die in diesem Dokument aufgeführten De-Mail spezifischen Anforderungen beim DMDA geprüft und umgesetzt wurden. Hierzu wird eine Checkliste zur Verfügung gestellt. 
 
-## 6.1.5 Informationssicherheit im Projektmanagement
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Die Maßnahme 6.1.5 der [27002] ist entsprechend anzuwenden.
+10 
 
-## 6.2 Mobilgeräte und Telearbeit
+Sicherheitsleitlinie 5 
 
-## 6.2.1 Leitlinie zu Mobilgeräten
+## 5 Sicherheitsleitlinie 
 
-Die Maßnahme 6.2.1 der [27002] ist entsprechend anzuwenden.
+Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 5 sind entsprechend anzuwenden. - Vgl. TR De Mail: 
 
-## 6.2.2 Telearbeit
+[TR DM IS M] 3.1 Verfahren nach IT-Grundschutz 
 
-Die Maßnahme 6.2.2 der [27002] ist entsprechend anzuwenden.
+Bundesamt für Sicherheit in der Informationstechnik 
 
-## <span id="page-14-0"></span>6.2.3 Remote-Administration
+11 
 
-#### De-Mail spezifische Ergänzung
+6 Organisation der Informationssicherheit 
 
-Die Remote-Administration der IT-Systeme in den verschiedenen Sicherheitszonen und des Firewall-Systems selbst dürfen nur über einen gesicherten Weg erfolgen. Der Kanal, durch den die Administration der IT-Systeme und Applikationen erfolgt, muss durch starke Verschlüsselung und starke Authentisierung geschützt werden.
+## 6 Organisation der Informationssicherheit 
 
-Sofern die Remote-Administration aus Räumen erfolgt, die zu der gleichen Liegenschaft wie das Rechenzentrum des jeweiligen De-Mail-Dienstes gehören, muss der administrative Remote-Zugriff auf die IT-Systeme mindestens durch ein sicheres Passwort geschützt sein.
+## 6.1 Interne Organisation 
 
-Sofern die Remote-Administration aus einem – in Bezug auf das Rechenzentrum – externen Gebäude erfolgt, hat eine Zwei-Faktor-Authentisierung zu erfolgen. Für die Administration der Benutzerdaten von Remote besteht ein "hoher" Schutzbedarf. Bei der Absicherung dieses Zugangs hat der DMDA diesem Rechnung zu tragen.
+## 6.1.1 Aufgaben und Zuständigkeiten im Bereich der Informationssicherheit 
 
-#### Vgl. TR De-Mail:
+Die Maßnahme 6.1.1 der [27002] ist entsprechend anzuwenden. 
 
-• [TR DM IS GS] 6.3.2 Anforderungen an die Remote-Administration der IT-Systeme
+## - Vgl. TR De Mail : 
 
-## <span id="page-15-0"></span>7 Personalsicherheit
+- [TR DM IS M] 3.1 Verfahren nach IT-Grundschutz 
 
-## 7.1 Vor der Anstellung
+## 6.1.2 Aufgabentrennung 
 
-## 7.1.1 Überprüfung
+Die Maßnahme 6.1.2 der [27002] ist entsprechend anzuwenden. 
 
-Die Maßnahme 7.1.1 der [27002] ist entsprechend anzuwenden.
+- De Mail spezifsche Umsetzungshinweise 
 
-#### De-Mail spezifische Umsetzungshinweise
+Es muss ein Rollen- und Rechtekonzept entwickelt und dokumentiert werden, das den Grundsätzen der Funktionstrennung und nur den berechtigten Personen den Zugriff erlaubt. 
 
-Nach De-Mail-Gesetz muss der DMDA bzw. das bei ihm beschäftigte Personal die für den Betrieb von De-Mail-Diensten erforderliche Zuverlässigkeit und Fachkunde besitzen. In diesem Zusammenhang haben die betreffenden Mitarbeiter zum Nachweis ihrer Zuverlässigkeit ein Führungszeugnis gemäß §30 Absatz 5 BZRG bei der zuständigen Behörde vorzulegen.
+Rollenausschlüsse ergeben sich dabei aus den folgenden grundsätzlichen Einschränkungen: 
 
-Vgl. TR De-Mail:
+1. Keine Leitungsfunktion (wie  Leiter DMDA, IT-SiBe, DSB) darf operative oder administrative Aufgaben übernehmen. 
 
-• [TR DM IS GS] 6.1.3 Fachkunde und Zuverlässigkeit des Personals
+2. Keine Kontrollfunktion darf operative oder administrative Aufgaben übernehmen (Überwachung des Logging / Monitoring). 
 
-## 7.1.2 Arbeitsvertragsklauseln
+3. Die vollen Administrationsrechte müssen auf wenige Personen reduziert werden. 
 
-Die Maßnahme 7.1.2 der [27002] ist entsprechend anzuwenden.
+4. Rollen mit Zugriff auf gespeicherte Daten oder Daten, die übertragen werden, dürfen keinen Zugriff auf die verwendeten Schlüssel haben. 
 
-## 7.2 Während der Anstellung
+5. Der Zutritt zu Hardware und Netzwerkinfrastruktur darf in der gleichen Rolle abgebildet werden. Änderungen an der Hardware und der Netzinfrastruktur müssen im 4-Augen-Prinzip erfolgen und  sind mittels Logging zu protokollieren. 
 
-## 7.2.1 Verantwortung des Managements
+6. Die Aktivitäten zur Identitätserfassung und -verwaltung müssen für ein De-Mail-Konto von verschiedenen Personen ausgeführt werden. 
 
-Die Maßnahme 7.2.1 der [27002] ist entsprechend anzuwenden.
+Für die Umsetzung des Rollenkonzepts und der Rollenausschlüsse bietet sich die folgende Aufteilung an: 
 
-Vgl. auch 7.2.2
+- Leiter DMDA 
 
-## 7.2.2 Sensibilisierung, Aus und Weiterbildung zur Informationssicherheit
+   - ist der Gesamtverantwortliche für den Betrieb. 
 
-Die Maßnahme 7.2.2 der [27002] ist entsprechend anzuwenden.
+- IT-Sicherheitsbeauftragter (IT-SiBe) 
 
-## De-Mail spezifische Umsetzungshinweise
+   - übernimmt die Aufgaben im Sinne des Managers für Informationssicherheit nach ISO/IEC 27001 
 
-Der DMDA muss die für den Betrieb von De-Mail-Diensten erforderliche Zuverlässigkeit und Fachkunde besitzen. In diesem Zusammenhang ist von besonderer Bedeutung, dass die Mitarbeiter des DMDA vor Aufnahme der Tätigkeit ausreichend geschult werden. Die Schulung beinhaltet u. a. eine Einarbeitung/Einweisung in die auszuübende Tätigkeit und eine Sensibilisierung der Mitarbeiter hinsichtlich der Sicherheitsrelevanz ihrer Arbeit sowie der datenschutzrechtlichen Rahmenbedingungen. Die Mitarbeiter müssen vom für De-Mail verantwortlichen Vorgesetzten (beispielsweise Leiter des Bereichs De-Mail) im laufenden Betrieb auf ihre Fachkunde hin beurteilt werden. Ggf. müssen durch den Vorgesetzten Nachschulungen veranlasst werden.
+- Datenschutzbeauftragter (DSB) 
 
-#### Vgl. TR De-Mail:
+Bundesamt für Sicherheit in der Informationstechnik 
 
-• [TR DM IS GS] 6.1.3 Fachkunde und Zuverlässigkeit des Personals
+12 
 
-### 7.2.3 Disziplinarverfahren
+Organisation der Informationssicherheit 6 
 
-Die Maßnahme 7.2.3 der [27002] ist entsprechend anzuwenden.
+   - übernimmt die Aufgabe des Datenschutzbeauftragten für den Bereich De-Mail und damit insbesondere für die Erfüllung der Anforderungen aus dem [DSKritKat] 
 
-## 7.3 Beendigung und Wechsel der Anstellung
+- 
 
-## 7.3.1 Zuständigkeiten bei Beendigung oder Wechsel der Anstellung
+   - Rechenzentrumsadministrator (RZ-Admin) 
 
-Die Maßnahme 7.3.1 der [27002] ist entsprechend anzuwenden.
+   - hat Zutritt zum Rechenzentrum und Zugriff auf die Hardwarekomponenten 
 
-## <span id="page-17-0"></span>Management von organisationseigenen Werten
+   - ist zuständig für alle Hardwareaufgaben 
 
-Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 8 sind entsprechend anzuwenden.
+   - begleitet andere Administratoren bei der Arbeit an Hardwarekomponenten 
 
-## <span id="page-18-0"></span>9 Zugriffskontrolle
+   - hat Zugriff auf die zum Betrieb und Wartung notwendigen Logdaten 
 
-## 9.1 Geschäftliche Anforderungen in Bezug auf die Zugriffskontrolle
+   - hat keinen Zugriff auf das Sicherheitslogging 
 
-## 9.1.1 Leitlinie zur Zugangskontrolle
+   - hat keinen Zugriff auf Schlüsselmaterial 
 
-Die Maßnahme 9.1.1 der [27002] ist entsprechend anzuwenden.
+- 
 
-De-Mail spezifische Umsetzungshinweise
+   - Log-Administrator 
 
-#### Zugangskonzept
+   - hat alleinigen Zugriff auf das Sicherheitslogging. In den Sicherheits-Logdaten werden alle wesentlichen Änderungen/Aktivitäten der Administratoren auf den Systemen festgehalten. 
 
-Zugang ist der Aufbau einer Verbindung zwischen einem IT-System und einem Nutzer, der ihm die Benutzung von Funktionen des IT-Systems ermöglicht.
+   - Die normalen Log-Daten der Systeme/Anwendungen, die zur Wartung und Betrieb genutzt werden, unterliegen nicht den Einschränkungen des Rollenkonzept. 
 
-Das Zugangskonzept muss festlegen, dass jedes IT-System des DMDA durch Mechanismen der Zugangskontrolle vor unberechtigtem Zugang geschützt sein muss. Es sind geeignete Mechanismen zur Authentisierung einzusetzen.
+   - überwacht die System und Aktivitäten der anderen Administratoren 
 
-Der Zugang zu Systemen, auf denen unverschlüsselte Daten der Nutzer verarbeitet werden, muss strikt beschränkt und kontrolliert werden. Es sind Mechanismen vorzusehen, die das unbefugte Ausleiten von Daten unterbinden.
+   - ist alleinig dem Leiter der Organisation unterstellt 
 
-#### Zugriffskonzept
+   - hat keinen Zutritt zum Rechenzentrum 
 
-Zugriff ist der Vorgang, der einem Nutzer eines IT-Systems Informationen zugänglich macht, die als Daten in einem IT-System gespeichert sind. Dieser Vorgang kann beispielsweise lesend, schreibend oder ausführend erfolgen.
+   - hat keinen Zugriff auf Schlüsselmaterial 
 
-Das Zugriffskonzept muss die Realisierung des Zugriffschutzes auf schützenswerte Daten darlegen.
+- 
 
-Das Zugriffskonzept ist so zu gestalten, dass Schlüsselinhaber keinen Zugriff auf IT-Systeme bekommen, auf denen die verschlüsselten Daten gespeichert werden.
+   - Systemadministrator (Sys-Admin) 
 
-Das Zugriffskonzept muss Mechanismen beschreiben, die sicherstellen, dass nur der berechtigte Benutzer Zugriff auf die für ihn gespeicherten Daten (z. B. De-Mails) erhält.
+   - leistet halbautomatische Arbeiten zur Applikationssteuerung 
 
-Des Weiteren müssen innerhalb des Zugriffskonzepts die Zugriffsberechtigungen auf den einzelnen Systemen im Sinne des Rollenkonzepts (siehe dazu auch Kapitel [6.1.2](#page-11-1)) festgelegt werden, d. h. der System-Administrator darf über volle Zugriffsrechte auf das entsprechende System verfügen. Für alle Anwendungen auf den IT-Systemen werden durch den System-Administrator separate Verzeichnisse angelegt und entsprechend des Rollenkonzepts die Zugriffsrechte für die weiteren Administratoren festgelegt.
+   - hat keinen Zugriff auf das Sicherheitslogging 
 
-#### Vgl. TR De-Mail:
+   - hat keinen Zutritt zum Rechenzentrum 
 
-- **•** [TR DM IS GS] 6.1.2 Rollenkonzept
-- **•** [TR DM IS GS] 6.1.2.2 Zugangskonzept
-- **•** [TR DM IS GS] 6.1.2.3 Zugriffskonzept
+   - hat keinen Zugriff auf Schlüsselmaterial 
 
-## 9.1.2 Zugang zu Netzwerken und Netzwerkdiensten
+- 
 
-Die Maßnahme 9.1.2 der [27002] ist entsprechend anzuwenden.
+   - Anwendungsadministrator (Appl-Admin) 
 
-#### De-Mail spezifische Umsetzungshinweise
+   - betreut die Anwendungen (z. B. Webserver, E-Mailserver, usw.) und das Betriebssystem 
 
-Das DMDA-Netzwerk muss in Sicherheitszonen eingeteilt werden. Das externe Netz ist vom internen Netz zu trennen und in bedarfsorientierte Netzbereichen aufzuteilen:
+   - führt Softwareupdates, Patches, Konfigurationsänderungen durch 
 
-- a) Daten-Netz
-- b) Internes Netz
-- c) Externes Netz
+   - hat keinen Zugriff auf das Sicherheitslogging 
 
-Für das Management der sicherheitskritischen Komponenten ist ein separates Management-Netz einzurichten. Das Management-Netz muss vor Zugriffen aus anderen Netzen geschützt sein. Aufgrund dieser Anforderung ergibt sich eine Netzarchitektur, die auf dem generischen Netzplan aus [TR DM IS GS] Kapitel 2.3 aufbaut und eine beispielhafte Architektur darstellt.
+   - hat keinen Zutritt zum Rechenzentrum 
 
-Nicht authentifizierte sowie direkte Verbindungsversuche auf interne Systeme sind zu blockieren.
+   - hat keinen Zugriff auf Schlüsselmaterial 
 
-Vgl. TR De-Mail:
+- 
 
-- [TR DM IS GS] 6.4.1 Sicherheitszonen
-- [TR DM IS GS] 6.4.3 Kommunikationsverbindungen
+- Schlüsseladministrator (Key-Admin) 
 
-## 9.2 Benutzerverwaltung
+- ist zuständig für die Verwaltung von allen Schlüsseln und Zertifikaten 
 
-Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 9.2 sind entsprechend anzuwenden.
+- hat keinen Zugriff auf das Sicherheitslogging 
 
-## 9.3 Benutzerverantwortung
+- hat keinen Zutritt zum Rechenzentrum 
 
-Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 9.3 sind entsprechend anzuwenden.
+Bundesamt für Sicherheit in der Informationstechnik 
 
-## 9.4 Kontrolle des Zugangs zu Systemen und Anwendungen
+13 
 
-Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 9.4 sind entsprechend anzuwenden.
+6 Organisation der Informationssicherheit 
 
-## <span id="page-20-0"></span>10 Kryptographie
+   - hat keinen Zugriff auf verschlüsselte Daten 
 
-## 10.1 Kryptographische Maßnahmen
+- Netzwerkadministrator (Net-Admin) 
 
-## 10.1.1 Leitlinie zur Nutzung von kryptographischen Maßnahmen
+   - hat Zugriff auf Netzwerk- und Firewallsysteme 
 
-Die Maßnahme 10.1.1 der [27002] ist entsprechend anzuwenden.
+   - konfiguriert Firewall, Netzwerkdienst (z. B. DNS, usw.) und ähnliches 
 
-#### De-Mail spezifische Umsetzungshinweise
+   - hat keinen Zugriff auf das Sicherheitslogging 
 
-Der DMDA muss ein Kryptokonzept unter Berücksichtigung der folgenden Anforderungen erstellen.
+   - hat keinen Zugriff auf Schlüsselmaterial 
 
-## **Allgemeines**
+- Storageadministrator (Storage-Admin) 
 
-Das Kryptokonzept muss die aktuell geltenden Standards hinsichtlich der verwendeten Techniken, Algorithmen und Schlüssellängen berücksichtigen. In [TR 03116-4] sind die zurzeit geltenden Standards aufgeführt. Es ist regelmäßig zu prüfen, ob die Sicherheitseigenschaften der verwendeten Verfahren weiterhin gegeben sind. Dazu kann auf den Algorithmenkatalog für qualifizierte elektronische Signaturen [TR 02102] zurückgegriffen werden, sowie [TR 03116-4].
+   - zuständig für den Betrieb der Datenbanken bzw. anderer Speichersysteme 
 
-Im Kryptokonzept ist weiter darzulegen, auf welche Weise bei Wechsel der Schlüssel die vorhandenen Datenbestände mit den neuen Schlüsseln verschlüsselt werden.
+   - hat keinen Zugriff auf das Sicherheitslogging 
 
-#### Vgl. TR De-Mail:
+   - hat keinen Zutritt zum Rechenzentrum 
 
-• [TR DM IS GS] 6.1.8.1 Allgemeines
+   - hat keinen Zugriff auf Schlüsselmaterial 
 
-## **Transportverschlüsselung Nutzer – De-Mail-Dienst**
+Die wesentlichen Aktivitäten der Administratoren werden zuverlässig im Sicherheitslogging erfasst. 
 
-Bei der Kommunikation zwischen dem Nutzer (oder De-Mail-Gateway) und dem De-Mail-Dienst können vertrauliche Daten ausgetauscht werden. Diese Daten müssen einerseits vor dem Einblick Dritter geschützt sein, andererseits muss die Authentizität und Integrität dieser Daten gesichert sein.
+Die Rollen schließen einander aus. Das bedeutet, dass eine Person nicht gleichzeitig zwei dieser Rollen einnehmen darf. 
 
-Die Kommunikationsverbindungen zwischen Nutzer und De-Mail-Dienst müssen verschlüsselt erfolgen.
+Die Rollen des Leiters DMDA, der Datenschutzbeauftragte und des IT-SiBe sind organisatorische Rollen, die keine operative Tätigkeit ausüben. 
 
-Die Systeme des DMDA müssen sich gegenüber dem Nutzer authentisieren. Der DMDA muss dem Nutzer den/die Fingerprints des/der verwendeten Zertifikats/Zertifikate in geeigneter Weise zur Kenntnis bringen.
+Die anderen Rollen sind für den Betrieb der Technik zuständig. Es ist hier abhängig vom DMDA, welche Personen für einen korrekten Betrieb anwesend sein müssen, um einen korrekten und den Sicherheitsbestimmungen entsprechenden Betrieb zu gewährleisten. Damit ist gemeint, welche Rollen z. B. 24/7 verfügbar sein oder nur Rufbereitschaft gewährleisten müssen. 
 
-#### Vgl. TR De-Mail:
+## - Vgl. TR De Mail : 
 
-• [TR DM IS GS] 6.1.8.2 Transportverschlüsselung Nutzer – De-Mail-Dienst
+- [TR DM IS GS] 6.1.2 Rollenkonzept 
 
-#### **Transportverschlüsselung DMDA-DMDA**
+- [TR DM IS GS] 6.1.2.4 Rollenausschlüsse 
 
-Die Kommunikation von einem DMDA zu einem anderen muss über einen verschlüsselten gegenseitig authentisierten Kanal erfolgen (TLS-Verbindung siehe [TR DM IT-BInfra IO]). Bei dem Kanalaufbau hat eine gegenseitige Authentisierung stattzufinden. Die verwendeten Zertifikate sind in einer Access Control List (ACL) zu hinterlegen.
+- [TR DM IS GS] 7.1.1 Rollenkonzept (Beispiele) 
 
-Die Sperrlisten sind regelmäßig zu prüfen. Im Falle einer Revozierung eines SSL-Zertifikates muss dieses unverzüglich aus den ACLs entfernt werden.
+## 6.1.3 Kontakt zu Behörden 
 
-Der DMDA hat Regelungen zur Kontrolle der kryptografischen Schlüssel für die gesicherte Verbindung im IT-Sicherheitskonzept zu treffen.
+Die Maßnahme 6.1.3 der [27002] ist entsprechend anzuwenden. 
 
-#### Vgl. TR De-Mail:
+- De Mail spezifsche Umsetzungshinweise 
 
-• [TR DM IS GS] 6.1.8.3 Transportverschlüsselung DMDA-DMDA
+Gemäß De-Mail-Gesetz ist die zuständige Behörde das BSI. Dabei gilt die Zuständigkeit für die Akkreditierung der DMDA und für die Aufsicht über die akkreditierten DMDA. Ansprechpartner für erforderliche Änderungsmitteilungen im Rahmen der für die Akkreditierung notwendigen Testierungsverfahren ist das Referat D24. 
 
-#### **Transportverschlüsselung DMDA-intern**
+Als Aufsichtsbehörde für den Bereich Datenschutz ist die Bundesbeauftragte für den Datenschutz und die Informationsfreiheit zu nennen. 
 
-Die Kommunikation zwischen den Systemen des DMDA sollte verschlüsselt erfolgen. Es ist dabei nach Möglichkeit eine gegenseitige Authentisierung vorzusehen.
+Abschließend wird auf Ziffer 16.1 „Management von Informationssicherheitsvorfällen und Verbesserungen“ hingewiesen. 
 
-#### Vgl. TR De-Mail:
+Bundesamt für Sicherheit in der Informationstechnik 
 
-• [TR DMIS GS] 6.1.8.4 Transportverschlüsselung DMDA-intern
+14 
 
-#### **Schlüsselwechsel**
+Organisation der Informationssicherheit 6 
 
-Die verwendeten asymmetrischen Schlüssel für gespeicherte Inhalte und für die Transportverschlüsselung zwischen den DMDA sind nach drei Jahren auszutauschen.
+## 6.1.4 Kontakt mit Interessengruppen 
 
-Vgl. TR De-Mail:
+Die Maßnahme 6.1.4 der [27002] ist entsprechend anzuwenden. 
 
-• [TR DMIS GS] 6.1.8.5 Schlüsselwechsel
+## 6.1.5 Informationssicherheit im Projektmanagement 
 
-#### **Einsatz der qualifizierten elektronischen Signatur**
+Die Maßnahme 6.1.5 der [27002] ist entsprechend anzuwenden. 
 
-Es wird empfohlen, in die Zertifikate, die zur qualifizierten elektronischen Signatur eingesetzt werden, eine Einschränkung hinsichtlich ihres Verwendungszwecks zu integrieren. Eine mögliche Einschränkung kann z. B. lauten: "Nur zur Erfüllung von DMDA-Diensten". Damit soll klargestellt werden, dass sich der DMDA den Inhalt der Nachricht nicht zueigen macht, sondern lediglich den Transport der Nachricht bestätigt.
+## 6.2 Mobilgeräte und Telearbeit 
 
-#### Vgl. TR De-Mail:
+## 6.2.1 Leitlinie zu Mobilgeräten 
 
-• [TR DM IS GS] 7.1.3.1 Einsatz der qualifizierten elektronischen Signatur
+Die Maßnahme 6.2.1 der [27002] ist entsprechend anzuwenden. 
 
-#### **Verwendung von Krypto-Hardware**
+## 6.2.2 Telearbeit 
 
-Es wird empfohlen Krypto-Hardware (HSM) einzusetzen. Diese bietet den Vorteil, dass kein Zugriff auf den privaten Schlüssel erfolgen kann und somit ggf. der organisatorische Aufwand für die Verwaltung/Administration reduziert werden kann. Es sind jedoch Maßnahmen zu treffen, die die Verfügbarkeit der Dienste bei einem Defekt der Hardware sicherstellen. Dies ist im Sicherheitskonzept zu berücksichtigen.
+Die Maßnahme 6.2.2 der [27002] ist entsprechend anzuwenden. 
 
-#### Vgl. TR De-Mail:
+## 6.2.3 Remote-Administration 
 
-• [TR DM IS GS] 7.1.3.2 Verwendung von Krypto-Hardware
+## - De Mail spezifsche Ergänzung 
 
-#### 10.1.2 Verwaltung kryptografischer Schlüssel
+Die Remote-Administration der IT-Systeme in den verschiedenen Sicherheitszonen und des Firewall-Systems selbst dürfen nur über einen gesicherten Weg erfolgen. Der Kanal, durch den die Administration der IT-Systeme und Applikationen erfolgt, muss durch starke Verschlüsselung und starke Authentisierung geschützt werden. 
 
-Die Maßnahme 10.1.2 der [27002] ist entsprechend anzuwenden.
+Sofern die Remote-Administration aus Räumen erfolgt, die zu der gleichen Liegenschaft wie das Rechenzentrum des jeweiligen De-Mail-Dienstes gehören, muss der administrative Remote-Zugriff auf die IT-Systeme mindestens durch ein sicheres Passwort geschützt sein. 
 
-#### De-Mail spezifische Umsetzungshinweise
+Sofern die Remote-Administration aus einem – in Bezug auf das Rechenzentrum – externen Gebäude erfolgt, hat eine Zwei-Faktor-Authentisierung zu erfolgen. Für die Administration der Benutzerdaten von Remote besteht ein „hoher“ Schutzbedarf. Bei der Absicherung dieses Zugangs hat der DMDA diesem Rechnung zu tragen. 
 
-Bei der Schlüsselaufbewahrung muss gewährleistet werden, dass kein unbefugter Zugriff auf die Schlüssel erfolgen kann.
+## - Vgl. TR De Mail: 
 
-Bei der Verwendung von Softwareschlüsseln (Soft-PSE) z. B. für die TLS-Verbindung ist mit geeigneten Mitteln sicherzustellen, dass keine unberechtigten Kopien der Schlüssel erstellt werden können.
+- [TR DM IS GS] 6.3.2 Anforderungen an die Remote-Administration der IT-Systeme 
 
-Vgl. TR De-Mail:
+Bundesamt für Sicherheit in der Informationstechnik 
 
-• [TR DM IS GS] 6.1.8.6 Schlüsselaufbewahrung
+15 
 
-## <span id="page-23-0"></span>11 Schutz vor physischem Zugang und Umwelteinflüssen
+7 Personalsicherheit 
 
-## 11.1 Sicherheitsbereiche
+## 7 Personalsicherheit 
 
-## 11.1.1 Physische Sicherheitszonen
+## 7.1 Vor der Anstellung 
 
-Die Maßnahme 11.1.1 der [27002] ist entsprechend anzuwenden.
+## 7.1.1 Überprüfung 
 
-#### De-Mail-spezifische Umsetzungshinweise
+Die Maßnahme 7.1.1 der [27002] ist entsprechend anzuwenden. 
 
-#### **Gebäude**
+## - De Mail spezifsche Umsetzungshinweise 
 
-Die zum Betrieb von De-Mail erforderlichen technischen Einrichtungen müssen in einem Rechenzentrum untergebracht sein.
+Nach De-Mail-Gesetz muss der DMDA bzw. das bei ihm beschäftigte Personal die für den Betrieb von De-Mail-Diensten erforderliche Zuverlässigkeit und Fachkunde besitzen. In diesem Zusammenhang haben die betreffenden Mitarbeiter zum Nachweis ihrer Zuverlässigkeit ein  Führungszeugnis gemäß §30 Absatz 5 BZRG bei der zuständigen Behörde vorzulegen. 
 
-Die bauliche Anordnung und die Bausubstanz müssen den gängigen Richtlinien und Anordnung wie z. B. DIN, ISO, VDE, VDMA und Richtlinien des VdS entsprechen.
+## - Vgl. TR De Mail: 
 
-#### Vgl. TR De-Mail:
+- [TR DM IS GS] 6.1.3 Fachkunde und Zuverlässigkeit des Personals 
 
-• [TR DM IS GS] 6.2.1 Gebäude
+## 7.1.2 Arbeitsvertragsklauseln 
 
-#### **Sicherheitsbereiche im Rechenzentrum**
+Die Maßnahme 7.1.2 der [27002] ist entsprechend anzuwenden. 
 
-Alle IT-Systeme, auf denen Klartextverarbeitung stattfinden, müssen in einem separaten Sicherheitsbereich im Rechenzentrum aufgestellt und betrieben werden. Der Sicherheitsbereich muss zutrittsgeschützt und mit einer Zutrittskontrolltechnik versehen sein.
+## 7.2 Während der Anstellung 
 
-Für die Administration der IT-Systeme und Anwendungen muss ein Sicherheitsbereich eingerichtet werden. Der Sicherheitsbereich muss zutrittsgeschützt und mit einer Zutrittskontrolltechnik versehen sein.
+## 7.2.1 Verantwortung des Managements 
 
-Das Datensicherungsarchiv muss in einem weiteren Brandabschnitt untergebracht sein und zutrittsgeschützt mit einer Zutrittskontrolltechnik versehen sein.
+Die Maßnahme 7.2.1 der [27002] ist entsprechend anzuwenden. 
 
-#### Vgl. TR De-Mail:
+Vgl. auch 7.2.2 
 
-• [TR DM IS GS] 6.2.2 De-Mail-spezifische Sicherheitsbereiche im Rechenzentrum
+## 7.2.2 Sensibilisierung, Aus und Weiterbildung zur Informationssicherheit 
 
-#### **Zutrittskonzept**
+Die Maßnahme 7.2.2 der [27002] ist entsprechend anzuwenden. 
 
-Der DMDA muss ein Zutrittskonzept erstellen. Die Anzahl der Zutrittsberechtigten muss dabei auf das notwendige Minimum beschränkt werden. Es ist sicherzustellen, dass sich in Räumen, in denen IT-Systeme mit vertraulichen Daten betrieben werden, niemals nur ein Mitarbeiter des DMDA allein aufhält (strikte Einhaltung des Vier-Augen-Prinzips).
+## - De Mail spezifsche Umsetzungshinweise 
 
-#### **Zutrittsschutz**
+Der DMDA muss die für den Betrieb von De-Mail-Diensten erforderliche Zuverlässigkeit und Fachkunde besitzen. In diesem Zusammenhang ist von besonderer Bedeutung, dass die Mitarbeiter des DMDA vor Aufnahme der Tätigkeit ausreichend geschult werden. Die Schulung beinhaltet u. a. eine Einarbeitung/Einweisung in die auszuübende Tätigkeit und eine Sensibilisierung der Mitarbeiter hinsichtlich der Sicherheitsrelevanz ihrer Arbeit sowie der datenschutzrechtlichen Rahmenbedingungen. Die Mitarbeiter müssen vom für De-Mail verantwortlichen Vorgesetzten (beispielsweise Leiter des Bereichs De-Mail) im laufenden Betrieb auf ihre Fachkunde hin beurteilt werden. Ggf. müssen durch den Vorgesetzten Nachschulungen veranlasst werden. 
 
-IT- und Infrastrukturräume sind gegen unberechtigten Zutritt zu schützen. Dabei ist durch geeignete bauliche Maßnahmen oder auch die Verwendung anderer materieller Sicherungstechnik sicherzustellen, dass ein Zutritt Unbefugter hinreichend sicher ausgeschlossen werden kann.
+## - Vgl. TR De Mail: 
 
-In Bezug auf externe Täter bedeutet dies, dass die eingesetzte Infrastruktur einen so hohen Widerstandswert haben muss, dass der Versuch des unbefugten Zutritts mindestens so lange abgewehrt wird, wie es dauert, bis alarmierte Einsatzkräfte eintreffen.
+- [TR DM IS GS] 6.1.3 Fachkunde und Zuverlässigkeit des Personals 
 
-Es ist mindestens eine Gefahrenmeldeanlage zu betreiben ist, die dem Stand von Wissenschaft und Technik entspricht. Auf Alarmmeldungen muss unverzüglich und angemessen reagiert werden können.
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Es müssen hinreichende Zutrittskontrolltechniken zum Einsatz kommen.
+16 
 
-Der Zutritt zu und der Aufenthalt in IT- und Infrastrukturräumen muss kontrolliert, überwacht und dokumentiert werden.
+Personalsicherheit 7 
 
-Für die Infrastruktur der Räume, in denen die Systeme für De-Mail betrieben werden, wird empfohlen, die nachfolgenden Mindestanforderungen umzusetzen. Dort, wo dies aufgrund baulicher Gegebenheiten nicht möglich erscheint, sollte untersucht werden, ob ggf. der Einsatz entsprechender Schutzschränke in Betracht kommt.
+## 7.2.3 Disziplinarverfahren 
 
-Für das Rechenzentrum sollte
+Die Maßnahme 7.2.3 der [27002] ist entsprechend anzuwenden. 
 
-- **◦** die Außenhaut mindestens Widerstandsklasse WK 5 (DIN V ENV 1627 bis 1630) aufweisen,
-- **◦** die Türen und Fenster analog zur Außenhaut ausgestaltet sein.
+## 7.3 Beendigung und Wechsel der Anstellung 
 
-Für den Sicherheitsbereich sollten
+- 7.3.1 Zuständigkeiten bei Beendigung oder Wechsel der Anstellung 
 
-- **◦** die Wände mindestens Widerstandsklasse WK 3 (DIN V ENV 1627 bis 1630) aufweisen,
-- **◦** die Türen analog zu den Wänden ausgestaltet sein.
+Die Maßnahme 7.3.1 der [27002] ist entsprechend anzuwenden. 
 
-Die Arbeitsumgebung der Administratoren muss räumlich so gestaltet sein, dass kein unbefugter Systemzugang und kein unbefugter Zugriff auf Systeme, Daten und Dokumente oder eine Kenntnisnahme vertraulicher Informationen möglich ist.
+Bundesamt für Sicherheit in der Informationstechnik 
 
-#### Vgl. TR De-Mail:
+17 
 
-- [TR DM IS GS] 6.1.2.1 Zutrittskonzept
-- [TR DM IS GS] 6.2.3 Zutrittsschutz
-- [TR DM IS GS] 7.2.1 Zutrittsschutz
+8 Management von organisationseigenen Werten 
 
-#### 11.1.2 Physische Zugangskontrollen
+## 8 Management von organisationseigenen Werten 
 
-Die Maßnahme 11.1.2 der [27002] ist entsprechend anzuwenden.
+Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 8 sind entsprechend anzuwenden. 
 
-#### 11.1.3 Sicherung von Büros, sonstigen Räumen und Einrichtungen
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Die Maßnahme 11.1.3 der [27002] ist entsprechend anzuwenden.
+18 
 
-#### 11.1.4 Schutz vor externen und umweltbedingten Bedrohungen
+Zugriffskontrolle 9 
 
-Die Maßnahme 11.1.4 der [27002] ist entsprechend anzuwenden.
+## 9 Zugriffskontrolle 
 
-## 11.1.5 Arbeit in Sicherheitsbereichen
+## 9.1 Geschäftliche Anforderungen in Bezug auf die Zugriffskontrolle 
 
-Die Maßnahme 11.1.5 der [27002] ist entsprechend anzuwenden.
+## 9.1.1 Leitlinie zur Zugangskontrolle 
 
-## 11.1.6 Anlieferungs- und Ladezonen
+Die Maßnahme 9.1.1 der [27002] ist entsprechend anzuwenden. 
 
-Die Maßnahme 11.1.6 der [27002] ist entsprechend anzuwenden.
+- De Mail spezifsche Umsetzungshinweise 
 
-## 11.2 Sicherheit von Betriebsmitteln
+## Zugangskonzept 
 
-## 11.2.1 Platzierung und Schutz von Betriebsmitteln
+Zugang ist der Aufbau einer Verbindung zwischen einem IT-System und einem Nutzer, der ihm die Benutzung von Funktionen des IT-Systems ermöglicht. 
 
-Die Maßnahme 11.2.1 der [27002] ist entsprechend anzuwenden.
+Das Zugangskonzept muss festlegen, dass jedes IT-System des DMDA durch Mechanismen der Zugangskontrolle vor unberechtigtem Zugang geschützt sein muss. Es sind geeignete Mechanismen zur Authentisierung einzusetzen. 
 
-## De-Mail spezifische Umsetzungshinweise
+Der Zugang zu Systemen, auf denen unverschlüsselte Daten der Nutzer verarbeitet werden, muss strikt beschränkt und kontrolliert werden. Es sind Mechanismen vorzusehen, die das unbefugte Ausleiten von Daten unterbinden. 
 
-Es müssen hinreichende Zutrittskontrolltechniken zum Einsatz kommen.
+## Zugriffskonzept 
 
-Der Zutritt zu und der Aufenthalt in IT- und Infrastrukturräumen muss kontrolliert, überwacht und dokumentiert werden.
+Zugriff ist der Vorgang, der einem Nutzer eines IT-Systems Informationen zugänglich macht, die als Daten in einem IT-System gespeichert sind. Dieser Vorgang kann beispielsweise lesend, schreibend oder ausführend erfolgen. 
 
-#### Vgl. TR De-Mail:
+Das Zugriffskonzept muss die Realisierung des Zugriffschutzes auf schützenswerte Daten darlegen. 
 
-• [TR DM IS GS] 6.2.3 Zutrittsschutz
+Das Zugriffskonzept ist so zu gestalten, dass Schlüsselinhaber keinen Zugriff auf IT-Systeme bekommen, auf denen die verschlüsselten Daten gespeichert werden. 
 
-## 11.2.2 Versorgungseinrichtungen
+Das Zugriffskonzept muss Mechanismen beschreiben, die sicherstellen, dass nur der berechtigte Benutzer Zugriff auf die für ihn gespeicherten Daten (z. B. De-Mails) erhält. 
 
-Die Maßnahme 11.2.2 der [27002] ist entsprechend anzuwenden.
+Des Weiteren müssen innerhalb des Zugriffskonzepts die Zugriffsberechtigungen auf den einzelnen Systemen im Sinne des Rollenkonzepts (siehe dazu auch Kapitel 6.1.2) festgelegt werden, d. h. der System-Administrator darf über volle Zugriffsrechte auf das entsprechende System verfügen. Für alle Anwendungen auf den IT-Systemen werden durch den SystemAdministrator separate Verzeichnisse angelegt und entsprechend des Rollenkonzepts die Zugriffsrechte für die weiteren Administratoren festgelegt. 
 
-## 11.2.3 Sicherheit der Verkablung
+## - Vgl. TR De Mail: 
 
-Die Maßnahme 11.2.3 der [27002] ist entsprechend anzuwenden.
+- [TR DM IS GS] 6.1.2 Rollenkonzept 
 
-## 11.2.4 Instandhaltung von Betriebsmitteln
+- [TR DM IS GS] 6.1.2.2 Zugangskonzept 
 
-Die Maßnahme 11.2.4 der [27002] ist entsprechend anzuwenden.
+- [TR DM IS GS] 6.1.2.3 Zugriffskonzept 
 
-## 11.2.5 Entfernung von Werten
+## 9.1.2 Zugang zu Netzwerken und Netzwerkdiensten 
 
-Die Maßnahme 11.2.5 der [27002] ist entsprechend anzuwenden.
+Die Maßnahme 9.1.2 der [27002] ist entsprechend anzuwenden. 
 
-## 11.2.6 Sicherheit von Betriebsmitteln und Werten außerhalb der Betriebsgebäude
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Die Maßnahme 11.2.6 der [27002] ist entsprechend anzuwenden.
+19 
 
-## 11.2.7 Sichere Entsorgung oder Weiterverwendung von Betriebsmitteln
+9 Zugriffskontrolle 
 
-Die Maßnahme 11.2.7 der [27002] ist entsprechend anzuwenden.
+## - De Mail spezifsche Umsetzungshinweise 
 
-## 11.2.8 Unbeaufsichtigte Endgeräte
+Das DMDA-Netzwerk muss in Sicherheitszonen eingeteilt werden. Das externe Netz ist vom internen Netz zu trennen und in bedarfsorientierte Netzbereichen aufzuteilen: 
 
-Die Maßnahme 11.2.8 der [27002] ist entsprechend anzuwenden.
+- a) Daten-Netz 
 
-### 11.2.9 Der Grundsatz des aufgeräumten Schreibtischs des leeren Bildschirms
+- b) Internes Netz 
 
-Die Maßnahme 11.2.9 der [27002] ist entsprechend anzuwenden.
+- c) Externes Netz 
 
-## <span id="page-27-0"></span>12 Betriebssicherheit
+Für das Management der sicherheitskritischen Komponenten ist ein separates ManagementNetz einzurichten. Das Management-Netz muss vor Zugriffen aus anderen Netzen geschützt sein. Aufgrund dieser Anforderung ergibt sich eine Netzarchitektur, die auf dem generischen Netzplan aus [TR DM IS GS] Kapitel 2.3 aufbaut und eine beispielhafte Architektur darstellt. 
 
-## 12.1 Betriebsverfahren und Zuständigkeiten
+Nicht authentifizierte sowie direkte Verbindungsversuche auf interne Systeme sind zu blockieren. 
 
-## 12.1.1 Dokumentierte Betriebsverfahren
+## - Vgl. TR De Mail: 
 
-Die Maßnahme 12.1.1 der [27002] ist entsprechend anzuwenden.
+- [TR DM IS GS] 6.4.1 Sicherheitszonen 
 
-#### De-Mail spezifische Umsetzungshinweise
+- [TR DM IS GS] 6.4.3 Kommunikationsverbindungen 
 
-Die Prozesse im Umgang mit den IT-Systemen des DMDA (Installation, Konfiguration, Administration) sind zu dokumentieren und nachzuweisen. Entsprechend der Dokumentation hat die sichere Installation, Konfiguration und Administration der eingesetzten IT-Systeme zu erfolgen. Die für die Mitarbeiter verfügbaren Dokumente zur Durchführung von Prozessen, Checklisten und Verfahrensanweisungen, sowie Handbücher sind in Zusammenarbeit mit den Mitarbeitern und insbes. des IT-Sicherheitsbeauftragten zu erstellen. Die Dokumentation muss möglichst einfach nachzuvollziehen zu sein.
+## 9.2 Benutzerverwaltung 
 
-#### Vgl. TR De-Mail:
+Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 9.2 sind entsprechend anzuwenden. 
 
-• [TR DM IS GS] 6.1.9 Dokumentation der Administrationsprozesse
+## 9.3 Benutzerverantwortung 
 
-Für jedes sicherheitskritische IT-System für De-Mail ist ein Betriebshandbuch zu führen. Dieses muss die aktuelle Konfiguration und Parametrisierung des Betriebssystems, der Dienste und der darauf installierten Applikationen enthalten. Änderungen an der Konfiguration sind zu vermerken und zu begründen.
+Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 9.3 sind entsprechend anzuwenden. 
 
-#### Vgl. TR De-Mail:
+## 9.4 Kontrolle des Zugangs zu Systemen und Anwendungen 
 
-• [TR DM IS GS] 6.3.7 Betriebshandbücher
+Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 9.4 sind entsprechend anzuwenden. 
 
-#### 12.1.2 Änderungsmanagement
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Die Maßnahme 12.1.2 der [27002] ist entsprechend anzuwenden.
+20 
 
-#### De-Mail spezifische Umsetzungshinweise
+Kryptographie 10 
 
-Auf allen Systemen des DMDA darf nur freigegebene Software installiert werden. Gleiches gilt für die einzusetzende Hardware. Die Freigabe erfolgt durch den IT-Sicherheitsbeauftragten nach definierten Kriterien und nach erfolgreicher Durchführung von Tests, soweit diese erforderlich sind.
+## 10 Kryptographie 
 
-Der IT-Sicherheitsbeauftragte ist in den Changemanagementprozess einzubinden. Der IT-Sicherheitsbeauftragte überwacht die zugriffsgeschützte Lagerung der Original-Datenträger der eingesetzten Software. Hardware, die vor dem Einsatz beim DMDA bereits genutzt wurde, muss vor dem Einsatz von beeinflussenden Restdaten befreit werden.
+## 10.1 Kryptographische Maßnahmen 
 
-Es ist sicherzustellen, dass alle relevanten Sicherheitspatches installiert werden. Vor der Installation sind die im Rahmen des Changemanagements entwickelten Regeln zu beachten.
+## 10.1.1 Leitlinie zur Nutzung von kryptographischen Maßnahmen 
 
-Änderungen müssen an die Zertifizierungsstelle gemeldet werden.
+Die Maßnahme 10.1.1 der [27002] ist entsprechend anzuwenden. 
 
-Vgl. TR De-Mail:
+## - De Mail spezifsche Umsetzungshinweise 
 
-• [TR DM IS GS] 6.1.4 Changemanagement
+Der DMDA muss ein Kryptokonzept unter Berücksichtigung der folgenden Anforderungen erstellen. 
 
-- [TR DM IS GS] 6.3.3 Aktualität der Software
-- [TR DM IS GS] 7.1.2 Empfehlungen zum Changemanagement
+## **Allgemeines** 
 
-#### 12.1.3 Kapazitätsmanagement
+Das Kryptokonzept muss die aktuell geltenden Standards hinsichtlich der verwendeten Techniken, Algorithmen und Schlüssellängen berücksichtigen. In [TR 03116-4] sind die zurzeit geltenden Standards aufgeführt. Es ist regelmäßig zu prüfen, ob die Sicherheitseigenschaften der verwendeten Verfahren weiterhin gegeben sind. Dazu kann auf den Algorithmenkatalog für qualifizierte elektronische Signaturen [TR 02102] zurückgegriffen werden, sowie [TR 03116-4]. 
 
-Die Maßnahme 12.1.3 der [27002] ist entsprechend anzuwenden.
+Im Kryptokonzept ist weiter darzulegen, auf welche Weise bei Wechsel der Schlüssel die vorhandenen Datenbestände mit den neuen Schlüsseln verschlüsselt werden. 
 
-## 12.1.4 Trennung von Entwicklungs, Test und Betriebsumgebungen
+## - Vgl. TR De Mail: 
 
-Die Maßnahme 12.1.4 der [27002] ist entsprechend anzuwenden.
+- [TR DM IS GS] 6.1.8.1 Allgemeines 
 
-## 12.2 Schutz vor Malware
+## **Transportverschlüsselung Nutzer – De-Mail-Dienst** 
 
-### 12.2.1 Kontrollmaßnahmen gegen Malware
+Bei der Kommunikation zwischen dem Nutzer (oder De-Mail-Gateway) und dem De-MailDienst können vertrauliche Daten ausgetauscht werden. Diese Daten müssen einerseits vor dem Einblick Dritter geschützt sein, andererseits muss die Authentizität und Integrität dieser Daten gesichert sein. 
 
-Die Maßnahme 12.2.1 der [27002] ist entsprechend anzuwenden.
+Die Kommunikationsverbindungen zwischen Nutzer und De-Mail-Dienst müssen verschlüsselt erfolgen. 
 
-#### De-Mail spezifische Umsetzungshinweise
+Die Systeme des DMDA müssen sich gegenüber dem Nutzer authentisieren. Der DMDA muss dem Nutzer den/die Fingerprints des/der verwendeten Zertifikats/Zertifikate in geeigneter Weise zur Kenntnis bringen. 
 
-Alle IT-Systeme sind mit geeigneten Mitteln gegen Angriffe mit Schadsoftware zu schützen. Es ist sicherzustellen, dass Infektionen mit Schadprogrammen zuverlässig erkannt und die Schadsoftware unverzüglich beseitigt wird.
+## - Vgl. TR De Mail: 
 
-Durch geeignete Maßnahmen ist sicherzustellen, dass Nachrichtenentwürfe, die vom Absender dem Postfach- und Versanddienst übergeben werden, unmittelbar nach Übermittlung auf Schadsoftware geprüft werden.
+- [TR DM IS GS] 6.1.8.2 Transportverschlüsselung Nutzer – De-Mail-Dienst 
 
-#### Vgl. TR De-Mail:
+## **Transportverschlüsselung DMDA-DMDA** 
 
-- [TR DM IS GS] 6.3.5 Schadsoftwareschutz
-- [TR DM PVD Si] 5.1 Prüfung auf Schadsoftware
+Die Kommunikation von einem DMDA zu einem anderen muss über einen verschlüsselten gegenseitig authentisierten Kanal erfolgen (TLS-Verbindung siehe [TR DM IT-BInfra IO]). Bei dem Kanalaufbau hat eine gegenseitige Authentisierung stattzufinden. Die verwendeten Zertifikate sind in einer Access Control List (ACL) zu hinterlegen. 
 
-## 12.3 Backup
+Die Sperrlisten sind regelmäßig zu prüfen. Im Falle einer Revozierung eines SSL-Zertifikates muss dieses unverzüglich aus den ACLs entfernt werden. 
 
-#### 12.3.1 Datensicherungen
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Die Maßnahme 12.3.1 der [27002] ist entsprechend anzuwenden.
+21 
 
-#### De-Mail spezifische Umsetzungshinweise
+10 Kryptographie 
 
-Der DMDA hat zur Sicherung von Informationen ein Konzept zu erarbeiten, das die Sicherung von sämtlichen relevanten Daten festlegt. Die Wiederherstellung von Daten, die durch den berechtigten Nutzer gelöscht wurden, ist nicht verpflichtend.
+Der DMDA hat Regelungen zur Kontrolle der kryptografischen Schlüssel für die gesicherte Verbindung im IT-Sicherheitskonzept zu treffen. 
 
-Die Datensicherung muss folgende Anforderungen erfüllen:
+## - Vgl. TR De Mail: 
 
-- **•** Es darf nicht zu Datenverlust von Nutzerdaten kommen.
-- **•** Soweit die Daten im Speicher verschlüsselt vorliegen, sind diese auch verschlüsselt in die Datensicherung zu übernehmen.
+- [TR DM IS GS] 6.1.8.3 Transportverschlüsselung DMDA-DMDA 
 
-#### Vgl. TR De-Mail:
+## **Transportverschlüsselung DMDA-intern** 
 
-- [TR DM IS GS] 6.1.7 Datensicherungskonzept
-- <span id="page-29-0"></span>• [TR DM DA Si] 5.2 Backup-Konzept
+Die Kommunikation zwischen den Systemen des DMDA sollte verschlüsselt erfolgen. Es ist dabei nach Möglichkeit eine gegenseitige Authentisierung vorzusehen. 
 
-#### 12.3.2 Archivierungskonzept
+## - Vgl. TR De Mail: 
 
-#### De-Mail spezifische Ergänzung
+- [TR DMIS GS] 6.1.8.4 Transportverschlüsselung DMDA-intern 
 
-Der DMDA hat ein Archivierungskonzept zu erstellen, in dem insbesondere die dauerhafte Archivierung von Protokollen und anderen Betriebsdaten, die durch einen De-Mail-Dienst entstehen, berücksichtigt werden muss.
+## **Schlüsselwechsel** 
 
-Vgl. TR De-Mail:
+Die verwendeten asymmetrischen Schlüssel für gespeicherte Inhalte und für die Transportverschlüsselung zwischen den DMDA sind nach drei Jahren auszutauschen. 
 
-• [TR DM IS GS] 6.1.1 Archivierungskonzept
+## - Vgl. TR De Mail: 
 
-## 12.4 Protokollierung und Überwachung
+- [TR DMIS GS] 6.1.8.5 Schlüsselwechsel 
 
-#### 12.4.1 Ereignisprotokollierung
+## **Einsatz der qualifizierten elektronischen Signatur** 
 
-Die Maßnahme 12.4.1 der [27002] ist entsprechend anzuwenden.
+Es wird empfohlen, in die Zertifikate, die zur qualifizierten elektronischen Signatur eingesetzt werden, eine Einschränkung hinsichtlich ihres Verwendungszwecks zu integrieren. Eine mögliche Einschränkung kann z. B. lauten: „Nur zur Erfüllung von DMDA-Diensten“. Damit soll klargestellt werden, dass sich der DMDA den Inhalt der Nachricht nicht zueigen macht, sondern lediglich den Transport der Nachricht bestätigt. 
 
-#### De-Mail spezifische Umsetzungshinweise
+## - Vgl. TR De Mail: 
 
-#### Sicherheits-Logdaten:
+- [TR DM IS GS] 7.1.3.1 Einsatz der qualifizierten elektronischen Signatur 
 
-Alle sicherheitskritischen IT-Systeme müssen für den administrativen Zugriff und für Änderungen an der Konfiguration eine Protokollierungskomponente enthalten, die in der Lage ist, jedes der folgenden Ereignisse revisionsfähig zu protokollieren:
+## **Verwendung von Krypto-Hardware** 
 
-- **•** Anmeldevorgänge am System (erfolgreiche und nicht erfolgreiche),
-- **•** versuchter Zugriff auf eine der Rechteverwaltung unterliegende Komponente,
-- **•** alle Administrations-Verbindungsversuche.
+Es wird empfohlen Krypto-Hardware (HSM) einzusetzen. Diese bietet den Vorteil, dass kein Zugriff auf den privaten Schlüssel erfolgen kann und somit ggf. der organisatorische Aufwand für die Verwaltung/Administration reduziert werden kann. Es sind jedoch Maßnahmen zu treffen, die die Verfügbarkeit der Dienste bei einem Defekt der Hardware sicherstellen. Dies ist im Sicherheitskonzept zu berücksichtigen. 
 
-Bei nicht erlaubten Verbindungsversuchen muss eine fest definierte Alarmmeldung ausgegeben werden.
+## - Vgl. TR De Mail: 
 
-Um unbefugtes teilweises oder komplettes Löschen von Daten zu verhindern und um entsprechende Nachweise zu führen, ist sicherzustellen, dass entsprechende Zugriffe durch das mit der Administration betraute Personal zuverlässig protokolliert werden.
+- [TR DM IS GS] 7.1.3.2 Verwendung von Krypto-Hardware 
 
-Betriebs-Logdaten:
+## 10.1.2 Verwaltung kryptografischer Schlüssel 
 
-Alle für den Betrieb und die Wartung relevanten Daten sollten erfasst werden, um beispielsweise auf Hardwareausfälle, Überlast-Situationen oder Fehler in der Anwendung geeignet reagieren zu können.
+Die Maßnahme 10.1.2 der [27002] ist entsprechend anzuwenden. 
 
-#### Vgl. TR De-Mail:
+## - De Mail spezifsche Umsetzungshinweise 
 
-• [TR DM IS GS] 6.3.8 Protokollierung
+Bei der Schlüsselaufbewahrung muss gewährleistet werden, dass kein unbefugter Zugriff auf die Schlüssel erfolgen kann. 
 
-#### 12.4.2 Schutz von Protokollinformationen
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Die Maßnahme 12.4.2 der [27002] ist entsprechend anzuwenden.
+22 
 
-De-Mail spezifische Umsetzungshinweise
+Kryptographie 10 
 
-Um unbefugtes teilweises oder komplettes Löschen von Sicherheis-Logdaten zu verhindern und um entsprechende Nachweise zu führen, ist sicherzustellen, dass entsprechende Zugriffe durch das mit der Administration betraute Personal zuverlässig protokolliert werden.
+Bei der Verwendung von Softwareschlüsseln (Soft-PSE) z. B. für die TLS-Verbindung ist mit geeigneten Mitteln sicherzustellen, dass keine unberechtigten Kopien der Schlüssel erstellt werden können. 
 
-Vgl. TR De-Mail:
+## - Vgl. TR De Mail: 
 
-• [TR DM IS GS] 6.3.8 Protokollierung
+- [TR DM IS GS] 6.1.8.6 Schlüsselaufbewahrung 
 
-## 12.4.3 Administrator- und Betreiberprotokoll
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Die Maßnahme 12.4.3 der [27002] ist entsprechend anzuwenden.
+23 
 
-#### De-Mail spezifische Umsetzungshinweise
+11 Schutz vor physischem Zugang und Umwelteinflüssen 
 
-Die Prozesse im Umgang mit den IT-Systemen des DMDA (Installation, Konfiguration, Administration) sind zu dokumentieren und nachzuweisen. Entsprechend der Dokumentation hat die sichere Installation, Konfiguration und Administration der eingesetzten IT-Systeme zu erfolgen. Die für die Mitarbeiter verfügbaren Dokumente zur Durchführung von Prozessen, Checklisten und Verfahrensanweisungen, sowie Handbücher sind in Zusammenarbeit mit den Mitarbeitern und insbes. des IT-Sicherheitsbeauftragten zu erstellen. Die Dokumentation muss möglichst einfach nachzuvollziehen zu sein.
+## 11 Schutz vor physischem Zugang und Umwelteinflüssen 
 
-Vgl. TR De-Mail:
+## 11.1 Sicherheitsbereiche 
 
-• [TR DM IS GS] 6.1.9 Dokumentation der Administrationsprozesse
+## 11.1.1 Physische Sicherheitszonen 
 
-## 12.4.4 Zeitsynchronisation
+Die Maßnahme 11.1.1 der [27002] ist entsprechend anzuwenden. 
 
-Die Maßnahme 12.4.4 der [27002] ist entsprechend anzuwenden.
+## - - De Mail spezifsche Umsetzungshinweise 
 
-## De-Mail spezifische Umsetzungshinweise
+## **Gebäude** 
 
-Zeitquelle für den Zeitservice ist die gesetzliche Zeit (MEZ/MESZ), die von der Physikalisch-Technischen Bundesanstalt (PTB) als UTC (PTB) + 1 (2) realisiert und verbreitet (DFC77, Telefonzeitdienst der PTB, NTP) wird.
+Die zum Betrieb von De-Mail erforderlichen technischen Einrichtungen müssen in einem Rechenzentrum untergebracht sein. 
 
-Folgende Anforderungen werden an den Zeitservice bei De-Mail gestellt:
+Die bauliche Anordnung und die Bausubstanz müssen den gängigen Richtlinien und Anordnung wie z. B. DIN, ISO, VDE, VDMA und Richtlinien des VdS entsprechen. 
 
-- Die Uhrzeiten aller im De-Mail-System eingesetzten Komponenten sind über einen dedizierten Zeitserver, der über die oben geforderte gesetzliche Zeit verfügt, zu synchronisieren.
-- Die Synchronisierung muss über gesicherte Kanäle erfolgen.
-- Die Zeit wird über das separate Management-Netz verbreitet. Das Management-Netz dient unabhängig vom Netz der Nutzdaten der Administration der Systeme. Die Administration darf nur über dieses Netz möglich sein.
-- Die Zeitinformation, die der Zeitserver zur Verfügung stellt, darf max. 1 Sekunde von der gesetzlichen Zeit abweichen.
-- Durch geeignete technische Maßnahmen ist sicherzustellen, dass die Zeit des Zeitservers nicht manipuliert werden kann. Es ist auch sicherzustellen, dass Manipulationen am Zeitsignal sicher erkannt werden. Dies kann beispielsweise durch den Abgleich mit der Systemzeit eines Referenzsystems erfolgen.
+- Vgl. TR De Mail: 
 
-• Die Betriebssysteme und die Anwendungssoftware der IT-Systeme, die den Zeitservice für die jeweilige De-Mail-Infrastruktur zur Verfügung stellen, sind durch den Administrator regelmäßig, mindestens einmal täglich, auf Integrität zu überprüfen.
+- [TR DM IS GS] 6.2.1 Gebäude 
 
-Vgl. TR De-Mail:
+## **Sicherheitsbereiche im Rechenzentrum** 
 
-• [TR DM BInfra Si] 5.1.1 Zeitservice
+Alle IT-Systeme, auf denen Klartextverarbeitung stattfinden, müssen in einem separaten Sicherheitsbereich im Rechenzentrum aufgestellt und betrieben werden. Der Sicherheitsbereich muss zutrittsgeschützt und mit einer Zutrittskontrolltechnik versehen sein. 
 
-## 12.5 Kontrolle von Betriebssoftware
+Für die Administration der IT-Systeme und Anwendungen muss ein  Sicherheitsbereich eingerichtet werden. Der Sicherheitsbereich muss zutrittsgeschützt und mit einer Zutrittskontrolltechnik versehen sein. 
 
-## 12.5.1 Installation von Software auf betrieblichen Systemen
+Das Datensicherungsarchiv muss in einem weiteren Brandabschnitt untergebracht sein und zutrittsgeschützt mit einer Zutrittskontrolltechnik versehen sein. 
 
-Die Maßnahme 12.5.1 der [27002] ist entsprechend anzuwenden.
+## - Vgl. TR De Mail: 
 
-De-Mail spezifische Umsetzungshinweise
+- [TR DM IS GS] 6.2.2 De-Mail-spezifische Sicherheitsbereiche im Rechenzentrum 
 
-Die eingesetzten IT-Systeme sind sicher zu installieren und zu betreiben. Dabei sind insbesondere die Hinweise des jeweiligen Herstellers zu berücksichtigen.
+## **Zutrittskonzept** 
 
-Soweit zertifizierte IT-Systeme zum Einsatz kommen, sind die Auflagen hinsichtlich der Anforderungen an die Einsatzumgebung einzuhalten.
+Der DMDA muss ein Zutrittskonzept erstellen. Die Anzahl der Zutrittsberechtigten muss dabei auf das notwendige Minimum beschränkt werden. Es ist sicherzustellen, dass sich in Räumen, in denen IT-Systeme mit vertraulichen Daten betrieben werden, niemals nur ein Mitarbeiter des DMDA allein aufhält (strikte Einhaltung des Vier-Augen-Prinzips). 
 
-Alle IT-Systeme sind auf der Grundlage gehärteter Betriebssysteme zu installieren und zu betreiben. Hinsichtlich der verwendeten Betriebssysteme bedeutet dies, dass diese minimal zu installieren sind. Insbesondere sind alle nicht benötigten Dienste zu deaktivieren. Sie sind zudem zu deinstallieren, sofern dies das jeweilige Betriebssystem zulässt. Alle nicht benötigte Software darf nicht installiert werden bzw. ist zuverlässig zu deinstallieren.
+## **Zutrittsschutz** 
 
-Vor Inbetriebnahme sind die Systeme ausgiebig auf Funktionalität zu testen. Ein besonderer Fokus muss dabei auf den Sicherheitsfunktionen liegen. Hierzu ist ein gesondertes Testkonzept zu erstellen. Die Ergebnisse der Tests sind nachvollziehbar zu dokumentieren. Dies gilt entsprechend nach der Installation von Patches und Updates.
+IT- und Infrastrukturräume sind gegen unberechtigten Zutritt zu schützen. Dabei ist durch geeignete bauliche Maßnahmen oder auch die Verwendung anderer materieller Sicherungstechnik sicherzustellen, dass ein Zutritt Unbefugter hinreichend sicher ausgeschlossen werden kann. 
 
-Es gilt der Grundsatz der minimalen Rechtevergabe für Benutzer; d. h. es dürfen nur die für die Aufgabenerfüllung absolut notwendigen Rechte vergeben werden. Die Rechtevergabe ist zu dokumentieren und zu begründen.
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Durch geeignete Maßnahmen (beispielsweise Einstellung im BIOS) ist zu erzwingen, dass ein Systemstart nur vom Standard-Laufwerk aus erfolgt.
+24 
 
-Das Betriebssystem oder die jeweilige Applikation müssen so konfiguriert werden, dass die im Rahmen des IT-Sicherheitskonzepts festgelegten Authentisierungsmechanismen genutzt werden müssen.
+Schutz vor physischem Zugang und Umwelteinflüssen 11 
 
-Durch geeignete technische Maßnahmen ist sicherzustellen, dass die Anmeldung eines Berechtigten an einem für De-Mail betriebenen IT-Systems nicht durch einen Unbefugten missbraucht werden kann. Daher ist sicherzustellen, dass, sofern der angemeldete Berechtigte seinen Arbeitsplatz auch nur kurzfristig verlässt, das betroffene IT-System für weitere Zugriffe gesperrt wird. Die Sperre darf nur aufgehoben werden, wenn eine erneute Authentisierung gegenüber dem IT-System erfolgt.
+In Bezug auf externe Täter bedeutet dies, dass die eingesetzte Infrastruktur einen so hohen Widerstandswert haben muss, dass der Versuch des unbefugten Zutritts mindestens so lange abgewehrt wird, wie es dauert, bis alarmierte Einsatzkräfte eintreffen. 
 
-Vgl. TR De-Mail
+Es ist mindestens eine Gefahrenmeldeanlage zu betreiben ist, die dem Stand von Wissenschaft und Technik entspricht. Auf Alarmmeldungen muss unverzüglich und angemessen reagiert werden können. 
 
-• [TR DM IS GS] 6.3.4 Sichere Installation und sicherer Betrieb der eingesetzten IT-Systeme
+Es müssen hinreichende Zutrittskontrolltechniken zum Einsatz kommen. 
 
-## <span id="page-32-0"></span>12.5.2 Integritätsschutz für IT-Systeme
+Der Zutritt zu und der Aufenthalt in IT- und Infrastrukturräumen muss kontrolliert, überwacht und dokumentiert werden. 
 
-#### De-Mail spezifische Ergänzung
+Für die Infrastruktur der Räume, in denen die Systeme für De-Mail betrieben werden, wird empfohlen, die nachfolgenden Mindestanforderungen umzusetzen. Dort, wo dies aufgrund baulicher Gegebenheiten nicht möglich erscheint, sollte untersucht werden, ob ggf. der Einsatz entsprechender Schutzschränke in Betracht kommt. 
 
-Alle für De-Mail betriebenen sicherheitskritischen IT-Systeme sind regelmäßig, mindestens einmal wöchentlich, mit geeigneten technischen Maßnahmen auf Integrität zu prüfen. Die Prüfung und das Ergebnis sind zuverlässig zu dokumentieren.
+Für das Rechenzentrum sollte 
 
-Sofern bei einer solchen Prüfung festgestellt wird, dass die Integrität des Systems verletzt wurde, sind unverzüglich geeignete Gegenmaßnahmen zu ergreifen. Hierzu ist präventiv ein entsprechender Ablaufplan, beispielsweise in Form einer Checkliste, zu erstellen.
+- die Außenhaut mindestens Widerstandsklasse WK 5 (DIN V ENV 1627 bis 1630) aufweisen, 
 
-#### Vgl. TR De-Mail
+- die Türen und Fenster analog zur Außenhaut ausgestaltet sein. 
 
-• [TR DM IS GS] 6.3.6 Integritätsschutz für IT-Systeme
+Für den Sicherheitsbereich sollten 
 
-## 12.6 Technisches Schwachstellenmanagement
+- die Wände mindestens Widerstandsklasse WK 3 (DIN V ENV 1627 bis 1630) aufweisen, 
 
-#### 12.6.1 Management technischer Schwachstellen
+- die Türen analog zu den Wänden ausgestaltet sein. 
 
-Die Maßnahme 12.6.1 der [27002] ist entsprechend anzuwenden.
+Die Arbeitsumgebung der Administratoren muss räumlich so gestaltet sein, dass kein unbefugter Systemzugang und kein unbefugter Zugriff auf Systeme, Daten und Dokumente oder eine Kenntnisnahme vertraulicher Informationen möglich ist. 
 
-#### De-Mail spezifische Umsetzungshinweise
+- Vgl. TR De Mail: 
 
-Es ist sicherzustellen, dass alle relevanten Sicherheitspatches installiert werden. Vor der Installation sind die im Rahmen des Changemanagements entwickelten Regeln zu beachten.
+- [TR DM IS GS] 6.1.2.1 Zutrittskonzept 
 
-Sofern sicherheitszertifizierte IT-Systeme zum Einsatz kommen gilt folgendes:
+- [TR DM IS GS] 6.2.3 Zutrittsschutz 
 
-- **•** Sofern ein relevanter Patch bereits Gegenstand einer Re-Evaluierung war, so hat auch hier nach erfolgtem Freigabeverfahren die unverzügliche Installation zu erfolgen.
-- **•** Sofern ein Sicherheitspatch noch nicht Gegenstand der Re-Evaluierung war, ist durch das IT-Management zu entscheiden, wie zu verfahren ist. Dabei sind die möglichen Risiken gegeneinander abzuwägen. Das Ergebnis dieser Abwägung ist zu dokumentieren und umzusetzen.
+- [TR DM IS GS] 7.2.1 Zutrittsschutz 
 
-#### Vgl. TR De-Mail
+## 11.1.2 Physische Zugangskontrollen 
 
-• [TR DM IS GS] 6.3.3 Aktualität der Software
+Die Maßnahme 11.1.2 der [27002] ist entsprechend anzuwenden. 
 
-#### 12.6.2 Beschränkungen der Software-Installation
+## 11.1.3 Sicherung von Büros, sonstigen Räumen und Einrichtungen 
 
-Die Maßnahme 12.6.2 der [27002] ist entsprechend anzuwenden.
+Die Maßnahme 11.1.3 der [27002] ist entsprechend anzuwenden. 
 
-## 12.7 Auswirkungen von Audits auf Informationssysteme
+## 11.1.4 Schutz vor externen und umweltbedingten Bedrohungen 
 
-#### 12.7.1 Kontrollen für Audits von Informationssystemen
+Die Maßnahme 11.1.4 der [27002] ist entsprechend anzuwenden. 
 
-Die Maßnahme 12.7.1 der [27002] ist entsprechend anzuwenden.
+Bundesamt für Sicherheit in der Informationstechnik 
 
-## <span id="page-33-1"></span>12.8 Web-Applikationen
+25 
 
-## <span id="page-33-3"></span>12.8.1 Schutz der Web-Applikation
+11 Schutz vor physischem Zugang und Umwelteinflüssen 
 
-#### De-Mail spezifische Ergänzung
+## 11.1.5 Arbeit in Sicherheitsbereichen 
 
-Die Web-Applikation ist durch geeignete Maßnahmen gegen unbefugte Zugriffe aus dem Internet und dem Intranet zu schützen. Zudem ist den aktuell bekannten Angriffen auf Web-Applikationen (z. B. SQL-Injection, Shell-Injection, Cross-Site-Scripting) durch geeignete Maßnahmen zu begegnen.
+Die Maßnahme 11.1.5 der [27002] ist entsprechend anzuwenden. 
 
-Es müssen alle Ein- und Ausgaben durch die Web-Applikation validiert werden. So muss vermieden werden, dass Metazeichen zu den Subsystemen weitergeleitet werden.
+## 11.1.6 Anlieferungs- und Ladezonen 
 
-Zudem dürfen von der Web-Applikation keine detaillierten, systemspezifischen Fehlermeldungen an den Nutzer-Client weitergegeben werden. Interne Zustandsinformationen sollen ebenfalls an den Nutzer nicht übermittelt werden.
+Die Maßnahme 11.1.6 der [27002] ist entsprechend anzuwenden. 
 
-Zudem ist durch geeignete Maßnahmen sicherzustellen, dass durch Nutzer nur auf die öffentlichen Verzeichnisse des Webservers zugegriffen werden kann.
+## 11.2 Sicherheit von Betriebsmitteln 
 
-Ein Angreifer soll zudem keine Informationen über den verwendeten Webserver bekommen. Daher ist die Webserver-Identifizierung abzuschalten.
+## 11.2.1 Platzierung und Schutz von Betriebsmitteln 
 
-Die vom BSI herausgegebenen Best Practices [WebAppSec] sind zu berücksichtigen.
+Die Maßnahme 11.2.1 der [27002] ist entsprechend anzuwenden. 
 
-Vgl. TR De-Mail:
+- De Mail spezifsche Umsetzungshinweise 
 
-<span id="page-33-2"></span>• [TR DM IS GS] 6.5.1 Schutz der Web-Applikation
+Es müssen hinreichende Zutrittskontrolltechniken zum Einsatz kommen. 
 
-#### 12.8.2 Web-Applikations-Firewall
+Der Zutritt zu und der Aufenthalt in IT- und Infrastrukturräumen muss kontrolliert, überwacht und dokumentiert werden. 
 
-#### De-Mail spezifische Ergänzung
+## - Vgl. TR De Mail: 
 
-Die Web-Applikation selbst ist durch eine hoch stabile Sicherheitskomponente für die Web-Applikationssicherheit, die in den gesamten Datenverkehr zwischen den Nutzern und der Web-Applikation eingefügt wird, zu schützen. Dabei wird der gesamte Datenverkehr überwacht.
+- [TR DM IS GS] 6.2.3 Zutrittsschutz 
 
-Die Web-Applikations-Firewall gewährleistet einen zusätzlichen Schutz auf Web-Applikationsebene. Damit entsteht hinter der Firewall ein zusätzlicher Sicherheitsbereich. Sämtliche Datenverbindungen in Richtung Portal- oder Web-Applikation werden in dieser Sicherheitsschleuse unterbrochen. Zugelassene Verbindungen werden permanent auf spezifische Datenstrukturen hin untersucht. Werden Angriffe erkannt, so erfolgt eine unmittelbare Unterbrechung der bestehenden Verbindung. Dies ist zu protokollieren.
+## 11.2.2 Versorgungseinrichtungen 
 
-Vgl. TR De-Mail:
+Die Maßnahme 11.2.2 der [27002] ist entsprechend anzuwenden. 
 
-<span id="page-33-0"></span>• [TR DM IS GS] 6.5.2 Web-Applikations-Firewall
+## 11.2.3 Sicherheit der Verkablung 
 
-## 12.9 Datenbanksicherheit
+Die Maßnahme 11.2.3 der [27002] ist entsprechend anzuwenden. 
 
-#### De-Mail spezifische Ergänzung
+## 11.2.4 Instandhaltung von Betriebsmitteln 
 
-Für den Datenbankserver gelten insbesondere folgende Mindestanforderungen:
+Die Maßnahme 11.2.4 der [27002] ist entsprechend anzuwenden. 
 
-- **•** Der Datenbank-Server muss im Datenbank-Netz des DMDA installiert werden.
-- **•** Die Kommunikationsverbindungen zum Datenbank-Server müssen durch die Firewall, insbesondere durch ein Application-Level-Gateway entsprechend abgesichert werden.
-- **•** Die Administration des Datenbankrechners, des Datenbanksystems und die Pflege der Daten in der Datenbank dürfen nur über das Management-Netz erfolgen.
-- **•** Auf der Ebene der Datenbank sind nur die unabdingbar notwendigen Berechtigungen einzurichten.
-- **•** Zugriffe aus anderen Datenbanken auf die betrachtete Datenbank sind wirksam zu unterbinden.
-- **•** Die Datenbankanwendung muss über geeignete Mechanismen eine sichere Identifikation und Authentisierung der Benutzer ermöglichen.
-- **•** Der unbefugte Zugriff auf vertrauliche Daten ist wirksam zu unterbinden.
-- **•** Die Datenbank-Anwendung muss eine Rollentrennung zwischen Administrator und Revisor unterstützen. Der Revisor darf als Einziger über die Berechtigung verfügen, die Protokolldateien auszuwerten und zu löschen.
-- **•** Zum Schutz der Datenbankintegrität muss die Datenbank-Software über ein vollständiges Transaktionssystem verfügen, welches dem ACID-Prinzip genügt.
-- **•** Die Datenbank ist in das Datensicherungskonzept mit einzubeziehen.
+## 11.2.5 Entfernung von Werten 
 
-Die Regelungen für die Überwachungs- und Kontrollmechanismen sind explizit im IT-Sicherheitskonzept festzulegen.
+Die Maßnahme 11.2.5 der [27002] ist entsprechend anzuwenden. 
 
-#### Vgl. TR De-Mail:
+## 11.2.6 Sicherheit von Betriebsmitteln und Werten außerhalb der Betriebsgebäude 
 
-<span id="page-34-0"></span>• [TR DM IS GS] 6.6.1 Anforderungen an die Datenbank
+Die Maßnahme 11.2.6 der [27002] ist entsprechend anzuwenden. 
 
-## 12.10 Öffentlicher Verzeichnisdienst (ÖVD)
+## 11.2.7 Sichere Entsorgung oder Weiterverwendung von Betriebsmitteln 
 
-#### De-Mail spezifische Ergänzung
+Die Maßnahme 11.2.7 der [27002] ist entsprechend anzuwenden. 
 
-Es darf ausschließlich der Applikationsserver Schreibrechte auf den ÖVD haben.
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Alle Schreibzugriffe auf den ÖVD werden protokolliert. Bei Schreibzugriffen, die nicht durch den Server erfolgen, muss eine Alarmierung durch das Protokollierungssystem erfolgen.
+26 
 
-Alle Berechtigungsänderungen auf dem ÖVD werden protokolliert. Bei Änderungen muss eine Alarmierung durch das Protokollierungssystem erfolgen.
+Schutz vor physischem Zugang und Umwelteinflüssen 11 
 
-Die Betriebssysteme und die Anwendungssoftware der IT-Systeme, die den öffentlichen Verzeichnisdienst für den jeweiligen De-Mail-Dienst zur Verfügung stellen, sind durch den Administrator regelmäßig, mindestens einmal täglich, auf Integrität zu überprüfen.
+## 11.2.8 Unbeaufsichtigte Endgeräte 
 
-Es dürfen ausschließlich authentisierte De-Mail-Nutzer eine Verzeichnisdienstanfrage durchführen können.
+Die Maßnahme 11.2.8 der [27002] ist entsprechend anzuwenden. 
 
-Vgl. TR De-Mail:
+## 11.2.9 Der Grundsatz des aufgeräumten Schreibtischs des leeren Bildschirms 
 
-• [TR DM BInfra Si] 5.1.2 ÖVD
+Die Maßnahme 11.2.9 der [27002] ist entsprechend anzuwenden. 
 
-## <span id="page-35-0"></span>12.11 Administration des DNS
+Bundesamt für Sicherheit in der Informationstechnik 
 
-#### De-Mail spezifische Ergänzung
+27 
 
-Die Einträge im DNS-Server sind regelmäßig auf ihre Korrektheit zu prüfen. Es sollte DNSSEC zum Einsatz kommen.
+12 Betriebssicherheit 
 
-Vgl. TR De-Mail:
+## 12 Betriebssicherheit 
 
-• [TR DM BInfra Si] 5.2 Administration des DNS
+## 12.1 Betriebsverfahren und Zuständigkeiten 
 
-## <span id="page-36-0"></span>13 Sicherheit in der Kommunikation
+## 12.1.1 Dokumentierte Betriebsverfahren 
 
-## 13.1 Netzwerksicherheitsmanagement
+Die Maßnahme 12.1.1 der [27002] ist entsprechend anzuwenden. 
 
-## 13.1.1 Netzwerkkontrollen
+## - De Mail spezifsche Umsetzungshinweise 
 
-Die Maßnahme 13.1.1 der [27002] ist entsprechend anzuwenden.
+Die Prozesse im Umgang mit den IT-Systemen des DMDA (Installation, Konfiguration, Administration) sind zu dokumentieren und nachzuweisen. Entsprechend der Dokumentation hat die sichere Installation, Konfiguration und Administration der eingesetzten IT-Systeme zu erfolgen. Die für die Mitarbeiter verfügbaren Dokumente zur Durchführung von Prozessen, Checklisten und Verfahrensanweisungen, sowie Handbücher sind in Zusammenarbeit mit den Mitarbeitern und insbes. des IT-Sicherheitsbeauftragten zu erstellen. Die Dokumentation muss möglichst einfach nachzuvollziehen zu sein. 
 
-#### De-Mail spezifische Umsetzungshinweise
+## - Vgl. TR De Mail: 
 
-Die Trennung der Sicherheitszonen muss durch ein Firewall-System erfolgen. Das Firewall-System muss dem Stand von Wissenschaft und Technik entsprechen. Es muss aus einer Kombination von Paktetfiltern und Applikation-Level-Gateway bestehen.
+- [TR DM IS GS] 6.1.9 Dokumentation der Administrationsprozesse 
 
-Das Firewallsystem ist so sicher zu betreiben, dass unbefugte Zugriffe auf die dahinter liegenden IT-Systeme von außerhalb wirksam unterbunden werden.
+Für jedes sicherheitskritische IT-System für De-Mail ist ein Betriebshandbuch zu führen. Dieses muss die aktuelle Konfiguration und Parametrisierung des Betriebssystems, der Dienste und der darauf installierten Applikationen enthalten. Änderungen an der Konfiguration sind zu vermerken und zu begründen. 
 
-Für das System ist ein Betriebshandbuch zu führen. Die Konfiguration sowie das Patchlevel sind zu dokumentieren. Änderungen an der Hard- und Software dürfen erst in Betrieb genommen werden, wenn zuvor die Funktionalität entsprechend getestet wurde.
+## - Vgl. TR De Mail: 
 
-Die anfallenden Protokolle sind regelmäßig, mindestens aber einmal täglich, zu überprüfen. Auf erkannte Angriffsversuche ist angemessen zu reagieren.
+- [TR DM IS GS] 6.3.7 Betriebshandbücher 
 
-Die Wirksamkeit des Firewall-Systems ist regelmäßig durch Penetrationstests zu überprüfen.
+## 12.1.2 Änderungsmanagement 
 
-Empfohlene Einzelanforderungen sind in [WebAppsec] zu finden.
+Die Maßnahme 12.1.2 der [27002] ist entsprechend anzuwenden. 
 
-Nicht authentifizierte sowie direkte Verbindungsversuche auf interne Systeme sind zu blockieren.
+## - De Mail spezifsche Umsetzungshinweise 
 
-#### Vgl. TR De-Mail:
+Auf allen Systemen des DMDA darf nur freigegebene Software installiert werden. Gleiches gilt für die einzusetzende Hardware. Die Freigabe erfolgt durch den IT-Sicherheitsbeauftragten nach definierten Kriterien und nach erfolgreicher Durchführung von Tests, soweit diese erforderlich sind. 
 
-- [TR DM IS GS] 6.4.2 Firewall-System (Sicherheitsgateway)
-- [TR DM IS GS] 6.4.3 Kommunikationsverbindungen
+Der IT-Sicherheitsbeauftragte ist in den Changemanagementprozess einzubinden. Der ITSicherheitsbeauftragte überwacht die zugriffsgeschützte Lagerung der Original-Datenträger der eingesetzten Software. Hardware, die vor dem Einsatz beim DMDA bereits genutzt wurde, muss vor dem Einsatz von beeinflussenden Restdaten befreit werden. 
 
-Die eingesetzte Firewall-Technik muss im Hinblick auf den Aspekt Informationsflusskontrolle und korrekte Umsetzung eines Regelwerks zur Informationsflusskontrolle möglichst mindestens nach CC EAL 3 evaluiert und zertifiziert sein.
+Es ist sicherzustellen, dass alle relevanten Sicherheitspatches installiert werden. Vor der Installation sind die im Rahmen des Changemanagements entwickelten Regeln zu beachten. 
 
-## Vgl. TR De-Mail:
+Änderungen müssen an die Zertifizierungsstelle gemeldet werden. 
 
-• [TR DM IS GS] 6.1.10 Anforderungen an einzusetzende Hardware und Software
+## - Vgl. TR De Mail: 
 
-## 13.1.2 Sicherheit von Netzwerkdiensten
+- [TR DM IS GS] 6.1.4 Changemanagement 
 
-Die Maßnahme 13.1.2 der [27002] ist entsprechend anzuwenden.
+Bundesamt für Sicherheit in der Informationstechnik 
 
-#### De-Mail spezifische Umsetzungshinweise
+28 
 
-Der DMDA hat durch den Betrieb eines Intrusion Detection Systems (IDS), das dem Stand von Wissenschaft und Technik entspricht, sicherzustellen, dass Angriffe auf das De-Mail-Portal zuverlässig entdeckt werden. Es ist zudem durch geeignete organisatorische und technische Maßnahmen sicherzustellen, dass bei sicherheitskritischen Angriffen eine zuverlässige
+Betriebssicherheit 12 
 
-unverzügliche Alarmierung erfolgt und unverzüglich angemessen auf einen solchen Angriff reagiert wird.
+- [TR DM IS GS] 6.3.3 Aktualität der Software 
 
-#### Vgl. TR De-Mail:
+- [TR DM IS GS] 7.1.2 Empfehlungen zum Changemanagement 
 
-• [TR DM IS GS] 6.4.4 Intrusion Detection System
+## 12.1.3 Kapazitätsmanagement 
 
-#### 13.1.3 Trennung in Netzwerken
+Die Maßnahme 12.1.3 der [27002] ist entsprechend anzuwenden. 
 
-Die Maßnahme 13.1.3 der [27002] ist entsprechend anzuwenden.
+## 12.1.4 Trennung von Entwicklungs, Test und Betriebsumgebungen 
 
-#### De-Mail spezifische Umsetzungshinweise
+Die Maßnahme 12.1.4 der [27002] ist entsprechend anzuwenden. 
 
-Die sicherheitskritischen IT-Systeme dürfen nur über ein separates Management-Netz administriert werden. Das Management-Netz muss vor Zugriffen aus anderen Netzen geschützt sein.
+## 12.2 Schutz vor Malware 
 
-Ferner muss das DMDA-Netzwerk in Sicherheitszonen eingeteilt werden. Das externe Netz ist vom internen Netz zu trennen und in bedarfsorientierte Netzbereiche aufzuteilen:
+## 12.2.1 Kontrollmaßnahmen gegen Malware 
 
-- **•** Daten-Netz
-- **•** Internes Netz
-- **•** Externes Netz
+Die Maßnahme 12.2.1 der [27002] ist entsprechend anzuwenden. 
 
-#### Vgl. TR De-Mail:
+## - De Mail spezifsche Umsetzungshinweise 
 
-- [TR DM IS GS] 6.3.1 Einsatz eines Management Netzes
-- [TR DM IS GS] 6.4.1 Sicherheitszonen
+Alle IT-Systeme sind mit geeigneten Mitteln gegen Angriffe mit Schadsoftware zu schützen. Es ist sicherzustellen, dass Infektionen mit Schadprogrammen zuverlässig erkannt und die Schadsoftware unverzüglich beseitigt wird. 
 
-## 13.2 Informationsübertragung
+Durch geeignete Maßnahmen ist sicherzustellen, dass Nachrichtenentwürfe, die vom Absender dem Postfach- und Versanddienst übergeben werden, unmittelbar nach Übermittlung auf Schadsoftware geprüft werden. 
 
-Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 13.2 sind entsprechend anzuwenden.
+## - Vgl. TR De Mail: 
 
-## <span id="page-38-0"></span>14 Anschaffung, Entwicklung und Instandhaltung von Systemen
+- [TR DM IS GS] 6.3.5 Schadsoftwareschutz 
 
-## 14.1 Sicherheitsanforderungen für Informationssysteme
+- [TR DM PVD Si] 5.1 Prüfung auf Schadsoftware 
 
-## 14.1.1 Analyse und Spezifikation von Sicherheitsanforderungen
+## 12.3 Backup 
 
-Die Maßnahme 14.1.1 der [27002] ist entsprechend anzuwenden.
+## 12.3.1 Datensicherungen 
 
-#### De-Mail spezifische Umsetzungshinweise
+Die Maßnahme 12.3.1 der [27002] ist entsprechend anzuwenden. 
 
-Der Leitgedanke der De-Mail-Konzeption ist die Bereitstellung eines sicheren Kommunikationsraumes. Ein De-Mail-Dienst muss eine sichere Anmeldung, Nutzung eines PVD für sichere elektronische Post sowie die Nutzung eines ÖVD ermöglichen. Innerhalb des Kommunikationsraumes sind insbesondere folgende Grundwerte zu gewährleisten:
+- De Mail spezifsche Umsetzungshinweise 
 
-- **•** Verfügbarkeit
-	- **◦** von Dienstleistungen, Funktionen eines IT-Systems, IT-Anwendungen oder IT-Netzen oder auch von Informationen ist vorhanden, wenn diese den Benutzern jederzeit stets wie gewünscht (mit Ausnahme zumutbarer Ausfallzeiten) zur Verfügung stehen.
-- **•** Vertraulichkeit
-	- **◦** ist der Schutz vor unbefugter Preisgabe von Informationen. Vertrauliche Daten und Informationen dürfen ausschließlich Befugten in der zulässigen Weise zugänglich gemacht werden.
-- **•** Integrität
-	- **◦** im engeren Sinne bezeichnet die Sicherstellung der Korrektheit (Unversehrtheit) von Daten und der korrekten Funktionsweise von Systemen. Wenn der Begriff Integrität auf "Daten" angewendet wird, drückt er aus, dass die Daten vollständig und unverändert sind. In der Informationstechnik wird er in der Regel aber weiter gefasst und auf "Informationen" angewendet. Der Begriff "Informationen" wird dabei für Daten verwendet, denen je nach Zusammenhang bestimmte Attribute wie z. B. Autor oder Zeitpunkt der Erstellung zugeordnet werden können. Der Verlust der Integrität von Informationen kann daher bedeuten, dass diese unerlaubt verändert, Angaben zum Autor verfälscht oder Zeitangaben zur Erstellung manipuliert wurden.
+Der DMDA hat zur Sicherung von Informationen ein Konzept zu erarbeiten, das die Sicherung von sämtlichen relevanten Daten festlegt. Die Wiederherstellung von Daten, die durch den berechtigten Nutzer gelöscht wurden, ist nicht verpflichtend. 
 
-Bei De-Mail ist eine nutzenorientierte Datenhaltung zu realisieren. Eine strikte Trennung der Nutzer ist erforderlich, um zu verhindern, dass diese gegenseitigen Einblick in ihre Daten erhalten können.
+Die Datensicherung muss folgende Anforderungen erfüllen: 
 
-Den Sicherheitsanker in De-Mail bildet das De-Mail-Konto. Ein De-Mail-Konto ist ein Bereich in einem De-mail-Dienst, der einem Nutzer so zugeordnet ist, dass er nur von ihm genutzt werden kann. Der DMDA hat durch technische Mittel sicherzustellen, dass nur der diesem De-Mail-Konto zugeordnete Nutzer Zugang zu dem ihm zugeordneten De-Mail-Konto erlangen
+- Es darf nicht zu Datenverlust von Nutzerdaten kommen. 
 
-kann. Das De-Mail-Konto verwaltet die Zugangsberechtigung zum De-Mail-Dienst und damit die Berechtigung, die weiteren De-Mail-Dienste zu nutzen und auf Nutzerdaten zugreifen zu können. Sämtliches Handeln eines Nutzers ist unmittelbar mit dem De-Mail-Konto verbunden und lässt sich immer darauf zurückführen.
+- Soweit die Daten im Speicher verschlüsselt vorliegen, sind diese auch verschlüsselt in die Datensicherung zu übernehmen. 
 
-Um im De-Mail-Verbund handeln zu können, muss ein Nutzer sich am De-Mail-Dienst anmelden.
+- Vgl. TR De Mail: 
 
-#### **Übergreifende Aspekte**
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Daraus ergeben sich die im Folgenden beschriebenen übergreifenden Sicherheitsziele und Anforderungen. Diese Ziele gelten für De-Mail mit allen Diensten, die darin betrieben werden. Ergänzend sind die zu den einzelnen Diensten spezifisch definierten Anforderungen zu berücksichtigen.
+29 
 
-#### **Wahrung der Vertraulichkeit**
+12 Betriebssicherheit 
 
-Die Wahrung der Vertraulichkeit der gespeicherten und zu übertragenden Daten ist durch geeignete organisatorische und technische Maßnahmen sicherzustellen.
+- [TR DM IS GS] 6.1.7 Datensicherungskonzept 
 
-Dies beinhaltet insbesondere:
+- [TR DM DA Si] 5.2 Backup-Konzept 
 
-- **•** Vermeidung unbefugten Zutritts,
-- **•** Verhinderung des unbefugten Zugangs,
-- **•** Verhinderung des unbefugten Zugriffs auf sensible Daten und
-- **•** verschlüsselte Speicherung und Transport der Daten.
+## 12.3.2 Archivierungskonzept 
 
-#### **Wahrung der Integrität**
+- De Mail spezifsche Ergänzung 
 
-Durch geeignete Maßnahmen ist sicherzustellen, dass Daten nicht unbemerkt verändert werden können. Dies betrifft die Daten, die beim DMDA gespeichert sind und die Daten, die zwischen zwei DMDA übertragen werden. Sofern unbefugte Veränderungen erfolgen, müssen diese feststellbar sein. Die Konfiguration von Diensten und Systemen darf ebenfalls nicht unbefugt verändert werden.
+Der DMDA hat ein Archivierungskonzept zu erstellen, in dem insbesondere die dauerhafte Archivierung von Protokollen und anderen Betriebsdaten, die durch einen De-Mail-Dienst entstehen, berücksichtigt werden muss. - Vgl. TR De Mail: 
 
-#### **Sicherstellung der Verfügbarkeit**
+- [TR DM IS GS] 6.1.1 Archivierungskonzept 
 
-Durch geeignete Maßnahmen ist sicherzustellen, dass eine Verfügbarkeit von 99,5 % pro Jahr gewährleistet wird. Ein Ausfall bis zu 24 Stunden, im Falle eines katastrophalen Ereignisses bis zu 72 Stunden ist hinnehmbar.
+## 12.4 Protokollierung und Überwachung 
 
-Bei längerfristigen geplanten Ausfallzeiten von mehr als drei Stunden sind die Nutzer rechtzeitig im voraus zu informieren.
+## 12.4.1 Ereignisprotokollierung 
 
-#### **Aufrechterhaltung des IT-Sicherheitsniveaus**
+Die Maßnahme 12.4.1 der [27002] ist entsprechend anzuwenden. 
 
-Die Aufrechterhaltung des notwendigen IT-Sicherheitsniveaus ist durch den DMDA geeignet sicherzustellen. Zu diesem Zweck ist die Einhaltung und Fortschreibung des IT-Sicherheitskonzepts sicherzustellen.
+- De Mail spezifsche Umsetzungshinweise 
 
-#### **Korrekte Authentisierung**
+Sicherheits-Logdaten: 
 
-Der DMDA muss sicherstellen, dass die Authentisierung der Nutzer gemäß den Anforderungen aus [TR DM ACM FU] zuverlässig und mit dem jeweils vorgegebenen Authentisierungsniveau erfolgt.
+Alle sicherheitskritischen IT-Systeme müssen für den administrativen Zugriff und für Änderungen an der Konfiguration eine Protokollierungskomponente enthalten, die in der Lage ist, jedes der folgenden Ereignisse revisionsfähig zu protokollieren: 
 
-#### **Anforderungen an einzusetzende Hard- und Software**
+- Anmeldevorgänge am System (erfolgreiche und nicht erfolgreiche), 
 
-Der eingesetzte Authentisierungsserver muss im Hinblick auf die korrekte Implementierung der Authentisierungsverfahren und der Kryptoalgorithmen dem aktuellen Stand der Technik entsprechen.
+- versuchter Zugriff auf eine der Rechteverwaltung unterliegende Komponente, 
 
-Der DMDA muss sich in geeigneter Weise von der Korrektheit der Implementierung der o.g. Verfahren und Algorithmen überzeugen.
+- alle Administrations-Verbindungsversuche. 
 
-Der CSP des DMDA muss im Hinblick auf die korrekte Implementierung der verwendeten Kryptoalgorithmen und den Zugriffsschutz auf geheime Schlüssel dem Stand von Wissenschaft und Technik entsprechen.
+Bei nicht erlaubten Verbindungsversuchen muss eine fest definierte Alarmmeldung ausgegeben werden. 
 
-Vgl. TR De-Mail:
+Um unbefugtes teilweises oder komplettes Löschen von Daten zu verhindern und um entsprechende Nachweise zu führen, ist sicherzustellen, dass entsprechende Zugriffe durch das mit der Administration betraute Personal zuverlässig protokolliert werden. 
 
-- [TR DM IS GS] 5.1 Vorbemerkungen
-- [TR DM IS GS] 5.2 Übergreifende Aspekte
-- [TR DM IS GS] 6.1.10 Anforderungen an einzusetzende Hardware und Software
+## Betriebs-Logdaten: 
 
-#### 14.1.2 Sicherung von Anwendungsdiensten in öffentlichen Netzen
+Alle für den Betrieb und die Wartung relevanten Daten sollten erfasst werden, um beispielsweise auf Hardwareausfälle, Überlast-Situationen oder Fehler in der Anwendung geeignet reagieren zu können. 
 
-Die Maßnahme 14.1.2 der [27002] ist entsprechend anzuwenden.
+- Vgl. TR De Mail: 
 
-#### 14.1.3 Schutz von Transaktionen im Zusammenhang mit Anwendungsdiensten
+- [TR DM IS GS] 6.3.8 Protokollierung 
 
-Die Maßnahme 14.1.3 der [27002] ist entsprechend anzuwenden.
+## 12.4.2 Schutz von Protokollinformationen 
 
-## 14.2 Sicherheit in Entwicklungs- und Unterstützungsprozessen
+Die Maßnahme 12.4.2 der [27002] ist entsprechend anzuwenden. 
 
-Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 14.2 sind entsprechend anzuwenden.
+- De Mail spezifsche Umsetzungshinweise 
 
-## 14.3 Prüfdaten
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 14.3 sind entsprechend anzuwenden.
+30 
 
-## <span id="page-41-0"></span>15 Lieferantenbeziehungen
+Betriebssicherheit 12 
 
-Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 15 sind entsprechend anzuwenden.
+Um unbefugtes teilweises oder komplettes Löschen von Sicherheis-Logdaten zu verhindern und um entsprechende Nachweise zu führen, ist sicherzustellen, dass entsprechende Zugriffe durch das mit der Administration betraute Personal zuverlässig protokolliert werden. 
 
-#### De-Mail spezifische Umsetzungshinweise
+## - Vgl. TR De Mail: 
 
-Sofern wesentliche Bereiche des IT-Verbunds (Infrastruktur, Personal) ausgelagert werden, sind weitere Anforderungen zu berücksichtigen.
+- [TR DM IS GS] 6.3.8 Protokollierung 
 
-Vgl. TR De-Mail:
+## 12.4.3 Administrator- und Betreiberprotokoll 
 
-• [TR DM M Si] 3.3.4 Modellierung
+Die Maßnahme 12.4.3 der [27002] ist entsprechend anzuwenden. 
 
-Anmerkung:
+## - De Mail spezifsche Umsetzungshinweise 
 
-Hier sind insbesondere die Prozesse bei den Identifizierungsdienstleistern und die von diesen an die DMDA übertragenen Informationen (Ident-Daten) zu betrachten.
+Die Prozesse im Umgang mit den IT-Systemen des DMDA (Installation, Konfiguration, Administration) sind zu dokumentieren und nachzuweisen. Entsprechend der Dokumentation hat die sichere Installation, Konfiguration und Administration der eingesetzten IT-Systeme zu erfolgen. Die für die Mitarbeiter verfügbaren Dokumente zur Durchführung von Prozessen, Checklisten und Verfahrensanweisungen, sowie Handbücher sind in Zusammenarbeit mit den Mitarbeitern und insbes. des IT-Sicherheitsbeauftragten zu erstellen. Die Dokumentation muss möglichst einfach nachzuvollziehen zu sein. 
 
-## <span id="page-42-0"></span>16 Management von Informationssicherheitsvorfällen
+## - Vgl. TR De Mail: 
 
-## 16.1 Management von Informationssicherheitsvorfällen und Verbesserungen
+- [TR DM IS GS] 6.1.9 Dokumentation der Administrationsprozesse 
 
-## <span id="page-42-1"></span>16.1.1 Zuständigkeiten und Verfahren
+## 12.4.4 Zeitsynchronisation 
 
-Die Maßnahme 16.1.1 der [27002] ist entsprechend anzuwenden.
+Die Maßnahme 12.4.4 der [27002] ist entsprechend anzuwenden. 
 
-De-Mail spezifische Umsetzungshinweise
+## - De Mail spezifsche Umsetzungshinweise 
 
-In den festzulegenden Verfahren nach 16.1.1 Abschnitt b) ist der Kontakt zum BSI zu definieren. Es ist zu gewährleisten, dass entsprechende Meldungen an die nach De-Mail-Gesetz zuständige Behörde, das BSI, kommuniziert werden. Meldungen sind zu senden an
+Zeitquelle für den Zeitservice ist die gesetzliche Zeit (MEZ/MESZ), die von der PhysikalischTechnischen Bundesanstalt (PTB) als UTC (PTB) + 1 (2) realisiert und verbreitet (DFC77, Telefonzeitdienst der PTB, NTP) wird. 
 
-Bundesamt für Sicherheit in der Informationstechnik
+Folgende Anforderungen werden an den Zeitservice bei De-Mail gestellt: 
 
-Referat D24
+- Die Uhrzeiten aller im De-Mail-System eingesetzten Komponenten sind über einen dedizierten Zeitserver, der über die oben geforderte gesetzliche Zeit verfügt, zu synchronisieren. 
 
-Postfach 20 03 63
+- Die Synchronisierung muss über gesicherte Kanäle erfolgen. 
 
-53133 Bonn
+- Die Zeit wird über das separate Management-Netz verbreitet. Das Management-Netz dient unabhängig vom Netz der Nutzdaten der Administration der Systeme. Die Administration darf nur über dieses Netz möglich sein. 
 
-Mail-Adresse: [referat-d24@bsi.bund.de](mailto:referat-d24@bsi.bund.de) oder [referat-d24@bsi-bund.de-mail.de](mailto:referat-d24@bsi-bund.de-mail.de)
+- Die Zeitinformation, die der Zeitserver zur Verfügung stellt, darf max. 1 Sekunde von der gesetzlichen Zeit abweichen. 
 
-## 16.1.2 Meldung von Informationssicherheitsereignissen
+- Durch geeignete technische Maßnahmen ist sicherzustellen, dass die Zeit des Zeitservers nicht manipuliert werden kann. Es ist auch sicherzustellen, dass Manipulationen am Zeitsignal sicher erkannt werden. Dies kann beispielsweise durch den Abgleich mit der Systemzeit eines Referenzsystems erfolgen. 
 
-Die Maßnahme 16.1.2 der [27002] ist entsprechend anzuwenden.
+Bundesamt für Sicherheit in der Informationstechnik 
 
-## 16.1.3 Meldung von Informationssicherheitsschwachstellen
+31 
 
-Die Maßnahme 16.1.3 der [27002] ist entsprechend anzuwenden.
+12 Betriebssicherheit 
 
-## 16.1.4 Bewertung von und Entscheidung über Informationssicherheitsereignisse
+- Die Betriebssysteme und die Anwendungssoftware der IT-Systeme, die den Zeitservice für die jeweilige De-Mail-Infrastruktur zur Verfügung stellen, sind durch den Administrator regelmäßig, mindestens einmal täglich, auf Integrität zu überprüfen. 
 
-Die Maßnahme 16.1.4 der [27002] ist entsprechend anzuwenden.
+## - Vgl. TR De Mail: 
 
-## 16.1.5 Reaktion auf Informationssicherheitsvorfälle
+- [TR DM BInfra Si] 5.1.1 Zeitservice 
 
-Die Maßnahme 16.1.5 der [27002] ist entsprechend anzuwenden.
+## 12.5 Kontrolle von Betriebssoftware 
 
-De-Mail spezifische Umsetzungshinweise
+## 12.5.1 Installation von Software auf betrieblichen Systemen 
 
-Informationssicherheitsvorfälle müssen an das BSI (Kontaktdaten siehe [16.1.1](#page-42-1)) gemeldet werden.
+Die Maßnahme 12.5.1 der [27002] ist entsprechend anzuwenden. 
 
-## 16.1.6 Erkenntnisse aus Informationssicherheitsvorfällen
+- De Mail spezifsche Umsetzungshinweise 
 
-Die Maßnahme 16.1.6 der [27002] ist entsprechend anzuwenden.
+Die eingesetzten IT-Systeme sind sicher zu installieren und zu betreiben. Dabei sind insbesondere die Hinweise des jeweiligen Herstellers zu berücksichtigen. 
 
-## 16.1.7 Sammeln von Beweismaterial
+Soweit zertifizierte IT-Systeme zum Einsatz kommen, sind die Auflagen hinsichtlich der Anforderungen an die Einsatzumgebung einzuhalten. 
 
-Die Maßnahme 16.1.7 der [27002] ist entsprechend anzuwenden.
+Alle IT-Systeme sind auf der Grundlage gehärteter Betriebssysteme zu installieren und zu betreiben. Hinsichtlich der verwendeten Betriebssysteme bedeutet dies, dass diese minimal zu installieren sind. Insbesondere sind alle nicht benötigten Dienste zu deaktivieren. Sie sind zudem zu deinstallieren, sofern dies das jeweilige Betriebssystem zulässt. Alle nicht benötigte Software darf nicht installiert werden bzw. ist zuverlässig zu deinstallieren. 
 
-## <span id="page-44-0"></span>17 Informationssicherheitsaspekte des Betriebskontinuitätsmanagements
+Vor Inbetriebnahme sind die Systeme ausgiebig auf Funktionalität zu testen. Ein besonderer Fokus muss dabei auf den Sicherheitsfunktionen liegen. Hierzu ist ein gesondertes Testkonzept zu erstellen. Die Ergebnisse der Tests sind nachvollziehbar zu dokumentieren. Dies gilt entsprechend nach der Installation von Patches und Updates. 
 
-## 17.1 Aufrechterhaltung der Informationssicherheit
+Es gilt der Grundsatz der minimalen Rechtevergabe für Benutzer; d. h. es dürfen nur die für die Aufgabenerfüllung absolut notwendigen Rechte vergeben werden. Die Rechtevergabe ist zu dokumentieren und zu begründen. 
 
-Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 17.1 sind entsprechend anzuwenden.
+Durch geeignete Maßnahmen (beispielsweise Einstellung im BIOS) ist zu erzwingen, dass ein Systemstart nur vom Standard-Laufwerk aus erfolgt. 
 
-## <span id="page-44-2"></span>17.2 Redundanzen
+Das Betriebssystem oder die jeweilige Applikation müssen so konfiguriert werden, dass die im Rahmen des IT-Sicherheitskonzepts festgelegten Authentisierungsmechanismen genutzt werden müssen. 
 
-## 17.2.1 Verfügbarkeit von informationsverarbeitenden Einrichtungen
+Durch geeignete technische Maßnahmen ist sicherzustellen, dass die Anmeldung eines Berechtigten an einem für De-Mail betriebenen IT-Systems nicht durch einen Unbefugten missbraucht werden kann. Daher ist sicherzustellen, dass, sofern der angemeldete Berechtigte seinen Arbeitsplatz auch nur kurzfristig verlässt, das betroffene IT-System für weitere Zugriffe gesperrt wird. Die Sperre darf nur aufgehoben werden, wenn eine erneute Authentisierung gegenüber dem IT-System erfolgt. 
 
-Die Maßnahme 17.2.1 der [27002] ist entsprechend anzuwenden.
+- Vgl. TR De Mail 
 
-## <span id="page-44-3"></span>17.2.2 Verfügbarkeitskonzept
+- [TR DM IS GS] 6.3.4 Sichere Installation und sicherer Betrieb der eingesetzten ITSysteme 
 
-#### De-Mail spezifische Ergänzung
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Die Architektur und die De-Mail-Infrastruktur sind so auszulegen, dass die Vorgaben an die Verfügbarkeit erfüllt werden. Dazu muss der DMDA ein entsprechendes Verfügbarkeitskonzept erstellen. Das Verfügbarkeitskonzept muss Fehlerintoleranz und Fehlertoleranz berücksichtigen. Der DMDA muss darstellen, wie er durch geeignete Maßnahmen diese Anforderungen erfüllt.
+32 
 
-Es ist ein Regelbetrieb von 7x24 Stunden mit hoher Verfügbarkeit vorzusehen. Durch geeignete Maßnahmen ist sicherzustellen, dass eine Verfügbarkeit von 99,5 % pro Jahr gewährleistet wird. Ein Ausfall bis zu 24 Stunden, im Falle eines katastrophalen Ereignisses bis zu 72 Stunden ist hinnehmbar.
+Betriebssicherheit 12 
 
-Bei längerfristigen geplanten Ausfallzeiten von mehr als drei Stunden sind die Nutzer rechtzeitig im voraus zu informieren.
+## 12.5.2 Integritätsschutz für IT-Systeme 
 
-## Vgl. TR De-Mail
+## - De Mail spezifsche Ergänzung 
 
-- [TR DM Dachdokument] 7.5 Allgemeine Verfügbarkeit
-- [TR DM IS GS] 5.2.3 Sicherstellung der Verfügbarkeit
-- <span id="page-44-1"></span>• [TR DM IS GS] 6.1.5 Verfügbarkeitskonzept
+Alle für De-Mail betriebenen sicherheitskritischen IT-Systeme sind regelmäßig, mindestens einmal wöchentlich, mit geeigneten technischen Maßnahmen auf Integrität zu prüfen. Die Prüfung und das Ergebnis sind zuverlässig zu dokumentieren. 
 
-## 17.3 Notfallkonzept
+Sofern bei einer solchen Prüfung festgestellt wird, dass die Integrität des Systems verletzt wurde, sind unverzüglich geeignete Gegenmaßnahmen zu ergreifen. Hierzu ist präventiv ein entsprechender Ablaufplan, beispielsweise in Form einer Checkliste, zu erstellen. 
 
-## De-Mail spezifische Ergänzung
+## - Vgl. TR De Mail 
 
-Es muss ein Notfallkonzept erstellt werden. Als Notfälle werden alle Ereignisse betrachtet, die die Verfügbarkeit der bestehenden materiellen und technischen Infrastruktur derart bedrohen, dass besondere Maßnahmen zur Sicherung oder Wiederaufnahme des Betriebs notwendig sind.
+- [TR DM IS GS] 6.3.6 Integritätsschutz für IT-Systeme 
 
-Das Notfallkonzept führt die Maßnahmen auf, die bei bestimmten Notsituationen durchzuführen sind, nennt weiterhin die entsprechenden Verantwortlichen und definiert die
+## 12.6 Technisches Schwachstellenmanagement 
 
-einzuleitenden Schritte nach dem Notfall zur Wiedererlangung des Wirkbetriebs. Die "max. tolerierbare Ausfallzeit" darf 24 Stunden, bei katastrophalen Ereignissen 72 Stunden nicht überschreiten.
+## 12.6.1 Management technischer Schwachstellen 
 
-V gl. TR De-Mail
+Die Maßnahme 12.6.1 der [27002] ist entsprechend anzuwenden. 
 
-• [TR DM IS GS] 6.1.6 Notfallkonzept
+## - De Mail spezifsche Umsetzungshinweise 
 
-## <span id="page-46-0"></span>18 Richtlinienkonformität
+Es ist sicherzustellen, dass alle relevanten Sicherheitspatches installiert werden. Vor der Installation sind die im Rahmen des Changemanagements entwickelten Regeln zu beachten. 
 
-## 18.1 Einhaltung gesetzlicher und vertraglicher Anforderungen
+Sofern sicherheitszertifizierte IT-Systeme zum Einsatz kommen gilt folgendes: 
 
-## 18.1.1 Feststellung anwendbarer Gesetze und vertraglicher Anforderungen
+- Sofern ein relevanter Patch bereits Gegenstand einer Re-Evaluierung war, so hat auch hier nach erfolgtem Freigabeverfahren die unverzügliche Installation zu erfolgen. 
 
-Die Maßnahme 18.1.1 der [27002] ist entsprechend anzuwenden.
+- Sofern ein Sicherheitspatch noch nicht Gegenstand der Re-Evaluierung war, ist durch das IT-Management zu entscheiden, wie zu verfahren ist. Dabei sind die möglichen Risiken gegeneinander abzuwägen. Das Ergebnis dieser Abwägung ist zu dokumentieren und umzusetzen. 
 
-#### De-Mail spezifische Umsetzungshinweise
+## - Vgl. TR De Mail 
 
-Insbesondere die Vorgaben aus dem De-Mail Gesetz und die Anforderungen der Technischen Richtlinie De-Mail sind zu berücksichtigen.
+- [TR DM IS GS] 6.3.3 Aktualität der Software 
 
-Ferner sind die vom BSI veröffentlichten Verfahrensbeschreibungen zu beachten, u. a. [VB\_Produkte] und [VB\_Akkr\_De-Mail].
+## 12.6.2 Beschränkungen der Software-Installation 
 
-## 18.1.2 Rechte an geistigem Eigentum
+Die Maßnahme 12.6.2 der [27002] ist entsprechend anzuwenden. 
 
-Die Maßnahme 18.1.2 der [27002] ist entsprechend anzuwenden.
+## 12.7 Auswirkungen von Audits auf Informationssysteme 
 
-## 18.1.3 Schutz von Aufzeichnungen
+## 12.7.1 Kontrollen für Audits von Informationssystemen 
 
-Die Maßnahme 18.1.3 der [27002] ist entsprechend anzuwenden.
+Die Maßnahme 12.7.1 der [27002] ist entsprechend anzuwenden. 
 
-De-Mail spezifische Umsetzungshinweise
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Insbesondere die Vorgaben aus dem De-Mail Gesetz zu den Aufbewahrungspflichten sind zu beachten (vgl. § 13 De-Mail-Gesetz).
+33 
 
-## 18.1.4 Privatsphäre und Schutz von personenbezogenen Informationen
+12 Betriebssicherheit 
 
-Die Maßnahme 18.1.4 der [27002] ist entsprechend anzuwenden.
+## 12.8 Web-Applikationen 
 
-De-Mail spezifische Umsetzungshinweise
+## 12.8.1 Schutz der Web-Applikation 
 
-Diese Anforderung wird durch das nach De-Mail-Gesetz geforderte Datenschutz-Zertifikat erfüllt (vgl. § 15 De-Mail-Gesetz).
+## - De Mail spezifsche Ergänzung 
 
-## 18.1.5 Regulierung kryptographischer Kontrollmaßnahmen
+Die Web-Applikation ist durch geeignete Maßnahmen gegen unbefugte Zugriffe aus dem Internet und dem Intranet zu schützen. Zudem ist den aktuell bekannten Angriffen auf WebApplikationen (z. B. SQL-Injection, Shell-Injection, Cross-Site-Scripting) durch geeignete Maßnahmen zu begegnen. 
 
-Die Maßnahme 18.1.5 der [27002] ist entsprechend anzuwenden.
+Es müssen alle Ein- und Ausgaben durch die Web-Applikation validiert werden. So muss vermieden werden, dass Metazeichen zu den Subsystemen weitergeleitet werden. 
 
-## <span id="page-46-1"></span>18.1.6 Identifizierung der Nutzer
+Zudem dürfen von der Web-Applikation keine detaillierten, systemspezifischen Fehlermeldungen an den Nutzer-Client weitergegeben werden. Interne Zustandsinformationen sollen ebenfalls an den Nutzer nicht übermittelt werden. 
 
-De-Mail spezifische Ergänzung
+Zudem ist durch geeignete Maßnahmen sicherzustellen, dass durch Nutzer nur auf die öffentlichen Verzeichnisse des Webservers zugegriffen werden kann. 
 
-Im Sicherheitskonzept des DMDA muss mindestens festgehalten werden:
+Ein Angreifer soll zudem keine Informationen über den verwendeten Webserver bekommen. Daher ist die Webserver-Identifizierung abzuschalten. 
 
-- wie die Identitätsattribute erfasst werden,
-- wie die Verifikation durchgeführt wird und
-- wie die Übermittlung der Identitätsattribute sowie der Verifikationergebnisse erfolgt.
+Die vom BSI herausgegebenen Best Practices [WebAppSec] sind zu berücksichtigen. 
 
-Bei der Übermittlung muss sichergestellt sein, dass:
+## - Vgl. TR De Mail: 
 
-- die Identitätsattribute korrekt sind und
-- vertraulich übermittelt werden.
+- [TR DM IS GS] 6.5.1 Schutz der Web-Applikation 
 
-Sofern sich der DMDA zur Identifizierung der Nutzer vertrauenswürdiger Dritter bedient, hat er sicherzustellen, dass die Qualität des Gesamtprozesses einschließlich dessen Zuverlässigkeit und Fachkunde auch in diesem Fall gewährleistet wird.
+## 12.8.2 Web-Applikations-Firewall 
 
-#### **Erfassung**
+## - De Mail spezifsche Ergänzung 
 
-Die Daten zur Identität sind zuverlässig im System zu hinterlegen und dem De-Mail-Konto zuzuordnen. Die Anbindung des Kontoadministrators an das Accountmanagement muss verschlüsselt, integer und authentisiert erfolgen. Für die Authentisierung sind Mechanismen wie bei dem Authentisierungsniveau "hoch" einzusetzen.
+Die Web-Applikation selbst ist durch eine hoch stabile Sicherheitskomponente für die WebApplikationssicherheit, die in den gesamten Datenverkehr zwischen den Nutzern und der Web-Applikation eingefügt wird, zu schützen. Dabei wird der gesamte Datenverkehr überwacht. 
 
-#### V gl. TR De-Mail
+Die Web-Applikations-Firewall gewährleistet einen zusätzlichen Schutz auf WebApplikationsebene. Damit entsteht hinter der Firewall ein zusätzlicher Sicherheitsbereich. Sämtliche Datenverbindungen in Richtung Portal- oder Web-Applikation werden in dieser Sicherheitsschleuse unterbrochen. Zugelassene Verbindungen werden permanent auf spezifische Datenstrukturen hin untersucht. Werden Angriffe erkannt, so erfolgt eine unmittelbare Unterbrechung der bestehenden Verbindung. Dies ist zu protokollieren. 
 
-- [TR DM ACM Si] 5.1 Verifikation von Identitätsattributen
-- <span id="page-47-0"></span>• [TR DM ACM Si] 5.2 Erfassung
+## - Vgl. TR De Mail: 
 
-#### 18.1.7 Authentisierung der Nutzer
+- [TR DM IS GS] 6.5.2 Web-Applikations-Firewall 
 
-#### De-Mail spezifische Ergänzung
+## 12.9 Datenbanksicherheit 
 
-#### **Authentisierungsniveaus**
+- De Mail spezifsche Ergänzung 
 
-Für die Authentisierung des Nutzers sind folgende Authentisierungsmethoden für die beiden zugelassenen Authentisierungsniveaus vorzusehen:
+Für den Datenbankserver gelten insbesondere folgende Mindestanforderungen: 
 
-• Normal
+Bundesamt für Sicherheit in der Informationstechnik 
 
-Die Authentisierung erfolgt mittels Konto-Name und Passwort. Es sind insbesondere die einschlägigen Regeln zur Bildung und Gebrauch von Passwörtern zu beachten. Des Weiteren ist die maximale Gültigkeitsdauer für ein Passwort ein Jahr.
+34 
 
-• Hoch
+Betriebssicherheit 12 
 
-Die Authentisierung muss mit zwei voneinander unabhängigen Sicherungsmitteln z. B. mit Besitz und Wissen erfolgen. Das Authentisierungstoken muss sicherstellen, dass das Geheimnis nicht kopiert und ausgelesen werden kann. Des Weiteren muss die Einmaligkeit der Authentisierungsinformationen, die innerhalb eines Anmeldeprozesses übertragen werden, gewährleistet sein. Die Authentisierung muss gleichen Anforderungen bei falscher Authentisierung und den Freischaltprozess erfüllen, wie das Authentisierungsniveau "normal". Es sind die Anforderungen an die kryptographischen Verfahren und Schlüssellängen aus [TR 02102] zu beachten.
+- Der Datenbank-Server muss im Datenbank-Netz des DMDA installiert werden. 
 
-#### **Authentisierung des Nutzers**
+- Die Kommunikationsverbindungen zum Datenbank-Server müssen durch die Firewall, insbesondere durch ein Application-Level-Gateway entsprechend abgesichert werden. 
 
-Es ist sicherzustellen, dass der Nutzer keinen Zugriff auf sein De-Mail-Konto hat, bevor er sich ordnungsgemäß authentisiert hat. Der Nutzer hat sich jeweils vor Zugriff auf sein Konto gegenüber dem Dienst des DMDA mit Authentisierungsniveau "normal" oder "hoch" zu authentisieren.
+- Die Administration des Datenbankrechners, des Datenbanksystems und die Pflege der Daten in der Datenbank dürfen nur über das Management-Netz erfolgen. 
 
-Die Authentisierungsinformationen des Nutzers werden auf ihre Gültigkeit hin geprüft. Im Erfolgsfall wird der Nutzer zur Nutzung der gestatteten Funktionen autorisiert. Im Fehlerfall wird eine Fehlermeldung ausgegeben.
+- Auf der Ebene der Datenbank sind nur die unabdingbar notwendigen Berechtigungen einzurichten. 
 
-Der DMDA hat sich davon zu überzeugen, dass die bei der Erzeugung des Tokens für das Authentisierungsniveau "hoch" eingesetzten Prozesse eine hinreichende Qualität und Vertrauenswürdigkeit in Bezug auf das angestrebte Authentisierungsniveau aufweisen. Wenn als Authentisierungstoken für das Authentisierungsniveau "hoch" der nPA zum Einsatz kommt, darf der DMDA ohne weiteres von der Eignung des Tokens und der Ordnungsmäßigkeit der diesbezüglichen Prozesse ausgehen.
+- Zugriffe aus anderen Datenbanken auf die betrachtete Datenbank sind wirksam zu unterbinden. 
 
-#### V gl. TR De-Mail
+- Die Datenbankanwendung muss über geeignete Mechanismen eine sichere Identifikation und Authentisierung der Benutzer ermöglichen. 
 
-- [TR DM ACM Si] 5.3 Authentisierungsniveaus
-- [TR DM ACM Si] 5.4 Authentisierung des Nutzers
+- Der unbefugte Zugriff auf vertrauliche Daten ist wirksam zu unterbinden. 
 
-## 18.2 Informationssicherheitsprüfungen
+- Die Datenbank-Anwendung muss eine Rollentrennung zwischen Administrator und Revisor unterstützen. Der Revisor darf als Einziger über die Berechtigung verfügen, die Protokolldateien auszuwerten und zu löschen. 
 
-#### 18.2.1 Unabhängige Prüfung der Informationssicherheit
+- Zum Schutz der Datenbankintegrität muss die Datenbank-Software über ein vollständiges Transaktionssystem verfügen, welches dem ACID-Prinzip genügt. 
 
-Die Maßnahme 18.2.1 der [27002] ist entsprechend anzuwenden.
+- Die Datenbank ist in das Datensicherungskonzept mit einzubeziehen. 
 
-#### 18.2.2 Einhaltung von Sicherheitsleitlinien und -normen
+Die Regelungen für die Überwachungs- und Kontrollmechanismen sind explizit im ITSicherheitskonzept festzulegen. 
 
-Die Maßnahme 18.2.2 der [27002] ist entsprechend anzuwenden.
+- Vgl. TR De Mail: 
 
-#### 18.2.3 Technische Konformitätsprüfung
+- [TR DM IS GS] 6.6.1 Anforderungen an die Datenbank 
 
-Die Maßnahme 18.2.3 der [27002] ist entsprechend anzuwenden.
+## 12.10 Öffentlicher Verzeichnisdienst (ÖVD) 
 
-#### De-Mail spezifische Umsetzungshinweise
+- De Mail spezifsche Ergänzung 
 
-Die IT-Systeme eines jeden De-Mail-Dienstes sind regelmäßigen, anlassbezogenen, mindestens aber jährlichen, Penetrationstests zu unterziehen. Sie sind nach folgendem Schema aufzubauen:
+Es darf ausschließlich der Applikationsserver Schreibrechte auf den ÖVD haben. 
 
-- **•** Recherche nach Informationen über das Zielsystem,
-- **•** Scan der Zielsysteme auf angebotene Dienste,
-- **•** System- und Anwendungserkennung,
-- **•** Recherche nach Schwachstellen,
-- **•** Ausnutzen der Schwachstellen.
+Alle Schreibzugriffe auf den ÖVD werden protokolliert. Bei Schreibzugriffen, die nicht durch den Server erfolgen, muss eine Alarmierung durch das Protokollierungssystem erfolgen. 
 
-#### V gl. TR De-Mail
+Alle Berechtigungsänderungen auf dem ÖVD werden protokolliert. Bei Änderungen muss eine Alarmierung durch das Protokollierungssystem erfolgen. 
 
-• [TR DM IS GS] 6.3.9 Regelmäßige Penetrationstests
+Die Betriebssysteme und die Anwendungssoftware der IT-Systeme, die den öffentlichen Verzeichnisdienst für den jeweiligen De-Mail-Dienst zur Verfügung stellen, sind durch den Administrator regelmäßig, mindestens einmal täglich, auf Integrität zu überprüfen. 
 
-## <span id="page-49-0"></span>Anhang
+Es dürfen ausschließlich authentisierte De-Mail-Nutzer eine Verzeichnisdienstanfrage durchführen können. 
 
-In den Tabellen A.1 und A.2 werden die in den Kapiteln 5 bis 18 ergänzten, für De-Mail spezifischen Sicherheitskategorien, Maßnahmenziele und Maßnahmen, welche in der [27002] nicht aufgeführt sind, nochmals im Überblick dargestellt.
+## - Vgl. TR De Mail: 
 
-| Abschnitts<br>nummer | Titel                                   | Maßnahmenziel                                                                                                    | Seite |
-|----------------------|-----------------------------------------|------------------------------------------------------------------------------------------------------------------|-------|
-| 6.2.3                | Remote-Administration                   | Gewährleistung der Informationssicherheit bei<br>Nutzung von Remote-Administration                               | 15    |
-| 12.3.2               | Archivierungskonzept                    | Langfristige Aufbewahrung betriebsrelevanter<br>Informationen                                                    | 30    |
-| 12.5.2               | Integritätsschutz für IT<br>Systeme     | Sicherstellung der Integrität von betrieblichen<br>IT-Systemen                                                   | 33    |
-| 12.8                 | Web-Applikationen                       | Schutz der Web-Applikationen                                                                                     | 34    |
-| 12.9                 | Datenbanksicherheit                     | Gewährleistung der Datenbank-Sicherheit                                                                          | 34    |
-| 12.10                | Öffentlicher Verzeichnisdienst<br>(ÖVD) | Gewährleistung der Sicherheit des ÖVD                                                                            | 35    |
-| 12.11                | Administration des DNS                  | Sicherstellung der Korrektheit der DNS-Einträge                                                                  | 36    |
-| 17.2                 | Redundanzen                             | Sicherstellung der Verfügbarkeit von<br>informationsverarbeitenden Einrichtungen                                 | 45    |
-| 17.3                 | Notfallkonzept                          | Aufrechterhaltung des De-Mail-Betriebs                                                                           | 45    |
-| 18.1.6               | Identifizierung der Nutzer              | Die sichere Identifizierung des Kontoinhabers ist<br>zu gewährleisten.                                           | 47    |
-| 18.1.7               | Authentisierung der Nutzer              | Verhinderung eines unbefugten Zugriffs und<br>einer unbefugten Veränderung von<br>Authentisierungsinformationen. | 48    |
+- [TR DM BInfra Si] 5.1.2 ÖVD 
 
-Tabelle A.1 — Überblick der ergänzten Sicherheitskategorien und Maßnahmenziele
+Bundesamt für Sicherheit in der Informationstechnik 
 
-| Abschnitts<br>nummer | Titel                                   | Maßnahme (stichwortartig)                                                                                                                                                                                                 | Seite |
-|----------------------|-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|
-| 6.2.3                | Remote-Administration                   | Absicherung des Zugangs zur Remote<br>Administration                                                                                                                                                                      | 15    |
-| 12.3.2               | Archivierungskonzept                    | Archivierung der dauerhaft aufzubewahrenden<br>Informationen                                                                                                                                                              | 30    |
-| 12.5.2               | Integritätsschutz für IT<br>Systeme     | Sicherheitskritische IT-Systeme sind regelmäßig,<br>mindestens einmal wöchentlich, mit geeigneten<br>technischen Maßnahmen auf Integrität zu prüfen                                                                       | 33    |
-| 12.8.1               | Schutz der Web-Applikationen            | - Schutz vor unbefugtem Zugriff und vor<br>bekannten Angriffen<br>- Validierung der Ein- und Ausgaben<br>- Einschränkung der protokollspezifischen<br>Information<br>- Berücksichtigung der Best Practices<br>[WebAppSec] | 34    |
-| 12.8.2               | Web-Applikation-Firewall                | Nutzung einer entsprechenden Firewall                                                                                                                                                                                     | 34    |
-| 12.9                 | Datenbanksicherheit                     | Gewährleistung der Datenbank-Sicherheit durch<br>verschiedene Maßnahmen                                                                                                                                                   | 34    |
-| 12.10                | Öffentlicher Verzeichnisdienst<br>(ÖVD) | Beschränkung und Prüfung der Zugriffsrechte<br>auf den ÖVD                                                                                                                                                                | 35    |
-| 12.11                | Administration des DNS                  | Regelmäßige Überprüfung der DNS-Einträge.                                                                                                                                                                                 | 36    |
-| 17.2.2               | Verfügbarkeitskonzept                   | Es ist ein Verfügbarkeitskonzept zu erstellen.<br>Ferner ist der 24/7 Regelbetrieb zu gewährleisten.                                                                                                                      | 45    |
-| 17.3                 | Notfallkonzept                          | Erstellung eines Notfallkonzepts                                                                                                                                                                                          | 45    |
-| 18.1.6               | Identifizierung der Nutzer              | Anforderungen an die Identifizierung und Ident<br>Dienstleister                                                                                                                                                           | 47    |
-| 18.1.7               | Authentisierung der Nutzer              | Sichere Authentisierung der Nutzer                                                                                                                                                                                        | 48    |
+35 
 
-Tabelle A.2 — Überblick der ergänzten Maßnahmen
+12 Betriebssicherheit 
+
+## 12.11 Administration des DNS 
+
+## - De Mail spezifsche Ergänzung 
+
+Die Einträge im DNS-Server sind regelmäßig auf ihre Korrektheit zu prüfen. Es sollte DNSSEC zum Einsatz kommen. 
+
+## - Vgl. TR De Mail: 
+
+- [TR DM BInfra Si] 5.2 Administration des DNS 
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+36 
+
+Sicherheit in der Kommunikation 13 
+
+## 13 Sicherheit in der Kommunikation 
+
+## 13.1 Netzwerksicherheitsmanagement 
+
+## 13.1.1 Netzwerkkontrollen 
+
+Die Maßnahme 13.1.1 der [27002] ist entsprechend anzuwenden. 
+
+## - De Mail spezifsche Umsetzungshinweise 
+
+Die Trennung der Sicherheitszonen muss durch ein Firewall-System erfolgen. Das FirewallSystem muss dem Stand von Wissenschaft und Technik entsprechen. Es muss aus einer Kombination von Paktetfiltern und Applikation-Level-Gateway bestehen. 
+
+Das Firewallsystem ist so sicher zu betreiben, dass unbefugte Zugriffe auf die dahinter liegenden IT-Systeme von außerhalb wirksam unterbunden werden. 
+
+Für das System ist ein Betriebshandbuch zu führen. Die Konfiguration sowie das Patchlevel sind zu dokumentieren. Änderungen an der Hard- und Software dürfen erst in Betrieb genommen werden, wenn zuvor die Funktionalität entsprechend getestet wurde. 
+
+Die anfallenden Protokolle sind regelmäßig, mindestens aber einmal täglich, zu überprüfen. Auf erkannte Angriffsversuche ist angemessen zu reagieren. 
+
+Die Wirksamkeit des Firewall-Systems ist regelmäßig durch Penetrationstests zu überprüfen. Empfohlene Einzelanforderungen sind in [WebAppsec] zu finden. 
+
+Nicht authentifizierte sowie direkte Verbindungsversuche auf interne Systeme sind zu blockieren. 
+
+## - Vgl. TR De Mail: 
+
+- [TR DM IS GS] 6.4.2 Firewall-System (Sicherheitsgateway) 
+
+- [TR DM IS GS] 6.4.3 Kommunikationsverbindungen 
+
+Die eingesetzte Firewall-Technik muss im Hinblick auf den Aspekt Informationsflusskontrolle und korrekte Umsetzung eines Regelwerks zur Informationsflusskontrolle möglichst mindestens nach CC EAL 3 evaluiert und zertifiziert sein. 
+
+## - Vgl. TR De Mail: 
+
+- [TR DM IS GS] 6.1.10 Anforderungen an einzusetzende Hardware und Software 
+
+## 13.1.2 Sicherheit von Netzwerkdiensten 
+
+Die Maßnahme 13.1.2 der [27002] ist entsprechend anzuwenden. 
+
+## - De Mail spezifsche Umsetzungshinweise 
+
+Der DMDA hat durch den Betrieb eines Intrusion Detection Systems (IDS), das dem Stand von Wissenschaft und Technik entspricht, sicherzustellen, dass Angriffe auf das De-Mail-Portal zuverlässig entdeckt werden. Es ist zudem durch geeignete organisatorische und technische Maßnahmen sicherzustellen, dass bei sicherheitskritischen Angriffen eine zuverlässige 
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+37 
+
+13 Sicherheit in der Kommunikation 
+
+unverzügliche Alarmierung erfolgt und unverzüglich angemessen auf einen solchen Angriff reagiert wird. 
+
+## - Vgl. TR De Mail: 
+
+- [TR DM IS GS] 6.4.4 Intrusion Detection System 
+
+## 13.1.3 Trennung in Netzwerken 
+
+Die Maßnahme 13.1.3 der [27002] ist entsprechend anzuwenden. 
+
+## - De Mail spezifsche Umsetzungshinweise 
+
+Die sicherheitskritischen IT-Systeme dürfen nur über ein separates Management-Netz administriert werden. Das Management-Netz muss vor Zugriffen aus anderen Netzen geschützt sein. 
+
+Ferner muss das DMDA-Netzwerk in Sicherheitszonen eingeteilt werden. Das externe Netz ist vom internen Netz zu trennen und in bedarfsorientierte Netzbereiche aufzuteilen: 
+
+- Daten-Netz 
+
+- Internes Netz 
+
+- Externes Netz 
+
+## - Vgl. TR De Mail: 
+
+- [TR DM IS GS] 6.3.1 Einsatz eines Management Netzes 
+
+- [TR DM IS GS] 6.4.1 Sicherheitszonen 
+
+## 13.2 Informationsübertragung 
+
+Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 13.2 sind entsprechend anzuwenden. 
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+38 
+
+Anschaffung, Entwicklung und Instandhaltung von Systemen 14 
+
+## 14 Anschaffung, Entwicklung und Instandhaltung von Systemen 
+
+## 14.1 Sicherheitsanforderungen für Informationssysteme 
+
+## 14.1.1 Analyse und Spezifikation von Sicherheitsanforderungen 
+
+Die Maßnahme 14.1.1 der [27002] ist entsprechend anzuwenden. 
+
+## - De Mail spezifsche Umsetzungshinweise 
+
+Der Leitgedanke der De-Mail-Konzeption ist die Bereitstellung eines sicheren Kommunikationsraumes. Ein De-Mail-Dienst muss eine sichere Anmeldung, Nutzung eines PVD für sichere elektronische Post sowie die Nutzung eines ÖVD ermöglichen. Innerhalb des Kommunikationsraumes sind insbesondere folgende Grundwerte zu gewährleisten: 
+
+- Verfügbarkeit 
+
+   - von Dienstleistungen, Funktionen eines IT-Systems, IT-Anwendungen oder ITNetzen oder auch von Informationen ist vorhanden, wenn diese den Benutzern jederzeit stets wie gewünscht (mit Ausnahme zumutbarer Ausfallzeiten) zur Verfügung stehen. 
+
+- Vertraulichkeit 
+
+   - ist der Schutz vor unbefugter Preisgabe von Informationen. Vertrauliche Daten und Informationen dürfen ausschließlich Befugten in der zulässigen Weise zugänglich gemacht werden. 
+
+- Integrität 
+
+   - im engeren Sinne bezeichnet die Sicherstellung der Korrektheit (Unversehrtheit) von Daten und der korrekten Funktionsweise von Systemen. Wenn der Begriff Integrität auf "Daten" angewendet wird, drückt er aus, dass die Daten vollständig und unverändert sind. In der Informationstechnik wird er in der Regel aber weiter gefasst und auf "Informationen" angewendet. Der Begriff "Informationen" wird dabei für Daten verwendet, denen je nach Zusammenhang bestimmte Attribute wie z. B. Autor oder Zeitpunkt der Erstellung zugeordnet werden können. Der Verlust der Integrität von Informationen kann daher bedeuten, dass diese unerlaubt verändert, Angaben zum Autor verfälscht oder Zeitangaben zur Erstellung manipuliert wurden. 
+
+Bei De-Mail ist eine nutzenorientierte Datenhaltung zu realisieren. Eine strikte Trennung der Nutzer ist erforderlich, um zu verhindern, dass diese gegenseitigen Einblick in ihre Daten erhalten können. 
+
+Den Sicherheitsanker in De-Mail bildet das De-Mail-Konto. Ein De-Mail-Konto ist ein Bereich in einem De-mail-Dienst, der einem Nutzer so zugeordnet ist, dass er nur von ihm genutzt werden kann. Der DMDA hat durch technische Mittel sicherzustellen, dass nur der diesem DeMail-Konto zugeordnete Nutzer Zugang zu dem ihm zugeordneten De-Mail-Konto erlangen 
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+39 
+
+14 Anschaffung, Entwicklung und Instandhaltung von Systemen 
+
+kann. Das De-Mail-Konto verwaltet die Zugangsberechtigung zum De-Mail-Dienst und damit die Berechtigung, die weiteren De-Mail-Dienste zu nutzen und auf Nutzerdaten zugreifen zu können. Sämtliches Handeln eines Nutzers ist unmittelbar mit dem De-Mail-Konto verbunden und lässt sich immer darauf zurückführen. 
+
+Um im De-Mail-Verbund handeln zu können, muss ein Nutzer sich am De-Mail-Dienst anmelden. 
+
+## **Übergreifende Aspekte** 
+
+Daraus ergeben sich die im Folgenden beschriebenen übergreifenden Sicherheitsziele und Anforderungen. Diese Ziele gelten für De-Mail mit allen Diensten, die darin betrieben werden. Ergänzend sind die zu den einzelnen Diensten spezifisch definierten Anforderungen zu berücksichtigen. 
+
+## **Wahrung der Vertraulichkeit** 
+
+Die Wahrung der Vertraulichkeit der gespeicherten und zu übertragenden Daten ist durch geeignete organisatorische und technische Maßnahmen sicherzustellen. 
+
+Dies beinhaltet insbesondere: 
+
+- Vermeidung unbefugten Zutritts, 
+
+- Verhinderung des unbefugten Zugangs, 
+
+- Verhinderung des unbefugten Zugriffs auf sensible Daten und 
+
+- verschlüsselte Speicherung und Transport der Daten. 
+
+## **Wahrung der Integrität** 
+
+Durch geeignete Maßnahmen ist sicherzustellen, dass Daten nicht unbemerkt verändert werden können. Dies betrifft die Daten, die beim DMDA gespeichert sind und die Daten, die zwischen zwei DMDA übertragen werden. Sofern unbefugte Veränderungen erfolgen, müssen diese feststellbar sein. Die Konfiguration von Diensten und Systemen darf ebenfalls nicht unbefugt verändert werden. 
+
+## **Sicherstellung der Verfügbarkeit** 
+
+Durch geeignete Maßnahmen ist sicherzustellen, dass eine Verfügbarkeit von 99,5 % pro Jahr gewährleistet wird. Ein Ausfall bis zu 24 Stunden, im Falle eines katastrophalen Ereignisses bis zu 72 Stunden ist hinnehmbar. 
+
+Bei längerfristigen geplanten Ausfallzeiten von mehr als drei Stunden sind die Nutzer rechtzeitig im voraus zu informieren. 
+
+## **Aufrechterhaltung des IT-Sicherheitsniveaus** 
+
+Die Aufrechterhaltung des notwendigen IT-Sicherheitsniveaus ist durch den DMDA geeignet sicherzustellen. Zu diesem Zweck ist die Einhaltung und Fortschreibung des ITSicherheitskonzepts sicherzustellen. 
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+40 
+
+Anschaffung, Entwicklung und Instandhaltung von Systemen 14 
+
+## **Korrekte Authentisierung** 
+
+Der DMDA muss sicherstellen, dass die Authentisierung der Nutzer gemäß den Anforderungen aus [TR DM ACM FU] zuverlässig und mit dem jeweils vorgegebenen Authentisierungsniveau erfolgt. 
+
+## **Anforderungen an einzusetzende Hard- und Software** 
+
+Der eingesetzte Authentisierungsserver muss im Hinblick auf die korrekte Implementierung der Authentisierungsverfahren und der Kryptoalgorithmen dem aktuellen Stand der Technik entsprechen. 
+
+Der DMDA muss sich in geeigneter Weise von der Korrektheit der Implementierung der o.g. Verfahren und Algorithmen überzeugen. 
+
+Der CSP des DMDA muss im Hinblick auf die korrekte Implementierung der verwendeten Kryptoalgorithmen und den Zugriffsschutz auf geheime Schlüssel dem Stand von Wissenschaft und Technik entsprechen. 
+
+- Vgl. TR De Mail: 
+
+- [TR DM IS GS] 5.1 Vorbemerkungen 
+
+- [TR DM IS GS] 5.2 Übergreifende Aspekte 
+
+- [TR DM IS GS] 6.1.10 Anforderungen an einzusetzende Hardware und Software 
+
+## 14.1.2 Sicherung von Anwendungsdiensten in öffentlichen Netzen 
+
+Die Maßnahme 14.1.2 der [27002] ist entsprechend anzuwenden. 
+
+## 14.1.3 Schutz von Transaktionen im Zusammenhang mit Anwendungsdiensten 
+
+Die Maßnahme 14.1.3 der [27002] ist entsprechend anzuwenden. 
+
+## 14.2 Sicherheit in Entwicklungs- und Unterstützungsprozessen 
+
+Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 14.2 sind entsprechend anzuwenden. 
+
+## 14.3 Prüfdaten 
+
+Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 14.3 sind entsprechend anzuwenden. 
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+41 
+
+15 Lieferantenbeziehungen 
+
+## 15 Lieferantenbeziehungen 
+
+Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 15 sind entsprechend anzuwenden. 
+
+## - De Mail spezifsche Umsetzungshinweise 
+
+Sofern wesentliche Bereiche des IT-Verbunds (Infrastruktur, Personal) ausgelagert werden, sind weitere Anforderungen zu berücksichtigen. 
+
+## - Vgl. TR De Mail: 
+
+- [TR DM M Si] 3.3.4 Modellierung 
+
+Anmerkung: 
+
+Hier sind insbesondere die Prozesse bei den Identifizierungsdienstleistern und die von diesen an die DMDA übertragenen Informationen (Ident-Daten) zu betrachten. 
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+42 
+
+Management von Informationssicherheitsvorfällen 16 
+
+## 16 Management von Informationssicherheitsvorfällen 
+
+## 16.1 Management von Informationssicherheitsvorfällen und Verbesserungen 
+
+## 16.1.1 Zuständigkeiten und Verfahren 
+
+Die Maßnahme 16.1.1 der [27002] ist entsprechend anzuwenden. 
+
+- De Mail spezifsche Umsetzungshinweise 
+
+In den festzulegenden Verfahren nach 16.1.1 Abschnitt b) ist der Kontakt zum BSI zu definieren. Es ist zu gewährleisten, dass entsprechende Meldungen an die nach De-Mail-Gesetz zuständige Behörde, das BSI, kommuniziert werden. Meldungen sind zu senden an 
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+Referat D24 
+
+Postfach 20 03 63 
+
+53133 Bonn 
+
+Mail-Adresse: referat-d24@bsi.bund.de oder referat-d24@bsi-bund.de-mail.de 
+
+## 16.1.2 Meldung von Informationssicherheitsereignissen 
+
+Die Maßnahme 16.1.2 der [27002] ist entsprechend anzuwenden. 
+
+## 16.1.3 Meldung von Informationssicherheitsschwachstellen 
+
+Die Maßnahme 16.1.3 der [27002] ist entsprechend anzuwenden. 
+
+## 16.1.4 Bewertung von und Entscheidung über Informationssicherheitsereignisse 
+
+Die Maßnahme 16.1.4 der [27002] ist entsprechend anzuwenden. 
+
+## 16.1.5 Reaktion auf Informationssicherheitsvorfälle 
+
+Die Maßnahme 16.1.5 der [27002] ist entsprechend anzuwenden. 
+
+- De Mail spezifsche Umsetzungshinweise 
+
+Informationssicherheitsvorfälle müssen an das BSI (Kontaktdaten siehe 16.1.1) gemeldet werden. 
+
+## 16.1.6 Erkenntnisse aus Informationssicherheitsvorfällen 
+
+Die Maßnahme 16.1.6 der [27002] ist entsprechend anzuwenden. 
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+43 
+
+16 Management von Informationssicherheitsvorfällen 
+
+## 16.1.7 Sammeln von Beweismaterial 
+
+Die Maßnahme 16.1.7 der [27002] ist entsprechend anzuwenden. 
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+44 
+
+Informationssicherheitsaspekte des Betriebskontinuitätsmanagements 17 
+
+## 17 Informationssicherheitsaspekte des Betriebskontinuitätsmanagements 
+
+## 17.1 Aufrechterhaltung der Informationssicherheit 
+
+Die Maßnahmenziele sowie die Inhalte der [27002] Kapitel 17.1 sind entsprechend anzuwenden. 
+
+## 17.2 Redundanzen 
+
+## 17.2.1 Verfügbarkeit von informationsverarbeitenden Einrichtungen 
+
+Die Maßnahme 17.2.1 der [27002] ist entsprechend anzuwenden. 
+
+## 17.2.2 Verfügbarkeitskonzept 
+
+## - De Mail spezifsche Ergänzung 
+
+Die Architektur und die De-Mail-Infrastruktur sind so auszulegen, dass die Vorgaben an die Verfügbarkeit erfüllt werden. Dazu muss der DMDA ein entsprechendes Verfügbarkeitskonzept erstellen. Das Verfügbarkeitskonzept muss Fehlerintoleranz und Fehlertoleranz berücksichtigen. Der DMDA muss darstellen, wie er durch geeignete Maßnahmen diese Anforderungen erfüllt. 
+
+Es ist ein Regelbetrieb von 7x24 Stunden mit hoher Verfügbarkeit vorzusehen. Durch geeignete Maßnahmen ist sicherzustellen, dass eine Verfügbarkeit von 99,5 % pro Jahr gewährleistet wird. Ein Ausfall bis zu 24 Stunden, im Falle eines katastrophalen Ereignisses bis zu 72 Stunden ist hinnehmbar. 
+
+Bei längerfristigen geplanten Ausfallzeiten von mehr als drei Stunden sind die Nutzer rechtzeitig im voraus zu informieren. 
+
+## - Vgl. TR De Mail 
+
+- [TR DM Dachdokument] 7.5 Allgemeine Verfügbarkeit 
+
+- [TR DM IS GS] 5.2.3 Sicherstellung der Verfügbarkeit 
+
+- [TR DM IS GS] 6.1.5 Verfügbarkeitskonzept 
+
+## 17.3 Notfallkonzept 
+
+## - De Mail spezifsche Ergänzung 
+
+Es muss ein Notfallkonzept erstellt werden. Als Notfälle werden alle Ereignisse betrachtet, die die Verfügbarkeit der bestehenden materiellen und technischen Infrastruktur derart bedrohen, dass besondere Maßnahmen zur Sicherung oder Wiederaufnahme des Betriebs notwendig sind. 
+
+Das Notfallkonzept führt die Maßnahmen auf, die bei bestimmten Notsituationen durchzuführen sind, nennt weiterhin die entsprechenden Verantwortlichen und definiert die 
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+45 
+
+17 Informationssicherheitsaspekte des Betriebskontinuitätsmanagements 
+
+einzuleitenden Schritte nach dem Notfall zur Wiedererlangung des Wirkbetriebs. Die „max. tolerierbare Ausfallzeit“ darf 24 Stunden, bei katastrophalen Ereignissen 72 Stunden nicht überschreiten. 
+
+## - V  gl. TR De Mail 
+
+- [TR DM IS GS] 6.1.6 Notfallkonzept 
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+46 
+
+Richtlinienkonformität 18 
+
+## 18 Richtlinienkonformität 
+
+## 18.1 Einhaltung gesetzlicher und vertraglicher Anforderungen 
+
+## 18.1.1 Feststellung anwendbarer Gesetze und vertraglicher Anforderungen 
+
+Die Maßnahme 18.1.1 der [27002] ist entsprechend anzuwenden. 
+
+## - De Mail spezifsche Umsetzungshinweise 
+
+Insbesondere die Vorgaben aus dem De-Mail Gesetz und die Anforderungen der Technischen Richtlinie De-Mail sind zu berücksichtigen. 
+
+Ferner sind die vom BSI veröffentlichten Verfahrensbeschreibungen zu beachten, u. a. [VB_Produkte] und [VB_Akkr_De-Mail]. 
+
+## 18.1.2 Rechte an geistigem Eigentum 
+
+Die Maßnahme 18.1.2 der [27002] ist entsprechend anzuwenden. 
+
+## 18.1.3 Schutz von Aufzeichnungen 
+
+Die Maßnahme 18.1.3 der [27002] ist entsprechend anzuwenden. 
+
+## - De Mail spezifsche Umsetzungshinweise 
+
+Insbesondere die Vorgaben aus dem De-Mail Gesetz zu den Aufbewahrungspflichten sind zu beachten (vgl. § 13 De-Mail-Gesetz). 
+
+## 18.1.4 Privatsphäre und Schutz von personenbezogenen Informationen 
+
+Die Maßnahme 18.1.4 der [27002] ist entsprechend anzuwenden. 
+
+- De Mail spezifsche Umsetzungshinweise 
+
+Diese Anforderung wird durch das nach De-Mail-Gesetz geforderte Datenschutz-Zertifikat erfüllt (vgl. § 15 De-Mail-Gesetz). 
+
+## 18.1.5 Regulierung kryptographischer Kontrollmaßnahmen 
+
+Die Maßnahme 18.1.5 der [27002] ist entsprechend anzuwenden. 
+
+## 18.1.6 Identifizierung der Nutzer 
+
+## - De Mail spezifsche Ergänzung 
+
+## Im Sicherheitskonzept des DMDA muss mindestens festgehalten werden: 
+
+- wie die Identitätsattribute erfasst werden, 
+
+- wie die Verifikation durchgeführt wird und 
+
+- wie die Übermittlung der Identitätsattribute sowie der Verifikationergebnisse erfolgt. 
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+47 
+
+18 Richtlinienkonformität 
+
+Bei der Übermittlung muss sichergestellt sein, dass: 
+
+- die Identitätsattribute korrekt sind und 
+
+- vertraulich übermittelt werden. 
+
+Sofern sich der DMDA zur Identifizierung der Nutzer vertrauenswürdiger Dritter bedient, hat er sicherzustellen, dass die Qualität des Gesamtprozesses einschließlich dessen Zuverlässigkeit und Fachkunde auch in diesem Fall gewährleistet wird. 
+
+## **Erfassung** 
+
+Die Daten zur Identität sind zuverlässig im System zu hinterlegen und dem De-Mail-Konto zuzuordnen. Die Anbindung des Kontoadministrators an das Accountmanagement muss verschlüsselt, integer und authentisiert erfolgen. Für die Authentisierung sind Mechanismen wie bei dem Authentisierungsniveau „hoch“ einzusetzen. 
+
+## - V  gl. TR De Mail 
+
+- [TR DM ACM Si] 5.1 Verifikation von Identitätsattributen 
+
+- [TR DM ACM Si] 5.2 Erfassung 
+
+## 18.1.7 Authentisierung der Nutzer 
+
+- De Mail spezifsche Ergänzung 
+
+## **Authentisierungsniveaus** 
+
+Für die Authentisierung des Nutzers sind folgende Authentisierungsmethoden für die beiden zugelassenen Authentisierungsniveaus vorzusehen: 
+
+- Normal 
+
+Die Authentisierung erfolgt mittels Konto-Name und Passwort. Es sind insbesondere die einschlägigen Regeln zur Bildung und Gebrauch von Passwörtern zu beachten. Des Weiteren ist die maximale Gültigkeitsdauer für ein Passwort ein Jahr. 
+
+- Hoch 
+
+Die Authentisierung muss mit zwei voneinander unabhängigen Sicherungsmitteln z.  B. mit Besitz und Wissen erfolgen. Das Authentisierungstoken muss sicherstellen, dass das Geheimnis nicht kopiert und ausgelesen werden kann. Des Weiteren muss die Einmaligkeit der Authentisierungsinformationen, die innerhalb eines Anmeldeprozesses übertragen werden, gewährleistet sein. Die Authentisierung muss gleichen 
+
+Anforderungen bei falscher Authentisierung und den Freischaltprozess erfüllen, wie das Authentisierungsniveau „normal“. Es sind die Anforderungen an die kryptographischen Verfahren und Schlüssellängen aus [TR 02102] zu beachten. 
+
+## **Authentisierung des Nutzers** 
+
+Es ist sicherzustellen, dass der Nutzer keinen Zugriff auf sein De-Mail-Konto hat, bevor er sich ordnungsgemäß authentisiert hat. Der Nutzer hat sich jeweils vor Zugriff auf sein Konto gegenüber dem Dienst des DMDA mit Authentisierungsniveau „normal“ oder „hoch“ zu authentisieren. 
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+48 
+
+Richtlinienkonformität 18 
+
+Die Authentisierungsinformationen des Nutzers werden auf ihre Gültigkeit hin geprüft. Im Erfolgsfall wird der Nutzer zur Nutzung der gestatteten Funktionen autorisiert. Im Fehlerfall wird eine Fehlermeldung ausgegeben. 
+
+Der DMDA hat sich davon zu überzeugen, dass die bei der Erzeugung des Tokens für das Authentisierungsniveau „hoch“ eingesetzten Prozesse eine hinreichende Qualität und Vertrauenswürdigkeit in Bezug auf das angestrebte Authentisierungsniveau aufweisen. Wenn als Authentisierungstoken für das Authentisierungsniveau „hoch“ der nPA zum Einsatz kommt, darf der DMDA ohne weiteres von der Eignung des Tokens und der Ordnungsmäßigkeit der diesbezüglichen Prozesse ausgehen. 
+
+## - V  gl. TR De Mail 
+
+- [TR DM ACM Si] 5.3 Authentisierungsniveaus 
+
+- [TR DM ACM Si] 5.4 Authentisierung des Nutzers 
+
+## 18.2 Informationssicherheitsprüfungen 
+
+## 18.2.1 Unabhängige Prüfung der Informationssicherheit 
+
+Die Maßnahme 18.2.1 der [27002] ist entsprechend anzuwenden. 
+
+## 18.2.2 Einhaltung von Sicherheitsleitlinien und -normen 
+
+Die Maßnahme 18.2.2 der [27002] ist entsprechend anzuwenden. 
+
+## 18.2.3 Technische Konformitätsprüfung 
+
+Die Maßnahme 18.2.3 der [27002] ist entsprechend anzuwenden. 
+
+## - De Mail spezifsche Umsetzungshinweise 
+
+Die IT-Systeme eines jeden De-Mail-Dienstes sind regelmäßigen, anlassbezogenen, mindestens aber jährlichen, Penetrationstests zu unterziehen. Sie sind nach folgendem Schema aufzubauen: 
+
+- Recherche nach Informationen über das Zielsystem, 
+
+- Scan der Zielsysteme auf angebotene Dienste, 
+
+- System- und Anwendungserkennung, 
+
+- Recherche nach Schwachstellen, 
+
+- Ausnutzen der Schwachstellen. 
+
+## - V  gl. TR De Mail 
+
+- [TR DM IS GS] 6.3.9 Regelmäßige Penetrationstests 
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+49 
+
+Anhang 
+
+## Anhang 
+
+In den Tabellen A.1 und A.2 werden die in den Kapiteln 5 bis 18 ergänzten, für De-Mail spezifischen Sicherheitskategorien, Maßnahmenziele und Maßnahmen, welche in der [27002] nicht aufgeführt sind, nochmals im Überblick dargestellt. 
+
+Tabelle A.1 — Überblick der ergänzten Sicherheitskategorien und Maßnahmenziele 
+
+|**Abschnitts-**<br>**nummer**|**Titel**|**Maßnahmenziel**|**Seite**|
+|---|---|---|---|
+|6.2.3|Remote-Administration|Gewährleistung der Informationssicherheit bei<br>Nutzung von Remote-Administration|15|
+|12.3.2|Archivierungskonzept|Langfristige Aufewahrung betriebsrelevanter<br>Informationen|30|
+|12.5.2|Integritätsschutz für IT-<br>Systeme|Sicherstellung der Integrität von betrieblichen<br>IT-Systemen|33|
+|12.8|Web-Applikationen|Schutz der Web-Applikationen|34|
+|12.9|Datenbanksicherheit|Gewährleistung der Datenbank-Sicherheit|34|
+|12.10|Öffentlicher Verzeichnisdienst<br>(ÖVD)|Gewährleistung der Sicherheit des ÖVD|35|
+|12.11|Administration des DNS|Sicherstellung der Korrektheit der DNS-Einträge|36|
+|17.2|Redundanzen|Sicherstellung der Verfügbarkeit von<br>informationsverarbeitenden Einrichtungen|45|
+|17.3|Notfallkonzept|Aufrechterhaltung des De-Mail-Betriebs|45|
+|18.1.6|Identifzierung der Nutzer|Die sichere Identifzierung des Kontoinhabers ist<br>zu gewährleisten.|47|
+|18.1.7|Authentisierung der Nutzer|Verhinderung eines unbefugten Zugriffs und<br>einer unbefugten Veränderung von<br>Authentisierungsinformationen.|48|
+
+
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+50 
+
+Anhang 
+
+## Tabelle A.2 — Überblick der ergänzten Maßnahmen 
+
+|**Abschnitts-**<br>**nummer**|**Titel**|**Maßnahme   (stichwortartig)**|**Seite**|
+|---|---|---|---|
+|6.2.3|Remote-Administration|Absicherung des Zugangs zur Remote-<br>Administration|15|
+|12.3.2|Archivierungskonzept|Archivierung der dauerhaft aufzubewahrenden<br>Informationen|30|
+|12.5.2|Integritätsschutz für IT-<br>Systeme|Sicherheitskritische IT-Systeme sind regelmäßig,<br>mindestens einmal wöchentlich, mit geeigneten<br>technischen Maßnahmen auf Integrität zu prüfen|33|
+|12.8.1|Schutz der Web-Applikationen|- Schutz vor unbefugtem Zugriff und vor<br>bekannten Angriffen<br>- Validierung der Ein- und Ausgaben<br>- Einschränkung der protokollspezifschen<br>Information<br>- Berücksichtigung der Best Practices<br>[WebAppSec]|34|
+|12.8.2|Web-Applikation-Firewall|Nutzung einer entsprechenden Firewall|34|
+|12.9|Datenbanksicherheit|Gewährleistung der Datenbank-Sicherheit durch<br>verschiedene Maßnahmen|34|
+|12.10|Öffentlicher Verzeichnisdienst<br>(ÖVD)|Beschränkung und Prüfung der Zugriffsrechte<br>auf den ÖVD|35|
+|12.11|Administration des DNS|Regelmäßige Überprüfung der DNS-Einträge.|36|
+|17.2.2|Verfügbarkeitskonzept|Es ist ein Verfügbarkeitskonzept zu erstellen.<br>Ferner ist der 24/7 Regelbetrieb zu gewährleisten.|45|
+|17.3|Notfallkonzept|Erstellung eines Notfallkonzepts|45|
+|18.1.6|Identifzierung der Nutzer|Anforderungen an die Identifzierung und Ident-<br>Dienstleister|47|
+|18.1.7|Authentisierung der Nutzer|Sichere Authentisierung der Nutzer|48|
+
+
+
+Bundesamt für Sicherheit in der Informationstechnik 
+
+51 
+

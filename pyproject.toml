@@ -7,7 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "beautifulsoup4>=4.14.3",
     "coloredlogs>=15.0.1",
-    "marker-pdf>=1.10.2",
-    "pypdfium2>=4.30.0",
     "requests>=2.32.5",
+    "tqdm>=4.66.0",
+    "pymupdf4llm>=1.27.1"
 ]

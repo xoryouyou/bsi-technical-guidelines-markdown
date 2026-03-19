@@ -83,19 +83,11 @@ uv run scraper.py --hash-pdfs
 ```
 
 ### Conversion (PDF to Markdown)
-After downloading PDFs, convert them to Markdown:
-```bash
-# 1. Start an Ollama server or lm studio
-ollama serve
+After varios llm approaches using [marker](https://github.com/datalab-to/marker), [docling](https://github.com/docling-project/docling), [mineru](https://github.com/opendatalab/mineru) and others.
 
-# 2. Run the conversion script
-./convert.sh
+I chose to  [pymupdf4llm](https://github.com/pymupdf/pymupdf4llm) for now.
 
-# 3. Generate the table of contents
-uv run generate_table.py
-```
-
-Converted Markdown files are saved to `markdown/`.
+Simply run  `uv run convert.py` and all PDFs will be converted to markdown with extracted images next to them.
 
 ### Repository Structure
 ```
