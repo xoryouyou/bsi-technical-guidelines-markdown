@@ -1,0 +1,60 @@
+name: Sync BSI PDFs
+
+on:
+  schedule:
+    # Every Friday at 22:00 UTC
+    - cron: '0 22 * * 5'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force re-download even if checksum matches'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    if: github.actor == github.repository_owner || github.event_name == 'schedule'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Sync PDFs from BSI
+        run: |
+          if [ "${{ inputs.force }}" = "true" ]; then
+            uv run python scraper.py --full-sync --force
+          else
+            uv run python scraper.py --full-sync
+          fi
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add data/ pdf/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --cached --stat
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: sync BSI PDFs $(date -u +%Y-%m-%d)"
+          git push
