@@ -330,6 +330,12 @@
               "sha256": "987fccd75d0e6a70944d85a12f6f8fc4fe52de7cd7f799a17420c524694a7d99",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR02102/BSI-TR-02102.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.402495",
+              "latest": false
+            },
+            {
+              "sha256": "07d18200c1434887ee31c503e633861d4dddb3c13d5881f533eac75f3720dcec",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR02102/BSI-TR-02102.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:08:11.842745",
               "latest": true
             }
           ]
@@ -407,6 +413,12 @@
               "sha256": "987fccd75d0e6a70944d85a12f6f8fc4fe52de7cd7f799a17420c524694a7d99",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR02102/BSI-TR-02102.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.407663",
+              "latest": false
+            },
+            {
+              "sha256": "07d18200c1434887ee31c503e633861d4dddb3c13d5881f533eac75f3720dcec",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR02102/BSI-TR-02102.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:08:24.080587",
               "latest": true
             }
           ]
@@ -526,13 +538,19 @@
         {
           "filename": "TR-03105_Part2.pdf",
           "identifier": "BSI TR-03105-2",
-          "title": "Test Plan for Official Electronic ID Documents with Secure Contactless Integrated Circuit",
+          "title": "Technical Guideline TR-03105 - Test Plan for Official Electronic ID Documents with Secure Contactless Integrated Circuit - Part 2 -  - Version 3.0.1 RC1",
           "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03105/TR-03105_Part2.pdf?__blob=publicationFile",
           "versions": [
             {
               "sha256": "e31a5a6a704cb466cdb212a183dae56fc2d0aa69cf699cb85d1460a497498a03",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03105/TR-03105_Part2.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.416506",
+              "latest": false
+            },
+            {
+              "sha256": "a60801a0e88eecc0e14fa05695fcc4401694f07e2cf7a905e7113531ecce8dcf",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03105/TR-03105_Part2.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:08:41.931373",
               "latest": true
             }
           ]
@@ -1141,118 +1159,6 @@
             {
               "sha256": "3e6729a5f46e9d06cdb10556460fb99a0075c434759b447082c962b247cd2527",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil2.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.525591",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03112-api_teil3.pdf",
-          "identifier": "BSI TR-03112-3",
-          "title": "Technical Guideline TR-03112-3",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil3.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "10a37ba309155f7fd4ad9131ba77008301cdb73dbd1a591e962a365faf65c9f8",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil3.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.527912",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03112-api_teil4.pdf",
-          "identifier": "BSI TR-03112-4",
-          "title": "Technical Guideline TR-03112-4",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil4.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "cd0d17bb90dc1bec2fe57243016bf0b22a953b8f84c4dc86c27b338e3693baca",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil4.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.533288",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03112-api_teil7.pdf",
-          "identifier": "BSI TR-03112-7",
-          "title": "Technical Guideline TR-03112-7",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil7.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "1e1efd5271736939641555c271050ce5ab3ab6a0cacf99ceee0e4aeef25f91fd",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil7.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.535683",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03112-api_teil5.pdf",
-          "identifier": "BSI TR-03112-5",
-          "title": "Technical Guideline TR-03112-5",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil5.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "71e51b74aaa5764e52b903eb2f7e9644af2e9753d32afa2696e100340f77ad6a",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil5.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.536473",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03112-api_teil6.pdf",
-          "identifier": "BSI TR-03112-6",
-          "title": "Technical Guideline TR-03112-6",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil6.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "3a11e1ea59d28a683df7efa5e025d59a1e67bda1dd6c2ac51a561054728054f1",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil6.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.538146",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03112-api_teil1.pdf",
-          "identifier": "BSI TR-03112-1",
-          "title": "Technical Guideline TR-03112-1",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil1.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "3fb87686469716146aa6fca28c389bb34f320f5d3beb1e8b5ddc105de544351e",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil1.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.539609",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03112-api_teil1.pdf",
-          "identifier": "BSI TR-03112-1",
-          "title": "Technical Guideline TR-03112-1",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil1.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "3fb87686469716146aa6fca28c389bb34f320f5d3beb1e8b5ddc105de544351e",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil1.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.540869",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03112-api_teil2.pdf",
-          "identifier": "BSI TR-03112-2",
-          "title": "Technical Guideline TR-03112-2",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil2.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "3e6729a5f46e9d06cdb10556460fb99a0075c434759b447082c962b247cd2527",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil2.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.542032",
               "latest": true
             }
@@ -1287,6 +1193,20 @@
           ]
         },
         {
+          "filename": "TR-03112-api_teil7.pdf",
+          "identifier": "BSI TR-03112-7",
+          "title": "Technical Guideline TR-03112-7",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil7.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "1e1efd5271736939641555c271050ce5ab3ab6a0cacf99ceee0e4aeef25f91fd",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil7.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-02-13T13:58:06.553918",
+              "latest": true
+            }
+          ]
+        },
+        {
           "filename": "TR-03112-api_teil5.pdf",
           "identifier": "BSI TR-03112-5",
           "title": "Technical Guideline TR-03112-5",
@@ -1315,15 +1235,15 @@
           ]
         },
         {
-          "filename": "TR-03112-api_teil7.pdf",
-          "identifier": "BSI TR-03112-7",
-          "title": "Technical Guideline TR-03112-7",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil7.pdf?__blob=publicationFile",
+          "filename": "TR-03112-api_teil1.pdf",
+          "identifier": "BSI TR-03112-1",
+          "title": "Technical Guideline TR-03112-1",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil1.pdf?__blob=publicationFile",
           "versions": [
             {
-              "sha256": "1e1efd5271736939641555c271050ce5ab3ab6a0cacf99ceee0e4aeef25f91fd",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil7.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.553918",
+              "sha256": "3fb87686469716146aa6fca28c389bb34f320f5d3beb1e8b5ddc105de544351e",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03112/TR-03112-api_teil1.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-02-13T13:58:06.540869",
               "latest": true
             }
           ]
@@ -2415,7 +2335,7 @@
             {
               "sha256": "85ffffd21a8ea8d8b350dd360b75aed153efc2f00d09a1d76def9d41fe33a636",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/Assessment-Handbuch_ETSI_319_401.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.684618",
+              "retrieved_at": "2026-02-13T13:58:06.708013",
               "latest": true
             }
           ]
@@ -2429,7 +2349,7 @@
             {
               "sha256": "754b8d1fb550db1df095c31ac2bca8cf1410810fa5af076c4a3e0a6e2b9180b1",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/Assessment-Handbuch_ETSI_319_511.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.686177",
+              "retrieved_at": "2026-02-13T13:58:06.709515",
               "latest": true
             }
           ]
@@ -2657,34 +2577,6 @@
               "latest": true
             }
           ]
-        },
-        {
-          "filename": "Assessment-Handbuch_ETSI_319_401.pdf",
-          "identifier": "BSI TR-03125",
-          "title": "Part 1: Assessment Criteria for all TSP - ETSI EN 319 401 V1.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/Assessment-Handbuch_ETSI_319_401.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "85ffffd21a8ea8d8b350dd360b75aed153efc2f00d09a1d76def9d41fe33a636",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/Assessment-Handbuch_ETSI_319_401.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.708013",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "Assessment-Handbuch_ETSI_319_511.pdf",
-          "identifier": "BSI TR-03125",
-          "title": "Part 2: Criteria for Assessing Trust Service Providers against ETSI Policy Requirements - ETSI TS 119 511",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/Assessment-Handbuch_ETSI_319_511.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "754b8d1fb550db1df095c31ac2bca8cf1410810fa5af076c4a3e0a6e2b9180b1",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/Assessment-Handbuch_ETSI_319_511.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.709515",
-              "latest": true
-            }
-          ]
         }
       ]
     },
@@ -2716,7 +2608,7 @@
             {
               "sha256": "75c99bda7ca0905b0d028b082a665deb91f6434b0305e780b4976b667b6986c0",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG03126/TG_03126_1_TG_for_the_Secure_Use_of_RFID.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.714182",
+              "retrieved_at": "2026-02-13T13:58:06.760148",
               "latest": true
             }
           ]
@@ -2744,7 +2636,7 @@
             {
               "sha256": "b7c11d837df688157f2e7e646507c1be2ba2302c65a50775b2635fa234fd331d",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG03126/TG_03126_2_application_area_Event_Ticketing.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.719057",
+              "retrieved_at": "2026-02-13T13:58:06.762267",
               "latest": true
             }
           ]
@@ -2772,7 +2664,7 @@
             {
               "sha256": "42bcdd17dbf539da33416c12ef2a1f1099e98a8782a7a61f627a371ccfe87de6",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG03126/TG_03126_3_Application_area_NFC_based_eTicketing.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.723330",
+              "retrieved_at": "2026-02-13T13:58:06.764113",
               "latest": true
             }
           ]
@@ -2800,7 +2692,7 @@
             {
               "sha256": "ae9dd979975800c224c1d48d947a12d343e43251bd710a32e43340e5a9864142",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG03126/TG_03126_4_Application_area_eTicketing_in_public_transport.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.729954",
+              "retrieved_at": "2026-02-13T13:58:06.767816",
               "latest": true
             }
           ]
@@ -2843,90 +2735,6 @@
               "sha256": "690f076ab0707996e0e11b66bd0f8c43e04be847cb839baf5529f490a75b40a0",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03126/BSI-TR-03126-5.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.747698",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TG_03126_5_Application_area_Electronic_Employee_ID_Card.pdf",
-          "identifier": "BSI TR-03126-5",
-          "title": "Technical Guidelines for the Secure Use of RFID (TG RFID)",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG03126/TG_03126_5_Application_area_Electronic_Employee_ID_Card.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "bf6f122d843304277ae4b2d41c49f1f70f45c724598bd5e7ddcbb238ffc01909",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG03126/TG_03126_5_Application_area_Electronic_Employee_ID_Card.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.756948",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TG_RFID_Templates_for_PIA_Framework_pdf.pdf",
-          "identifier": "BSI TR-03126",
-          "title": "Technical Guidelines RFID as Templates for the PIA-Framework",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG03126/TG_RFID_Templates_for_PIA_Framework_pdf.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "99bab77405194217f3fef710a3c3a8f7aaae36ecef1c31359713ccae93acc899",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG03126/TG_RFID_Templates_for_PIA_Framework_pdf.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.757759",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TG_03126_1_TG_for_the_Secure_Use_of_RFID.pdf",
-          "identifier": "BSI TR-03126-1",
-          "title": "TG 03126 - Technical Guidelines for the Secure Use of RFID",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG03126/TG_03126_1_TG_for_the_Secure_Use_of_RFID.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "75c99bda7ca0905b0d028b082a665deb91f6434b0305e780b4976b667b6986c0",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG03126/TG_03126_1_TG_for_the_Secure_Use_of_RFID.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.760148",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TG_03126_2_application_area_Event_Ticketing.pdf",
-          "identifier": "BSI TR-03126-2",
-          "title": "TG 03126 - Technical Guidelines for the Secure Use of RFID",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG03126/TG_03126_2_application_area_Event_Ticketing.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "b7c11d837df688157f2e7e646507c1be2ba2302c65a50775b2635fa234fd331d",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG03126/TG_03126_2_application_area_Event_Ticketing.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.762267",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TG_03126_3_Application_area_NFC_based_eTicketing.pdf",
-          "identifier": "BSI TR-03126-3",
-          "title": "TG 03126 - Technical Guidelines for the Secure Use of RFID",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG03126/TG_03126_3_Application_area_NFC_based_eTicketing.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "42bcdd17dbf539da33416c12ef2a1f1099e98a8782a7a61f627a371ccfe87de6",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG03126/TG_03126_3_Application_area_NFC_based_eTicketing.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.764113",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TG_03126_4_Application_area_eTicketing_in_public_transport.pdf",
-          "identifier": "BSI TR-03126-4",
-          "title": "TG 03126 - Technical Guidelines for the Secure Use of RFID",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG03126/TG_03126_4_Application_area_eTicketing_in_public_transport.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "ae9dd979975800c224c1d48d947a12d343e43251bd710a32e43340e5a9864142",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TG03126/TG_03126_4_Application_area_eTicketing_in_public_transport.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.767816",
               "latest": true
             }
           ]
@@ -3010,48 +2818,6 @@
             {
               "sha256": "e973de73c48957f5adb616e3ec3cd599cd6eb540ac600c9910dac000e8b51a37",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil1.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.780984",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI_TR-03128_Teil2.pdf",
-          "identifier": "BSI TR-03128-2",
-          "title": "Technische Richtlinie TR-03128-2 Diensteanbieter für die eID-Funktion",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil2.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "679a387e002baa5ed9d6311ec034138937102a9246294be2a5605d2f044ac71e",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil2.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.781418",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI_TR-03128_Teil3.pdf",
-          "identifier": "BSI TR-03128-3",
-          "title": "Technische Richtlinie TR-03128 Diensteanbieter für die eID-Funktion",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil3.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "d6c5638160bad1c3087b1648a8cdbb9a1b87e7c9a7f89b3fb89a55dcdb010099",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil3.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.782485",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI_TR-03128_Teil1.pdf",
-          "identifier": "BSI TR-03128-1",
-          "title": "TR-03128 Diensteanbieter für die eID-Funktion Teil 1",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil1.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "e973de73c48957f5adb616e3ec3cd599cd6eb540ac600c9910dac000e8b51a37",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil1.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.783286",
               "latest": true
             }
@@ -3074,13 +2840,19 @@
         {
           "filename": "BSI_TR-03128_Teil3.pdf",
           "identifier": "BSI TR-03128-3",
-          "title": "Technische Richtlinie TR-03128 Diensteanbieter für die eID-Funktion",
+          "title": "Technische Richtlinie TR-03128 Diensteanbieter für die eID-Funktion - Teil 3: Änderungsdienste mit hoheitlicher Berechtigung",
           "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil3.pdf?__blob=publicationFile",
           "versions": [
             {
               "sha256": "d6c5638160bad1c3087b1648a8cdbb9a1b87e7c9a7f89b3fb89a55dcdb010099",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil3.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.784669",
+              "latest": false
+            },
+            {
+              "sha256": "8f52ca127607ed3b20d4bd78b8220ac356ac6908037189d258970bc9269aba1f",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03128/BSI_TR-03128_Teil3.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:14:48.653033",
               "latest": true
             }
           ]
@@ -3435,6 +3207,48 @@
       "title": "BSI TR-03135 Machine Authentication of MRTDs for Public Sector Applications",
       "url_overview_page": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03135/TR-03135_node.html",
       "documents": [
+        {
+          "filename": "BSI-TR-03135-1-v5_0_1.pdf",
+          "identifier": "BSI TR-03135-1",
+          "title": "BSI Technical Guideline TR-03135-1 - Machine Authentication of MRTDs for Public Sector Applications - Part 1: Overview and Functional Requirements - Version 5.0.1",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03135/BSI-TR-03135-1-v5_0_1.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "f9cc73227bf6648d7e32dbe7d991ea97a06ab9541b84ce0c1e58b5da8f121e42",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03135/BSI-TR-03135-1-v5_0_1.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:15:47.511039",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "BSI-TR-03135-2-v5_0_1.pdf",
+          "identifier": "BSI TR-03135-2",
+          "title": "BSI Technical Guideline TR-03135-2 - Machine Authentication of MRTDs for Public Sector Applications - Part 2: Application profiles for official document inspection systems - Version 5.0.1",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03135/BSI-TR-03135-2-v5_0_1.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "db99ec1c39e40ee9002f12b70befc3f91f4b7752ec01207922b9b1a57d274734",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03135/BSI-TR-03135-2-v5_0_1.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:15:48.990337",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "BSI-TR-03135-3-v5_0_1.pdf",
+          "identifier": "BSI TR-03135-3",
+          "title": "BSI Technical Guideline TR-03135-3 - Machine Authentication of MRTDs for Public Sector Applications - Part 3: High Level Document Check Interface Specification - Version 5.0.1",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03135/BSI-TR-03135-3-v5_0_1.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "3d9e4b717e19fab7ebb5edfa178bec991d06c64b7ce5b407a4cf248b276c39e8",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03135/BSI-TR-03135-3-v5_0_1.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:15:52.723246",
+              "latest": true
+            }
+          ]
+        },
         {
           "filename": "BSI-TR-03135-1-v5.pdf",
           "identifier": "BSI TR-03135-1",
@@ -4130,13 +3944,19 @@
         {
           "filename": "TR03147.pdf",
           "identifier": "BSI TR-03147",
-          "title": "Assurance Level Assessment of Procedures for Identity Verification of Natural Persons",
+          "title": "Vertrauensniveaubewertung von Verfahren zur Identitätsprüfung natürlicher Personen",
           "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03147/TR03147.pdf?__blob=publicationFile",
           "versions": [
             {
               "sha256": "fe15f2a3d772a08749b1ba76d943a02f67b3bc04a3cdbbdd0773ffd60d34d0d1",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03147/TR03147.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T14:31:25.062661",
+              "latest": false
+            },
+            {
+              "sha256": "66084aa2992f233885ab376817f890f38ea44097f467988a00dd76655f0fea72",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03147/TR03147.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:17:40.460885",
               "latest": true
             }
           ]
@@ -4554,6 +4374,20 @@
       "url_overview_page": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03156/TR-03156_node.html",
       "documents": [
         {
+          "filename": "BSI-TR-03156-2_1_v2.pdf",
+          "identifier": "BSI TR-03156-2-1",
+          "title": "BSI Technische Richtlinie TR-03156 ERD - Hoheitliches Identitätsmanagement mit EU-Informationssystemen - Erstregistrierung von Drittstaatsangehörigen",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03156/BSI-TR-03156-2_1_v2.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "fa2b8617e44a8f286304c96cc7774c70c1d1b09db002dcecba8e6996f5ca8560",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03156/BSI-TR-03156-2_1_v2.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:18:50.703639",
+              "latest": true
+            }
+          ]
+        },
+        {
           "filename": "BSI-TR-03156-2_1.pdf",
           "identifier": "BSI TR-03156-2-1",
           "title": "BSI Technische Richtlinie TR-03156 - Hoheitliches Identitätsmanagement mit EU-Informationssystemen - Teil 2: XML Schema Dokumentation - Band 1: Erstregistrierung von Drittstaatsangehörigen - Version 2.0.0",
@@ -4688,48 +4522,6 @@
             {
               "sha256": "f8837fbee1710ad3555bbe333f4a50e83c0c66b24724ab3be5cc634a80beb001",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03161/BSI-TR-03161-1.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.890709",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03161-2.pdf",
-          "identifier": "BSI TR-03161-2",
-          "title": "Anforderungen an Anwendungen im Gesundheitswesen",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03161/BSI-TR-03161-2.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "b5f8413cb81908af70d0cb4d5e2780a34bcea085f13f0a95bb1da81c4d6d006a",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03161/BSI-TR-03161-2.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.891448",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03161-3.pdf",
-          "identifier": "BSI TR-03161-3",
-          "title": "Anforderungen an Anwendungen im Gesundheitswesen",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03161/BSI-TR-03161-3.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "ed08f5aeb677e21b3d3d304e2a24356b1bf748fbff1a84892c03fca055592990",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03161/BSI-TR-03161-3.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.892203",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03161-1.pdf",
-          "identifier": "BSI TR-03161-1",
-          "title": "Anforderungen an Anwendungen im Gesundheitswesen",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03161/BSI-TR-03161-1.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "f8837fbee1710ad3555bbe333f4a50e83c0c66b24724ab3be5cc634a80beb001",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03161/BSI-TR-03161-1.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.892977",
               "latest": true
             }
@@ -4808,13 +4600,19 @@
         {
           "filename": "BSI-TR-03163.pdf",
           "identifier": "BSI TR-03163",
-          "title": "TR-03163",
+          "title": "Technische Richtlinie BSI TR-03163: Sicherheit in TK-Infrastrukturen",
           "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03163/BSI-TR-03163.pdf?__blob=publicationFile",
           "versions": [
             {
               "sha256": "55fb66e9aba33e173febe5f99c995bbfaee696c4268448799ab22e0a769913ed",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03163/BSI-TR-03163.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.896938",
+              "latest": false
+            },
+            {
+              "sha256": "17f9d30a3cad11500b40fa743b18f3728a2c11b920a56987a6f31a1e662de1ed",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03163/BSI-TR-03163.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:19:24.881141",
               "latest": true
             }
           ]
@@ -4822,13 +4620,19 @@
         {
           "filename": "BSI-TR-03163_Anlage_A.pdf",
           "identifier": "BSI TR-03163",
-          "title": "Technische Richtlinie BSI TR-03163: Sicherheit in TK-Infrastrukturen - Anhang A",
+          "title": "20260126_TR-03163_Anhang A_neu",
           "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03163/BSI-TR-03163_Anlage_A.pdf?__blob=publicationFile",
           "versions": [
             {
               "sha256": "462e7ad9ea4628f4f16924c670f50510c82db6f0057f27665f04e9ee161687ed",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03163/BSI-TR-03163_Anlage_A.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.898173",
+              "latest": false
+            },
+            {
+              "sha256": "a52ce99a66722b52a584d7b29a8e7e041a36155618f5b96f8fc8a12d578d7507",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03163/BSI-TR-03163_Anlage_A.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:19:28.369070",
               "latest": true
             }
           ]
@@ -4905,48 +4709,6 @@
             {
               "sha256": "3364b1cc66d1fde4e98fc8364d7ffb0ffd32c407f3b01bab16741edd421bbad5",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03166/BSI-TR-03166.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.904412",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03166_Evaluation-Guidance.pdf",
-          "identifier": "BSI TR-03166",
-          "title": "Technical Guideline BSI TR-03166",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03166/BSI-TR-03166_Evaluation-Guidance.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "53e0bf81d30cc49046e787ec83838306656dd040cd8f96ac1b95a35cef742d48",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03166/BSI-TR-03166_Evaluation-Guidance.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.905691",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03166_Flyer_Security_Biometric_Devices.pdf",
-          "identifier": "BSI TR-03166",
-          "title": "Certified Security for Biometric Devices",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03166/BSI-TR-03166_Flyer_Security_Biometric_Devices.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "2ede9058fc6c77d4a17fee25aa908bf136d3021605094e74294c3d9a91cd1707",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03166/BSI-TR-03166_Flyer_Security_Biometric_Devices.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.907266",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03166.pdf",
-          "identifier": "BSI TR-03166",
-          "title": "BSI TR-03166 Technical Guideline for Biometric Authentication Systems",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03166/BSI-TR-03166.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "3364b1cc66d1fde4e98fc8364d7ffb0ffd32c407f3b01bab16741edd421bbad5",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03166/BSI-TR-03166.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.909866",
               "latest": true
             }
@@ -4962,6 +4724,20 @@
               "sha256": "53e0bf81d30cc49046e787ec83838306656dd040cd8f96ac1b95a35cef742d48",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03166/BSI-TR-03166_Evaluation-Guidance.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.911054",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "BSI-TR-03166_Flyer_Security_Biometric_Devices.pdf",
+          "identifier": "BSI TR-03166",
+          "title": "Certified Security for Biometric Devices",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03166/BSI-TR-03166_Flyer_Security_Biometric_Devices.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "2ede9058fc6c77d4a17fee25aa908bf136d3021605094e74294c3d9a91cd1707",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03166/BSI-TR-03166_Flyer_Security_Biometric_Devices.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-02-13T13:58:06.907266",
               "latest": true
             }
           ]
@@ -5087,62 +4863,6 @@
             {
               "sha256": "d46c8db87ec5ebfe39bf9900cf53960595dbf7f285cc57c0963ad9aaf9d10283",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03172/BSI-TR-03172_Rahmendokument.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.918970",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03172_1_Onlinegateway.pdf",
-          "identifier": "BSI TR-03172-1",
-          "title": "Technische Richtlinie TR-03172-1 Portalverbund Teil 1: Onlinegateway",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03172/BSI-TR-03172_1_Onlinegateway.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "2a6df087a37e376da9b3cb4f8bf46daec70317722b6b6bb4851a565d7d3807ae",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03172/BSI-TR-03172_1_Onlinegateway.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T14:13:09.363923",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03172_3_Onlinedienst.pdf",
-          "identifier": "BSI TR-03172-3",
-          "title": "Technische Richtlinie TR-03172-3 Portalverbund Teil 3: Onlinedienst",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03172/BSI-TR-03172_3_Onlinedienst.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "517557f3406b4fbcca2e6cfdba1cb0d188df3e0b5cb1d4e9133546b2333cb8b0",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03172/BSI-TR-03172_3_Onlinedienst.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.920160",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03172_4_Antragsrouting.pdf",
-          "identifier": "BSI TR-03172-4",
-          "title": "Technische Richtlinie TR-03172-4 Portalverbund Teil 4: Antragsrouting",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03172/BSI-TR-03172_4_Antragsrouting.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "7c33d595ddddf7b0d5be0db3840021910fa7748d419511f40f92040d8c86bb2b",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03172/BSI-TR-03172_4_Antragsrouting.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.920981",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03172_Rahmendokument.pdf",
-          "identifier": "BSI TR-03172",
-          "title": "Technische Richtlinie TR-03172 Portalverbund",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03172/BSI-TR-03172_Rahmendokument.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "d46c8db87ec5ebfe39bf9900cf53960595dbf7f285cc57c0963ad9aaf9d10283",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03172/BSI-TR-03172_Rahmendokument.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.921819",
               "latest": true
             }
@@ -5241,48 +4961,6 @@
             {
               "sha256": "5cdf3756ba50c4c8cb525dd43fce61582e3b045b407cab66c91e9ebb8a7ebb91",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03174/BSI-TR-03174-1.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.925246",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03174-2.pdf",
-          "identifier": "BSI TR-03174-2",
-          "title": "Anforderungen an Anwendungen im Gesundheitswesen",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03174/BSI-TR-03174-2.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "f614352801feb98ac462d0d776539a7ed0fcedae4c0e7d8eb7e766fc5ffc7b3c",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03174/BSI-TR-03174-2.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.926577",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03174-3.pdf",
-          "identifier": "BSI TR-03174-3",
-          "title": "Technische Richtlinie TR-03174: Anforderungen an Anwendungen im Finanzwesen",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03174/BSI-TR-03174-3.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "2a9c8cbe26acc476f1f70977a0cbf0daaad4cc332fd98d403a74473ce86227ff",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03174/BSI-TR-03174-3.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.928032",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03174-1.pdf",
-          "identifier": "BSI TR-03174-1",
-          "title": "Anforderungen an Anwendungen im Gesundheitswesen",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03174/BSI-TR-03174-1.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "5cdf3756ba50c4c8cb525dd43fce61582e3b045b407cab66c91e9ebb8a7ebb91",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03174/BSI-TR-03174-1.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.928769",
               "latest": true
             }
@@ -5347,13 +5025,19 @@
         {
           "filename": "BSI-TR-03176.pdf",
           "identifier": "BSI TR-03176",
-          "title": "Technische Richtlinie BSI TR-03176: IT-Sicherheitsanforderungen an die Datenübermittlung in der Registermodernisierung",
+          "title": "Technische Richtlinie BSI TR-03176",
           "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03176/BSI-TR-03176.pdf?__blob=publicationFile",
           "versions": [
             {
               "sha256": "43c7896e430c301e3224c5c4cebc5c613609b40c55d808f4c70257621a7971cb",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03176/BSI-TR-03176.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.933126",
+              "latest": false
+            },
+            {
+              "sha256": "1d87b5aa14da8ec7e23a55cd02a92bb231f9fd7b8264c99f32c58023fa8436fe",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03176/BSI-TR-03176.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:20:26.531335",
               "latest": true
             }
           ]
@@ -5361,13 +5045,19 @@
         {
           "filename": "BSI-TR-03190.pdf",
           "identifier": "BSI TR-03176",
-          "title": "Technische Richtlinie BSI TR-03190: IT-Sicherheitsanforderungen für die Anbindung an das NOOTS",
+          "title": "Technische Richtlinie BSI TR-03190",
           "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03190/BSI-TR-03190.pdf?__blob=publicationFile",
           "versions": [
             {
               "sha256": "90c54920fdd3f93a7a5268b55410af281490de57d7737154358518980c39b86b",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03190/BSI-TR-03190.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T14:13:49.030422",
+              "latest": false
+            },
+            {
+              "sha256": "3209dec4d6010f595b652a48745e222ed31cfd6c5d37aa023c81a266badd6a71",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03190/BSI-TR-03190.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:20:30.011987",
               "latest": true
             }
           ]
@@ -5493,48 +5183,6 @@
             {
               "sha256": "3181a3643f7aed41beeee7bc949a2e84e323b5e77d9d521bb1ced7afff7a1d14",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-1_v0_10_0.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T14:14:08.224011",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03183-2_v2_1_0.pdf",
-          "identifier": "BSI TR-03183-2",
-          "title": "Technical Guideline BSI TR-03183: Cyber Resilience Requirements for Manufacturers and Products - Part 2: Software Bill of Materials (SBOM) Version 2.1.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-2_v2_1_0.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "dda0ccd9b6148571d1d12241a1618b30027f22bc15e24248fdd21a011e62845c",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-2_v2_1_0.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T14:14:09.668425",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03183-3_v1_0_0.pdf",
-          "identifier": "BSI TR-03183-3",
-          "title": "Technical Guideline BSI TR-03183: Cyber Resilience Requirements for Manufacturers and Products - Part 3: Vulnerability Reports and Notifications Version 1.0.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-3_v1_0_0.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "e88f384152958c350e6214e3be7e39d33129a5319f8949915859f29ec499e1c9",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-3_v1_0_0.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T14:14:15.866479",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03183-1_v0_10_0.pdf",
-          "identifier": "BSI TR-03183-1",
-          "title": "Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-1_v0_10_0.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "3181a3643f7aed41beeee7bc949a2e84e323b5e77d9d521bb1ced7afff7a1d14",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-1_v0_10_0.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T14:14:16.868065",
               "latest": true
             }
@@ -5564,6 +5212,20 @@
               "sha256": "e88f384152958c350e6214e3be7e39d33129a5319f8949915859f29ec499e1c9",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-3_v1_0_0.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T14:14:19.870996",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "BSI-TR-03183-H_v1_0_0.pdf",
+          "identifier": "BSI TR-03183",
+          "title": "Technical Guideline TR-03183-H - Conformity based on full quality assurance (Module H)",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-H_v1_0_0.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "ef1ec616bd8154e6cb5c5ed7d8fa4b54849374968e174b870cde6169672af037",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-H_v1_0_0.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:20:50.623253",
               "latest": true
             }
           ]
@@ -5697,55 +5359,19 @@
         {
           "filename": "BSI-TR-03185.pdf",
           "identifier": "BSI TR-03185",
-          "title": "Technical Guideline TR-03185: Secure Software Lifecycle Version 1.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03185/BSI-TR-03185.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "93fff2a250781eaec17e49aa7582a5cc3852ac350d26492f46f8c0b1945e9948",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03185/BSI-TR-03185.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T14:31:25.168359",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03185-2.pdf",
-          "identifier": "BSI TR-03185-2",
-          "title": "BSI TR-03185-2",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03185/BSI-TR-03185-2.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "89f4993ac19dfb6cf4df6dfb2e97f458504e7165e77a05ee3ac1a58c8202192d",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03185/BSI-TR-03185-2.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T14:14:48.636625",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03185.pdf",
-          "identifier": "BSI TR-03185",
-          "title": "Technical Guideline TR-03185: Secure Software Lifecycle Version 1.0",
+          "title": "BSI TR-03185 Sicherer Software-Lebenszyklus",
           "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03185/BSI-TR-03185.pdf?__blob=publicationFile",
           "versions": [
             {
               "sha256": "93fff2a250781eaec17e49aa7582a5cc3852ac350d26492f46f8c0b1945e9948",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03185/BSI-TR-03185.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T14:31:25.170479",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03185.pdf",
-          "identifier": "BSI TR-03185",
-          "title": "Technical Guideline TR-03185: Secure Software Lifecycle Version 1.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03185/BSI-TR-03185.pdf?__blob=publicationFile",
-          "versions": [
+              "latest": false
+            },
             {
-              "sha256": "93fff2a250781eaec17e49aa7582a5cc3852ac350d26492f46f8c0b1945e9948",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03185/BSI-TR-03185.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T14:14:53.693801",
+              "sha256": "5f507a35cb3477273622fc58adc7731e44f559f860ed793267e1fb52ae72ddb0",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03185/BSI-TR-03185.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:21:12.961576",
               "latest": true
             }
           ]
@@ -5760,6 +5386,20 @@
               "sha256": "89f4993ac19dfb6cf4df6dfb2e97f458504e7165e77a05ee3ac1a58c8202192d",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03185/BSI-TR-03185-2.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T14:14:55.695167",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "BSI-TR-03185.pdf",
+          "identifier": "BSI TR-03185",
+          "title": "Technical Guideline TR-03185: Secure Software Lifecycle Version 1.0",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03185/BSI-TR-03185.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "93fff2a250781eaec17e49aa7582a5cc3852ac350d26492f46f8c0b1945e9948",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03185/BSI-TR-03185.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-02-13T14:14:53.693801",
               "latest": true
             }
           ]
@@ -5851,6 +5491,48 @@
               "sha256": "e22cc9b2d0e2f4df2e9225a8ae122daebd79c3d6bcf1b848d670c6b78cd477bc",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03179/TR03179-2.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T14:15:08.008285",
+              "latest": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TR-03187",
+      "title": "BSI TR-03187 Sicherheitsanforderungen an Urbane Datenplattformen",
+      "url_overview_page": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03187/TR-03187_node.html",
+      "documents": [
+        {
+          "filename": "BSI-TR-03187.pdf",
+          "identifier": "BSI TR-03187",
+          "title": "BSI TR-03187 Sicherheitsanforderungen an Urbane Datenplattformen",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03187/BSI-TR-03187.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "4cadf0ed8d066d09adfa349647383d23fd61e4ba88f6c846f2de54e39190b046",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03187/BSI-TR-03187.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:21:31.904707",
+              "latest": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TR-03188",
+      "title": "BSI TR-03188 Passkey Server",
+      "url_overview_page": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03188/TR-03188_node.html",
+      "documents": [
+        {
+          "filename": "BSI-TR-03188.pdf",
+          "identifier": "BSI TR-03188",
+          "title": "BSI TR-03188: Technische Richtlinie Passkey Server",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03188/BSI-TR-03188.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "3d54f2de7f7503532e433cdb5ede8df4d22c2efc3d96ac25a881606a15d2815f",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03188/BSI-TR-03188.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:21:34.374137",
               "latest": true
             }
           ]
