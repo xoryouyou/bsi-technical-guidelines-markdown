@@ -200,6 +200,11 @@ class Scraper:
             action="store_true",
         )
         parser.add_argument(
+            "--full-sync",
+            help="Fetch latest PDF links from BSI then sync all PDFs (use this for scheduled jobs)",
+            action="store_true",
+        )
+        parser.add_argument(
             "--force",
             help="Force re-download even if file exists and checksum matches",
             action="store_true",
@@ -217,7 +222,7 @@ class Scraper:
         try:
             self.logger.debug(f"sending request to: {url}")
 
-            response = requests.get(url, headers=USER_AGENT_HEADER)
+            response = requests.get(url, headers=USER_AGENT_HEADER, timeout=(10, 60))
             response.raise_for_status()
             self.logger.debug(f"response status code: {response.status_code}")
 
@@ -269,108 +274,163 @@ class Scraper:
         return re.match(r"([A-Z]{3,4})_", name).group(1)
 
     def fetch_tr_pdf_links(self, url):
-        """Extract all TR links from the BSI technical guidelines overview page.
-        and extract all pdf links from the sub TR pages."""
+        """Extract all TR links from the BSI technical guidelines overview page
+        and extract all pdf links from the sub TR pages.
 
+        Always re-fetches the BSI overview to discover new TRs. Existing
+        repository data (version history, checksums) is preserved on merge.
+        """
+        repo_file = Path(FILE_REPOSITORY)
         repository = Repository()
         try:
-            # Check if cached file exists
-            repo_file = Path(FILE_REPOSITORY)
-
+            # Load existing repo to preserve version history
             if repo_file.exists():
-                self.logger.info("Reading cached TR links from file")
                 repository = load_repository_from_file(repo_file)
-                self.logger.debug(f"TR Repo loaded trs: {len(repository.trs)}")
-            else:
-                self.logger.info(f"Fetching TR list from {url}")
+                self.logger.debug(f"Loaded existing repo: {len(repository.trs)} TRs")
 
-                # Fetch the TR overview page
-                response = requests.get(url, headers=USER_AGENT_HEADER)
-                response.raise_for_status()
+            # Always re-fetch the overview page to discover newly added TRs
+            self.logger.info(f"Fetching TR list from {url}")
+            response = requests.get(url, headers=USER_AGENT_HEADER, timeout=(10, 60))
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, SOUP_PARSER)
+            section = soup.find("ul", {"class": "links"})
 
-                # Extract the TR overview section
-                soup = BeautifulSoup(response.text, SOUP_PARSER)
-                section = soup.find("ul", {"class": "links"})
-
-                # Find all links in the overview section
-                for link in section.find_all("a"):
-                    href = link.get("href", "")
-                    title = link.get_text().strip()
-                    # Convert relative URLs to absolute
-                    full_url = urljoin("https://www.bsi.bund.de", href)
-                    if "/Technische-Richtlinien/" in full_url:  # Only include TR links
-                        # Extract the TR ID and title from the name
-                        tr_id = self.extract_tr_id_from_name(title)
+            existing_tr_map = {tr.id: tr for tr in repository.trs}
+            for link in section.find_all("a"):
+                href = link.get("href", "")
+                title = link.get_text().strip()
+                full_url = urljoin("https://www.bsi.bund.de", href)
+                if "/Technische-Richtlinien/" in full_url:
+                    tr_id = self.extract_tr_id_from_name(title)
+                    if tr_id not in existing_tr_map:
+                        self.logger.info(f"[NEW TR] {tr_id}: {title}")
                         tr = TR(id=tr_id, title=title, url_overview_page=full_url)
                         repository.trs.append(tr)
+                        existing_tr_map[tr_id] = tr
 
-                # Save the TR links to a file
-                write_repository_to_file(repository, repo_file)
+            write_repository_to_file(repository, repo_file)
 
             for tr in repository.trs:
                 self.logger.debug(f"Processing: {tr.url_overview_page}")
-                # Add delay to be nice to the server
                 sleepytime = randint(5, 10)
                 self.logger.debug(f"waiting for {sleepytime} seconds")
                 time.sleep(sleepytime)
-                # append the extracted pdf links to the list
-                tr.documents = self.extract_pdf_links_from_tr_page(tr.url_overview_page)
 
-            # Save the PDF links to a file
+                fresh_docs = self.extract_pdf_links_from_tr_page(tr.url_overview_page)
+                if not fresh_docs:
+                    # Fetch failed — keep existing documents unchanged
+                    self.logger.warning(f"[SKIP] No documents returned for {tr.id}, keeping existing data")
+                    continue
+
+                # Deduplicate fresh docs by (filename, url_pdf) — BSI pages sometimes list the same link twice
+                seen_keys: set = set()
+                deduped_docs = []
+                for doc in fresh_docs:
+                    key = (doc.filename, doc.url_pdf)
+                    if key not in seen_keys:
+                        seen_keys.add(key)
+                        deduped_docs.append(doc)
+                fresh_docs = deduped_docs
+
+                # Merge fresh docs with existing ones, preserving version history.
+                # Key on (filename, url_pdf) to handle duplicate filenames.
+                existing_by_key = {(d.filename, d.url_pdf): d for d in tr.documents}
+                merged = []
+                for doc in fresh_docs:
+                    key = (doc.filename, doc.url_pdf)
+                    if key in existing_by_key:
+                        existing = existing_by_key[key]
+                        existing.title = existing.title or doc.title
+                        merged.append(existing)
+                    else:
+                        self.logger.info(f"[NEW DOC] {doc.filename} in {tr.id}")
+                        merged.append(doc)
+                tr.documents = merged
+
             write_repository_to_file(repository, repo_file)
 
         except Exception as e:
-            self.logger.error(f"Error extracting TR links: {str(e)} ")
+            self.logger.error(f"Error extracting TR links: {str(e)}")
             return []
 
     def fetch_grundschutz_pdf_links(self, url):
-        """Extract all Grundschutz PDF file links from the overview page."""
+        """Extract all Grundschutz PDF file links from the overview page.
 
+        Always re-fetches from BSI to discover new documents. Existing
+        repository data (version history, checksums) is preserved on merge.
+        """
         repo_file = Path(FILE_REPOSITORY)
-        repository = None
         try:
+            # Load existing repo to preserve version history
+            repository = Repository()
             if repo_file.exists():
-                self.logger.info("Reading cached Grundschutz links from file")
+                self.logger.info("Loading existing Grundschutz data from file")
                 repository = load_repository_from_file(repo_file)
-                self.logger.debug(f"Grundschutz Repo loaded bausteine: {len(repository.grundschutz_bausteine)}")
-            else:
-                self.logger.debug(f"Fetching Grundschutz list from {url}")
-                response = requests.get(url)
-                response.raise_for_status()
-                repository = Repository()
-                soup = BeautifulSoup(response.text, SOUP_PARSER)
+                self.logger.debug(f"Loaded {len(repository.grundschutz_bausteine)} bausteine")
 
-                # pre populate Grundschutz entries
-                grundschutz_map = {}
-                for entry in GS_ABBREVIATION_TITLE_MAPPING.keys():
-                    g = Grundschutz(id=entry, title=GS_ABBREVIATION_TITLE_MAPPING[entry])
-                    grundschutz_map[entry] = g
+            # Always re-fetch the overview page
+            self.logger.info(f"Fetching Grundschutz list from {url}")
+            response = requests.get(url, headers=USER_AGENT_HEADER, timeout=(10, 60))
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, SOUP_PARSER)
 
-                # Find all links in this section
-                for link in soup.find_all("a"):
-                    href = link.get("href", "")
-                    self.logger.debug(f"href: {href}")
-                    if ".pdf" not in href:
-                        continue
+            # Build a fresh map of baustein_id -> Grundschutz, seeded from known categories
+            fresh_map: dict[str, Grundschutz] = {}
+            for entry, title in GS_ABBREVIATION_TITLE_MAPPING.items():
+                fresh_map[entry] = Grundschutz(id=entry, title=title)
 
-                    # Convert relative URLs to absolute
-                    full_url = urljoin("https://www.bsi.bund.de", href)
-                    if "/Grundschutz/" in full_url:  # Only include GS links
-                        # split of the url params and re-add the ".pdf?__blob=publicationFile"
+            # Collect fresh documents from BSI
+            fresh_docs_by_baustein: dict[str, list[Document]] = {k: [] for k in fresh_map}
+            for link in soup.find_all("a"):
+                href = link.get("href", "")
+                self.logger.debug(f"href: {href}")
+                if ".pdf" not in href:
+                    continue
+                full_url = urljoin("https://www.bsi.bund.de", href)
+                if "/Grundschutz/" not in full_url:
+                    continue
+                filename = Path(href).name.split("?")[0]
+                try:
+                    grundschutz_id = self.extract_grundschutz_id_from_name(filename)
+                except (AttributeError, IndexError):
+                    self.logger.warning(f"[SKIP] Could not extract Grundschutz ID from {filename}")
+                    continue
+                if grundschutz_id not in fresh_map:
+                    self.logger.warning(f"[UNKNOWN] Grundschutz category '{grundschutz_id}' not in mapping, skipping {filename}")
+                    continue
+                title = GS_ABBREVIATION_TITLE_MAPPING.get(grundschutz_id, "Unknown")
+                d = Document(filename=filename, title=title, url_pdf=full_url)
+                fresh_docs_by_baustein[grundschutz_id].append(d)
 
-                        filename = Path(href).name.split("?")[0]
+            if not any(fresh_docs_by_baustein.values()):
+                self.logger.warning("[SKIP] No Grundschutz documents found on page, keeping existing data")
+                return
 
-                        grundschutz_id = self.extract_grundschutz_id_from_name(filename)
-                        title = GS_ABBREVIATION_TITLE_MAPPING.get(grundschutz_id, "Unknown")
+            # Merge fresh docs with existing, preserving version history
+            existing_bausteine_map = {b.id: b for b in repository.grundschutz_bausteine}
+            merged_bausteine = []
+            for baustein_id, fresh_docs in fresh_docs_by_baustein.items():
+                if baustein_id in existing_bausteine_map:
+                    baustein = existing_bausteine_map[baustein_id]
+                else:
+                    baustein = fresh_map[baustein_id]
 
-                        d = Document(filename=filename, title=title, url_pdf=full_url)
-                        grundschutz_map[grundschutz_id].documents.append(d)
+                existing_by_key = {(d.filename, d.url_pdf): d for d in baustein.documents}
+                merged_docs = []
+                for doc in fresh_docs:
+                    key = (doc.filename, doc.url_pdf)
+                    if key in existing_by_key:
+                        existing = existing_by_key[key]
+                        existing.title = existing.title or doc.title
+                        merged_docs.append(existing)
+                    else:
+                        self.logger.info(f"[NEW DOC] {doc.filename} in {baustein_id}")
+                        merged_docs.append(doc)
+                baustein.documents = merged_docs
+                merged_bausteine.append(baustein)
 
-                repository.grundschutz_bausteine = [
-                    grundschutz_map[k] for k in grundschutz_map
-                ]
-                # Save the GS links to a file
-                write_repository_to_file(repository, FILE_REPOSITORY)
+            repository.grundschutz_bausteine = merged_bausteine
+            write_repository_to_file(repository, repo_file)
 
         except Exception as e:
             self.logger.error(
@@ -748,6 +808,11 @@ class Scraper:
         
         if args.update_identifiers:
             self.update_identifiers()
+        
+        if args.full_sync:
+            self.fetch_tr_pdf_links(TR_OVERVIEW_PAGE)
+            self.fetch_grundschutz_pdf_links(GS_OVERVIEW_PAGE)
+            self.sync_all(force=args.force)
 
 
 def main():

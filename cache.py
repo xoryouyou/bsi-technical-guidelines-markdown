@@ -51,10 +51,14 @@ def load_repository_from_file(file) -> Repository:
     return repository
 
 def write_repository_to_file(repository: Repository, file):
-    # Write the PDF links to the file
-    with open(file, "w") as f:
-        f.write(repository.model_dump_json(indent=2))
+    import os
+    content = repository.model_dump_json(indent=2)
+    tmp_path = str(file) + ".tmp"
+    with open(tmp_path, "w") as f:
+        f.write(content)
         f.flush()
+        os.fsync(f.fileno())
+    os.replace(tmp_path, file)
 
 def hash_file(file) -> str:
     # Create a hash object
@@ -69,7 +73,7 @@ def hash_file(file) -> str:
 
 def download_file(url: str) -> tuple:
     # Download the file from the URL and save it to the specified filename
-    response = requests.get(url, stream=True)
+    response = requests.get(url, stream=True, timeout=(10, 60))
     if response.status_code == 200:
         # Create a temporary file
         hashsum = hashlib.sha256()
