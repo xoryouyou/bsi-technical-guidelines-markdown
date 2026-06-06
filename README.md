@@ -7,7 +7,7 @@ This repository contains all BSI technical guidelines (TRs) which are published 
 
 It was created out of necessity to provide all BSI TRs at a single location which can be adapted arbitrarily for them to become searchable and usable in tools like [obsidian](https://github.com/obsidianmd).  This also requires converting BSI TRs to a simple, text-based format (Markdown).
 
-The PDFs are converted using [Marker](https://github.com/VikParuchuri/marker) and [Ollama](https://github.com/ollama/ollama) to Markdown.
+The PDFs are converted using [pymupdf4llm](https://github.com/pymupdf/pymupdf4llm) to Markdown (for now).
 
 
 ## Setup
@@ -83,11 +83,9 @@ uv run scraper.py --hash-pdfs
 ```
 
 ### Conversion (PDF to Markdown)
-After varios llm approaches using [marker](https://github.com/datalab-to/marker), [docling](https://github.com/docling-project/docling), [mineru](https://github.com/opendatalab/mineru) and others.
+After various approaches using [marker](https://github.com/datalab-to/marker), [docling](https://github.com/docling-project/docling), [mineru](https://github.com/opendatalab/mineru) and others, [pymupdf4llm](https://github.com/pymupdf/pymupdf4llm) was chosen for now.
 
-I chose to  [pymupdf4llm](https://github.com/pymupdf/pymupdf4llm) for now.
-
-Simply run  `uv run convert.py` and all PDFs will be converted to markdown with extracted images next to them.
+Simply run `uv run convert.py` and all PDFs will be converted to Markdown with extracted images next to them.
 
 ### Repository Structure
 ```
@@ -449,6 +447,9 @@ markdown/            # Converted Markdown files
 | TR-03133 | Technische Richtlinie TR-03133 | [PDF](pdf/tr/TR-03133-Pruefspez_zu_TR-03132_1_8_1.pdf) | [MD](markdown/tr/TR-03133-Pruefspez_zu_TR-03132_1_8_1) |
 | TR-03133 | Technische Richtlinie TR-03133 | [PDF](pdf/tr/TR-03133-Pruefspez_zu_TR-03132_1_8_2.pdf) | [MD](markdown/tr/TR-03133-Pruefspez_zu_TR-03132_1_8_2) |
 | TR-03133 | Technische Richtlinie TR-03133 | [PDF](pdf/tr/TR-03133-Pruefspez_zu_TR-03132_1_8_3.pdf) | [MD](markdown/tr/TR-03133-Pruefspez_zu_TR-03132_1_8_3) |
+| TR-03135 | BSI Technical Guideline TR-03135-1 - Machine Authentication of MRTDs for Public Sector Applications - Part 1: Overview and Functional Requirements - Version 5.0.1 | [PDF](pdf/tr/BSI-TR-03135-1-v5_0_1.pdf) | [MD](markdown/tr/BSI-TR-03135-1-v5_0_1) |
+| TR-03135 | BSI Technical Guideline TR-03135-2 - Machine Authentication of MRTDs for Public Sector Applications - Part 2: Application profiles for official document inspection systems - Version 5.0.1 | [PDF](pdf/tr/BSI-TR-03135-2-v5_0_1.pdf) | [MD](markdown/tr/BSI-TR-03135-2-v5_0_1) |
+| TR-03135 | BSI Technical Guideline TR-03135-3 - Machine Authentication of MRTDs for Public Sector Applications - Part 3: High Level Document Check Interface Specification - Version 5.0.1 | [PDF](pdf/tr/BSI-TR-03135-3-v5_0_1.pdf) | [MD](markdown/tr/BSI-TR-03135-3-v5_0_1) |
 | TR-03135 | BSI Technical Guideline TR-03135-1 - Machine Authentication of MRTDs for Public Sector Applications - Part 1: Overview and Functional Requirements - Version 5.0.0 | [PDF](pdf/tr/BSI-TR-03135-1-v5.pdf) | - |
 | TR-03135 | BSI Technical Guideline TR-03135-2 - Machine Authentication of MRTDs for Public Sector Applications - Part 2: Application profiles for official document inspection systems - Version 5.0.0 | [PDF](pdf/tr/BSI-TR-03135-2-v5.pdf) | - |
 | TR-03135 | BSI Technical Guideline TR-03135-3 - Machine Authentication of MRTDs for Public Sector Applications - Part 3: High Level Document Check Interface Specification - Version 5.0.0 | [PDF](pdf/tr/BSI-TR-03135-3-v5.pdf) | - |
@@ -521,6 +522,7 @@ markdown/            # Converted Markdown files
 | TR-03153 | Technische Richtlinie BSI TR-03153-2 Testspezifikation | [PDF](pdf/tr/TR-03153_2_TS.pdf) | [MD](markdown/tr/TR-03153_2_TS) |
 | TR-03154 | TR-03154 - Fachmodul NFDM | [PDF](pdf/tr/TR-03154.pdf) | [MD](markdown/tr/TR-03154) |
 | TR-03155 | TR-03155 - Fachmodul AMTS | [PDF](pdf/tr/TR-03155.pdf) | [MD](markdown/tr/TR-03155) |
+| TR-03156 | BSI Technische Richtlinie TR-03156 - Hoheitliches Identitätsmanagement mit EU-Informationssystemen - Erstregistrierung von Drittstaatsangehörigen - Version 2.1.0 | [PDF](pdf/tr/BSI-TR-03156-2_1_v2.pdf) | [MD](markdown/tr/BSI-TR-03156-2_1_v2) |
 | TR-03156 | BSI Technische Richtlinie TR-03156 - Hoheitliches Identitätsmanagement mit EU-Informationssystemen - Teil 2: XML Schema Dokumentation - Band 1: Erstregistrierung von Drittstaatsangehörigen - Version 2.0.0 | [PDF](pdf/tr/BSI-TR-03156-2_1.pdf) | [MD](markdown/tr/BSI-TR-03156-2_1) |
 | TR-03157 | TR-03157 Fachmodul ePA | [PDF](pdf/tr/TR-03157.pdf) | [MD](markdown/tr/TR-03157) |
 | TR-03159 | Technical Guideline TR-03159 Mobile Identities - Part 1 | [PDF](pdf/tr/TR-03159-1.pdf) | [MD](markdown/tr/TR-03159-1) |
@@ -589,6 +591,8 @@ markdown/            # Converted Markdown files
 | TR-03183 | Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products | [PDF](pdf/tr/BSI-TR-03183-2_v2_2_0.pdf) | - |
 | TR-03183 | Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products | [PDF](pdf/tr/BSI-TR-03183-2_v2_0_0.pdf) | - |
 | TR-03183 | Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products | [PDF](pdf/tr/BSI-TR-03183-3_v0_9_0.pdf) | - |
+| TR-03183 | Technical Guideline TR-03183-H: Cyber Resilience Requirements for Manufacturers and Products - Version 1.0.0 (Community Draft) | [PDF](pdf/tr/BSI-TR-03183-H_v1_0_0.pdf) | [MD](markdown/tr/BSI-TR-03183-H_v1_0_0) |
+| TR-03183 | Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products - Part 2 | [PDF](<pdf/tr/BSI-TR-03183-2 (2).pdf>) | [MD](<markdown/tr/BSI-TR-03183-2 (2)>) |
 | TR-03184 | Technische Richtlinie BSI TR-03184 Informationssicherheit für Weltraumsysteme - Part 1 | [PDF](pdf/tr/BSI-TR-03184-1.pdf) | - |
 | TR-03184 | Technische Richtlinie BSI TR-03184-2 Informationssicherheit für Weltraumsysteme | [PDF](pdf/tr/BSI-TR-03184-2.pdf) | - |
 | TR-03184 | Technical Guideline BSI TR-03184 Information Security for Space Systems - Part 1: Space segment | [PDF](pdf/tr/BSI-TR-03184_part1.pdf) | [MD](markdown/tr/BSI-TR-03184_part1) |
@@ -598,6 +602,9 @@ markdown/            # Converted Markdown files
 | TR-03185 | Technical Guideline TR-03185: Secure Software Lifecycle Version 1.0 | [PDF](pdf/tr/BSI-TR-03185.pdf) | [MD](markdown/tr/BSI-TR-03185) |
 | TR-03185 | Technical Guideline TR-03185: Secure Software Lifecycle Version 1.0 | [PDF](pdf/tr/BSI-TR-03185.pdf) | [MD](markdown/tr/BSI-TR-03185) |
 | TR-03185 | BSI TR-03185-2 | [PDF](pdf/tr/BSI-TR-03185-2.pdf) | - |
+| TR-03185 | Technical Guideline TR-03185: Secure Software Lifecycle Version 1.0 | [PDF](<pdf/tr/BSI-TR-03185 (2).pdf>) | [MD](<markdown/tr/BSI-TR-03185 (2)>) |
+| TR-03187 | BSI TR-03187 Sicherheitsanforderungen an Urbane Datenplattformen | [PDF](pdf/tr/BSI-TR-03187.pdf) | [MD](markdown/tr/BSI-TR-03187) |
+| TR-03188 | BSI TR-03188: Technische Richtlinie Passkey Server | [PDF](pdf/tr/BSI-TR-03188.pdf) | [MD](markdown/tr/BSI-TR-03188) |
 | TR-03191 | Technical Guideline TR-03191: Common Security Advisory Framework (CSAF) | [PDF](pdf/tr/BSI-TR-03191.pdf) | [MD](markdown/tr/BSI-TR-03191) |
 | TR-03209 | Elektromagnetische Schirmung von Gebäuden -Theoretische Grundlagen - - Part 1 | [PDF](pdf/tr/BSI-TR-03209-1.pdf) | [MD](markdown/tr/BSI-TR-03209-1) |
 | TR-03209 | Elektromagnetische Schirmung von Gebäuden - Praktische Messungen - - Part 2 | [PDF](pdf/tr/BSI-TR-03209-2.pdf) | [MD](markdown/tr/BSI-TR-03209-2) |
