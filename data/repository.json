@@ -5217,15 +5217,15 @@
           ]
         },
         {
-          "filename": "BSI-TR-03183-H_v1_0_0.pdf",
+          "filename": "BSI-TR-03183-H_v1_1_0.pdf",
           "identifier": "BSI TR-03183",
           "title": "Technical Guideline TR-03183-H - Conformity based on full quality assurance (Module H)",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-H_v1_0_0.pdf?__blob=publicationFile",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-H_v1_1_0.pdf?__blob=publicationFile",
           "versions": [
             {
-              "sha256": "ef1ec616bd8154e6cb5c5ed7d8fa4b54849374968e174b870cde6169672af037",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-H_v1_0_0.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-06-04T12:20:50.623253",
+              "sha256": "3edb12d6ba0738d2636ead923c53cc10630586d1d2807e328db51dd30ef4cb68",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-H_v1_1_0.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-12T23:04:42.866724",
               "latest": true
             }
           ]
@@ -5282,6 +5282,20 @@
               "sha256": "cd7b21acebd36cc95f8f4351b3b54ee3b955f2d6f10ec4d5035ec00225c822c2",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-3_v0_9_0.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T14:14:29.567615",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "BSI-TR-03183-H_v1_0_0.pdf",
+          "identifier": "BSI TR-03183",
+          "title": "Technical Guideline TR-03183-H - Conformity based on full quality assurance (Module H)",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-H_v1_0_0.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "ef1ec616bd8154e6cb5c5ed7d8fa4b54849374968e174b870cde6169672af037",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-H_v1_0_0.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-04T12:20:50.623253",
               "latest": true
             }
           ]
