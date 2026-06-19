@@ -4374,20 +4374,6 @@
       "url_overview_page": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03156/TR-03156_node.html",
       "documents": [
         {
-          "filename": "BSI-TR-03156-2_1_v2.pdf",
-          "identifier": "BSI TR-03156-2-1",
-          "title": "BSI Technische Richtlinie TR-03156 ERD - Hoheitliches Identitätsmanagement mit EU-Informationssystemen - Erstregistrierung von Drittstaatsangehörigen",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03156/BSI-TR-03156-2_1_v2.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "fa2b8617e44a8f286304c96cc7774c70c1d1b09db002dcecba8e6996f5ca8560",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03156/BSI-TR-03156-2_1_v2.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-06-04T12:18:50.703639",
-              "latest": true
-            }
-          ]
-        },
-        {
           "filename": "BSI-TR-03156-2_1.pdf",
           "identifier": "BSI TR-03156-2-1",
           "title": "BSI Technische Richtlinie TR-03156 - Hoheitliches Identitätsmanagement mit EU-Informationssystemen - Teil 2: XML Schema Dokumentation - Band 1: Erstregistrierung von Drittstaatsangehörigen - Version 2.0.0",
@@ -4843,6 +4829,12 @@
               "sha256": "b32d03f39519322b5f9cae31208a0d35162007897f225513d975954cbf890a98",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03171/BSI-TR-03171.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.918135",
+              "latest": false
+            },
+            {
+              "sha256": "5c06d4c5f7c6d759bf936757233b82d4a817c50bbd58d565349789f8df04abe4",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03171/BSI-TR-03171.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-06-19T22:50:01.993324",
               "latest": true
             }
           ]
