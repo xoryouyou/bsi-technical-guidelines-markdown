@@ -4044,7 +4044,36 @@
       "id": "TR-03150",
       "title": "BSI TR-03150 Plan for Testing of Contactless Media and Readers for Conformance with CEN/TS 16794:2017",
       "url_overview_page": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03150/tr03150_node.html",
-      "documents": []
+      "documents": [
+        {
+          "filename": "TR-03150-1.pdf",
+          "identifier": "BSI TR-03150-1",
+          "title": "Test Plan for Official Electronic ID Documents with Secure Contactless Integrated Circuit",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03150/TR-03150-1.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "ba98513e52bec0b29c836946d3fcd88f478897143be6a7abcbc475edf2596af5",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03150/TR-03150-1.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-07-03T22:48:26.038708",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "TR-03150-2.pdf",
+          "identifier": "BSI TR-03150-2",
+          "title": "Test Plan for Official Electronic ID Documents with Secure Contactless Integrated Circuit",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03150/TR-03150-2.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "d5cf437579a70ee17453ba5b2e4d570f4ff8eab6fd2a6706d332813542cfb682",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03150/TR-03150-2.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-07-03T22:48:28.938785",
+              "latest": true
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "TR-03151",
@@ -5328,6 +5357,20 @@
           ]
         },
         {
+          "filename": "BSI-TR-03184.pdf",
+          "identifier": "BSI TR-03184",
+          "title": "BSI TR-03184 Informationssicherheit für Weltraumsysteme",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03184/BSI-TR-03184.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "7ac238d320575002706656d8b41832467b13188a1c1dc5738c31effa929349ff",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03184/BSI-TR-03184.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-07-03T22:52:45.844197",
+              "latest": true
+            }
+          ]
+        },
+        {
           "filename": "BSI-TR-03184_part1.pdf",
           "identifier": "BSI TR-03184-1",
           "title": "Technical Guideline BSI TR-03184 Information Security for Space Systems - Part 1: Space segment",
@@ -5530,15 +5573,15 @@
       "url_overview_page": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03188/TR-03188_node.html",
       "documents": [
         {
-          "filename": "BSI-TR-03188.pdf",
+          "filename": "BSI-TR-03188_V1.pdf",
           "identifier": "BSI TR-03188",
           "title": "BSI TR-03188: Technische Richtlinie Passkey Server",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03188/BSI-TR-03188.pdf?__blob=publicationFile",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03188/BSI-TR-03188_V1.pdf?__blob=publicationFile",
           "versions": [
             {
-              "sha256": "3d54f2de7f7503532e433cdb5ede8df4d22c2efc3d96ac25a881606a15d2815f",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03188/BSI-TR-03188.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-06-04T12:21:34.374137",
+              "sha256": "306c9651717b86dfdcc42bf9010721b480c3e367f60152f8154c6a6b5ee8156a",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03188/BSI-TR-03188_V1.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-07-03T22:53:23.994176",
               "latest": true
             }
           ]
