@@ -5359,13 +5359,19 @@
         {
           "filename": "BSI-TR-03184.pdf",
           "identifier": "BSI TR-03184",
-          "title": "BSI TR-03184 Informationssicherheit für Weltraumsysteme",
+          "title": "Technische Richtlinie TR-03184: Prüfanforderungen für Weltraumsysteme",
           "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03184/BSI-TR-03184.pdf?__blob=publicationFile",
           "versions": [
             {
               "sha256": "7ac238d320575002706656d8b41832467b13188a1c1dc5738c31effa929349ff",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03184/BSI-TR-03184.pdf?__blob=publicationFile",
               "retrieved_at": "2026-07-03T22:52:45.844197",
+              "latest": false
+            },
+            {
+              "sha256": "3fa97eb27d99198cc560658bce58c15831348705c9d4a086d554bbca3a4da7d8",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03184/BSI-TR-03184.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-07-10T22:52:52.448353",
               "latest": true
             }
           ]
