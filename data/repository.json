@@ -775,6 +775,26 @@
               "sha256": "7165ea9b60a4017994c61bbdeaec9dc7c1b7764d0fa4cde1865df9e64526d6c2",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03105/TR-03105_Part5.2_V2.0.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.496828",
+              "latest": false
+            },
+            {
+              "sha256": "e28c84cc9355cd2aaa8dd257a7c6fb732175aeaddfb46cebcc00bd726b8a31b3",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03105/TR-03105_Part5.2_V2.0.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-07-31T22:35:35.476236",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "TR-03105_Part5.2_V1.2.pdf",
+          "identifier": "BSI TR-03105-5",
+          "title": "Test plan for eID and eSign compliant eCard reader systems with EAC 2",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03105/TR-03105_Part5.2_V1.2.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "6d602a29e808b8d01dc81a9ac611a846a53ce9c081d5469782816aead00e1f81",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03105/TR-03105_Part5.2_V1.2.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-07-31T22:35:42.556653",
               "latest": true
             }
           ]
@@ -3988,6 +4008,20 @@
               "latest": true
             }
           ]
+        },
+        {
+          "filename": "Evaluation_Guidance_Injection_Attacks.pdf",
+          "identifier": "BSI TR-03147",
+          "title": "Evaluation Guidance - Injection Attacks",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03147/Evaluation_Guidance_Injection_Attacks.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "b327bd053157e7b36dc32e953f25dd09629efd927917dc9b12f8708e2768c043",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03147/Evaluation_Guidance_Injection_Attacks.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-07-31T22:48:53.318562",
+              "latest": true
+            }
+          ]
         }
       ]
     },
@@ -4976,13 +5010,19 @@
         {
           "filename": "BSI-TR-03174-1.pdf",
           "identifier": "BSI TR-03174-1",
-          "title": "Anforderungen an Anwendungen im Gesundheitswesen",
+          "title": "Sichere Anwendungen im Finanzwesen",
           "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03174/BSI-TR-03174-1.pdf?__blob=publicationFile",
           "versions": [
             {
               "sha256": "5cdf3756ba50c4c8cb525dd43fce61582e3b045b407cab66c91e9ebb8a7ebb91",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03174/BSI-TR-03174-1.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.928769",
+              "latest": false
+            },
+            {
+              "sha256": "60d75d32d7b7c62eb20e37cbd084ded720de050944d6eeb47e6a2816abc4f5ed",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03174/BSI-TR-03174-1.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-07-31T22:52:08.374981",
               "latest": true
             }
           ]
@@ -4990,13 +5030,19 @@
         {
           "filename": "BSI-TR-03174-2.pdf",
           "identifier": "BSI TR-03174-2",
-          "title": "Anforderungen an Anwendungen im Gesundheitswesen",
+          "title": "Sichere Anwendungen im Finanzwesen",
           "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03174/BSI-TR-03174-2.pdf?__blob=publicationFile",
           "versions": [
             {
               "sha256": "f614352801feb98ac462d0d776539a7ed0fcedae4c0e7d8eb7e766fc5ffc7b3c",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03174/BSI-TR-03174-2.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.930055",
+              "latest": false
+            },
+            {
+              "sha256": "d5c5b3b37b98487ca3a0de3882a2597ac3ecc8e7cb8fc0ac4070e46476c46c17",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03174/BSI-TR-03174-2.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-07-31T22:52:10.269368",
               "latest": true
             }
           ]
@@ -5004,13 +5050,19 @@
         {
           "filename": "BSI-TR-03174-3.pdf",
           "identifier": "BSI TR-03174-3",
-          "title": "Technische Richtlinie TR-03174: Anforderungen an Anwendungen im Finanzwesen",
+          "title": "Anforderungen an Anwendungen im Finanzwesen",
           "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03174/BSI-TR-03174-3.pdf?__blob=publicationFile",
           "versions": [
             {
               "sha256": "2a9c8cbe26acc476f1f70977a0cbf0daaad4cc332fd98d403a74473ce86227ff",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03174/BSI-TR-03174-3.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.931310",
+              "latest": false
+            },
+            {
+              "sha256": "e0b97bcc2c5558304ee0cada470a7dab8f787d3acb35e5dfeef8e57dcecee0b9",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03174/BSI-TR-03174-3.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-07-31T22:52:14.894818",
               "latest": true
             }
           ]
@@ -5196,15 +5248,15 @@
       "url_overview_page": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03183/TR-03183_node.html",
       "documents": [
         {
-          "filename": "BSI-TR-03183-1_v0_10_0.pdf",
+          "filename": "BSI-TR-03183-1_v1_0_0.pdf",
           "identifier": "BSI TR-03183-1",
-          "title": "Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-1_v0_10_0.pdf?__blob=publicationFile",
+          "title": "Technical Guideline TR-03183-1",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-1_v1_0_0.pdf?__blob=publicationFile",
           "versions": [
             {
-              "sha256": "3181a3643f7aed41beeee7bc949a2e84e323b5e77d9d521bb1ced7afff7a1d14",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-1_v0_10_0.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T14:14:16.868065",
+              "sha256": "db5f5bfed4664faae75d13f3deb0c9140d13f8d10764f013b84e5ca912b969ef",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-1_v1_0_0.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-07-31T22:52:52.998083",
               "latest": true
             }
           ]
@@ -5252,29 +5304,15 @@
           ]
         },
         {
-          "filename": "BSI-TR-03183-2.pdf",
-          "identifier": "BSI TR-03183-2",
-          "title": "Technische Richtlinie TR-03183: Cyber-Resilienz-Anforderungen an Hersteller und Produkte",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03183/BSI-TR-03183-2.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "5b769dad339ac76817b1c961550099791a6849dfb3268416f87bb869311a8e46",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03183/BSI-TR-03183-2.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.940874",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03183-2_v2_2_0.pdf",
-          "identifier": "BSI TR-03183-2",
+          "filename": "BSI-TR-03183-1_v0_10_0.pdf",
+          "identifier": "BSI TR-03183-1",
           "title": "Technical Guideline TR-03183: Cyber Resilience Requirements for Manufacturers and Products",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-2_v2_2_0.pdf?__blob=publicationFile",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-1_v0_10_0.pdf?__blob=publicationFile",
           "versions": [
             {
-              "sha256": "62818650412344c17bfbac5e1866d86416ccef61988c8c906ae7c535432f93cc",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-2_v2_2_0.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T14:14:25.764301",
+              "sha256": "3181a3643f7aed41beeee7bc949a2e84e323b5e77d9d521bb1ced7afff7a1d14",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03183/BSI-TR-03183-1_v0_10_0.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-02-13T14:14:16.868065",
               "latest": true
             }
           ]
