@@ -5458,6 +5458,26 @@
         {
           "filename": "BSI-TR-03185.pdf",
           "identifier": "BSI TR-03185",
+          "title": "BSI TR-03185 Secure Software Lifecycle",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03185/BSI-TR-03185.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "93fff2a250781eaec17e49aa7582a5cc3852ac350d26492f46f8c0b1945e9948",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03185/BSI-TR-03185.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-02-13T14:14:53.693801",
+              "latest": false
+            },
+            {
+              "sha256": "199c87754dec3eab884c18da6c3f6030e6fa7ced282f06e87fed7fe7841e8329",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03185/BSI-TR-03185.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-08-21T22:42:42.981383",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "BSI-TR-03185.pdf",
+          "identifier": "BSI TR-03185",
           "title": "BSI TR-03185 Sicherer Software-Lebenszyklus",
           "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03185/BSI-TR-03185.pdf?__blob=publicationFile",
           "versions": [
@@ -5471,34 +5491,6 @@
               "sha256": "5f507a35cb3477273622fc58adc7731e44f559f860ed793267e1fb52ae72ddb0",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03185/BSI-TR-03185.pdf?__blob=publicationFile",
               "retrieved_at": "2026-06-04T12:21:12.961576",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03185-2.pdf",
-          "identifier": "BSI TR-03185-2",
-          "title": "BSI TR-03185-2",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03185/BSI-TR-03185-2.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "89f4993ac19dfb6cf4df6dfb2e97f458504e7165e77a05ee3ac1a58c8202192d",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03185/BSI-TR-03185-2.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T14:14:55.695167",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "BSI-TR-03185.pdf",
-          "identifier": "BSI TR-03185",
-          "title": "Technical Guideline TR-03185: Secure Software Lifecycle Version 1.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03185/BSI-TR-03185.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "93fff2a250781eaec17e49aa7582a5cc3852ac350d26492f46f8c0b1945e9948",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03185/BSI-TR-03185.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T14:14:53.693801",
               "latest": true
             }
           ]
