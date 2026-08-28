@@ -5629,6 +5629,27 @@
           ]
         }
       ]
+    },
+    {
+      "id": "TR-03192",
+      "title": "BSI TR-03192: Wahlunterstützungssoftware: Schnellmeldungen",
+      "url_overview_page": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03192/TR-03192_node.html",
+      "documents": [
+        {
+          "filename": "BSI-TR-03192-Entwurf.pdf",
+          "identifier": "BSI TR-03192",
+          "title": "Technische Richtlinie BSI TR-03192 Wahlunterstützungssoftware: Schnellmeldungen",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03192/BSI-TR-03192-Entwurf.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "edcbbaf2adfcfd9d920cccdf1c27f9d4f5290ae5d5de94cd45e61b1db12a641d",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03192/BSI-TR-03192-Entwurf.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-08-28T23:06:59.195392",
+              "latest": true
+            }
+          ]
+        }
+      ]
     }
   ],
   "grundschutz_bausteine": [
