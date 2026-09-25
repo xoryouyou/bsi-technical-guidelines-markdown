@@ -3454,6 +3454,12 @@
               "sha256": "9d5fa578509076f45d44259f6e911c1e8b78a60ef7d5411e20c1c8292c106885",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03137/BSI-TR-03137_Part1.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.819760",
+              "latest": false
+            },
+            {
+              "sha256": "d7d4b481981e880fb504ad04cd5df5c9d5dd599dfe063332b67b1849f78a0f51",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03137/BSI-TR-03137_Part1.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-09-25T22:29:35.926132",
               "latest": true
             }
           ]
@@ -4825,6 +4831,62 @@
       "title": "BSI TR-03170 Sichere elektronische Übermittlung von Lichtbildern an die Pass-, Personalausweis- oder Ausländerbehörden",
       "url_overview_page": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03170/TR-03170_node.html",
       "documents": [
+        {
+          "filename": "BSI_TR_03170_v1_3_Rahmendokument.pdf",
+          "identifier": "BSI TR-03170",
+          "title": "TR-03170 - Rahmendokument",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03170/BSI_TR_03170_v1_3_Rahmendokument.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "4852471d7c00e4bd9514e3be56aec24469314428464b2e1975ab3e7eb8f095f5",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03170/BSI_TR_03170_v1_3_Rahmendokument.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-09-25T22:33:57.107472",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "BSI_TR_03170_v1_3_Teil_1.pdf",
+          "identifier": "BSI TR-03170-1",
+          "title": "TR-03170 - Teil 1 - Cloud",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03170/BSI_TR_03170_v1_3_Teil_1.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "db876602f27482414286c9076ae9fab9bec36118629801f9aaa3e4ae604f05f7",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03170/BSI_TR_03170_v1_3_Teil_1.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-09-25T22:34:00.014003",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "BSI_TR_03170_v1_3_Teil_2.pdf",
+          "identifier": "BSI TR-03170-2",
+          "title": "TR-03170 - Teil 2 - Anwendung",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03170/BSI_TR_03170_v1_3_Teil_2.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "bb0aa87ef34cce60fb434572e9ae01c2389755e75323ce58adc83a473437e11d",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03170/BSI_TR_03170_v1_3_Teil_2.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-09-25T22:34:03.990246",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "BSI-TR-03170_v1_3_Pruefspezifikation.pdf",
+          "identifier": "BSI TR-03170",
+          "title": "TR-03170 Prüfspezifikation",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03170/BSI-TR-03170_v1_3_Pruefspezifikation.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "be5f66c209fde271237a33521abb3e2b0655fc9bcfc256acfd50f64e3355c385",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03170/BSI-TR-03170_v1_3_Pruefspezifikation.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-09-25T22:34:06.150811",
+              "latest": true
+            }
+          ]
+        },
         {
           "filename": "BSI_TR_03170_Rahmendokument.pdf",
           "identifier": "BSI TR-03170",
