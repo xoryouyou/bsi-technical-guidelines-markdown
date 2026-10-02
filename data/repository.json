@@ -341,6 +341,20 @@
           ]
         },
         {
+          "filename": "Hinweis_Classic_McEliece.pdf",
+          "identifier": "BSI TR-02102",
+          "title": "Hinweise zu aktuellen Entwicklungen um Classic McEliece",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Krypto/Hinweis_Classic_McEliece.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "91080d26a4d0a04ce44f9ebf2bb7e07b705e91976933da31bb2004ad086d38b9",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Krypto/Hinweis_Classic_McEliece.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-10-02T22:24:00.167023",
+              "latest": true
+            }
+          ]
+        },
+        {
           "filename": "BSI-TR-02102-2.pdf",
           "identifier": "BSI TR-02102-2",
           "title": "Technische Richtlinie TR-02102-2: Verwendung von Transport Layer Security (TLS)",
@@ -2209,13 +2223,19 @@
         {
           "filename": "BSI_TR_03125_Anlage_E_V1_3.pdf",
           "identifier": "BSI TR-03125",
-          "title": "BSI TR-ESOR-E Konkretierung der Schnittstellen auf Basis des eCard-API-Frameworks",
+          "title": "BSI TR-ESOR-E Konkretierung der Schnittstellen auf Basis des eCard-API-Frameworks und ETSI TS 119 512",
           "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_E_V1_3.pdf?__blob=publicationFile",
           "versions": [
             {
               "sha256": "3aff6ea39845551a5474a6c1e4d848f70d05a7108f743da7152af9d18c7776f0",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_E_V1_3.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.660653",
+              "latest": false
+            },
+            {
+              "sha256": "dd45a03dcc3a0e92e0671187bc7a37a22ecfd49203f8a6a73b5c4ffa14c91596",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_E_V1_3.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-10-02T22:37:12.676643",
               "latest": true
             }
           ]
@@ -2230,6 +2250,12 @@
               "sha256": "e05436255ea4d88ae3602d54d1c506fcc9120ba6b299421b7ffcf42c76b28c55",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_F_V1_3.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T13:58:06.665067",
+              "latest": false
+            },
+            {
+              "sha256": "9822ddd815f8aaf9de6e173c51944a47d68bb455b76c03cb48503d6f494b370d",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03125/BSI_TR_03125_Anlage_F_V1_3.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-10-02T22:37:20.604009",
               "latest": true
             }
           ]
