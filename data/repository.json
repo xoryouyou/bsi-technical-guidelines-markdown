@@ -473,15 +473,15 @@
       "url_overview_page": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03104/TR-03104_node.html",
       "documents": [
         {
-          "filename": "BSI_TR-03104-PDUhD_Version-3-3-0.pdf",
+          "filename": "BSI_TR-03104-PDUhD_Version-3-4-0.pdf",
           "identifier": "BSI TR-03104",
-          "title": "BSI TR-03104 (TR PDÜ hD)",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03104/BSI_TR-03104-PDUhD_Version-3-3-0.pdf?__blob=publicationFile",
+          "title": "Technische Richtlinie TR-03104 (PDÜ hD) - Produktionsdatenerfassung, -qualitätsprüfung und -übermittlung für hoheitliche Dokumente - Version 3.4.0 vom 29. Oktober 2026",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03104/BSI_TR-03104-PDUhD_Version-3-4-0.pdf?__blob=publicationFile",
           "versions": [
             {
-              "sha256": "d20196e8b61248fda1d429538c4fc021b21872e80f0fb982aed7c0e71db01667",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03104/BSI_TR-03104-PDUhD_Version-3-3-0.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.412755",
+              "sha256": "ccdd9a53807d3f16b917d8b1bd0427d2b81e4c1346b37cf5dbb776ff152acb0b",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03104/BSI_TR-03104-PDUhD_Version-3-4-0.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-10-30T22:17:19.014419",
               "latest": true
             }
           ]
@@ -1619,6 +1619,62 @@
       "url_overview_page": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03121/TR-03121_node.html",
       "documents": [
         {
+          "filename": "TR-03121-1_Biometrics_7_1.pdf",
+          "identifier": "BSI TR-03121-1",
+          "title": "BSI Technical Guideline TR-03121-1 - Biometrics for Public Sector Applications - Part 1: Framework - Version 7.1",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-1_Biometrics_7_1.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "14084211e44636d9c44216ea0bc446612aee361e640a95bbf3d58176c1d971dc",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-1_Biometrics_7_1.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-10-30T22:21:48.866545",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "TR-03121-3_1_Biometrics_7_1.pdf",
+          "identifier": "BSI TR-03121-3-1",
+          "title": "BSI Technical Guideline TR-03121-3 - Biometrics for Public Sector Applications - Part 3: Application Profiles, Function Modules and Processes - Volume 1: Border Control (BCL) - Version 7.1",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-3_1_Biometrics_7_1.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "5df8207a2873620cf7e08eda1a47f262cfde5c49e25a9c4af7c913398081d4f1",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-3_1_Biometrics_7_1.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-10-30T22:21:52.887106",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "TR-03121-3_2_Biometrics_GID_7_1.pdf",
+          "identifier": "BSI TR-03121-3-2",
+          "title": "BSI Technical Guideline TR-03121-3 - Biometrics for Public Sector Applications - Part 3: Application Profiles, Function Modules and Processes - Volume 2: German Identity Documents (GID) - Version 7.1",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-3_2_Biometrics_GID_7_1.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "d9acdca3fe71bb9f506bb6d1349dc65c38730d5f240d78a29cc00180598d698c",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-3_2_Biometrics_GID_7_1.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-10-30T22:21:55.892503",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "TR-03121-3_4_Biometrics_7_1.pdf",
+          "identifier": "BSI TR-03121-3-4",
+          "title": "BSI Technical Guideline TR-03121-3 - Biometrics for Public Sector Applications - Part 3: Application Profiles, Function Modules and Processes - Volume 4: Alien Register Enrolment (ARE) - Version 7.1",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-3_4_Biometrics_7_1.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "e6de09a53cd61f51f58e7de42d1d335a1576ca5f677c2605d5359167a196116a",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-3_4_Biometrics_7_1.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-10-30T22:21:57.748187",
+              "latest": true
+            }
+          ]
+        },
+        {
           "filename": "TR-03121-1_Biometrics_7_0.pdf",
           "identifier": "BSI TR-03121-1",
           "title": "BSI Technical Guideline TR-03121-1 - Biometrics for Public Sector Applications - Part 1: Framework - Version 7.0",
@@ -1701,90 +1757,6 @@
               "latest": true
             }
           ]
-        },
-        {
-          "filename": "TR-03121-1_Biometrics_6_0.pdf",
-          "identifier": "BSI TR-03121-1",
-          "title": "BSI Technical Guideline TR-03121-1 - Biometrics for Public Sector Applications - Part 1: Framework - Version 6.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-1_Biometrics_6_0.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "4a0b3fa4e03442b8b6825795bf4d2861fa996bddc545abe961768a4657702ee9",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-1_Biometrics_6_0.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.576150",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03121-2-2_Biometrics_6_0.pdf",
-          "identifier": "BSI TR-03121-2-2",
-          "title": "BSI Technical Guideline TR-03121-2 - Biometrics for Public Sector Applications - Part 2: Software Architecture - Volume 2: High Level Biometric Services (HLBS) - Version 6.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-2-2_Biometrics_6_0.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "faf903cc874c7b7d113a84ce5d646d263c6f4c5d21df4fd4863be632b8819513",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-2-2_Biometrics_6_0.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.577763",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03121-3_1_Biometrics_6_0.pdf",
-          "identifier": "BSI TR-03121-3-1",
-          "title": "BSI Technical Guideline TR-03121-3 - Biometrics for Public Sector Applications - Part 3: Application Profiles, Function Modules and Processes - Volume 1: Border Control (BCL) - Version 6.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-3_1_Biometrics_6_0.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "622fad185b788bfb25547305617a43b6dbe57221fbf071c8c2afd7090a7ae66f",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-3_1_Biometrics_6_0.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.579373",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03121-3_2_Biometrics_GID_6_0.pdf",
-          "identifier": "BSI TR-03121-3-2",
-          "title": "BSI Technical Guideline TR-03121-3 - Biometrics for Public Sector Applications - Part 3: Application Profiles, Function Modules and Processes - Volume 2: German Identity Documents (GID) - Version 6.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-3_2_Biometrics_GID_6_0.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "6178ea47dc1a00a5ef72122f44493330271c200c491642378e7b8299fd703cf8",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-3_2_Biometrics_GID_6_0.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.581146",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03121-3_4_Biometrics_6_0.pdf",
-          "identifier": "BSI TR-03121-3-4",
-          "title": "BSI Technical Guideline TR-03121-3 - Biometrics for Public Sector Applications - Part 3: Application Profiles, Function Modules and Processes - Volume 4: Alien Register Enrolment (ARE) - Version 6.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-3_4_Biometrics_6_0.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "9a52e27ed02ac588a588b9a037fb0539e5c8e4ef02f158f9cbd4166fd46cd816",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-3_4_Biometrics_6_0.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.582333",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03121-3-6_Biometrics_6_0.pdf",
-          "identifier": "BSI TR-03121-3-6",
-          "title": "BSI Technical Guideline TR-03121-3 - Biometrics for Public Sector Applications - Part 3: Application Profiles, Function Modules and Processes - Volume 6: Immigration Authorities (IMA) - Version 6.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-3-6_Biometrics_6_0.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "11168a7108843d68474adbaa624c5dcd699ddb7243956aa9230a6a33f2065dc5",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03121/TR-03121-3-6_Biometrics_6_0.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.583634",
-              "latest": true
-            }
-          ]
         }
       ]
     },
@@ -1793,6 +1765,34 @@
       "title": "BSI TR-03122 Konformitätstestspezifikation zur Technischen Richtlinie TR-03121 Biometrie in hoheitlichen Anwendungen",
       "url_overview_page": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03122/TR-03122_node.html",
       "documents": [
+        {
+          "filename": "TR-03122-1_v7_1.pdf",
+          "identifier": "BSI TR-03122-1",
+          "title": "Technical Guideline TR-03122-1 - Conformance Test Specification for BSI TR-03121 Biometrics for Public Sector Applications - Part 1: Framework - Version 7.1",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03122/TR-03122-1_v7_1.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "cd73f9a866ed5e42af53af127c360e24c93966508d8c178de2b08930924334a3",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03122/TR-03122-1_v7_1.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-10-30T22:22:21.688933",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "TR-03122-3_v7_1.pdf",
+          "identifier": "BSI TR-03122-3",
+          "title": "Technical Guideline TR-03122-3 - Conformance Test Specification for BSI TR-03121 Biometrics for Public Sector Applications - Part 3: Test Cases for Function Modules and Processes - Version 7.1",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03122/TR-03122-3_v7_1.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "b8e6c0706f83627422b255c1ca25efafc1cd0f451f3dfdb2ffb221e116e34f67",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03122/TR-03122-3_v7_1.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-10-30T22:22:26.219104",
+              "latest": true
+            }
+          ]
+        },
         {
           "filename": "TR-03122-1_v7_0.pdf",
           "identifier": "BSI TR-03122-1",
@@ -1831,76 +1831,6 @@
               "sha256": "144daa7144f8bdddc0c3fc902f494b54c3c3c193019ee4aa564758413be39752",
               "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03122/TR-03122-3_v7_0.pdf?__blob=publicationFile",
               "retrieved_at": "2026-02-13T14:04:21.514026",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03122-1_v6_0.pdf",
-          "identifier": "BSI TR-03122-1",
-          "title": "Technical Guideline TR-03122-1 - Conformance Test Specification for BSI TR-03121 Biometrics for Public Sector Applications - Part 1: Framework - Version 6.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03122/TR-03122-1_v6_0.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "659dfb01b487541e990b6eb9924087a4cf8902fdf6b349f71b6df03729fc7c50",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03122/TR-03122-1_v6_0.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.584594",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03122-2_v6_0.pdf",
-          "identifier": "BSI TR-03122-2",
-          "title": "Technical Guideline TR-03122-2 - Conformance Test Specification for BSI TR-03121 Biometrics for Public Sector Applications - Part 2: Test Cases for High Level Biometric Services (HLBS) - Version 6.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03122/TR-03122-2_v6_0.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "382a8d8fdef0931825a104e96cfa1231d00cda5947db1a966ef728bbd235dc9b",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03122/TR-03122-2_v6_0.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.586404",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03122-3_v6_0.pdf",
-          "identifier": "BSI TR-03122-3",
-          "title": "Technical Guideline TR-03122-3 - Conformance Test Specification for BSI TR-03121 Biometrics for Public Sector Applications - Part 3: Test Cases for Function Modules and Processes - Version 6.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03122/TR-03122-3_v6_0.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "2540433babc45cbbd9acc7e2f615645cac3540fc951d1088083950fab2c9c9dc",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03122/TR-03122-3_v6_0.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.590616",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03122-3-Addendum.pdf",
-          "identifier": "BSI TR-03122-3",
-          "title": "Technical Guideline TR-03122-3 - Conformance Test Specification for BSI TR-03121 Biometrics for Public Sector Applications - Addendum Part 3: Additional Test Cases for FM AH-FI-DC2 - Version 6.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03122/TR-03122-3-Addendum.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "ed89226935a701b96a6b25c7d7fe41b1e603dd00b8786e3b4d55dd0e684c8917",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03122/TR-03122-3-Addendum.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T13:58:06.590952",
-              "latest": true
-            }
-          ]
-        },
-        {
-          "filename": "TR-03122-3-Addendum-2.pdf",
-          "identifier": "BSI TR-03122-3",
-          "title": "Technical Guideline TR-03122-3 - Conformance Test Specification for BSI TR-03121 Biometrics for Public Sector Applications - Second Addendum Part 3: Additional Test Cases for FM AS-FI-ICS2 - Version 6.0",
-          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03122/TR-03122-3-Addendum-2.pdf?__blob=publicationFile",
-          "versions": [
-            {
-              "sha256": "8a335f920444574b2970177541b1bb8d719e546b90d314c7243d29d10a6728f8",
-              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/EN/BSI/Publications/TechGuidelines/TR03122/TR-03122-3-Addendum-2.pdf?__blob=publicationFile",
-              "retrieved_at": "2026-02-13T14:04:39.347777",
               "latest": true
             }
           ]
@@ -4474,6 +4404,20 @@
       "title": "BSI TR-03156 Hoheitliches Identitätsmanagement mit EU-Informationssystemen",
       "url_overview_page": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03156/TR-03156_node.html",
       "documents": [
+        {
+          "filename": "BSI-TR-03156-2_v2_1_0.pdf",
+          "identifier": "BSI TR-03156-2",
+          "title": "BSI Technische Richtlinie TR-03156 ERD - Hoheitliches Identitätsmanagement in Verbindung mit EU-Informationssystemen - Erstregistrierung von Drittstaatsangehörigen - ERD - Version 2.1.0",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03156/BSI-TR-03156-2_v2_1_0.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "80249795f0ebe9e30e3f7a7a85b3232ae148484763b64e3ab2d094fdd61d4173",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03156/BSI-TR-03156-2_v2_1_0.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-10-30T22:31:34.732894",
+              "latest": true
+            }
+          ]
+        },
         {
           "filename": "BSI-TR-03156-2_1.pdf",
           "identifier": "BSI TR-03156-2-1",
