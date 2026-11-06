@@ -1843,6 +1843,48 @@
       "url_overview_page": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/Technische-Richtlinien/TR-nach-Thema-sortiert/tr03123/TR-03123_node.html",
       "documents": [
         {
+          "filename": "TR-03123-1-XhD-1_v183.pdf",
+          "identifier": "BSI TR-03123-1",
+          "title": "XML-Datenaustauschformat für hoheitliche Dokumente (XhD) - Technische Richtlinie TR-03123 - Teil 1: Rahmenwerk - Version 1.8.3 vom 29. Oktober 2026",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03123/TR-03123-1-XhD-1_v183.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "320d48323c603521db52fcb19df849925bc28c0374ecc88e38a817b1dee67fdc",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03123/TR-03123-1-XhD-1_v183.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-11-06T22:21:39.237548",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "TR-03123-2-XhD-1_v183.pdf",
+          "identifier": "BSI TR-03123-2",
+          "title": "XML-Datenaustauschformat für hoheitliche Dokumente (XhD) - Technische Richtlinie TR-03123 - Teil 2: Dokumentenprofile - Version 1.8.3 vom 29. Oktober 2026",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03123/TR-03123-2-XhD-1_v183.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "e758e5ef3c2ce0a1fc4764fafdd39fa01bc1fe06b4677f82425f7ca13e232484",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03123/TR-03123-2-XhD-1_v183.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-11-06T22:21:41.562867",
+              "latest": true
+            }
+          ]
+        },
+        {
+          "filename": "TR-03123-3-XhD-1_v183.pdf",
+          "identifier": "BSI TR-03123-3",
+          "title": "XML-Datenaustauschformat für hoheitliche Dokumente (XhD) - Technische Richtlinie TR-03123 - Teil 3: Funktionsmodule - Version 1.8.3 vom 29. Oktober 2026",
+          "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03123/TR-03123-3-XhD-1_v183.pdf?__blob=publicationFile",
+          "versions": [
+            {
+              "sha256": "13c4e206b5aa3d248048d6f3c96dd3d9445fb7dac0fac942b026b2fe15fe86f2",
+              "url_pdf": "https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03123/TR-03123-3-XhD-1_v183.pdf?__blob=publicationFile",
+              "retrieved_at": "2026-11-06T22:21:43.889623",
+              "latest": true
+            }
+          ]
+        },
+        {
           "filename": "TR-03123-1-XhD-1_v161.pdf",
           "identifier": "BSI TR-03123-1",
           "title": "Technische Richtlinie TR-03123 XML-Datenaustauschformat für hoheitliche Dokumente (TR XhD) - Teil 1 - Rahmenwerk",
